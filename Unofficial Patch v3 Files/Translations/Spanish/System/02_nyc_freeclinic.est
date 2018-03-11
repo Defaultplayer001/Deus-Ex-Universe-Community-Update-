@@ -1,0 +1,45 @@
+[DeusExLevelInfo0]
+MissionLocation="NYC - Clínica Gratuita"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Doctor,KeyID=Cabinet,Description="Llave-Armario Médico",SkinColor=SC_Level2)"
+NanoKeyData[1]="(ScriptedPawnTag=Nurse,KeyID=Cabinet,Description="Llave-Armario Médico",SkinColor=SC_Level2)"
+
+[LevelSummary]
+Title="Sin título"
+
+[BumMale1]
+FamiliarName="Persona enferma"
+UnfamiliarName="Hombre con aspecto enfermizo"
+
+[SkillAwardTrigger6]
+awardMessage="Bono por éxito en objetivo"
+
+[BumMale4]
+FamiliarName="Viejo mendigo"
+UnfamiliarName="Viejo mendigo"
+
+[JunkieFemale0]
+FamiliarName="Mujer enferma"
+UnfamiliarName="Mujer de aspecto enfermizo"
+
+[BumFemale1]
+FamiliarName="Mujer enferma"
+UnfamiliarName="Mujer enferma"
+
+[BumFemale0]
+FamiliarName="Mujer sin hogar"
+UnfamiliarName="Mujer sin hogar"
+
+[BumMale3]
+FamiliarName="Viejo vagabundo"
+UnfamiliarName="Viejo vagabundo"
+
+[BumMale2]
+FamiliarName="Hombre sin hogar"
+UnfamiliarName="Hombre sin hogar"
+
+[Female1]
+FamiliarName="Recepcionista"
+UnfamiliarName="Recepcionista"
+

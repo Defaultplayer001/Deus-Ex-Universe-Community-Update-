@@ -1,0 +1,35 @@
+[SkillAwardTrigger9]
+awardMessage="Премия за продвижение"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Комната отдыха",CameraTag=RecCamera,doorTag=SecretDoor)"
+Views[1]="(titleString="Вестибюль верт.базы",CameraTag=Lobbycam)"
+Views[2]="(titleString="Проход к лифту",CameraTag=ElevatorTunnel,Turrettag=ElevatorTurret)"
+
+[SkillAwardTrigger8]
+awardMessage="Премия за выполнение задания"
+
+[SecurityCamera12]
+FamiliarName="Rec Room Camera"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Вертолетная база"
+startupMessage[0]="Нью-Йорк, "
+startupMessage[1]="Местоположение неизвестно"
+
+[SecurityCamera1]
+FamiliarName="SecurityCamera4"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за исследование"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за исследование"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=BathroomTerrorist,KeyID=HeliSecurityRoom,Description="Ключ к комнате охраны аэродрома")"
+NanoKeyData[1]="(ScriptedPawnTag=sewerguard,KeyID=Sewerdoor,Description="Ключ к двери канализации")"
+

@@ -1,0 +1,51 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=NicoletteDuClare,KeyID=Crypt_door,Description="Chiave della cripta")"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Contenimento nanotecnologico",cameraTag=DuClareSecurityCamera,doorTag=field002)"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Trasmissione segnale d'incontro MEverett",TriggerText="Segnale su canale sicuro inviato a MEverett ",TriggerEvent=everettsignal,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Chateau DuClare"
+startupMessage[0]="Chateau DuClare"
+startupMessage[1]="Dintorni di Parigi"
+
+[NanoKey0]
+Description="Chiave interrato DuClare"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di progresso"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus individuazione critica"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus individuazione critica"
+
+[NanoKey1]
+Description="Chiave camera da letto di Beth"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di progresso"
+
+[SkillAwardTrigger4]
+awardMessage="Bonus di individuazione"
+
+[NicoletteDuClare0]
+FamiliarName="Nicolette"
+UnfamiliarName="Nicolette"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[NanoKey4]
+Description="Chiave camera da letto di Nicolette"
+
+[NanoKey3]
+Description="Chiave camera da letto di Beth"
+
+[NanoKey2]
+Description="Chiave camera da letto di Nicolette"
+

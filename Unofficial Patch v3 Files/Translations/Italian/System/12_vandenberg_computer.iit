@@ -1,0 +1,32 @@
+[ComputerPersonal1]
+specialOptions[0]="(Text="Collegamento Milnet",TriggerText="Milnet connesso",TriggerEvent=Daedalus_linked,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Computer"
+
+[FlagTrigger0]
+Message="funziona, accidenti!"
+
+[SkillAwardTrigger15]
+awardMessage="Bonus di progresso"
+
+[NanoKey0]
+Description="Sala computer terzo piano"
+
+[GarySavage0]
+UnfamiliarName="Scienziato"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[ScientistFemale1]
+FamiliarName="Latasha Taylor"
+UnfamiliarName="Ricercatrice"
+
+[Trigger1]
+Message="prova"
+
+[ScientistMale1]
+FamiliarName="Ben Roper"
+UnfamiliarName="Ricercatore"
+

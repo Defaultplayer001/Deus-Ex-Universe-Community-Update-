@@ -1,0 +1,99 @@
+[DeusExLevelInfo0]
+MissionLocation="Paris - Club nocturno La Porte de l'Enfer"
+startupMessage[0]="La Porte de l'Enfer"
+startupMessage[1]="Club nocturno Parisino"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Louis,KeyID=club_maindoors,Description="Llave á la puerta club nocturno")"
+
+[NanoKey1]
+Description="Llave de la puerta del club"
+
+[NanoKey0]
+Description="Llave de la puerta principal del club"
+
+[NicoletteDuClare0]
+FamiliarName="Mujer joven"
+UnfamiliarName="Mujer joven"
+
+[Businessman0]
+FamiliarName="Kiergard Tarot"
+UnfamiliarName="Propietario del club"
+
+[Bartender0]
+FamiliarName="Jean"
+UnfamiliarName="Jean"
+
+[ThugMale0]
+FamiliarName="Guardia de seguridad del club"
+UnfamiliarName="Guardia de seguridad del club"
+
+[SkillAwardTrigger3]
+awardMessage="Bono por avance"
+
+[MargaretWilliams0]
+FamiliarName="Charlotte"
+UnfamiliarName="Charlotte"
+
+[Hooker0]
+FamiliarName="Karenna"
+UnfamiliarName="Karenna"
+
+[Female0]
+FamiliarName="Annette"
+UnfamiliarName="Annette"
+
+[Nurse0]
+FamiliarName="Camille"
+UnfamiliarName="Enfermera bailarina"
+
+[Hooker2]
+FamiliarName="Michelle"
+UnfamiliarName="Michelle"
+
+[Businesswoman2]
+FamiliarName="Kara"
+UnfamiliarName="Mujer"
+
+[Female1]
+FamiliarName="Sami"
+UnfamiliarName="Mujer"
+
+[Businessman3]
+FamiliarName="Jocques"
+UnfamiliarName="Jocques"
+
+[JoJoFine1]
+FamiliarName="Louis"
+UnfamiliarName="Portero"
+
+[ThugMale1]
+FamiliarName="Guardia de seguridad del club"
+UnfamiliarName="Guardia de seguridad del club"
+
+[MichaelHamner0]
+FamiliarName="Antoine"
+UnfamiliarName="Hombre de negocios"
+
+[Businessman5]
+FamiliarName="Arthur"
+UnfamiliarName="Arthur"
+
+[Female3]
+FamiliarName="Katarina"
+UnfamiliarName="Katarina"
+
+[ThugMale4]
+FamiliarName="Guardia de seguridad del club"
+UnfamiliarName="Guardia de seguridad del club"
+
+[LowerClassFemale0]
+FamiliarName="Cassandra"
+UnfamiliarName="Cassandra"
+
+[SkillAwardTrigger0]
+awardMessage="Bono por exploración"
+
+[LevelSummary]
+Title="Sin título"
+

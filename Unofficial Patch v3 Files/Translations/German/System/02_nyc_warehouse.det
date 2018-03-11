@@ -1,0 +1,78 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=DoorGuard,KeyID=WarehouseFrontDoor,Description="Lagerhaus, Vordereingang")"
+NanoKeyData[1]="(ScriptedPawnTag=JoJoFine,KeyID=Mirror,Description="Key to secret mirror door")"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Lagerhaus Grube",cameraTag=WareCamera1,turretTag=WareTurret1)"
+Views[1]="(titleString="Lagerhaus Eingang",cameraTag=WareCamera2,turretTag=WareTurret2)"
+Views[2]="(titleString="Lagerhaus Keller",cameraTag=BaseCam1,turretTag=SubTurret,doorTag=DrainEntry)"
+
+[GoalCompleteTrigger0]
+Message="Generator zerstört. Mission erfolgreich."
+
+[ComputerSecurity0]
+Views[0]="(titleString="Kanal Eingang",cameraTag=BaseCam1,turretTag=SubTurret)"
+Views[1]="(titleString="Korridor 2. Kellergeschoss",cameraTag=BaseCam2)"
+Views[2]="(titleString="Korridor Keller",cameraTag=BaseCam3)"
+
+[SkillAwardTrigger4]
+awardMessage="Entdeckungsbonus"
+
+[SkillAwardTrigger14]
+awardMessage="Entdeckungsbonus"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[SkillAwardTrigger20]
+awardMessage="Forschungsbonus"
+
+[SkillAwardTrigger23]
+awardMessage="Durchführungsbonus"
+
+[SkillAwardTrigger22]
+awardMessage="Durchführungsbonus"
+
+[ComputerPersonal5]
+specialOptions[0]="(Text="Kühlsystem des Generators abschalten",TriggerText="Kühlung abgeschaltet. Explosion steht bevor.",TriggerEvent=BlowEvents,bTriggerOnceOnly=True)"
+
+[InterpolateTrigger0]
+Message="Helikopter gestartet"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Lagerhaus Distrikt"
+
+[SkillAwardTrigger17]
+awardMessage="Durchführungsbonus"
+
+[SpecialEvent0]
+Message="Kühlung abgeschaltet. Explosion des Generators steht bevor...!"
+
+[SkillAwardTrigger13]
+awardMessage="Entdeckungsbonus"
+
+[SkillAwardTrigger21]
+awardMessage="Entdeckungsbonus"
+
+[SkillAwardTrigger19]
+awardMessage="Fortschrittsbonus"
+
+[SkillAwardTrigger18]
+awardMessage="Durchführungsbonus"
+
+[SkillAwardTrigger10]
+awardMessage="Entdeckungsbonus"
+
+[BlackHelicopter1]
+FamiliarName="Helikopter"
+UnfamiliarName="Schwarzer Helikopter"
+
+[SkillAwardTrigger15]
+awardMessage="Durchführungsbonus"
+
+[NanoKey0]
+Description="Schlüssel für Lagerhaus Erdgeschoss"
+
+[SkillAwardTrigger16]
+awardMessage="Entdeckungsbonus"
+

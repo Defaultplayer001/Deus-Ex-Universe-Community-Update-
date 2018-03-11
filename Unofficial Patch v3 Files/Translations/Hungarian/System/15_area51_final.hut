@@ -1,0 +1,45 @@
+[SkillAwardTrigger15]
+awardMessage="Felfedezési bónusz"
+
+[DeusExLevelInfo0]
+MissionLocation="51-es körzet - Végjáték"
+
+[NanoKey0]
+Description="Lépcsõház kulcsa"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(CameraTag=gen_camera,doorTag=door_generator)"
+Views[1]="(CameraTag=radiation_camera)"
+specialOptions[0]="(Text="Augmentációvédõ mezõ",TriggerEvent=Aug_door,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger1]
+awardMessage="Felfedezési bónusz"
+
+[SkillAwardTrigger0]
+awardMessage="Felfedezési bónusz"
+
+[SkillAwardTrigger13]
+awardMessage="Kritikus hely-megtalálási bónusz"
+
+[SkillAwardTrigger12]
+awardMessage="Kritikus hely-megtalálási bónusz"
+
+[SkillAwardTrigger11]
+awardMessage="Kritikus hely-megtalálási bónusz"
+
+[SkillAwardTrigger14]
+awardMessage="Felfedezési bónusz"
+
+[Mechanic2]
+FamiliarName="Jerri"
+
+[mib1]
+UnfamiliarName="MIB"
+
+[Switch14]
+FamiliarName="Helios"
+UnfamiliarName="Helios"
+

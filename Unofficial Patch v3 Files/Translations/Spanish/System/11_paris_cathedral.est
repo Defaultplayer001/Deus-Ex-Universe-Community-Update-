@@ -1,0 +1,57 @@
+[DeusExLevelInfo0]
+MissionLocation="Paris - Catedral Caballeros Templarios"
+startupMessage[0]="Paris"
+startupMessage[1]="Cerca del complejo objetivo:"
+startupMessage[2]="Catedral Caballeros Templarios"
+
+[ComputerSecurity3]
+specialOptions[0]="(Text="Desactivar bot patrulla militar",TriggerText="Bot atrulla militar desactivado",TriggerEvent=CathMilitaryBotTrigger)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Almacenamiento 001",cameraTag=au_cam001,turretTag=au_turret001)"
+Views[1]="(titleString="Almacenamiento 002",cameraTag=au_cam002,turretTag=au_turret002)"
+Views[2]="(titleString="Almacenamiento 003",cameraTag=au_cam003,turretTag=au_turret003)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Sistema de seguridad- bienes deportivos",cameraTag=SportingGoodsCam,turretTag=SportingGoodsSecurity)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Archivo tecnología ",cameraTag=godcompcam001)"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Establecer uplink del sistema",TriggerText="Cierre de datos retirado: transferencia uplink del sistema establecido",TriggerEvent=templar_upload,bTriggerOnceOnly=True)"
+
+[SpecialEvent1]
+Message="No hay mensajes nuevos"
+
+[NanoKey5]
+Description="Llave de la puerta principal de la catedral"
+
+[Chef0]
+FamiliarName="Swelter"
+
+[SkillAwardTrigger5]
+awardMessage="Bono de exploración"
+
+[SkillAwardTrigger3]
+awardMessage="Bono por localización trascendental"
+
+[SkillAwardTrigger4]
+awardMessage="Bono por localización de zona"
+
+[NanoKey4]
+Description="Llave de la puerta de la catedral"
+
+[NanoKey3]
+Description="Llave de puerta de catedral"
+
+[NanoKey2]
+PickupMessage="Llave del guardia de la puerta"
+Description="Llave del guardia de la puerta"
+
+[SkillAwardTrigger0]
+awardMessage="Bono por localización de zona"
+
+[LevelSummary]
+Title="Sin título"
+

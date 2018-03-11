@@ -1,0 +1,79 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MIB,KeyID=Cabinet,Description="Chiave dell'armadietto del MIB")"
+
+[SkillAwardTrigger5]
+awardMessage="Bonus di progresso"
+
+[SecurityCamera4]
+FamiliarName="Laboratorio di nanotecnologie"
+
+[Terrorist1]
+FamiliarName="Miguel"
+
+[AutoTurretSmall1]
+FamiliarName="Torretta Dention"
+
+[SecurityCamera5]
+FamiliarName="Armeria"
+
+[AutoTurret5]
+FamiliarName="Cella di osservazione"
+
+[SkillAwardTrigger4]
+awardMessage="Bonus obiettivo raggiunto"
+
+[AutoTurretSmall0]
+FamiliarName="Torretta Dention"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di esplorazione"
+
+[PaulDentonCarcass0]
+FamiliarName="Paul"
+UnfamiliarName="Paul"
+
+[SecurityCamera2]
+FamiliarName="Detenzione"
+
+[SecurityCamera0]
+FamiliarName="Laboratorio medico"
+
+[SecurityCamera3]
+FamiliarName="Ingresso"
+
+[ScientistMale0]
+FamiliarName="Dott. Moreau"
+UnfamiliarName="Dottore"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus obiettivo raggiunto"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Chirurgia",cameraTag=medcam)"
+Views[1]="(titleString="Nanotecnologia",cameraTag=Nanocam)"
+Views[2]="(titleString="Blocco celle A",cameraTag=cellcam,turretTag=cellturret)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Cella di contenimento",cameraTag=beastcam,turretTag=beastTurret,doorTag=Beastdoor)"
+
+[ComputerPersonal4]
+specialOptions[0]="(Text="Liberazione Greasel",TriggerText="Serratura aperta",TriggerEvent=nanocage)"
+specialOptions[1]="(Text="Apertura campo contenimento",TriggerText="Campo contenimento aperto",TriggerEvent=field002)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Torretta armeria",cameraTag=armorycam1,turretTag=Turret1)"
+specialOptions[0]="(Text="Disattiva BotArmeria 1",TriggerText="ArmoryBot 1 Deactivated",TriggerEvent=ArmoryBot1Off,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Disattiva BotArmeria 2",TriggerText="ArmoryBot 2 Deactivated",TriggerEvent=ArmoryBot2Off,bTriggerOnceOnly=True)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Armeria",cameraTag=armorycam)"
+specialOptions[0]="(Text="Modifica IA bot",TriggerText="Bot AI Modified",TriggerEvent=botorders2)"
+
+[DeusExLevelInfo0]
+MissionLocation="Base segreta MJ12"
+startupMessage[0]="Posizione: ignota"
+startupMessage[1]="Ora: ignota"
+

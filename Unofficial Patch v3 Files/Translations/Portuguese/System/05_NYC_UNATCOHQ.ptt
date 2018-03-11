@@ -1,0 +1,96 @@
+[LevelSummary]
+Title="Sem título"
+
+[SkillAwardTrigger1]
+awardMessage="Bônus: progresso"
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - QG. UNATCO"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="Janice Reed"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=AlexJacobson,KeyID=levelone,Description="Entrada Nível Um")"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Decodificar frase des. agente A.Navarre",TriggerText="Frase de autodestruição, parte 1 de 2, descodificada : 'Flatlander'",TriggerEvent=know1,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Decodificar frase des. agente G.Herman",TriggerText="Frase de autodestruição não disponível - - Aguardando instalação",userName="demiurge")"
+
+[ComputerPersonal3]
+specialOptions[0]="(Text="Decodificar frase des. agente A.Navarre",TriggerText="Frase de autodestruição, parte 2 de 2, descodificada : 'Woman'",TriggerEvent=know2,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Decodificar frase des. agente G.Herman",TriggerText="Frase de autodestruição não disponível - - Aguardando instalação")"
+specialOptions[2]="(userName="demiurge")"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="Shannon"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[SpecialEvent0]
+Message="Padrão de retina incorreto: Acesso negado ao agente Denton"
+
+[RetinalScanner0]
+msgUsed="Erro em padrão retinal:  Falha de proteção geral 0012E9023"
+
+[SpecialEvent1]
+Message="Não há novas mensagens"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: progresso"
+
+[JosephManderley0]
+UnfamiliarName="Chefe da UNATCO"
+
+[UNATCOTroop9]
+FamiliarName="Soldado da UNATCO"
+UnfamiliarName="Soldado da UNATCO"
+
+[UNATCOTroop8]
+FamiliarName="Soldado da UNATCO"
+UnfamiliarName="Soldado da UNATCO"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[UNATCOTroop2]
+FamiliarName="Soldado da UNATCO"
+UnfamiliarName="Soldado da UNATCO"
+
+[UNATCOTroop6]
+FamiliarName="Scott"
+UnfamiliarName="Soldado da UNATCO"
+
+[UNATCOTroop3]
+FamiliarName="Soldado da UNATCO"
+UnfamiliarName="Soldado da UNATCO"
+
+[UNATCOTroop0]
+FamiliarName="Soldado da UNATCO"
+UnfamiliarName="Soldado da UNATCO"
+
+[Terrorist0]
+FamiliarName="Miguel"
+
+[UNATCOTroop4]
+FamiliarName="Scott"
+UnfamiliarName="Soldado da UNATCO"
+

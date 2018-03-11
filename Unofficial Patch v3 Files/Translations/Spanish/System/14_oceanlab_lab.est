@@ -1,0 +1,62 @@
+[DeusExLevelInfo0]
+MissionLocation="Nueva Costa Oeste - Laboratorio Oceánico CU"
+startupMessage[0]="Laboratorio Oceánico MJ12"
+startupMessage[1]="Fondo oceánico"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Plataforma URV",cameraTag=subcam,doorTag=subdoor)"
+Views[1]="(titleString="Módulo de tripulantes",cameraTag=liftcam,turretTag=crewturret)"
+Views[2]="(titleString="Laboratorio de Greasel",cameraTag=Greaselcam)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Laboratorio de Carcharodon",cameraTag=sharkcam)"
+Views[1]="(titleString="Laboratorio de Greasel",cameraTag=Greaselcam)"
+Views[2]="(titleString="Centro de mando",cameraTag=commandcam,turretTag=comturret)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MJ12glab,KeyID=Glab,Description="Llave - Laboratorio de Greasel")"
+NanoKeyData[1]="(ScriptedPawnTag=MJ12access,KeyID=Access,Description="Llave - acceso a pasillo")"
+NanoKeyData[2]="(ScriptedPawnTag=MJ12storage,KeyID=storage,Description="Llave - sala de almacenamiento")"
+
+[NanoKey2]
+Description="Acceso al módulo de tripulación"
+
+[SecurityCamera0]
+FamiliarName="Compartimento submarino"
+
+[NanoKey0]
+Description="Llave del laboratorio de votrios"
+
+[SkillAwardTrigger2]
+awardMessage="Bono de exploración"
+
+[SecurityCamera2]
+FamiliarName="Centro de mando"
+
+[SecurityCamera4]
+FamiliarName="Módulo de tripulación"
+
+[SecurityCamera1]
+FamiliarName="Tanque de tiburones"
+
+[AutoTurret1]
+FamiliarName="Torretas de mando"
+
+[SkillAwardTrigger0]
+awardMessage="Bono por avance"
+
+[NanoKey1]
+Description="Llave de acceso al almacén"
+
+[DeusExMover10]
+FamiliarName="Llave del compartimento submarino"
+
+[SkillAwardTrigger1]
+awardMessage="Bono por avance"
+
+[LevelSummary]
+Title="Sin título"
+
+[SecurityCamera3]
+FamiliarName="Laboratorio de votrios"
+

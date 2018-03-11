@@ -1,0 +1,53 @@
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Base de Tong"
+startupMessage[0]="Laboratorio de Tracer Tong"
+
+[TriadLumPath1]
+FamiliarName="Guardia de Tong"
+UnfamiliarName="Guardia de Tong"
+
+[TriadRedArrow0]
+FamiliarName="Guardia de Tong"
+UnfamiliarName="Guardia de Tong"
+
+[NanoKey0]
+PickupMessage="Has encontrado la llave del piso de Jock."
+Description="Piso de Jock en la calle Tonnochi"
+
+[TriadLumPath0]
+FamiliarName="Guardia de Tong"
+UnfamiliarName="Guardia de Tong"
+
+[TriadRedArrow1]
+FamiliarName="Guardia de Tong"
+UnfamiliarName="Guardia de Tong"
+
+[TriadLumPath2]
+FamiliarName="Guardia de Tong"
+UnfamiliarName="Guardia de Tong"
+
+[TriadRedArrow3]
+FamiliarName="Guardia de Tong"
+UnfamiliarName="Guardia de Tong"
+
+[TriadRedArrow4]
+FamiliarName="Guardia de Tong"
+UnfamiliarName="Guardia de Tong"
+
+[TriadLumPath3]
+FamiliarName="Guardia de Tong"
+UnfamiliarName="Guardia de Tong"
+
+[TriadLumPath4]
+FamiliarName="Guardia de Tong"
+UnfamiliarName="Guardia de Tong"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[SkillAwardTrigger0]
+awardMessage="Bono por adquisición de sujeto"
+
+[LevelSummary]
+Title="Sin título"
+

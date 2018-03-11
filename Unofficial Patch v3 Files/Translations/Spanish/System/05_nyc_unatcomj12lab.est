@@ -1,0 +1,79 @@
+[DeusExLevelInfo0]
+MissionLocation="Instalación secreta de MJ12"
+startupMessage[0]="Lugar: Desconocido"
+startupMessage[1]="Tiempo: Desconocido"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MIB,KeyID=Cabinet,Description="Llave al armario del agente MIB")"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Torreta armería",cameraTag=armorycam1,turretTag=Turret1)"
+specialOptions[0]="(Text="Desactivar Bot1-armería",TriggerText="Bot1-armería Deaactivado",TriggerEvent=ArmoryBot1Off,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Desactivar Bot2-armería",TriggerText="Bot2-armería Deaactivado",TriggerEvent=ArmoryBot2Off,bTriggerOnceOnly=True)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Armería",cameraTag=armorycam)"
+specialOptions[0]="(Text="Alteración IA del Bot",TriggerText="IA del Bot Alterado",TriggerEvent=botorders2)"
+
+[ComputerPersonal4]
+specialOptions[0]="(Text="Control de jaula del Greasel",TriggerText="Jaulas abiertas",TriggerEvent=nanocage)"
+specialOptions[1]="(Text="Abrir campo de contención",TriggerText="Campo de contención abierto",TriggerEvent=field002)"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Quirófano",cameraTag=medcam)"
+Views[1]="(titleString="Lab. NanoTech",cameraTag=Nanocam)"
+Views[2]="(titleString="Celda bloque A",cameraTag=cellcam,turretTag=cellturret)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Celda de contención",cameraTag=beastcam,turretTag=beastTurret,doorTag=Beastdoor)"
+
+[SkillAwardTrigger5]
+awardMessage="Bono por avances"
+
+[SecurityCamera4]
+FamiliarName="Laboratorio de nanotecnología"
+
+[Terrorist1]
+FamiliarName="Miguel"
+
+[AutoTurretSmall1]
+FamiliarName="Torreta Dention"
+
+[SecurityCamera5]
+FamiliarName="Armería"
+
+[AutoTurret5]
+FamiliarName="Celda de observación"
+
+[SkillAwardTrigger4]
+awardMessage="Bono por éxito en objetivo"
+
+[AutoTurretSmall0]
+FamiliarName="Torreta Dention"
+
+[SkillAwardTrigger3]
+awardMessage="Bono de exploración"
+
+[PaulDentonCarcass0]
+FamiliarName="Paul"
+UnfamiliarName="Paul"
+
+[SecurityCamera2]
+FamiliarName="Detención"
+
+[SecurityCamera0]
+FamiliarName="Laboratorio médico"
+
+[SecurityCamera3]
+FamiliarName="Entrada"
+
+[ScientistMale0]
+FamiliarName="Doctor Moreau"
+UnfamiliarName="Doctor"
+
+[SkillAwardTrigger1]
+awardMessage="Bono por éxito en objetivo"
+
+[LevelSummary]
+Title="Sin título"
+

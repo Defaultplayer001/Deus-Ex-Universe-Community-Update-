@@ -1,0 +1,67 @@
+[Setup]
+LocalProduct=Deus Ex
+DefaultFolder=C:\DeusEx
+ReadMe=Help\ReadMe.htm
+SetupWindowTitle=Deus-Ex-Setup
+AutoplayWindowTitle=Deus-Ex-Optionen
+ProductURL=http://www.deusex.com/
+VersionURL=http://www.deusex.com/versions.htm
+Developer=ION Storm Austin
+DeveloperURL=http://www.ionstorm.com/
+PublisherURL=http://www.eidos.com/
+Logo=Help\LogoSmall.bmp
+License=License.det
+
+[General]
+PlayLevelCommand=Dieses Level von Deus Ex &spielen
+OpenLinkCommand=Diesen Deus-Ex-Link &öffnen
+EditLevelCommand=Dieses Level von Deus Ex b&earbeiten
+
+[GameGroup]
+Caption=Deus-Ex-System
+Description=Deus-Ex-Systemdateien. Installation erforderlich.
+
+[DeusExContentGroup]
+Caption=Deus-Ex-Spielinhalte
+Description=Deus-Ex-Spielinhalte (Texturen, Soundeffekte und Musik) - Installieren Sie diese Komponenten, um die Leistung des Spiels zu verbessern. Andernfalls werden diese Komponenten von CD geladen. Die Installation ist optional.
+
+[DeusExMapsGroup]
+Caption=Deus-Ex-Karten
+Description=Deus-Ex-Karten - Installieren Sie diese Dateien, um die Leistung des Spiels zu verbessern. Andernfalls werden die Karten während des Spiels von CD geladen. Die Installation ist optional.
+
+[DeusExSpeechGroup]
+Caption=Deus-Ex-Sprachdateien
+Description=Deus-Ex-Sprachdateien - Installieren Sie die Sprachdateien, um die Leistung des Spiels zu verbessern. Andernfalls werden die Sprachdateien während des Spiels von CD geladen. Die Installation ist optional.
+
+[EditorGroup]
+Caption=Deus-Ex-Editor
+Description=Deus-Ex-Editor - Mit dem Editor erschaffen Sie Ihre eigenen 3D-Welten für Deus Ex. Nur für erfahrene Anwender. Die Installation ist optional.
+
+[DirectXGroup]
+Caption=DirectX
+Description=Microsoft DirectX 7.0a Treiber für erweiterte Grafik, Sound und Joystick-Unterstützung. Wenn Sie DirectX 7.0a nicht installiert haben, müssen Sie diese Option wählen.
+
+[PlayShortcut]
+Caption=Deus Ex spielen
+
+[SafeModeShortcut]
+Caption=Deus Ex Abgesicherter Modus
+
+[EditorShortcut]
+Caption=Deus-Ex-Editor
+
+[DocumentationShortcut]
+Caption=Hinweise
+
+[ProductWebShortcut]
+Caption=Deus-Ex-Webseite
+
+[DeveloperWebShortcut]
+Caption=Ion-Storm-Webseite
+
+[PublisherWebShortcut]
+Caption=Eidos-Interactive-Webseite
+
+[UninstallShortcut]
+Caption=Deus Ex deinstallieren
+

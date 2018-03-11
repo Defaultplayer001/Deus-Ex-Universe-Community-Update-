@@ -1,0 +1,161 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Speciális",Parent="Advanced Options")
+Preferences=(Caption="Játékmotor-beállítások",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Billentyûparancsok",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Alapvetõ billentyûzetkiosztás",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Meghajtók",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Nyilvános kiszolgáló információja",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Játékbeállítások",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+
+[Errors]
+NetOpen=Hiba az állomány megnyitásakor
+NetWrite=Hiba az állomány írásakor
+NetRefused=A kiszolgáló visszautasította a '%s' elküldését
+NetClose=Nem lehetett bezárni az állományt
+NetSize=Az állomány mérete nem egyezik
+NetMove=Hiba az állomány áthelyezésekor
+NetInvalid=Érvénytelen állománykérelem
+NoDownload=A(z) '%s' csomag nem letölthetõ
+DownloadFailed=Nem lehetett letölteni a(z) '%s' csomagot: %s
+RequestDenied=A kiszolgáló egy már használatban lévõ pálya állományát kérte: megtagadva
+ConnectionFailed=Kapcsolódási hiba történt
+ChAllocate=Csatornakiosztás sikertelen
+NetAlready=A hozzáférés folyamatban van
+NetListen=Észlelés sikertelen: Nincs megadva kapcsolódási eljárás
+LoadEntry=Nem lehetett betölteni: %s
+InvalidUrl=Az URL érvénytelen: %s
+InvalidLink=A cím érvénytelen: %s
+FailedBrowse=Nem lehetett kapcsolódni %s: %s
+Listen=Észlelés sikertelen: %s
+AbortToEntry=Sikertelen; visszatérés a listához
+ServerOpen=A kiszolgáló nem képes URL-eket megnyitni
+ServerListen=A dedikált kiszolgáló nem észlel kapcsolatokat: %s
+Pending=A kapcsolódás '%s' címhez nem sikerült; %s
+LoadPlayerClass=Nem lehetett a játékososztályt betölteni
+ServerOutdated=A kiszolgáló verziója elavult
+
+[Progress]
+CancelledConnect=Kapcsolódási kérelem visszavonva
+RunningNet=%s: %s (%i játékos)
+NetReceiving='%s' fogadása: %i/%i
+NetReceiveOk='%s' sikeresen megérkezett
+NetSend='%s' küldése
+NetSending='%s' küldése: %i/%i
+Connecting=Kapcsolódás...
+Listening=Csatlakozó felek észlelése...
+Loading=Betöltés
+Saving=Mentés
+Paused=%s szünetelteti a játékot
+ReceiveFile='%s' fogadása folyamatban... (Megszakítás F10-zel)
+ReceiveSize=%iKByte-ból, %3.1f%% rendben
+ConnectingText=Csatlakozás (Megszakítás F10-zel):
+ConnectingURL=deusex://%s/%s
+
+[Console]
+ClassCaption=Szabvány Deus Ex parancsértelmezõ
+LoadingMessage=BETÖLTÉS
+SavingMessage=MENTÉS
+ConnectingMessage=KAPCSOLÓDÁS
+PausedMessage=SZÜNETELTETVE
+PrecachingMessage=ELÕKÉSZÍTÉS
+ChatChannel=(CHAT) 
+TeamChannel=(CSAPAT) 
+
+[General]
+Upgrade=Kapcsolódáshoz töltse le a Deus Ex-hez kiadott legújabb frissítést!
+UpgradeURL=http://www.deusex.com/upgrade
+UpgradeQuestion=Meg legyen nyitva a frissítésre mutató oldal a böngészõben?
+Version=Verziószám: %i
+
+[Menu]
+HelpMessage=
+MenuList=
+LeftString=Balra
+RightString=Jobbra
+CenterString=Középen
+EnabledString=Engedélyezve
+DisabledString=Letiltva
+HelpMessage[1]="Ezt a menüt még nem mellékelték."
+YesString=igen
+NoString=nem
+
+[Inventory]
+PickupMessage=Bezsebeltél egy tárgyat
+M_Activated=" felhasználva"
+M_Selected=" kiválasztva"
+M_Deactivated=" kikapcsolva"
+ItemArticle=a
+
+[WarpZoneInfo]
+OtherSideURL=
+
+[GameInfo]
+SwitchLevelMessage=Pályaváltás folyamatban
+DefaultPlayerName=Játékos
+LeftMessage=" kilépett a játszmából."
+FailedSpawnMessage=Nem sikerült létrehozni a játékost
+FailedPlaceMessage=Játékos-kezdõpont a pályán nem található. A pályára szükséges egy 'PlayerStart' szereplõ is.
+NameChangedMessage=Névváltás történt: 
+EnteredMessage=" belépett a játszmába."
+GameName="Game"
+MaxedOutMessage=A kiszolgáló csúcsterhelésen van.
+WrongPassword=A megadott jelszó nem elfogadható.
+NeedPassword=A csatlakozáshoz jelszó szükséges.
+FailedTeamMessage=Nem rendelhetõ csapat a játékoshoz
+
+[LevelInfo]
+Title=Névtelen
+
+[Weapon]
+MessageNoAmmo=" fegyvernek nincs tölténye."
+PickupMessage=Fegyvered lett
+DeathMessage=%w meghalt, %o ölte meg ezzel a fegyverrel: %k
+ItemName=Fegyver
+DeathMessage[0]=%w meghalt, %o ölte meg ezzel a fegyverrel: %k
+DeathMessage[1]=%w meghalt, %o ölte meg ezzel a fegyverrel: %k
+DeathMessage[2]=%w meghalt, %o ölte meg ezzel a fegyverrel: %k
+DeathMessage[3]=%w meghalt, %o ölte meg ezzel a fegyverrel: %k
+
+[Counter]
+CountMessage=Még %i maradt...
+CompleteMessage=Rendben van!
+
+[Ammo]
+PickupMessage=Muníciót vettél fel.
+
+[Pickup]
+ExpireMessage=
+
+[SpecialEvent]
+DamageString=
+
+[DamageType]
+Name=megölve
+AltName=megölve
+
+[PlayerPawn]
+QuickSaveString=Gyorsmentés
+NoPauseMessage=A játék nem szüneteltethetõ
+ViewingFrom=Kameraállás: 
+OwnCamera=saját nézet
+FailedView=Nem lehetett kameraállást váltani.
+CantChangeNameMsg=Nem válthatsz nevet, ha már globálisan bejelentkezett játékban veszel részt.
+
+[Pawn]
+NameArticle=" a "
+
+[Spectator]
+MenuName=Nézõ
+
+[ServerCommandlet]
+HelpCmd=server
+HelpOneLiner=H l¢zati j t‚k kiszolg l¢ja
+HelpUsage=server map.unr[?game=j t‚kt¡pus] [-be ll¡t s...] [parm=‚rt‚k]...
+HelpWebLink=http://www.deusex.com
+HelpParm[0]=Napl¢
+HelpDesc[0]=Legener land¢ napl¢ llom ny megad sa
+HelpParm[1]=AllAdmin
+HelpDesc[1]=Minden j t‚kosnak adminjog megad sa
+

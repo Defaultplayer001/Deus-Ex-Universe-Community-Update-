@@ -1,0 +1,58 @@
+[BumMale2]
+FamiliarName="*Крот*"
+UnfamiliarName="*Крот*"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Туннели 'кротов'"
+
+[LevelSummary]
+Title="Untitled"
+
+[BumMale1]
+FamiliarName="*Крот*"
+UnfamiliarName="*Крот*"
+
+[ChildMale0]
+FamiliarName="Ребенок *крот*"
+UnfamiliarName="Ребенок *крот*"
+
+[SkillAwardTrigger8]
+awardMessage="Премия за выполнение"
+
+[Terrorist33]
+FamiliarName="Лидер террористов"
+UnfamiliarName="Лидер террористов"
+
+[BumFemale3]
+FamiliarName="*Крот*"
+UnfamiliarName="*Крот*"
+
+[BumFemale4]
+FamiliarName="*Крот*"
+UnfamiliarName="*Крот*"
+
+[BumMale0]
+FamiliarName="Кевин Брэдли"
+UnfamiliarName="*Крот*"
+
+[ChildMale1]
+FamiliarName="Ребенок *крот*"
+UnfamiliarName="Ребенок *крот*"
+
+[ChildMale2]
+FamiliarName="Ребенок *крот*"
+UnfamiliarName="Ребенок *крот*"
+
+[SkillAwardTrigger6]
+awardMessage="Премия за продвижение"
+
+[NanoKey0]
+Description="Ключ к уборной *кротов*"
+
+[JunkieMale0]
+FamiliarName="*Крот*"
+UnfamiliarName="*Крот*"
+
+[SkillAwardTrigger7]
+awardMessage="Премия за исследование"
+

@@ -1,0 +1,73 @@
+[General]
+Run=Futtatás!
+FirstTime=A Deus Ex elsõ beállítása
+SafeMode=Deus Ex (csökkentett mód)
+Video=Deus Ex képbeállítás
+RecoveryMode=Deus Ex (biztonsági mód)
+WebPage=http://www.deusex.com/
+Direct3DWebPage=http://www.deusex.com/Direct3D.htm
+Detecting=3D videoeszközök felderítése, kérem, várjon...
+SoundLow=Alacsony hangminõség
+SoundHigh=Jó hangminõség
+SkinsLow=Közepes minõségû szereplõtextúrák
+SkinsHigh=Jó minõségû szereplõtextúrák
+WorldLow=Közepes minõségû objektumtextúrák
+WorldHigh="Jó minõségû objektumtextúrák"
+ResLow=Alacsony képfelbontás
+ResHigh=Átlagos képfelbontás
+
+[Descriptions]
+SoftDrv.SoftwareRenderDevice=Ez a Deus Ex beépített software-es képmegjelenítõ eljárása, mely minden videokártyával kompatibilis.  Használata csakis saját felelõsségre ajánlott.
+GlideDrv.GlideRenderDevice=Ezzel lehet a 3dfx Glide-támogatást bekapcsolni. A 3dfx-kártya tulajdonosainak ez a beállítás ajánlott.  Használatához 3dfx-kártya szükséges.
+D3DDrv.D3DRenderDevice=Ezzel a Direct3D hardware-es képmegjelenítõ eljárása kapcsolható be. Minden újabb - azaz Riva TNT, ATI Rage 128, Matrox G400, és S3 Savage4 -, modern videokártyával kompatibilis.  A régebbi - azaz ATI Rage Pro, Riva 128, Intel i740, vagy Rendition V2200 - típusú videokártyákhoz a software-es képmegjelenítést ajánljuk.
+OpenGLDrv.OpenGLRenderDevice=Ez a kísérleti OpenGL-támogatás. A HunMOD telepítésekor kicseréltük a kísérleti képmegjelenítõt egy modernebb megoldásra. Az újabb videokártyák szebb képhatást eredményeznek ezzel a megjelenítõvel. További információ a http://cwdohnal.home.mindspring.com/utglr/ oldalon érhetõ el.
+MetalDrv.MetalRenderDevice=Ezt a beállítást S3 Savage4 videokártya-tulajdonosoknak ajánljuk.
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=
+IDC_DetailPrompt=A számítógép képessége alapján a Deus Ex a következõ beállításokkal fog elindulni. A videokártyát, memóriát és processzor-sebességet figyelembe véve optimális teljesítmény érhetõ el ezzel a beállítással.
+IDC_DetailNote=Ezeket a beállításokat késõbb is meg lehet majd változtatni a játék "Beállítások" menüjében. A felbontást a mellékelt otpUIfix-beállító miatt nem szabad a játékon belül megváltoztatni.
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=
+IDC_Prompt=A Deus Ex elõször indul el.  Ha problémába ütközne, olvassa el a Start menüben található Deus Ex elemen belüli "kiadási megjegyzéseket".
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Ez a számítógép a lent mutatott listában felsorolt megjelenítési eljárásokat támogatja.\nA Deus Ex a legmegfelelõbbet választotta ki. Felülbíráláshoz kattintson egy másik elemre.
+IDC_RenderNote=
+IDC_Compatible=Tanúsítottan mûködõ módok
+IDC_All=Minden megjelenítési mód mutatása
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=
+IDC_SafeModePrompt=Legutóbb a Deus Ex nem megfelelõen lépett ki.\nHa úgy gondolja valami hiba történhetett, az alábbi módok a segítségére lehetnek:
+IDC_SafeModePrompt2=Deus Ex csökkentett mód: Ha a játék futtatásakor problémába ütközne, ezek a beállítások segíthetnek a probléma megoldásában.
+IDC_Run=A Deus Ex normál módú futtatása
+IDC_Video=3D-képmegjelenítõ váltása
+IDC_SafeMode=Deus Ex futtatása csökkentett, hibaelhárító módban
+IDC_Web=Látogassa meg honlapunkat hibaelhárítási tanácsokért!
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=
+IDC_SafeOptions=Válassza ki az esetleges probléma azonosításához a megfelelõ beállításokat:
+IDC_NoSound=Hangok kikapcsolása
+IDC_No3DSound=3D hardware-es hang kikapcsolása
+IDC_No3DVideo=3D hardware-es videomegjelenítés kikapcsolása
+IDC_Window=Ablakban futtatás
+IDC_Res=Szabvány, 640x480-as felbontás használata
+IDC_ResetConfig=Minden beállítás alapértelmezettre állítása
+IDC_NoProcessor=Pentium III/3DNow processzor-utasításkészletek letiltása
+IDC_NoJoy=Botkormány-támogatás kikapcsolása
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=
+IDC_DriverText=A Deus Ex a következõ Direct3D-kompatibilis videokártyát észlelte:
+IDC_DriverInfo=A Direct3D-t válaszottta, mint 3D-megjelenítési módot.\n\nMeglehet, bizonyos videokártya-meghajtókat frissíteni kell a játék helyes mûködéséhez. Javasoljuk, lépjen tovább a megadott weboldalra és telepítse fel a videokártyájához szükséges legfrissebb meghajtókat. A videokártya kompatibilitási képességeirõl a fent említett weboldalon talál további információt.\n\nHa a játék során megjelenítési problémába ütközne, lassú lenne a játék, nem színhû és furcsa alakzatok jelennének meg, úgy kérjük, indítsa el a Deus Ex-et csökkentet módban a Start menü megfelelõ menüjébõl és váltson megjelenítõ-meghajtót.
+IDC_Web=További információért és a legfrissebb meghajtókért látogassa meg honlapunkat:
+IDC_WebButton=Inform˜áció a Direct3D-rõl és a meghajtókról
+IDC_Card=Ismeretlen
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Deus Ex telepítõ
+

@@ -1,0 +1,25 @@
+[NanoKey0]
+Description="Trainingstür"
+FamiliarName="Trainingstür"
+
+[DeusExLevelInfo0]
+MissionLocation="UNATCO Ausbildungs-Parcours"
+startupMessage[0]="UNATCO Ausbildungseinrichtung"
+startupMessage[1]="Continental United States"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[SecurityCamera0]
+FamiliarName="UN_Obs_Rampe"
+
+[SecurityCamera1]
+FamiliarName="UN_Obs_Sprung"
+
+[SecurityCamera3]
+FamiliarName="UN_Obs_Schwimm2"
+
+[SecurityCamera2]
+FamiliarName="UN_Obs_Schwimm"
+
+

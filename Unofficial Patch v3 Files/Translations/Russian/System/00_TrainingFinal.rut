@@ -1,0 +1,15 @@
+[SecurityCamera5]
+FamiliarName="UN_obst_hangar2"
+
+[SecurityCamera4]
+FamiliarName="UN_obst_hangar"
+
+[LevelSummary]
+Title="Untitled"
+
+[SpecialEvent0]
+Message="Тест на скрытность перезапущен"
+
+[DeusExLevelInfo0]
+MissionLocation="Курс обучения UNATCO"
+

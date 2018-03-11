@@ -1,0 +1,38 @@
+[SecurityCamera3]
+FamiliarName="Ракетная шахта"
+
+[NanoKey1]
+Description="Ключ к прицепу грузовика"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за выполнение задания"
+
+[NanoKey8]
+Description="Ключ к парадным воротам"
+
+[SpecialEvent5]
+Message="Запуск ракеты отменен"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Ракетная шахта",CameraTag=rocketcam)"
+Views[1]="(titleString="Ракетные ускорители",CameraTag=rocketcam2)"
+specialOptions[0]="(Text="Приступить к новому запуску",TriggerText="Запуск начат",TriggerEvent=klax,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за продвижение"
+
+[SkillAwardTrigger6]
+awardMessage="Премия за выполнение задания"
+
+[DeusExLevelInfo1]
+MissionLocation="Побережье Нью-Вест - Ракетная шахта"
+
+[SecurityCamera38]
+FamiliarName="Ракетная шахта"
+
+[ScientistMale0]
+FamiliarName="Д-р Бернард"
+
+[LevelSummary]
+Title="Untitled"
+

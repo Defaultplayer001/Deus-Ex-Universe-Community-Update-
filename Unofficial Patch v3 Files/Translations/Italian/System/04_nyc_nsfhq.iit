@@ -1,0 +1,38 @@
+[ComputerSecurity5]
+Views[0]="(titleString="Telecamera garage",cameraTag=NSFHQCamera,doorTag=BasementHatch)"
+
+[ComputerPersonal3]
+specialOptions[0]="(Text="Rotazione antenna sud",TriggerText="L'antenna sud si sta rivolgendo a sud",TriggerEvent=Dish1,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Rotazione antenna nord",TriggerText="L'antenna nord si sta rivolgendo a est",TriggerEvent=Dish2,bTriggerOnceOnly=True)"
+specialOptions[2]="(Text="Rotazione antenna ovest",TriggerText="L'antenna ovest si sta rivolgendo a nord",TriggerEvent=Dish3,bTriggerOnceOnly=True)"
+specialOptions[3]="(Text="Apertura sala comunicazioni",TriggerText="Sala comunicazioni aperta",TriggerEvent=SignalComputerDoorOpen,bTriggerOnceOnly=True)"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger7]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di successo"
+
+[NanoKey0]
+Description="Chiave del sotterraneo delle FSN"
+
+[ComputerPersonal4]
+specialOptions[0]="(Text="Invia messaggio",TriggerText="Segnale d'allarme FSN in fase di invio",TriggerEvent=SendingSignal)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Porta di sicurezza Area 1",cameraTag=BasementCamera1,doorTag=SecurityDoor1)"
+Views[1]="(titleString="Porta di sicurezza Area 2",cameraTag=BasementCamera2,doorTag=SecurityDoor2)"
+Views[2]="(titleString="Porta di sicurezza Area 3",cameraTag=BasementCamera3,doorTag=SecurityDoor3)"
+
+[DeusExLevelInfo0]
+MissionLocation="NY - Magazzino, 20a strada"
+

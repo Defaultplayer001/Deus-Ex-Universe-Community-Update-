@@ -1,0 +1,38 @@
+[DeusExLevelInfo1]
+MissionLocation="Nueva Costa Oeste -  Silo de misil"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Silo",cameraTag=rocketcam)"
+Views[1]="(titleString="Motor del cohete",cameraTag=rocketcam2)"
+specialOptions[0]="(Text="Iniciar nuevo lanzamiento",TriggerText="Lanzamiento iniciado",TriggerEvent=klax,bTriggerOnceOnly=True)"
+
+[SecurityCamera38]
+FamiliarName="Silo de misiles"
+
+[SkillAwardTrigger6]
+awardMessage="Bono por éxito en objetivo"
+
+[SkillAwardTrigger0]
+awardMessage="Bono por éxito en objetivo"
+
+[SecurityCamera3]
+FamiliarName="Silo de misiles"
+
+[ScientistMale0]
+FamiliarName="Doctor Bernard"
+
+[SpecialEvent5]
+Message="Lanzamiento del misil abortado"
+
+[SkillAwardTrigger1]
+awardMessage="Bono por avance"
+
+[NanoKey8]
+Description="Llave de la puerta principal"
+
+[NanoKey1]
+Description=" Puertas del camión"
+
+[LevelSummary]
+Title="Sin título"
+

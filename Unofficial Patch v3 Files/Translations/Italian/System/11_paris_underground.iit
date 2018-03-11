@@ -1,0 +1,37 @@
+[DeusExLevelInfo0]
+MissionLocation="Paris - Stazione del Metro"
+startupMessage[0]="Stazione del Metro"
+
+[Cop5]
+FamiliarName="Agente della metropolitana"
+UnfamiliarName="Agente della metropolitana"
+
+[Cop3]
+FamiliarName="Agente della metropolitana"
+UnfamiliarName="Agente della metropolitana"
+
+[Cop2]
+FamiliarName="Agente della metropolitana"
+UnfamiliarName="Agente della metropolitana"
+
+[Cop1]
+FamiliarName="Agente della metropolitana"
+UnfamiliarName="Agente della metropolitana"
+
+[Cop0]
+FamiliarName="Agente della metropolitana"
+UnfamiliarName="Agente della metropolitana"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di avanzamento"
+
+[Mechanic0]
+FamiliarName="Joseph"
+UnfamiliarName="Tecnico della metropolitana"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di esplorazione"
+

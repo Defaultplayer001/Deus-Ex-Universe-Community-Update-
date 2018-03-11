@@ -1,0 +1,168 @@
+[TriadLumPath22]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[GordonQuick0]
+UnfamiliarName="Triadenführer"
+
+[Male0]
+FamiliarName="Fleischer"
+UnfamiliarName="Fleischer"
+
+[Male2]
+FamiliarName="Mönch"
+UnfamiliarName="Mönch"
+
+[ChildMale1]
+FamiliarName="Louis Pan"
+UnfamiliarName="Junge"
+
+[Female8]
+FamiliarName="Cassandra"
+UnfamiliarName="Mädchen"
+
+[Female6]
+FamiliarName="Veronica Chin"
+UnfamiliarName="Frau"
+
+[Butler0]
+FamiliarName="Ian Hilton"
+UnfamiliarName="Kellner"
+
+[Male1]
+FamiliarName="Mönch"
+UnfamiliarName="Mönch"
+
+[TriadLumPath0]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[TriadLumPath3]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[TriadLumPath4]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[SkillAwardTrigger0]
+awardMessage="Durchführungsbonus"
+
+[TriadLumPath7]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[DeusExLevelInfo1]
+MissionLocation="Hong Kong - Marktplatz"
+startupMessage[0]="Wan Chai Markt"
+startupMessage[1]="Hong Kong"
+
+[TriadLumPath6]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[TriadLumPath24]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[HKMilitary1]
+FamiliarName="Chinesischer Militärpolizist"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[HKMilitary2]
+FamiliarName="Chinesischer Militärpolizist"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[TriadLumPath5]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[HKMilitary4]
+FamiliarName="Officer Tam"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[TriadLumPath26]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[TriadLumPath18]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[TriadLumPath14]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[Businesswoman0]
+FamiliarName="Verkäuferin"
+UnfamiliarName="Verkäuferin"
+
+[Female4]
+FamiliarName="Blumenverkäuferin"
+UnfamiliarName="Blumenverkäuferin"
+
+[Secretary0]
+FamiliarName="Peggy"
+UnfamiliarName="Kundin"
+
+[HKMilitary3]
+FamiliarName="Chinesischer Militärpolizist"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[HKMilitary5]
+FamiliarName="Chinesischer Militärpolizist"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[TriadLumPath9]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[SkillAwardTrigger4]
+awardMessage="Durchführungsbonus"
+
+[SkillAwardTrigger1]
+awardMessage="Entdeckungsbonus"
+
+[TriadRedArrow1]
+FamiliarName="Mitglied der Red-Arrow-Triade"
+UnfamiliarName="Mitglied der Red-Arrow-Triade"
+
+[Cat3]
+FamiliarName="Daisy"
+UnfamiliarName="Daisy"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[LowerClassFemale0]
+FamiliarName="Zeitungsverkäufer"
+UnfamiliarName="Zeitungsverkäufer"
+
+[SkillAwardTrigger3]
+awardMessage="Entdeckungsbonus"
+
+[SkillAwardTrigger2]
+awardMessage="Entdeckungsbonus"
+
+[TriadRedArrow0]
+FamiliarName="Mitglied der Red Arrow"
+UnfamiliarName="Mitglied der Red Arrow"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Marktgasse 1",cameraTag=marketcamera1)"
+Views[1]="(titleString="Marktgasse 2",cameraTag=marketcamera2)"
+Views[2]="(titleString="Marktgasse 3",cameraTag=marketcamera3,doorTag=Pillboxdoor)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Haupttor",cameraTag=compound1,doorTag=compound_gate)"
+Views[1]="(titleString="Hof",cameraTag=compound2)"
+Views[2]="(titleString="Master Tong",cameraTag=compound3)"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[Businessman1]
+FamiliarName="Mr. Liu"
+UnfamiliarName="Geschäftsmann"
+

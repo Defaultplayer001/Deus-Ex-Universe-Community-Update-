@@ -1,0 +1,24 @@
+[ComputerSecurity1]
+Views[0]="(cameraTag=camera_gen,turretTag=turret_gen)"
+
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Tunnel"
+
+[NanoKey0]
+Description="Chiave della stanza di controllo"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di esplorazione"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di esplorazione"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di avanzamento"
+
+[NanoKey1]
+Description="Chiave della manutenzione"
+
+[LevelSummary]
+Title="Senza titolo"
+

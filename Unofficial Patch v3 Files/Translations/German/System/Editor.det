@@ -1,0 +1,88 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Editor",Parent="Erweiterte Optionen")
+Preferences=(Caption="Erweitert",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Farben",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Raster",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotationsraster",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+HelpCmd=master
+HelpOneLiner=Aufbau der Installer-Dateien
+HelpUsage=master [-Option...] [parm=Wert]...
+HelpParm[0]=MasterPath
+HelpDesc[0]=Stammverzeichnis aus dem die Quelldateien geladen werden
+HelpParm[1]=SrcPath
+HelpDesc[1]=Stammverzeichnis, in das die Quelldateien kopiert werden
+HelpParm[2]=RefPath
+HelpDesc[2]=Pfad für delta-komprimierte Pfadreferenz
+
+[ConformCommandlet]
+HelpCmd=conform
+HelpOneLiner=Generiert konforme Binärdateien
+HelpUsage=conform bestehende_datei.erw alte_datei.erw
+HelpParm[0]=existingfile.ext
+HelpDesc[0]=Vorhandene Datei zum Laden und Speichern
+HelpParm[1]=oldfile.ext
+HelpDesc[1]=Alte Datei, mit der Quelldatei binärkompatibel gemacht wird
+
+[PackageFlagCommandlet]
+HelpCmd=packageflag
+HelpOneLiner=Package-Flags in Paketdateien setzen
+HelpUsage=packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]
+HelpParm[0]=src.ext
+HelpDesc[0]=Vorhandene Paketdatei zum Laden
+HelpParm[1]=dest.exe
+HelpDesc[1]=Name der neuen Paketdatei mit den Flag-Einstellungen
+HelpParm[2]=flag
+HelpDesc[2]=+ um einen Flag zu setzen, oder -, um einen Flag zu entfernen; gefolgt von:
+HelpParm[3]=" "
+HelpDesc[3]=" Download zulassen"
+HelpParm[4]=" "
+HelpDesc[4]="  Client optional"
+HelpParm[5]=" "
+HelpDesc[5]="  Nur Server"
+HelpParm[6]=" "
+HelpDesc[6]="  Ungültige Links"
+HelpParm[7]=" "
+HelpDesc[7]="  Unsicher"
+
+[MakeCommandlet]
+HelpCmd=make
+HelpOneLiner=Rebuild UnrealScript-Pakete
+HelpUsage=make [-Option...] [parm=Wert]...
+HelpParm[0]=Silent
+HelpDesc[0]=Keine Eingabeaufforderungen: geht von "Ja" für alle Fragen aus.
+HelpParm[1]=NoBind
+HelpDesc[1]=Binden Sie keine Funktionen an DLLs
+HelpParm[2]=All
+HelpDesc[2]=Rebuild säubern (ansonten ist es fehlerhaft)
+
+[MergeDXTCommandlet]
+HelpCmd=mergedxt
+HelpOneLiner=DXT-Ttexturen mit Standardtexturen verschmelzen
+HelpUsage=mergedxt srcpath oldpath destpath
+HelpParm[0]=srcpath
+HelpDesc[0]=Pfad auf Quelldateien
+HelpParm[1]=oldpath
+HelpDesc[1]=Pfad alter Dateien
+HelpParm[2]=destpath
+HelpDesc[2]=Pfad für Zieldateien
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpOneLiner=Objekte gemeinsam exportieren
+HelpUsage=batchexport package.ext classname export_ext
+HelpParm[0]=package.ext
+HelpDesc[0]=Paket, dessen Objekte Sie exportiern möchten
+HelpParm[1]=classname
+HelpDesc[1]=Zu exportierende Objektklasse
+HelpParm[2]=export_ext
+HelpDesc[2]=Export-Dateierweiterung
+HelpParm[3]=path
+HelpDesc[3]=Pfad, in den Dateien exportiert werden sollen. Beispiel: c:\MeinPfad

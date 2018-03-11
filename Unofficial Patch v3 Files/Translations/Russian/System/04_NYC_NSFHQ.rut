@@ -1,0 +1,38 @@
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Склад на 20-ой улице"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Дверь зоны 1",CameraTag=BasementCamera1,doorTag=SecurityDoor1)"
+Views[1]="(titleString="Дверь зоны 2",CameraTag=BasementCamera2,doorTag=SecurityDoor2)"
+Views[2]="(titleString="Дверь зоны 3",CameraTag=BasementCamera3,doorTag=SecurityDoor3)"
+
+[NanoKey0]
+Description="Ключ к подвалу штаба NSF"
+
+[ComputerPersonal4]
+specialOptions[0]="(Text="Послать сообщение",TriggerText="Сигнал об эвакуации NSF послан",TriggerEvent=SendingSignal)"
+
+[SkillAwardTrigger7]
+awardMessage="Премия за обнаружение"
+
+[ComputerPersonal3]
+specialOptions[0]="(Text="Повернуть южную тарелку",TriggerText="Южная тарелка повернута лицом на юг",TriggerEvent=Dish1,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Повернуть северную тарелку",TriggerText="Северная тарелка повернута лицом на восток",TriggerEvent=Dish2,bTriggerOnceOnly=True)"
+specialOptions[2]="(Text="Повернуть западную тарелку",TriggerText="Западная тарелка повернута лицом на север",TriggerEvent=Dish3,bTriggerOnceOnly=True)"
+specialOptions[3]="(Text="Открыть дверь комнаты связи",TriggerText="Комната связи открыта",TriggerEvent=SignalComputerDoorOpen,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger2]
+awardMessage="Премия за выполнение"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за обнаружение"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за обнаружение"
+
+[ComputerSecurity5]
+Views[0]="(titleString="Камера в гараже",CameraTag=NSFHQCamera,doorTag=BasementHatch)"
+

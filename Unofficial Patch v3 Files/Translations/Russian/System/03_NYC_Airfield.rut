@@ -1,0 +1,52 @@
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Аэродром"
+
+[SkillAwardTrigger10]
+awardMessage="Премия за выполнение задания"
+
+[BlackHelicopter0]
+FamiliarName="Джок"
+UnfamiliarName="Джок"
+
+[NanoKey0]
+Description="Ключ к восточным воротам"
+
+[SkillAwardTrigger8]
+awardMessage="Премия за исследование"
+
+[NanoKey1]
+Description="Ключ к общей спальне казармы"
+
+[SkillAwardTrigger7]
+awardMessage="Премия за продвижение"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Правая турель",CameraTag=sectower3cama,Turrettag=sectower3turreta)"
+Views[1]="(titleString="Левая турель",CameraTag=sectower3camb,Turrettag=sectower3turretb)"
+
+[ComputerSecurity8]
+Views[0]="(titleString="Правая турель",CameraTag=sectower4cama,Turrettag=sectower4turreta)"
+Views[1]="(titleString="Левая турель",CameraTag=sectower4camb,Turrettag=sectower4turretb)"
+
+[ComputerSecurity9]
+Views[0]="(titleString="Правая турель",CameraTag=sectower5cama,Turrettag=sectower5turreta)"
+Views[1]="(titleString="Левая турель",CameraTag=sectower5camb,Turrettag=sectower5turretb)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Правая турель",CameraTag=sectower2cama,Turrettag=sectower2turreta)"
+Views[1]="(titleString="Левая турель",CameraTag=sectower2camb,Turrettag=sectower2turretb)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Правая турель",CameraTag=sectower1cama,Turrettag=sectower1turreta)"
+Views[1]="(titleString="Левая турель",CameraTag=sectower1camb,Turrettag=sectower1turretb)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=boatguard,KeyID=eastgate,Description="Ключ к восточным воротам")"
+NanoKeyData[1]="(ScriptedPawnTag=Terrorist,KeyID=securitytower,Description="Ключ к башне охраны")"
+
+[SkillAwardTrigger2]
+awardMessage="Премия за выполнение задания"
+

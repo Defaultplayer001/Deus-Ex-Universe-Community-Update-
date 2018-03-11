@@ -1,0 +1,15 @@
+[ComputerSecurity0]
+Views[0]="(titleString="Entrada leste",CameraTag=Camera1,doorTag=DoorA)"
+Views[1]="(titleString="Entrada oeste",CameraTag=Camera2)"
+Views[2]="(titleString="Túnel-Acesso às galerias",CameraTag=Camera3,Turrettag=AutoTurretA)"
+specialOptions[0]="(Text="Girar ponte",TriggerText="Girando ponte",TriggerEvent=RotateBridge)"
+
+[LevelSummary]
+Title="Sem título"
+
+[DeusExLevelInfo1]
+MissionLocation="Nova Iorque - Galerias de esgoto"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus: localização"
+

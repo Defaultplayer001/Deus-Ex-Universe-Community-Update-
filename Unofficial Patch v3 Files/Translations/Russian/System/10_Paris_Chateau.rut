@@ -1,0 +1,51 @@
+[DeusExLevelInfo0]
+MissionLocation="Париж - Особняк ДюКлэр"
+startupMessage[0]="Особняк ДюКлэр"
+startupMessage[1]="Недалеко от Парижа"
+
+[NanoKey1]
+Description="Ключ к спальне Бет"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Послать МЭверетту сигнал о встрече",TriggerText="Сигнал по защищенному каналу послан МЭверетту ",TriggerEvent=everettsignal,bTriggerOnceOnly=True)"
+
+[NicoletteDuClare0]
+FamiliarName="Николетт"
+UnfamiliarName="Николетт"
+
+[NanoKey4]
+Description="Ключ к спальне Николетт"
+
+[NanoKey3]
+Description="Ключ к спальне Бет"
+
+[NanoKey2]
+Description="Ключ к спальне Николетт"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за продвижение"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за критическую локацию"
+
+[SkillAwardTrigger4]
+awardMessage="Премия за обнаружение"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=NicoletteDuClare,KeyID=Crypt_door,Description="Ключ к склепу")"
+
+[NanoKey0]
+Description="Ключ к подвалу ДюКлэров"
+
+[SkillAwardTrigger2]
+awardMessage="Премия за критическую локацию"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Сейф с нанотехникой",CameraTag=DuClareSecurityCamera,doorTag=field002)"
+
+[SkillAwardTrigger3]
+awardMessage="Премия за продвижение"
+
+[LevelSummary]
+Title="Untitled"
+

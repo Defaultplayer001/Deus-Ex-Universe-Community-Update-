@@ -1,0 +1,88 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+HelpCmd=mestre
+HelpOneLiner=Construir arquivos mestre de instalação
+HelpUsage=mestre [-option...] [parm=value]...
+HelpParm[0]=Caminho mestre
+HelpDesc[0]=Diretório raiz de onde copiar arquivos fonte
+HelpParm[1]=CaminhoPrincipal
+HelpDesc[1]=Diretório raiz para onde copiar arquivos fonte
+HelpParm[2]=CaminhodeRef
+HelpDesc[2]=Caminho de referência para compressão delta 
+
+[ConformCommandlet]
+HelpCmd=conformar
+HelpOneLiner=Gerar arquivos binários
+HelpUsage=conformar arquivo_existente.ext arquivo_antigo.ext
+HelpParm[0]=arquivo_existente.ext
+HelpDesc[0]=Arquivo binário existente para carregar, conformar, e salvar
+HelpParm[1]=arquivo_antigo.ext
+HelpDesc[1]=Arquivo antigo para compatibilizar fontes
+
+[PackageFlagCommandlet]
+HelpCmd=marcadebloco
+HelpOneLiner=Configurar propriedades de arquivos de bloco
+HelpUsage=blocoorigem.ext [dest.ext <+|->flag [<+|->flag] ...]
+HelpParm[0]=origem.ext
+HelpDesc[0]=Arquivo de bloco existente para carregar
+HelpParm[1]=destino.exe
+HelpDesc[1]=Nome do novo arquivo de bloco com novas configurações
+HelpParm[2]=marca
+HelpDesc[2]=+ para configurar uma marca, ou para remove-la, seguido de um:
+HelpParm[3]=" "
+HelpDesc[3]="  PermitirDownload"
+HelpParm[4]=" "
+HelpDesc[4]="  ClienteOpcional"
+HelpParm[5]=" "
+HelpDesc[5]="  LadoServidorApenas"
+HelpParm[6]=" "
+HelpDesc[6]="  LinksDefeituosos"
+HelpParm[7]=" "
+HelpDesc[7]="  Inseguro"
+
+[MakeCommandlet]
+HelpCmd=executar
+HelpOneLiner=Reconstruir blocos UnrealScript
+HelpUsage=executar [-option...] [parm=value]...
+HelpParm[0]=Silencioso
+HelpDesc[0]=Sem avisos; assumir "sim" para todas as questões
+HelpParm[1]=SemUnião
+HelpDesc[1]=Não forçar funções nativas a serem inseridas nas DLLs
+HelpParm[2]=Todos
+HelpDesc[2]=Reconstrução limpa (senão, a reconstrução é incremental)
+
+[MergeDXTCommandlet]
+HelpCmd=mesclardxt
+HelpOneLiner=Mesclar texturas DXT com texturas padrão
+HelpUsage=mesclardxt diretóriofonte diretórioantigo diretóriodestino
+HelpParm[0]=diretóriofonte
+HelpDesc[0]=Caminho contendo arquivos fonte
+HelpParm[1]=diretórioantigo
+HelpDesc[1]=Caminho contendo arquivos antigos
+HelpParm[2]=diretóriodestino
+HelpDesc[2]=Diretório destino dos arquivos
+
+[BatchExportCommandlet]
+HelpCmd=exportacaoemmassa
+HelpOneLiner=Exportação em massa de objetos
+HelpUsage=exportacaoemassa bloco.ext exportacao nomedaclasse_ext
+HelpParm[0]=bloco.ext
+HelpDesc[0]=Bloco com os objetos que você deseja exportar
+HelpParm[1]=nomedeclasse
+HelpDesc[1]=Classe de objetos para exportar
+HelpParm[2]=exportacao_ext
+HelpDesc[2]=Extensão de arquivos para qual exportar
+HelpParm[3]=caminho
+HelpDesc[3]=Caminho para onde exportar arquivos, como c:MinhaPasta

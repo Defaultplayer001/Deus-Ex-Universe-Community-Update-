@@ -1,0 +1,94 @@
+[DeusExLevelInfo0]
+MissionLocation="NYC - CG.UNATCO"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=WaltonSimons,KeyID=ManderleyOfficeDoor,Description="Llave oficina de Manderley")"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="Secretaria de la UNATCO"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[Terrorist1]
+FamiliarName="Terrorista prisionero"
+UnfamiliarName="Terrorista prisionero"
+
+[WaltonSimons0]
+FamiliarName="Funcionario del gobierno"
+UnfamiliarName="Funcionario del gobierno"
+
+[LevelSummary]
+Title="Sin título"
+
+[UNATCOTroop29]
+FamiliarName="Scott"
+UnfamiliarName="Soldado de la UNATCO"
+
+[SpecialEvent1]
+Message="No hay mensajes nuevos"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="Mujer de la UNATCO"
+
+[RetinalScanner0]
+msgUsed="Patrón retinal correcto: Acceso autorizado al agente Denton"
+
+[SpecialEvent0]
+Message="Patrón retinal erróneo: Acceso denegado al agente Denton"
+
+[NanoKey2]
+Description="Llave del armario de la UNATCO"
+
+[RetinalScanner1]
+msgUsed="Patrón retinal erróneo: Acceso denegado al agente Denton"
+
+[JosephManderley0]
+UnfamiliarName="Jefe de la UNATCO"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[Terrorist0]
+FamiliarName="Terrorista prisionero"
+UnfamiliarName="Terrorista prisionero"
+
+[SecurityCamera4]
+FamiliarName="UN_blastdoor_medcam"
+
+[NanoKey0]
+Description="Llave de la oficina de Manderley"
+
+[UNATCOTroop3]
+FamiliarName="Soldado de la UNATCO"
+UnfamiliarName="Soldado de la UNATCO"
+
+[UNATCOTroop2]
+FamiliarName="Soldado de la UNATCO"
+UnfamiliarName="Soldado de la UNATCO"
+
+[UNATCOTroop1]
+FamiliarName="Sargento Michael Berry"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[UNATCOTroop0]
+FamiliarName="Cabo Collins"
+UnfamiliarName="Soldado de la UNATCO"
+
+[UNATCOTroop4]
+FamiliarName="Soldado de la UNATCO"
+UnfamiliarName="Soldado de la UNATCO"
+

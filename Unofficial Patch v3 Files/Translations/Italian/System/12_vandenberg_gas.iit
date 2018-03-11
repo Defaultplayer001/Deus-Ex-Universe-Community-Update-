@@ -1,0 +1,36 @@
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=Guard_Garage,KeyID=garage_entrance,Description="Porta del garage")"
+NanoKeyData[1]="(ScriptedPawnTag=mib_garage)"
+NanoKeyData[2]="(KeyID=garage_entrance,Description="Porta del garage")"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=bum1,KeyID=pipe,Description="Accesso alle fogne")"
+NanoKeyData[1]="(ScriptedPawnTag=bum2,KeyID=pipe,Description="Accesso alle fogne")"
+
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Benzina"
+startupMessage[0]="Stazione di rifornimento abbandonata"
+startupMessage[1]="California centrale"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[NanoKey0]
+Description="Porta della rimessa"
+
+[NanoKey1]
+Description="Accesso alle fogne"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di esplorazione"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[BumMale0]
+FamiliarName="Fred"
+
+[TiffanySavage0]
+UnfamiliarName="Ostaggio"
+

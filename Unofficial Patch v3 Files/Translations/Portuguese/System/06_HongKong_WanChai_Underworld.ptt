@@ -1,0 +1,182 @@
+[TriadRedArrow3]
+FamiliarName="Membro da Flecha Vermelha"
+UnfamiliarName="Membro da Flecha Vermelha"
+
+[Hooker4]
+FamiliarName="Mercedes"
+UnfamiliarName="Garota do clube"
+
+[ThugMale5]
+FamiliarName="Vince"
+UnfamiliarName="Bêbedo"
+
+[Hooker2]
+FamiliarName="Garota dançando"
+UnfamiliarName="Garota dançando"
+
+[TriadRedArrow4]
+FamiliarName="Membro da Flecha Vermelha"
+UnfamiliarName="Membro da Flecha Vermelha"
+
+[LowerClassMale1]
+FamiliarName="Criminoso"
+UnfamiliarName="Criminoso"
+
+[Sailor0]
+FamiliarName="Boris"
+UnfamiliarName="Marinheiro russo"
+
+[TriadRedArrow6]
+FamiliarName="Guarda-costas de Chen"
+UnfamiliarName="Guarda-costas de Chen"
+
+[HKMilitary0]
+FamiliarName="Eddie Way"
+UnfamiliarName="Polícia militar chinesa"
+
+[Female2]
+FamiliarName="Garota do bar"
+UnfamiliarName="Garota do bar"
+
+[Businessman3]
+FamiliarName="Funcionário da VersaLife"
+
+[TriadRedArrow8]
+FamiliarName="Segurança da Tríade"
+UnfamiliarName="Segurança da Tríade"
+
+[Sailor1]
+FamiliarName="Vladimir"
+UnfamiliarName="Marinheiro russo"
+
+[TriadRedArrow2]
+FamiliarName="Membro da Flecha Vermelha"
+UnfamiliarName="Membro da Flecha Vermelha"
+
+[TriadRedArrow1]
+FamiliarName="Membro da Flecha Vermelha"
+UnfamiliarName="Membro da Flecha Vermelha"
+
+[HKMilitary2]
+FamiliarName="Eddie Way"
+UnfamiliarName="Polícia militar chinesa"
+
+[HKMilitary1]
+FamiliarName="Eddie Way"
+UnfamiliarName="Polícia militar chinesa"
+
+[Businessman1]
+FamiliarName="Sr. Sing"
+UnfamiliarName="Homem grosseiro trajado"
+
+[Female4]
+FamiliarName="Mulher de festa"
+UnfamiliarName="Mulher de festa"
+
+[JunkieFemale0]
+FamiliarName="Garota confusa"
+UnfamiliarName="Garota confusa"
+
+[TriadRedArrow7]
+FamiliarName="Segurança da Tríade"
+UnfamiliarName="Segurança da Tríade"
+
+[Female7]
+FamiliarName="Mamasan"
+UnfamiliarName="Mamasan"
+
+[Female6]
+FamiliarName="Garota de festa"
+UnfamiliarName="Garota de festa"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Abrir cofre",TriggerText="Cofre aberto",TriggerEvent=Safe_door)"
+
+[Bartender0]
+FamiliarName="Isaac"
+
+[Female5]
+FamiliarName="Garota de festa"
+UnfamiliarName="Garota de festa"
+
+[Sailor2]
+FamiliarName="Dimitri"
+UnfamiliarName="Marinheiro russo"
+
+[TriadRedArrow5]
+FamiliarName="Guarda-costas de Chen"
+UnfamiliarName="Guarda-costas de Chen"
+
+[SkillAwardTrigger3]
+awardMessage="Bônus: exploração"
+
+[Female1]
+FamiliarName="Garota da entrada"
+UnfamiliarName="Garota da entrada"
+
+[Sailor3]
+FamiliarName="Ivan"
+UnfamiliarName="Marinheiro russo"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Monitor do clube",CameraTag=ClubCam1)"
+Views[1]="(titleString="Mostrador e cofre",CameraTag=ClubCam2,doorTag=Strongbox)"
+Views[2]="(titleString="Elevador de serviço",CameraTag=ClubCam3)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Segurança - Quick Stop",CameraTag=SecurityCamera)"
+Views[1]="(titleString="Segurança - Quick Stop",CameraTag=SecurityCamera1,doorTag=StoreDoor)"
+
+[Hooker0]
+FamiliarName="Carole"
+UnfamiliarName="Mulher nervosa"
+
+[SkillAwardTrigger12]
+awardMessage="Bônus: progresso"
+
+[LowerClassFemale1]
+FamiliarName="Tessa"
+UnfamiliarName="Garota de festa"
+
+[LowerClassMale0]
+FamiliarName="Lawrence"
+UnfamiliarName="Perdedor"
+
+[Businesswoman0]
+UnfamiliarName="Funcionária da VersaLife"
+
+[Secretary0]
+FamiliarName="Lisa"
+UnfamiliarName="Mulher sedutora"
+
+[SkillAwardTrigger13]
+awardMessage="Bônus: interação com personagem"
+
+[TriadRedArrow0]
+FamiliarName="Membro da Flecha Vermelha"
+UnfamiliarName="Membro da Flecha Vermelha"
+
+[LevelSummary]
+Title="Sem título"
+
+[Female10]
+FamiliarName="Maymay"
+UnfamiliarName="Acompanhante"
+
+[SarahMead0]
+FamiliarName="Ling"
+UnfamiliarName="Acompanhante"
+
+[Female3]
+FamiliarName="Mulher de festa"
+UnfamiliarName="Mulher de festa"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Clube Lucky Money"
+startupMessage[0]="Wan Chai - Centro comercial subterrÂneo"
+startupMessage[1]="Lar do Clube Lucky Money"
+
+[HKMilitary3]
+FamiliarName="Eddie Way"
+UnfamiliarName="Polícia militar chinesa"
+

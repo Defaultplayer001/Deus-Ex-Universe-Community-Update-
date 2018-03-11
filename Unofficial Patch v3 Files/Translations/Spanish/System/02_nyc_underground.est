@@ -1,0 +1,29 @@
+[LevelSummary]
+Title="Sin título"
+
+[SkillAwardTrigger0]
+awardMessage="Bono por éxito"
+
+[SkillAwardTrigger1]
+awardMessage="Bono por localización de zona"
+
+[DeusExLevelInfo1]
+MissionLocation="NYC - Alcantarillas" 
+
+[ComputerSecurity2]
+Views[0]="(titleString="Depuradora- Confluencia ",cameraTag=CameraA,doorTag=ArmoryDoor)" 
+Views[1]="(titleString=" Laboratorio Químico",cameraTag=CameraB,doorTag=Door1)" 
+Views[2]="(titleString="Barracón",cameraTag=CameraC)" 
+
+[ComputerSecurity1]
+Views[0]="(titleString="Entrada Este",cameraTag=Camera1,doorTag=DoorA)" 
+Views[1]="(titleString="Entrada Oeste",cameraTag=Camera2)" 
+Views[2]="(titleString="Túnel de Acceso a Tuberías",cameraTag=Camera3,turretTag=AutoTurretA)" 
+
+[ComputerSecurity0]
+Views[0]="(titleString="Entrada Este",cameraTag=Camera1,doorTag=DoorA)"
+Views[1]="(titleString="Entrada Oeste",cameraTag=Camera2)" 
+Views[2]="(titleString="Túnel de Acceso a Tuberías",cameraTag=Camera3,turretTag=AutoTurretA)" 
+specialOptions[0]="(Text="Girar Puente",TriggerText="Girando Puente",TriggerEvent=RotateBridge)"
+
+

@@ -1,0 +1,41 @@
+[LogicTrigger2]
+Message="logic trig"
+
+[DirectionalTrigger2]
+Message="worked"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity1]
+Views[0]="(CameraTag=camera_roof,Turrettag=turret_roof)"
+
+[AutoTurret0]
+titleString="Tower turret"
+
+[AutoTurret4]
+titleString="Lobby Turret"
+
+[AutoTurret1]
+titleString="Roof Turret"
+
+[DirectionalTrigger3]
+Message="worked"
+
+[ComputerSecurity2]
+Views[0]="(CameraTag=camera_lobby,Turrettag=turret_main2)"
+
+[ComputerSecurity0]
+Views[0]="(CameraTag=Camera_tower,Turrettag=Turret_tower)"
+
+[DeusExLevelInfo1]
+MissionLocation="Ванденберг - Командный центр"
+startupMessage[0]="Командный центр"
+startupMessage[1]="База ВВС Ванденберг"
+
+[DirectionalTrigger1]
+Message="worked"
+
+[DirectionalTrigger0]
+Message="worked"
+

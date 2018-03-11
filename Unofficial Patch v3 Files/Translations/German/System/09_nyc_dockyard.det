@@ -1,0 +1,102 @@
+[SkillAwardTrigger10]
+awardMessage="Durchführungsbonus"
+
+[SkillAwardTrigger9]
+awardMessage="Durchführungsbonus"
+
+[SkillAwardTrigger8]
+awardMessage="Durchführungsbonus"
+
+[NanoKey0]
+Description="Schlüssel für das Munitions-Lagerhaus"
+
+[SkillAwardTrigger0]
+awardMessage="Durchführungsbonus"
+
+[SkillAwardTrigger1]
+awardMessage="Entdeckungsbonus"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Hauptgitter",cameraTag=A_Sector3,doorTag=DrainGrate)"
+Views[1]="(titleString="Verteid.-System A",cameraTag=B_Sector3,turretTag=AutoTurret1)"
+Views[2]="(titleString="Verteid.-System B",cameraTag=C_Sector3,turretTag=AutoTurret2)"
+specialOptions[0]="(Text="Roboter in Bereitschaft",TriggerText="Roboter in Bereitschaftsmodus",TriggerEvent=SBTrigger)"
+specialOptions[1]="(Text="Roboter Standard-Verteidigung",TriggerText="Roboter in Standard-Verteidigungsmodus",TriggerEvent=SDTrigger)"
+specialOptions[2]="(Text="Roboter greift Nicht-Bots an",TriggerText="Warnung! **Roboter in totalem Angriffsmodus**",TriggerEvent=AATrigger)"
+specialOptions[3]="(Text="Roboter: Alles angreifen",TriggerText="Warnung! Sicherheitsprotokolle entfernt",TriggerEvent=SCTrigger)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Hinteres Tor",cameraTag=A_Sector2,doorTag=BackGate)"
+Views[1]="(titleString="Munitionslager",cameraTag=B_Sector2,doorTag=AmmoStorageDoor)"
+Views[2]="(titleString="Büro: Kommandant",cameraTag=C_Sector2,doorTag=ArmoryDoor)"
+
+[SkillAwardTrigger2]
+awardMessage="Durchführungsbonus"
+
+[SkillAwardTrigger6]
+awardMessage="Durchführungsbonus"
+
+[SkillAwardTrigger4]
+awardMessage="Durchführungsbonus"
+
+[Mechanic2]
+FamiliarName="Noch ein Dockarbeiter"
+UnfamiliarName="Noch ein Dockarbeiter"
+
+[Mechanic1]
+FamiliarName="Dockarbeiter"
+UnfamiliarName="Dockarbeiter"
+
+[NanoKey1]
+Description="Schlüssel für Versorgungsschrank"
+
+[NanoKey2]
+Description="Schlüssel zum Büro des Commanders"
+
+[SkillAwardTrigger11]
+awardMessage="Entdeckungsbonus"
+
+[NanoKey3]
+Description="Schlüssel für den Waffenschrank"
+
+[SkillAwardTrigger5]
+awardMessage="Entdeckungsbonus"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=FrontGuard,KeyID=MainGate,Description="Schlüssel für Haupttor")"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Munitionsdepot",cameraTag=A_Sector4)"
+Views[1]="(titleString="Lager: Schutzanzüge",cameraTag=B_Sector3)"
+Views[2]="(titleString="Dock Areal",cameraTag=C_Sector3)"
+specialOptions[0]="(Text="Roboter in Bereitschaft",TriggerText="Roboter in Bereitschaftsmodus",TriggerEvent=SB2Trigger)"
+specialOptions[1]="(Text="Roboter Standard-Verteidigung",TriggerText="Roboter in Standard-Verteidigungsmodus",TriggerEvent=SD2Trigger)"
+specialOptions[2]="(Text="Roboter greift Nicht-Bots an",TriggerText="Warnung! **Roboter in totalem Angriffsmodus**",TriggerEvent=AA2Trigger)"
+specialOptions[3]="(Text="Roboter: Alles angreifen",TriggerText="Warnung! Sicherheitsprotokolle entfernt",TriggerEvent=SC2Trigger)"
+
+[Mechanic0]
+FamiliarName="Dockarbeiter"
+UnfamiliarName="Dockarbeiter"
+
+[SkillAwardTrigger3]
+awardMessage="Durchführungsbonus"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Lagerhaus Büro",cameraTag=A_Sector1,doorTag=SecurityDoor)"
+Views[1]="(titleString="Lagerhaus, O",cameraTag=B_Sector1)"
+Views[2]="(titleString="Lagerhaus, SW",cameraTag=C_Sector1)"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[SkillAwardTrigger7]
+awardMessage="Entdeckungsbonus"
+
+[NanoKey4]
+Description="Schlüssel für Anhänger auf Parkplatz"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Brooklyn Marine-Schiffswerft"
+startupMessage[0]="New York City, Brooklyn Marine-Schiffswerft"
+startupMessage[1]="U-Boot-Krieg Division"
+

@@ -1,0 +1,45 @@
+[ComputerPersonal0]
+specialOptions[0]="(Text="Загрузить схематику вируса",TriggerText="Схематика вируса загружена",TriggerEvent=VirusUploaded,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Открыть дверь в шахту УК",TriggerText="Дверь в шахту Универсального Конструктора открыта",TriggerEvent=UC_Chamber_Door)"
+
+[NanoKey0]
+PickupMessage="Вы нашли ключ к герметичной двери"
+Description="Ключ к герметичной двери нанопроизводства"
+
+[SkillAwardTrigger3]
+awardMessage="Премия за исследование"
+
+[DeusExLevelInfo0]
+MissionLocation="Гонконг - Нанопроизводство"
+startupMessage[0]="Уровень 2:"
+startupMessage[1]="Нанотехнологические сооружения"
+startupMessage[2]="Глубоко под зданием VersaLife"
+
+[SkillAwardTrigger4]
+awardMessage="Премия за выполнение"
+
+[SkillAwardTrigger5]
+awardMessage="Премия за продвижение"
+
+[ScientistFemale0]
+FamiliarName="Д-р Харрисон"
+UnfamiliarName="Исследователь нанотехнологий"
+
+[SkillAwardTrigger6]
+awardMessage="Премия за критическую локацию"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Пост охраны #1",CameraTag=Level1Cam,doorTag=FloodDoor08)"
+Views[1]="(titleString="Управление УК",CameraTag=Level2Cam)"
+Views[2]="(titleString="Шахта УК",CameraTag=Level3Cam)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Магн.контейнеры (4)",CameraTag=podcam,doorTag=OpenThePODs)"
+Views[1]="(titleString="Каскадная консоль",CameraTag=PlatformCam,doorTag=PlatformTriggers)"
+Views[2]="(titleString="Подвал с токсинами",CameraTag=ToxicCamera)"
+specialOptions[0]="(Text="Открыть контейнеры с нанопредметами",TriggerText="Магнитные контейнеры открыты",TriggerEvent=OpenThePODs,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Поднять консоль каскадного отключения",TriggerText="Каскадная консоль поднята",TriggerEvent=control_platform)"
+

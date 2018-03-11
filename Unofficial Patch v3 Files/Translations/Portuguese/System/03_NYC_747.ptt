@@ -1,0 +1,15 @@
+[DeusExLevelInfo2]
+MissionLocation="Nova Iorque - Avião 747"
+
+[SkillAwardTrigger11]
+awardMessage="Bonus: realização de objetivo"
+
+[LevelSummary]
+Title="Sem título"
+
+[NanoKey0]
+Description="Alojamento privado"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=CommTerrorist,KeyID=LebedevBedroom,Description="Chave do dormitório de Juan Ivanovich Lebedev")"
+

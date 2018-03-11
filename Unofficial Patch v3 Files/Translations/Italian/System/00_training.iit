@@ -1,0 +1,26 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Test_Subject,KeyID=Body_Search_Room,Description="Sala medica")"
+
+[DeusExLevelInfo0]
+MissionLocation="Percorso addestramento UNATCO"
+startupMessage[0]="Centro addestramento UNATCO"
+startupMessage[1]="Stati Uniti continentali"
+
+[SecurityCamera2]
+FamiliarName="UN_ost_nuoto"
+
+[SecurityCamera3]
+FamiliarName="UN_ost_nuoto2"
+ 
+[SecurityCamera1]
+FamiliarName="UN_ost_salto"
+
+[SecurityCamera0]
+FamiliarName="UN_ost_rampa"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[NanoKey0]
+Description="Porta dell'area di addestramento"
+FamiliarName="Porta dell'addestramento"

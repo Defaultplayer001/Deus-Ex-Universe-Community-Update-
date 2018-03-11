@@ -1,0 +1,69 @@
+[ComputerSecurity3]
+Views[0]="(titleString="Lucius DeBeers",CameraTag=lucius_cam)"
+Views[1]="(titleString="Tetõtéri leszállóhely",CameraTag=chopper_cam)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="001-es nanotech szigetelõmezõ",CameraTag=camerafield001,doorTag=field001)"
+Views[1]="(titleString="002-es nanotech szigetelõmezõ",CameraTag=camerafield002,doorTag=field002)"
+Views[2]="(titleString="MI prototípus",CameraTag=AI_prototype)"
+specialOptions[0]="(bTriggerOnceOnly=True)"
+specialOptions[1]="(bTriggerOnceOnly=True)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Lucius DeBeers",CameraTag=lucius_cam)"
+Views[1]="(titleString="Tetõtéri leszállóhely",CameraTag=chopper_cam)"
+specialOptions[0]="(Text="Létfenntartó rendszer leállítása",TriggerText="Létfenntartó rendszer leállítva.",TriggerEvent=lucius_dead,bTriggerOnceOnly=True)"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Párizs - Morgan Everett otthona"
+startupMessage[0]="Morgan Everett otthona"
+startupMessage[1]="Valahol Párizsban"
+
+[SkillAwardTrigger0]
+awardMessage="Felfedezési bónusz"
+
+[SkillAwardTrigger4]
+awardMessage="Felfedezési bónusz"
+
+[SkillAwardTrigger3]
+awardMessage="Célszemély-megtalálási bónusz"
+
+[AIPrototype1]
+FamiliarName="Morpheus"
+UnfamiliarName="MI-program prototípusa"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[SkillAwardTrigger1]
+awardMessage="Felfedezési bónusz"
+
+[Maid1]
+FamiliarName="Carmela"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MorganEverett,KeyID=morganhelibaydoor,Description="Helikopter-leszálló mágneszárjának kulcskódja")"
+
+[Mechanic0]
+FamiliarName="Furcsán viselkedõ szerelõ"
+
+[LuciusDeBeers0]
+FamiliarName="Lucius DeBeers"
+UnfamiliarName="Lucius DeBeers"
+
+[SkillAwardTrigger2]
+awardMessage="Fejlõdési jutalom"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[NanoKey0]
+Description="Tükör zármechanizmusának kulcsa"
+
+[NanoKey1]
+Description="Akvárium fedelének kulcsa"
+

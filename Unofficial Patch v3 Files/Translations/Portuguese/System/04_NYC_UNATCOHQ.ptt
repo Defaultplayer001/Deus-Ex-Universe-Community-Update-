@@ -1,0 +1,73 @@
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+
+[UNATCOTroop3]
+FamiliarName="Soldado da UNATCO"
+UnfamiliarName="Soldado da UNATCO"
+
+[UNATCOTroop2]
+FamiliarName="Soldado da UNATCO"
+UnfamiliarName="Soldado da UNATCO"
+
+[UNATCOTroop1]
+FamiliarName="Sargento Michael Berry"
+UnfamiliarName="Sargento Michael Berry"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - QG. UNATCO"
+startupMessage[0]="QG. UNATCO"
+startupMessage[1]="Coalizão Antiterrorista"
+startupMessage[2]="das Nações Unidas"
+
+[UNATCOTroop0]
+FamiliarName="Cabo Collins"
+UnfamiliarName="Cabo Collins"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[UNATCOTroop30]
+FamiliarName="Scott"
+UnfamiliarName="Scott"
+
+[LevelSummary]
+Title="Sem título"
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="Secretária da UNATCO"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="Mulher da UNATCO"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[SpecialEvent0]
+Message="Padrão de retina incorreto: Acesso negado ao agente Denton"
+
+[RetinalScanner0]
+msgUsed="Padrão de retina correto: Acesso permitido ao agente Denton"
+
+[SpecialEvent1]
+Message="Não há mensagens"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[JosephManderley0]
+UnfamiliarName="Chefe da UNATCO"
+
+[SecurityCamera4]
+FamiliarName="UN_blastdoor_medcam"
+

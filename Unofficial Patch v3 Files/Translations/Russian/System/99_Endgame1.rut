@@ -1,0 +1,6 @@
+[ComputerPersonal0]
+specialOptions[0]="(Text="Engage Primary Router",TriggerEvent=Set_flag_helios,bTriggerOnceOnly=True)"
+
+[LevelSummary]
+Title="Untitled"
+

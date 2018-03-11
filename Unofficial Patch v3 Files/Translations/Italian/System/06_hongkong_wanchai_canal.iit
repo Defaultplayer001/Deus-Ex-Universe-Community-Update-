@@ -1,0 +1,53 @@
+[DeusExLevelInfo2]
+MissionLocation="Hong Kong - Canali"
+
+[BoatPerson0]
+UnfamiliarName="Pescatore"
+
+[LowerClassFemale0]
+FamiliarName="Ragazza"
+UnfamiliarName="Ragazza"
+
+[LowerClassMale4]
+FamiliarName="Uomo"
+UnfamiliarName="Uomo"
+
+[LowerClassMale2]
+FamiliarName="Trafficante di droga"
+UnfamiliarName="Trafficante di droga"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di esplorazione"
+
+[Female0]
+FamiliarName="Prostituta"
+UnfamiliarName="Prostituta"
+
+[BoatPerson1]
+FamiliarName="Ubriaco"
+UnfamiliarName="Ubriaco"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di esplorazione"
+
+[SarahMead0]
+FamiliarName="Scolara"
+UnfamiliarName="Scolara"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di esplorazione"
+
+[Male2]
+FamiliarName="Spacciatore di droga"
+UnfamiliarName="Spacciatore di droga"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di esplorazione"
+
+[LowerClassMale0]
+FamiliarName="Abitante del posto"
+UnfamiliarName="Abitante del posto"
+

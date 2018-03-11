@@ -1,0 +1,86 @@
+[Language]
+Language=Português (Brasileiro)
+LangId=91
+SubLangId=1
+
+[Public]
+Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
+
+[Errors]
+Unknown=Erro desconhecido
+Aborted=Cancelado
+ExportOpen=Erro ao exportar %s: Não foi possível abrir arquivo '%s'
+ExportWrite=Erro ao exportar %s: Não foi possível gravar no arquivo '%s'
+FileNotFound=Não foi possível localizar o arquivo '%s'
+ObjectNotFound=Não foi possível encontrar o objeto '%s %s.%s'
+PackageNotFound=Não foi possível localizar o arquivo para o bloco '%s'
+PackageResolveFailed=Não foi possível resolver o nome do bloco
+FilenameToPackage=Não foi possível converter o nome do arquivos '%s' para um nome válido
+Sandbox=Pacote '%s' não está acessível neste local
+PackageVersion=Versão do bloco '%s' incompatível
+FailedLoad=Falha ao carregar '%s': %s
+ConfigNotFound=Não foi possível localizar '%s' no arquivo de configuração
+LoadClassMismatch=%s não é um produto da classe %s.%s
+NotDll='%s' não é uma DLL válida; não foi possível exportar '%s'
+NotInDll=Não foi possível localizar '%s' em '%s.dll'
+FailedLoadPackage=Falha ao carregar: %s
+FailedLoadObject=Falha ao carregar '%s %s.%s': %s
+TransientImport=Transmitir objeto importado: %s
+FailedSavePrivate=Não foi possível salvar %s: Gráfico está ligado ao objeto externo privado %s
+FailedImportPrivate=Não foi possível importar objeto particular %s %s
+FailedCreate=%s %s não foi encontrado para criação
+FailedImport=Não foi possível localizar %s no arquivo '%s'
+FailedSaveFile=Erro ao salvar arquivo '%s': %s
+SaveWarning=Erro ao salvar '%s'
+NotPackaged=Objeto não está no bloco: %s %s
+NotWithin=Objeto %s %s criado em %s em vez de %s
+Abstract=Não foi possível criar objeto %s: classe %s é abstrata
+NoReplace=Impossível substituir %s por %s
+NoFindImport=Não foi possível localizar o arquivo '%s' para importação
+ReadFileFailed=Falha ao ler arquivo '%s' para importação
+SeekFailed=Erro ao buscar arquivo
+OpenFailed=Erro ao abrir arquivo
+WriteFailed=Erro ao gravar em arquivo
+ReadEof=Ler além do fim do arquivo
+IniReadOnly=O Arquivo %s está protegido contra gravação; as configurações não podem ser salvas
+UrlFailed=Falha ao carregar URL
+Warning=Aviso
+Question=Questão
+OutOfMemory=Memória virtual baixa. Para evitar esta mensagem novamente, você deve liberar mais espaço em seu disco rígido principal.
+History=História
+Assert=Falha de declaração: %s [File:%s] [Line: %i]
+Debug=Depuração falhou: %s [File:%s] [Line: %i]
+LinkerExists=Ligação para '%s' já existe
+BinaryFormat=O Arquivo '%s' contém dados irreconhecíveis
+SerialSize=%s: tamanho incompatível:obtido %i, esperado %i
+ExportIndex=Erro em índice de exportação %i/%i
+ImportIndex=Erro em índice de exportação %i/%i
+Password=Senha não reconhecida
+Exec=Comando não reconhecido
+BadProperty='%s': Propriedade inválida ou ausente '%s'
+MisingIni=Faltando arquivo .ini: %s
+
+[Query]
+OldVersion=O Arquivo %s foi salvo por uma versão anterior que não é compatível com a atual. Você pode tentar mesmo assim, mas poderá ocorrer erros. Deseja tentar mesmo assim?
+Name=Nome:
+Password=Senha:
+PassPrompt=Digite seu nome e senha:
+PassDlg=Verificação de identidade
+Overwrite=O Arquivo '%s' precisa ser atualizado. Deseja substituir a versão existente?
+
+[Progress]
+Saving=Salvando arquivo %s...
+Loading=Carregando arquivo %s...
+Closing=Fechando
+
+[General]
+Product=Unreal
+Engine=Engine Unreal
+Copyright=Copyright 1999 Epic Games, Inc.
+True=Verdadeiro
+False=Falso
+None=Nenhum
+Yes=Sim
+No=Não

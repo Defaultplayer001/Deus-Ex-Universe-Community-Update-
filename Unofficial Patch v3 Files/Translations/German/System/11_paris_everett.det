@@ -1,0 +1,68 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MorganEverett,KeyID=morganhelibaydoor,Description="Magnetsperren Helipad")"
+
+[NanoKey1]
+Description="Schlüssel für Aquariumsluke"
+
+[NanoKey0]
+Description="Schlüssel für Spiegelschloss"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[SkillAwardTrigger2]
+awardMessage="Fortschrittsbonus"
+
+[LuciusDeBeers0]
+FamiliarName="Lucius DeBeers"
+UnfamiliarName="Lucius DeBeers"
+
+[Mechanic0]
+FamiliarName="Verdächtiger Mechaniker"
+
+[Maid1]
+FamiliarName="Carmela"
+
+[SkillAwardTrigger1]
+awardMessage="Forschungsbonus"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[AIPrototype1]
+FamiliarName="Morpheus"
+UnfamiliarName="Prototyp-KI"
+
+[SkillAwardTrigger3]
+awardMessage="Einsatzziel-Bonus"
+
+[SkillAwardTrigger4]
+awardMessage="Forschungsbonus"
+
+[SkillAwardTrigger0]
+awardMessage="Forschungsbonus"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Lucius DeBeer",cameraTag=lucius_cam)"
+Views[1]="(titleString="Dach-Helipad",cameraTag=chopper_cam)"
+specialOptions[0]="(Text="Lebenserhaltungssystem abschalten",TriggerText="Lebenserhaltungssystem deaktiviert",TriggerEvent=lucius_dead,bTriggerOnceOnly=True)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Eindämmungsfeld 001",cameraTag=camerafield001,doorTag=field001)"
+Views[1]="(titleString="Eindämmungsfeld 002",cameraTag=camerafield002,doorTag=field002)"
+Views[2]="(titleString="KI Überwachung",cameraTag=AI_prototype)"
+specialOptions[0]="(bTriggerOnceOnly=True)"
+specialOptions[1]="(bTriggerOnceOnly=True)"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Lucius DeBeer",cameraTag=lucius_cam)"
+Views[1]="(titleString="Dach-Helipad",cameraTag=chopper_cam)"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Morgan Everetts Haus"
+startupMessage[0]="Morgan Everetts Haus"
+startupMessage[1]="Irgendwo in Paris"

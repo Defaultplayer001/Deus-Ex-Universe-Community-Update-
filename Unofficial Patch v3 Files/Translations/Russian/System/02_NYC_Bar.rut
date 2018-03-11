@@ -1,0 +1,34 @@
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Таверна 'Преисподняя'"
+
+[Female1]
+FamiliarName="Женщина в свитере"
+UnfamiliarName="Женщина в свитере"
+
+[JordanShea0]
+UnfamiliarName="Барменша"
+
+[Male0]
+FamiliarName="Дэн"
+UnfamiliarName="Рабочий"
+
+[JoeGreene0]
+UnfamiliarName="Продавец подержанных машин?"
+
+[Female0]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[SkillAwardTrigger6]
+awardMessage="Премия за выполнение"
+
+[Jock0]
+UnfamiliarName="Пилот"
+
+[Hooker0]
+FamiliarName="Джени"
+UnfamiliarName="Девушка"
+

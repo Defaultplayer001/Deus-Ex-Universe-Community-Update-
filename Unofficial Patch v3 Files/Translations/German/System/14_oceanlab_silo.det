@@ -1,0 +1,38 @@
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[ScientistMale0]
+FamiliarName="Dr. Bernard"
+
+[SecurityCamera38]
+FamiliarName="Raketensilo"
+
+[SkillAwardTrigger6]
+awardMessage="Durchführungsbonus"
+
+[SkillAwardTrigger1]
+awardMessage="Fortschrittsbonus"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Silo",cameraTag=rocketcam)"
+Views[1]="(titleString="Raketenantrieb",cameraTag=rocketcam2)"
+specialOptions[0]="(Text="Neuen Start initialisieren",TriggerText="Start eingeleitet",TriggerEvent=klax,bTriggerOnceOnly=True)"
+
+[SpecialEvent5]
+Message="Raketenstart abgebrochen"
+
+[NanoKey8]
+Description="Schlüssel zur Vordertür"
+
+[SkillAwardTrigger0]
+awardMessage="Durchführungsbonus"
+
+[NanoKey1]
+Description="LKW-Türen"
+
+[SecurityCamera3]
+FamiliarName="Raketensilo"
+
+[DeusExLevelInfo1]
+MissionLocation="Neue Westküste - Raketensilo"
+

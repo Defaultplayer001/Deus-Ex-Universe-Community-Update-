@@ -1,0 +1,16 @@
+[DeusExLevelInfo0]
+MissionLocation="UNATCO Curso de entrenamiento"
+
+[LevelSummary]
+Title="Sin título"
+
+[DeusExMover8]
+msgKeyLocked=""
+msgKeyUnlocked=""
+msgLockpickSuccess=""
+msgOneWayFail=""
+msgLocked=""
+msgPicking=""
+msgAlreadyUnlocked=""
+msgNoNanoKey=""
+

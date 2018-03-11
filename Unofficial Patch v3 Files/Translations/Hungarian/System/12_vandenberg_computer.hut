@@ -1,0 +1,32 @@
+[GarySavage0]
+UnfamiliarName="Tudós"
+
+[NanoKey0]
+Description="3. szinti komputerterem"
+
+[LevelSummary]
+Title="Untitled"
+
+[ScientistMale1]
+FamiliarName="Ben Roper"
+UnfamiliarName="Kutató"
+
+[ComputerPersonal1]
+specialOptions[0]="(Text="Csatlakozás a Milnethez",TriggerText="Milnethez való csatlakozás megtörtént.",TriggerEvent=Daedalus_linked,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Komputerterem"
+
+[SkillAwardTrigger15]
+awardMessage="Továbbjutási bónusz"
+
+[FlagTrigger0]
+Message="this is working damnit!"
+
+[ScientistFemale1]
+FamiliarName="Latasha Taylor"
+UnfamiliarName="Kutató"
+
+[Trigger1]
+Message="test"
+

@@ -1,0 +1,133 @@
+[ComputerPersonal0]
+specialOptions[0]="(Text="Disattivare bot di pattuglia militari ",TriggerText="Bot militari disattivati",TriggerEvent=ComputerSpecialOption_shutdown)"
+specialOptions[1]="(Text="Attivare bot di pattuglia militari",TriggerText="Bot militari attivati",TriggerEvent=ComputerSpecialOption_wakeup)"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - nei pressi degli Champs Elysses"
+startupMessage[0]="Parigi, sotto legge marziale"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di esplorazione"
+
+[Female4]
+FamiliarName="Agathe"
+UnfamiliarName="Madre"
+
+[Cop6]
+FamiliarName="Poliziotto"
+UnfamiliarName="Poliziotto"
+
+[Female6]
+FamiliarName="O"
+UnfamiliarName="Donna"
+
+[Cop8]
+FamiliarName="Poliziotto"
+UnfamiliarName="Poliziotto"
+
+[Cop4]
+FamiliarName="Poliziotto"
+UnfamiliarName="Poliziotto"
+
+[Butler0]
+FamiliarName="Portiere di notte"
+UnfamiliarName="Portiere di notte"
+
+[Maid0]
+FamiliarName="Cameriera d'albergo"
+UnfamiliarName="Cameriera d'albergo"
+
+[Janitor0]
+FamiliarName="Leone"
+UnfamiliarName="Leone"
+
+[ThugMale0]
+FamiliarName="Guy"
+UnfamiliarName="Guy"
+
+[Bartender0]
+FamiliarName="Barista dell'albergo"
+UnfamiliarName="Barista dell'albergo"
+
+[Businessman0]
+FamiliarName="Renault"
+UnfamiliarName="Renault"
+
+[Mutt0]
+FamiliarName="Starr"
+UnfamiliarName="Starr"
+
+[Male3]
+FamiliarName="Joshua"
+UnfamiliarName="Joshua"
+
+[Businessman2]
+FamiliarName="Rene"
+UnfamiliarName="Uomo"
+
+[Female2]
+FamiliarName="Kristi"
+UnfamiliarName="Entraineuse"
+
+[SkillAwardTrigger4]
+awardMessage="Bonus di esplorazione"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di individuazione"
+
+[Cop5]
+FamiliarName="Poliziotto"
+UnfamiliarName="Poliziotto"
+
+[Cop3]
+FamiliarName="Poliziotto"
+UnfamiliarName="Poliziotto"
+
+[Cop2]
+FamiliarName="Poliziotto"
+UnfamiliarName="Poliziotto"
+
+[Cop1]
+FamiliarName="Poliziotto"
+UnfamiliarName="Poliziotto"
+
+[Cop0]
+FamiliarName="Poliziotto"
+UnfamiliarName="Poliziotto"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger6]
+awardMessage="Bonus di esplorazione"
+
+[Chef1]
+FamiliarName="Cuoco del locale"
+UnfamiliarName="Cuoco del locale"
+
+[NanoKey0]
+Description="Chiave di albergo"
+
+[Cat0]
+FamiliarName="Kitty"
+UnfamiliarName="Kitty"
+
+[BlackHelicopter0]
+FamiliarName="Elicottero nero"
+UnfamiliarName="Elicottero nero"
+
+[Chef0]
+FamiliarName="Raymond"
+UnfamiliarName="Raymond"
+
+[ChildMale1]
+FamiliarName="Jon"
+UnfamiliarName="Jon"
+
+[Cop7]
+FamiliarName="Poliziotto"
+UnfamiliarName="Poliziotto"
+

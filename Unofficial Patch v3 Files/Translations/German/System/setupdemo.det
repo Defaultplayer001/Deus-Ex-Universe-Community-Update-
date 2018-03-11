@@ -1,0 +1,48 @@
+[Setup]
+LocalProduct=Deus-Ex-Demo
+DefaultFolder=C:\DeusExDemo
+ReadMe=Help\ReadMe.htm
+SetupWindowTitle=Deus-Ex-Demo-Setup
+AutoplayWindowTitle=Deus-Ex-Demo-Optionen
+ProductURL=http://www.deusex.com/
+VersionURL=http://www.deusex.com/versions.htm
+Developer=ION Storm Austin
+DeveloperURL=http://www.ionstorm.com/
+PublisherURL=http://www.eidos.com/
+Logo=Help\LogoSmall.bmp
+License=License.det
+
+[General]
+Dieses Level von Deus Ex &spielen
+OpenLinkCommand=Diesen Deus-Ex-Link öffnen
+EditLevelCommand=Dieses Level von Deus Ex b&earbeiten
+
+[GameGroup]
+Caption=Deus-Ex-System
+Description=Deus-Ex-Systemdateien. Installation erforderlich.
+
+[DirectXGroup]
+Caption=DirectX
+Description=Microsoft DirectX 7.0a Treiber für erweiterte Grafik, Sound und Joystick-Unterstützung. Wenn Sie DirectX 7.0a nicht installiert haben, müssen Sie diese Option wählen.
+
+[PlayShortcut]
+Caption=Deus-Ex-Demo spielen
+
+[SafeModeShortcut]
+Caption=Deus-Ex-Demo Abgesicherter Modus
+
+[DocumentationShortcut]
+Caption=Hinweise
+
+[ProductWebShortcut]
+Caption=Deus-Ex-Webseite
+
+[DeveloperWebShortcut]
+Caption=Ion-Storm-Webseite
+
+[PublisherWebShortcut]
+Caption=Eidos-Interactive-Webseite
+
+[UninstallShortcut]
+Caption=Deus-Ex-Demo deinstallieren
+

@@ -1,0 +1,64 @@
+[Errors]
+Critical=Critical Error
+FailedConfigLoad=%s (failed load)
+
+[General]
+BrowseButton=...
+UseButton=Use
+ClearButton=Clear
+OkButton=Ok
+AddButton=Add
+EmptyButton=Empty
+InsertButton=Insert
+DeleteButton=Delete
+DefaultsButton=Reset To Defaults
+BackButton=< &Back
+NextButton=&Next >
+FinishButton=&Finish
+CancelButton=Cancel
+InstallButton=&Install
+YesButton=&Yes
+NoButton=&No
+AgreeButton=I &Agree
+LanguagePrompt=Language:
+LanguageWindow=Language Selection
+LogWindow=%s Log Window
+PropNone=Nothing Selected
+PropSingle=%s Properties
+PropMulti=%s Properties (%i selected)
+InsertCdText=Deus ExのCD-ROMをお使いのPCのCDドライブに挿入し、OKをクリックすると先へ進みます。CancelでWindows画面に戻ります
+InsertCdTitle=Cd Required At Startup
+AdvancedOptionsTitle=Advanced Options
+Low=Low
+High=High
+
+[FirstRun]
+Caption=Initial Configuration
+LowMemory=このコンピュータの空きメモリーは%iメガバイトです。パフォーマンスをあげるためには、［Detail Textures］をLowにし、［Sound Quality］をLowにする方法があります。その設定は［Performance Settings］のメニューで変更できます
+NonMMX=このコンピュータは non-MMX PCを使用しています。音の再生レートは最低限のCPUを使うように設定されています。この設定の変更は［Advanced Options / Audio］メニューで行います
+Starting=Deus Ex は新たなセッティングを開始しました。問題が起きたときは、［Start］メニューにあるリリース・メモのトラブルシューティングを見てください
+
+[IDDIALOG_Directory]
+IDC_Directory=Installation Folder
+IDC_ChoosePrompt=Please choose the installation folder.
+IDC_PathTitle=&Path:
+IDC_DirectoryTitle=&Directories:
+IDC_DrivesTitle=Dri&ves:
+IDC_NetworkButton=&Network
+
+[IDDIALOG_Password]
+IDC_Password=Password Check
+IDC_Prompt=Please enter your name and password.
+IDC_Name=&Name:
+IDC_Password=&Password:
+
+[IDMENU_NotifyIcon]
+ID_NotifyIcon=Menu
+ID_NotifyShowLog=&UnrealServer Console
+ID_NotifyAdvancedOptions=&Advanced Options
+ID_NotifyExit=E&xit UnrealServer
+
+[IDMENU_Log]
+ID_LogFile=&File
+ID_LogAdvancedOptions=&Advanced Options
+ID_LogFileExit=E&xit

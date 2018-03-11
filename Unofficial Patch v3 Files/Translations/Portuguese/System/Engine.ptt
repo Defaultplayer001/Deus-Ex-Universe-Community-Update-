@@ -1,0 +1,161 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+
+[Errors]
+NetOpen=Erro ao abrir arquivo
+NetWrite=Erro ao gravar arquivo
+NetRefused='%s' recusado pelo servidor
+NetClose=Erro ao fechar arquivo
+NetSize=Tamanho do arquivo incompatível
+NetMove=Erro ao mover arquivo
+NetInvalid=Requisição de arquivo inválida
+NoDownload=O bloco '%s' não está disponível para download
+DownloadFailed=Falha ao baixar '%s': %s
+RequestDenied=Servidor requisitou arquivo de nível pendente: Negado
+ConnectionFailed=Conexão falhou
+ChAllocate=Não foi possível localizar o canal
+NetAlready=Já encontra-se na rede
+NetListen=Erro na conexão: Contexto de conexão não disponível
+LoadEntry=Impossível carregar a entrada: %s
+InvalidUrl=URL inválida: %s
+InvalidLink=Link inválido: %s
+FailedBrowse=Falha ao entrar em %s: %s
+Listen=Conexão falhou: %s
+AbortToEntry=Falha; retornando à entrada
+ServerOpen=Servidores não podem abrir URLs de rede
+ServerListen=Servidor dedicado não responde: %s
+LoadPlayerClass=Falha ao carregar classe do jogador
+ServerOutdated=Versão antiga do servidor 
+
+[Progress]
+CancelledConnect=Tentativa de conexão cancelada
+RunningNet=%s: %s (%i jogadores)
+NetReceiving=Recebendo '%s': %i/%i
+NetReceiveOk='%s' recebido com sucesso
+NetSend=Enviando '%s'
+NetSending=Enviando '%s': %i/%i
+Connecting=Conectando...
+Listening=Aguardando clientes...
+Loading=Carregando
+Saving=Salvando
+Paused=Pausado por %s
+ReceiveFile=Recebendo '%s' (F10 Cancela)
+ReceiveSize=Tamanho %iK, Completo %3.1f%%
+ConnectingText=Conectando (F10 Cancela):
+ConnectingURL=deusex://%s/%s
+
+
+[Console]
+ClassCaption=Console padrão Deus Ex
+LoadingMessage=CARREGANDO
+SavingMessage=SALVANDO
+ConnectingMessage=CONECTANDO
+PausedMessage=PAUSADO
+PrecachingMessage=ARMAZENANDO EM CACHE
+ChatChannel=(CHAT) 
+TeamChannel=(EQUIPE) 
+
+[General]
+Upgrade=Para entrar neste servidor, você precisa da ultima atualização de Deux Ex disponível no site da Ion Storm:
+UpgradeURL=http://www.deusex.com/upgrade
+UpgradeQuestion=Deseja iniciar seu navegador e ir à página de atualização agora?
+Version=Versão %i
+
+[Menu]
+HelpMessage=
+MenuList=
+LeftString=Esquerda
+RightString=Direita
+CenterString=Centro
+EnabledString=Ativado
+DisabledString=Desativado
+HelpMessage[1]="Este menu ainda não foi ativado."
+YesString=Sim
+NoString=Não
+
+[Inventory]
+PickupMessage=Item coletado
+M_Activated=" ativado"
+M_Selected=" selecionado"
+M_Deactivated=" desativado"
+ItemArticle=um(a)
+
+[WarpZoneInfo]
+OtherSideURL=
+
+[GameInfo]
+SwitchLevelMessage=Trocando mapa
+DefaultPlayerName=Jogador
+LeftMessage=" abandonou o jogo."
+FailedSpawnMessage=Falha ao criar personagem
+FailedPlaceMessage=Impossível encontrar ponto de início (nível pode precisar de um personagem de "início de jogo")
+NameChangedMessage=Nome alterado para
+EnteredMessage=" entrou no jogo."
+GameName="Jogo"
+MaxedOutMessage=Servidor cheio.
+WrongPassword=Senha incorreta.
+NeedPassword=Você precisa de uma senha para entrar neste jogo.
+FailedTeamMessage=Impossível encontrar time para o jogador
+
+[LevelInfo]
+Title=Sem título
+
+[Weapon]
+MessageNoAmmo=" sem munição."
+PickupMessage=Você encontrou uma arma
+DeathMessage=%o foi morto por %k com %w.
+ItemName=arma
+DeathMessage[0]=%o foi morto por %k com %w.
+DeathMessage[1]=%o foi morto por %k com %w.
+DeathMessage[2]=%o foi morto por %k com %w.
+DeathMessage[3]=%o foi morto por %k com %w.
+
+[Counter]
+CountMessage=Faltam somente %i para iniciar...
+CompleteMessage=Completado!
+
+[Ammo]
+PickupMessage=Você encontrou munição.
+
+[Pickup]
+ExpireMessage=
+
+[SpecialEvent]
+DamageString=
+
+[DamageType]
+Name=morto
+AltName=morto
+
+[PlayerPawn]
+QuickSaveString=Salvamento rápido
+NoPauseMessage=Não é possível pausar o jogo
+ViewingFrom=Vendo agora de
+OwnCamera=cÂmera particular
+FailedView=Falha ao trocar visão.
+CantChangeNameMsg=Você não pode trocar seu nome durante uma partida de acesso global.
+
+[Pawn]
+NameArticle=" um(a) "
+
+[Spectator]
+MenuName=Espectador
+
+[ServerCommandlet]
+HelpCmd=servidor
+HelpOneLiner=Servidor de jogo em rede
+HelpUsage=mapa do servidor.unr[?game=gametype] [-option...] [parm=value]...
+HelpWebLink=http://www.deusex.com
+HelpParm[0]=Registro
+HelpDesc[0]=Especifique o arquivo de registro a ser criado
+HelpParm[1]=TodosAdmin
+HelpDesc[1]=Conceder privilégio de administrador a todos os jogadores
+
