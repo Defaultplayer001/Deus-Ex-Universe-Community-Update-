@@ -176,7 +176,6 @@ Changelog
 -XP Compatability (removed all commands not present in XP, older Deus Exe included in files)
 
 To do
--Beta(100f) plasma effect restoration
 -Huren,Biomod,Shifter, Shifter+, Vanilla Matters install options
 -Look into having a seperate GMDX and Revision demo installer (very unlikely to be possible for either)
 -HDTPAway would help with this, look into the source more
@@ -216,9 +215,18 @@ To do
 -switch to setup manifest not patch
 -for confix translations remember to DELET/COPY AUDIO
 -check ambrosia code for 747 and boathouse, specifically what happens if you check the boathouse last. looks like it says one barrel is left
+-Alex emp'd bot message on lib island restoration
+-Redarrow01 restoration on wanchai market
 -trello
 -git
 -apple and linux support
+https://www.gog.com/forum/deus_ex_series/deus_ex_for_linux/page2
+https://www.gog.com/forum/deus_ex_series/how_to_play_deus_ex_on_a_mac
+-figure out updated files
+-look into server download 
+-as part of the AIO idea I should setup a framework for individual installers, maybe even modfiy modloader to create automated dx installs
+-5/25
+-Rero
 
 Controller
 -Add ps2 Tutorial convo
