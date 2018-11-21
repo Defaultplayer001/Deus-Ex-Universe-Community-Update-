@@ -1,6 +1,6 @@
 ﻿[Setup]
 LocalProduct=Nemhivatalos Deus Ex hibajavítás
-DefaultFolder=C:\DeusEx
+DefaultFolder=C:\DeusExPS2
 ReadMe=Help\ReadMe.htm
 SetupWindowTitle=A nemhivatalos Deus Ex hibajavítás telepítõje
 AutoplayWindowTitle=A Deus Ex beállításai

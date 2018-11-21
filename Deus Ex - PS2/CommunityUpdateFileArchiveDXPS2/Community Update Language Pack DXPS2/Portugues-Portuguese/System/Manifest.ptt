@@ -1,6 +1,6 @@
 [Setup]
 LocalProduct=Deus Ex PS2
-DefaultFolder=C:DeusEx
+DefaultFolder=C:\DeusExPS2
 ReadMe=HelpReadMe.htm
 SetupWindowTitle=Deus Ex - Instalação PS2
 AutoplayWindowTitle=Deus Ex - Opções
