@@ -154,7 +154,7 @@ I'll get you interested in playing this eventually!
 
 Credits:
 
-	Ion Storm: 
+##Ion Storm: 
 Official Patch & Demo
 https://www.fileplanet.com/45404/40000/fileinfo/Deus-Ex-Demo
 https://www.fileplanet.com/47283/40000/fileinfo/Deus-Ex-Extra-Mission-Pack-for-Demo
@@ -163,7 +163,7 @@ https://www.fileplanet.com/59470/50000/fileinfo/Deus-Ex-Patch-v1112fm
 Used for Patch and Demo, as well as the core setup. 
 Full credits should be the same as the final game, located in Credits.DX
 
-	Caustic Creative (Creators of Revision): 
+##Caustic Creative (Creators of Revision): 
 https://www.dx-revision.com/
 
 Hawk: ConFix, Support, pointed out D3D10Drv Int typo
@@ -184,7 +184,7 @@ Maiar Henry: Portuguese-BR Translation.
 
 Bjorn Ehrby, Hawk: Same as Revision credits
 
-	Deus Ex Community HQ Discord Server Members: 
+##Deus Ex Community HQ Discord Server Members: 
 
 WCCC: Support
 
@@ -235,7 +235,7 @@ http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 Kaiser: Original Install Script Base
 https://github.com/Kaiz0r/
 
-Deus Ex Magyarító Csapat /  Deus Ex Hungarian Translation Team : Hungarian Translation.
+Deus Ex MagyarÃ­tÃ³ Csapat /  Deus Ex Hungarian Translation Team : Hungarian Translation.
 Biwdy: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation,  provided sources for Portugeuse(I spelled this wrong didn't I, run through spellcheck) and Czech translations
 
 Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, 
