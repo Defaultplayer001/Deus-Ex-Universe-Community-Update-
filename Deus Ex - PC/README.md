@@ -154,7 +154,7 @@ I'll get you interested in playing this eventually!
 
 Credits:
 
-#### Ion Storm: 
+### Ion Storm: 
 Official Patch & Demo
 https://www.fileplanet.com/45404/40000/fileinfo/Deus-Ex-Demo
 https://www.fileplanet.com/47283/40000/fileinfo/Deus-Ex-Extra-Mission-Pack-for-Demo
@@ -163,7 +163,7 @@ https://www.fileplanet.com/59470/50000/fileinfo/Deus-Ex-Patch-v1112fm
 Used for Patch and Demo, as well as the core setup. 
 Full credits should be the same as the final game, located in Credits.DX
 
-#### Caustic Creative (Creators of Revision): 
+### Caustic Creative (Creators of Revision): 
 https://www.dx-revision.com/
 
 Hawk: ConFix, Support, pointed out D3D10Drv Int typo
@@ -173,7 +173,7 @@ Bjorn Ehrby: RF (Revision Framework), Support
 Hanfling: Launch, RF (Revision Framework), & Support, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 
-#### The Nameless Mod Update Team:
+### The Nameless Mod Update Team:
 http://www.offtopicproductions.com/forum/
 
 Bogie: ConFix, Support, HXExt
@@ -184,7 +184,7 @@ Maiar Henry: Portuguese-BR Translation.
 
 Bjorn Ehrby, Hawk: Same as Revision credits
 
-#### Deus Ex Community HQ Discord Server Members: 
+### Deus Ex Community HQ Discord Server Members: 
 
 WCCC: Support
 
