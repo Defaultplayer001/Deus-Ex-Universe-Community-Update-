@@ -4,9 +4,9 @@ rem Defaultplayer001@gmail.com
 rem Put the subject as "UPv3 project"
 
 rem Official Deus Ex setup file modification, choices left for fallback, comment out the next line for normal usage.
-goto :setsetupflag
+rem goto :setsetupflag
 rem PS2 setup version! 
-rem goto :setps2setupflag
+goto :setps2setupflag
 
 Set setup=no
 :choice
