@@ -6,7 +6,9 @@ https://www.reddit.com/r/dxarchive/
 
 It includes every patch, alternate exe/renderer as well as every translation we know of. 
 
-Also included are the original demo files which you apply the multiplayer patch too. 
+Also included are the original demo files which you apply the 
+multiplayer patch too. 
+
 This let's you play the full multiplayer and singleplayer up to the end of mission 2!
 
 A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
@@ -154,7 +156,7 @@ Ebay:
 
 https://www.ebay.com/b/2000-Video-Games-Deus-Ex/139973/bn_80327271
 
-If you are seriously unable to afford a digital copy(can regularly be had for 1$ at sales!), message DefaultPlayer with a completed demo save file, and I'll probably send you a spare key! 
+If you are seriously unable to afford a digital copy (can regularly be had for 1$ at sales!) - message DefaultPlayer with a completed demo save file, and I'll probably send you a spare key! 
 
 ***
 
@@ -301,7 +303,7 @@ Mothership Loudspeaker: Additional Italian manifest translations
 
 Totalitarian: Support
 
-GiveMeDeusEx.com
+http://www.GiveMeDeusEx.com
 
 Deus Ex Network: Master Server Patch and Instructions.
 
