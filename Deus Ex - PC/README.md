@@ -201,7 +201,8 @@ Machete: Support, Port tool (still need to get this from him!)
 
 Fear/Mouse: Support
 
-Kaiser: Support
+Kaiser: Support, Original Install Script Base
+https://github.com/Kaiz0r/
 
 Bogie: Support
 
@@ -220,6 +221,7 @@ Thanks so much to both the TNM & Revision teams, and everyone in the community!
 This wouldn't be possible without you guys!
 
 ***
+### Individual Credits
 
 Yukichigai: Deus Ex Unofficial Patch v2
 http://www.moddb.com/games/deus-ex/downloads/deus-ex-unofficial-patch-v2 
@@ -246,9 +248,6 @@ http://www.ttlg.com/forums/showthread.php?t=115269
 
 Smirftsch: OpenAL
 http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
-
-Kaiser: Original Install Script Base
-https://github.com/Kaiz0r/
 
 Deus Ex Magyarító Csapat /  Deus Ex Hungarian Translation Team : Hungarian Translation.
 Biwdy: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation,  provided sources for Portugeuse(I spelled this wrong didn't I, run through spellcheck) and Czech translations
