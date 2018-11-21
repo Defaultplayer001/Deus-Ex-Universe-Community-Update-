@@ -204,14 +204,21 @@ Fear/Mouse: Support
 Kaiser: Support
 
 Bogie: Support
- 
-Thanks so much to both the TNM & Revision teams, and everyone in the community!
-This wouldn't be possible without you guys!
 
+
+### Deus Ex Archive: 
+https://www.reddit.com/r/dxarchive
+
+File resource - Countless contributors - direct & indirect
 
 Xen:Creator of the Deus Ex Archive. Portuguese-PT translation
 
-Deus Ex Archive: File resource - Countless contributors - direct & indirect
+Defaultplayer: Co-creator
+
+
+Thanks so much to both the TNM & Revision teams, and everyone in the community!
+This wouldn't be possible without you guys!
+
 
 Yukichigai: Deus Ex Unofficial Patch v2
 http://www.moddb.com/games/deus-ex/downloads/deus-ex-unofficial-patch-v2 
