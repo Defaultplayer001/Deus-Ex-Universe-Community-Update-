@@ -154,7 +154,7 @@ I'll get you interested in playing this eventually!
 
 Credits:
 
-##Ion Storm: 
+#Ion Storm: 
 Official Patch & Demo
 https://www.fileplanet.com/45404/40000/fileinfo/Deus-Ex-Demo
 https://www.fileplanet.com/47283/40000/fileinfo/Deus-Ex-Extra-Mission-Pack-for-Demo
