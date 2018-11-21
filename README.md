@@ -10,16 +10,22 @@ Also included are the original demo files which you apply the multiplayer patch 
 This let's you play the full multiplayer and singleplayer up to the end of mission 2!
 
 A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
+
 Keybinds and guide can be found in the Help folder.
+
 Note that you will have to exit the program manually from the icon tray if you want to stop the controller registering as mouse&keyboard input. 
 
 Updates to included files have been and will continue to be done. Please report any bugs! 
 
 We have a discord here:
+
 https://discord.gg/75UpZhy
+
 Feel free to stop by with any bugs, questions, comments or criticisms.
 
-Bugs can also be reported directly to our Trello: https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
+Bugs can also be reported directly to our Trello: 
+
+https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
 
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
