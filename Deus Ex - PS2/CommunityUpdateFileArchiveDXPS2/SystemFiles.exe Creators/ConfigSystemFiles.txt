@@ -1,0 +1,4 @@
+;!@Install@!UTF-8!
+Title="PS2 Emulator Files"
+InstallPath="."
+;!@InstallEnd@!

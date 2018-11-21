@@ -1,0 +1,86 @@
+[Language]
+Language=Espanol
+LangId=10
+SubLangId=0
+
+[Public]
+Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
+
+[Errors]
+Unknown=Error desconocido
+Aborted=Abortado
+ExportOpen=Error al exportar %s: no se ha podido abrir el archivo '%s'
+ExportWrite=Error al exportar %s: no se ha podido escribir en archivo '%s'
+FileNotFound=No se ha encontrado  '%s'
+ObjectNotFound=No se ha encontrado el objeto '%s %s.%s'
+PackageNotFound=No se ha encontrado archivo para bloque '%s'
+PackageResolveFailed=No se puede determinar el nombre del bloque
+FilenameToPackage=No se puede convertir el nombre de archivo '%s' en nombre de bloque
+Sandbox=El bloque '%s' no es accesible en este cajón
+PackageVersion=Incompatibilidad de la versión del bloque '%s' 
+FailedLoad=Error al cargar '%s': %s
+ConfigNotFound=Imposible encontrar '%s' en el archivo de configuración
+LoadClassMismatch=%s no es una clase producto de %s.%s
+NotDll='%s' no es un bloque DLL; no se encuentra exportación '%s'
+NotInDll=No se encuentra '%s' en '%s.dll'
+FailedLoadPackage=Imposible cargar bloque: %s
+FailedLoadObject=Imposible cargar '%s %s.%s': %s
+TransientImport=Objeto transitorio importado: %s
+FailedSavePrivate=Imposible guardar %s: gráfico unido a objeto privado externo %s
+FailedImportPrivate=Imposible importar objeto privado %s %s
+FailedCreate=No encontrado %s %s para crearlo
+FailedImport=No encontrado %s en archivo '%s'
+FailedSaveFile=Error al guardar archivo '%s': %s
+SaveWarning=Error al guardar '%s'
+NotPackaged=Objeto no está en bloque: %s %s
+NotWithin=El objeto %s %s creado en %s en lugar de en %s
+Abstract=Imposible crear objeto %s: la clase %s es abstracta
+NoReplace=Imposible sustituir %s por %s
+NoFindImport=No encontrado el archivo '%s' para importarlo
+ReadFileFailed=Error al leer archivo '%s' para importarlo
+SeekFailed=Error al buscar el archivo
+OpenFailed=Error al abrir el archivo
+WriteFailed=Error al escribir en el archivo
+ReadEof=Léase más allá del final del archivo
+IniReadOnly=Archivo %s protegido contra escritura; no se puede guardar configuración 
+UrlFailed=Error al lanzar URL
+Warning=Aviso
+Question=Pregunta
+OutOfMemory=No hay más memoria virtual. Para evitar esto, debe liberar más espacio en su disco duro principal.
+History=Historia
+Assert=Error de aserción: %s [File:%s] [Line: %i]
+Debug=Error de aserción del depurador: %s [File:%s] [Line: %i]
+LinkerExists=El encadenador de '%s' ya existe
+BinaryFormat=El archivo '%s' contiene datos irreconocibles
+SerialSize=%s: Incompatibilidad del tamaño de serie: se ha introducido %i, se esperaba %i
+ExportIndex=Índice de exportación erróneo %i/%i
+ImportIndex=Índice de importación erróneo %i/%i
+Password=Contraseña incorrecta
+Exec=Orden desconocida
+BadProperty='%s': Falta la propiedad '%s' o es errónea
+MisingIni=Falta el archivo .ini: %s
+
+[Query]
+OldVersion=El archivo %s se ha guardado con una versión anterior que es incompatible con la actual si se volviera a la antigua.  La lectura del mismo probablemente falle, y puede producir una caída. ¿Desea intentarlo de todas formas?
+Name=Nombre:
+Password=Contraseña:
+PassPrompt=Introduzca su nombre y contraseña:
+PassDlg=Comprobación de la identidad
+Overwrite=Necesario actualizar el archivo '%s'  ¿Desea sobrescribir la versión actual?
+
+[Progress]
+Saving=Guardando archivo %s...
+Loading=Cargando archivo %s...
+Closing=Cerrando
+
+[General]
+Product=Irreal
+Engine=Motor de Irreal
+Copyright=Copyright 1999 Epic Games, Inc.
+True=Verdadero
+False=Falso
+None=Ninguno
+Yes=Sí
+No=No

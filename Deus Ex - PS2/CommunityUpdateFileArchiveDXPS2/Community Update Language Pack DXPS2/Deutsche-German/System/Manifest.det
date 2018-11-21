@@ -1,0 +1,114 @@
+[Setup]
+LocalProduct=Deus Ex PS2
+DefaultFolder=C:\DeusEx
+ReadMe=Help\ReadMe.htm
+SetupWindowTitle=Deus-Ex-PS2-Setup
+AutoplayWindowTitle=Deus-Ex-Optionen
+ProductURL=http://www.deusex.com/
+VersionURL=http://www.deusex.com/versions.htm
+Developer=ION Storm Austin
+DeveloperURL=http://www.ionstorm.com/
+PublisherURL=http://www.eidos.com/
+Logo=Help\LogoSmall.bmp
+License=License.det
+
+[General]
+PlayLevelCommand=Dieses Level von Deus Ex &spielen
+OpenLinkCommand=Diesen Deus-Ex-Link &öffnen
+EditLevelCommand=Dieses Level von Deus Ex b&earbeiten
+
+[GameGroup]
+Caption=Deus-Ex-System
+Description=Deus-Ex-Systemdateien. Installation erforderlich.
+
+[DeusExContentGroup]
+Caption=Deus-Ex-Spielinhalte
+Description=Deus-Ex-Spielinhalte (Texturen, Soundeffekte und Musik) - Installieren Sie diese Komponenten, um die Leistung des Spiels zu verbessern. Andernfalls werden diese Komponenten von CD geladen. Die Installation ist optional.
+
+[DeusExMapsGroup]
+Caption=Deus-Ex-Karten
+Description=Deus-Ex-Karten - Installieren Sie diese Dateien, um die Leistung des Spiels zu verbessern. Andernfalls werden die Karten während des Spiels von CD geladen. Die Installation ist optional.
+
+[DeusExSpeechGroup]
+Caption=Deus-Ex-Sprachdateien
+Description=Deus-Ex-Sprachdateien - Installieren Sie die Sprachdateien, um die Leistung des Spiels zu verbessern. Andernfalls werden die Sprachdateien während des Spiels von CD geladen. Die Installation ist optional.
+
+[EditorGroup]
+Caption=Deus-Ex-Editor
+Description=Deus-Ex-Editor - Mit dem Editor erschaffen Sie Ihre eigenen 3D-Welten für Deus Ex. Nur für erfahrene Anwender. Die Installation ist optional.
+
+[DirectXGroup]
+Caption=DirectX
+Description=Microsoft DirectX 7.0a Treiber für erweiterte Grafik, Sound und Joystick-Unterstützung. Wenn Sie DirectX 7.0a nicht installiert haben, müssen Sie diese Option wählen.
+
+[PlayShortcut]
+Caption=Deus Ex spielen
+
+[SafeModeShortcut]
+Caption=Deus Ex Abgesicherter Modus
+
+[EditorShortcut]
+Caption=Deus-Ex-Editor
+
+[DocumentationShortcut]
+Caption=Hinweise
+
+[ProductWebShortcut]
+Caption=Deus-Ex-Webseite
+
+[DeveloperWebShortcut]
+Caption=Ion-Storm-Webseite
+
+[PublisherWebShortcut]
+Caption=Eidos-Interactive-Webseite
+
+[UninstallShortcut]
+Caption=Deus Ex deinstallieren
+
+;//  PatchGroup translation added from 1109fm_D1 patch manifest.det for Unofficial Patch v3 by Defaultplayer 2018/04/17  //
+
+[PatchFixShortcut]
+Caption=Patch Fixes
+
+[PatchGroup]
+Caption=Deus Ex Patch 1
+Description=Deus Deus-Ex-Systemdateien. Installation erforderlich.
+
+;//  DemoGroup added for Unofficial Patch v3 by Defaultplayer 2018/04/19  //
+
+[DemoGroup]
+Caption=Deus Ex Demo
+Description=Deus Ex demo files. Includes Missions 1 and 2. Installation is optional.
+
+;//  Extra Groups added for Unofficial Patch v3 by Defaultplayer 2018/04/26  //
+
+[ExtraGroup]
+Caption=Extras
+Description=English only extras. These include the gameplay mods: Shifter, Biomod, Huren and Vanilla Matters. Installation is optional.
+
+[ShifterGroup]
+Caption=Shifter
+Description="Removing the suck from Deus Ex." It's an odd slogan, but that's what Shifter does. Includes additional augmentations, unique weapons, new game mechanics, bugfixes, restored game content, and working alt-fire option for almost every weapon. Seamlessly integrated into the existing game, capable of running simultaneously with almost any other Deus Ex mod. -Edited description for UPV3
+
+[BiomodGroup]
+Caption=Biomod
+Description=An extension of the Shifter mod. primarily focused with augmentations and making them more balanced and easier to handle. Most now automated,the hard to manage made free or extended, the unsavable replaced with new augs. Gameplay changes include pickpocketing, autosaving, achievement-like challenges, and a Thief style ledge grabbing system. -Edited description for UPV3
+
+[HurenGroup]
+Caption=Human Renovation
+Description=An expansion of Unofficial Patch v2. I noticed a surprising number of things that could be fixed, both old and new. It's mostly bugfixing and balance-tweaking, without many major content changes at all; I was going more for a "patch" approach than a "mod" approach, despite the fact that a few bits of content notably have been changed. -Edited description for UPV3
+
+[VanillaMattersGroup]
+Caption=Vanilla Matters
+Description=A light-weight mod aimed to smooth out the rough edges of the vanilla experience. Does not try to alter the way you should experience the game, nor make any compromise to the original experience. Fixes numerous bugs and exploits, adds in quality of life features and most importantly re-balances the game to allow more diverse, fun character developments. -Edited description for UPV3
+
+;//  HXGroup added for Unofficial Patch v3 by Defaultplayer 2018/04/26  //
+
+[HXGroup]
+Caption=HX Co-op
+Description=Co-op modification to play the singleplayer storyline in multiplayer. WIP and has bugs, but mostly stable! -Edited description for UPV3
+
+;1002fMapsGroup added for unofficial Patch V3 by Defaultplayer 2018/11/11
+
+[1002fMapsGroup]
+Caption=1002f Maps

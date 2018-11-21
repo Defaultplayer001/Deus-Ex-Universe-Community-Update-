@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + configsystemfiles.txt + SystemFilesFRT.7z SystemFilesFRT.exe

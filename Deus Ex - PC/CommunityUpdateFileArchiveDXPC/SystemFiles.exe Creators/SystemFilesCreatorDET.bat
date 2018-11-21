@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + configsystemfiles.txt + SystemFilesDET.7z SystemFilesDET.exe

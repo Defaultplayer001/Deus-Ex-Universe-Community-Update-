@@ -1,1 +1,0 @@
-copy /b 7zS.sfx + configsystemfiles.txt + SystemFilesCZT.7z SystemFilesCZT.exe

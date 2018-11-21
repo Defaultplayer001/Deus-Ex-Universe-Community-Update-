@@ -1,0 +1,79 @@
+[Setup]
+LocalProduct=Deus Ex PS2
+DefaultFolder=C:DeusEx
+ReadMe=HelpReadMe.htm
+SetupWindowTitle=Deus Ex - Instalação PS2
+AutoplayWindowTitle=Deus Ex - Opções
+ProductURL=http://www.deusex.com/
+VersionURL=http://www.deusex.com/versions.htm
+Developer=ION Storm Austin
+DeveloperURL=http://www.ionstorm.com/
+PublisherURL=http://www.eidos.com/
+Logo=HelpLogoSmall.bmp
+License=License.int
+
+[General]
+PlayLevelCommand=&Jogar este nível de Deus Ex
+OpenLinkCommand=&abrir este link de Deus Ex
+EditLevelCommand=&Editar este nível de Deus Ex
+
+[PatchGroup]
+Caption=Deus Ex atualização 1
+Description=Arquivos de atualização de Deus Ex. Instalação necessária.
+
+[Patch1DocumentationShortcut]
+Caption=Documentação 1 de atualização
+
+[MPDocumentationShortcut]
+Caption=Documentação multijogador
+
+[MPStrategyGuideShortcut]
+Caption=Guia de estratégia multijogador
+
+[MPAdminShortcut]
+Caption=Administração - multijogador
+
+[MPMapShortcut]
+Caption=Multijogador - criação de mapas
+
+[PatchFixShortcut]
+Caption=Atualizações e correções
+
+;//  DemoGroup added for Unofficial Patch v3 by Defaultplayer 2018/04/19  //
+
+[DemoGroup]
+Caption=Deus Ex Demo
+Description=Deus Ex demo files. Includes Missions 1 and 2. Installation is optional.
+
+;//  Extra Groups added for Unofficial Patch v3 by Defaultplayer 2018/04/26  //
+
+[ExtraGroup]
+Caption=Extras
+Description=English only extras. These include the gameplay mods: Shifter, Biomod, Huren and Vanilla Matters. Installation is optional.
+
+[ShifterGroup]
+Caption=Shifter
+Description="Removing the suck from Deus Ex." It's an odd slogan, but that's what Shifter does. Includes additional augmentations, unique weapons, new game mechanics, bugfixes, restored game content, and working alt-fire option for almost every weapon. Seamlessly integrated into the existing game, capable of running simultaneously with almost any other Deus Ex mod. -Edited description for UPV3
+
+[BiomodGroup]
+Caption=Biomod
+Description=An extension of the Shifter mod. primarily focused with augmentations and making them more balanced and easier to handle. Most now automated,the hard to manage made free or extended, the unsavable replaced with new augs. Gameplay changes include pickpocketing, autosaving, achievement-like challenges, and a Thief style ledge grabbing system. -Edited description for UPV3
+
+[HurenGroup]
+Caption=Human Renovation
+Description=An expansion of Unofficial Patch v2. I noticed a surprising number of things that could be fixed, both old and new. It's mostly bugfixing and balance-tweaking, without many major content changes at all; I was going more for a "patch" approach than a "mod" approach, despite the fact that a few bits of content notably have been changed. -Edited description for UPV3
+
+[VanillaMattersGroup]
+Caption=Vanilla Matters
+Description=A light-weight mod aimed to smooth out the rough edges of the vanilla experience. Does not try to alter the way you should experience the game, nor make any compromise to the original experience. Fixes numerous bugs and exploits, adds in quality of life features and most importantly re-balances the game to allow more diverse, fun character developments. -Edited description for UPV3
+
+;//  HXGroup added for Unofficial Patch v3 by Defaultplayer 2018/04/26  //
+
+[HXGroup]
+Caption=HX Co-op
+Description=Co-op modification to play the singleplayer storyline in multiplayer. WIP and has bugs, but mostly stable! -Edited description for UPV3
+
+; 1002fMapsGroup 1002fMapsGroup added for unofficial Patch V3 by Defaultplayer 2018/11/11
+
+[1002fMapsGroup]
+Caption=1002f Maps
