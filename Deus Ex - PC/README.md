@@ -154,16 +154,23 @@ I'll get you interested in playing this eventually!
 
 Credits:
 
-##Ion Storm: 
+### Ion Storm: 
+
 Official Patch & Demo
+
 https://www.fileplanet.com/45404/40000/fileinfo/Deus-Ex-Demo
+
 https://www.fileplanet.com/47283/40000/fileinfo/Deus-Ex-Extra-Mission-Pack-for-Demo
+
 https://www.fileplanet.com/59470/50000/fileinfo/Deus-Ex-Patch-v1112fm
+
 (Official uploads by Ion Storm)
+
 Used for Patch and Demo, as well as the core setup. 
+
 Full credits should be the same as the final game, located in Credits.DX
 
-##Caustic Creative (Creators of Revision): 
+### Caustic Creative (Creators of Revision): 
 https://www.dx-revision.com/
 
 Hawk: ConFix, Support, pointed out D3D10Drv Int typo
@@ -173,7 +180,7 @@ Bjorn Ehrby: RF (Revision Framework), Support
 Hanfling: Launch, RF (Revision Framework), & Support, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 
-##The Nameless Mod Update Team:
+### The Nameless Mod Update Team:
 http://www.offtopicproductions.com/forum/
 
 Bogie: ConFix, Support, HXExt
@@ -184,7 +191,7 @@ Maiar Henry: Portuguese-BR Translation.
 
 Bjorn Ehrby, Hawk: Same as Revision credits
 
-##Deus Ex Community HQ Discord Server Members: 
+### Deus Ex Community HQ Discord Server Members: 
 
 WCCC: Support
 
@@ -194,17 +201,29 @@ Machete: Support, Port tool (still need to get this from him!)
 
 Fear/Mouse: Support
 
-Kaiser: Support
+Kaiser: Support, Original Install Script Base
+https://github.com/Kaiz0r/
 
 Bogie: Support
- 
-Thanks so much to both the TNM & Revision teams, and everyone in the community!
-This wouldn't be possible without you guys!
 
+
+### Deus Ex Archive: 
+https://www.reddit.com/r/dxarchive
+
+File resource - Countless contributors - direct & indirect
 
 Xen:Creator of the Deus Ex Archive. Portuguese-PT translation
 
-Deus Ex Archive: File resource - Countless contributors - direct & indirect
+Vencdrig: Winzip 2.1 License 
+Defaultplayer001: Co-creator, ConFix, Assembling UPV3 (Feel free to contact with any questions or comments, would be happy to hear from you! )
+https://www.reddit.com/user/Defaultplayer001/
+
+
+Thanks so much to both the TNM & Revision teams, and everyone in the community!
+This wouldn't be possible without you guys!
+
+***
+### Individual Credits
 
 Yukichigai: Deus Ex Unofficial Patch v2
 http://www.moddb.com/games/deus-ex/downloads/deus-ex-unofficial-patch-v2 
@@ -232,9 +251,6 @@ http://www.ttlg.com/forums/showthread.php?t=115269
 Smirftsch: OpenAL
 http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
-Kaiser: Original Install Script Base
-https://github.com/Kaiz0r/
-
 Deus Ex Magyarító Csapat /  Deus Ex Hungarian Translation Team : Hungarian Translation.
 Biwdy: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation,  provided sources for Portugeuse(I spelled this wrong didn't I, run through spellcheck) and Czech translations
 
@@ -252,10 +268,6 @@ Totalitarian: Support
 GiveMeDeusEx.com
 
 Deus Ex Network: Master Server Patch and Instructions.
-
-Vencdrig: Winzip 2.1 License 
-Defaultplayer001: ConFix, Assembling UPV3 (Feel free to contact with any install issues, would be happy to hear from you!)
-https://www.reddit.com/user/Defaultplayer001/
 
 If anyone has been forgotten, please let us know! 
 
@@ -311,7 +323,6 @@ digital_data.png: https://xkcd.com/1683/ - Digital Data
 firsttry.gif - Gif of clip from The Lego Movie
 
 users.png - Still from the movie Tron: Legacy
-
 
 
 
