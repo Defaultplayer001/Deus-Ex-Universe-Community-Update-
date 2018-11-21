@@ -210,7 +210,6 @@ rem			dxd3d8
 "%~dp0\UnofficialPatchv3Files\7z1800\7z.exe" x "%~dp0\UnofficialPatchv3Files\DXD3D\dxd3d8r10.zip" -o"%~dp0\UnofficialPatchv3Files\DXD3D\dxd3d8r10" -y
 xcopy "%~dp0\UnofficialPatchv3Files\DXD3D\dxd3d8r10"  "%~dp0\System" /y
 rmdir "%~dp0\UnofficialPatchv3Files\DXD3D\dxd3d8r10" /S /Q
-copy "%~dp0\System\nglide_readme.txt"  "%~dp0\Help\nGlide ReadMe.txt" /Y
 
 rem			OpenGl
 "%~dp0\UnofficialPatchv3Files\7z1800\7z.exe" x "%~dp0\UnofficialPatchv3Files\OpenGL\dxglr21.zip" -o"%~dp0\UnofficialPatchv3Files\OpenGL\dxglr21" -y
@@ -253,8 +252,8 @@ Rem			Nephthys
 "%~dp0\UnofficialPatchv3Files\7z1800\7z.exe" x "%~dp0\UnofficialPatchv3Files\Nephthys\Nephthys_v1.4b10_inst.zip" -o"%~dp0\UnofficialPatchv3Files\Nephthys\Nephthys_v1.4b10_inst" -y
 "%~dp0\UnofficialPatchv3Files\7z1800\7z.exe" x "%~dp0\UnofficialPatchv3Files\Nephthys\Nephthys_v1.4b10_inst\Nephthys_v1.4b10_inst.exe" -o"%~dp0\UnofficialPatchv3Files\Nephthys\Nephthys_v1.4b10_inst\Nephthys_v1.4b10_inst" -y
 copy "%~dp0\UnofficialPatchv3Files\Nephthys\ReadMe.txt"  "%~dp0\Help\Nephthys-ReadMe.txt" /Y
-xcopy "%~dp0\UnofficialPatchv3Files\Nephthys\Nephthys_v1.4b10_inst\Nephthys_v1.4b10_inst\$_6_" "%~dp0\System" /y
-rmdir "%~dp0\UnofficialPatchv3Files\Nephthys\Nephthys_v1.4b10_inst" /S /Q
+xcopy "%~dp0\UnofficialPatchv3Files\Nephthys\Nephthys_v1.4b10_installed files (7zip does not extract properly)" "%~dp0\System" /y
+xcopy "%~dp0\UnofficialPatchv3Files\Ini Files\Nepthys ini changes" "%~dp0\System" /y /s
 
 rem		Misc
 rem			Antimicro
@@ -274,11 +273,11 @@ IF "%setup%"=="No" (
 	goto :skipsetup
 	)
 xcopy "%~dp0\UnofficialPatchv3Files\Deus Ex Setup Creation\Unofficial Patch Manifest"  "%~dp0\System\" /y	
-xcopy "%~dp0\UnofficialPatchv3Files\UPV3's Language Pack v2\English" "%~dp0" /S /Y
 "%~dp0\UnofficialPatchv3Files\7z1800\7z.exe" x "%~dp0\UnofficialPatchv3Files\UPV3's Language Pack v2\English\System\SystemFilesINT.7z.001" -o"%~dp0\UnofficialPatchv3Files\UPV3's Language Pack v2\English\System\" -y
-del "%~dp0\UnofficialPatchv3Files\SystemFilesINT.7z.001" /Q
-del "%~dp0\UnofficialPatchv3Files\SystemFilesINT.7z.002" /Q
-del "%~dp0\UnofficialPatchv3Files\SystemFilesINT.7z.003" /Q
+del "%~dp0\UnofficialPatchv3Files\English\System\SystemFilesINT.7z.001" /Q
+del "%~dp0\UnofficialPatchv3Files\English\System\SystemFilesINT.7z.002" /Q
+del "%~dp0\UnofficialPatchv3Files\English\System\SystemFilesINT.7z.003" /Q
+xcopy "%~dp0\UnofficialPatchv3Files\UPV3's Language Pack v2\English" "%~dp0" /S /Y
 xcopy "%~dp0\UnofficialPatchv3Files\UPV3's Language Pack v2\Cestina-Czech" "%~dp0" /S /Y
 xcopy "%~dp0\UnofficialPatchv3Files\UPV3's Language Pack v2\Deutsche-German" "%~dp0" /S /Y
 rem ren "%~dp0\Help\ReadMePatch1.htm" "Deutsche-GermanReadMePatch1.htm"
