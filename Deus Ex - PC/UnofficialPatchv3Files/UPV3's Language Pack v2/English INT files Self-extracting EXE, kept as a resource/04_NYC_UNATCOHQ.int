@@ -1,0 +1,73 @@
+[SecurityCamera4]
+FamiliarName="UN_blastdoor_medcam"
+
+[JosephManderley0]
+UnfamiliarName="UNATCO Chief"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[SpecialEvent1]
+Message="No Messages"
+
+[RetinalScanner0]
+msgUsed="Retinal Pattern Match: Agent Denton Authorized For Entry"
+
+[SpecialEvent0]
+Message="Retinal Pattern Mismatch: Agent Denton Unauthorized For Entry"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="UNATCO Admin"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="UNATCO Secretary"
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[LevelSummary]
+Title="Untitled"
+
+[UNATCOTroop30]
+FamiliarName="Scott"
+UnfamiliarName="Scott"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[UNATCOTroop0]
+FamiliarName="Corporal Collins"
+UnfamiliarName="Corporal Collins"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - UNATCO HQ"
+startupMessage[0]="UNATCO HQ"
+startupMessage[1]="United Nations Antiterrorist"
+startupMessage[2]="Coalition"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[UNATCOTroop1]
+FamiliarName="Sgt. Michael Berry"
+UnfamiliarName="Sgt. Michael Berry"
+
+[UNATCOTroop2]
+FamiliarName="UNATCO Trooper"
+UnfamiliarName="UNATCO Trooper"
+
+[UNATCOTroop3]
+FamiliarName="UNATCO Trooper"
+UnfamiliarName="UNATCO Trooper"
+
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+

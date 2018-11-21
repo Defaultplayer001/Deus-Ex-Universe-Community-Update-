@@ -1,0 +1,94 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=WaltonSimons,KeyID=ManderleyOfficeDoor,Description="Key to Manderley's Office Door")"
+
+[WaltonSimons0]
+FamiliarName="Government Official"
+UnfamiliarName="Government Official"
+
+[UNATCOTroop29]
+FamiliarName="Scott"
+UnfamiliarName="UNATCO Trooper"
+
+[Terrorist1]
+FamiliarName="Terrorist Prisoner"
+UnfamiliarName="Terrorist Prisoner"
+
+[NanoKey2]
+Description="UNATCO Closet Key"
+
+[SecurityCamera4]
+FamiliarName="UN_blastdoor_medcam"
+
+[JosephManderley0]
+UnfamiliarName="UNATCO Chief"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[SpecialEvent1]
+Message="No New Messages"
+
+[RetinalScanner0]
+msgUsed="Retinal Pattern Match: Agent Denton Authorized For Entry"
+
+[SpecialEvent0]
+Message="Retinal Pattern Mismatch: Agent Denton Unauthorized For Entry"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[RetinalScanner1]
+msgUsed="Retinal Pattern Mismatch: Agent Denton Unauthorized For Entry"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="UNATCO Lady"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="UNATCO Secretary"
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[LevelSummary]
+Title="Untitled"
+
+[UNATCOTroop4]
+FamiliarName="UNATCO Trooper"
+UnfamiliarName="UNATCO Trooper"
+
+[UNATCOTroop0]
+FamiliarName="Corporal Collins"
+UnfamiliarName="UNATCO Trooper"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - UNATCO HQ"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[UNATCOTroop1]
+FamiliarName="Sgt. Michael Berry"
+
+[UNATCOTroop2]
+FamiliarName="UNATCO Trooper"
+UnfamiliarName="UNATCO Trooper"
+
+[UNATCOTroop3]
+FamiliarName="UNATCO Trooper"
+UnfamiliarName="UNATCO Trooper"
+
+[Terrorist0]
+FamiliarName="Terrorist Prisoner"
+UnfamiliarName="Terrorist Prisoner"
+
+[NanoKey0]
+Description="Manderley's Office Key"
+
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+

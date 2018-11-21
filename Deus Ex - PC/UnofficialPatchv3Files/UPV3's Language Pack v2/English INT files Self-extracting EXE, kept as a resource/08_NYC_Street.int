@@ -1,0 +1,37 @@
+[RiotCop0]
+FamiliarName="Cop"
+UnfamiliarName="Cop"
+
+[RiotCop1]
+FamiliarName="Cop"
+UnfamiliarName="Cop"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=StationaryCop,KeyID=UnderArea,Description="Key to Underground Area",SkinColor=SC_Level3)"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[BlackHelicopter1]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[SpecialEvent0]
+Message="Sign him up for the Rockets!!!!"
+
+[Button2]
+FamiliarName="Intercomm"
+UnfamiliarName="Intercomm"
+
+[BumMale0]
+FamiliarName="Drifter"
+UnfamiliarName="Drifter"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Hell's Kitchen"
+startupMessage[0]="New York City, Hell's Kitchen"
+

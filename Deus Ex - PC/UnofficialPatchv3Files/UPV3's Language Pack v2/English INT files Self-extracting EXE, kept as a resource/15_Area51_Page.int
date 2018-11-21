@@ -1,0 +1,22 @@
+[ComputerSecurity3]
+specialOptions[0]="(Text="Activate Security Bot",TriggerEvent=upper1_release,bTriggerOnceOnly=True)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Environmental containment",cameraTag=Gray_camera,doorTag=radiation_exit)"
+specialOptions[0]="(Text="Enviromental Generators",UnTriggerEvent=Gray_rad)"
+
+[ComputerSecurity2]
+specialOptions[0]="(Text="Activate Security Bot",TriggerEvent=lower1,bTriggerOnceOnly=True)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Aquinas Router",cameraTag=camera_helios_room,doorTag=door_helios_room)"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Area51 - Page"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Engage Primary Router",TriggerEvent=Set_flag_helios,bTriggerOnceOnly=True)"
+

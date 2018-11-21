@@ -1,0 +1,99 @@
+[NanoKey0]
+Description="Club Main Door Key"
+
+[NicoletteDuClare0]
+FamiliarName="Young Woman"
+UnfamiliarName="Young Woman"
+
+[Businessman0]
+FamiliarName="Kiergard Tarot"
+UnfamiliarName="Club Owner"
+
+[Bartender0]
+FamiliarName="Jean"
+UnfamiliarName="Jean"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Nightclub La Porte de l'Enfer"
+startupMessage[0]="La Porte de l'Enfer"
+startupMessage[1]="Parisian Nightclub"
+
+[ThugMale0]
+FamiliarName="Club Security"
+UnfamiliarName="Club Security"
+
+[SkillAwardTrigger3]
+awardMessage="Advancement Bonus"
+
+[LevelSummary]
+Title="Untitled"
+
+[Hooker0]
+FamiliarName="Karenna"
+UnfamiliarName="Karenna"
+
+[Female0]
+FamiliarName="Annette"
+UnfamiliarName="Annette"
+
+[Nurse0]
+FamiliarName="Camille"
+UnfamiliarName="Nurse Dancer"
+
+[SkillAwardTrigger0]
+awardMessage="Exploration Bonus"
+
+[Hooker2]
+FamiliarName="Michelle"
+UnfamiliarName="Michelle"
+
+[MichaelHamner0]
+FamiliarName="Antoine"
+UnfamiliarName="Businessman"
+
+[MargaretWilliams0]
+FamiliarName="Charlotte"
+UnfamiliarName="Charlotte"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Louis,KeyID=club_maindoors,Description="Nightclub Door Key Code")"
+
+[LowerClassFemale0]
+FamiliarName="Cassandra"
+UnfamiliarName="Cassandra"
+
+[NanoKey1]
+Description="Club Door Key"
+
+[ThugMale4]
+FamiliarName="Club Security"
+UnfamiliarName="Club Security"
+
+[Female3]
+FamiliarName="Katarina"
+UnfamiliarName="Katarina"
+
+[ThugMale1]
+FamiliarName="Club Security"
+UnfamiliarName="Club Security"
+
+[JoJoFine1]
+FamiliarName="Louis"
+UnfamiliarName="Doorman"
+
+[Businessman3]
+FamiliarName="Jocques"
+UnfamiliarName="Jocques"
+
+[Female1]
+FamiliarName="Sami"
+UnfamiliarName="Woman"
+
+[Businesswoman2]
+FamiliarName="Kara"
+UnfamiliarName="woman"
+
+[Businessman5]
+FamiliarName="Arthur"
+UnfamiliarName="Arthur"
+

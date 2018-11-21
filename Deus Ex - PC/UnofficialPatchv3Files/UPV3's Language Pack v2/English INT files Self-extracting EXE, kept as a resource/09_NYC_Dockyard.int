@@ -1,0 +1,102 @@
+[SkillAwardTrigger10]
+awardMessage="Accomplishment Bonus"
+
+[SkillAwardTrigger9]
+awardMessage="Accomplishment Bonus"
+
+[SkillAwardTrigger8]
+awardMessage="Accomplishment Bonus"
+
+[NanoKey0]
+Description="Key to Ammo Storage Warehouse"
+
+[SkillAwardTrigger0]
+awardMessage="Accomplishment Bonus"
+
+[SkillAwardTrigger1]
+awardMessage="Critical Location Bonus"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Main Sewer Grate",cameraTag=A_Sector3,doorTag=DrainGrate)"
+Views[1]="(titleString="Defense System A",cameraTag=B_Sector3,turretTag=AutoTurret1)"
+Views[2]="(titleString="Defense System B",cameraTag=C_Sector3,turretTag=AutoTurret2)"
+specialOptions[0]="(Text="Robot Standby",TriggerText="Perimeter Robots in Standby mode",TriggerEvent=SBTrigger)"
+specialOptions[1]="(Text="Perimeter Robot Standard Defense",TriggerText="Robots in Standard Defense Mode",TriggerEvent=SDTrigger)"
+specialOptions[2]="(Text="Perimeter Robot Attack non-Bots",TriggerText="Danger! **Robots in full attack mode **",TriggerEvent=AATrigger)"
+specialOptions[3]="(Text="Perimeter Robots: Attack All",TriggerText="DANGER! Safety Constraints Removed",TriggerEvent=SCTrigger)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Rear Perimeter Gate",cameraTag=A_Sector2,doorTag=BackGate)"
+Views[1]="(titleString="Ammo Storage Facility",cameraTag=B_Sector2,doorTag=AmmoStorageDoor)"
+Views[2]="(titleString="Commander's Office",cameraTag=C_Sector2,doorTag=ArmoryDoor)"
+
+[SkillAwardTrigger2]
+awardMessage="Accomplishment Bonus"
+
+[SkillAwardTrigger6]
+awardMessage="Accomplishment Bonus"
+
+[SkillAwardTrigger4]
+awardMessage="Accomplishment Bonus"
+
+[Mechanic2]
+FamiliarName="Other Dock Worker"
+UnfamiliarName="Other Dock Worker"
+
+[Mechanic1]
+FamiliarName="Dock Worker"
+UnfamiliarName="Dock Worker"
+
+[NanoKey1]
+Description="Key to Supply Closet"
+
+[NanoKey2]
+Description="Key to the Commander's Office"
+
+[SkillAwardTrigger11]
+awardMessage="Area Location Bonus"
+
+[NanoKey3]
+Description="Key to weapon storage closet"
+
+[SkillAwardTrigger5]
+awardMessage="Area Location Bonus"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Ammo Depot, Bunkers",cameraTag=A_Sector4)"
+Views[1]="(titleString="Haz Mat Storage",cameraTag=B_Sector3)"
+Views[2]="(titleString="Dock Area",cameraTag=C_Sector3)"
+specialOptions[0]="(Text="Robot Standby",TriggerText="Depot Robots in Standby mode",TriggerEvent=SB2Trigger)"
+specialOptions[1]="(Text="Depot Robots: Standard Defense",TriggerText="Robots in Standard Defense Mode",TriggerEvent=SD2Trigger)"
+specialOptions[2]="(Text="Depot Robots:  Attack non-Bots",TriggerText="Danger! **Robots in full attack mode **",TriggerEvent=AA2Trigger)"
+specialOptions[3]="(Text="Depot Robots: Attack All",TriggerText="DANGER! Safety Constraints Removed",TriggerEvent=SC2Trigger)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=FrontGuard,KeyID=MainGate,Description="Key to Main Gate")"
+
+[Mechanic0]
+FamiliarName="Dock Worker"
+UnfamiliarName="Dock Worker"
+
+[SkillAwardTrigger3]
+awardMessage="Accomplishment Bonus"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Warehouse Office",cameraTag=A_Sector1,doorTag=SecurityDoor)"
+Views[1]="(titleString="Warehouse, E",cameraTag=B_Sector1)"
+Views[2]="(titleString="Warehouse SW",cameraTag=C_Sector1)"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger7]
+awardMessage="Area Location Bonus"
+
+[NanoKey4]
+Description="Unlocks the Truck trailers in the parking lot"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Brooklyn Naval Shipyards"
+startupMessage[0]="New York City, Brooklyn Naval Shipyards"
+startupMessage[1]="Submarine Warfare Division "
+

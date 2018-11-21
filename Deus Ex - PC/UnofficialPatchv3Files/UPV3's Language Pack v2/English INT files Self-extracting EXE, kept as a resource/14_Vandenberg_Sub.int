@@ -1,0 +1,70 @@
+[ScientistFemale1]
+FamiliarName="Dr. Corwell"
+
+[ScientistMale3]
+FamiliarName="Dr. Pinkerton"
+
+[BlackHelicopter2]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[DeusExMover4]
+FamiliarName="Sub Doors"
+
+[ComputerSecurity2]
+Views[0]="(titleString="URV Pool Doors",cameraTag=sub_bay,doorTag=sub_doors)"
+Views[1]="(titleString="URV Exit",cameraTag=sub_bay3)"
+specialOptions[0]="(bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger3]
+awardMessage="Exploration Bonus"
+
+[DeusExMover5]
+FamiliarName="Sub Doors"
+
+[AutoTurret2]
+FamiliarName="Hall Turrets"
+
+[ScientistFemale2]
+FamiliarName="Dr. Brittany Prinzler"
+
+[SkillAwardTrigger2]
+awardMessage="Exploration Bonus"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Science Module Entrance",cameraTag=Hallcam2,turretTag=Hallturret2)"
+Views[1]="(titleString="Science Module Elevator",cameraTag=hallcam,turretTag=Hallturret)"
+Views[2]="(titleString="Laboratory",cameraTag=labcam)"
+
+[DeusExLevelInfo0]
+MissionLocation="New West Coast - Sub Base"
+startupMessage[0]="MJ12 Sub Base"
+startupMessage[1]="SoCal Seawall"
+
+[AutoTurret0]
+FamiliarName="Hall Turrets"
+
+[NanoKey0]
+Description="Command Module"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger1]
+awardMessage="Progress Bonus"
+
+[ComputerSecurity0]
+Views[0]="(titleString="URV Pool Doors",cameraTag=sub_bay,doorTag=sub_doors)"
+Views[1]="(titleString="URV Exit",cameraTag=sub_bay3)"
+Views[2]="(titleString="Laboratory",cameraTag=labcam)"
+specialOptions[0]="(bTriggerOnceOnly=True)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Guard_base,KeyID=Sub_base,Description="Sub Base Key",SkinColor=SC_Level2)"
+
+[SkillAwardTrigger0]
+awardMessage="Exploration Bonus"
+
+[NanoKey1]
+Description="Supply Shed"
+

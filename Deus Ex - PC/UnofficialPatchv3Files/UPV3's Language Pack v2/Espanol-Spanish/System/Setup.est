@@ -1,0 +1,124 @@
+[Errors]
+MissingProductTitle=%s no puede ser %s en esta carpeta
+MissingProductInstalled=instalado
+MissingProductPatched=actualizado
+MissingProductThis=Esta actualización
+MissingProduct=%s requiere que %s este previamente instalado en la carpeta. Localiza la carpeta actual de %s, o sal e instálala ahora.\n\nPuedes pulsar sobre el enlace con la página web para recibir información del producto.
+OldVersion=%s requiere la versión %i de %s o posterior, la versión instalada es más antigua  (tienes la versión %i). Instala la versión %i de %s o posterior e inténtalo de nuevo. Pulsa sobre el enlace web para obtener más información.\n\nInstalación interrumpida.
+FolderTitle=Carpeta "%s"
+FolderFormat=La carpeta introducida, "%s", no es válida.  Por favor, inténtalo de nuevo.
+AlreadyRunningTitle=Imposible instalar mientras está en uso.
+AlreadyRunning=Para continuar el proceso de instalación, cierra todas las copias abiertas y pulsa Aceptar.  Para salir, pulsa Cancelar.
+WrongCdTitle=Archivos no encontrados en el CD-ROM
+WrongCd=La versión que se esperaba del archivo %s de %s no se ha encontrado en la unidad de disco del CD-ROM.\n\nComprueba que el CD correcto esté en el dispositivo.
+MissingInstallerFile=Archivo del instalador no encontrado
+MissingReferenceFile=Archivo de referencia no encontrado
+MissingSourceFile=No se ha encontrado el archivo de origen 
+FailedOpenSource=Imposible abrir el archivo de origen
+FailedOpenDest=Imposible abrir archivo de destino
+FailedReadingSource=Imposible leer el archivo de origen
+FailedWritingDest=Imposible escribir en el archivo de destino
+FailedLoadingUpdate=Imposible cargar el archivo de actualización
+FailedReadingReference=Imposible leer el archivo de referencia
+FailedClosingSource=Imposible cerrar el archivo de origen
+FailedClosingDest=Imposible cerrar el archivo de destino
+FailedMakeDir=Imposible crear directorio para el archivo de destino
+AdviseBadMedia=El apoyo del medio puede estar dañado  Si lo estás instalando desde un CD, prueba a limpiar el disco, comprueba la unidad de disco y vuelve a intentarlo.
+AdviseBadDownload=Los archivos de actualización descargados pudieran estar alterados.
+AdviseBadDest=El disco de destino pudiera estar lleno o tener sectores defectuosos.
+PatchCorrupt=El archivo parche %s está alterado.\n\n%s
+CdFileMismatch=El archivo %s del CD-ROM no contiene la versión esperada. Por lo tanto, no se puede añadir el parche a %s.
+
+[General]
+Space=%i Megabytes
+Ready=El programa está listo para instalar %s.\nLa carpeta de destino es: %s\n\nPulsa "Instalar" para comenzar la instalación.\nPulsa "Cancelar" para salir de la instalación %s.
+InstallCancel=Cancelar instalación
+CancelPrompt=¡Aviso!  Si se cancela ahora la instalación, %s no funcionará correctamente.  ¿Estás seguro de que quieres cancelar?
+DidCancel=La instalación ha sido cancelada.  No se ha instalado el producto con éxito y no funcionará correctamente.
+CdDescription=Para instalar la actualización de %s, deben copiarse algunos archivos del CD-ROM original de %s.\n\nInserta el CD-ROM de %s en la unidad y pulsa "Siguiente".  Si la letra asignada a la unidad de disco no es la correcta, introdúcela abajo.
+CdDrive=Unidad CD-ROM
+NotEnoughSpaceTitle=No se puede instalar ahí.
+NotEnoughSpace=No hay espacio suficiente en la unidad %s para instalar %s.  Selecciona una unidad con más espacio libre, o sal, libera espacio y vuelve a intentarlo.
+Finish=&Finalizar
+RebootButton=&Reiniciar
+ExitButton=&Salir
+
+[IDDIALOG_FilerPageAutoPlay]
+IDC_Play=&Jugar
+IDC_Reinstall=&Reinstalar
+IDC_Uninstall=&Desinstalar
+IDC_ReleaseNotes=Versión y notas
+IDC_Web=Deus Ex y Sitio Web
+IDC_Complete=¡Instalación finalizada con éxito!
+IDC_CompleteReboot=¡Instalación finalizada con éxito!\nAntes de jugar debes reiniciar el sistema.
+
+[IDDIALOG_FilerPageWelcome]
+IDC_WelcomePrompt=Vas a instalar %s en tu sistema.\n\nPulsa "Siguiente" para comenzar la instalación, o "Cancelar" en cualquier momento para salir.\n\nLa información del recuadro inferior contiene los enlaces web que te ofrecen más información.
+IDC_WelcomePromptUpdate=Este programa actualizará tu  %s a la versión %s.\n\nPulsa "Siguiente" para comenzar la instalación, o "Cancelar" en cualquier momento para salir.\n\nLa información del recuadro inferior contiene los enlaces web que te ofrecen más información.
+IDC_LanguagePrompt=&Idioma
+
+[IDDIALOG_FilerPageLicense]
+IDC_LicenseText=Lee el siguiente acuerdo de licencia.  La instalación requiere que aceptes las condiciones del acuerdo.
+IDC_LicenseQuestion=¿Acepta las condiciones de este acuerdo de licencia?  Pulsa "Sí" o "Cancelar".
+
+[IDDIALOG_FilerPageComponents]
+IDC_ComponentsText=Selecciona los componentes que vas a instalar.
+IDC_ComponentsPrompt=&Componentes:
+IDC_DiskSpaceFrame=Espacio en el disco
+IDC_DescriptionFrame=Descripción
+IDC_SpaceRequiredMessage=Necesario:
+IDC_SpaceAvailableMessage=Disponible:
+
+[IDDIALOG_FilerPageUninstallComponents]
+IDC_ComponentsText=Selecciona los componentes que deseas desinstalar.
+IDC_ComponentsPrompt=&Componentes:
+IDC_DependenciesFrame=Dependencias
+IDC_DependenciesText=Si continúas, se desinstalarán los componentes: %s
+
+[IDDIALOG_FilerPageFolder]
+IDC_FolderDescription=El programa %s se instalará en la siguiente carpeta.\n\nPara aceptar, pulsa Siguiente.\n\nPara instalarlo en otra carpeta, introduce el nombre completo de la nueva carpeta, incluida la letra de la unidad, por ejemplo: C:\NuevaCarpeta
+IDC_FolderDescriptionPatch=El programa actualizará la versión actual de %s en la siguiente carpeta.\n\nPara continuar, pulsa Siguiente.\n\nSi tienes más de una copia instalada, introduce el nombre completo de la carpeta actual, incluyendo la letra de la unidad, por ejemplo: C:\UnaCarpeta
+IDC_FolderDescriptionMissing=El programa actualizará todas las versiones instaladas de %s.\n\nIntroduce el nombre completo de la carpeta actual, incluida la letra de la unidad, por ejemplo: C:\UnaCarpeta
+IDC_FolderHolder=Carpeta de destino
+IDC_Browse=&Examinar
+IDC_Default=&Volver
+IDC_SpaceAvailableMessage=Espacio disponible en la unidad:
+IDC_FullSpaceRequiredMessage=Espacio necesario para la instalación normal:
+
+[IDDIALOG_FilerPageInstallProgress]
+IDC_InstallText=Instalando archivos...
+IDC_InstallingText=Instalando:
+IDC_ProgressText=Porcentaje instalado:
+IDC_TotalText=Porcentaje total:
+
+[IDDIALOG_FilerPageUninstallProgress]
+IDC_InstallText=Desinstalando archivos...
+IDC_InstallingText=Procesando:
+IDC_ProgressText=Porcentaje instalado:
+IDC_TotalText=Porcentaje total:
+
+[IDDIALOG_Restart]
+IDC_Restart=Instalación finalizada
+IDC_RestartMessage=Es necesario reiniciar Windows para finalizar la instalación.
+IDC_RestartText=Antes de reiniciar, cierra todas las aplicaciones, incluidas las sesiones MS-DOS, y guarda los documentos abiertos. Si hay algún disquete en la disquetera, retíralo. Pulsa el botón Reiniciar Windows.
+IDC_Complete=Una vez reiniciado Windows, la instalación habrá finalizado.
+IDC_Restart=&Reinicia Windows
+IDC_Exit=&Salir de la instalación
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Instalación de Deus Ex
+
+[IDDIALOG_FailedRequirement]
+IDC_FailedRequirement=Este producto no se puede instalar aquí.
+IDC_FailedMessage=Este producto requiere que el siguiente producto esté instalado en la carpeta. Localiza la carpeta existente, o bien sal y ejecuta la instalación ahora.\n\nPuedes pulsar el enlace web para recibir más información.
+IDC_ProductHolder=Producto necesario
+
+[IDDIALOG_ProductInfo]
+IDC_ProductHolder=Producto
+IDC_ProductText=Producto:
+IDC_VersionText=Versión:
+IDC_DeveloperText=Desarrollador:
+
+[IDDIALOG_FilerPageUninstall]
+IDC_UninstallPrompt=Se desinstalará los siguientes componentes:
+IDC_UninstallQuestion=¿Estás seguro de que quieres eliminar estos componentes?
