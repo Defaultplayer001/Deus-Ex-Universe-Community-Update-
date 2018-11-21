@@ -1,0 +1,57 @@
+[ComputerSecurity3]
+specialOptions[0]="(Text="Shutdown MilBot Patrol Unit",TriggerText="MilBot Patrol Unit Deactivated",TriggerEvent=CathMilitaryBotTrigger)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Au Storage 001",cameraTag=au_cam001,turretTag=au_turret001)"
+Views[1]="(titleString="Au Storage 002",cameraTag=au_cam002,turretTag=au_turret002)"
+Views[2]="(titleString="Au Storage 003",cameraTag=au_cam003,turretTag=au_turret003)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Sporting Goods Security System",cameraTag=SportingGoodsCam,turretTag=SportingGoodsSecurity)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Technology Archive",cameraTag=godcompcam001)"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Establish System Uplink",TriggerText="Datalock Disengaged: System Uplink Transfer Established",TriggerEvent=templar_upload,bTriggerOnceOnly=True)"
+
+[Chef0]
+FamiliarName="Swelter"
+
+[SkillAwardTrigger5]
+awardMessage="Exploration Bonus"
+
+[SkillAwardTrigger4]
+awardMessage="Area Location Bonus"
+
+[SkillAwardTrigger0]
+awardMessage="Area Location Bonus"
+
+[LevelSummary]
+Title="Untitled"
+
+[SpecialEvent1]
+Message="No New Messages"
+
+[NanoKey4]
+Description="Cathedral Main Door Key"
+
+[NanoKey3]
+Description="Cathedral Main Door Key"
+
+[NanoKey2]
+PickupMessage="Gatekeeper's Key"
+Description="Gatekeeper's Key"
+
+[NanoKey5]
+Description="Cathedral Main Door Key"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Knights Templar Cathedral"
+startupMessage[0]="Paris"
+startupMessage[1]="Near Target Complex:"
+startupMessage[2]="Knights Templar Cathedral"
+
+[SkillAwardTrigger3]
+awardMessage="Critical Location Bonus"
+

@@ -1,0 +1,86 @@
+[Language]
+Language=Deutsch
+LangId=7
+SubLangId=0
+
+[Public]
+Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Erweitert",Parent="Erweiterte Optionen")
+Preferences=(Caption="Dateisystem",Parent="Erweitert",Class=Core.System,Immediate=True)
+
+[Errors]
+Unknown=Unbekannter Fehler
+Aborted=Abgebrochen
+ExportOpen=Fehler beim Exportieren von %s: Folgende Datei konnte nicht geöffnet werden: '%s'
+ExportWrite=Fehler beim Exportieren von %s: Folgende Datei konnte nicht geschrieben werden: '%s'
+FileNotFound=Datei  '%s' nicht gefunden.
+ObjectNotFound=Objekt  '%s %s.%s' nicht gefunden.
+PackageNotFound=Kann folgende Datei nicht finden:  '%s'
+PackageResolveFailed=Kann Paketnamen nicht umwandeln
+FilenameToPackage=Konvertierung des Dateinamens '%s' in Paketnamen nicht möglich
+Sandbox=Package '%s' nicht verfügbar
+PackageVersion=Paktet '%s' abweichende Versionen
+FailedLoad=Laden von '%s': %s nicht möglich.
+ConfigNotFound= '%s' in Konfigurationsdatei nicht gefunden
+LoadClassMismatch=%s ist keine Klasse von %s.%s
+NotDll='%s' ist kein DLL-Paket; Export-'%s' nicht gefunden
+NotInDll= '%s' in '%s.dll' nicht gefunden
+FailedLoadPackage=Fehler beim Laden des Pakets: %s
+FailedLoadObject=Fehler bei Laden von '%s %s.%s': %s
+TransientImport=Temporäres Objekt importiert: %s
+FailedSavePrivate=Speichern von %s nicht möglich: Grafik ist mit externem Privatobjekt verknüpft %s
+FailedImportPrivate=Import des Privatobjekts nicht möglich %s %s
+FailedCreate=%s %s nicht gefunden
+FailedImport= %s in Datei '%s' nicht gefunden
+FailedSaveFile=Fehler beim Speichern der Datei  '%s': %s
+SaveWarning=Fehler beim Speichern von '%s'
+NotPackaged=Objekt nicht verpackt: %s %s
+NotWithin=Objekt %s %s erstellt in  %s anstelle von %s
+Abstract=Objekt kann nicht erstellt werden:  %s: Klasse %s ist abstrakt
+NoReplace=Kann %s nicht durch  %s ersetzen
+NoFindImport=Datei  '%s' für Import nicht gefunden
+ReadFileFailed=Kann Datei  '%s' nicht lesen
+SeekFailed=Datei nicht gefunden
+OpenFailed=Fehler beim Öffnen der Datei
+WriteFailed=Fehler beim Schreiben der Datei
+ReadEof=Read beyond end of file
+IniReadOnly=Datei %s ist schreibgeschützt. Einstellungen können nicht gespeichert werden.
+UrlFailed=Fehler beim Start der URL
+Warning=Warnung
+Question=Frage
+OutOfMemory=Zu wenig virtueller Speicher. Schaffen Sie zusätzlichen Speicherplatz auf Ihrer primären Festplatte, um dies zu vermeiden.
+History=History
+Assert=Ungültiger Wert: %s [Datei:%s] [Zeile: %i]
+Debug=Debug: %s [Datei:%s] [Zeile: %i]
+LinkerExists=Link für '%s' existiert bereits
+BinaryFormat=Datei  '%s' enthält nicht lesbare Daten
+SerialSize=%s: Serial size mismatch: Erhalten %i, Erwartet %i
+ExportIndex=Fehlerhafter Exportindex %i/%i
+ImportIndex=Fehlerhafter Importindex %i/%i
+Password=Passwort nicht erkannt
+Exec=Unbekannter Befehl
+BadProperty='%s': fehlerhafte oder fehlende Eigenschaft '%s'
+MisingIni=Fehlende .ini-Datei: %s
+
+[Query]
+OldVersion=Die Datei %s wurde durch eine frühere Version erzeugt. Diese ist nicht kompatibel mit dieser Version.  Wenn Sie versuchen, die Datei zu lesen, stürzt das System möglicherweise ab. Trotzdem versuchen?
+Name=Name:
+Password=Passwort:
+PassPrompt=Geben Sie Ihren Namen und Ihr Passwort ein: 
+PassDlg=Identitätsprüfung
+Overwrite=Die Datei '%s' muss aktualisiert werden.  Möchten Sie die vorhandene Version überschreiben?
+
+[Progress]
+Saving=Speichere Datei  %s...
+Loading=Lade Datei  %s...
+Closing=Schließen
+
+[General]
+Product=Unreal
+Engine=Unreal Engine
+Copyright=Copyright 1999 Epic Games, Inc.
+True=True
+False=False
+None=Kein
+Yes=Ja
+No=Nein

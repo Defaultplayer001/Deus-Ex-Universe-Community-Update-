@@ -1,0 +1,79 @@
+[SecurityCamera3]
+FamiliarName="Entrance"
+
+[SkillAwardTrigger5]
+awardMessage="Progress Bonus"
+
+[Terrorist1]
+FamiliarName="Miguel"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Surgery Ward",cameraTag=medcam)"
+Views[1]="(titleString="NanoTech Lab",cameraTag=Nanocam)"
+Views[2]="(titleString="Cell Block A",cameraTag=cellcam,turretTag=cellturret)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Containment Cell",cameraTag=beastcam,turretTag=beastTurret,doorTag=Beastdoor)"
+
+[AutoTurretSmall1]
+FamiliarName="Dention Turret"
+
+[SkillAwardTrigger4]
+awardMessage="Goal Accomplishment Bonus"
+
+[AutoTurretSmall0]
+FamiliarName="Dention Turret"
+
+[SkillAwardTrigger3]
+awardMessage="Exploration Bonus"
+
+[PaulDentonCarcass0]
+FamiliarName="Paul"
+UnfamiliarName="Paul"
+
+[ScientistMale0]
+FamiliarName="Dr. Moreau"
+UnfamiliarName="Doctor"
+
+[ComputerPersonal4]
+specialOptions[0]="(Text="Greasel Release Control",TriggerText="Cages Opened",TriggerEvent=nanocage)"
+specialOptions[1]="(Text="Open Containment Field",TriggerText="Containment Field Opened",TriggerEvent=field002)"
+
+[SecurityCamera2]
+FamiliarName="Detention"
+
+[SkillAwardTrigger1]
+awardMessage="Goal Accomplishment Bonus"
+
+[AutoTurret5]
+FamiliarName="Observation Cell"
+
+[SecurityCamera5]
+FamiliarName="Armory"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Armory Turret",cameraTag=armorycam1,turretTag=Turret1)"
+specialOptions[0]="(Text="Deactivate ArmoryBot 1",TriggerText="ArmoryBot 1 Deactivated",TriggerEvent=ArmoryBot1Off,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Deactivate ArmoryBot 2",TriggerText="ArmoryBot 2 Deactivated",TriggerEvent=ArmoryBot2Off,bTriggerOnceOnly=True)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Armory",cameraTag=armorycam)"
+specialOptions[0]="(Text="Bot AI Alteration",TriggerText="Bot AI Modified",TriggerEvent=botorders2)"
+
+[SecurityCamera4]
+FamiliarName="Nanotech Lab"
+
+[SecurityCamera0]
+FamiliarName="Medical Lab"
+
+[DeusExLevelInfo0]
+MissionLocation="Secret MJ12 Facility"
+startupMessage[0]="Location: Unknown"
+startupMessage[1]="Time:  Unknown"
+
+[LevelSummary]
+Title="Untitled"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MIB,KeyID=Cabinet,Description="MIB Agent Cabinet Key")"
+
