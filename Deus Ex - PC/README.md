@@ -214,7 +214,9 @@ File resource - Countless contributors - direct & indirect
 
 Xen:Creator of the Deus Ex Archive. Portuguese-PT translation
 
-Defaultplayer: Co-creator
+Vencdrig: Winzip 2.1 License 
+Defaultplayer001: Co-creator, ConFix, Assembling UPV3 (Feel free to contact with any questions or comments, would be happy to hear from you! )
+https://www.reddit.com/user/Defaultplayer001/
 
 
 Thanks so much to both the TNM & Revision teams, and everyone in the community!
@@ -266,10 +268,6 @@ Totalitarian: Support
 GiveMeDeusEx.com
 
 Deus Ex Network: Master Server Patch and Instructions.
-
-Vencdrig: Winzip 2.1 License 
-Defaultplayer001: ConFix, Assembling UPV3 (Feel free to contact with any install issues, would be happy to hear from you!)
-https://www.reddit.com/user/Defaultplayer001/
 
 If anyone has been forgotten, please let us know! 
 
