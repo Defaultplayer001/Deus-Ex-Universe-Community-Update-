@@ -47,11 +47,11 @@ If you install a translation, Confix will not be.
 
 
 ### Ini Changes:
+
 * Keybind adjustments to fit modern standards TD
-* Masterserver change TD
+* Masterserver change
 * Demorec keybind TD
 * RF set to be used TD
-* OpenAL additions TD
 
 ### Patches:
 
