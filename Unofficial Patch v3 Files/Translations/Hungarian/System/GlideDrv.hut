@@ -1,9 +1,0 @@
-[Public]
-Object=(Name=GlideDrv.GlideRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Glide2X.dll)
-Preferences=(Caption="Rendering",Parent="Advanced Options")
-Preferences=(Caption="3dfx Glide support",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
-
-[GlideRenderDevice]
-ClassCaption="3dfx Glide Windowshoz"
-AskInstalled=Van 3dfx-kártyája telepítve?
-AskUse=Biztosan a 3dfx-képmegjelenítést szeretné használni?

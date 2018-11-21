@@ -1,6 +1,0 @@
-[Public]
-Object=(Name=Galaxy.GalaxyAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem)
-Preferences=(Caption="Áudio",Parent="Opções avançadas",Class=Galaxy.GalaxyAudioSubsystem,Immediate=True)
-
-[GalaxyAudioSubsystem]
-ClassCaption="Áudio Galaxy 3D para Windows"

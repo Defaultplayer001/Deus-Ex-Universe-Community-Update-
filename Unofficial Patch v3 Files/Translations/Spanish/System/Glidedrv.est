@@ -1,9 +1,0 @@
-[Public]
-Object=(Name=GlideDrv.GlideRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Glide2X.dll)
-Preferences=(Caption="Rendering",Parent="Advanced Options")
-Preferences=(Caption="3dfx Glide support",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
-
-[GlideRenderDevice]
-ClassCaption="3dfx Glide para Windows"
-AskInstalled=¿Tienes instalada una tarjeta 3dfx?
-AskUse=¿Deseas que Deus Ex utilice tu tarjeta 3dfx?

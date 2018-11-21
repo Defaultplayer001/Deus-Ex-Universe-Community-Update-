@@ -1,9 +1,0 @@
-[Public]
-//Object=(Name=SGLDrv.SGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=SGL.dll)
-//Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
-//Preferences=(Caption="PowerVR SGL- Unterstützung",Parent="Rendering",Class=SGLDrv.SGLRenderDevice,Immediate=True)
-
-[SglRenderDevice]
-ClassCaption="PowerVR SGL für Windows"
-AskInstalled=Verfügen Sie über eine PowerVR-Karte?
-AskUse=Möchten Sie, dass Deus Ex die PowerVR-Karte verwendet?
