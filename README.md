@@ -24,63 +24,67 @@ Bugs can also be reported directly to our Trello: https://trello.com/c/Mw9ZX6xa/
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
 
-The package Includes the following (Organized in install order):
+The package Includes the following:
+
+
+### -Translations: 
 
 Note: Translations not compatible with Confix.
+
 If you install a translation, Confix will not be.
--Translations: 
-	Czech
-	French
-	German
-	Hungarian
-	Italian
-	Japanese
-	Polish
-	Portugueses	
-	Spanish
-	Russian - Has a dub available here:PUTLINKHERE
-	Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
+
+* Czech
+* French
+* German
+* Hungarian
+* Italian
+* Japanese
+* Polish
+* Portugueses	
+* Spanish
+* Russian - Has a dub available here:PUTLINKHERE
+..* 	Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
 
 
-Ini Changes:
-	Keybind adjustments to fit modern standards TD
-	Masterserver change TD
-	Demorec keybind TD
-	RF set to be used TD
-	OpenAL additions TD
+### Ini Changes:
+* Keybind adjustments to fit modern standards TD
+* Masterserver change TD
+* Demorec keybind TD
+* RF set to be used TD
+* OpenAL additions TD
 
-Patches:
-	Deus Ex Unofficial Patch v2 (Code fixes)
-	112fm GOTY Patch (Official Multiplayer Patch)
-	Deus Ex Maps Patch (v1.110 maps not in GOTY due to error)
-	Engine.dll Fix (Demo Recording Fix)
-	Confix (Conversation fixes)
-	OTPUIFix (UI Scaling fixes,not applied automatically, see 	readme)
-	RF (Revision Framework)
+### Patches:
 
-Mods:
-	HX (Co-op mod)
-	HXEXT (HX Extension mod) 
+* Deus Ex Unofficial Patch v2 (Code fixes)
+* 112fm GOTY Patch (Official Multiplayer Patch)
+* Deus Ex Maps Patch (v1.110 maps not in GOTY due to error)
+* Engine.dll Fix (Demo Recording Fix)
+* Confix (Conversation fixes)
+* OTPUIFix (UI Scaling fixes,not applied automatically, see 	readme)
+* RF (Revision Framework)
+
+### Mods:
+* HX (Co-op mod)
+* HXEXT (HX Extension mod) 
  Optional mods (Can only use one at a time!):
-	Shifter
-	Biomod
-	Vanilla Matters
+* Shifter
+* Biomod
+* Vanilla Matters
 
-Alternate EXEs : (Launch Recommended) 
-	Launch (Used by default, more compatible) 
-	Deus EXE (More features, less compatible) 
-Note if you use Deus Exe:
-Not compatible with XP, older version that is included in files.
+### Alternate EXEs : (Launch Recommended) 
+* Launch (Used by default, more compatible) 
+* Deus EXE (More features, less compatible) 
+..* Note: Not compatible with XP, older version that is included in files.
 
-Video Renderers; (Nglide Recommended) 
-	Nglide (3dfx emulator)
-	Direct3D 10 
-	Direct3D 9
-	Direct3D 8 (outdated,use another unless neccessary)
-	OpenGl (Updated) 
-	Uglide (Not installed automatically)
+### Video Renderers; (Nglide Recommended) 
+* Nglide (3dfx emulator)
+* Direct3D 10 
+* Direct3D 9
+* Direct3D 8 (outdated,use another unless neccessary)
+* OpenGl (Updated) 
+* Uglide (Not installed automatically)
 Note if you use Nglide: 
-Set resolution with nglide_config.exe in \system, set in-game res to a default.
+Set resolution with nglide_config.exe in \system, set in-game res to a default. 
 
 ### Audio Renderers: (OpenAl renderer recommended) 
 * OpenAL (Higher quality playback then the default Galaxy renderer, arguably better lip synching)
