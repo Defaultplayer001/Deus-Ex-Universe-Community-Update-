@@ -155,12 +155,19 @@ I'll get you interested in playing this eventually!
 Credits:
 
 ### Ion Storm: 
+
 Official Patch & Demo
+
 https://www.fileplanet.com/45404/40000/fileinfo/Deus-Ex-Demo
+
 https://www.fileplanet.com/47283/40000/fileinfo/Deus-Ex-Extra-Mission-Pack-for-Demo
+
 https://www.fileplanet.com/59470/50000/fileinfo/Deus-Ex-Patch-v1112fm
+
 (Official uploads by Ion Storm)
+
 Used for Patch and Demo, as well as the core setup. 
+
 Full credits should be the same as the final game, located in Credits.DX
 
 ### Caustic Creative (Creators of Revision): 
