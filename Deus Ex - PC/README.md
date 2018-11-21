@@ -1,4 +1,3 @@
-q\
 # Deus-Ex-1-Community-Update-
 
 This is a Community Update package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
@@ -19,6 +18,8 @@ Updates to included files have been and will continue to be done. Please report 
 We have a discord here:
 https://discord.gg/75UpZhy
 Feel free to stop by with any bugs, questions, comments or criticisms.
+
+Bugs can also be reported directly to our Trello: https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
 
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
@@ -263,4 +264,56 @@ Major Changelog:
 -Setup Transferred from InstallForge to the officual Deus Ex setup (manifest.ini modification) 
 -XP Compatability (removed all commands not present in XP, older Deus Exe included in files)
 
-Message us with any install issues on our discord!: https://discord.gg/75UpZhy
+We have a discord here:
+https://discord.gg/75UpZhy
+Feel free to stop by with any bugs, questions, comments or criticisms.
+
+Bugs can also be reported directly to our Trello: https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Muses:
+
+lovetrain.mp4 : https://www.youtube.com/watch?v=Sr45DmZDjSc - Scrubs - Love Train! - Bruno Amaral - Clips from the TV show Scrubs
+
+mymuse.mp4: https://www.youtube.com/watch?v=Yy6pf2rqfBM - Jak & Daxter: My Muse - NukaCola92 - From the video game Jak and Daxter
+
+getahobby.3gp: https://www.youtube.com/watch?v=3mcQfP8k51s - GET A HOBBY: work with ROCKS and CEMENT like JOHN DUNSWORTH - John Dunsworth - R.I.P
+
+digital_data.png: https://xkcd.com/1683/ - Digital Data
+
+firsttry.gif - Gif of clip from The Lego Movie
+
+users.png - Still from the movie Tron: Legacy
+
+
+
+
+
+
