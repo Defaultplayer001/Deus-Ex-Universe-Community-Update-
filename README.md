@@ -82,62 +82,71 @@ Video Renderers; (Nglide Recommended)
 Note if you use Nglide: 
 Set resolution with nglide_config.exe in \system, set in-game res to a default.
 
-Audio Renderers: (OpenAl renderer recommended) 
-	OpenAL (Higher quality playback then the default Galaxy 	renderer, arguably better lip synching)
-	SWFMod 
+### Audio Renderers: (OpenAl renderer recommended) 
+* OpenAL (Higher quality playback then the default Galaxy renderer, arguably better lip synching)
+* SWFMod 
 	
-Editing: 
-	Deus Ex Editing Pack 2.2, which includes the following:
-	Official Deus Ex SDK:
-		UnrealEd1 modified for Deus Ex
-		Unreal Code Compiler (UCC.EXE) Modified for Deus Ex
-		Sample conversation (.con) and Deus Ex Text Files 			from M0-2 (Demo)
-		ConEdit (Deus Ex Conversation Editor)	
-		Lightwave-to-Unreal model converter (LWO23D.exe)
-		Headers/libs used in development of Deus Ex (located 			in Headers/)
-	UnrealEd2 modified for Deus Ex
-	A nice GUI for UCC: UCSDK
-	TexAlign
-	Hexy's DeusExTools:
-		DeusExExtractor
-		DeusEx3Dviewer
-		Mesh converter
-		DeusExExtractor GUI
-		Unreal Unit Converter
-	LWO viewer
-	UnrealFX (to edit some flags of model's polys)
-	WotGrealExporter (To extract game files) 
-	UTPT (Unreal Tournament Package Tool)
-	Deus Ex mesh Tool (to extract meshes into MilkShape 	format)
-	Mapper's dream modified for Deus Ex
-	Bright 1.83 
-	UModel 
-	Tutorials: UED2 manual, Tack's site and Universal 	Constructor site
+### Editing: 
+* Deus Ex Editing Pack 2.2, which includes the following:
+* Official Deus Ex SDK:
+..* 	UnrealEd1 modified for Deus Ex
+..* 	Unreal Code Compiler (UCC.EXE) Modified for Deus Ex
+..* 	Sample conversation (.con) and Deus Ex Text Files from M0-2 (Demo)
+..* 	ConEdit (Deus Ex Conversation Editor)	
+..* 	Lightwave-to-Unreal model converter (LWO23D.exe)
+..* 	Headers/libs used in development of Deus Ex (located 	 		in Headers/)
+* UnrealEd2 modified for Deus Ex
+* A nice GUI for UCC: UCSDK
+* TexAlign
+* Hexy's DeusExTools:
+..* 	DeusExExtractor
+..* 	DeusEx3Dviewer
+..* 	Mesh converter
+..* 	DeusExExtractor GUI
+..* Unreal Unit Converter
+* LWO viewer
+* UnrealFX (to edit some flags of model's polys)
+* WotGrealExporter (To extract game files) 
+* UTPT (Unreal Tournament Package Tool)
+* Deus Ex mesh Tool (to extract meshes into MilkShape format)
+* Mapper's dream modified for Deus Ex
+* Bright 1.83 
+* UModel 
+* Tutorials: UED2 manual, Tack's site and Universal Constructor site
 
-Misc:
-	Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ 	m02)
-	SwFMOD Fixed int file (Fixes name display error)
-	Typo Fixed D3D10Drv Int (Direct3D 10 - Direct3D10)
-	Combined Deus Ex int file (To rename Launch to DeusEx)
-	CUv3 manifest script (Source for *this* setup!)
-	UPv3 install script (Source for *old* setup!)
-	InstallForge (Tool used to create this setup)
-	Antimicro (controller)
+### Misc:
+* Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02)
+* SwFMOD Fixed int file (Fixes name display error)
+* Typo Fixed D3D10Drv Int (Direct3D 10 - Direct3D10)
+* Combined Deus Ex int file (To rename Launch to DeusEx)
+* CUv3 manifest script (Source for *this* setup!)
+* UPv3 install script (Source for *old* setup!)
+* InstallForge (Tool used to create this setup)
+* Antimicro (controller)
 	
 
 	
-You can buy the full game from any of the following locations! : 
+You can buy the full game from any of the following locations: 
+
 Good Old Games:
+
 https://www.gog.com/game/deus_ex
+
 Steam: 
+
 http://store.steampowered.com/app/6910/Deus_Ex_Game_of_the_Year_Edition
+
 Amazon:
+
 http://a.co/aiERHa8
+
 Ebay:
+
 https://www.ebay.com/b/2000-Video-Games-Deus-Ex/139973/bn_80327271
 
 If you are seriously unable to afford a digital copy(can regularly be had for 1$ at sales!), message DefaultPlayer with a completed demo save file, and I'll probably send you a spare key! 
 
+***
 
 This patch for me is the culmination of years researching the Deus Ex franchise, and a lifetime of being a fan. 
 
@@ -152,7 +161,7 @@ I'll get you interested in playing this eventually!
 -DefaultPlayer AKA Star-loRed
 
 
-Credits:
+## Credits:
 
 ### Ion Storm: 
 
@@ -267,7 +276,8 @@ Smirftsch: OpenAL
 http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
 Deus Ex Magyarító Csapat /  Deus Ex Hungarian Translation Team : Hungarian Translation.
-Biwdy: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation,  provided sources for Portugeuse(I spelled this wrong didn't I, run through spellcheck) and Czech translations
+
+Biwdy: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations
 
 Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, 
 
@@ -280,6 +290,7 @@ Lithium/Durandalette: Idea for UNATCO raid happening after "UNATCO isn't perfect
 Mothership Loudspeaker: Additional Italian manifest translations
 
 Totalitarian: Support
+
 GiveMeDeusEx.com
 
 Deus Ex Network: Master Server Patch and Instructions.
