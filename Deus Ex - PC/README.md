@@ -171,6 +171,7 @@ Used for Patch and Demo, as well as the core setup.
 Full credits should be the same as the final game, located in Credits.DX
 
 ### Caustic Creative (Creators of Revision): 
+
 https://www.dx-revision.com/
 
 Hawk: ConFix, Support, pointed out D3D10Drv Int typo
@@ -181,6 +182,7 @@ Hanfling: Launch, RF (Revision Framework), & Support, both edited Deusex.u's wer
 http://coding.hanfling.de/launch/
 
 ### The Nameless Mod Update Team:
+
 http://www.offtopicproductions.com/forum/
 
 Bogie: ConFix, Support, HXExt
@@ -202,6 +204,7 @@ Machete: Support, Port tool (still need to get this from him!)
 Fear/Mouse: Support
 
 Kaiser: Support, Original Install Script Base
+
 https://github.com/Kaiz0r/
 
 Bogie: Support
@@ -212,10 +215,12 @@ https://www.reddit.com/r/dxarchive
 
 File resource - Countless contributors - direct & indirect
 
-Xen:Creator of the Deus Ex Archive. Portuguese-PT translation
+Xen: Creator of the Deus Ex Archive.
 
 Vencdrig: Winzip 2.1 License 
+
 Defaultplayer001: Co-creator, ConFix, Assembling UPV3 (Feel free to contact with any questions or comments, would be happy to hear from you! )
+
 https://www.reddit.com/user/Defaultplayer001/
 
 
@@ -226,29 +231,39 @@ This wouldn't be possible without you guys!
 ### Individual Credits
 
 Yukichigai: Deus Ex Unofficial Patch v2
+
 http://www.moddb.com/games/deus-ex/downloads/deus-ex-unofficial-patch-v2 
 
 D.X.M: Deus Ex Maps Patch 
+
 https://www.dxm.be/navigator.php5?lang=en&content=202
 
 Author Unknown (If you know please let us know!): Engine.dll fix 
+
 http://www.deusexnetwork.com/files/DX1/patches/6083/engine-dll-fix.zip
 
 Author Unknown (If you know please let us know!): OTPUIFix
+
 https://www.nexusmods.com/deusex/mods/36/
 
-Dalvix, Hawk, Bogie, Defaultplayer001: ConFix http://www.moddb.com/mods/confix
+Dalvix, Hawk, Bogie, Defaultplayer001: ConFix 
+
+http://www.moddb.com/mods/confix
 
 Kentie: Deus EXE, D3D10 renderer
+
 http://kentie.net
 
 Cwdohnal: D3D8, D3D9, updated OpenGL renderer 
+
 http://www.cwdohnal.com/utglr/
 
 Switch: SwFMOD
+
 http://www.ttlg.com/forums/showthread.php?t=115269
 
 Smirftsch: OpenAL
+
 http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
 Deus Ex Magyarító Csapat /  Deus Ex Hungarian Translation Team : Hungarian Translation.
@@ -269,18 +284,25 @@ GiveMeDeusEx.com
 
 Deus Ex Network: Master Server Patch and Instructions.
 
-If anyone has been forgotten, please let us know! 
+### If anyone has been forgotten, please let us know! 
 
 Major Changelog:
+
 -Rebuilding manifest.ini from the start for neatness 2018/11/14
--Setup Transferred from InstallForge to the officual Deus Ex setup (manifest.ini modification) 
+
+-Setup Transferred from InstallForge to the officual Deus Ex 
+setup (manifest.ini modification) 
+
 -XP Compatability (removed all commands not present in XP, older Deus Exe included in files)
 
 We have a discord here:
+
 https://discord.gg/75UpZhy
+
 Feel free to stop by with any bugs, questions, comments or criticisms.
 
-Bugs can also be reported directly to our Trello: https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
+Bugs can also be reported directly to our Trello: 
+https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
 
 
 
