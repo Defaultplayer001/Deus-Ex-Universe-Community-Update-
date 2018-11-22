@@ -1,9 +1,0 @@
-[Public]
-Object=(Name=OpenGLDrvU.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
-Preferences=(Caption="Rendering",Parent="Advanced Options")
-Preferences=(Caption="Direct3D8 support",Parent="Rendering",Class=OpenGLDrvU.OpenGLRenderDevice,Immediate=True)
-
-[D3D8RenderDevice]
-ClassCaption="Updated OpenGL Support"
-AskInstalled=Do you want to use updated OpenGL?
-AskUse=

@@ -1,1 +1,0 @@
-copy /b 7zS.sfx + configsystemfiles.txt + SystemFilesIIT.7z SystemFilesIIT.exe
