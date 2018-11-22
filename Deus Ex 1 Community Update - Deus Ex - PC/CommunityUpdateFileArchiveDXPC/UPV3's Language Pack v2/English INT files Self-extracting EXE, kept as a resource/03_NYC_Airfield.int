@@ -1,0 +1,52 @@
+[SkillAwardTrigger2]
+awardMessage="Goal Accomplishment Bonus"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=boatguard,KeyID=eastgate,Description="East Gate key")"
+NanoKeyData[1]="(ScriptedPawnTag=Terrorist,KeyID=securitytower,Description="Security Tower Key")"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Right Turret",cameraTag=sectower1cama,turretTag=sectower1turreta)"
+Views[1]="(titleString="Left Turret",cameraTag=sectower1camb,turretTag=sectower1turretb)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Right Turret",cameraTag=sectower2cama,turretTag=sectower2turreta)"
+Views[1]="(titleString="Left Turret",cameraTag=sectower2camb,turretTag=sectower2turretb)"
+
+[ComputerSecurity9]
+Views[0]="(titleString="Right Turret",cameraTag=sectower5cama,turretTag=sectower5turreta)"
+Views[1]="(titleString="Left Turret",cameraTag=sectower5camb,turretTag=sectower5turretb)"
+
+[ComputerSecurity8]
+Views[0]="(titleString="Right Turret",cameraTag=sectower4cama,turretTag=sectower4turreta)"
+Views[1]="(titleString="Left Turret",cameraTag=sectower4camb,turretTag=sectower4turretb)"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Right Turret",cameraTag=sectower3cama,turretTag=sectower3turreta)"
+Views[1]="(titleString="Left Turret",cameraTag=sectower3camb,turretTag=sectower3turretb)"
+
+[SkillAwardTrigger7]
+awardMessage="Advancement Bonus"
+
+[NanoKey1]
+Description="Barracks Dormitory"
+
+[SkillAwardTrigger8]
+awardMessage="Exploration Bonus"
+
+[NanoKey0]
+Description="East Gate Key"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[SkillAwardTrigger10]
+awardMessage="Goal Accomplishment Bonus"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Airfield"
+
+[LevelSummary]
+Title="Untitled"
+

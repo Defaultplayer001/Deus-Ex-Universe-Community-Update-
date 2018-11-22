@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + configsystemfiles.txt + SystemFilesJPT.7z SystemFilesJPT.exe

@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + configsystemfiles.txt + PCSX2.7z SystemFilesPS2.exe

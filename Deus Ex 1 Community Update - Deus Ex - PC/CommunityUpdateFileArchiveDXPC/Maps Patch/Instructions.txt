@@ -1,0 +1,16 @@
+Instructions:
+=============
+
+English:
+--------
+Extract the archive content to the main Deus Ex install directory. Do not install those files inside a Deus Ex mod or DX: Revision! Replace any existing files and folders if needed.
+
+Enjoy!
+D.X.M - http://www.dxm.be/
+
+Français:
+---------
+Extrayez le contenu dans cette archive vers le dossier d'installation principal de Deus Ex. N'installez pas ces fihciers dans un mod pour Deus Ex ou même DX: Revision ! Remplacez tous les fichiers et dossiers existants si besoin est.
+
+Bon amusement !
+D.X.M - http://www.dxm.be/

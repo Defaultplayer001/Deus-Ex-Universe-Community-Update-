@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + configsystemfilesFRT.txt + "DXPS Francais Patch v1.1.7z" "DXPS Francais Patch v1.1.exe"

@@ -1,0 +1,62 @@
+[NanoKey0]
+Description="Greasel Laboratory Key"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger1]
+awardMessage="Advancement Bonus"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Carcharodon Lab",cameraTag=sharkcam)"
+Views[1]="(titleString="Greasel Lab",cameraTag=Greaselcam)"
+Views[2]="(titleString="Command Center",cameraTag=commandcam,turretTag=comturret)"
+
+[SecurityCamera3]
+FamiliarName="Greasal Lab"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MJ12glab,KeyID=Glab,Description="Greasel Lab Key")"
+NanoKeyData[1]="(ScriptedPawnTag=MJ12access,KeyID=Access,Description="Access Corridor Key")"
+NanoKeyData[2]="(ScriptedPawnTag=MJ12storage,KeyID=storage,Description="Storage Room Key")"
+
+[SkillAwardTrigger0]
+awardMessage="Advancement Bonus"
+
+[DeusExMover10]
+FamiliarName="Sub Bay Door"
+
+[NanoKey1]
+Description="Storage Access Key"
+
+[AutoTurret1]
+FamiliarName="Command Turrets"
+
+[SecurityCamera1]
+FamiliarName="Shark Tank"
+
+[SecurityCamera4]
+FamiliarName="Crew Module"
+
+[DeusExLevelInfo0]
+MissionLocation="New West Coast - OceanLab"
+startupMessage[0]="MJ12 OceanLab"
+startupMessage[1]="Oceanic Floor"
+
+[ComputerSecurity1]
+Views[0]="(titleString="URV Bay",cameraTag=subcam,doorTag=subdoor)"
+Views[1]="(titleString="Crew Module",cameraTag=liftcam,turretTag=crewturret)"
+Views[2]="(titleString="Greasel Lab",cameraTag=Greaselcam)"
+
+[SecurityCamera2]
+FamiliarName="Command Center"
+
+[SkillAwardTrigger2]
+awardMessage="Exploration Bonus"
+
+[SecurityCamera0]
+FamiliarName="Submarine Bay"
+
+[NanoKey2]
+Description="Crew Module Access"
+

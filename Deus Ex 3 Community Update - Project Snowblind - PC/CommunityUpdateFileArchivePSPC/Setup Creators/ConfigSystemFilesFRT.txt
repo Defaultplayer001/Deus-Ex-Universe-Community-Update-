@@ -1,0 +1,4 @@
+;!@Install@!UTF-8!
+Title="Language System Files"
+ExecuteFile="DXPS Francais Patch v1.1.reg"
+;!@InstallEnd@!
