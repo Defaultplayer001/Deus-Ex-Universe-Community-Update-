@@ -111,6 +111,15 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\ReleaseMPPatch1112fm\System\*" "%~dp
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\ReleaseMPPatch1112fm\setup.exe" "%~dp0" /y
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\ReleaseMPPatch1112fm" /S /Q
 
+Rem		1014 Patch install files (Doesn't auto check all options like 1112fm does no matter the selected= value) 
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" -y
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f.exe" -o"%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f" -y
+ren "%~dp0\Help\ReadMePatch1.htm" "ReadMePatch1014.htm"
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\Help" "%~dp0\Help\" /y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\System\Setup.exe" "%~dp0\System" /y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\setup.exe" "%~dp0" /y
+rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" /S /Q
+
 rem :IF "%setup%"=="No" (
 rem :	goto :skipmapspatch
 rem :	)

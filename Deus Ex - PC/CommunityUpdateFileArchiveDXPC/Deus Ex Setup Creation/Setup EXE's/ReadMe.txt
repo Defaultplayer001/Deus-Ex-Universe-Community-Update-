@@ -5,6 +5,8 @@ The Deus Ex 1112fm GOTY disc/patch(same as 1109f, 1003f_F8) version seems to wor
 
 Edit: The 1112fm version seems to select all options by default, limiting you ability to create options. 
 
+Edit2: However, the 1014f version does not seem to have this limitation! 
+
 All shortcut EXE's seem to be the same, kept for convienance. 
 
 Can be used to create new setup files by modifying the manifest.ini

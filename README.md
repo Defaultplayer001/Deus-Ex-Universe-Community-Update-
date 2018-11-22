@@ -51,7 +51,7 @@ If you install a translation, Confix will not be.
 * Portugueses	
 * Spanish
 * Russian - Has a dub available here:PUTLINKHERE
-..* 	Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
+..* Note: An unofficial release overdub, new audio dubbed over the original, which can still be heard.
 
 
 ### Ini Changes:
@@ -133,7 +133,7 @@ Set resolution with nglide_config.exe in \system, set in-game res to a default.
 * Combined Deus Ex int file (To rename Launch to DeusEx)
 * CUv3 manifest script (Source for *this* setup!)
 * UPv3 install script (Source for *old* setup!)
-* InstallForge (Tool used to create this setup)
+* InstallForge (Tool used to create old setup)
 * Antimicro (controller)
 	
 
@@ -190,6 +190,8 @@ https://www.fileplanet.com/59470/50000/fileinfo/Deus-Ex-Patch-v1112fm
 Used for Patch and Demo, as well as the core setup. 
 
 Full credits should be the same as the final game, located in Credits.DX
+
+A number of official translations teams had to be involved as well, if you know anything about them please let us know! 
 
 ### Caustic Creative (Creators of Revision): 
 
@@ -266,6 +268,9 @@ http://www.deusexnetwork.com/files/DX1/patches/6083/engine-dll-fix.zip
 Author Unknown (If you know please let us know!): OTPUIFix
 
 https://www.nexusmods.com/deusex/mods/36/
+
+Author Unknown (If you know please let us know!): Russian Translation TD Ask Veronika about this again.
+
 
 Dalvix, Hawk, Bogie, Defaultplayer001: ConFix 
 
@@ -357,17 +362,19 @@ https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
 
 Muses:
 
-lovetrain.mp4 : https://www.youtube.com/watch?v=Sr45DmZDjSc - Scrubs - Love Train! - Bruno Amaral - Clips from the TV show Scrubs
+lovetrain.3gp: https://www.youtube.com/watch?v=Sr45DmZDjSc - Scrubs - Love Train! - Bruno Amaral - Clips from the TV show Scrubs
 
-mymuse.mp4: https://www.youtube.com/watch?v=Yy6pf2rqfBM - Jak & Daxter: My Muse - NukaCola92 - From the video game Jak and Daxter
+mymuse.3gp: https://www.youtube.com/watch?v=Yy6pf2rqfBM - Jak & Daxter: My Muse - NukaCola92 - From the video game Jak and Daxter
 
 getahobby.3gp: https://www.youtube.com/watch?v=3mcQfP8k51s - GET A HOBBY: work with ROCKS and CEMENT like JOHN DUNSWORTH - John Dunsworth - R.I.P
 
-digital_data.png: https://xkcd.com/1683/ - Digital Data
+digital_data.png: https://xkcd.com/1683/ - Digital Data - “If you can read this, congratulations—the archive you’re using still knows about the mouseover text”!
 
 firsttry.gif - Gif of clip from The Lego Movie
 
 users.png - Still from the movie Tron: Legacy
+
+Right -  https://www.youtube.com/watch?v=edCqF_NtpOQ - Clip from Futurama 
 
 
 

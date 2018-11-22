@@ -6,138 +6,159 @@ https://www.reddit.com/r/dxarchive/
 
 It includes every patch, alternate exe/renderer as well as every translation we know of. 
 
-Also included are the original demo files which you apply the multiplayer patch too. 
+Also included are the original demo files which you apply the 
+multiplayer patch too. 
+
 This let's you play the full multiplayer and singleplayer up to the end of mission 2!
 
 A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
+
 Keybinds and guide can be found in the Help folder.
+
 Note that you will have to exit the program manually from the icon tray if you want to stop the controller registering as mouse&keyboard input. 
 
 Updates to included files have been and will continue to be done. Please report any bugs! 
 
 We have a discord here:
+
 https://discord.gg/75UpZhy
+
 Feel free to stop by with any bugs, questions, comments or criticisms.
 
-Bugs can also be reported directly to our Trello: https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
+Bugs can also be reported directly to our Trello: 
+
+https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
 
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
 
-The package Includes the following (Organized in install order):
+The package Includes the following:
+
+
+### -Translations: 
 
 Note: Translations not compatible with Confix.
+
 If you install a translation, Confix will not be.
--Translations: 
-	Czech
-	French
-	German
-	Hungarian
-	Italian
-	Japanese
-	Polish
-	Portugueses	
-	Spanish
-	Russian - Has a dub available here:PUTLINKHERE
-	Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
+
+* Czech
+* French
+* German
+* Hungarian
+* Italian
+* Japanese
+* Polish
+* Portugueses	
+* Spanish
+* Russian - Has a dub available here:PUTLINKHERE
+..* 	Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
 
 
-Ini Changes:
-	Keybind adjustments to fit modern standards TD
-	Masterserver change TD
-	Demorec keybind TD
-	RF set to be used TD
-	OpenAL additions TD
+### Ini Changes:
 
-Patches:
-	Deus Ex Unofficial Patch v2 (Code fixes)
-	112fm GOTY Patch (Official Multiplayer Patch)
-	Deus Ex Maps Patch (v1.110 maps not in GOTY due to error)
-	Engine.dll Fix (Demo Recording Fix)
-	Confix (Conversation fixes)
-	OTPUIFix (UI Scaling fixes,not applied automatically, see 	readme)
-	RF (Revision Framework)
+* Keybind adjustments to fit modern standards TD
+* Masterserver change
+* Demorec keybind TD
+* RF set to be used TD
 
-Mods:
-	HX (Co-op mod)
-	HXEXT (HX Extension mod) 
+### Patches:
+
+* Deus Ex Unofficial Patch v2 (Code fixes)
+* 112fm GOTY Patch (Official Multiplayer Patch)
+* Deus Ex Maps Patch (v1.110 maps not in GOTY due to error)
+* Engine.dll Fix (Demo Recording Fix)
+* Confix (Conversation fixes)
+* OTPUIFix (UI Scaling fixes,not applied automatically, see 	readme)
+* RF (Revision Framework)
+
+### Mods:
+* HX (Co-op mod)
+* HXEXT (HX Extension mod) 
  Optional mods (Can only use one at a time!):
-	Shifter
-	Biomod
-	Vanilla Matters
+* Shifter
+* Biomod
+* Vanilla Matters
 
-Alternate EXEs : (Launch Recommended) 
-	Launch (Used by default, more compatible) 
-	Deus EXE (More features, less compatible) 
-Note if you use Deus Exe:
-Not compatible with XP, older version that is included in files.
+### Alternate EXEs : (Launch Recommended) 
+* Launch (Used by default, more compatible) 
+* Deus EXE (More features, less compatible) 
+..* Note: Not compatible with XP, older version that is included in files.
 
-Video Renderers; (Nglide Recommended) 
-	Nglide (3dfx emulator)
-	Direct3D 10 
-	Direct3D 9
-	Direct3D 8 (outdated,use another unless neccessary)
-	OpenGl (Updated) 
-	Uglide (Not installed automatically)
+### Video Renderers; (Nglide Recommended) 
+* Nglide (3dfx emulator)
+* Direct3D 10 
+* Direct3D 9
+* Direct3D 8 (outdated,use another unless neccessary)
+* OpenGl (Updated) 
+* Uglide (Not installed automatically)
 Note if you use Nglide: 
-Set resolution with nglide_config.exe in \system, set in-game res to a default.
+Set resolution with nglide_config.exe in \system, set in-game res to a default. 
 
-Audio Renderers: (OpenAl renderer recommended) 
-	OpenAL (Higher quality playback then the default Galaxy 	renderer, arguably better lip synching)
-	SWFMod 
+### Audio Renderers: (OpenAl renderer recommended) 
+* OpenAL (Higher quality playback then the default Galaxy renderer, arguably better lip synching)
+* SWFMod 
 	
-Editing: 
-	Deus Ex Editing Pack 2.2, which includes the following:
-	Official Deus Ex SDK:
-		UnrealEd1 modified for Deus Ex
-		Unreal Code Compiler (UCC.EXE) Modified for Deus Ex
-		Sample conversation (.con) and Deus Ex Text Files 			from M0-2 (Demo)
-		ConEdit (Deus Ex Conversation Editor)	
-		Lightwave-to-Unreal model converter (LWO23D.exe)
-		Headers/libs used in development of Deus Ex (located 			in Headers/)
-	UnrealEd2 modified for Deus Ex
-	A nice GUI for UCC: UCSDK
-	TexAlign
-	Hexy's DeusExTools:
-		DeusExExtractor
-		DeusEx3Dviewer
-		Mesh converter
-		DeusExExtractor GUI
-		Unreal Unit Converter
-	LWO viewer
-	UnrealFX (to edit some flags of model's polys)
-	WotGrealExporter (To extract game files) 
-	UTPT (Unreal Tournament Package Tool)
-	Deus Ex mesh Tool (to extract meshes into MilkShape 	format)
-	Mapper's dream modified for Deus Ex
-	Bright 1.83 
-	UModel 
-	Tutorials: UED2 manual, Tack's site and Universal 	Constructor site
+### Editing: 
+* Deus Ex Editing Pack 2.2, which includes the following:
+* Official Deus Ex SDK:
+..* 	UnrealEd1 modified for Deus Ex
+..* 	Unreal Code Compiler (UCC.EXE) Modified for Deus Ex
+..* 	Sample conversation (.con) and Deus Ex Text Files from M0-2 (Demo)
+..* 	ConEdit (Deus Ex Conversation Editor)	
+..* 	Lightwave-to-Unreal model converter (LWO23D.exe)
+..* 	Headers/libs used in development of Deus Ex (located 	 		in Headers/)
+* UnrealEd2 modified for Deus Ex
+* A nice GUI for UCC: UCSDK
+* TexAlign
+* Hexy's DeusExTools:
+..* 	DeusExExtractor
+..* 	DeusEx3Dviewer
+..* 	Mesh converter
+..* 	DeusExExtractor GUI
+..* Unreal Unit Converter
+* LWO viewer
+* UnrealFX (to edit some flags of model's polys)
+* WotGrealExporter (To extract game files) 
+* UTPT (Unreal Tournament Package Tool)
+* Deus Ex mesh Tool (to extract meshes into MilkShape format)
+* Mapper's dream modified for Deus Ex
+* Bright 1.83 
+* UModel 
+* Tutorials: UED2 manual, Tack's site and Universal Constructor site
 
-Misc:
-	Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ 	m02)
-	SwFMOD Fixed int file (Fixes name display error)
-	Typo Fixed D3D10Drv Int (Direct3D 10 - Direct3D10)
-	Combined Deus Ex int file (To rename Launch to DeusEx)
-	CUv3 manifest script (Source for *this* setup!)
-	UPv3 install script (Source for *old* setup!)
-	InstallForge (Tool used to create this setup)
-	Antimicro (controller)
+### Misc:
+* Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02)
+* SwFMOD Fixed int file (Fixes name display error)
+* Typo Fixed D3D10Drv Int (Direct3D 10 - Direct3D10)
+* Combined Deus Ex int file (To rename Launch to DeusEx)
+* CUv3 manifest script (Source for *this* setup!)
+* UPv3 install script (Source for *old* setup!)
+* InstallForge (Tool used to create this setup)
+* Antimicro (controller)
 	
 
 	
-You can buy the full game from any of the following locations! : 
+You can buy the full game from any of the following locations: 
+
 Good Old Games:
+
 https://www.gog.com/game/deus_ex
+
 Steam: 
+
 http://store.steampowered.com/app/6910/Deus_Ex_Game_of_the_Year_Edition
+
 Amazon:
+
 http://a.co/aiERHa8
+
 Ebay:
+
 https://www.ebay.com/b/2000-Video-Games-Deus-Ex/139973/bn_80327271
 
-If you are seriously unable to afford a digital copy(can regularly be had for 1$ at sales!), message DefaultPlayer with a completed demo save file, and I'll probably send you a spare key! 
+If you are seriously unable to afford a digital copy (can regularly be had for 1$ at sales!) - message DefaultPlayer with a completed demo save file, and I'll probably send you a spare key! 
 
+***
 
 This patch for me is the culmination of years researching the Deus Ex franchise, and a lifetime of being a fan. 
 
@@ -152,7 +173,7 @@ I'll get you interested in playing this eventually!
 -DefaultPlayer AKA Star-loRed
 
 
-Credits:
+## Credits:
 
 ### Ion Storm: 
 
@@ -169,6 +190,8 @@ https://www.fileplanet.com/59470/50000/fileinfo/Deus-Ex-Patch-v1112fm
 Used for Patch and Demo, as well as the core setup. 
 
 Full credits should be the same as the final game, located in Credits.DX
+
+A number of official translations teams had to be involved as well, if you know anything about them please let us know! 
 
 ### Caustic Creative (Creators of Revision): 
 
@@ -246,6 +269,9 @@ Author Unknown (If you know please let us know!): OTPUIFix
 
 https://www.nexusmods.com/deusex/mods/36/
 
+Author Unknown (If you know please let us know!): Russian Translation TD Ask Veronika about this again.
+
+
 Dalvix, Hawk, Bogie, Defaultplayer001: ConFix 
 
 http://www.moddb.com/mods/confix
@@ -267,7 +293,8 @@ Smirftsch: OpenAL
 http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
 Deus Ex Magyar�t� Csapat /  Deus Ex Hungarian Translation Team : Hungarian Translation.
-Biwdy: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation,  provided sources for Portugeuse(I spelled this wrong didn't I, run through spellcheck) and Czech translations
+
+Biwdy: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations
 
 Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, 
 
@@ -280,7 +307,8 @@ Lithium/Durandalette: Idea for UNATCO raid happening after "UNATCO isn't perfect
 Mothership Loudspeaker: Additional Italian manifest translations
 
 Totalitarian: Support
-GiveMeDeusEx.com
+
+http://www.GiveMeDeusEx.com
 
 Deus Ex Network: Master Server Patch and Instructions.
 
@@ -334,17 +362,19 @@ https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
 
 Muses:
 
-lovetrain.mp4 : https://www.youtube.com/watch?v=Sr45DmZDjSc - Scrubs - Love Train! - Bruno Amaral - Clips from the TV show Scrubs
+lovetrain.3gp: https://www.youtube.com/watch?v=Sr45DmZDjSc - Scrubs - Love Train! - Bruno Amaral - Clips from the TV show Scrubs
 
-mymuse.mp4: https://www.youtube.com/watch?v=Yy6pf2rqfBM - Jak & Daxter: My Muse - NukaCola92 - From the video game Jak and Daxter
+mymuse.3gp: https://www.youtube.com/watch?v=Yy6pf2rqfBM - Jak & Daxter: My Muse - NukaCola92 - From the video game Jak and Daxter
 
 getahobby.3gp: https://www.youtube.com/watch?v=3mcQfP8k51s - GET A HOBBY: work with ROCKS and CEMENT like JOHN DUNSWORTH - John Dunsworth - R.I.P
 
-digital_data.png: https://xkcd.com/1683/ - Digital Data
+digital_data.png: https://xkcd.com/1683/ - Digital Data - “If you can read this, congratulations—the archive you’re using still knows about the mouseover text”!
 
 firsttry.gif - Gif of clip from The Lego Movie
 
 users.png - Still from the movie Tron: Legacy
+
+Right -  https://www.youtube.com/watch?v=edCqF_NtpOQ - Clip from Futurama 
 
 
 

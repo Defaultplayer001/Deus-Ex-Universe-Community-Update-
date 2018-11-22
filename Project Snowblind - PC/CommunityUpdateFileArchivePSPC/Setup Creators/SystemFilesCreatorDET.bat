@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + configsystemfilesDET.txt + "DXPS Deutsch Patch v1.1.7z" "DXPS Deutsch Patch v1.1.exe"
