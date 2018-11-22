@@ -1,4 +1,0 @@
-;!@Install@!UTF-8!
-Title="Language System Files"
-ExecuteFile="DXPS Deutsch Patch v1.1.reg"
-;!@InstallEnd@!
