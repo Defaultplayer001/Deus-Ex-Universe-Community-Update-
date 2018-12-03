@@ -142,15 +142,17 @@ IF "%setup%"=="No" (
 	)
 
 rem 	Unofficial Patch v2 *DEMO*
-IF "%Demo%"=="Yes" copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 Demo version\DeusEx.u" "%~dp0\System\DeusEx.u"
-IF "%Demo%"=="Yes" copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\ReadMe.txt" "%~dp0\Help\Unofficial Patch v2 ReadMe.txt" /Y
+IF "%Demo%"=="Yes" copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 Demo Version\DeusEx.u" "%~dp0\System\DeusEx.u"
+IF "%Demo%"=="Yes" copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-v2-Demo-Version-ReadMe.txt" /Y
 IF "%Demo%"=="Yes" goto :demoskip 	
 rem 	Unofficial Patch v2
 :Now using an edited version of UPV2 by default
 :"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10.zip" -y
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\ReadMe.txt" "%~dp0\Help\Unofficial Patch V2 edited render relaunch ReadMe.txt" /Y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\Unofficial_DeusExV2_v_0.10\*" "%~dp0\System\" /Y /S
-rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\Unofficial_DeusExV2_v_0.10" /S /Q
+;copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-V2-edited-render-relaunch-ReadMe.txt" /Y
+;xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10\*" "%~dp0\System\" /Y /S
+;rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10" /S /Q
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-V2-edited-render-relaunch-ReadMe.txt" /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\*" "%~dp0\System\" /Y /S
 
 :demoskip
 
@@ -163,7 +165,7 @@ rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Engine DLL Fix (Demo Recording Fix)\
 
 rem		Confix 1.05
 IF "%Translation%"=="Yes" goto :skipConfix
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Confix 1.05\ReadMe.txt" "%~dp0\Help\Confix 1.05 ReadMe.txt" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Confix 1.05\ReadMe.txt" "%~dp0\Help\Confix=1.05-ReadMe.txt" /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Confix 1.05" "%~dp0\System" *.u /y
 
 :skipConfix
@@ -172,6 +174,12 @@ rem		OTPUIFix
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\OTPUIFix.Zip" -o"%~dp0\System" -y
 copy "%~dp0\System\OTP UI Fix Readme.txt" "%~dp0\Help\OTP-UI-Fix-Readme.txt" /Y
 del "%~dp0\System\OTP UI Fix Readme.txt" /Q
+
+Rem		Revision Framework
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\ReadMe.txt" "%~dp0\Help\Revision-Framework-Readme.txt" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\RF.dll" "%~dp0\system\RF.dll" /y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\RF.u" "%~dp0\system\RF.u" /y
+
 
 rem EXE's
 ren "%~dp0\System\DeusEx.exe" "DeusEx Original.exe"
@@ -194,8 +202,14 @@ ren "%~dp0\System\Launch.exe" "DeusEx.exe"
 ren "%~dp0\System\UCC.exe" "%~dp0\System\UCC Original.exe"
 ren "%~dp0\System\LCC.exe" "%~dp0\System\UCC.exe"
 rem			Combined int file
-ren "%~dp0\System\Deusex.int" "DeusEx original.int"
+ren "%~dp0\System\Deusex.int" "DeusEx Original.int"
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Int Files\Combined&updated Deus Ex int file" "%~dp0\System" /y
+rem			Multiplayer exe, int and Ini
+copy "%~dp0\System\DeusEx.exe" "%~dp0\System\DeusExMultiplayer.exe" /y
+rem Double check that this is needed
+rem It is
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Int Files\Combined&updated Deus Ex int file\DeusEx.int" "%~dp0\System\DeusExMultiplayer.int" /y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\DXMTL Multiplayer ini" "%~dp0\System" /y /s
 
 rem Renderers
 rem 	Video
@@ -231,7 +245,7 @@ ren "%~dp0\System\OpenGLDrv.dll" "%~dp0\System\OpenGLDrv Original.dll"
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\OpenGL\dxglr21"  "%~dp0\System" /y
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\OpenGL\dxglr21" /S /Q
 rem			dxd3d8/9/OpenGL readme (cwdohnal)
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\OpenGL\ReadMe.txt"  "%~dp0\Help\D3D8,9,OpenGL ReadMe.txt" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\OpenGL\ReadMe.txt"  "%~dp0\Help\D3D8-9-OpenGL-ReadMe.txt" /Y
 
 
 rem		Audio
@@ -256,11 +270,9 @@ copy "%~dp0\CommunityUpdateFileArchiveDXPC\Int Files\SwFMOD Fixed INT file\SwFMO
 rem		Multiplayer
 
 rem			DXMTL
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\DXMTL-v152b1 Installed files\Help\readme_dxmtl.txt"  "%~dp0\Help\DXMTL-ReadMe.txt" /Y
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\DXMTL-v152b1 Installed files\Help\license_dxmtl.txt"  "%~dp0\Help\DXMTL-License.txt" /Y
-rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\DXMTL-v152b1 Installed files\Help" /S /Q
-del "%~dp0\CommunityUpdateFileArchiveDXPC\DXMTL-v152b1 Installed files\System\DeusEx.ini" /Q
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\DXMTL-v152b1 Installed files" "%~dp0" /y /s
+ren "%~dp0\Help\readme_dxmtl.txt"  "%~dp0\Help\DXMTL-ReadMe.txt" /Y
+ren "%~dp0\Help\license_dxmtl.txt"  "%~dp0\Help\DXMTL-License.txt" /Y
 
 Rem			Nephthys
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst" -y
@@ -305,6 +317,9 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Portugues-Po
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Russkiy-Russian" "%~dp0" /S /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Nihongo-Japanese" "%~dp0" /S /Y
 rem ren "%~dp0\Help\ReadMePatch1.htm" "Nihongo-JapaneseReadMePatch1.htm"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\DeusEx.u" "%~dp0\System\DeusEx.u"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-V2-edited-render-relaunch-ReadMe.txt" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\UnofficialPatchv2DemoVersion.exe" "%~dp0\System\UnofficialPatchv2DemoVersion.exe"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\DXEditingPACK_2_2_Full_Community_Update_edit.exe" "%~dp0\System\SystemFiles.exe" /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Readme.md converted to HTML" "%~dp0\Help" /S /Y
 "%~dp0\setup.exe"

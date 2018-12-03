@@ -4,7 +4,7 @@ This changes the render restart under video options to relaunch with as a first 
 
 The value is in MenuChoice_RenderDevice.uc, found it by opening deusex.u on notepad++ and just searching for the "changevideo" value you mentioned, just had to change -changevideo to -firstrun and it works as wanted!
 
-Default readme below:
+Default ReadMe below:
 
 A patch released in 2010, to address the remaining bugs & various issues still present in the game. However it never really took off, with Y|yukichigai present on other things he instead opted to slowly work on Shifter releases and his bigger projects.
 
