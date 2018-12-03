@@ -204,7 +204,7 @@ Bjorn Ehrby: RF (Revision Framework), Support
 Hanfling: Launch, RF (Revision Framework), & Support, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 
-### The Nameless Mod Update Team:
+### The Nameless Mod Update Team / Off Topic Productions forum members :
 
 http://www.offtopicproductions.com/forum/
 
@@ -265,8 +265,8 @@ Author Unknown (If you know please let us know!): Engine.dll fix
 
 http://www.deusexnetwork.com/files/DX1/patches/6083/engine-dll-fix.zip
 
-Author Unknown (If you know please let us know!): OTPUIFix
-
+NVShacker(Thanks for providing the authors name Birdy/Daet!): OTPUIFix
+https://web.archive.org/web/20090225135158/http://thenamelessmod.com/downloads/miscfiles/
 https://www.nexusmods.com/deusex/mods/36/
 
 Author Unknown (If you know please let us know!): Russian Translation TD Ask Veronika about this again.
@@ -294,7 +294,7 @@ http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
 Deus Ex Magyarító Csapat /  Deus Ex Hungarian Translation Team : Hungarian Translation.
 
-Biwdy: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations
+Biwdy / Birdy / Daet: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations
 
 Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, 
 
