@@ -27,7 +27,7 @@ Feel free to stop by with any bugs, questions, comments or criticisms.
 
 Bugs can also be reported directly to our Trello: 
 
-https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
+https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
@@ -48,7 +48,7 @@ If you install a translation, Confix will not be.
 * Italian
 * Japanese
 * Polish
-* Portugueses	
+* Portuguese	
 * Spanish
 * Russian - Has a dub available here:PUTLINKHERE
 ..* 	Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
@@ -191,8 +191,6 @@ Used for Patch and Demo, as well as the core setup.
 
 Full credits should be the same as the final game, located in Credits.DX
 
-A number of official translations teams had to be involved as well, if you know anything about them please let us know! 
-
 ### Caustic Creative (Creators of Revision): 
 
 https://www.dx-revision.com/
@@ -226,7 +224,7 @@ Machete: Support, Port tool (still need to get this from him!)
 
 Fear/Mouse: Support
 
-Kaiser: Support, Original Install Script Base
+Kaiser: Support, Linux Support, Original Install Script Base
 
 https://github.com/Kaiz0r/
 
@@ -251,6 +249,34 @@ Thanks so much to both the TNM & Revision teams, and everyone in the community!
 This wouldn't be possible without you guys!
 
 ***
+
+### Translations: 
+
+A number of official translation teams had to be involved as well, if you know anything about them please let us know! 
+
+Czech Translation (Fan-made): Warezz.K
+
+https://www.moddb.com/mods/deusexczmod-1112fm
+
+French (Official) : Unknown (If you know please let us know!):
+
+German (Official) : Unknown (If you know please let us know!)
+
+Hungarian (Fan-made) : Deus Ex Magyarító Csapat /  Deus Ex Hungarian Translation Team - Members: Biwdy (If you know others please let us know!)
+
+Italian (Official) : Unknown (If you know please let us know!)
+
+Japanese (Official) : Unknown (If you know please let us know!)
+
+Polish (Fan-made) : Unknown (If you know please let us know!)
+
+Portuguese (Fan-made) : Unknown (If you know please let us know!)
+
+Spanish (Official) : Unknown (If you know please let us know!)
+
+Russian (Unofficial & Fan-made) : Unknown (If you know please let us know!)
+
+
 ### Individual Credits
 
 Yukichigai: Deus Ex Unofficial Patch v2
@@ -291,8 +317,6 @@ http://www.ttlg.com/forums/showthread.php?t=115269
 Smirftsch: OpenAL
 
 http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
-
-Deus Ex Magyarító Csapat /  Deus Ex Hungarian Translation Team : Hungarian Translation.
 
 Biwdy / Birdy / Daet: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations
 
