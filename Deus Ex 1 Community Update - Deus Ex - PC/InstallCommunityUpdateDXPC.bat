@@ -199,8 +199,8 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20180729" /S /Q
 del "%~dp0\System\DeusEx.exe" /Q
 ren "%~dp0\System\Launch.exe" "DeusEx.exe"
-ren "%~dp0\System\UCC.exe" "%~dp0\System\UCC Original.exe"
-ren "%~dp0\System\LCC.exe" "%~dp0\System\UCC.exe"
+ren "%~dp0\System\UCC.exe" "UCC Original.exe"
+ren "%~dp0\System\LCC.exe" "UCC.exe"
 rem			Combined int file
 ren "%~dp0\System\Deusex.int" "DeusEx Original.int"
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Int Files\Combined&updated Deus Ex int file" "%~dp0\System" /y
@@ -209,7 +209,7 @@ copy "%~dp0\System\DeusEx.exe" "%~dp0\System\DeusExMultiplayer.exe" /y
 rem Double check that this is needed
 rem It is
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Int Files\Combined&updated Deus Ex int file\DeusEx.int" "%~dp0\System\DeusExMultiplayer.int" /y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\DXMTL Multiplayer ini\" "%~dp0\System\" /y /s
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\DXMTL Multiplayer ini\*" "%~dp0\System\" /y /s
 
 rem Renderers
 rem 	Video
@@ -241,7 +241,7 @@ rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\DXD3D\dxd3d8r10" /S /Q
 
 rem			OpenGl
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\OpenGL\dxglr21.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\OpenGL\dxglr21" -y
-ren "%~dp0\System\OpenGLDrv.dll" "%~dp0\System\OpenGLDrv Original.dll"
+ren "%~dp0\System\OpenGLDrv.dll" "OpenGLDrv Original.dll"
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\OpenGL\dxglr21"  "%~dp0\System" /y
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\OpenGL\dxglr21" /S /Q
 rem			dxd3d8/9/OpenGL readme (cwdohnal)
@@ -270,16 +270,16 @@ copy "%~dp0\CommunityUpdateFileArchiveDXPC\Int Files\SwFMOD Fixed INT file\SwFMO
 rem		Multiplayer
 
 rem			DXMTL
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\DXMTL-v152b1 Installed files\" "%~dp0\" /y /s
-ren "%~dp0\Help\readme_dxmtl.txt"  "%~dp0\Help\DXMTL-ReadMe.txt" /Y
-ren "%~dp0\Help\license_dxmtl.txt"  "%~dp0\Help\DXMTL-License.txt" /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\DXMTL-v152b1 Installed files" "%~dp0" /Y /E
+ren "%~dp0\Help\readme_dxmtl.txt" "DXMTL-ReadMe.txt" /Y
+ren "%~dp0\Help\license_dxmtl.txt" "DXMTL-License.txt" /Y
 
 rem			Nephthys
 rem "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst" -y
 rem "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst\Nephthys_v1.4b10_inst.exe" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst\Nephthys_v1.4b10_inst" -y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\ReadMe.txt"  "%~dp0\Help\ReadMe-Nephthys.txt" /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_installed files (7zip does not extract properly)" "%~dp0\System" /y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\Nepthys ini changes" "%~dp0\System" /y /s
+;xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\Nepthys ini changes" "%~dp0\System" /y /s
 
 rem		HX Co-Op
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HX-0.9.89.3.zip" -o"%~dp0" -y
