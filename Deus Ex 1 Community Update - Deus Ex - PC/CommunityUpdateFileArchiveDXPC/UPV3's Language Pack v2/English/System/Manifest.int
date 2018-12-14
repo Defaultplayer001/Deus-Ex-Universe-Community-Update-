@@ -25,7 +25,7 @@ EditLevelCommand=&Edit this Deus Ex level
 
 [GameGroup]
 Caption=Deus Ex System
-Description=Deus Ex system files. Installation is required. Click the + to reveal more English only installation options. 
+Description=Deus Ex system files. Installation is required.
 
 [DeusExContentGroup]
 Caption=Deus Ex Game Content
@@ -130,8 +130,9 @@ Description=An extension of the Shifter mod. primarily focused with augmentation
 
 [HurenGroup]
 Caption=Human Renovation
-Description=An expansion of Unofficial Patch v2. I noticed a surprising number of things that could be fixed, both old and new. It's mostly bugfixing and balance-tweaking, without many major content changes at all; I was going more for a "patch" approach than a "mod" approach, despite the fact that a few bits of content notably have been changed. -Edited description for UPV3
 
+
+Description=An expansion of Unofficial Patch v2. I noticed a surprising number of things that could be fixed, both old and new. It's mostly bugfixing and balance-tweaking, without many major content changes at all; I was going more for a "patch" approach than a "mod" approach, despite the fact that a few bits of content notably have been changed. -Edited description for UPV3
 
 [VanillaMattersGroup]
 Caption=Vanilla Matters
@@ -140,7 +141,7 @@ Description=A light-weight mod aimed to smooth out the rough edges of the vanill
 ;//  HXGroup added for Unofficial Patch v3 by Defaultplayer 2018/04/26  //
 
 [HXGroup]
-Caption=HX Co-op
+Caption=Co-op (HX)
 Description=Co-op modification to play the singleplayer storyline in multiplayer. WIP and has bugs, but mostly stable! -Edited description for UPV3
 
 ; 1002fMapsGroup 1002fMapsGroup added for unofficial Patch V3 by Defaultplayer 2018/11/11
@@ -148,3 +149,170 @@ Description=Co-op modification to play the singleplayer storyline in multiplayer
 [1002fMapsGroup]
 Caption=1002f Maps
 Description=Vanilla Maps
+
+;Extra Patchgroups -DP 2018/12/12
+
+[PatchSetupGroup]
+Caption=Deus Ex Patch Setup
+Description=Deus Ex patch setup files. Installation is required.
+
+[PatchHelpGroup]
+Caption=Deus Ex Patch Help 
+Description=Deus Ex pach help files. Installation is required.
+
+[PatchPatchGroup]
+Caption=Deus Ex Patch 
+Description=Deus Ex patch files. Installation is required.
+
+[ModGroup]
+Caption=Mods (English Only)
+Description=Optional Modifications. Multiple can be installed at once. (Not Included) modifications can be installed by copying the files described in their description to the "Mods" folder of the setup.
+
+[IniGroup]
+Caption=Ini Tweaks
+Description=Optional ini tweaks
+
+[FanGroup]
+Caption=Unoffical Patches
+Description=Fan created fixes for Deus Ex.
+
+[InstallLanguageFiles]
+Caption=Language Files 
+Description=Selected language files. Installation is required.
+
+[VsyncGroup]
+Caption=Vsync Ini Tweaks
+Description=Optional Vsync ini tweaks. Prevents scren tearing as well as the game running too fast. On very low end machines can cause a perfomance loss. Applies to each renderer, aside from metal and SGL.
+;What is SGL?
+
+[FOVGroup]
+Caption=FOV Ini Tweaks
+Description=Optional FOV ini tweaks. 
+
+[MemGroup]
+Caption=Memory Usage Ini Tweaks
+Description=Optional memory usage ini tweaks, applies to the game and editor. Effects how much ram the game uses. 
+
+[TickGroup]
+Caption=Tick Rate Ini Tweaks
+Description=Optional Tick Rate ini tweaks, applies to the game and editor.
+
+[UnofficialPatchGroup]
+Caption=Unofficial Patch
+Description=Unofficial Patch v2. Contains numerous bug fixes.
+
+[RFGroup]
+Caption=Revision Framework (RF) 
+Description=Revision Framework mod. Contains updates from Revision, a singleplayer mod.
+
+
+[VideoRenderersGroup]
+Caption=Video Render Devices
+Description=Video Render Device Files 
+
+[AudioRenderersGroup]
+Caption=Audio Render Devices
+Description=Audio Render Device Files 
+
+[MultiplayerGroup]
+Caption=Unofficial Multiplayer Patches
+Description=Fan created multiplayer fixes for Deus Ex.
+
+[HXExtGroup]
+Caption=HX Extension (HXExt)
+Description=Mod for HX. Contains fixes and customization options.
+
+[MiniHXGroup]
+Caption=MiniHX
+Description=Hotfix mod for HX. Contains fixes. Not needed unless hosting a server.
+
+[OTPUIFixGroup]
+Caption=OTP UI Fix
+Description=A fix for the ugly upscaling of the GUI in DX at high resolutions
+
+[NglideGroup]
+Caption=Nglide
+Description=Nglide 3dfx Glide video render device emulator.
+
+[d3d10Group]
+Caption=Direct3D10
+Description=Direct3D10 video render device.
+
+[d3d9Group]
+Caption=Direct3D9
+Description=Direct3D9 video render device.
+
+[d3d8Group]
+Caption=Direct3D8
+Description=Direct3D8 video render device.
+
+[OpenALGroup]
+Caption=OpenAL
+Description=OpenAL audio render device.
+
+[SwFMODGroup]
+Caption=SwFMOD
+Description=SwFMOD audio render device.
+
+[MasterServerGroup]
+Caption=Master Server ini Tweaks
+Description=Master Server ini tweaks. Required to play multiplayer.
+
+[DXMTLGroup]
+Caption=DXMTL
+Description=Fan created multiplayer update for Deus Ex.
+
+[NephthysGroup]
+Caption=Nephthys
+Description=Fan created multiplayer security and administration update for Deus Ex.
+
+
+
+;Extra demo groups -DP 2018/12/12
+
+[DemoSetupGroup]
+Caption=Deus Ex Demo Setup Files
+Description=Deus Ex demo setup files. Installation is required.
+
+[DemoGameGroup]
+Caption=Deus Ex Demo System Files
+Description=Deus Ex demo system files. Installation is required.
+
+[DemoHelpGroup]
+Caption=Deus Ex Demo Help Files
+Description=Deus Ex demo help files. Installation is required.
+
+[UnofficialPatchv2DemoVersionGroup]
+Caption=Unofficial Patch v2 Demo Version
+Description=Unofficial Patch v2 demo version. Edited version of UPv2 to work with the demo. Contains numerous bug fixes.
+
+[DemoEngineSystemGroup]
+Caption=Deus Ex Engine Files
+Description=Deus Ex engine files. Installation is required.
+
+[DemoGameSystemGroup]
+Caption=Deus Ex Game Files
+Description=Deus Ex game files. Installation is required.
+
+[DemoDeusExMapsGroup]
+Caption=Deus Ex Maps
+Description=Deus Ex maps. Installation is required.
+
+[DemoDeusExMusicGroup]
+Caption=Deus Ex Music
+Description=Deus Ex music files. Installation is required.
+
+
+[DemoDeusExSoundsGroup]
+Caption=Deus Ex Sounds
+Description=Deus Ex sound files. Installation is required.
+
+
+[DemoDeusExSpeechGroup]
+Caption=Deus Ex Speech Files
+Description=Deus Ex speech files. Installation is required.
+
+
+[DemoDeusExTexturesGroup]
+Caption=Deus Ex Textures
+Description=Deus Ex Textures. Installation is required.

@@ -59,22 +59,25 @@ If you install a translation, Confix will not be.
 * Keybind adjustments to fit modern standards TD
 * Masterserver change
 * Demorec keybind TD
-* RF set to be used TD
 
 ### Patches:
 
+* Deus Ex 1002f Demo
+* Deus Ex 1014f Patch (Used for uniquely useful setup.exe) 
+* 1112fm GOTY Patch (Official Multiplayer Patch)
 * Deus Ex Unofficial Patch v2 (Code fixes)
-* 112fm GOTY Patch (Official Multiplayer Patch)
 * Deus Ex Maps Patch (v1.110 maps not in GOTY due to error)
 * Engine.dll Fix (Demo Recording Fix)
 * Confix (Conversation fixes)
-* OTPUIFix (UI Scaling fixes,not applied automatically, see 	readme)
+* OTPUIFix (UI Scaling fixes, not applied automatically, see readme)
 * RF (Revision Framework)
 
 ### Mods:
 * HX (Co-op mod)
 * HXEXT (HX Extension mod) 
+* MiniHX (HX Hotfix) 
  Optional mods (Can only use one at a time!):
+* Human Renovation (HuRen)
 * Shifter
 * Biomod
 * Vanilla Matters
@@ -84,18 +87,18 @@ If you install a translation, Confix will not be.
 * Deus EXE (More features, less compatible) 
 ..* Note: Not compatible with XP, older version that is included in files.
 
-### Video Renderers; (Nglide Recommended) 
+### Video Renderers;
 * Nglide (3dfx emulator)
 * Direct3D 10 
 * Direct3D 9
-* Direct3D 8 (outdated,use another unless neccessary)
+* Direct3D 8 (outdated, use another unless neccessary)
 * OpenGl (Updated) 
 * Uglide (Not installed automatically)
 Note if you use Nglide: 
 Set resolution with nglide_config.exe in \system, set in-game res to a default. 
 
 ### Audio Renderers: (OpenAl renderer recommended) 
-* OpenAL (Higher quality playback then the default Galaxy renderer, arguably better lip synching)
+* OpenAL (Higher quality playback then the default Galaxy renderer, arguably better and/or worse lip synching)
 * SWFMod 
 	
 ### Editing: 
@@ -106,7 +109,7 @@ Set resolution with nglide_config.exe in \system, set in-game res to a default.
 ..* 	Sample conversation (.con) and Deus Ex Text Files from M0-2 (Demo)
 ..* 	ConEdit (Deus Ex Conversation Editor)	
 ..* 	Lightwave-to-Unreal model converter (LWO23D.exe)
-..* 	Headers/libs used in development of Deus Ex (located 	 		in Headers/)
+..* 	Headers/libs used in development of Deus Ex (located in Headers/)
 * UnrealEd2 modified for Deus Ex
 * A nice GUI for UCC: UCSDK
 * TexAlign
@@ -117,10 +120,10 @@ Set resolution with nglide_config.exe in \system, set in-game res to a default.
 ..* 	DeusExExtractor GUI
 ..* Unreal Unit Converter
 * LWO viewer
-* UnrealFX (to edit some flags of model's polys)
+* UnrealFX (To edit flags of a model's polys)
 * WotGrealExporter (To extract game files) 
 * UTPT (Unreal Tournament Package Tool)
-* Deus Ex mesh Tool (to extract meshes into MilkShape format)
+* Deus Ex mesh Tool (To extract meshes into MilkShape format)
 * Mapper's dream modified for Deus Ex
 * Bright 1.83 
 * UModel 
@@ -131,14 +134,16 @@ Set resolution with nglide_config.exe in \system, set in-game res to a default.
 * SwFMOD Fixed int file (Fixes name display error)
 * Typo Fixed D3D10Drv Int (Direct3D 10 - Direct3D10)
 * Combined Deus Ex int file (To rename Launch to DeusEx)
-* CUv3 manifest script (Source for *this* setup!)
-* UPv3 install script (Source for *old* setup!)
-* InstallForge (Tool used to create this setup)
+* CUv3 manifest script (Source for *this* setup)
+* UPv3 install script (Source for old setup)
+* InstallForge (Tool used to create old setup)
 * Antimicro (controller)
-	
+	* 7-zip (Extraction tool, used to extend default setup)
 
 	
 You can buy the full game from any of the following locations: 
+
+Avoid any "Special Editions"! They only have the first five levels! 
 
 Good Old Games:
 
@@ -218,7 +223,7 @@ Bjorn Ehrby, Hawk: Same as Revision credits
 
 WCCC: Support
 
-Cozmo: Support
+Cozmo: Support, MiniHX
 
 Machete: Support, Port tool (still need to get this from him!)
 
@@ -335,6 +340,10 @@ Totalitarian: Support
 http://www.GiveMeDeusEx.com
 
 Deus Ex Network: Master Server Patch and Instructions.
+
+Igor Pavlov: 7-zip
+
+https://www.7-zip.org/
 
 ### If anyone has been forgotten, please let us know! 
 

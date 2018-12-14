@@ -132,12 +132,12 @@ rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Maps Patch\DeusEx_MapsPatch11" /S /Q
 rem del "%~dp0\CommunityUpdateFileArchiveDXPC\Maps Patch\DeusEx_MapsPatch11\Instructions.txt" /Q
 rem 1002f Supplemental 
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Maps Patch\DeusExMapsPatchVanillaSupplemental.7z" -y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Maps Patch\DeusExMapsPatchVanillaSupplemental\maps" "%~dp0\maps" /Y /S
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Maps Patch\DeusExMapsPatchVanillaSupplemental\Maps\" "%~dp0\Maps\" /Y /S
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Maps Patch\DeusExMapsPatchVanillaSupplemental" /S /Q
-
+tl
 rem :skipmapspatch
 
-IF "%setup%"=="No" (
+IF "%setup%"=="Yes" (
 	goto :demoskip
 	)
 
@@ -145,6 +145,7 @@ rem 	Unofficial Patch v2 *DEMO*
 IF "%Demo%"=="Yes" copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 Demo Version\DeusEx.u" "%~dp0\System\DeusEx.u"
 IF "%Demo%"=="Yes" copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-v2-Demo-Version-ReadMe.txt" /Y
 IF "%Demo%"=="Yes" goto :demoskip 	
+:demoskip
 rem 	Unofficial Patch v2
 :Now using an edited version of UPV2 by default
 :"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10.zip" -y
@@ -152,9 +153,8 @@ rem 	Unofficial Patch v2
 ;xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10\*" "%~dp0\System\" /Y /S
 ;rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10" /S /Q
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-V2-edited-render-relaunch-ReadMe.txt" /Y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\*" "%~dp0\System\" /Y /S
-
-:demoskip
+echo f|xcopy "%~dp0\System\DeusEx.u" "%~dp0\System\1112fm Deus Ex.u (original)\DeusEx.u" /Y 
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 edited render relaunch\UnofficialPatchv2editedrenderrelaunch.exe" "%~dp0\System\UnofficialPatchv2editedrenderrelaunch.exe" /Y
 
 rem		Engine DLL Fix
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Engine DLL Fix (Demo Recording Fix)\engine-dll-fix.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Engine DLL Fix (Demo Recording Fix)\engine-dll-fix" -y
@@ -166,7 +166,7 @@ rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Engine DLL Fix (Demo Recording Fix)\
 rem		Confix 1.05
 IF "%Translation%"=="Yes" goto :skipConfix
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Confix 1.05\ReadMe.txt" "%~dp0\Help\Confix=1.05-ReadMe.txt" /Y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Confix 1.05" "%~dp0\System" *.u /y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Confix 1.05" "%~dp0\System" /y
 
 :skipConfix
 
@@ -179,7 +179,7 @@ Rem		Revision Framework
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\ReadMe.txt" "%~dp0\Help\Revision-Framework-Readme.txt" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\RF.dll" "%~dp0\system\RF.dll" /y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\RF.u" "%~dp0\system\RF.u" /y
-
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\vcredist_x86.exe" "%~dp0\system\vcredist_x86.exe" /y
 
 rem EXE's
 ren "%~dp0\System\DeusEx.exe" "DeusEx Original.exe"
@@ -209,7 +209,7 @@ copy "%~dp0\System\DeusEx.exe" "%~dp0\System\DeusExMultiplayer.exe" /y
 rem Double check that this is needed
 rem It is
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Int Files\Combined&updated Deus Ex int file\DeusEx.int" "%~dp0\System\DeusExMultiplayer.int" /y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\DXMTL Multiplayer ini" "%~dp0\System" /y /s
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\DXMTL Multiplayer ini\" "%~dp0\System\" /y /s
 
 rem Renderers
 rem 	Video
@@ -232,7 +232,7 @@ rem			dxd3d9
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\DXD3D\dxd3d9r13.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\DXD3D\dxd3d9r13" -y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\DXD3D\dxd3d9r13"  "%~dp0\System" /y
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\DXD3D\dxd3d9r13" /S /Q
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\DXD3D\ReadMe.txt"  "%~dp0\Help\dxd3d9&10-ReadMe.txt" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\DXD3D\ReadMe.txt"  "%~dp0\Help\dxd3d9-ReadMe.txt" /Y
 
 rem			dxd3d8
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\DXD3D\dxd3d8r10.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\DXD3D\dxd3d8r10" -y
@@ -270,16 +270,41 @@ copy "%~dp0\CommunityUpdateFileArchiveDXPC\Int Files\SwFMOD Fixed INT file\SwFMO
 rem		Multiplayer
 
 rem			DXMTL
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\DXMTL-v152b1 Installed files" "%~dp0" /y /s
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\DXMTL-v152b1 Installed files\" "%~dp0\" /y /s
 ren "%~dp0\Help\readme_dxmtl.txt"  "%~dp0\Help\DXMTL-ReadMe.txt" /Y
 ren "%~dp0\Help\license_dxmtl.txt"  "%~dp0\Help\DXMTL-License.txt" /Y
 
-Rem			Nephthys
-"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst" -y
-"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst\Nephthys_v1.4b10_inst.exe" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst\Nephthys_v1.4b10_inst" -y
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\ReadMe.txt"  "%~dp0\Help\Nephthys-ReadMe.txt" /Y
+rem			Nephthys
+rem "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst" -y
+rem "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst\Nephthys_v1.4b10_inst.exe" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst\Nephthys_v1.4b10_inst" -y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\ReadMe.txt"  "%~dp0\Help\ReadMe-Nephthys.txt" /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_installed files (7zip does not extract properly)" "%~dp0\System" /y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\Nepthys ini changes" "%~dp0\System" /y /s
+
+rem		HX Co-Op
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HX-0.9.89.3.zip" -o"%~dp0" -y
+echo f|xcopy "%~dp0\Help\HX\Readme.txt"  "%~dp0\Help\Multiplayer\Co-Op (HX)\ReadMe Co-Op (HX).txt" /S /Y
+echo f|xcopy "%~dp0\Help\HX\Cheats.txt"  "%~dp0\Help\Multiplayer\Co-Op (HX)\Cheats Co-Op (HX).txt" /y /s
+echo f|xcopy "%~dp0\Help\HX\Changelog.txt"  "%~dp0\Help\Multiplayer\Co-Op (HX)\Changelog Co-Op (HX).txt" /y /s
+echo f|xcopy "%~dp0\Help\HX\Ports.txt"  "%~dp0\Help\Multiplayer\Co-Op (HX)\Ports Co-Op (HX).txt" /y /s
+rem not sure if I should rename?
+rem ren "%~dp0\System\HX.exe"  "%~dp0\System\DeusExCoOp.exe" /Y
+rmdi "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HX-0.9.89.3" /S /Q
+rmdir "%~dp0\Help\HX" /S /Q
+			
+			HXExt
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5" -y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\About.txt"  "%~dp0\Help\ReadMe-CoOp-HXExt.txt" /Y
+del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\About.txt"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\Player Class List.txt"  "%~dp0\Help\CoOp-HXExt-Player-Class-List.txt" /Y
+del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\Player Class List.txt"
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\*" "%~dp0\System\" /y /s
+rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\" /S /Q
+
+			MiniHX
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op\Cozmo's MiniHX hotfix\ReadMe.txt"  "%~dp0\Help\ReadMe-CoOp-MiniHX.txt" /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op\\Cozmo's MiniHX hotfix\" "%~dp0\System\" /s /y
+del "%~dp0\System\ReadMe.txt"
 
 rem		Misc
 rem			Antimicro
@@ -318,8 +343,8 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Russkiy-Russ
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Nihongo-Japanese" "%~dp0" /S /Y
 rem ren "%~dp0\Help\ReadMePatch1.htm" "Nihongo-JapaneseReadMePatch1.htm"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\DeusEx.u" "%~dp0\System\DeusEx.u"
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-V2-edited-render-relaunch-ReadMe.txt" /Y
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\UnofficialPatchv2DemoVersion.exe" "%~dp0\System\UnofficialPatchv2DemoVersion.exe"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\UnofficialPatchv2DemoVersion.exe" "%~dp0\System\UnofficialPatchv2DemoVersion.exe" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-v2-Demo-Version-ReadMe.txt" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\DXEditingPACK_2_2_Full_Community_Update_edit.exe" "%~dp0\System\SystemFiles.exe" /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Readme.md converted to HTML" "%~dp0\Help" /S /Y
 "%~dp0\setup.exe"

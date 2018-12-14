@@ -1,0 +1,5 @@
+Class=RF.RFJCDentonMale 
+GameEngine=RF.RFGameEngine
+DefaultGame=RF.RFGameInfo 
+Root=RF.RFRootWindow
+EditPackages=RF

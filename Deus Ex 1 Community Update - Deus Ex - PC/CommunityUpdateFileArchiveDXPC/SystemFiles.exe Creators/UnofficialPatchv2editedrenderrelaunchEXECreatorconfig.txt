@@ -1,0 +1,4 @@
+;!@Install@!UTF-8!
+Title="Unofficial Patch v2"
+InstallPath="."
+;!@InstallEnd@!

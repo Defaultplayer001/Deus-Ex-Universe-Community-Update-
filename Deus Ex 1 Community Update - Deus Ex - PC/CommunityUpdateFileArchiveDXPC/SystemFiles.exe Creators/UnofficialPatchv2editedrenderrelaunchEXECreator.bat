@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + UnofficialPatchv2editedrenderrelaunchEXECreatorconfig.txt + UnofficialPatchv2editedrenderrelaunch.7z UnofficialPatchv2editedrenderrelaunch.exe"
