@@ -182,11 +182,13 @@ I'll get you interested in playing this eventually!
 
 ### Ion Storm: 
 
-Official Patch & Demo
+Official Patches & Demo
 
 https://www.fileplanet.com/45404/40000/fileinfo/Deus-Ex-Demo
 
 https://www.fileplanet.com/47283/40000/fileinfo/Deus-Ex-Extra-Mission-Pack-for-Demo
+
+https://www.fileplanet.com/archive/p-57634/Deus-Ex-Single-Player-Patch
 
 https://www.fileplanet.com/59470/50000/fileinfo/Deus-Ex-Patch-v1112fm
 
@@ -267,7 +269,7 @@ French (Official) : Unknown (If you know please let us know!):
 
 German (Official) : Unknown (If you know please let us know!)
 
-Hungarian (Fan-made) : Deus Ex MagyarÌtÛ Csapat /  Deus Ex Hungarian Translation Team - Members: Biwdy (If you know others please let us know!)
+Hungarian (Fan-made) : Deus Ex Magyar˙ëÅECsapat /  Deus Ex Hungarian Translation Team - Members: Biwdy (If you know others please let us know!)
 
 Italian (Official) : Unknown (If you know please let us know!)
 
@@ -401,7 +403,7 @@ mymuse.3gp: https://www.youtube.com/watch?v=Yy6pf2rqfBM - Jak & Daxter: My Muse 
 
 getahobby.3gp: https://www.youtube.com/watch?v=3mcQfP8k51s - GET A HOBBY: work with ROCKS and CEMENT like JOHN DUNSWORTH - John Dunsworth - R.I.P
 
-digital_data.png: https://xkcd.com/1683/ - Digital Data - ‚ÄúIf you can read this, congratulations‚Äîthe archive you‚Äôre using still knows about the mouseover text‚Äù!
+digital_data.png: https://xkcd.com/1683/ - Digital Data - ‚ÄúIf you can read this, congratulations‚Äîthe archive you‚Äôre using still knows about the mouseover text‚ÄÅE
 
 firsttry.gif - Gif of clip from The Lego Movie
 
