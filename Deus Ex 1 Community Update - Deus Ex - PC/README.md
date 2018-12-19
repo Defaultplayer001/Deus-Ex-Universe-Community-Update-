@@ -71,6 +71,7 @@ If you install a translation, Confix will not be.
 * Confix (Conversation fixes)
 * OTPUIFix (UI Scaling fixes, not applied automatically, see readme)
 * RF (Revision Framework)
+* RenderExt (Render Extension from Revision)
 
 ### Mods:
 * HX (Co-op mod)
@@ -128,6 +129,9 @@ Set resolution with nglide_config.exe in \system, set in-game res to a default.
 * Bright 1.83 
 * UModel 
 * Tutorials: UED2 manual, Tack's site and Universal Constructor site
+Also included:
+* Deus Ex Editor Fix
+* HTK Commandlets
 
 ### Misc:
 * Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02)
@@ -206,7 +210,7 @@ Hawk: ConFix, Support, pointed out D3D10Drv Int typo
 
 Bjorn Ehrby: RF (Revision Framework), Support
 
-Hanfling: Launch, RF (Revision Framework), & Support, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
+Hanfling: Launch, RF (Revision Framework), RenderExt, HTK Commandlets, Editor Fix & Support, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 
 ### The Nameless Mod Update Team / Off Topic Productions forum members :

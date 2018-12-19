@@ -141,12 +141,12 @@ IF "%setup%"=="Yes" (
 	goto :demoskip
 	)
 
-rem 	Unofficial Patch v2 *DEMO*
+rem 		Unofficial Patch v2 *DEMO*
 IF "%Demo%"=="Yes" copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 Demo Version\DeusEx.u" "%~dp0\System\DeusEx.u"
 IF "%Demo%"=="Yes" copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-v2-Demo-Version-ReadMe.txt" /Y
 IF "%Demo%"=="Yes" goto :demoskip 	
 :demoskip
-rem 	Unofficial Patch v2
+rem 		Unofficial Patch v2
 :Now using an edited version of UPV2 by default
 :"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10.zip" -y
 ;copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-V2-edited-render-relaunch-ReadMe.txt" /Y
@@ -175,11 +175,18 @@ rem		OTPUIFix
 copy "%~dp0\System\OTP UI Fix Readme.txt" "%~dp0\Help\OTP-UI-Fix-Readme.txt" /Y
 del "%~dp0\System\OTP UI Fix Readme.txt" /Q
 
-Rem		Revision Framework
+rem		Revision Framework
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\ReadMe.txt" "%~dp0\Help\Revision-Framework-Readme.txt" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\RF.dll" "%~dp0\system\RF.dll" /y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\RF.u" "%~dp0\system\RF.u" /y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Revision Framework\vcredist_x86.exe" "%~dp0\system\vcredist_x86.exe" /y
+
+rem		RenderExt
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Modernization Package\DXModernizationLite.7z" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Modernization Package\DXModernizationLite" -y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Modernization Package\DXModernizationLite\System\RenderExt.dll" "%~dp0\System\RenderExt.dll"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Modernization Package\DXModernizationLite\System\RenderExt.int" "%~dp0\System\RenderExt.int"
+rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Modernization Package\DXModernizationLite\"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Modernization Package\ReadMe - Deus Ex Modernization Package.txt\" "%~dp0\Help\"
 
 rem EXE's
 ren "%~dp0\System\DeusEx.exe" "DeusEx Original.exe"
@@ -303,8 +310,20 @@ rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie'
 
 			MiniHX
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op\Cozmo's MiniHX hotfix\ReadMe.txt"  "%~dp0\Help\ReadMe-CoOp-MiniHX.txt" /Y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op\\Cozmo's MiniHX hotfix\" "%~dp0\System\" /s /y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op\Cozmo's MiniHX hotfix\*" "%~dp0\System\" /s /y
 del "%~dp0\System\ReadMe.txt"
+
+rem			Editing
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\HTK-20160618.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\HTK-20160618\" -y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\HTK-20160618\lib3ds.COPYING"  "%~dp0\Help\License - lib3ds.txt" /Y
+del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\HTK-20160618\lib3ds.COPYING"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\HTK-20160618\lib3ds.README"  "%~dp0\Help\ReadMe - lib3ds.txt" /Y
+del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\HTK-20160618\lib3ds.README"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\HTK-20160618\UpkgOptions.txt"  "%~dp0\Help\HTK - UpkgOptions.txt" /Y
+del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\HTK-20160618\UpkgOptions.txt"
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\HTK-20160618\*" "%~dp0\System\" /s /y
+rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\HTK-20160618\"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\ReadMe - HTK Commandlets.txt" "%~dp0\Help\"
 
 rem		Misc
 rem			Antimicro
@@ -346,6 +365,7 @@ copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render rel
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\UnofficialPatchv2DemoVersion.exe" "%~dp0\System\UnofficialPatchv2DemoVersion.exe" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-v2-Demo-Version-ReadMe.txt" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\DXEditingPACK_2_2_Full_Community_Update_edit.exe" "%~dp0\System\SystemFiles.exe" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Editor Fix\DeusExEditorFixSelfExtracting.exe" "%~dp0\DeusExEditorFixSelfExtracting.exe" /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Readme.md converted to HTML" "%~dp0\Help" /S /Y
 "%~dp0\setup.exe"
 exit
@@ -371,7 +391,7 @@ exit
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC" /S /Q
 del "%~dp0\InstallCommunityUpdateDXPC.bat" /Q
 exit
-
+	
 
 :Yesps2	
 rem Patches

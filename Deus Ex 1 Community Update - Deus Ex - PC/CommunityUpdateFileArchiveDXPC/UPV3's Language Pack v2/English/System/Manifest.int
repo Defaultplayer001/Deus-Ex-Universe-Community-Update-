@@ -204,7 +204,6 @@ Description=Unofficial Patch v2. Contains numerous bug fixes.
 [RFGroup]
 Caption=Revision Framework (RF) 
 Description=Revision Framework mod. Contains updates from Revision, a singleplayer mod.
-
 
 [VideoRenderersGroup]
 Caption=Video Render Devices
@@ -256,7 +255,7 @@ Description=SwFMOD audio render device.
 
 [MasterServerGroup]
 Caption=Master Server ini Tweaks
-Description=Master Server ini tweaks. Required to play multiplayer.
+Description=Updates master server from Gamespy to the current fan run one. Required to play multiplayer.
 
 [DXMTLGroup]
 Caption=DXMTL
@@ -266,7 +265,13 @@ Description=Fan created multiplayer update for Deus Ex.
 Caption=Nephthys
 Description=Fan created multiplayer security and administration update for Deus Ex.
 
+[HTKGroup]
+Caption=HTK Commandlets
+Description=UCC commandlets
 
+[RenderExt]
+Caption=Render Extension (RenderExt)
+Description=Prevents certain levels (most prominently Vandenberg, Tunnels) from crashing due to too many lit surfaces at one time.
 
 ;Extra demo groups -DP 2018/12/12
 
