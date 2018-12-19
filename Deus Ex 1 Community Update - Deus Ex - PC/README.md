@@ -1,15 +1,14 @@
 # Deus-Ex-1-Community-Update-
 
-This is a Community Update package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
+This is an unofficial patch package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
 
 https://www.reddit.com/r/dxarchive/
 
 It includes every patch, alternate exe/renderer as well as every translation we know of. 
 
-Also included are the original demo files which you apply the 
-multiplayer patch too. 
+Also included are the original demo files which you apply the multiplayer patch too. 
 
-This let's you play the full multiplayer and singleplayer up to the end of mission 2!
+This lets you play the full multiplayer and singleplayer up to the end of mission 2!
 
 A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
 
