@@ -5,10 +5,10 @@ ReadMe=Help\ReadMe.htm
 SetupWindowTitle=Deus-Ex-Setup
 AutoplayWindowTitle=Deus-Ex-Optionen
 ProductURL=http://www.deusex.com/
-VersionURL=http://www.deusex.com/versions.htm
-Developer=ION Storm Austin
-DeveloperURL=http://www.ionstorm.com/
-PublisherURL=http://www.eidos.com/
+VersionURL=https://old.reddit.com/r/dxarchive/
+Developer=The Deus Ex community
+DeveloperURL=https://old.reddit.com/r/dxarchive/
+PublisherURL=https://old.reddit.com/r/dxarchive/
 Logo=Help\LogoSmall.bmp
 License=License.det
 
@@ -75,10 +75,11 @@ Caption=Deus Ex Patch 1
 Description=Deus Deus-Ex-Systemdateien. Installation erforderlich.
 
 ;//  DemoGroup added for Unofficial Patch v3 by Defaultplayer 2018/04/19  //
+;Translation by Veronika 2018/12/19
 
 [DemoGroup]
 Caption=Deus Ex Demo
-Description=Deus Ex demo files. Includes Missions 1 and 2. Installation is optional.
+Description=Deus Ex demo dateien. Beinhaltet Missionen 1 und 2. Installation ist optional..
 
 ;//  Extra Groups added for Unofficial Patch v3 by Defaultplayer 2018/04/26  //
 

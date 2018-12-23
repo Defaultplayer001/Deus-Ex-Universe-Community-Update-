@@ -26,7 +26,7 @@ LogWindow=%s Log Window
 PropNone=Nothing Selected
 PropSingle=%s Properties
 PropMulti=%s Properties (%i selected)
-InsertCdText=Please insert the Deus Ex CD-Rom into your drive and press OK to continue, or Cancel to exit.
+InsertCdText=Deus ExのCD-ROMをお使いのPCのCDドライブに挿入し、OKをクリックすると先へ進みます。CancelでWindows画面に戻ります
 InsertCdTitle=Cd Required At Startup
 AdvancedOptionsTitle=Advanced Options
 Low=Low
@@ -34,9 +34,9 @@ High=High
 
 [FirstRun]
 Caption=Initial Configuration
-LowMemory=Deus Ex has detected that you have %i megabytes of memory available. To improve performance, the "Low Detail Textures" and "Low Sound Quality" options have been enabled.  You may change this settings in the "Performance Settings" menu.
-NonMMX=Deus Ex has detected that you're using a non-MMX PC. Based on this, the sound playback rate has been set to use the least CPU power. You may change this settings in the "Advanced Options / Audio" menu.
-Starting=Deus Ex is starting up with new settings. If you experience any problems, please read the Troubleshooting section of the Release Notes in the "Start" menu.
+LowMemory=このコンピュータの空きメモリーは%iメガバイトです。パフォーマンスをあげるためには、［Detail Textures］をLowにし、［Sound Quality］をLowにする方法があります。その設定は［Performance Settings］のメニューで変更できます
+NonMMX=このコンピュータは non-MMX PCを使用しています。音の再生レートは最低限のCPUを使うように設定されています。この設定の変更は［Advanced Options / Audio］メニューで行います
+Starting=Deus Ex は新たなセッティングを開始しました。問題が起きたときは、［Start］メニューにあるリリース・メモのトラブルシューティングを見てください
 
 [IDDIALOG_Directory]
 IDC_Directory=Installation Folder

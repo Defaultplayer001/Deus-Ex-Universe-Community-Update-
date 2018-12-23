@@ -205,7 +205,7 @@ Full credits should be the same as the final game, located in Credits.DX
 
 https://www.dx-revision.com/
 
-Hawk: ConFix, Support, pointed out D3D10Drv Int typo
+Hawk: ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision for fixing inventory bug when the player dies holding a weapon and starts a new game.
 
 Bjorn Ehrby: RF (Revision Framework), Support
 
@@ -234,7 +234,7 @@ Machete: Support, Port tool (still need to get this from him!)
 
 Fear/Mouse: Support
 
-Kaiser: Support, Linux Support, Original Install Script Base
+Kaiser: Support, Linux Support, Original Install Script Base, Linux tester
 
 https://github.com/Kaiz0r/
 
@@ -328,13 +328,13 @@ Smirftsch: OpenAL
 
 http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
-Biwdy / Birdy / Daet: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations
+Biwdy / Birdy / Daet: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly
 
-Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, 
+Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, test
 
 PhinSorcery: UPV3 Testing
 
-JeniSkunk: UPV3 Testing (Maps)
+JeniSkunk: UPV3 Testing (Maps), tester
 
 Lithium/Durandalette: Idea for UNATCO raid happening after "UNATCO isn't perfect" abandoned plot branch.
 
@@ -349,6 +349,8 @@ Deus Ex Network: Master Server Patch and Instructions.
 Igor Pavlov: 7-zip
 
 https://www.7-zip.org/
+
+Crimzan: Tester
 
 ### If anyone has been forgotten, please let us know! 
 
@@ -369,7 +371,6 @@ Feel free to stop by with any bugs, questions, comments or criticisms.
 
 Bugs can also be reported directly to our Trello: 
 https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
-
 
 
 
