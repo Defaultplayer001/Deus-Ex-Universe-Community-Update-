@@ -305,8 +305,6 @@ NVShacker(Thanks for providing the authors name Birdy/Daet!): OTPUIFix
 https://web.archive.org/web/20090225135158/http://thenamelessmod.com/downloads/miscfiles/
 https://www.nexusmods.com/deusex/mods/36/
 
-Author Unknown (If you know please let us know!): Russian Translation TD Ask Veronika about this again.
-
 
 Dalvix, Hawk, Bogie, Defaultplayer001: ConFix 
 
@@ -330,7 +328,7 @@ http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
 Biwdy / Birdy / Daet: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly
 
-Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, test
+Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, 
 
 PhinSorcery: UPV3 Testing
 
@@ -351,6 +349,12 @@ Igor Pavlov: 7-zip
 https://www.7-zip.org/
 
 Crimzan: Tester
+
+MVV: Russian fonts from Revision Russian Translation
+
+8-Bit: Russian Translation
+
+Alexander Shevchenko: Russian Translation continued from 8-Bit's
 
 ### If anyone has been forgotten, please let us know! 
 

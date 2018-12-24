@@ -343,10 +343,10 @@ IF "%setup%"=="No" (
 	goto :skipsetup
 	)
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Setup Creation\Unofficial Patch Manifest"  "%~dp0\System\" /y	
-"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\System\SystemFilesINT.7z.001" -o"%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\System\" -y
-del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\System\SystemFilesINT.7z.001" /Q
-del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\System\SystemFilesINT.7z.002" /Q
-del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\System\SystemFilesINT.7z.003" /Q
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.001" -o"%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\" -y
+del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.001" /Q
+del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.002" /Q
+del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.003" /Q
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English" "%~dp0" /S /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Cestina-Czech" "%~dp0" /S /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Deutsche-German" "%~dp0" /S /Y
