@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Podręcznik tworzenia map do gry wieloosobowej w Deus Ex</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+</head>
+
+<body bgcolor="#C0c0c0">
+<h2 align="center">Podręcznik tworzenia map do gry wieloosobowej w Deus Ex</h2>
+<h4 align="center">4 stycznia 2001<br>
+ Wersja 1.0</h4>
+<hr>
+<p>Przygotowanie mapy do rozgrywek deathmatch w Deus Ex wymaga zastosowania niestandardowych elementów architektury. W niniejszym dokumencie omówiono dodatkowe parametry map.</p>
+<p><b>Terminale komputerowe<br>
+  </b>Podczas rozgrywek wieloosobowych korzystanie ze wszystkich komputerów wymaga włamania się na nie. Nie można korzystać z nazwy użytkownika i hasła. Nie dopuszczamy korzystania z losowych haseł, a co za tym idzie jakiekolwiek hasło podane przez gracza pozwoliłoby mu całkowicie pominąć etap włamywania się do systemu, eliminując tym samym jakikolwiek pożytek z umiejętności korzystania z komputerów. Aby usunąć hasło, ustaw nazwy użytkowników i hasła w danym komputerze na "" (zostaw je puste). Jeżeli hasła zostaną pomyślnie usunięte, komputer nie będzie wyświetlał ekranu logowania i gracze będą się na niego automatycznie włamywać. </p>
+<p><b>Zamki szyfrowe<br>
+  </b>W trybie wieloosobowym zamki szyfrowe są ignorowane. Praktycznie zawsze stosuje się je do zabezpieczania robotów naprawczych i do niczego innego. Są wyjątki, ale umiejętność korzystania z multiklucza pozwala korzystać z robotów i wyłączać wieżyczki. Roboty naprawcze powinny być zabezpieczone za pomocą zamków szyfrowych o sile 20 lub 30% i będą automatycznie zamykane około 28 sekund po tym, jak zostaną odblokowane 
+</p>
+<p><b>Zamknięte komody</b><br>
+ W zamkniętych komodach przechowywana jest amunicja do broni dodatkowej (LAM, biokomórki, rakiety do LAM, a może nawet inne rzeczy, np. pancerze balistyczne). Standardowy zamek powinien mieć trudność na poziomie 20, 30%. Rakiety LAW powinny być zabezpieczone przy pomocy zamka o poziomie trudności około 60%. Drzwi zamknięte na zamek są w trakcie rozgrywek wieloosobowych zamykane automatycznie, nie trzeba więc tego robić samemu.</p>
+<p><b>Stojaki na broń</b><br>
+  Służą do rozprowadzania uzbrojenia. W każdym punkcie odrodzenia powinny się znajdować oba rodzaje stojaków na broń (ręczną i ciężką), w zasięgu graczy.</p>
+<p><b>Roboty medyczne/naprawcze<br>
+  </b>Wszystkie roboty powinny być tak skonfigurowane, aby stały w miejscu. Oznacza, to, że mają otrzymać rozkaz "Stój", a parametry Bodźce, Reakcje i Strach zostaną ustawione na "Fałsz".  </p>
+<p><b>Kamery i wieżyczki<br>
+  </b>Aby wszyscy gracze z danej drużyny byli informowani o tym, na które wieżyczki przeprowadzono udane włamania, każda z nich powinna dysponować własnym ciągiem "TitleString". Taka nazwa będzie wyświetlana, gdy umieścisz celownik na wieżyczce lub gdy ktoś z zespołu przeprowadzi udane włamanie. Pojawi się ona także wtedy, gdy wieżyczka zabije któregoś z graczy.  <br>
+  <br>
+ Kamery powinny mieć parametry "bNoAlarm false" i "bActive false". Na początku gry będą wyłączone, ale gracze będą mogli je aktywować za pomocą komputerów. Na mapie powinna być tylko jedna kamera na komputer, ponieważ każda kolejna powoduje dodatkowe obciążenie sieci.</p>
+<p><b>Punkty odrodzenia<br>
+  </b>Punkty odrodzenia powinny się znajdować w pobliżu stojaków na broń, w odległości około 100 jednostek od siebie. W ten sposób cała drużyna będzie się pojawiać w jednym miejscu, a proces ten odbywa się automatycznie. Jeżeli tylko przygotujesz odpowiednią liczbę punktów odrodzeń w danym obszarze, będzie się tam mogła pojawić cała drużyna. W rozgrywkach zespołowych punkty odrodzenia powinny się znajdować blisko siebie, co ogranicza dostępne miejsca ich rozmieszczenia. W rozgrywkach "każdy na każdego" może to stanowić problem, ponieważ gracze będą się odradzać blisko siebie. Aby rozwiązać ten problem, skupione koło siebie punkty odrodzenia powinny zostać oznakowane parametrem "bTeamOnlyStart". W danym skupisku tylko jeden z nich nie powinien być tak oznakowany. Dodatkowo w przypadku map do rozgrywek typu deathmatch zalecane jest rozmieszczenie dodatkowych punktów odrodzenia. Te z kolei powinny być oznakowane parametrem "bNonTeamOnlyStart true". W ten sposób będą aktywne tylko podczas rozgrywek "każdy na każdego". </p>
+<hr>
+</body>
+</html>

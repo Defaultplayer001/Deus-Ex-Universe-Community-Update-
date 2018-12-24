@@ -278,8 +278,8 @@ rem		Multiplayer
 
 rem			DXMTL
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\DXMTL-v152b1 Installed files" "%~dp0" /Y /E
-ren "%~dp0\Help\readme_dxmtl.txt" "DXMTL-ReadMe.txt" /Y
-ren "%~dp0\Help\license_dxmtl.txt" "DXMTL-License.txt" /Y
+ren "%~dp0\Help\readme_dxmtl.txt" "DXMTL-ReadMe.txt"
+ren "%~dp0\Help\license_dxmtl.txt" "DXMTL-License.txt"
 
 rem			Nephthys
 rem "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_inst" -y
@@ -308,9 +308,9 @@ del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's 
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\*" "%~dp0\System\" /y /s
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\" /S /Q
 
-			MiniHX
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op\Cozmo's MiniHX hotfix\ReadMe.txt"  "%~dp0\Help\ReadMe-CoOp-MiniHX.txt" /Y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op\Cozmo's MiniHX hotfix\*" "%~dp0\System\" /s /y
+rem			MiniHX
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\Cozmo's MiniHX hotfix\ReadMe.txt"  "%~dp0\Help\ReadMe-CoOp-MiniHX.txt" /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\Cozmo's MiniHX hotfix\*" "%~dp0\System\" /s /y
 del "%~dp0\System\ReadMe.txt"
 
 rem			Editing

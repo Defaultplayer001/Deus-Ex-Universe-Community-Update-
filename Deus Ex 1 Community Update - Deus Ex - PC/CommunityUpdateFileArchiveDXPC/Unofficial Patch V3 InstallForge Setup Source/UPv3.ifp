@@ -41,7 +41,7 @@ Licence dialog = 1
 Sart program = 1
 Reboot computer = 0
 Execute DLL: = 0
-Program = <installpath>\System\DeusEx.exe
+Program = <installpath>\System\Deus Ex Controller.bat
 ProgramArguments = 
 Dll = 
 [Shortcuts]
@@ -80,7 +80,7 @@ C:\Deus Ex Archive\Deus Ex\Modding\WIP\Deus Ex U-Unofficial Patch v3\InstallUnof
 14.5 KB
 bat
 [Licence_Begin]
-6071
+11292
 {\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Shell Dlg;}}
 \viewkind4\uc1\pard\lang2057\f0\fs17 If you aren't interested in the Demo or multiplayer, feel free to ignore all prompts.\par
 After 10 seconds the default option on every prompt will be auto-selected. \par
@@ -92,12 +92,13 @@ After 10 seconds the default option on every prompt will be auto-selected. \par
 \b0 You can ignore unless you'd like to keep backups of the original patch files \par
 \par
 Message us with any install issues on our discord!: https://discord.gg/RxKwXKN\par
-You can also email : Patch@DeusExArchive.com\par
-However the discord is usually much faster!\par
 \par
 \par
 This is an unofficial Patch Package assembled by Xen's Deus Ex Archive: https://www.reddit.com/r/dxarchive/\par
 It includes every patch available, alternate exes/renderers as well as every translation we know of.\par
+\par
+Also included is a program (Antimicro) that will run automatically when you launch the shortcut. This will let you use any gamepad using the Xbox 360 driver in the game!\par
+Keybinds and guide can be found in the Help folder!\par
 \par
 Also included are the original demo files which you can install with multiplayer patch.\par
 \i This let's you play the full multiplayer and singleplayer up to the end of mission 2!\b\i0\par
@@ -115,10 +116,14 @@ The package Includes the following (Organized in install order):\par
 Note: Translations not compatible with Confix.\par
 If you install a translation, it will not be.\par
 -Translations: \par
+\tab Czech\par
 \tab French\par
 \tab German\par
+\tab Hungarian\par
 \tab Italian\par
 \tab Japanese\par
+\tab Polish\par
+\tab Portugueses\par
 \tab Russian (Has a dub available here:PUTLINKHERE)\par
 \tab Spanish\par
 \par
@@ -164,7 +169,37 @@ Misc:\par
 \tab Combined Deus Ex int file (To rename Launch to DeusEx)\par
 \tab UPv3 install script (Source for *this* setup!)\par
 \tab InstallForge (Tool used to create this setup)\par
+\tab Antimicro (controller)\par
+\tab HX (Co-op mod) PRIVATE BUILD ONLY\par
 \par
+Editing: \par
+\tab Deus Ex Editing Pack 2.2, which includes the following:\par
+\tab Official Deus Ex SDK:\par
+\tab\tab UnrealEd1 modified for Deus Ex\par
+\tab\tab Unreal Code Compiler (UCC.EXE) Modified for Deus Ex\par
+\tab\tab Sample conversation (.con) and Deus Ex Text Files from M0-2 (Demo)\par
+\tab\tab ConEdit (Deus Ex Conversation Editor)\tab\par
+\tab\tab Lightwave-to-Unreal model converter (LWO23D.exe)\par
+\tab\tab Headers/libs used in development of Deus Ex (located in Headers/)\par
+\tab UnrealEd2 modified for Deus Ex\par
+\tab A nice GUI for UCC: UCSDK\par
+\tab TexAlign\par
+\tab Hexy's DeusExTools:\par
+\tab\tab DeusExExtractor\par
+\tab\tab DeusEx3Dviewer\par
+\tab\tab Mesh converter\par
+\tab\tab DeusExExtractor GUI\par
+\tab\tab Unreal Unit Converter\par
+\tab LWO viewer\par
+\tab UnrealFX (to edit some flags of model's polys)\par
+\tab WotGrealExporter (To extract game files) \par
+\tab UTPT (Unreal Tournament Package Tool)\par
+\tab Deus Ex mesh Tool (to extract meshes into MilkShape format)\par
+\tab Mapper's dream modified for Deus Ex\par
+\tab Bright 1.83 \par
+\tab UModel \par
+\tab Tutorials: UED2 manual, Tack's site and Universal Constructor site\par
+\tab\par
 You can buy the full game from any of the following locations! : \par
 Good Old Games:\par
 https://www.gog.com/game/deus_ex\par
@@ -225,19 +260,66 @@ http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715\par
 Kaiser: Install Script Base\par
 https://github.com/Kaiz0r/\par
 \par
+Deus Ex Magyar\'edt\'f3 Csapat /  Deus Ex Hungarian Translation Team : Hungarian Translation\par
+.\par
+Biwdy: Member of Deus Ex Hungarian Translation Team, made Hunarian setup translation,  provided sources for Portugeuse(I spelled this wrong didn't I, run through spellcheck) and Czech translations\par
+\par
+Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, \par
+\par
 Changelog\par
 -XP Compatability (removed all commands not present in XP, older Deus Exe included in files)\par
 \par
 To do\par
 -Beta(100f) plasma effect restoration\par
--Huren,Biomod,Shifter, Shifter+  install options\par
+-Huren,Biomod,Shifter, Shifter+, Vanilla Matters install options\par
+-Look into having a seperate GMDX and Revision demo installer (very unlikely to be possible for either)\par
+-HDTPAway would help with this, look into the source more\par
 -Organize every mod/patch into it's own folder\par
 -Include XP setup flag (press X at the start to set)\par
 -Ini tweaks (Keybinds, masterserver, openAL additions,Language)\par
+-Rewrite to output all installs to INSTALL directory, then move to root. This will let people rewrite easily.\par
+-Include option to use Kentie's by default(include warning about ini's by Bjorn) \par
+-Press O for options  \par
+-Set Japanese to install last(due to unique translation method)\par
+-Look into a method to let user change install defaults (Ex, have XP, French, and Kenties install options run unattended by remembering previous install options)\par
+-FIx Laguardia loading point, LP's in general to be in line with design doc\par
+-Fix Lucky Money LP\par
+-FIx Ship Fan LP\par
+-Fix Inv addition bug on starting a new game after death, not present in the original demo release, investigate and copy.\par
+-Make a big package with new vision,  HDTP, ENB, and if you can GMDX/Revision. Don't exceed three packages. Big\\Medium\\Small, ideally two.\par
+-Setup Anti-micro, set to laucn with regular shortcut\par
+-Add ps2 training dialogue, which is non-keybind specific. (available pre-extracted and converted under Media\\Music\\Deus Ex Complete Soundtrack, OST, and Sound Effects Collection\\Sound Effects and Conversations in the archive). Flag and branch off, DON'T replace. Negligable file size, maintains legacy, someone might want it.\par
+-Fix long tunnel in nyc to nsfhq, in the rescue paul mission\par
+-Fix Elevator in Jocks, breaks if you jump to maggies, and one player goes down. It can't be called up. Only relevant for HX\par
+-FIx unatco isn't perfect line if it hasn't been\par
+-Make a list of all goals that should be inactive, repeat it at least at every goal given.This should enable HX sequence breaking to be a bit neater. \par
+-Add HX to public package by default as soon as Han let's people distribute it.\par
+-Add FemJC playermodel option and convo flag, ideally an option that lets the user load any skin/model, ask bogie for help\par
+-Add Bogie HX by default, why not, small af\par
+-Eventually need to abandon previous work, implement a more modloader like functionality, load specfic files instead of transfering them. This is to enable the whole archive to be loaded.\par
+-Press O for one for all, change options to choices, quicker to press anyways\par
+-Experiment with the various modloaders(also kenties) and custom directorys in the ini file\par
+-Include documention on console commands?\par
+-Include controller documentation!\par
+-Include PS2 Theme as an option\par
+-Stop here for now Jesus Christ Denton\par
+-Feature creep up the wazoo\par
+-This was supposed to be done in like a day\par
+-Maybe set knowmaggie=true if you meet the redtriad01 https://i.imgur.com/JqpQ7tP.png\par
+-Make a list of needed localization(int) files\par
+-switch to setup manifest not patch\par
+-for confix translations remember to DELET/COPY AUDIO\par
+-check ambrosia code for 747 and boathouse, specifically what happens if you check the boathouse last. looks like it says one barrel is left\par
+-trello\par
+-git\par
+-apple and linux support\par
 \par
+Controller\par
+-Add ps2 Tutorial convo\par
+-Input tweak, let rmb advance convos, ect\par
+-Optional un-asterisk code entry option, and a clear function\par
+-Optional automatic code entry, like ps2, look into reusing any code\par
 Message us with any install issues on our discord!: https://discord.gg/RxKwXKN\par
-You can also email : Patch@DeusExArchive.com\par
-However the discord is usually much faster!\par
 \par
 }
  [Licence_End]
@@ -256,9 +338,9 @@ C:\DeusEx
 [SCs]
 Desktop
 Deus Ex
-<installpath>\System\DeusEx.exe
+<installpath>\System\Deus Ex Controller.bat
 
-
+<installpath>\Help\DeusEx.ico
 0
 [IFP_End]
 [Serials]
