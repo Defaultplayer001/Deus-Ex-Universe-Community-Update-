@@ -327,8 +327,7 @@ copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's HTK Commandlets\ReadMe - H
 
 rem		Misc
 rem			Antimicro
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Controller.bat"  "%~dp0\System\Deus Ex Controller.bat" /Y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\antimicro\*"  "%~dp0\System\antimicro\" /e /y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Controller proxy (Antimicro)\*"  "%~dp0\System\" /e /y
 
 rem			Custom "Augmented" Keybind Ini
 IF "%Translation%"=="Yes" (
