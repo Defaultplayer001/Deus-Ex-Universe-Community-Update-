@@ -300,13 +300,13 @@ rmdi "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HX-0.9.89.3" /S
 rmdir "%~dp0\Help\HX" /S /Q
 			
 			HXExt
-"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5" -y
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\About.txt"  "%~dp0\Help\ReadMe-CoOp-HXExt.txt" /Y
-del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\About.txt"
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\Player Class List.txt"  "%~dp0\Help\CoOp-HXExt-Player-Class-List.txt" /Y
-del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\Player Class List.txt"
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\*" "%~dp0\System\" /y /s
-rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.5\" /S /Q
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.9.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.9" -y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.9\HXExt README.txt"  "%~dp0\Help\ReadMe - Co-Op - HXExt.txt" /Y
+del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.9\HXExt README.txt"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.9\Player Class List.txt"  "%~dp0\Help\ReadMe - Co-Op - HXExt - Player Class List.txt" /Y
+del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.9\Player Class List.txt"
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.9\*" "%~dp0\System\" /y /s
+rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HXExt - Bogie's HX mod\HXExt Stable Version 1.9\" /S /Q
 
 rem			MiniHX
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\Cozmo's MiniHX hotfix\ReadMe.txt"  "%~dp0\Help\ReadMe-CoOp-MiniHX.txt" /Y

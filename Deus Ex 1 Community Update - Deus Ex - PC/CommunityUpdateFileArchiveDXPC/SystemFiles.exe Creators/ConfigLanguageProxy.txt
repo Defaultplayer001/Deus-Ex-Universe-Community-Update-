@@ -1,0 +1,6 @@
+;!@Install@!UTF-8!
+Title="Deus Ex Community Update"
+InstallPath="."
+RunProgram="DeusEx.exe"
+Directory="..\\"
+;!@InstallEnd@!

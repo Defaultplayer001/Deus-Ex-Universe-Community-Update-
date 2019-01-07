@@ -54,7 +54,7 @@ IDC_Complete=Instalação finalizada com sucesso!
 IDC_CompleteReboot=Instalação finalizada com sucesso!nAntes de jogar, você deve reiniciar seu computador.
 
 [IDDIALOG_FilerPageWelcome]
-IDC_WelcomePrompt=Você irá instalar %s em seu sistema.\n\nPressione "Avançar" para iniciar a instalação, ou clique "Cancelar" a qualquer momento para sair.\n\nAbaixo, encontram-se links de acesso a web para maiores informações.
+IDC_WelcomePrompt=Você irá instalar %s em seu sistema.\n\nPressione "Próximo" para iniciar a instalação, ou clique "Cancelar" a qualquer momento para sair.\n\nAbaixo, encontram-se links de acesso a web para maiores informações.
 IDC_WelcomePromptUpdate=Este programa atualizará sua cópia de %s para versão %s.\n\nPressione "Avançar" para iniciar a instalação, ou pressione "Cancelar" a qualquer momento para sair.\n\nAbaixo, encontram-se links para acesso a web para maiores informações.
 IDC_LanguagePrompt=&Idioma
 
@@ -121,7 +121,7 @@ IDC_ProductHolder=Produto necessário
 IDC_ProductHolder=Produto
 IDC_ProductText=Produto:
 IDC_VersionText=Versão:
-IDC_DeveloperText=Desenvolvedor:
+IDC_DeveloperText=Autor:
 
 [IDDIALOG_FilerPageUninstall]
 IDC_UninstallPrompt=Serão desinstalados os seguintes componentes:

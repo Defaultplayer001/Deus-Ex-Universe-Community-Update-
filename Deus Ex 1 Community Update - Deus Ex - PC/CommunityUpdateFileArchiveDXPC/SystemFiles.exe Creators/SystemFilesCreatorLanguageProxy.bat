@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + configsystemfilesDefault.txt + Default.7z Default.exe

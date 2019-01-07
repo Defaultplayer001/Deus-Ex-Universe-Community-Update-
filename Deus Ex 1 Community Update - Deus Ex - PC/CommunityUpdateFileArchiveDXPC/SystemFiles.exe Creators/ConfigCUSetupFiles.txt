@@ -1,5 +1,5 @@
 ;!@Install@!UTF-8!
 Title="Deus Ex Community Update"
-InstallPath="%TEMP%"
+InstallPath="%TEMP%\DXCU"
 ExecuteFile="InstallCommunityUpdateDXPC.bat"
 ;!@InstallEnd@!

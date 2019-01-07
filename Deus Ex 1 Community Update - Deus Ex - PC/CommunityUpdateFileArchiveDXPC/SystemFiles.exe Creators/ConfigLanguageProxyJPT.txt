@@ -1,0 +1,6 @@
+;!@Install@!UTF-8!
+Title="Deus Ex Community Update"
+InstallPath="%%S"
+;ExecuteFile= doesn't work for this, I have no idea why DP 2019/1/7
+RunProgram="LanguageProxyJPT.bat"
+;!@InstallEnd@!

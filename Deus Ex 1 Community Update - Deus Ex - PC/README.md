@@ -37,6 +37,7 @@ The package Includes the following:
 ### -Translations: 
 
 Note: Translations not compatible with Confix.
+Russian includes it's own Confix version TD
 
 If you install a translation, Confix will not be.
 
@@ -72,15 +73,16 @@ If you install a translation, Confix will not be.
 * RF (Revision Framework)
 * RenderExt (Render Extension from Revision)
 
-### Mods:
-* HX (Co-op mod)
-* HXEXT (HX Extension mod) 
-* MiniHX (HX Hotfix) 
- Optional mods (Can only use one at a time!):
+### Mods :
 * Human Renovation (HuRen)
 * Shifter
 * Biomod
 * Vanilla Matters
+* HXEXT (HX Extension mod) 
+* MiniHX (HX Hotfix) 
+Not included (Drag latest version to Mods folder before install) TD: 
+* HX (Co-op mod)
+
 
 ### Alternate EXEs : (Launch Recommended) 
 * Launch (Used by default, more compatible) 
@@ -131,6 +133,7 @@ Set resolution with nglide_config.exe in \system, set in-game res to a default.
 Also included:
 * Deus Ex Editor Fix
 * HTK Commandlets
+* New UnrealEd 2 for Deus Ex by Bjorn
 
 ### Misc:
 * Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02)
@@ -207,7 +210,7 @@ https://www.dx-revision.com/
 
 Hawk: ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision for fixing inventory bug when the player dies holding a weapon and starts a new game.
 
-Bjorn Ehrby: RF (Revision Framework), Support
+Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2
 
 Hanfling: Launch, RF (Revision Framework), RenderExt, HTK Commandlets, Editor Fix & Support, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
@@ -301,7 +304,7 @@ Author Unknown (If you know please let us know!): Engine.dll fix
 
 http://www.deusexnetwork.com/files/DX1/patches/6083/engine-dll-fix.zip
 
-NVShacker(Thanks for providing the authors name Birdy/Daet!): OTPUIFix
+NVShacker(Thanks for providing the authors name bird / Biwdy / Birdy / Daet!): OTPUIFix
 https://web.archive.org/web/20090225135158/http://thenamelessmod.com/downloads/miscfiles/
 https://www.nexusmods.com/deusex/mods/36/
 
@@ -326,7 +329,7 @@ Smirftsch: OpenAL
 
 http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
-Biwdy / Birdy / Daet: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly
+bird / Biwdy / Birdy / Daet: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly
 
 Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, 
 

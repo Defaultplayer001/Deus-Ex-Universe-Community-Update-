@@ -115,8 +115,8 @@ IDC_ProductHolder=Produit requis
 
 [IDDIALOG_ProductInfo]
 IDC_ProductHolder=Produit
-IDC_ProductText=Produit :
-IDC_VersionText=Version :
+IDC_ProductText=Produit:
+IDC_VersionText=Version:
 IDC_DeveloperText=Développeur:
 
 [IDDIALOG_FilerPageUninstall]

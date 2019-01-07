@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + ConfigLanguageProxyJPT.txt + LanguageProxyJPT.7z DeusExCommunityUpdateLanguageProxy.exe
