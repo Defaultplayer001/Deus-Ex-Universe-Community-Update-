@@ -115,7 +115,7 @@ Rem		1014 Patch install files (Doesn't auto check all options like 1112fm does n
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" -y
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f.exe" -o"%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f" -y
 ren "%~dp0\Help\ReadMePatch1.htm" "ReadMePatch1014.htm"
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\Help" "%~dp0\Help\" /y
+echo d|xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\Help" "%~dp0\Help" /y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\System\Setup.exe" "%~dp0\System" /y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\setup.exe" "%~dp0" /y
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" /S /Q
@@ -341,6 +341,8 @@ rem			Setup
 IF "%setup%"=="No" (
 	goto :skipsetup
 	)
+rem Moved to bottom due to installing-like-a-mod additions. Should probably be deleted after new way is confirmed working.
+goto :modsetupskip
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Setup Creation\Unofficial Patch Manifest"  "%~dp0\System\" /y	
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.001" -o"%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\" -y
 del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.001" /Q
@@ -360,14 +362,62 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Portugues-Po
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Russkiy-Russian" "%~dp0" /S /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Nihongo-Japanese" "%~dp0" /S /Y
 rem ren "%~dp0\Help\ReadMePatch1.htm" "Nihongo-JapaneseReadMePatch1.htm"
+:modsetupskip
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\DeusEx.u" "%~dp0\System\DeusEx.u"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\UnofficialPatchv2DemoVersion.exe" "%~dp0\System\UnofficialPatchv2DemoVersion.exe" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-v2-Demo-Version-ReadMe.txt" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\DXEditingPACK_2_2_Full_Community_Update_edit.exe" "%~dp0\System\SystemFiles.exe" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Editor Fix\DeusExEditorFixSelfExtracting.exe" "%~dp0\DeusExEditorFixSelfExtracting.exe" /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Readme.md converted to HTML" "%~dp0\Help" /S /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\Deus Ex Community Update INI\*" "%~dp0\System\" /y /s
+rem Move all folders to the DXCU subfolder, to be used like a mod
+xcopy "%~dp0\DirectX7" "%~dp0\DeusExCommunityUpdate\DirectX7" /S /Y
+rmdir "%~dp0\DirectX7\" /S /Q
+echo d|xcopy "%~dp0\Help" "%~dp0\DeusExCommunityUpdate\Help" /S /Y
+rmdir "%~dp0\Help\" /S /Q
+echo d|xcopy "%~dp0\Maps" "%~dp0\DeusExCommunityUpdate\Maps" /S /Y
+rmdir "%~dp0\Maps\" /S /Q
+echo d|xcopy "%~dp0\Music" "%~dp0\DeusExCommunityUpdate\Music" /S /Y
+rmdir "%~dp0\Music\" /S /Q
+echo d|xcopy "%~dp0\Sounds" "%~dp0\DeusExCommunityUpdate\Sounds" /S /Y
+rmdir "%~dp0\Sounds\" /S /Q
+echo d|xcopy "%~dp0\System" "%~dp0\DeusExCommunityUpdate\System" /S /Y
+rmdir "%~dp0\System\" /S /Q
+echo d|xcopy "%~dp0\Textures" "%~dp0\DeusExCommunityUpdate\Textures" /S /Y
+rmdir "%~dp0\Textures\" /S /Q
+rem Copy of the 1014 Patch setup group, edited to include all the files, needed since setup files need to be in the same place. Deletion section moved to very end.
+Rem		1014 Patch install files (Doesn't auto check all options like 1112fm does no matter the selected= value) 
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" -y
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f.exe" -o"%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f" -y
+ren "%~dp0\Help\ReadMePatch1.htm" "ReadMePatch1014.htm"
+echo d|xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\Help" "%~dp0\Help" /y
+echo d|xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\System" "%~dp0\System" /y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Setup Creation\Unofficial Patch Manifest"  "%~dp0\System\" /y
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.001" -o"%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\" -y
+del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.001" /Q
+del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.002" /Q
+del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.003" /Q
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English" "%~dp0" /S /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Cestina-Czech" "%~dp0" /S /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Deutsche-German" "%~dp0" /S /Y
+rem ren "%~dp0\Help\ReadMePatch1.htm" "Deutsche-GermanReadMePatch1.htm"
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Francais-French" "%~dp0" /S /Y
+rem ren "%~dp0\Help\ReadMePatch1.htm" "Francais-FrenchReadMePatch1.htm"
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Espanol-Spanish" "%~dp0" /S /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Italiano-Italian" "%~dp0" /S /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\magyar-Hungarian" "%~dp0" /S /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Polskie-Polish" "%~dp0" /S /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Portugues-Portuguese" "%~dp0" /S /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Russkiy-Russian" "%~dp0" /S /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Nihongo-Japanese" "%~dp0" /S /Y
+rem ren "%~dp0\Help\ReadMePatch1.htm" "Nihongo-JapaneseReadMePatch1.htm"
+xcopy "*.*" "%~dp0\DeusExCommunityUpdate\*.*" /Y
+del "%~dp0\*.exe*"
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\setup.exe" "%~dp0" /y
+rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" /S /Q
 "%~dp0\setup.exe"
-exit
+rem exit
+pause
 
 :skipsetup
 
@@ -385,7 +435,7 @@ echo You can reinstall them anytime using the "InstallCommunityUpdateDXPC.bat" l
 pause
 exit
 
-:Delete
+:Deleted
 @rem Cleanup
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC" /S /Q
 del "%~dp0\InstallCommunityUpdateDXPC.bat" /Q

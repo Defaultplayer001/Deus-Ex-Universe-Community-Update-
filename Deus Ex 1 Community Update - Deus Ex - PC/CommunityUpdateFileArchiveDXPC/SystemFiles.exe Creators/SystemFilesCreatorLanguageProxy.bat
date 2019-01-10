@@ -1,1 +1,1 @@
-copy /b 7zS.sfx + configsystemfilesDefault.txt + Default.7z Default.exe
+copy /b 7zS.sfx + ConfigLanguageProxyINT.txt + temp.7z DeusExCommunityUpdateLanguageProxy.exe

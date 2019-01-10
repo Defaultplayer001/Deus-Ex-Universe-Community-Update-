@@ -1,0 +1,6 @@
+;!@Install@!UTF-8!
+Title="Deus Ex Community Update"
+InstallPath="%%S"
+;switch INT with whatever language needed. This shouldn't need to be updated, so doing it this way to prevent clutter 2019/1/7
+RunProgram="DeusExCommunityUpdateINT.exe"
+;!@InstallEnd@!
