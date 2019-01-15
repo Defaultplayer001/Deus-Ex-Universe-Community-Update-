@@ -1,6 +1,6 @@
 [Setup]
 LocalProduct=Deus Ex
-DefaultFolder=C:\DeusEx
+DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
 ReadMe=Help\ReadMe.htm
 SetupWindowTitle=Installation de Deus Ex
 AutoplayWindowTitle=Options de Deus Ex
@@ -13,7 +13,7 @@ Logo=Help\LogoSmall.bmp
 License=License.int
 
 [General]
-PlayLevelCommand=&Jouer ‡ ce niveau de Deus Ex
+PlayLevelCommand=&Jouer ÅEce niveau de Deus Ex
 OpenLinkCommand=&Ouvrir ce lien de Deus Ex
 EditLevelCommand=&…diter ce niveau de Deus Ex
 
@@ -23,15 +23,15 @@ Description= Le cúur de Deus Ex. Installation requise.
 
 [DeusExContentGroup]
 Caption=…lÈments de Deus Ex
-Description=La peau de Deus Ex (textures, effets sonores, musique) - ‡ installer pour amÈliorer les performances du jeu : sans cela, les ÈlÈments seront chargÈs depuis le CD en cours de partie. Installation optionnelle.
+Description=La peau de Deus Ex (textures, effets sonores, musique) - ÅEinstaller pour amÈliorer les performances du jeu : sans cela, les ÈlÈments seront chargÈs depuis le CD en cours de partie. Installation optionnelle.
 
 [DeusExMapsGroup]
 Caption=Cartes de Deus Ex
-Description=Le squelette de Deus Ex - ‡ installer pour amÈliorer les performances du jeu : sans cela, les cartes seront chargÈes depuis le CD en cours de partie. Installation optionnelle.
+Description=Le squelette de Deus Ex - ÅEinstaller pour amÈliorer les performances du jeu : sans cela, les cartes seront chargÈes depuis le CD en cours de partie. Installation optionnelle.
 
 [DeusExSpeechGroup]
 Caption=Dialogues de Deus Ex
-Description=La voix de Deus Ex - ‡ installer pour amÈliorer les performances du jeu : sans cela, les dialogues seront chargÈs depuis le CD en cours de partie. Installation optionnelle.
+Description=La voix de Deus Ex - ÅEinstaller pour amÈliorer les performances du jeu : sans cela, les dialogues seront chargÈs depuis le CD en cours de partie. Installation optionnelle.
 
 [EditorGroup]
 Caption=…diteur de Deus Ex
@@ -39,13 +39,13 @@ Description=La main de Deus Ex, pour que vous puissiez crÈer vos propres environ
 
 [DirectXGroup]
 Caption=DirectX
-Description=Pilotes Microsoft DirectX 7.0a pour une meilleure gestion des graphismes, du son et des manettes. Si DirectX 7.0a n'est pas encore installÈ sur votre systËme d'exploitation, vous devez retenir cette option.
+Description=Pilotes Microsoft DirectX 7.0a pour une meilleure gestion des graphismes, du son et des manettes. Si DirectX 7.0a n'est pas encore installÅEsur votre systËme d'exploitation, vous devez retenir cette option.
 
 [PlayShortcut]
-Caption=Jouer ‡ Deus Ex
+Caption=Jouer ÅEDeus Ex
 
 [SafeModeShortcut]
-Caption=Mode sÈcurisÈ de Deus Ex
+Caption=Mode sÈcurisÅEde Deus Ex
 
 [EditorShortcut]
 Caption=…diteur de Deus Ex

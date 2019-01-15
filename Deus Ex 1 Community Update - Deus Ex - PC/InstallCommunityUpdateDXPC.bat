@@ -336,7 +336,8 @@ IF "%Translation%"=="Yes" (
 ren "%~dp0\System\DefUser.ini" "%~dp0\System\DefUser Original.ini"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\Modernized Keybinds\Augmented\DefUser.ini" "%~dp0\System\DefUser.ini" /Y
 :skipini
-			
+
+rem Organize this			
 rem			Setup
 IF "%setup%"=="No" (
 	goto :skipsetup
@@ -363,6 +364,7 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Russkiy-Russ
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Nihongo-Japanese" "%~dp0" /S /Y
 rem ren "%~dp0\Help\ReadMePatch1.htm" "Nihongo-JapaneseReadMePatch1.htm"
 :modsetupskip
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Icons & Logos\Windows 95 Notepad Icon.ico" "%~dp0\Help\Windows 95 Notepad Icon.ico" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\DeusEx.u" "%~dp0\System\DeusEx.u"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\UnofficialPatchv2DemoVersion.exe" "%~dp0\System\UnofficialPatchv2DemoVersion.exe" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-v2-Demo-Version-ReadMe.txt" /Y
@@ -371,7 +373,7 @@ copy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Editor Fix\DeusExEditorFixSel
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Readme.md converted to HTML" "%~dp0\Help" /S /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\Deus Ex Community Update INI\*" "%~dp0\System\" /y /s
 rem Move all folders to the DXCU subfolder, to be used like a mod
-xcopy "%~dp0\DirectX7" "%~dp0\DeusExCommunityUpdate\DirectX7" /S /Y
+echo d|xcopy "%~dp0\DirectX7" "%~dp0\DeusExCommunityUpdate\DirectX7" /S /Y
 rmdir "%~dp0\DirectX7\" /S /Q
 echo d|xcopy "%~dp0\Help" "%~dp0\DeusExCommunityUpdate\Help" /S /Y
 rmdir "%~dp0\Help\" /S /Q

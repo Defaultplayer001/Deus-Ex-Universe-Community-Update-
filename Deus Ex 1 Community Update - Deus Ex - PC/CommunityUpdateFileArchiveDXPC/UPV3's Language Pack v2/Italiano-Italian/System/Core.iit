@@ -1,6 +1,6 @@
 [Language]
 Language=Italiano
-LangId=9
+LangId=16
 SubLangId=1
 
 [Public]
@@ -22,8 +22,8 @@ Sandbox=Blocco '%s' non accessibile in questa zona
 PackageVersion=Blocco '%s': errore di versione
 FailedLoad=Impossibile caricare '%s': %s
 ConfigNotFound='%s' non localizzato nel file di configurazione.
-LoadClassMismatch=%s non Ë una classe subordinata di %s.%s
-NotDll='%s' non Ë un blocco DLL: impossibile trovare esportazione '%s'
+LoadClassMismatch=%s non ÅEuna classe subordinata di %s.%s
+NotDll='%s' non ÅEun blocco DLL: impossibile trovare esportazione '%s'
 NotInDll=Impossibile localizzare '%s' in '%s.dll'
 FailedLoadPackage=Errore nel caricamento del blocco: %s
 FailedLoadObject=Impossibile caricare '%s %s.%s': %s
@@ -36,7 +36,7 @@ FailedSaveFile=Errore nel salvataggio del file '%s': %s
 SaveWarning=Errore nel salvataggio di '%s'
 NotPackaged=Oggetto non in blocco: %s %s
 NotWithin=Oggetto %s %s creato in %s al posto di %s
-Abstract=Impossibile creare l'oggetto %s: la classe %s Ë astratta
+Abstract=Impossibile creare l'oggetto %s: la classe %s ÅEastratta
 NoReplace=Impossibile sostituire %s con %s
 NoFindImport=Impossibile trovare il file '%s' da importare
 ReadFileFailed=Lettura fallita del file '%s' da importare
@@ -44,7 +44,7 @@ SeekFailed=Errore nella ricerca del file
 OpenFailed=Errore nell'apertura del file
 WriteFailed=Errore nella scrittura del file
 ReadEof=Lettura oltre la fine del file
-IniReadOnly=Il file %s Ë protetto da scrittura: impossibile memorizzare le impostazioni
+IniReadOnly=Il file %s ÅEprotetto da scrittura: impossibile memorizzare le impostazioni
 UrlFailed=Errore nell'apertura dell'URL
 Warning=Attenzione
 Question=Richiesta
@@ -52,22 +52,22 @@ OutOfMemory=Memoria virtuale esaurita. Per evitare questo problema, devi liberar
 History=Storia
 Assert=Asserzione fallita %s [File:%s] [Linea: %i]
 Debug=Asserzione debug fallita: %s [File:%s] [Linea: %i]
-LinkerExists=Il collegamento per '%s' esiste gi‡
+LinkerExists=Il collegamento per '%s' esiste giÅE
 BinaryFormat=Il file '%s' contiene dati non utilizzabili
 SerialSize=%s: errore dimensione seriale: ottenuto %i, atteso %i
 ExportIndex=Indice d'esportazione errato %i/%i
 ImportIndex=Indice d'importazione errato %i/%i
 Password=Password non riconosciuta
 Exec=Comando non riconosciuto
-BadProperty='%s': propriet‡ mancante o errata '%s'
+BadProperty='%s': proprietÅEmancante o errata '%s'
 MisingIni=File .ini mancante: %s
 
 [Query]
-OldVersion=Il file %s Ë stato salvato da una versione non recente, che non Ë compatibile con quella in uso attualmente. La sua lettura provocher‡ un errore e un possibile blocco. Vuoi provare comunque?
+OldVersion=Il file %s ÅEstato salvato da una versione non recente, che non ÅEcompatibile con quella in uso attualmente. La sua lettura provocherÅEun errore e un possibile blocco. Vuoi provare comunque?
 Name=Nome:
 Password=Password:
 PassPrompt=Inserisci il tuo nome e la password:
-PassDlg=Controllo identit‡
+PassDlg=Controllo identitÅE
 Overwrite=Il file '%s' deve essere aggiornato. Vuoi sovrascrivere la versione attuale?
 
 [Progress]
@@ -82,5 +82,5 @@ Copyright=Copyright 1999 Epic Games, Inc.
 True=Vero
 False=Falso
 None=Nessuno
-Yes=SÏ
+Yes=SÅE
 No=No

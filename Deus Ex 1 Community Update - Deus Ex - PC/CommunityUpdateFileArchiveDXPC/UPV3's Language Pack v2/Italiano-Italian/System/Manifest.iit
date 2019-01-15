@@ -1,6 +1,6 @@
 [Setup]
 LocalProduct=Deus Ex
-DefaultFolder=C:\DeusEx
+DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
 ReadMe=Help\ReadMe.htm
 SetupWindowTitle=Installazione di Deus Ex
 AutoplayWindowTitle=Opzioni di Deus Ex
@@ -23,29 +23,29 @@ Description=File di sistema di Deus Ex. Installazione necessaria.
 
 [DeusExContentGroup]
 Caption=Dati di Deus Ex
-Description=File dei dati di Deus Ex (texture, effetti sonori e musica): installandoli, si migliorano le prestazioni del gioco, ma Ë possibile anche caricarli dal CD durante il gioco. L'installazione Ë opzionale.
+Description=File dei dati di Deus Ex (texture, effetti sonori e musica): installandoli, si migliorano le prestazioni del gioco, ma ÅEpossibile anche caricarli dal CD durante il gioco. L'installazione ÅEopzionale.
 
 [DeusExMapsGroup]
 Caption=Mappe di Deus Ex
-Description=File delle mappe di Deus Ex: installandoli, si migliorano le prestazioni del gioco, ma Ë possibile anche caricarli dal CD durante il gioco. L'installazione Ë opzionale.
+Description=File delle mappe di Deus Ex: installandoli, si migliorano le prestazioni del gioco, ma ÅEpossibile anche caricarli dal CD durante il gioco. L'installazione ÅEopzionale.
 
 [DeusExSpeechGroup]
 Caption=Parlato di Deus Ex
-Description=File del parlato di Deus Ex: installandoli, si migliorano le prestazioni del gioco, ma Ë possibile anche caricarli dal CD durante il gioco. L'installazione Ë opzionale.
+Description=File del parlato di Deus Ex: installandoli, si migliorano le prestazioni del gioco, ma ÅEpossibile anche caricarli dal CD durante il gioco. L'installazione ÅEopzionale.
 
 [EditorGroup]
 Caption=Editor di Deus Ex
-Description=Editor degli scenari di Deus Ex, per creare i vostri ambienti 3D per Deus Ex. Riservato a utenti avanzati. L'installazione Ë opzionale.
+Description=Editor degli scenari di Deus Ex, per creare i vostri ambienti 3D per Deus Ex. Riservato a utenti avanzati. L'installazione ÅEopzionale.
 
 [DirectXGroup]
 Caption=DirectX
-Description=Driver Microsoft DirectX 7.0a per supporto avanzato di grafica, audio e joystick. Se DirectX 7.0a non Ë installata, Ë necessario scegliere questa opzione.
+Description=Driver Microsoft DirectX 7.0a per supporto avanzato di grafica, audio e joystick. Se DirectX 7.0a non ÅEinstallata, ÅEnecessario scegliere questa opzione.
 
 [PlayShortcut]
 Caption=Gioca a Deus Ex
 
 [SafeModeShortcut]
-Caption=Deus Ex - modalit‡ sicura
+Caption=Deus Ex - modalitÅEsicura
 [EditorShortcut]
 Caption=Editor di Deus Ex
 
@@ -77,13 +77,13 @@ Caption=Patch 1 Documentation
 Caption=Documenti del Multiplayer
 
 [MPStrategyGuideShortcut]
-Caption=Guida strategica per la modalità multiplayer
+Caption=Guida strategica per la modalitÅEmultiplayer
 
 [MPAdminShortcut]
 Caption=Gestione Multiplayer
 
 [MPMapShortcut]
-Caption=Creazione mappe per la modalità multiplayer
+Caption=Creazione mappe per la modalitÅEmultiplayer
 
 [PatchFixShortcut]
 Caption=Correzioni delle patch

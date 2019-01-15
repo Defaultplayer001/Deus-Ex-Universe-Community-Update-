@@ -99,8 +99,8 @@ Not included (Drag latest version to Mods folder before install) TD:
 Note if you use Nglide: 
 Set resolution with nglide_config.exe in \system, set in-game res to a default. 
 
-### Audio Renderers: (OpenAl renderer recommended) 
-* OpenAL (Higher quality playback then the default Galaxy renderer, arguably better and/or worse lip synching)
+### Audio Renderers:
+* OpenAL (Higher quality playback then the default Galaxy renderer, worse lip synching)
 * SWFMod 
 	
 ### Editing: 

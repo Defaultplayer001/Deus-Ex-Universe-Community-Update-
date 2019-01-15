@@ -1,6 +1,6 @@
 [Setup]
 LocalProduct=Deus Ex
-DefaultFolder=C:\DeusEx
+DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
 ReadMe=Help\ReadMe.htm
 SetupWindowTitle=Deus-Ex-Setup
 AutoplayWindowTitle=Deus-Ex-Optionen
@@ -35,11 +35,11 @@ Description=Deus-Ex-Sprachdateien - Installieren Sie die Sprachdateien, um die L
 
 [EditorGroup]
 Caption=Deus-Ex-Editor
-Description=Deus-Ex-Editor - Mit dem Editor erschaffen Sie Ihre eigenen 3D-Welten für Deus Ex. Nur für erfahrene Anwender. Die Installation ist optional.
+Description=Deus-Ex-Editor - Mit dem Editor erschaffen Sie Ihre eigenen 3D-Welten fE Deus Ex. Nur fE erfahrene Anwender. Die Installation ist optional.
 
 [DirectXGroup]
 Caption=DirectX
-Description=Microsoft DirectX 7.0a Treiber für erweiterte Grafik, Sound und Joystick-Unterstützung. Wenn Sie DirectX 7.0a nicht installiert haben, müssen Sie diese Option wählen.
+Description=Microsoft DirectX 7.0a Treiber fE erweiterte Grafik, Sound und Joystick-UnterstEzung. Wenn Sie DirectX 7.0a nicht installiert haben, mEsen Sie diese Option wählen.
 
 [PlayShortcut]
 Caption=Deus Ex spielen
