@@ -365,6 +365,7 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Nihongo-Japa
 rem ren "%~dp0\Help\ReadMePatch1.htm" "Nihongo-JapaneseReadMePatch1.htm"
 :modsetupskip
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Icons & Logos\Windows 95 Notepad Icon.ico" "%~dp0\Help\Windows 95 Notepad Icon.ico" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Icons & Logos\Windows 95 Internet Explorer Icon.ico" "%~dp0\Help\Windows 95 Internet Explorer Icon.ico" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\DeusEx.u" "%~dp0\System\DeusEx.u"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\UnofficialPatchv2DemoVersion.exe" "%~dp0\System\UnofficialPatchv2DemoVersion.exe" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-v2-Demo-Version-ReadMe.txt" /Y
