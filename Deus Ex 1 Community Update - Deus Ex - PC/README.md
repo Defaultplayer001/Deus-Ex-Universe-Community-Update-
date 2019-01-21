@@ -74,14 +74,19 @@ If you install a translation, Confix will not be.
 * RenderExt (Render Extension from Revision)
 
 ### Mods :
+
+#### Included :
+
 * Human Renovation (HuRen)
 * Shifter
 * Biomod
 * Vanilla Matters
 * HXEXT (HX Extension mod) 
-* MiniHX (HX Hotfix) 
-Not included (Drag latest version to Mods folder before install) TD: 
-* HX (Co-op mod)
+* MiniHX (HX Hotfix)
+
+#### Not included (Drag latest version to Mods folder before install) :
+ 
+* HX (Co-op mod) Needs updating!
 
 
 ### Alternate EXEs : (Launch Recommended) 
@@ -212,7 +217,7 @@ Hawk: ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision
 
 Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2
 
-Hanfling: Launch, RF (Revision Framework), RenderExt, HTK Commandlets, Editor Fix & Support, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
+Hanfling: Launch, RF (Revision Framework), RenderExt, HTK Commandlets, Editor Fix, Support, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 
 ### The Nameless Mod Update Team / Off Topic Productions forum members :
@@ -343,7 +348,7 @@ Mothership Loudspeaker: Additional Italian manifest translations
 
 Totalitarian: Support
 
-http://www.GiveMeDeusEx.com
+http://www.GMDXMod.com
 
 Deus Ex Network: Master Server Patch and Instructions.
 
@@ -377,7 +382,7 @@ https://discord.gg/75UpZhy
 Feel free to stop by with any bugs, questions, comments or criticisms.
 
 Bugs can also be reported directly to our Trello: 
-https://trello.com/c/Mw9ZX6xa/62-expand-vandenberg-gas-ending-conversations
+https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
 
 

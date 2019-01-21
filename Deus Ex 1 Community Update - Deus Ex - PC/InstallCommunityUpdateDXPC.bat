@@ -163,12 +163,19 @@ ren "%~dp0\System\engine.dll" "Engine original.dll"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Engine DLL Fix (Demo Recording Fix)\engine-dll-fix\Engine.dll" "%~dp0\System" /Y
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Engine DLL Fix (Demo Recording Fix)\engine-dll-fix" /S /Q
 
-rem		Confix 1.05
-IF "%Translation%"=="Yes" goto :skipConfix
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Confix 1.05\ReadMe.txt" "%~dp0\Help\Confix=1.05-ReadMe.txt" /Y
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Confix 1.05" "%~dp0\System" /y
+rem 	Conversation Files (1112fm GOTY) 
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Conversation Files (1112fm GOTY)\*.u" "%~dp0\System\*.u" /y
 
-:skipConfix
+rem		Confix 1.06
+IF "%Translation%"=="Yes" goto :skipConfix
+;Backup original con files, needed for translations. 
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Conversation Files (1112fm GOTY)\*.u" "%~dp0\System (1112fm GOTY)\*.u" /y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Confix 1.06\ReadMe.txt" "%~dp0\Help\ReadMe - Confix 1.06.txt" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Confix 1.06\*.u" "%~dp0\System\*.u" /y
+
+rem
+
+
 
 rem		OTPUIFix
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\OTPUIFix.Zip" -o"%~dp0\System" -y
