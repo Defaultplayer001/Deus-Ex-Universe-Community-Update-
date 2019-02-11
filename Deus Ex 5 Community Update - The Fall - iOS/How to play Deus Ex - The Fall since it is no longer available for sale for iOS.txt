@@ -1,0 +1,19 @@
+Note that you apparently need to be jailbroken in order to do this. 
+
+Current't don't have access to an iOS device, so this is edited from the Android install instructions and *should* all be applicable to iOS now. 
+
+Please let us know! 
+
+1. First you need to obtain the IPA file. If you message Defaultplayer proof you own The Fall on PC in the Deus Ex Community HQ Discord server, they will send you a link!
+
+DXCHQ invite link: https://discord.gg/jCFJ3A6 
+
+If asked by Square Enix / any one of authority we will stop doing this Immediately! 
+
+2. After un-archiving if needed, copy to your device.
+
+3. Install AppSync from Cydia. 
+
+4. Use Fileza or IPA installer to install. Both are available on the Cydia appstore. 
+
+5. That should be it! Game should be playable, please let us know about any issues!
