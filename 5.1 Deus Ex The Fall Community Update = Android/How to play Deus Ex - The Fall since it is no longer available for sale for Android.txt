@@ -4,13 +4,13 @@ DXCHQ invite link: https://discord.gg/jCFJ3A6
 
 If asked by Square Enix / any one of authority we will stop doing this Immediately! 
 
-A particular cracked 0.0.30 version has been the only one succesfully installed so far, so that will be used.
+A particular cracked 0.0.30 version has been the only one successfully installed so far, so that will be used.
 
 Please let us know if you get any other versions working!
 
 2. After un-archiving if needed, copy the OBB folder to your phone. Into Internal storage\Android\OBB\.
 
-3. Copy the Apk file to your phone as well, anywhere that is convienant. 
+3. Copy the Apk file to your phone as well, anywhere that is convenient. 
 
 4. After enabling Unknown sources (https://www.androidcentral.com/unknown-sources), install the APK. 
 

@@ -1,0 +1,10 @@
+It uses the same assets as the Windows version. 
+
+AFAIK there is nothing notably unique.
+
+Running old Mac OS programs on any modern OS is a relative pain from my minor research. 
+
+I'd like to eventually work on something for this, but it's a very low priority
+
+If anyone want's to do anything here for some reason, please be my guest! 
+- DP 
