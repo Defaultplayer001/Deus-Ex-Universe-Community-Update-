@@ -15,3 +15,4 @@ turns into:
 Director's Cut
 
 
+End tag is the platform the game runs on.
