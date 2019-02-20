@@ -219,6 +219,7 @@ Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2
 
 Hanfling: Launch, RF (Revision Framework), RenderExt, HTK Commandlets, Editor Fix, Support, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
+https://www.patreon.com/hanfling/overview
 
 ### The Nameless Mod Update Team / Off Topic Productions forum members :
 
