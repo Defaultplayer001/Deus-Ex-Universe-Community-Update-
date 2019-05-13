@@ -134,7 +134,7 @@ rem 1002f Supplemental
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Maps Patch\DeusExMapsPatchVanillaSupplemental.7z" -y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Maps Patch\DeusExMapsPatchVanillaSupplemental\Maps\" "%~dp0\Maps\" /Y /S
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Maps Patch\DeusExMapsPatchVanillaSupplemental" /S /Q
-tl
+
 rem :skipmapspatch
 
 IF "%setup%"=="Yes" (

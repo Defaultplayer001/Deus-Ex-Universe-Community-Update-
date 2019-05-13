@@ -8,7 +8,8 @@ A particular cracked 0.0.30 version has been the only one successfully installed
 
 Please let us know if you get any other versions working!
 
-2. After un-archiving if needed, copy the OBB folder to your phone. Into Internal storage\Android\OBB\.
+2. After un-archiving if needed, copy the OBB folder to your phone. Into SD\Android\OBB\. 
+*Note that if you  install on the internal drive, you need to move the game to internal storage in the settings before rebooting your phone. If you don't the game will stop working after reboot.*
 
 3. Copy the Apk file to your phone as well, anywhere that is convenient. 
 

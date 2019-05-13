@@ -141,8 +141,8 @@ Description=A light-weight mod aimed to smooth out the rough edges of the vanill
 ;//  HXGroup added for Unofficial Patch v3 by Defaultplayer 2018/04/26  //
 
 [HXGroup]
-Caption=Co-op (HX)
-Description=Co-op modification to play the singleplayer storyline in multiplayer. WIP and has bugs, but mostly stable! -Edited description for UPV3
+Caption=Co-op (HX) 
+Description=Co-op modification to play the singleplayer storyline in multiplayer. WIP and has bugs, but mostly stable! ((Not included by default, extract and place into "\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)") -Edited description for UPV3 
 
 ; 1002fMapsGroup 1002fMapsGroup added for unofficial Patch V3 by Defaultplayer 2018/11/11
 

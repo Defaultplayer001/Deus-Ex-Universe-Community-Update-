@@ -1,0 +1,6 @@
+He's mentioned he has his own unique plans for an installer. He was vague, but it sounds interesting! 
+
+If you want to use the CU to install it, simply place the HX archive in the same folder in this text file.
+
+Currently intended for HX-0.9.89.3, but other versions *may* work if renamed to "HX-0.9.89.3.zip"
+
