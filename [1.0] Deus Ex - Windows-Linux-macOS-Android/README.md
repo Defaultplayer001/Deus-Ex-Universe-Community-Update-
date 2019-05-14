@@ -1,5 +1,7 @@
 # Deus-Ex-1-Community-Update-
 
+Latest version downlad: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
+
 This is an unofficial patch package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
 
 https://www.reddit.com/r/dxarchive/
