@@ -52,8 +52,7 @@ If you install a translation, Confix will not be.
 * Polish
 * Portuguese	
 * Spanish
-* Russian - Has a dub available here:https://drive.google.com/open?id=1KSkre2gwVUHTV5aLAbgMxPfbM29ZyIx-
-..* 	Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
+* Russian - Has a dub available here:https://drive.google.com/open?id=1KSkre2gwVUHTV5aLAbgMxPfbM29ZyIx- 		* Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
 
 
 ### Ini Changes:
@@ -93,7 +92,7 @@ If you install a translation, Confix will not be.
 ### Alternate EXEs : (Launch Recommended) 
 * Launch (Used by default, more compatible) 
 * Deus EXE (More features, less compatible) 
-..* Note: Not compatible with XP, older version that is included in files.
+	* Note: Not compatible with XP, older version that is included in files.
 
 ### Video Renderers;
 * Nglide (3dfx emulator)
@@ -112,21 +111,21 @@ Set resolution with nglide_config.exe in \system, set in-game res to a default.
 ### Editing: 
 * Deus Ex Editing Pack 2.2, which includes the following:
 * Official Deus Ex SDK:
-..* 	UnrealEd1 modified for Deus Ex
-..* 	Unreal Code Compiler (UCC.EXE) Modified for Deus Ex
-..* 	Sample conversation (.con) and Deus Ex Text Files from M0-2 (Demo)
-..* 	ConEdit (Deus Ex Conversation Editor)	
-..* 	Lightwave-to-Unreal model converter (LWO23D.exe)
-..* 	Headers/libs used in development of Deus Ex (located in Headers/)
+	* 	UnrealEd1 modified for Deus Ex
+	* 	Unreal Code Compiler (UCC.EXE) Modified for Deus Ex
+	* 	Sample conversation (.con) and Deus Ex Text Files from M0-2 (Demo)
+	* 	ConEdit (Deus Ex Conversation Editor)	
+	* 	Lightwave-to-Unreal model converter (LWO23D.exe)
+	* 	Headers/libs used in development of Deus Ex (located in Headers/)
 * UnrealEd2 modified for Deus Ex
 * A nice GUI for UCC: UCSDK
 * TexAlign
 * Hexy's DeusExTools:
-..* 	DeusExExtractor
-..* 	DeusEx3Dviewer
-..* 	Mesh converter
-..* 	DeusExExtractor GUI
-..* Unreal Unit Converter
+	* 	DeusExExtractor
+	* 	DeusEx3Dviewer
+	* 	Mesh converter
+	* 	DeusExExtractor GUI
+	* Unreal Unit Converter
 * LWO viewer
 * UnrealFX (To edit flags of a model's polys)
 * WotGrealExporter (To extract game files) 
