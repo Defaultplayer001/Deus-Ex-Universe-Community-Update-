@@ -50,9 +50,10 @@ If you install a translation, Confix will not be.
 * Italian
 * Japanese
 * Polish
-* Portuguese	
+* Portuguese			
 * Spanish
-* Russian - Has a dub available here:https://drive.google.com/open?id=1KSkre2gwVUHTV5aLAbgMxPfbM29ZyIx- 	 * Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
+* Russian - Has a dub available here - https://drive.google.com/open?id=1KSkre2gwVUHTV5aLAbgMxPfbM29ZyIx-
+	* Note: An unofficial release overdub, new audio dubbed over the original, which can still be heard.
 
 
 ### Ini Changes:
