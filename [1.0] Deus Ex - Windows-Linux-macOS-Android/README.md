@@ -86,7 +86,7 @@ If you install a translation, Confix will not be.
 * HXEXT (HX Extension mod) 
 * MiniHX (HX Hotfix)
 
-#### Not included by default, extract the installer and place into the attached patch before install:
+#### Not included by default, extract the installer and place into the attached path before install, then select to install it during install:
  
 * HX (Co-op mod) [\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)]
 
