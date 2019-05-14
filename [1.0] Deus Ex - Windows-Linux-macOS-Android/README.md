@@ -58,9 +58,9 @@ If you install a translation, Confix will not be.
 
 ### Ini Changes:
 
-* Keybind adjustments to fit modern standards TD
+* Keybind adjustments to fit modern standards (To do: General consensus needs to be reached) 
 * Masterserver change
-* Demorec keybind TD
+* Demorec keybind (To do) 
 
 ### Patches:
 
