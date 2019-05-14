@@ -311,7 +311,7 @@ Author Unknown (If you know please let us know!): Engine.dll fix
 
 http://www.deusexnetwork.com/files/DX1/patches/6083/engine-dll-fix.zip
 
-NVShacker(Thanks for providing the authors name bird / Biwdy / Birdy / Daet!): OTPUIFix
+NVShacker(Thanks for providing the authors name bird!): OTPUIFix
 https://web.archive.org/web/20090225135158/http://thenamelessmod.com/downloads/miscfiles/
 https://www.nexusmods.com/deusex/mods/36/
 
@@ -336,7 +336,7 @@ Smirftsch: OpenAL
 
 http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
-bird / Biwdy / Birdy / Daet: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly
+bird: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly
 
 Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, 
 
