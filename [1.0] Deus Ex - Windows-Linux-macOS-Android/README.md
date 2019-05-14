@@ -39,7 +39,7 @@ The package Includes the following:
 ### -Translations: 
 
 Note: Translations not compatible with Confix.
-Russian includes it's own Confix version TD
+A Russian port of Confix is currently in development.
 
 If you install a translation, Confix will not be.
 
@@ -136,7 +136,7 @@ If you install a translation, Confix will not be.
 * Bright 1.83 
 * UModel 
 * Tutorials: UED2 manual, Tack's site and Universal Constructor site
-Also included:
+#### Also included:
 * Deus Ex Editor Fix
 * HTK Commandlets
 * New UnrealEd 2 for Deus Ex by Bjorn
