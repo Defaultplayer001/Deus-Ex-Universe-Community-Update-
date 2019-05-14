@@ -52,7 +52,7 @@ If you install a translation, Confix will not be.
 * Polish
 * Portuguese	
 * Spanish
-* Russian - Has a dub available here:https://drive.google.com/open?id=1KSkre2gwVUHTV5aLAbgMxPfbM29ZyIx- 		* Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
+* Russian - Has a dub available here:https://drive.google.com/open?id=1KSkre2gwVUHTV5aLAbgMxPfbM29ZyIx- 	 * Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
 
 
 ### Ini Changes:
@@ -96,14 +96,14 @@ If you install a translation, Confix will not be.
 
 ### Video Renderers;
 * Nglide (3dfx emulator)
+	* Note if you use Nglide: Set resolution with nglide_config.exe in \system, set in-game res to a default. 
+
 * Direct3D 10 
 * Direct3D 9
 * Direct3D 8 (outdated, use another unless neccessary)
 * OpenGl (Updated) 
 * Uglide (Not installed automatically)
-Note if you use Nglide: 
-Set resolution with nglide_config.exe in \system, set in-game res to a default. 
-
+	
 ### Audio Renderers:
 * OpenAL (Higher quality playback then the default Galaxy renderer, worse lip synching)
 * SWFMod 
