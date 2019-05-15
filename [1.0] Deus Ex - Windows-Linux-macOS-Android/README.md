@@ -2,6 +2,10 @@
 
 Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
 
+Simply install and run from the created or replaced "Play Deus Ex" shortcut in your Start menu! 
+
+***
+
 This is an unofficial patch package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
 
 https://www.reddit.com/r/dxarchive/
@@ -32,6 +36,11 @@ https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
+### Known issues:
+* Currently no uninstaller
+* Install is inefficient, taking about 3gb total to install. This includes the 1gb size of the installer. 
+* UI Scaling options don't seem to function
+* You may need to alt-tab out and back into the game on boot. At least with DX9 on some systems it displays only black at first. 	
 
 The package Includes the following:
 
@@ -77,12 +86,12 @@ If you install a translation, Confix will not be.
 
 ### Mods :
 
-#### Included :
+#### Included : 
 
-* Human Renovation (HuRen)
-* Shifter
-* Biomod
-* Vanilla Matters
+* Human Renovation (HuRen) (To do) 
+* Shifter (To do) 
+* Biomod (To do) 
+* Vanilla Matters (To do) 
 * HXEXT (HX Extension mod) 
 * MiniHX (HX Hotfix)
 
@@ -151,6 +160,7 @@ If you install a translation, Confix will not be.
 * InstallForge (Tool used to create old setup)
 * Antimicro (controller)
 	* 7-zip (Extraction tool, used to extend default setup)
+	
 
 	
 You can buy the full game from any of the following locations: 
