@@ -2,7 +2,9 @@
 
 Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
 
-Simply install and run from the created or replaced "Play Deus Ex" shortcut in your Start menu! 
+Simply install and run from the created or replaced "Play Deus Ex" shortcut in your Start menu. 
+
+This should work on every copy of Deus Ex available, if it doesn't please let us know! 
 
 ***
 
@@ -30,9 +32,9 @@ https://discord.gg/75UpZhy
 
 Feel free to stop by with any bugs, questions, comments or criticisms.
 
-Bugs can also be reported directly to our Trello: 
+Bugs can also be reported directly to our Github: 
 
-https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
+https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues
 
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
