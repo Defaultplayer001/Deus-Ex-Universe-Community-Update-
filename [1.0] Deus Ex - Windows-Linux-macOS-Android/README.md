@@ -42,10 +42,12 @@ Everyone has their own vision of how Deus Ex should be, and while we can't promi
 * UI Scaling options don't seem to function
 * You may need to alt-tab out and back into the game on boot. At least with DX9 on some systems it displays only black at first. 	
 
+***
+
 The package Includes the following:
 
 
-### -Translations: 
+### Translations: 
 
 Note: Translations not compatible with Confix.
 A Russian port of Confix is currently in development.
