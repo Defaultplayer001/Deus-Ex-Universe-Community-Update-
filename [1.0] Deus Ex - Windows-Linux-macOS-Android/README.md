@@ -39,9 +39,9 @@ https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
 ### Known issues:
-* Currently no uninstaller
+* Currently no uninstaller. To uninstall you can simply removed the subfolder created in your Deus Ex directory. Start menu shortcuts can also be manually removed, but they and registry settings won't redirect unless you reinstall Deus Ex. 
 * Install is inefficient, taking about 3gb total to install. This includes the 1gb size of the installer. 
-* UI Scaling options don't seem to function
+* UI Scaling options don't seem to function.
 * You may need to alt-tab out and back into the game on boot. At least with DX9 on some systems it displays only black at first. 	
 
 ***
@@ -397,8 +397,9 @@ https://discord.gg/75UpZhy
 
 Feel free to stop by with any bugs, questions, comments or criticisms.
 
-Bugs can also be reported directly to our Trello: 
-https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
+Bugs can also be reported directly to our Github: 
+
+https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues
 
 
 
@@ -427,7 +428,8 @@ https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
 
 
-Muses:
+
+Muses (List needs to be updated):
 
 lovetrain.3gp: https://www.youtube.com/watch?v=Sr45DmZDjSc - Scrubs - Love Train! - Bruno Amaral - Clips from the TV show Scrubs
 

@@ -1,3 +1,6 @@
+# Pay no attention to the man behind the curtain.
+Only the DX1 community update is ready for use! 
+
 # Deus-Ex-Universe-Community-Update-
 
 This is a Community Update package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
