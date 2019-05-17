@@ -1,12 +1,12 @@
 # Deus-Ex-1-Community-Update-
 
-###Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
+### Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
 
 Simply install and run from the created or replaced "Play Deus Ex" shortcut in your Start menu. 
 
 This should work on every copy of Deus Ex available, if it doesn't please let us know! 
 
-####Mirrors: 
+#### Mirrors: 
 
 ModDB:
 https://www.moddb.com/mods/deus-ex-community-update/downloads/deus-ex-1-community-update-2019-5-14-342
