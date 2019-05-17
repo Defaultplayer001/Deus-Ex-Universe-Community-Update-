@@ -9,10 +9,17 @@ This should work on every copy of Deus Ex available, if it doesn't please let us
 #### Mirrors: 
 
 ModDB:
-https://www.moddb.com/mods/deus-ex-community-update/downloads/deus-ex-1-community-update-2019-5-14-342
+https://www.moddb.com/mods/deus-ex-community-update/downloads/deus-ex-1-community-update-2019-5-14-342\
+
+Nexus mods: https://www.nexusmods.com/deusex/mods/60/?tab=files
+
+MEGA: https://mega.nz/#!CjAG1AgY!CsDzApCQ20IN-orqMcmmJiQJneo9hZmA_pJIZhLlvcw	
+
+Yandisk: https://yadi.sk/d/rou1AKryPkwStA
 
 Torrent: https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/blob/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android/CommunityUpdateFileArchiveDXPC/SystemFiles.exe%20Creators/Deus%20Ex%201%20Community%20Update%202019-5-14-342.exe.torrent
 
+Have a mirror suggestion? Please let us know! 
 ***
 
 This is an unofficial patch package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
