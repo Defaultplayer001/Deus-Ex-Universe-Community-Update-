@@ -9,7 +9,7 @@ This should work on every copy of Deus Ex available, if it doesn't please let us
 #### Mirrors: 
 
 ModDB:
-https://www.moddb.com/mods/deus-ex-community-update/downloads/deus-ex-1-community-update-2019-5-14-342\
+https://www.moddb.com/mods/deus-ex-community-update/downloads/deus-ex-1-community-update-2019-5-14-342
 
 Nexus mods: https://www.nexusmods.com/deusex/mods/60/?tab=files
 
