@@ -1,10 +1,17 @@
 # Deus-Ex-1-Community-Update-
 
-Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
+###Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
 
 Simply install and run from the created or replaced "Play Deus Ex" shortcut in your Start menu. 
 
 This should work on every copy of Deus Ex available, if it doesn't please let us know! 
+
+####Mirrors: 
+
+ModDB:
+https://www.moddb.com/mods/deus-ex-community-update/downloads/deus-ex-1-community-update-2019-5-14-342
+
+
 
 ***
 
@@ -20,7 +27,7 @@ This lets you play the full multiplayer and singleplayer up to the end of missio
 
 A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
 
-Keybinds and guide can be found in the Help folder.
+Key-binds and guide can be found in the Help folder. (To do) 
 
 Note that you will have to exit the program manually from the icon tray if you want to stop the controller registering as mouse&keyboard input. 
 
