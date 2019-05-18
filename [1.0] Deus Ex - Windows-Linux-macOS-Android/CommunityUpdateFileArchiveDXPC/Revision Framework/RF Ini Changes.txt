@@ -1,4 +1,4 @@
-Class=RF.RFJCDentonMale 
+Class=RF.RFJCDentonMale (Also in user.ini!)
 GameEngine=RF.RFGameEngine
 DefaultGame=RF.RFGameInfo 
 Root=RF.RFRootWindow

@@ -26,7 +26,7 @@ This is an unofficial patch package assembled by the Deus Ex community and Xen's
 
 https://www.reddit.com/r/dxarchive/
 
-It includes every patch, alternate exe/renderer as well as every translation we know of. 
+It includes every patch, alternate exe, renderer as well as every translation we know of. 
 
 Also included are the original demo files which you apply the multiplayer patch too. 
 
@@ -75,7 +75,7 @@ If you install a translation, Confix will not be.
 * German
 * Hungarian
 * Italian
-* Japanese
+* Japanese - Note: A unique translation with special changes, some related to gameplay.
 * Polish
 * Portuguese			
 * Spanish
@@ -135,6 +135,7 @@ If you install a translation, Confix will not be.
 ### Audio Renderers:
 * OpenAL (Higher quality playback then the default Galaxy renderer, worse lip synching)
 * SWFMod 
+* Inidirect Sound (Enables 3D hardware sound. Not functioning?)
 	
 ### Editing: 
 * Deus Ex Editing Pack 2.2, which includes the following:
@@ -167,6 +168,7 @@ If you install a translation, Confix will not be.
 * Deus Ex Editor Fix
 * HTK Commandlets
 * New UnrealEd 2 for Deus Ex by Bjorn
+* Deus Ex Extractor & Decompiler (DEED)
 
 ### Misc:
 * Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02)
@@ -395,6 +397,14 @@ MVV: Russian fonts from Revision Russian Translation
 Alexander Shevchenko: Russian Translation continued from 8-Bit's
 
 ### If anyone has been forgotten, please let us know! 
+
+## License
+
+Really should figure out a specific license, if you're familiar with this subject please let us know!
+
+For now, please just pay attention to the existing licences included in the archives.
+
+Other then that, feel free to use as you wish so long as proper credit is given. 
 
 Major Changelog:
 
