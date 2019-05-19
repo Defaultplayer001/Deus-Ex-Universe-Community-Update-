@@ -34,7 +34,7 @@ This lets you play the full multiplayer and singleplayer up to the end of missio
 
 A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
 
-Key-binds and guide can be found in the Help folder. (To do) 
+Key-binds and guide can be found in the Help folder. (To-do) 
 
 Note that you will have to exit the program manually from the icon tray if you want to stop the controller registering as mouse&keyboard input. 
 
@@ -42,13 +42,17 @@ Updates to included files have been and will continue to be done. Please report 
 
 We have a discord here:
 
-https://discord.gg/75UpZhy
+https://discord.gg/jCFJ3A6 
 
 Feel free to stop by with any bugs, questions, comments or criticisms.
 
 Bugs can also be reported directly to our Github: 
 
 https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues
+
+We also have a Trello (To-do list) here:
+
+https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
@@ -85,9 +89,9 @@ If you install a translation, Confix will not be.
 
 ### Ini Changes:
 
-* Keybind adjustments to fit modern standards (To do: General consensus needs to be reached) 
+* Keybind adjustments to fit modern standards (To-do: General consensus needs to be reached) 
 * Masterserver change
-* Demorec keybind (To do) 
+* Demorec keybind (To-do) 
 
 ### Patches:
 
@@ -106,10 +110,10 @@ If you install a translation, Confix will not be.
 
 #### Included : 
 
-* Human Renovation (HuRen) (To do) 
-* Shifter (To do) 
-* Biomod (To do) 
-* Vanilla Matters (To do) 
+* Human Renovation (HuRen) (To-do) 
+* Shifter (To-do) 
+* Biomod (To-do) 
+* Vanilla Matters (To-do) 
 * HXEXT (HX Extension mod) 
 * MiniHX (HX Hotfix)
 
@@ -417,13 +421,17 @@ setup (manifest.ini modification)
 
 We have a discord here:
 
-https://discord.gg/75UpZhy
+https://discord.gg/jCFJ3A6
 
 Feel free to stop by with any bugs, questions, comments or criticisms.
 
 Bugs can also be reported directly to our Github: 
 
 https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues
+
+We also have a Trello (To-do list) here:
+
+https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
 
 
