@@ -1,5 +1,13 @@
 # Deus-Ex-1-Community-Update-
 
+https://www.patreon.com/hanfling/overview
+Hanfling of Revision has created *many* projects invaluable to the Deus Ex community!
+You can support their work directly and the community update indirectly through their patreon. 
+
+This patch wouldn't exist without them, Revision, and numerous community members.
+
+Thanks everyone! 
+
 ### Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
 
 Simply install and run from the created or replaced "Play Deus Ex" shortcut in your Start menu. 
@@ -26,11 +34,13 @@ This is an unofficial patch package assembled by the Deus Ex community and Xen's
 
 https://www.reddit.com/r/dxarchive/
 
-It includes every patch, alternate exe, renderer as well as every translation we know of. 
+The community update includes every translation, patch, alternate exe, and renderer known; As well as many useful tools for players and modders.
 
-Also included are the original demo files which you apply the multiplayer patch too. 
+Also includes the original demo files which you can apply the multiplayer patch to. 
 
-This lets you play the full multiplayer and singleplayer up to the end of mission 2!
+This lets you play the full multiplayer and single-player up to the end of mission 2!
+
+Minor updates to some of the included projects have been done and more is planned. 
 
 A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
 
@@ -38,7 +48,7 @@ Key-binds and guide can be found in the Help folder. (To-do)
 
 Note that you will have to exit the program manually from the icon tray if you want to stop the controller registering as mouse&keyboard input. 
 
-Updates to included files have been and will continue to be done. Please report any bugs! 
+Please report any bugs! 
 
 We have a discord here:
 
@@ -57,8 +67,9 @@ https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
 ### Known issues:
-* Currently no uninstaller. To uninstall you can simply removed the subfolder created in your Deus Ex directory. Start menu shortcuts can also be manually removed, but they and registry settings won't redirect unless you reinstall Deus Ex. 
-* Install is inefficient, taking about 3gb total to install. This includes the 1gb size of the installer. 
+* Depending on your system, may be slow to install. 
+* Currently no uninstaller. Though easy to manually do. To uninstall you can simply removed the subfolder created in your Deus Ex directory. Start menu shortcuts can also be manually removed, but they and registry settings won't redirect unless you reinstall Deus Ex. 
+* Install is relatively inefficient, taking about 3gb total to install. This includes the 1gb size of the installer.  Final install size is 1gb. Remaining 1gb can be reclaimed by clearing temp directory.  
 * UI Scaling options don't seem to function.
 * You may need to alt-tab out and back into the game on boot. At least with DX9 on some systems it displays only black at first. 	
 
@@ -171,7 +182,7 @@ If you install a translation, Confix will not be.
 #### Also included:
 * Deus Ex Editor Fix
 * HTK Commandlets
-* New UnrealEd 2 for Deus Ex by Bjorn
+* New UnrealEd 2 for Deus Ex by Bjorn (To do) 
 * Deus Ex Extractor & Decompiler (DEED)
 
 ### Misc:
