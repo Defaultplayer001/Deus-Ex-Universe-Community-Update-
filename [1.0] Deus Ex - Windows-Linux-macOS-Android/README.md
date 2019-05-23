@@ -52,13 +52,13 @@ We also have a Trello (To-do list) here:
 
 https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
-This is an unofficial patch package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
-
-https://www.reddit.com/r/dxarchive/
-
 ***
 
 ### About:
+
+This is an unofficial patch package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
+
+https://www.reddit.com/r/dxarchive/
 
 The community update includes every translation, patch, alternate exe, and renderer known; As well as many useful tools for players and modders.
 
