@@ -1,12 +1,15 @@
 # Deus-Ex-1-Community-Update-
 
 https://www.patreon.com/hanfling/overview
+
 Hanfling of Revision has created *many* projects invaluable to the Deus Ex community!
 You can support their work directly and the community update indirectly through their patreon. 
 
 This patch wouldn't exist without them, Revision, and numerous community members.
 
 Thanks everyone! 
+
+***
 
 ### Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
 
@@ -28,25 +31,10 @@ Yandisk: https://yadi.sk/d/rou1AKryPkwStA
 Torrent: https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/blob/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android/CommunityUpdateFileArchiveDXPC/SystemFiles.exe%20Creators/Deus%20Ex%201%20Community%20Update%202019-5-14-342.exe.torrent
 
 Have a mirror suggestion? Please let us know! 
+
 ***
 
-This is an unofficial patch package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
-
-https://www.reddit.com/r/dxarchive/
-
-The community update includes every translation, patch, alternate exe, and renderer known; As well as many useful tools for players and modders.
-
-Also includes the original demo files which you can apply the multiplayer patch to. 
-
-This lets you play the full multiplayer and single-player up to the end of mission 2!
-
-Minor updates to some of the included projects have been done and more is planned. 
-
-A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
-
-Key-binds and guide can be found in the Help folder. (To-do) 
-
-Note that you will have to exit the program manually from the icon tray if you want to stop the controller registering as mouse&keyboard input. 
+### Support:
 
 Please report any bugs! 
 
@@ -54,7 +42,7 @@ We have a discord here:
 
 https://discord.gg/jCFJ3A6 
 
-Feel free to stop by with any bugs, questions, comments or criticisms.
+Feel free to stop by with any bugs, questions, suggestions, comments or criticisms.
 
 Bugs can also be reported directly to our Github: 
 
@@ -64,7 +52,31 @@ We also have a Trello (To-do list) here:
 
 https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
+This is an unofficial patch package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
+
+https://www.reddit.com/r/dxarchive/
+
+***
+
+### About:
+
+The community update includes every translation, patch, alternate exe, and renderer known; As well as many useful tools for players and modders.
+
+Also includes the original demo files which you can apply the multiplayer patch to. 
+
+This lets you play the full multiplayer and single-player up to the end of mission 2!
+
+Minor updates to some of the included projects have been done and more is planned. 
+
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
+
+### Controller support:
+
+A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
+
+Key-binds and guide can be found in the Help folder. (To-do) 
+
+Note that you will have to exit the program manually from the icon tray if you want to stop the controller registering as mouse&keyboard input. 
 
 ### Known issues:
 * Depending on your system, may be slow to install. 
@@ -434,7 +446,7 @@ We have a discord here:
 
 https://discord.gg/jCFJ3A6
 
-Feel free to stop by with any bugs, questions, comments or criticisms.
+Feel free to stop by with any bugs, suggestions, questions, comments or criticisms.
 
 Bugs can also be reported directly to our Github: 
 
