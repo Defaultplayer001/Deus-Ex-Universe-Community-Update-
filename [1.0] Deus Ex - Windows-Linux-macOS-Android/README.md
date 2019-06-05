@@ -128,6 +128,8 @@ If you install a translation, Confix will not be.
 * OTPUIFix (UI Scaling fixes, not applied automatically, see readme)
 * RF (Revision Framework)
 * RenderExt (Render Extension from Revision)
+* Nephthys (MP Admin tool)
+* DXMTL (Multiplayer bug fixes)
 
 ### Mods :
 

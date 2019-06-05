@@ -47,6 +47,7 @@ HAWK:			AnnaNavarre.MeetAnna - Check for MeetCarter_Played before M02Briefing_Pl
 DEFAULTPLAYER001:	GuntherHermann.GuntherRescued - Added support for giving Gunther a weapon of your choosing
 			JaimeReyes.MeetJaime - Typo fix ("Versalife" => "VersaLife")
 			JosephManderley.M02Briefing - Typo fix ("embarasses" => "embarrasses")
+			JosephManderley.M02Briefing - Fix dialogue mismatch ("talking" => "taking")
 			postmissiontroops.postmissiontroopssecure - Disabled the last bark labeled A13, voice is different then the others, seems to be the same VA though.
 HAWK:			PaulDenton.MeetPaul - Added a NoRoom response
 			PaulDenton.MeetPaul - Typo fix (2 occurrences of "nonlethal" => "non-lethal")
