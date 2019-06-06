@@ -150,6 +150,7 @@ If you install a translation, Confix will not be.
 * Launch (Used by default, more compatible) 
 * Deus EXE (More features, less compatible) 
 	* Note: Not compatible with XP, older version that is included in files.
+* UE1 Launch (Relatively new, needs testing but promising. Uses borderless windows by default)
 
 ### Video Renderers;
 * Nglide (3dfx emulator)
@@ -424,6 +425,10 @@ MVV: Russian fonts from Revision Russian Translation
 8-Bit: Russian Translation
 
 Alexander Shevchenko: Russian Translation continued from 8-Bit's
+
+Markie: UE1 Launch 
+
+https://github.com/TheMarkie	
 
 ### If anyone has been forgotten, please let us know! 
 
