@@ -204,11 +204,11 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Kentie's Deus EXE\DeusExe-v8.1" "%~d
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Kentie's Deus EXE\DeusExe-v8.1" /S /Q
 
 rem 	Han's
-"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20180729.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20180729" -y
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20180729\ReadMe.txt"  "%~dp0\Help\Launch EXE ReadMe.txt" /Y
-del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20180729\Launch.txt" /Q
-xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20180729" "%~dp0\System" /y
-rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20180729" /S /Q
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20190603.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20190603" -y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20190603\ReadMe.txt"  "%~dp0\Help\Launch EXE ReadMe.txt" /Y
+del "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20190603\Launch.txt" /Q
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20190603" "%~dp0\System" /y
+rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Launch\Launch-DeusEx-1112f-20190603" /S /Q
 del "%~dp0\System\DeusEx.exe" /Q
 ren "%~dp0\System\Launch.exe" "DeusEx.exe"
 ren "%~dp0\System\UCC.exe" "UCC Original.exe"
