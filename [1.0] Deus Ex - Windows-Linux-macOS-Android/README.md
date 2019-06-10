@@ -147,10 +147,10 @@ If you install a translation, Confix will not be.
 * HX (Co-op mod) [\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)]
 
 ### Alternate EXEs : (Launch Recommended) 
-* Launch (Used by default, more compatible) 
-* Deus EXE (More features, less compatible) 
-	* Note: Not compatible with XP, older version that is included in files.
-* UE1 Launch (Relatively new, needs testing but promising. Uses borderless windows by default)
+* Launch (Used by default, more compatible / stable,  still developed & supported) 
+* Deus Exe (More features, less compatible / stable, no longer developed or supported) (In archive, extract the setup exe to access)
+	* Note: Not compatible with XP, older version (5.3) that is included in files.
+* UE1 Launch (Relatively new, needs testing but promising. Uses borderless windows by default) (In archive extract the setup exe to access)
 
 ### Video Renderers;
 * Nglide (3dfx emulator)
@@ -160,7 +160,7 @@ If you install a translation, Confix will not be.
 * Direct3D 9
 * Direct3D 8 (outdated, use another unless neccessary)
 * OpenGl (Updated) 
-* Uglide (Not installed automatically)
+* Uglide (In archive, extract the setup exe to access)
 	
 ### Audio Renderers:
 * OpenAL (Higher quality playback then the default Galaxy renderer, worse lip synching)
@@ -196,9 +196,9 @@ If you install a translation, Confix will not be.
 * Tutorials: UED2 manual, Tack's site and Universal Constructor site
 #### Also included:
 * Deus Ex Editor Fix
-* HTK Commandlets
+* HTK Commandlets 
 * New UnrealEd 2 for Deus Ex by Bjorn (To do) 
-* Deus Ex Extractor & Decompiler (DEED)
+* Deus Ex Extractor & Decompiler (DEED) (In archive, extract the setup exe to access)
 
 ### Misc:
 * Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02)
