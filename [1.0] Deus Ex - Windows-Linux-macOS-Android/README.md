@@ -125,13 +125,17 @@ If you install a translation, Confix will not be.
 * Nephthys (MP Admin tool)
 * DXMTL (Multiplayer bug fixes)
 
-### Mods :
+### Mods : (Add proper credits for items here!) 
 
 #### Included : 
 * Human Renovation (HuRen) (In archive, extract the setup exe to access)
 * Shifter (In archive, extract the setup exe to access)
 * Biomod (In archive, extract the setup exe to access)
 * Vanilla Matters (In archive, extract the setup exe to access)
+* Japanese Gameplay Mod (In archive, extract the setup exe to access)
+* Hotel Carone (In archive, extract the setup exe to access)
+* Redsun 2020  (In archive, extract the setup exe to access)
+* Zodiac (In archive, extract the setup exe to access)
 * HXEXT (HX Extension mod) 
 * MiniHX (HX Hotfix)
 
@@ -147,7 +151,6 @@ If you install a translation, Confix will not be.
 ### Video Renderers;
 * Nglide (3dfx emulator)
 	* Note if you use Nglide: Set resolution with nglide_config.exe in \system, set in-game res to a default. 
-
 * Direct3D 10 
 * Direct3D 9
 * Direct3D 8 (outdated, use another unless neccessary)
