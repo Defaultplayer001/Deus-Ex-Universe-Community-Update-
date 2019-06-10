@@ -204,7 +204,7 @@ If you install a translation, Confix will not be.
 * 7-zip (Extraction tool, used to extend default setup)
 * Deus Ex Modloader (In archive, extract the setup exe to access)
 * DeX's Modloader Utility (In archive, extract the setup exe to access)
-
+* InnoUnp (Extraction tool, planned to be used to extend default setup for mod installs)
 	
 
 	
@@ -425,12 +425,15 @@ Alexander Shevchenko: Russian Translation continued from 8-Bit's
 Markie: UE1 Launch 
 https://github.com/TheMarkie	
 
-Various: Antimicro
+Various: Antimicro (Ryochan7, jsbackus, aybe, #4zzpxyx, LeonardKoenig, phob, EmperorArthur, Earnestlym, tokyogeometry, haselkern, sir-maniac, luigino, sd65, 7185, rakuco, gitter-badger, burunduk, hasufell, panzi)
 https://github.com/AntiMicro/antimicro/graphs/contributors
 
 Edward Gann: Deus Ex Modloader
 
 DeX: Dex's Modloader Utility
+
+Various: InnoUnp (QuickeneR, Ariman, Martijn Laan, Jean-loup Gailly, Mark Adler, Julian R Seward, Igor Pavlov, Carlo Kok, Innerfuse, Jordan Russell)
+http://innounp.sourceforge.net/#Usage
 
 ### If anyone has been forgotten, please let us know! 
 
