@@ -18,7 +18,6 @@ Simply install and run from the created or replaced "Play Deus Ex" shortcut in y
 This should work on every copy of Deus Ex available, if it doesn't please let us know! 
 
 #### Mirrors: 
-
 ModDB:
 https://www.moddb.com/mods/deus-ex-community-update/downloads/deus-ex-1-community-update-2019-5-14-342
 
@@ -35,7 +34,6 @@ Have a mirror suggestion? Please let us know!
 ***
 
 ### Support:
-
 Please report any bugs! 
 
 We have a discord here:
@@ -55,7 +53,6 @@ https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 ***
 
 ### About:
-
 This is an unofficial patch package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
 
 https://www.reddit.com/r/dxarchive/
@@ -71,7 +68,6 @@ Minor updates to some of the included projects have been done and more is planne
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
 ### Controller support:
-
 A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
 
 Key-binds and guide can be found in the Help folder. (To-do) 
@@ -91,10 +87,7 @@ The package Includes the following:
 
 
 ### Translations: 
-
 Note: Translations not compatible with Confix.
-A Russian port of Confix is currently in development.
-
 If you install a translation, Confix will not be.
 
 * Czech
@@ -108,17 +101,18 @@ If you install a translation, Confix will not be.
 * Spanish
 * Russian - Has a dub available here - https://drive.google.com/open?id=1KSkre2gwVUHTV5aLAbgMxPfbM29ZyIx-
 	* Note: An unofficial release overdub, new audio dubbed over the original, which can still be heard.
-
+	* Note 2: A Russian port of Confix is currently in development.
 
 ### Ini Changes:
-
 * Keybind adjustments to fit modern standards (To-do: General consensus needs to be reached) 
 * Masterserver change
 * Demorec keybind (To-do) 
 
-### Patches:
+### Demos"
+* Deus Ex 1002f Demo (Includes the first mission)
+* Deus Ex 1002f M02 Demo (Includes the second mission)
 
-* Deus Ex 1002f Demo
+### Patches:
 * Deus Ex 1014f Patch (Used for uniquely useful setup.exe) 
 * 1112fm GOTY Patch (Official Multiplayer Patch)
 * Deus Ex Unofficial Patch v2 (Code fixes)
@@ -134,16 +128,14 @@ If you install a translation, Confix will not be.
 ### Mods :
 
 #### Included : 
-
-* Human Renovation (HuRen) (To-do) 
-* Shifter (To-do) 
-* Biomod (To-do) 
-* Vanilla Matters (To-do) 
+* Human Renovation (HuRen) (In archive, extract the setup exe to access)
+* Shifter (In archive, extract the setup exe to access)
+* Biomod (In archive, extract the setup exe to access)
+* Vanilla Matters (In archive, extract the setup exe to access)
 * HXEXT (HX Extension mod) 
 * MiniHX (HX Hotfix)
 
 #### Not included by default, extract the installer and place into the attached path before install, then select to install it during install:
- 
 * HX (Co-op mod) [\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)]
 
 ### Alternate EXEs : (Launch Recommended) 
@@ -209,7 +201,10 @@ If you install a translation, Confix will not be.
 * UPv3 install script (Source for old setup)
 * InstallForge (Tool used to create old setup)
 * Antimicro (controller)
-	* 7-zip (Extraction tool, used to extend default setup)
+* 7-zip (Extraction tool, used to extend default setup)
+* Deus Ex Modloader (In archive, extract the setup exe to access)
+* DeX's Modloader Utility (In archive, extract the setup exe to access)
+
 	
 
 	
@@ -312,6 +307,7 @@ Bogie: Support
 
 
 ### Deus Ex Archive: 
+
 https://www.reddit.com/r/dxarchive
 
 File resource - Countless contributors - direct & indirect
@@ -427,8 +423,14 @@ MVV: Russian fonts from Revision Russian Translation
 Alexander Shevchenko: Russian Translation continued from 8-Bit's
 
 Markie: UE1 Launch 
-
 https://github.com/TheMarkie	
+
+Various: Antimicro
+https://github.com/AntiMicro/antimicro/graphs/contributors
+
+Edward Gann: Deus Ex Modloader
+
+DeX: Dex's Modloader Utility
 
 ### If anyone has been forgotten, please let us know! 
 
