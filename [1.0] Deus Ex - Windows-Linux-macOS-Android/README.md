@@ -322,7 +322,7 @@ https://www.reddit.com/user/Defaultplayer001/
 
 
 Thanks so much to both the TNM & Revision teams, and everyone in the community!
-This wouldn't be possible without you guys!
+This wouldn't be possible without everyone!
 
 ***
 
