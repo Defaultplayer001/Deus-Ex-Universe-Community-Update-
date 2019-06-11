@@ -108,7 +108,7 @@ If you install a translation, Confix will not be.
 * Masterserver change
 * Demorec keybind (To-do) 
 
-### Demos"
+### Demos
 * Deus Ex 1002f Demo (Includes the first mission)
 * Deus Ex 1002f M02 Demo (Includes the second mission)
 
