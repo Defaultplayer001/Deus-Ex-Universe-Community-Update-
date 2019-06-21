@@ -3,6 +3,65 @@ rem Trying to do a project based on this installer? Feel free to email me direct
 rem Defaultplayer001@gmail.com
 rem Put the subject as "UPv3 project"
 
+::::::::::::::::::::::::::::::::::::::::::::
+:: Elevate.cmd - Version 4
+:: Automatically check & get admin rights
+:: see "https://stackoverflow.com/a/12264592/1016343" for description
+::::::::::::::::::::::::::::::::::::::::::::
+ @echo off
+ CLS
+ ECHO.
+ ECHO =============================
+ ECHO Running Admin shell
+ ECHO =============================
+
+:init
+ setlocal DisableDelayedExpansion
+ set cmdInvoke=1
+ set winSysFolder=System32
+ set "batchPath=%~0"
+ for %%k in (%0) do set batchName=%%~nk
+ set "vbsGetPrivileges=%temp%\OEgetPriv_%batchName%.vbs"
+ setlocal EnableDelayedExpansion
+
+:checkPrivileges
+  NET FILE 1>NUL 2>NUL
+  if '%errorlevel%' == '0' ( goto gotPrivileges ) else ( goto getPrivileges )
+
+:getPrivileges
+  if '%1'=='ELEV' (echo ELEV & shift /1 & goto gotPrivileges)
+  ECHO.
+  ECHO **************************************
+  ECHO Invoking UAC for Privilege Escalation
+  ECHO **************************************
+
+  ECHO Set UAC = CreateObject^("Shell.Application"^) > "%vbsGetPrivileges%"
+  ECHO args = "ELEV " >> "%vbsGetPrivileges%"
+  ECHO For Each strArg in WScript.Arguments >> "%vbsGetPrivileges%"
+  ECHO args = args ^& strArg ^& " "  >> "%vbsGetPrivileges%"
+  ECHO Next >> "%vbsGetPrivileges%"
+
+  if '%cmdInvoke%'=='1' goto InvokeCmd 
+
+  ECHO UAC.ShellExecute "!batchPath!", args, "", "runas", 1 >> "%vbsGetPrivileges%"
+  goto ExecElevation
+
+:InvokeCmd
+  ECHO args = "/c """ + "!batchPath!" + """ " + args >> "%vbsGetPrivileges%"
+  ECHO UAC.ShellExecute "%SystemRoot%\%winSysFolder%\cmd.exe", args, "", "runas", 1 >> "%vbsGetPrivileges%"
+
+:ExecElevation
+ "%SystemRoot%\%winSysFolder%\WScript.exe" "%vbsGetPrivileges%" %*
+ exit /B
+
+:gotPrivileges
+ setlocal & cd /d %~dp0
+ if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
+
+ ::::::::::::::::::::::::::::
+ ::START
+ ::::::::::::::::::::::::::::
+
 rem Official Deus Ex setup file modification, choices left for fallback, comment out the next line for normal usage.
 goto :setsetupflag
 rem PS2 setup version! 
@@ -165,7 +224,7 @@ rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Engine DLL Fix (Demo Recording Fix)\
 
 
 rem 	Conversation Files (1112fm GOTY) 
-;Original con files, needed for translations.
+rem Original con files, needed for translations.
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Conversation Files (1112fm GOTY)\*.u" "%~dp0\System\*.u" /y
 
 rem		Confix 1.06
@@ -423,9 +482,33 @@ xcopy "*.*" "%~dp0\DeusExCommunityUpdate\*.*" /Y
 del "%~dp0\*.exe*"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\setup.exe" "%~dp0" /y
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" /S /Q
+rem Copy Deus Ex install registry values to the Community Update reg path. Primarily for install path value.
+REG COPY "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex" "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update" /f /s
+rem Second pass for Windows versions past XP.
+REG COPY "HKLM\SOFTWARE\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex" "HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update" /s /f /reg:32
 "%~dp0\setup.exe"
 rem exit
 pause
+Rem Moved below setup.exe step, no longer needed since Requires= was discovered to control default install path. -DP 2019/6/20v
+rem Test append
+set append=\DeusExCommunityUpdate
+set key="HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update"
+set value=Folder
+set oldVal=
+for /F "skip=2 tokens=3" %%r in ('reg query %key% /v %value%') do set oldVal="%%r"
+echo previous="%oldVal%"
+set newVal="%oldVal%""%append%" 
+reg add "%key%" /v "%value%" /d "%newVal%" /f
+rem Second pass for Windows versions past XP.
+set append=\DeusExCommunityUpdate
+set key="HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update"
+set value=Folder
+set oldVal=
+for /F "skip=2 tokens=3" %%r in ('reg query %key% /v %value%') do set oldVal=%%r
+echo previous=%oldVal%
+set newVal=%oldVal%%append% 
+reg add %key% /v %value% /d %newVal% /f
+
 
 :skipsetup
 

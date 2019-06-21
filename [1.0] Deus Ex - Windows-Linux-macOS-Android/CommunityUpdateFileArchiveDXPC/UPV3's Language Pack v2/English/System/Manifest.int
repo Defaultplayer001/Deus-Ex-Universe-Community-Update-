@@ -1,5 +1,5 @@
 [Setup]
-LocalProduct=Deus Ex
+LocalProduct=Deus Ex Community Update
 DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
 ReadMe=Help\ReadMe.htm
 SetupWindowTitle=Deus Ex Setup

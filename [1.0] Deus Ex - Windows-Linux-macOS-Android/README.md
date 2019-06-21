@@ -90,9 +90,9 @@ The package Includes the following:
 Note: Translations not compatible with Confix.
 If you install a translation, Confix will not be.
 
-* Czech
-* French
-* German
+* Czech  - Fan mod "CZ Mod"(License: GNU General Public License v3.0 https://github.com/WarezzK/DeusExCZMod-1112fm/blob/master/LICENSE) 
+* French - Official - With fixes by D.X.M (Make sure this is done!) (License: ?)
+* German - Official (License: Same as game) 
 * Hungarian
 * Italian
 * Japanese - Note: A unique translation with special changes, some related to gameplay.
@@ -193,7 +193,7 @@ If you install a translation, Confix will not be.
 * Deus Ex Editor Fix
 * HTK Commandlets 
 * New UnrealEd 2 for Deus Ex by Bjorn (To do) 
-* Deus Ex Extractor & Decompiler (DEED) (In archive, extract the setup exe to access)
+* Deus Ex Extractor & Decompiler (DEED) (In archive, extract the setup exe to access) (License: None) 
 
 ### Misc:
 * Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02)
@@ -337,7 +337,7 @@ Czech Translation (Fan-made): Warezz.K
 
 https://www.moddb.com/mods/deusexczmod-1112fm
 
-French (Official) : Unknown (If you know please let us know!):
+French (Official) : Unknown (If you know please let us know!) - with corrections by D.X.M.
 
 German (Official) : Unknown (If you know please let us know!)
 
@@ -362,7 +362,7 @@ Yukichigai: Deus Ex Unofficial Patch v2
 
 http://www.moddb.com/games/deus-ex/downloads/deus-ex-unofficial-patch-v2 
 
-D.X.M: Deus Ex Maps Patch 
+D.X.M: Deus Ex Maps Patch, Frech Patch
 
 https://www.dxm.be/navigator.php5?lang=en&content=202
 
@@ -437,6 +437,9 @@ DeX: Dex's Modloader Utility
 
 Various: InnoUnp (QuickeneR, Ariman, Martijn Laan, Jean-loup Gailly, Mark Adler, Julian R Seward, Igor Pavlov, Carlo Kok, Innerfuse, Jordan Russell)
 http://innounp.sourceforge.net/#Usage
+
+hexy: Deus Ex Extractor and Decompiler 
+https://planetdeusex.ru/forum/topic/2618-deus-ex-extractor/
 
 ### If anyone has been forgotten, please let us know! 
 
@@ -515,7 +518,5 @@ users.png - Still from the movie Tron: Legacy
 
 Right -  https://www.youtube.com/watch?v=edCqF_NtpOQ - Clip from Futurama 
 
-
-
-
+it.mp4 - Removed by user -  Grandpa JC gives a lesson on  it - mKaelus - 
 
