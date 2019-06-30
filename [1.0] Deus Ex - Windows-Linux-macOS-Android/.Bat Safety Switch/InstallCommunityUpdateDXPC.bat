@@ -486,28 +486,29 @@ rem Copy Deus Ex install registry values to the Community Update reg path. Prima
 REG COPY "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex" "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update" /f /s
 rem Second pass for Windows versions past XP.
 REG COPY "HKLM\SOFTWARE\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex" "HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update" /s /f /reg:32
-"%~dp0\setup.exe"
-rem exit
-pause
-Rem Moved below setup.exe step, no longer needed since Requires= was discovered to control default install path. -DP 2019/6/20v
 rem Test append
 set append=\DeusExCommunityUpdate
 set key="HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update"
 set value=Folder
 set oldVal=
-for /F "skip=2 tokens=3" %%r in ('reg query %key% /v %value%') do set oldVal="%%r"
-echo previous="%oldVal%"
-set newVal="%oldVal%""%append%" 
-reg add "%key%" /v "%value%" /d "%newVal%" /f
+for /F "skip=2 tokens=3" %%r in ('reg query %key% /v %value%') do set oldVal=%%r
+echo previous=%oldVal%
+set newVal=%oldVal%%append%
+reg add %key% /v %value% /d %newVal% /f
 rem Second pass for Windows versions past XP.
 set append=\DeusExCommunityUpdate
 set key="HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update"
 set value=Folder
 set oldVal=
-for /F "skip=2 tokens=3" %%r in ('reg query %key% /v %value%') do set oldVal=%%r
+for /F "skip=2 tokens=3" %%r in ('reg query %key% /v %value%') do setx oldVal %%r /m
 echo previous=%oldVal%
-set newVal=%oldVal%%append% 
+setx newVal %oldVal%%append% /m
 reg add %key% /v %value% /d %newVal% /f
+"%~dp0\setup.exe"
+rem exit
+pause
+
+Rem Moved below setup.exe step, no longer needed since it was discovered the Unreal setup can handle uninstalling multiple products -DP 2019/6/21
 
 
 :skipsetup
