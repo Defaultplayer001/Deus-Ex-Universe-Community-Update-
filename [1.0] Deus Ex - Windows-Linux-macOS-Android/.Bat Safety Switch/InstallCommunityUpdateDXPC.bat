@@ -401,6 +401,11 @@ ren "%~dp0\System\DefUser.ini" "%~dp0\System\DefUser Original.ini"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\Modernized Keybinds\Augmented\DefUser.ini" "%~dp0\System\DefUser.ini" /Y
 :skipini
 
+rem		Tools
+rem			Find And Replace Text (FART)
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Find and Replace Text (FART)\fart199b_win32.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Find and Replace Text (FART)\fart199b_win32" -y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\Find and Replace Text (FART)\fart199b_win32\fart.exe"  "%~dp0\fart\fart.exe" /Y
+
 rem Organize this			
 rem			Setup
 IF "%setup%"=="No" (
@@ -438,27 +443,33 @@ copy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Editor Fix\DeusExEditorFixSel
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Readme.md converted to HTML" "%~dp0\Help" /S /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\Deus Ex Community Update INI\*" "%~dp0\System\" /y /s
 rem Move all folders to the DXCU subfolder, to be used like a mod
-echo d|xcopy "%~dp0\DirectX7" "%~dp0\DeusExCommunityUpdate\DirectX7" /S /Y
+rem No longer used now that pathing is handled with the install path for the uninstaller and simplicity. Should be deleted after it's confirmed working. -DP 2019/7/9
+goto :skipfoldermove
+echo d|xcopy "%~dp0\DirectX7" "%~dp0\DirectX7" /S /Y
 rmdir "%~dp0\DirectX7\" /S /Q
-echo d|xcopy "%~dp0\Help" "%~dp0\DeusExCommunityUpdate\Help" /S /Y
+echo d|xcopy "%~dp0\Help" "%~dp0\Help" /S /Y
 rmdir "%~dp0\Help\" /S /Q
-echo d|xcopy "%~dp0\Maps" "%~dp0\DeusExCommunityUpdate\Maps" /S /Y
+echo d|xcopy "%~dp0\Maps" "%~dp0\Maps" /S /Y
 rmdir "%~dp0\Maps\" /S /Q
-echo d|xcopy "%~dp0\Music" "%~dp0\DeusExCommunityUpdate\Music" /S /Y
+echo d|xcopy "%~dp0\Music" "%~dp0\Music" /S /Y
 rmdir "%~dp0\Music\" /S /Q
-echo d|xcopy "%~dp0\Sounds" "%~dp0\DeusExCommunityUpdate\Sounds" /S /Y
+echo d|xcopy "%~dp0\Sounds" "%~dp0\Sounds" /S /Y
 rmdir "%~dp0\Sounds\" /S /Q
-echo d|xcopy "%~dp0\System" "%~dp0\DeusExCommunityUpdate\System" /S /Y
+echo d|xcopy "%~dp0\System" "%~dp0\System" /S /Y
 rmdir "%~dp0\System\" /S /Q
-echo d|xcopy "%~dp0\Textures" "%~dp0\DeusExCommunityUpdate\Textures" /S /Y
+echo d|xcopy "%~dp0\Textures" "%~dp0\Textures" /S /Y
 rmdir "%~dp0\Textures\" /S /Q
+:skipfoldermove
+goto :skip1014copy
 rem Copy of the 1014 Patch setup group, edited to include all the files, needed since setup files need to be in the same place. Deletion section moved to very end.
 Rem		1014 Patch install files (Doesn't auto check all options like 1112fm does no matter the selected= value) 
+rem No longer used now that pathing is handled with the install path for the uninstaller and simplicity. Should be deleted after it's confirmed working. -DP 2019/7/9
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" -y
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f.exe" -o"%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f" -y
 ren "%~dp0\Help\ReadMePatch1.htm" "ReadMePatch1014.htm"
 echo d|xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\Help" "%~dp0\Help" /y
 echo d|xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\System" "%~dp0\System" /y
+:skip1014copy
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Setup Creation\Unofficial Patch Manifest"  "%~dp0\System\" /y
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.001" -o"%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\" -y
 del "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\English\SystemFilesINT.7z.001" /Q
@@ -478,8 +489,9 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Portugues-Po
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Russkiy-Russian" "%~dp0" /S /Y
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Nihongo-Japanese" "%~dp0" /S /Y
 rem ren "%~dp0\Help\ReadMePatch1.htm" "Nihongo-JapaneseReadMePatch1.htm"
-xcopy "*.*" "%~dp0\DeusExCommunityUpdate\*.*" /Y
-del "%~dp0\*.exe*"
+rem No longer used now that pathing is handled with the install path for the uninstaller and simplicity. Should be deleted after it's confirmed working. -DP 2019/7/9
+rem xcopy "*.*" "%~dp0\*.*" /Y
+rem del "%~dp0\*.exe*"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\setup.exe" "%~dp0" /y
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" /S /Q
 rem Copy Deus Ex install registry values to the Community Update reg path. Primarily for install path value.
@@ -491,19 +503,35 @@ set append=\DeusExCommunityUpdate
 set key="HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update"
 set value=Folder
 set oldVal=
-for /F "skip=2 tokens=3" %%r in ('reg query %key% /v %value%') do set oldVal=%%r
-echo previous=%oldVal%
-set newVal=%oldVal%%append%
-reg add %key% /v %value% /d %newVal% /f
+for /F "skip=2 Delims=" %%r in ('reg query %key% /v %value%') do set oldVal=%%r
+echo previous=%oldVal:~24%
+set newVal=%oldVal:~24%%append%
+if ERRORLEVEL=1 set newVal=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
+echo new=%newVal%
+reg add %key% /v %value% /d "%newVal%" /f
 rem Second pass for Windows versions past XP.
 set append=\DeusExCommunityUpdate
 set key="HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update"
 set value=Folder
 set oldVal=
-for /F "skip=2 tokens=3" %%r in ('reg query %key% /v %value%') do setx oldVal %%r /m
-echo previous=%oldVal%
-setx newVal %oldVal%%append% /m
-reg add %key% /v %value% /d %newVal% /f
+for /F "skip=2 Delims=" %%r in ('reg query %key% /v %value%') do set oldVal=%%r
+echo previous=%oldVal:~24%
+set newVal=%oldVal:~24%%append%
+if ERRORLEVEL=1 set newVal=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
+echo new=%newVal%
+reg add %key% /v %value% /d "%newVal%" /f
+rem ;ADD FART
+rem ;lol
+rem ;redundant path may be breaking uninstall, experiment
+rem ;also make sure the default path in manifest.int is blank now!
+rem ;use ERRORLEVEL = 1 to make sure a default path is made even if the user has no DX reg entries / install
+rem ;simple DX install creator, bat file that grabs all filenames and paths, then adds them to a manifest.ini. Appended of with a product name.
+rem ;create custom int entries for renderers, just like append Community Update to them Community Update for them or something.
+rem ;probably use Manifest.* instead so all languages are applied at one.	
+rem ;by shipping a custom uninstall manifest you can account for things the generated one doesnt and seperate items by product.
+rem ;Should include a small "extras" option with interesting / useful media, things like the DX bible, design docs, guides, ect. 
+rem ;remember that having a redundant path sorta fixes the extra renderers issue. Can be done durring the appendd
+"%~dp0\fart\fart.exe" "%~dp0\System\Manifest.int" DefaultFolder= DefaultFolder="%newVal%"
 "%~dp0\setup.exe"
 rem exit
 pause
