@@ -195,7 +195,7 @@ If you install a translation, Confix will not be.
 * Deus Ex Extractor & Decompiler (DEED) (In archive, extract the setup exe to access) (License: None) 
 
 ### Misc:
-* Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02)
+* Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02 completion)
 * SwFMOD Fixed int file (Fixes name display error)
 * Typo Fixed D3D10Drv Int (Direct3D 10 - Direct3D10)
 * Combined Deus Ex int file (To rename Launch to DeusEx)
