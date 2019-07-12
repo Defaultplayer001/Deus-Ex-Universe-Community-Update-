@@ -1,6 +1,6 @@
 [Setup]
-LocalProduct=Deus Ex
-DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
+LocalProduct=Deus Ex Community Update
+DefaultFolder=
 ReadMe=Help\ReadMe.htm
 SetupWindowTitle=Installazione di Deus Ex
 AutoplayWindowTitle=Opzioni di Deus Ex

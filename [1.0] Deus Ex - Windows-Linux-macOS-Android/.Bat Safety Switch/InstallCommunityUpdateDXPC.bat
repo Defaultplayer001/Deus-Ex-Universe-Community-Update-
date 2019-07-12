@@ -177,6 +177,7 @@ ren "%~dp0\Help\ReadMePatch1.htm" "ReadMePatch1014.htm"
 echo d|xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\Help" "%~dp0\Help" /y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\System\Setup.exe" "%~dp0\System" /y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\setup.exe" "%~dp0" /y
+Rem Deletion skipped since files are needed for setup and redundant 1014 section was removed now that pathing is handled with the install path for the uninstaller and simplicity. -DP 2019/7/10
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" /S /Q
 
 rem :IF "%setup%"=="No" (
@@ -499,7 +500,7 @@ REG COPY "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex" "HKLM\Software
 rem Second pass for Windows versions past XP.
 REG COPY "HKLM\SOFTWARE\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex" "HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update" /s /f /reg:32
 rem Test append
-set append=\DeusExCommunityUpdate
+set append=\DeusExCommunityUpdate\DeusEx
 set key="HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update"
 set value=Folder
 set oldVal=
@@ -510,7 +511,7 @@ if ERRORLEVEL=1 set newVal=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
 echo new=%newVal%
 reg add %key% /v %value% /d "%newVal%" /f
 rem Second pass for Windows versions past XP.
-set append=\DeusExCommunityUpdate
+set append=\DeusExCommunityUpdate\DeusEx
 set key="HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update"
 set value=Folder
 set oldVal=
@@ -528,10 +529,11 @@ rem ;use ERRORLEVEL = 1 to make sure a default path is made even if the user has
 rem ;simple DX install creator, bat file that grabs all filenames and paths, then adds them to a manifest.ini. Appended of with a product name.
 rem ;create custom int entries for renderers, just like append Community Update to them Community Update for them or something.
 rem ;probably use Manifest.* instead so all languages are applied at one.	
+rem apply manifest changes to each language
 rem ;by shipping a custom uninstall manifest you can account for things the generated one doesnt and seperate items by product.
 rem ;Should include a small "extras" option with interesting / useful media, things like the DX bible, design docs, guides, ect. 
 rem ;remember that having a redundant path sorta fixes the extra renderers issue. Can be done durring the appendd
-"%~dp0\fart\fart.exe" "%~dp0\System\Manifest.int" DefaultFolder= DefaultFolder="%newVal%"
+"%~dp0\fart\fart.exe" "%~dp0\System\Manifest.*" DefaultFolder= DefaultFolder="%newVal%"
 "%~dp0\setup.exe"
 rem exit
 pause

@@ -87,7 +87,7 @@ Lang=
 	installs files if a specific lang is selected
 		Example: File=(Master=SystemLocalized\*.frt,Src=System\*.frt,Lang=frt) will install ALL frt files if French is selected as the install language
 	Note:Have had unreliable results using his, research further. Doesn't seem to work in a postexec group?
-
+	On testing, it at least works properly for regular file= usage.
 Size=
 	Declares the size of file, used for disk space requirements.
 	Not required but useful if tedious, seems likely it was done automatically with the official method.

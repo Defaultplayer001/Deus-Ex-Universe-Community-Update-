@@ -1,0 +1,18 @@
+Titles are in chronological order.
+
+Each subsequent release of a title is given a .1, and they just keep adding up. 
+
+Every release is listed for the sake of completion, even if nothing / a barebones amount of material is available. 
+
+To reduce title clutter & pathname sizes, only the unique portion of each subsequent title is used. 
+
+For example, the longest title: 
+
+Deus Ex: Human Revolution - Director's Cut
+
+turns into: 
+
+Director's Cut
+
+
+End tag is the platform the game runs on.
