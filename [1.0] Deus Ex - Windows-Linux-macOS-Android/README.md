@@ -76,10 +76,9 @@ Note that you will have to exit the program manually from the icon tray if you w
 
 ### Known issues:
 * Depending on your system, may be slow to install. 
-* Currently no uninstaller. Though easy to manually do. To uninstall you can simply removed the subfolder created in your Deus Ex directory. Start menu shortcuts can also be manually removed, but they and registry settings won't redirect unless you reinstall Deus Ex. 
 * Install is relatively inefficient, taking about 3gb total to install. This includes the 1gb size of the installer.  Final install size is 1gb. Remaining 1gb can be reclaimed by clearing temp directory.  
 * UI Scaling options don't seem to function.
-* You may need to alt-tab out and back into the game on boot. At least with DX9 on some systems it displays only black at first. 	
+* You may need to alt-tab out and back into the game on boot. At least with DX9 on some systems it displays only black at first. Likewise, sometimes the initial launch menu doesn't appear up front.
 
 ***
 
