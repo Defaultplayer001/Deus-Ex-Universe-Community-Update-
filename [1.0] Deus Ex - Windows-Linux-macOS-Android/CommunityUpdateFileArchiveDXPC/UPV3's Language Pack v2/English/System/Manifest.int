@@ -321,3 +321,13 @@ Description=Deus Ex speech files. Installation is required.
 [DemoDeusExTexturesGroup]
 Caption=Deus Ex Textures
 Description=Deus Ex Textures. Installation is required.
+
+;Extras Group -DP 2019/7/15
+
+[ExtrasGroup]
+Caption=Extras
+Description=Extra Deus Ex related content. Installation is optional. 
+
+[DXCUCustomIconSplashLogo]
+Caption=Custom Community Update Icon, Splash & Logo
+Description=The original Deus Ex assets hue-shifted purple, to indicate the community update is installed. Installation is optional. 

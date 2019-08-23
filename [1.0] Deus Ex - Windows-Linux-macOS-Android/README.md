@@ -10,10 +10,13 @@ This patch wouldn't exist without them, Revision, and numerous community members
 Thanks everyone! 
 
 ***
+This includes every translation, patch, alternate exe, and renderer known; as well as many useful tools.
+
+Also includes the original 2 mission demo with full multiplayer!
 
 ### Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
 
-Simply install and run from the created or replaced "Play Deus Ex" shortcut in your Start menu. 
+Simply install and run from the created "Play Deus Ex" shortcut in your Start menu under the Deus Ex Community Update Folder.
 
 This should work on every copy of Deus Ex available, if it doesn't please let us know! 
 

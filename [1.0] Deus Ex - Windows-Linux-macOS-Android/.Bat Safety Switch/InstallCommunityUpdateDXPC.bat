@@ -61,6 +61,14 @@ rem Put the subject as "UPv3 project"
  ::::::::::::::::::::::::::::
  ::START
  ::::::::::::::::::::::::::::
+ 
+rem		Tools
+
+rem			7zip (Already extracted)
+
+rem			Find And Replace Text (FART)
+"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Find and Replace Text (FART)\fart199b_win32.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Find and Replace Text (FART)\fart199b_win32" -y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\Find and Replace Text (FART)\fart199b_win32\fart.exe"  "%~dp0\fart\fart.exe" /Y
 
 rem Official Deus Ex setup file modification, choices left for fallback, comment out the next line for normal usage.
 goto :setsetupflag
@@ -97,6 +105,8 @@ goto :yesps2
 choice /c yn /n /t 10 /d n /m "Do not install the Demo and Multiplayer files over a regular install! It WILL break things, do you understand [Y/N]?"
 IF ERRORLEVEL 2 goto :choice
 IF ERRORLEVEL 1 goto :Yes2
+
+
 
 :Translations
 
@@ -353,7 +363,7 @@ copy "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\ReadMe.txt"  "%~dp0\Help\Rea
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Nephthys\Nephthys_v1.4b10_installed files (7zip does not extract properly)" "%~dp0\System" /y
 ;xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\Nepthys ini changes" "%~dp0\System" /y /s
 
-rem		HX Co-Op
+rem			HX Co-Op
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\HX-0.9.89.3.zip" -o"%~dp0" -y
 echo f|xcopy "%~dp0\Help\HX\Readme.txt"  "%~dp0\Help\Multiplayer\Co-Op (HX)\ReadMe Co-Op (HX).txt" /S /Y
 echo f|xcopy "%~dp0\Help\HX\Cheats.txt"  "%~dp0\Help\Multiplayer\Co-Op (HX)\Cheats Co-Op (HX).txt" /y /s
@@ -397,15 +407,15 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Deus Ex Controller proxy (Antimicro)
 rem			Custom "Augmented" Keybind Ini
 IF "%Translation%"=="Yes" (
 	goto :skipIni
-	)
+	)	
 ren "%~dp0\System\DefUser.ini" "%~dp0\System\DefUser Original.ini"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Ini Files\Modernized Keybinds\Augmented\DefUser.ini" "%~dp0\System\DefUser.ini" /Y
 :skipini
 
-rem		Tools
-rem			Find And Replace Text (FART)
-"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Find and Replace Text (FART)\fart199b_win32.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Find and Replace Text (FART)\fart199b_win32" -y
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\Find and Replace Text (FART)\fart199b_win32\fart.exe"  "%~dp0\fart\fart.exe" /Y
+rem			Custom Icon, Logo, and Splash. 
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Icons, Splashes & Logos\LogoSmallCU.bmp" "%~dp0\Help\LogoSmall.bmp" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Icons, Splashes & Logos\DXOriginalLogo.exe" "%~dp0\DXOriginalLogo.exe" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Icons, Splashes & Logos\DXCUCustomIconSplashLogo.exe" "%~dp0\DXCUCustomIconSplashLogo.exe" /Y
 
 rem Organize this			
 rem			Setup

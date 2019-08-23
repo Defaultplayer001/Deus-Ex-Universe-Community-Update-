@@ -1,0 +1,10 @@
+krita
+create mask
+filter -> g'mic -> colors -> basic adjusments -> hue
+unless you are on linux, the distros i tried last time dont want you to have the g'mic plugin for it
+but it ships in the windows distri
+but i used that combination for my nano virus vial icon in hx
+so i used that again here
+-From Discord by Hanfling 2019/7/13
+
+I used a Hue value of 20 for the splash and logosmall -DP 2019/7/14
