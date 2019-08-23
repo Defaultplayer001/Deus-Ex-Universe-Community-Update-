@@ -1,68 +1,120 @@
 # Deus-Ex-1-Community-Update-
 
+https://www.patreon.com/hanfling/overview
+
+Hanfling of Revision has created *many* projects invaluable to the Deus Ex community!
+You can support their work directly and the community update indirectly through their patreon. 
+
+This patch wouldn't exist without them, Revision, and numerous community members.
+
+Thanks everyone! 
+
+***
+This includes every translation, patch, alternate exe, and renderer known; as well as many useful tools.
+
+Also includes the original 2 mission demo with full multiplayer!
+
+### Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
+
+Simply install and run from the created "Play Deus Ex" shortcut in your Start menu under the Deus Ex Community Update Folder.
+
+This should work on every copy of Deus Ex available, if it doesn't please let us know! 
+
+#### Mirrors: 
+ModDB:
+https://www.moddb.com/mods/deus-ex-community-update/downloads/deus-ex-1-community-update-2019-5-14-342
+
+Nexus mods: https://www.nexusmods.com/deusex/mods/60/?tab=files
+
+MEGA: https://mega.nz/#!CjAG1AgY!CsDzApCQ20IN-orqMcmmJiQJneo9hZmA_pJIZhLlvcw	
+
+Yandisk: https://yadi.sk/d/rou1AKryPkwStA
+
+Torrent: https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/blob/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android/CommunityUpdateFileArchiveDXPC/SystemFiles.exe%20Creators/Deus%20Ex%201%20Community%20Update%202019-5-14-342.exe.torrent
+
+Have a mirror suggestion? Please let us know! 
+
+***
+
+### Support:
+Please report any bugs! 
+
+We have a discord here:
+
+https://discord.gg/jCFJ3A6 
+
+Feel free to stop by with any bugs, questions, suggestions, comments or criticisms.
+
+Bugs can also be reported directly to our Github: 
+
+https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues
+
+We also have a Trello (To-do list) here:
+
+https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
+
+***
+
+### About:
 This is an unofficial patch package assembled by the Deus Ex community and Xen's Deus Ex Archive: 
 
 https://www.reddit.com/r/dxarchive/
 
-It includes every patch, alternate exe/renderer as well as every translation we know of. 
+The community update includes every translation, patch, alternate exe, and renderer known; As well as many useful tools for players and modders.
 
-Also included are the original demo files which you apply the multiplayer patch too. 
+Also includes the original demo files which you can apply the multiplayer patch to. 
 
-This lets you play the full multiplayer and singleplayer up to the end of mission 2!
+This lets you play the full multiplayer and single-player up to the end of mission 2!
 
-A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
-
-Keybinds and guide can be found in the Help folder.
-
-Note that you will have to exit the program manually from the icon tray if you want to stop the controller registering as mouse&keyboard input. 
-
-Updates to included files have been and will continue to be done. Please report any bugs! 
-
-We have a discord here:
-
-https://discord.gg/75UpZhy
-
-Feel free to stop by with any bugs, questions, comments or criticisms.
-
-Bugs can also be reported directly to our Trello: 
-
-https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
+Minor updates to some of the included projects have been done and more is planned. 
 
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
+### Controller support:
+A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
+
+Key-binds and guide can be found in the Help folder. (To-do) 
+
+Note that you will have to exit the program manually from the icon tray if you want to stop the controller registering as mouse&keyboard input. 
+
+### Known issues:
+* Depending on your system, may be slow to install. 
+* Install is relatively inefficient, taking about 3gb total to install. This includes the 1gb size of the installer.  Final install size is 1gb. Remaining 1gb can be reclaimed by clearing temp directory.  
+* UI Scaling options don't seem to function.
+* You may need to alt-tab out and back into the game on boot. At least with DX9 on some systems it displays only black at first. Likewise, sometimes the initial launch menu doesn't appear up front.
+
+***
 
 The package Includes the following:
 
 
-### -Translations: 
-
+### Translations: 
 Note: Translations not compatible with Confix.
-Russian includes it's own Confix version TD
-
 If you install a translation, Confix will not be.
 
-* Czech
-* French
-* German
+* Czech  - Fan mod "CZ Mod"(License: GNU General Public License v3.0 https://github.com/WarezzK/DeusExCZMod-1112fm/blob/master/LICENSE) 
+* French - Official - With fixes by D.X.M (Make sure this is done!) (License: ?)
+* German - Official (License: Same as game) 
 * Hungarian
 * Italian
-* Japanese
+* Japanese - Note: A unique translation with special changes, some related to gameplay.
 * Polish
-* Portuguese	
+* Portuguese			
 * Spanish
-* Russian - Has a dub available here:PUTLINKHERE
-..* 	Note: An unofficial release overdub, new audio dubbed over 	the original, which can still be heard.
-
+* Russian - Has a dub available here - https://drive.google.com/open?id=1KSkre2gwVUHTV5aLAbgMxPfbM29ZyIx-
+	* Note: An unofficial release overdub, new audio dubbed over the original, which can still be heard.
+	* Note 2: A Russian port of Confix is currently in development.
 
 ### Ini Changes:
-
-* Keybind adjustments to fit modern standards TD
+* Keybind adjustments to fit modern standards (To-do: General consensus needs to be reached) 
 * Masterserver change
-* Demorec keybind TD
+* Demorec keybind (To-do) 
+
+### Demos
+* Deus Ex 1002f Demo (Includes the first mission)
+* Deus Ex 1002f M02 Demo (Includes the second mission)
 
 ### Patches:
-
-* Deus Ex 1002f Demo
 * Deus Ex 1014f Patch (Used for uniquely useful setup.exe) 
 * 1112fm GOTY Patch (Official Multiplayer Patch)
 * Deus Ex Unofficial Patch v2 (Code fixes)
@@ -72,59 +124,64 @@ If you install a translation, Confix will not be.
 * OTPUIFix (UI Scaling fixes, not applied automatically, see readme)
 * RF (Revision Framework)
 * RenderExt (Render Extension from Revision)
+* Nephthys (MP Admin tool)
+* DXMTL (Multiplayer bug fixes)
 
-### Mods :
+### Mods : (Add proper credits for items here!) 
 
-#### Included :
-
-* Human Renovation (HuRen)
-* Shifter
-* Biomod
-* Vanilla Matters
+#### Included : 
+* Human Renovation (HuRen) (In archive, extract the setup exe to access)
+* Shifter (In archive, extract the setup exe to access)
+* Biomod (In archive, extract the setup exe to access)
+* Vanilla Matters (In archive, extract the setup exe to access)
+* Japanese Gameplay Mod (In archive, extract the setup exe to access)
+* Hotel Carone (In archive, extract the setup exe to access)
+* Redsun 2020  (In archive, extract the setup exe to access)
+* Zodiac (In archive, extract the setup exe to access)
 * HXEXT (HX Extension mod) 
 * MiniHX (HX Hotfix)
 
-#### Not included by default, extract the installer and place into the attached patch before install:
- 
+#### Not included by default, extract the installer and place into the attached path before install, then select to install it during install:
 * HX (Co-op mod) [\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)]
 
 ### Alternate EXEs : (Launch Recommended) 
-* Launch (Used by default, more compatible) 
-* Deus EXE (More features, less compatible) 
-..* Note: Not compatible with XP, older version that is included in files.
+* Launch (Used by default, more compatible / stable,  still developed & supported) 
+* Deus Exe (More features, less compatible / stable, no longer developed or supported) (In archive, extract the setup exe to access)
+	* Note: Not compatible with XP, older version (5.3) that is included in files.
+* UE1 Launch (Relatively new, needs testing but promising. Uses borderless windows by default) (In archive extract the setup exe to access)
 
 ### Video Renderers;
 * Nglide (3dfx emulator)
+	* Note if you use Nglide: Set resolution with nglide_config.exe in \system, set in-game res to a default. 
 * Direct3D 10 
 * Direct3D 9
 * Direct3D 8 (outdated, use another unless neccessary)
 * OpenGl (Updated) 
-* Uglide (Not installed automatically)
-Note if you use Nglide: 
-Set resolution with nglide_config.exe in \system, set in-game res to a default. 
-
+* Uglide (In archive, extract the setup exe to access)
+	
 ### Audio Renderers:
 * OpenAL (Higher quality playback then the default Galaxy renderer, worse lip synching)
 * SWFMod 
+* Inidirect Sound (Enables 3D hardware sound. Not functioning?)
 	
 ### Editing: 
 * Deus Ex Editing Pack 2.2, which includes the following:
 * Official Deus Ex SDK:
-..* 	UnrealEd1 modified for Deus Ex
-..* 	Unreal Code Compiler (UCC.EXE) Modified for Deus Ex
-..* 	Sample conversation (.con) and Deus Ex Text Files from M0-2 (Demo)
-..* 	ConEdit (Deus Ex Conversation Editor)	
-..* 	Lightwave-to-Unreal model converter (LWO23D.exe)
-..* 	Headers/libs used in development of Deus Ex (located in Headers/)
+	* 	UnrealEd1 modified for Deus Ex
+	* 	Unreal Code Compiler (UCC.EXE) Modified for Deus Ex
+	* 	Sample conversation (.con) and Deus Ex Text Files from M0-2 (Demo)
+	* 	ConEdit (Deus Ex Conversation Editor)	
+	* 	Lightwave-to-Unreal model converter (LWO23D.exe)
+	* 	Headers/libs used in development of Deus Ex (located in Headers/)
 * UnrealEd2 modified for Deus Ex
 * A nice GUI for UCC: UCSDK
 * TexAlign
 * Hexy's DeusExTools:
-..* 	DeusExExtractor
-..* 	DeusEx3Dviewer
-..* 	Mesh converter
-..* 	DeusExExtractor GUI
-..* Unreal Unit Converter
+	* 	DeusExExtractor
+	* 	DeusEx3Dviewer
+	* 	Mesh converter
+	* 	DeusExExtractor GUI
+	* Unreal Unit Converter
 * LWO viewer
 * UnrealFX (To edit flags of a model's polys)
 * WotGrealExporter (To extract game files) 
@@ -134,13 +191,14 @@ Set resolution with nglide_config.exe in \system, set in-game res to a default.
 * Bright 1.83 
 * UModel 
 * Tutorials: UED2 manual, Tack's site and Universal Constructor site
-Also included:
+#### Also included:
 * Deus Ex Editor Fix
-* HTK Commandlets
-* New UnrealEd 2 for Deus Ex by Bjorn
+* HTK Commandlets 
+* New UnrealEd 2 for Deus Ex by Bjorn (To do) 
+* Deus Ex Extractor & Decompiler (DEED) (In archive, extract the setup exe to access) (License: None) 
 
 ### Misc:
-* Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02)
+* Deus Ex Unofficial Patch v2 Demo Version (No intro, ends @ m02 completion)
 * SwFMOD Fixed int file (Fixes name display error)
 * Typo Fixed D3D10Drv Int (Direct3D 10 - Direct3D10)
 * Combined Deus Ex int file (To rename Launch to DeusEx)
@@ -148,7 +206,11 @@ Also included:
 * UPv3 install script (Source for old setup)
 * InstallForge (Tool used to create old setup)
 * Antimicro (controller)
-	* 7-zip (Extraction tool, used to extend default setup)
+* 7-zip (Extraction tool, used to extend default setup)
+* Deus Ex Modloader (In archive, extract the setup exe to access)
+* DeX's Modloader Utility (In archive, extract the setup exe to access)
+* InnoUnp (Extraction tool, planned to be used to extend default setup for mod installs)
+	
 
 	
 You can buy the full game from any of the following locations: 
@@ -250,6 +312,7 @@ Bogie: Support
 
 
 ### Deus Ex Archive: 
+
 https://www.reddit.com/r/dxarchive
 
 File resource - Countless contributors - direct & indirect
@@ -264,7 +327,7 @@ https://www.reddit.com/user/Defaultplayer001/
 
 
 Thanks so much to both the TNM & Revision teams, and everyone in the community!
-This wouldn't be possible without you guys!
+This wouldn't be possible without everyone!
 
 ***
 
@@ -276,7 +339,7 @@ Czech Translation (Fan-made): Warezz.K
 
 https://www.moddb.com/mods/deusexczmod-1112fm
 
-French (Official) : Unknown (If you know please let us know!):
+French (Official) : Unknown (If you know please let us know!) - with corrections by D.X.M.
 
 German (Official) : Unknown (If you know please let us know!)
 
@@ -301,7 +364,7 @@ Yukichigai: Deus Ex Unofficial Patch v2
 
 http://www.moddb.com/games/deus-ex/downloads/deus-ex-unofficial-patch-v2 
 
-D.X.M: Deus Ex Maps Patch 
+D.X.M: Deus Ex Maps Patch, Frech Patch
 
 https://www.dxm.be/navigator.php5?lang=en&content=202
 
@@ -309,7 +372,7 @@ Author Unknown (If you know please let us know!): Engine.dll fix
 
 http://www.deusexnetwork.com/files/DX1/patches/6083/engine-dll-fix.zip
 
-NVShacker(Thanks for providing the authors name bird / Biwdy / Birdy / Daet!): OTPUIFix
+NVShacker(Thanks for providing the authors name bird!): OTPUIFix
 https://web.archive.org/web/20090225135158/http://thenamelessmod.com/downloads/miscfiles/
 https://www.nexusmods.com/deusex/mods/36/
 
@@ -334,7 +397,7 @@ Smirftsch: OpenAL
 
 http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
-bird / Biwdy / Birdy / Daet: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly
+bird: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly
 
 Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, 
 
@@ -364,7 +427,31 @@ MVV: Russian fonts from Revision Russian Translation
 
 Alexander Shevchenko: Russian Translation continued from 8-Bit's
 
+Markie: UE1 Launch 
+https://github.com/TheMarkie	
+
+Various: Antimicro (Ryochan7, jsbackus, aybe, #4zzpxyx, LeonardKoenig, phob, EmperorArthur, Earnestlym, tokyogeometry, haselkern, sir-maniac, luigino, sd65, 7185, rakuco, gitter-badger, burunduk, hasufell, panzi)
+https://github.com/AntiMicro/antimicro/graphs/contributors
+
+Edward Gann: Deus Ex Modloader
+
+DeX: Dex's Modloader Utility
+
+Various: InnoUnp (QuickeneR, Ariman, Martijn Laan, Jean-loup Gailly, Mark Adler, Julian R Seward, Igor Pavlov, Carlo Kok, Innerfuse, Jordan Russell)
+http://innounp.sourceforge.net/#Usage
+
+hexy: Deus Ex Extractor and Decompiler 
+https://planetdeusex.ru/forum/topic/2618-deus-ex-extractor/
+
 ### If anyone has been forgotten, please let us know! 
+
+## License
+
+Really should figure out a specific license, if you're familiar with this subject please let us know!
+
+For now, please just pay attention to the existing licences included in the archives.
+
+Other then that, feel free to use as you wish so long as proper credit is given. 
 
 Major Changelog:
 
@@ -377,11 +464,16 @@ setup (manifest.ini modification)
 
 We have a discord here:
 
-https://discord.gg/75UpZhy
+https://discord.gg/jCFJ3A6
 
-Feel free to stop by with any bugs, questions, comments or criticisms.
+Feel free to stop by with any bugs, suggestions, questions, comments or criticisms.
 
-Bugs can also be reported directly to our Trello: 
+Bugs can also be reported directly to our Github: 
+
+https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues
+
+We also have a Trello (To-do list) here:
+
 https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
 
@@ -411,7 +503,8 @@ https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
 
 
-Muses:
+
+Muses (List needs to be updated):
 
 lovetrain.3gp: https://www.youtube.com/watch?v=Sr45DmZDjSc - Scrubs - Love Train! - Bruno Amaral - Clips from the TV show Scrubs
 
@@ -427,7 +520,5 @@ users.png - Still from the movie Tron: Legacy
 
 Right -  https://www.youtube.com/watch?v=edCqF_NtpOQ - Clip from Futurama 
 
-
-
-
+it.mp4 - Removed by user -  Grandpa JC gives a lesson on  it - mKaelus - 
 
