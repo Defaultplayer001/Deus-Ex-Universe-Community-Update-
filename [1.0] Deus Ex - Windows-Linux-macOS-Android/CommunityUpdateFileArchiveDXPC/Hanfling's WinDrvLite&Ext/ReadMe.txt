@@ -11,40 +11,41 @@ not sure"
 
 For now recommended to use Lite, TNM2 and GMDX CU both use it and it seems to work fine.
 
-Usage: Change / add the following ini values.
+Usage: Change / add the following DeusEx.ini values.
+
+1. Change your ViewportManager setting. In the third group right at the top, [Engine.Engine].
 
 ViewportManager=WinDrvLite.WindowsClientLite
 
-[WinDrv.WindowsClient]
+2. Add this to bottom of the ini (Optionally for neatness, put below the default WinDrv category)
+
+[WinDrvLite.WindowsClientLite]
+ScaleRUV=2000.000000
+ScaleXYZ=1000.000000
+InvertVertical=False
+DeadZoneRUV=False
+DeadZoneXYZ=True
+SlowVideoBuffering=False
+StartupFullscreen=True
+UseJoystick=False
+UseDirectInput=False
+UseDirectDraw=False
+NoDynamicLights=False
+Decals=True
+MinDesiredFrameRate=30.000000
+NoLighting=False
+ScreenFlashes=True
+SkinDetail=High
+TextureDetail=High
+CurvedSurfaces=True
+CaptureMouse=True
+Brightness=0.500000
+MipFactor=1.000000
 WindowedViewportX=1024
 WindowedViewportY=768
 WindowedColorBits=32
 FullscreenViewportX=1024
 FullscreenViewportY=768
 FullscreenColorBits=32
-Brightness=0.500000
-MipFactor=1.000000
-UseDirectDraw=False
-UseJoystick=False
-CaptureMouse=True
-StartupFullscreen=True
-CurvedSurfaces=True
-ScreenFlashes=True
-NoLighting=False
-SlowVideoBuffering=False
-DeadZoneXYZ=True
-DeadZoneRUV=False
-InvertVertical=False
-ScaleXYZ=1000.000000
-ScaleRUV=2000.000000
-SkinDetail=High
-TextureDetail=High
-Decals=True
-MinDesiredFrameRate=30.000000
-UseDirectInput=False
-NoDynamicLights=False
 
 For Ext replace "Lite" with "Ext". (I think? Can only find examples for Lite.)
-
-Could probably get away with renaming the .int too.
- 
