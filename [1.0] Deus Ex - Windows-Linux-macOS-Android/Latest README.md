@@ -161,7 +161,7 @@ If you install a translation, Confix will not be.
 	
 ### Audio Renderers:
 * OpenAL (Higher quality playback then the default Galaxy renderer, worse lip synching)
-* SWFMod 
+* SWFMod (No lip-synch)
 * Inidirect Sound (Enables 3D hardware sound. Not functioning?)
 	
 ### Editing: 
