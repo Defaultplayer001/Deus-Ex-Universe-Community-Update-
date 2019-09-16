@@ -1,4 +1,4 @@
-Note: This is a copy of the latest *releases* ReadMe, to view the latest Readme see "Latest ReadMe.MD". (Current release: 2019-5-14-342)
+Note: This is a copy of the latest *release's* ReadMe, to view the latest Readme see "Latest ReadMe.MD". (Current release: 2019-5-14-342)
 -----
 # Deus-Ex-1-Community-Update-
 
