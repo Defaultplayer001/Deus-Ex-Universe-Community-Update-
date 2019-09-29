@@ -68,7 +68,7 @@ rem			7zip (Already extracted)
 
 rem			Find And Replace Text (FART)
 "%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Find and Replace Text (FART)\fart199b_win32.zip" -o"%~dp0\CommunityUpdateFileArchiveDXPC\Find and Replace Text (FART)\fart199b_win32" -y
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)\Find and Replace Text (FART)\fart199b_win32\fart.exe"  "%~dp0\fart\fart.exe" /Y
+xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Find and Replace Text (FART)\fart199b_win32\"  "%~dp0\Fart\" /Y
 
 rem Official Deus Ex setup file modification, choices left for fallback, comment out the next line for normal usage.
 goto :setsetupflag
@@ -188,7 +188,7 @@ echo d|xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\System\Setup.exe" "%~dp0\System" /y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\setup.exe" "%~dp0" /y
 Rem Deletion skipped since files are needed for setup and redundant 1014 section was removed now that pathing is handled with the install path for the uninstaller and simplicity. -DP 2019/7/10
-rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" /S /Q
+rem rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" /S /Q
 
 rem :IF "%setup%"=="No" (
 rem :	goto :skipmapspatch
@@ -444,8 +444,8 @@ xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Russkiy-Russ
 xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\UPV3's Language Pack v2\Nihongo-Japanese" "%~dp0" /S /Y
 rem ren "%~dp0\Help\ReadMePatch1.htm" "Nihongo-JapaneseReadMePatch1.htm"
 :modsetupskip
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Icons & Logos\Windows 95 Notepad Icon.ico" "%~dp0\Help\Windows 95 Notepad Icon.ico" /Y
-copy "%~dp0\CommunityUpdateFileArchiveDXPC\Icons & Logos\Windows 95 Internet Explorer Icon.ico" "%~dp0\Help\Windows 95 Internet Explorer Icon.ico" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Icons, Splashes & Logos\Windows 95 Notepad Icon.ico" "%~dp0\Help\Windows 95 Notepad Icon.ico" /Y
+copy "%~dp0\CommunityUpdateFileArchiveDXPC\Icons, Splashes & Logos\Windows 95 Internet Explorer Icon.ico" "%~dp0\Help\Windows 95 Internet Explorer Icon.ico" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch V2 edited render relaunch\DeusEx.u" "%~dp0\System\DeusEx.u"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\UnofficialPatchv2DemoVersion.exe" "%~dp0\System\UnofficialPatchv2DemoVersion.exe" /Y
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2 Demo Version\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-v2-Demo-Version-ReadMe.txt" /Y
@@ -505,10 +505,34 @@ rem xcopy "*.*" "%~dp0\*.*" /Y
 rem del "%~dp0\*.exe*"
 copy "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f\DeusExPatch1014f\ReleasePatch1014f\setup.exe" "%~dp0" /y
 rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\deusex1014f" /S /Q
+rem Delete Community Update Registry keys to start with a clean slate. Prevents repetitive \DeusExCommunityUpdate\DeusEx\DeusExCommunityUpdate\DeusEx error. -DP 2019/9/28 801
+REG Delete "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update" /f
 rem Copy Deus Ex install registry values to the Community Update reg path. Primarily for install path value.
 REG COPY "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex" "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update" /f /s
+rem Delete Community Update Registry keys to start with a clean slate. Prevents repetitive \DeusExCommunityUpdate\DeusEx\DeusExCommunityUpdate\DeusEx error. -DP 2019/9/28 801
+REG Delete "HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update" /f
 rem Second pass for Windows versions past XP.
-REG COPY "HKLM\SOFTWARE\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex" "HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update" /s /f /reg:32
+rem Only needed if running manually from a 64-bit command prompt, when run in the distributed setup a 32-bit command prompt get launched simply because the extractor (7-zip or WinZip) is a 32-bit program. -DP 2019/9/28 1119
+REG COPY "HKLM\SOFTWARE\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex" "HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update" /s /f
+rem Second pass for Windows versions past XP.
+rem Only needed if running manually from a 64-bit command prompt, when run in the distributed setup a 32-bit command prompt get launched simply because the extractor (7-zip or WinZip) is a 32-bit program. -DP 2019/9/28 1119
+rem Order reversed here to prevent repetitive \DeusExCommunityUpdate\DeusEx\DeusExCommunityUpdate\DeusEx error. -DP 2019/9/28 1115
+set append=\DeusExCommunityUpdate\DeusEx
+set key="HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update"
+set value=Folder
+set oldVal=
+for /F "skip=2 Delims=" %%r in ('reg query %key% /v %value%') do set oldVal=%%r
+echo previous=%oldVal:~24%
+set newVal=%oldVal:~24%%append%
+if ERRORLEVEL=1 set newVal=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
+echo new=%newVal%
+reg add %key% /v %value% /d "%newVal%" /f
+rem If running from a 32-bit command prompt as is normal with the distributed setup, both the above and below append sections are read compltely identically. "HKLM\Software\" is read as "HKLM\Software\WOW6432Node\". This delete is needed to prevent the repetitive \DeusExCommunityUpdate\DeusEx\DeusExCommunityUpdate\DeusEx error. Only needed if running manually from a 64-bit command prompt, when run in the distributed setup a 32-bit command prompt get launched simply because the extractor (7-zip or WinZip) is a 32-bit program. -DP 2019/9/28 1129
+rem Delete Community Update Registry keys to start with a clean slate. Prevents repetitive \DeusExCommunityUpdate\DeusEx\DeusExCommunityUpdate\DeusEx error. -DP 2019/9/28 801
+rem wait a fucking second you need to folder you can just delete it.
+reg Delete "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update" /f
+rem Copy Deus Ex install registry values to the Community Update reg path. Primarily for install path value.
+REG COPY "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex" "HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update" /f /s
 rem Test append
 set append=\DeusExCommunityUpdate\DeusEx
 set key="HKLM\Software\Unreal Technology\Installed Apps\Deus Ex Community Update"
@@ -520,17 +544,7 @@ set newVal=%oldVal:~24%%append%
 if ERRORLEVEL=1 set newVal=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
 echo new=%newVal%
 reg add %key% /v %value% /d "%newVal%" /f
-rem Second pass for Windows versions past XP.
-set append=\DeusExCommunityUpdate\DeusEx
-set key="HKLM\Software\WOW6432Node\Unreal Technology\Installed Apps\Deus Ex Community Update"
-set value=Folder
-set oldVal=
-for /F "skip=2 Delims=" %%r in ('reg query %key% /v %value%') do set oldVal=%%r
-echo previous=%oldVal:~24%
-set newVal=%oldVal:~24%%append%
-if ERRORLEVEL=1 set newVal=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
-echo new=%newVal%
-reg add %key% /v %value% /d "%newVal%" /f
+
 rem ;ADD FART
 rem ;lol
 rem ;redundant path may be breaking uninstall, experiment
