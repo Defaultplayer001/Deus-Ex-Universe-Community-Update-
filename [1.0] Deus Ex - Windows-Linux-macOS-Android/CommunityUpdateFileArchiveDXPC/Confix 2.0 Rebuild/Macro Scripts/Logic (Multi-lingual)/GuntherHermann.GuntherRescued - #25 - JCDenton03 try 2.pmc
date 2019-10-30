@@ -1,0 +1,286 @@
+﻿[PMC Code v5.0.5]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Event ahk_class ThunderRT6FormDC|||
+2|[Pause]||1|1984|Sleep|||||
+3|Escape|{Escape}|1|0|Send|||||
+4|[Pause]||1|3532|Sleep|||||
+5|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+6|Left Move & Click|-158, 155 Left, Down|1|0|Click|||||
+7|[Pause]||1|140|Sleep|||||
+8|Left Move & Click|319, 458 Left, Up|1|0|Click|||||
+9|[Pause]||1|1297|Sleep|||||
+10|Down|{Down}|1|0|Send|||||
+11|[Pause]||1|438|Sleep|||||
+12|Down|{Down}|1|0|Send|||||
+13|[Pause]||1|312|Sleep|||||
+14|Down|{Down}|1|0|Send|||||
+15|[Pause]||1|328|Sleep|||||
+16|Down|{Down}|1|0|Send|||||
+17|[Pause]||1|313|Sleep|||||
+18|Down|{Down}|1|0|Send|||||
+19|[Pause]||1|312|Sleep|||||
+20|Down|{Down}|1|0|Send|||||
+21|[Pause]||1|266|Sleep|||||
+22|Down|{Down}|1|0|Send|||||
+23|[Pause]||1|250|Sleep|||||
+24|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+25|Down|{Down}|1|0|Send|||||
+26|[Pause]||1|328|Sleep|||||
+27|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+28|Down|{Down}|1|0|Send|||||
+29|[Pause]||1|297|Sleep|||||
+30|Down|{Down}|1|0|Send|||||
+31|[Pause]||1|250|Sleep|||||
+32|Down|{Down}|1|0|Send|||||
+33|[Pause]||1|219|Sleep|||||
+34|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+35|Down|{Down}|1|0|Send|||||
+36|[Pause]||1|265|Sleep|||||
+37|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+38|Down|{Down}|1|0|Send|||||
+39|[Pause]||1|266|Sleep|||||
+40|Down|{Down}|1|0|Send|||||
+41|[Pause]||1|266|Sleep|||||
+42|Down|{Down}|1|0|Send|||||
+43|[Pause]||1|203|Sleep|||||
+44|Down|{Down}|1|0|Send|||||
+45|[Pause]||1|265|Sleep|||||
+46|Down|{Down}|1|0|Send|||||
+47|[Pause]||1|297|Sleep|||||
+48|Down|{Down}|1|0|Send|||||
+49|[Pause]||1|266|Sleep|||||
+50|Down|{Down}|1|0|Send|||||
+51|[Pause]||1|265|Sleep|||||
+52|Down|{Down}|1|0|Send|||||
+53|[Pause]||1|250|Sleep|||||
+54|Down|{Down}|1|0|Send|||||
+55|[Pause]||1|266|Sleep|||||
+56|Down|{Down}|1|0|Send|||||
+57|[Pause]||1|234|Sleep|||||
+58|Down|{Down}|1|0|Send|||||
+59|[Pause]||1|219|Sleep|||||
+60|Down|{Down}|1|0|Send|||||
+61|[Pause]||1|219|Sleep|||||
+62|Down|{Down}|1|0|Send|||||
+63|[Pause]||1|266|Sleep|||||
+64|Down|{Down}|1|0|Send|||||
+65|[Pause]||1|218|Sleep|||||
+66|Down|{Down}|1|0|Send|||||
+67|[Pause]||1|235|Sleep|||||
+68|Down|{Down}|1|0|Send|||||
+69|[Pause]||1|218|Sleep|||||
+70|Down|{Down}|1|0|Send|||||
+71|[Pause]||1|329|Sleep|||||
+72|Down|{Down}|1|0|Send|||||
+73|[Pause]||1|296|Sleep|||||
+74|Down|{Down}|1|0|Send|||||
+75|[Pause]||1|297|Sleep|||||
+76|Down|{Down}|1|0|Send|||||
+77|[Pause]||1|297|Sleep|||||
+78|Down|{Down}|1|0|Send|||||
+79|[Pause]||1|360|Sleep|||||
+80|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+81|Down|{Down}|1|0|Send|||||
+82|[Pause]||1|328|Sleep|||||
+83|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+84|Down|{Down}|1|0|Send|||||
+85|[Pause]||1|406|Sleep|||||
+86|Down|{Down}|1|0|Send|||||
+87|[Pause]||1|375|Sleep|||||
+88|Down|{Down}|1|0|Send|||||
+89|[Pause]||1|453|Sleep|||||
+90|Down|{Down}|1|0|Send|||||
+91|[Pause]||1|266|Sleep|||||
+92|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+93|Down|{Down}|1|0|Send|||||
+94|[Pause]||1|281|Sleep|||||
+95|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+96|Down|{Down}|1|0|Send|||||
+97|[Pause]||1|1016|Sleep|||||
+98|Down|{Down}|1|0|Send|||||
+99|[Pause]||1|2703|Sleep|||||
+100|Right Move & Click|332, 460 Right, Down|1|0|Click|||||
+101|[Pause]||1|78|Sleep|||||
+102|Right Move & Click|332, 460 Right, Up|1|0|Click|||||
+103|[Pause]||1|1562|Sleep|||||
+104|Down|{Down}|1|0|Send|||||
+105|[Pause]||1|344|Sleep|||||
+106|Down|{Down}|1|0|Send|||||
+107|[Pause]||1|359|Sleep|||||
+108|Down|{Down}|1|0|Send|||||
+109|[Pause]||1|282|Sleep|||||
+110|Down|{Down}|1|0|Send|||||
+111|[Pause]||1|234|Sleep|||||
+112|Down|{Down}|1|0|Send|||||
+113|[Pause]||1|219|Sleep|||||
+114|Down|{Down}|1|0|Send|||||
+115|[Pause]||1|219|Sleep|||||
+116|Down|{Down}|1|0|Send|||||
+117|[Pause]||1|578|Sleep|||||
+118|Up|{Up}|1|0|Send|||||
+119|[Pause]||1|1328|Sleep|||||
+120|Enter|{Enter}|1|0|Send|||||
+121|[Pause]||1|1625|Sleep|||||
+122|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+123|Up|{Up}|1|0|Send|||||
+124|[Pause]||1|328|Sleep|||||
+125|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+126|Up|{Up}|1|0|Send|||||
+127|[Pause]||1|312|Sleep|||||
+128|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+129|Up|{Up}|1|0|Send|||||
+130|[Pause]||1|250|Sleep|||||
+131|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+132|Up|{Up}|1|0|Send|||||
+133|[Pause]||1|282|Sleep|||||
+134|Up|{Up}|1|0|Send|||||
+135|[Pause]||1|250|Sleep|||||
+136|Up|{Up}|1|0|Send|||||
+137|[Pause]||1|234|Sleep|||||
+138|Up|{Up}|1|0|Send|||||
+139|[Pause]||1|250|Sleep|||||
+140|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+141|Up|{Up}|1|0|Send|||||
+142|[Pause]||1|266|Sleep|||||
+143|Up|{Up}|1|0|Send|||||
+144|[Pause]||1|234|Sleep|||||
+145|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+146|Up|{Up}|1|0|Send|||||
+147|[Pause]||1|234|Sleep|||||
+148|Up|{Up}|1|0|Send|||||
+149|[Pause]||1|250|Sleep|||||
+150|Up|{Up}|1|0|Send|||||
+151|[Pause]||1|219|Sleep|||||
+152|Up|{Up}|1|0|Send|||||
+153|[Pause]||1|219|Sleep|||||
+154|Up|{Up}|1|0|Send|||||
+155|[Pause]||1|219|Sleep|||||
+156|Up|{Up}|1|0|Send|||||
+157|[Pause]||1|187|Sleep|||||
+158|Up|{Up}|1|0|Send|||||
+159|[Pause]||1|219|Sleep|||||
+160|Up|{Up}|1|0|Send|||||
+161|[Pause]||1|266|Sleep|||||
+162|Up|{Up}|1|0|Send|||||
+163|[Pause]||1|250|Sleep|||||
+164|Up|{Up}|1|0|Send|||||
+165|[Pause]||1|281|Sleep|||||
+166|Up|{Up}|1|0|Send|||||
+167|[Pause]||1|234|Sleep|||||
+168|Up|{Up}|1|0|Send|||||
+169|[Pause]||1|250|Sleep|||||
+170|Up|{Up}|1|0|Send|||||
+171|[Pause]||1|266|Sleep|||||
+172|Up|{Up}|1|0|Send|||||
+173|[Pause]||1|203|Sleep|||||
+174|Up|{Up}|1|0|Send|||||
+175|[Pause]||1|250|Sleep|||||
+176|Up|{Up}|1|0|Send|||||
+177|[Pause]||1|266|Sleep|||||
+178|Up|{Up}|1|0|Send|||||
+179|[Pause]||1|218|Sleep|||||
+180|Up|{Up}|1|0|Send|||||
+181|[Pause]||1|203|Sleep|||||
+182|Up|{Up}|1|0|Send|||||
+183|[Pause]||1|235|Sleep|||||
+184|Up|{Up}|1|0|Send|||||
+185|[Pause]||1|203|Sleep|||||
+186|Up|{Up}|1|0|Send|||||
+187|[Pause]||1|203|Sleep|||||
+188|Up|{Up}|1|0|Send|||||
+189|[Pause]||1|234|Sleep|||||
+190|Up|{Up}|1|0|Send|||||
+191|[Pause]||1|219|Sleep|||||
+192|Up|{Up}|1|0|Send|||||
+193|[Pause]||1|203|Sleep|||||
+194|Up|{Up}|1|0|Send|||||
+195|[Pause]||1|219|Sleep|||||
+196|Up|{Up}|1|0|Send|||||
+197|[Pause]||1|219|Sleep|||||
+198|Up|{Up}|1|0|Send|||||
+199|[Pause]||1|219|Sleep|||||
+200|Up|{Up}|1|0|Send|||||
+201|[Pause]||1|265|Sleep|||||
+202|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+203|Up|{Up}|1|0|Send|||||
+204|[Pause]||1|922|Sleep|||||
+205|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+206|Up|{Up}|1|0|Send|||||
+207|[Pause]||1|344|Sleep|||||
+208|Up|{Up}|1|0|Send|||||
+209|[Pause]||1|1265|Sleep|||||
+210|Up|{Up}|1|0|Send|||||
+211|[Pause]||1|2938|Sleep|||||
+212|Right Move & Click|332, 460 Right, Down|1|0|Click|||||
+213|[Pause]||1|172|Sleep|||||
+214|Right Move & Click|332, 460 Right, Up|1|0|Click|||||
+215|[Pause]||1|1453|Sleep|||||
+216|Down|{Down}|1|0|Send|||||
+217|[Pause]||1|344|Sleep|||||
+218|Down|{Down}|1|0|Send|||||
+219|[Pause]||1|218|Sleep|||||
+220|Down|{Down}|1|0|Send|||||
+221|[Pause]||1|204|Sleep|||||
+222|Down|{Down}|1|0|Send|||||
+223|[Pause]||1|203|Sleep|||||
+224|Down|{Down}|1|0|Send|||||
+225|[Pause]||1|218|Sleep|||||
+226|Down|{Down}|1|0|Send|||||
+227|[Pause]||1|204|Sleep|||||
+228|Down|{Down}|1|0|Send|||||
+229|[Pause]||1|2406|Sleep|||||
+230|Enter|{Enter}|1|0|Send|||||
+231|[Pause]||1|2828|Sleep|||||
+232|Right Move & Click|332, 460 Right, Down|1|0|Click|||||
+233|[Pause]||1|156|Sleep|||||
+234|Right Move & Click|332, 460 Right, Up|1|0|Click|||||
+235|[Pause]||1|1110|Sleep|||||
+236|Down|{Down}|1|0|Send|||||
+237|[Pause]||1|234|Sleep|||||
+238|Down|{Down}|1|0|Send|||||
+239|[Pause]||1|453|Sleep|||||
+240|Down|{Down}|1|0|Send|||||
+241|[Pause]||1|1438|Sleep|||||
+242|Enter|{Enter}|1|0|Send|||||
+243|[Pause]||1|5906|Sleep|||||
+244|WinActivate||1|0|WinActivate||Event ahk_class ThunderRT6FormDC|||
+245|Tab|{Tab}|1|0|Send|||||
+246|[Pause]||1|453|Sleep|||||
+247|Tab|{Tab}|1|0|Send|||||
+248|[Pause]||1|344|Sleep|||||
+249|Tab|{Tab}|1|0|Send|||||
+250|[Pause]||1|265|Sleep|||||
+251|Tab|{Tab}|1|0|Send|||||
+252|[Pause]||1|282|Sleep|||||
+253|Tab|{Tab}|1|0|Send|||||
+254|[Pause]||1|578|Sleep|||||
+255|Tab|{Tab}|1|0|Send|||||
+256|[Pause]||1|422|Sleep|||||
+257|Tab|{Tab}|1|0|Send|||||
+258|[Pause]||1|375|Sleep|||||
+259|Tab|{Tab}|1|0|Send|||||
+260|[Pause]||1|328|Sleep|||||
+261|Tab|{Tab}|1|0|Send|||||
+262|[Pause]||1|390|Sleep|||||
+263|Tab|{Tab}|1|0|Send|||||
+264|[Pause]||1|407|Sleep|||||
+265|Tab|{Tab}|1|0|Send|||||
+266|[Pause]||1|1046|Sleep|||||
+267|Tab|{Tab}|1|0|Send|||||
+268|[Pause]||1|438|Sleep|||||
+269|Tab|{Tab}|1|0|Send|||||
+270|[Pause]||1|391|Sleep|||||
+271|Tab|{Tab}|1|0|Send|||||
+272|[Pause]||1|421|Sleep|||||
+273|Tab|{Tab}|1|0|Send|||||
+274|[Pause]||1|579|Sleep|||||
+275|Tab|{Tab}|1|0|Send|||||
+276|[Pause]||1|579|Sleep|||||
+277|Tab|{Tab}|1|0|Send|||||
+278|[Pause]||1|579|Sleep|||||
+279|Tab|{Tab}|1|0|Send|||||
+280|[Pause]||1|579|Sleep|||||
+281|Tab|{Tab}|1|0|Send|||||
+282|[Pause]||1|579|Sleep|||||
+283|Tab|{Tab}|1|0|Send|||||
+

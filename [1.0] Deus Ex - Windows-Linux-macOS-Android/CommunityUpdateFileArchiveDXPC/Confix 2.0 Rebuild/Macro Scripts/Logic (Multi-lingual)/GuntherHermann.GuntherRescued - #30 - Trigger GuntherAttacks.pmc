@@ -1,0 +1,80 @@
+﻿[PMC Code v5.0.5]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Event ahk_class ThunderRT6FormDC|||
+2|[Pause]||1|1125|Sleep|||||
+3|RAlt Down|{RAlt Down}|1|0|Send|||||
+4|[Pause]||1|984|Sleep|||||
+5|i|{i}|1|0|Send|||||
+6|[Pause]||1|734|Sleep|||||
+7|RAlt Up|{RAlt Up}|1|0|Send|||||
+8|[Pause]||1|1313|Sleep|||||
+9|Tab|{Tab}|1|0|Send|||||
+10|[Pause]||1|891|Sleep|||||
+11|Up|{Up}|1|0|Send|||||
+12|[Pause]||1|531|Sleep|||||
+13|Up|{Up}|1|0|Send|||||
+14|[Pause]||1|672|Sleep|||||
+15|Up|{Up}|1|0|Send|||||
+16|[Pause]||1|687|Sleep|||||
+17|Up|{Up}|1|0|Send|||||
+18|[Pause]||1|500|Sleep|||||
+19|Up|{Up}|1|0|Send|||||
+20|[Pause]||1|485|Sleep|||||
+21|Up|{Up}|1|0|Send|||||
+22|[Pause]||1|453|Sleep|||||
+23|Up|{Up}|1|0|Send|||||
+24|[Pause]||1|984|Sleep|||||
+25|Tab|{Tab}|1|0|Send|||||
+26|[Pause]||1|1516|Sleep|||||
+27|Tab|{Tab}|1|0|Send|||||
+28|[Pause]||1|359|Sleep|||||
+29|Tab|{Tab}|1|0|Send|||||
+30|[Pause]||1|1141|Sleep|||||
+31|Tab|{Tab}|1|0|Send|||||
+32|[Pause]||1|672|Sleep|||||
+33|Tab|{Tab}|1|0|Send|||||
+34|[Pause]||1|718|Sleep|||||
+35|Tab|{Tab}|1|0|Send|||||
+36|[Pause]||1|2125|Sleep|||||
+37|LShift Down|{LShift Down}|1|0|Send|||||
+38|[Pause]||1|2063|Sleep|||||
+39|g|{g}|1|0|Send|||||
+40|[Pause]||1|125|Sleep|||||
+41|LShift Up|{LShift Up}|1|0|Send|||||
+42|[Pause]||1|125|Sleep|||||
+43|u|{u}|1|0|Send|||||
+44|[Pause]||1|469|Sleep|||||
+45|n|{n}|1|0|Send|||||
+46|[Pause]||1|390|Sleep|||||
+47|t|{t}|1|0|Send|||||
+48|[Pause]||1|188|Sleep|||||
+49|h|{h}|1|0|Send|||||
+50|[Pause]||1|203|Sleep|||||
+51|e|{e}|1|0|Send|||||
+52|[Pause]||1|78|Sleep|||||
+53|r|{r}|1|0|Send|||||
+54|[Pause]||1|312|Sleep|||||
+55|LShift Down|{LShift Down}|1|0|Send|||||
+56|[Pause]||1|344|Sleep|||||
+57|a|{a}|1|0|Send|||||
+58|[Pause]||1|219|Sleep|||||
+59|LShift Up|{LShift Up}|1|0|Send|||||
+60|[Pause]||1|172|Sleep|||||
+61|t|{t}|1|0|Send|||||
+62|[Pause]||1|219|Sleep|||||
+63|t|{t}|1|0|Send|||||
+64|[Pause]||1|140|Sleep|||||
+65|a|{a}|1|0|Send|||||
+66|[Pause]||1|266|Sleep|||||
+67|c|{c}|1|0|Send|||||
+68|[Pause]||1|156|Sleep|||||
+69|k|{k}|1|0|Send|||||
+70|[Pause]||1|141|Sleep|||||
+71|s|{s}|1|0|Send|||||
+72|[Pause]||1|2718|Sleep|||||
+73|RAlt Down|{RAlt Down}|1|0|Send|||||
+74|[Pause]||1|1219|Sleep|||||
+75|u|{u}|1|0|Send|||||
+76|[Pause]||1|469|Sleep|||||
+77|RAlt Up|{RAlt Up}|1|0|Send|||||
+

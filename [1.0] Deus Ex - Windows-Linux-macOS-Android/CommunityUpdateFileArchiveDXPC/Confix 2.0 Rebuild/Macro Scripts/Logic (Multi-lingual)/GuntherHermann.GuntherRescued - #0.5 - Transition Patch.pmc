@@ -1,0 +1,16 @@
+﻿[PMC Code v5.0.5]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+2|[Pause]||1|1172|Sleep|||||
+3|Tab|{Tab}|1|0|Send|||||
+4|[Pause]||1|1172|Sleep|||||
+5|Up|{Up}|1|0|Send|||||
+6|[Pause]||1|500|Sleep|||||
+7|Up|{Up}|1|0|Send|||||
+8|[Pause]||1|500|Sleep|||||
+9|Up|{Up}|1|0|Send|||||
+10|[Pause]||1|500|Sleep|||||
+11|Up|{Up}|1|0|Send|||||
+12|[Pause]||1|484|Sleep|||||
+13|Up|{Up}|1|0|Send|||||
+

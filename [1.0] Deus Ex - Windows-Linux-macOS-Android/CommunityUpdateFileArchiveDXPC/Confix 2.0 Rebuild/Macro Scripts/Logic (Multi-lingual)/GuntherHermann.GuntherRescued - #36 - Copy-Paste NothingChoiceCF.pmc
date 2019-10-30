@@ -1,0 +1,57 @@
+﻿[PMC Code v5.0.5]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Event ahk_class ThunderRT6FormDC|||
+2|[Pause]||1|1437|Sleep|||||
+3|Escape|{Escape}|1|0|Send|||||
+4|[Pause]||1|3266|Sleep|||||
+5|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+6|Right Move & Click|222, 270 Right, Down|1|0|Click|||||
+7|[Pause]||1|188|Sleep|||||
+8|Right Move & Click|699, 573 Right, Up|1|0|Click|||||
+9|[Pause]||1|1562|Sleep|||||
+10|Down|{Down}|1|0|Send|||||
+11|[Pause]||1|234|Sleep|||||
+12|Down|{Down}|1|0|Send|||||
+13|[Pause]||1|172|Sleep|||||
+14|Down|{Down}|1|0|Send|||||
+15|[Pause]||1|157|Sleep|||||
+16|Down|{Down}|1|0|Send|||||
+17|[Pause]||1|156|Sleep|||||
+18|Down|{Down}|1|0|Send|||||
+19|[Pause]||1|172|Sleep|||||
+20|Down|{Down}|1|0|Send|||||
+21|[Pause]||1|3125|Sleep|||||
+22|Enter|{Enter}|1|0|Send|||||
+23|[Pause]||1|1953|Sleep|||||
+24|Right Move & Click|699, 573 Right, Down|1|0|Click|||||
+25|[Pause]||1|140|Sleep|||||
+26|Right Move & Click|699, 573 Right, Up|1|0|Click|||||
+27|[Pause]||1|766|Sleep|||||
+28|Down|{Down}|1|0|Send|||||
+29|[Pause]||1|172|Sleep|||||
+30|Down|{Down}|1|0|Send|||||
+31|[Pause]||1|125|Sleep|||||
+32|Down|{Down}|1|0|Send|||||
+33|[Pause]||1|141|Sleep|||||
+34|Down|{Down}|1|0|Send|||||
+35|[Pause]||1|265|Sleep|||||
+36|Down|{Down}|1|0|Send|||||
+37|[Pause]||1|188|Sleep|||||
+38|Down|{Down}|1|0|Send|||||
+39|[Pause]||1|140|Sleep|||||
+40|Down|{Down}|1|0|Send|||||
+41|[Pause]||1|953|Sleep|||||
+42|Enter|{Enter}|1|0|Send|||||
+43|[Pause]||1|5797|Sleep|||||
+44|Right Move & Click|699, 573 Right, Down|1|0|Click|||||
+45|[Pause]||1|157|Sleep|||||
+46|Right Move & Click|699, 573 Right, Up|1|0|Click|||||
+47|[Pause]||1|1328|Sleep|||||
+48|Down|{Down}|1|0|Send|||||
+49|[Pause]||1|234|Sleep|||||
+50|Down|{Down}|1|0|Send|||||
+51|[Pause]||1|172|Sleep|||||
+52|Down|{Down}|1|0|Send|||||
+53|[Pause]||1|469|Sleep|||||
+54|Enter|{Enter}|1|0|Send|||||
+

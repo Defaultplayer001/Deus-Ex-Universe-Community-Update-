@@ -1,0 +1,27 @@
+I personally use Pulover's Macro Creator, a copy is included. Can export to / is based off of AutoHotKey. 
+
+I turned off mouse movement recording by going to Options-Settings-Recordings then un-checking "Mouse Moves".
+
+ConEdit doesn't use mouse movementes anyways, so this saves a lotta of scripting and space.
+
+Many WinActivate instances need to be modified to remove title that includes the specific path for the file your using.
+This breaks the macro if you open *any* other file.
+Just remove the path from the title, this can be done in a text editor and mass replaced.
+For example:
+
+"ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC"
+becomes
+ConEdit ahk_class ThunderRT6FormDC
+Just "Conedit" seems to work as well.
+However not sure currently what the suffix does, so keeping it for now as it doesn't seem to hurt.
+Try not to click the top bar, there seems to be a bug that causes it to be replayed as a double click and minimize it, potentially and usually messing up the rest of the macro.
+Mouse clicks are sometimes needed to activate a window, however they aren't actually needed in the script.
+Each time you activate a window a "Winactivate" command is recorded that will bring up the window itself.
+Mouse clicks can be safely deleted if only used to activate a window. In fact from my experience so far I'd recommend it.
+Minimizing mouse movement seems to make a script more reliable.
+
+
+
+
+
+-Defaultplayer

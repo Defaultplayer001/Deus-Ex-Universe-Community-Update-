@@ -1,0 +1,187 @@
+﻿[PMC Code v5.0.5]|F3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+2|[Pause]||1|2610|Sleep|||||
+3|Left Move & Click|222, 12 Left, Down|1|0|Click|||||
+4|[Pause]||1|109|Sleep|||||
+5|Left Move & Click|222, 12 Left, Up|1|0|Click|||||
+6|[Pause]||1|4078|Sleep|||||
+7|Left Move & Click|21, 146 Left, Down|1|0|Click|||||
+8|[Pause]||1|110|Sleep|||||
+9|Left Move & Click|21, 146 Left, Up|1|0|Click|||||
+10|[Pause]||1|2718|Sleep|||||
+11|Left Move & Click|44, 160 Left, Down|1|0|Click|||||
+12|[Pause]||1|157|Sleep|||||
+13|Left Move & Click|44, 160 Left, Up|1|0|Click|||||
+14|[Pause]||1|1968|Sleep|||||
+15|Left Move & Click|101, 158 Left, Down|1|0|Click|||||
+16|[Pause]||1|141|Sleep|||||
+17|Left Move & Click|101, 158 Left, Up|1|0|Click|||||
+18|[Pause]||1|2688|Sleep|||||
+19|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+20|Left Move & Click|466, 226 Left, Down|1|0|Click|||||
+21|[Pause]||1|109|Sleep|||||
+22|Left Move & Click|466, 226 Left, Up|1|0|Click|||||
+23|[Pause]||1|437|Sleep|||||
+24|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+25|Right Move & Click|466, 226 Right, Down|1|0|Click|||||
+26|[Pause]||1|125|Sleep|||||
+27|Right Move & Click|466, 226 Right, Up|1|0|Click|||||
+28|[Pause]||1|2782|Sleep|||||
+29|Left Move & Click|505, 280 Left, Down|1|0|Click|||||
+30|[Pause]||1|109|Sleep|||||
+31|Left Move & Click|505, 280 Left, Up|1|0|Click|||||
+32|[Pause]||1|1859|Sleep|||||
+33|WinActivate||1|0|WinActivate||Event ahk_class ThunderRT6FormDC|||
+34|Left Move & Click|158, 65 Left, Down|1|0|Click|||||
+35|[Pause]||1|125|Sleep|||||
+36|Left Move & Click|158, 65 Left, Up|1|0|Click|||||
+37|[Pause]||1|360|Sleep|||||
+38|Backspace|{Backspace}|1|0|Send|||||
+39|[Pause]||1|250|Sleep|||||
+40|Backspace|{Backspace}|1|0|Send|||||
+41|[Pause]||1|406|Sleep|||||
+42|Backspace|{Backspace}|1|0|Send|||||
+43|[Pause]||1|1641|Sleep|||||
+44|Left Move & Click|397, 431 Left, Down|1|0|Click|||||
+45|[Pause]||1|265|Sleep|||||
+46|Left Move & Click|397, 431 Left, Up|1|0|Click|||||
+47|[Pause]||1|1438|Sleep|||||
+48|Left Move & Click|387, 463 Left, Down|1|0|Click|||||
+49|[Pause]||1|172|Sleep|||||
+50|Left Move & Click|387, 463 Left, Up|1|0|Click|||||
+
+[PMC Code v5.0.5]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro2
+Groups=Start:1
+1|[Pause]||1|4000|Sleep|||||
+2|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+3|Left Move & Click|25, 142 Left, Down|1|0|Click|||||
+4|[Pause]||1|141|Sleep|||||
+5|Left Move & Click|25, 142 Left, Up|1|0|Click|||||
+6|[Pause]||1|1781|Sleep|||||
+7|Left Move & Click|42, 160 Left, Down|1|0|Click|||||
+8|[Pause]||1|125|Sleep|||||
+9|Left Move & Click|42, 160 Left, Up|1|0|Click|||||
+10|[Pause]||1|1203|Sleep|||||
+11|Left Move & Click|74, 158 Left, Down|1|0|Click|||||
+12|[Pause]||1|94|Sleep|||||
+13|Left Move & Click|74, 158 Left, Up|1|0|Click|||||
+
+[PMC Code v5.0.5]|F5||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro3
+Groups=Start:1
+1|[Pause]||1|4344|Sleep|||||
+2|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+3|Left Move & Click|23, 141 Left, Down|1|0|Click|||||
+4|[Pause]||1|125|Sleep|||||
+5|Left Move & Click|23, 141 Left, Up|1|0|Click|||||
+6|[Pause]||1|1234|Sleep|||||
+7|Left Move & Click|42, 159 Left, Down|1|0|Click|||||
+8|[Pause]||1|110|Sleep|||||
+9|Left Move & Click|42, 159 Left, Up|1|0|Click|||||
+10|[Pause]||1|1750|Sleep|||||
+11|Left Move & Click|103, 159 Left, Down|1|0|Click|||||
+12|[Pause]||1|109|Sleep|||||
+13|Left Move & Click|103, 159 Left, Up|1|0|Click|||||
+14|[Pause]||1|3891|Sleep|||||
+15|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+16|Left Move & Click|453, 232 Left, Down|1|0|Click|||||
+17|[Pause]||1|140|Sleep|||||
+18|Left Move & Click|453, 232 Left, Up|1|0|Click|||||
+19|[Pause]||1|532|Sleep|||||
+20|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+21|[Pause]||1|109|Sleep|||||
+22|Right Move & Click|453, 232 Right, Down|1|0|Click|||||
+23|[Pause]||1|109|Sleep|||||
+24|Right Move & Click|453, 232 Right, Up|1|0|Click|||||
+25|[Pause]||1|109|Sleep|||||
+26|[Pause]||1|109|Sleep|||||
+27|[Pause]||1|109|Sleep|||||
+28|[Pause]||1|109|Sleep|||||
+29|[Pause]||1|1719|Sleep|||||
+30|Left Move & Click|499, 293 Left, Down|1|0|Click|||||
+31|[Pause]||1|140|Sleep|||||
+32|Left Move & Click|499, 293 Left, Up|1|0|Click|||||
+33|[Pause]||1|1625|Sleep|||||
+34|WinActivate||1|0|WinActivate||Event ahk_class ThunderRT6FormDC|||
+35|Left Move & Click|154, 69 Left, Down|1|0|Click|||||
+36|[Pause]||1|516|Sleep|||||
+37|Left Move & Click|80, 76 Left, Up|1|0|Click|||||
+38|[Pause]||1|344|Sleep|||||
+39|Backspace|{Backspace}|1|0|Send|||||
+40|[Pause]||1|1875|Sleep|||||
+41|Left Move & Click|391, 430 Left, Down|1|0|Click|||||
+42|[Pause]||1|109|Sleep|||||
+43|Left Move & Click|391, 430 Left, Up|1|0|Click|||||
+44|[Pause]||1|1172|Sleep|||||
+45|Left Move & Click|398, 460 Left, Down|1|0|Click|||||
+46|[Pause]||1|141|Sleep|||||
+47|Left Move & Click|398, 460 Left, Up|1|0|Click|||||
+48|[Pause]||1|2046|Sleep|||||
+49|[Pause]||1|2046|Sleep|||||
+50|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+51|[Pause]||1|2046|Sleep|||||
+52|Left Move & Click|630, 316 Left, Down|1|0|Click|||||
+53|[Pause]||1|141|Sleep|||||
+54|Left Move & Click|630, 316 Left, Up|1|0|Click|||||
+55|[Pause]||1|109|Sleep|||||
+56|[Pause]||1|484|Sleep|||||
+57|Right Move & Click|630, 316 Right, Down|1|0|Click|||||
+58|[Pause]||1|125|Sleep|||||
+59|Right Move & Click|630, 316 Right, Up|1|0|Click|||||
+60|[Pause]||1|3829|Sleep|||||
+61|Left Move & Click|697, 432 Left, Down|1|0|Click|||||
+62|[Pause]||1|265|Sleep|||||
+63|Left Move & Click|697, 432 Left, Up|1|0|Click|||||
+64|[Pause]||1|2110|Sleep|||||
+65|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+66|Left Move & Click|602, 226 Left, Down|1|0|Click|||||
+67|[Pause]||1|125|Sleep|||||
+68|Left Move & Click|602, 226 Left, Up|1|0|Click|||||
+69|[Pause]||1|312|Sleep|||||
+70|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+71|Right Move & Click|602, 226 Right, Down|1|0|Click|||||
+72|[Pause]||1|109|Sleep|||||
+73|[Pause]||1|109|Sleep|||||
+74|[Pause]||1|109|Sleep|||||
+75|Right Move & Click|602, 226 Right, Up|1|0|Click|||||
+76|[Pause]||1|1157|Sleep|||||
+77|Left Move & Click|668, 372 Left, Down|1|0|Click|||||
+78|[Pause]||1|125|Sleep|||||
+79|Left Move & Click|668, 372 Left, Up|1|0|Click|||||
+80|[Pause]||1|1562|Sleep|||||
+81|Right Move & Click|514, 229 Right, Down|1|0|Click|||||
+82|[Pause]||1|172|Sleep|||||
+83|Right Move & Click|514, 229 Right, Up|1|0|Click|||||
+84|[Pause]||1|1422|Sleep|||||
+85|Left Move & Click|558, 290 Left, Down|1|0|Click|||||
+86|[Pause]||1|109|Sleep|||||
+87|Left Move & Click|558, 290 Left, Up|1|0|Click|||||
+88|[Pause]||1|2594|Sleep|||||
+89|WinActivate||1|0|WinActivate||Event ahk_class ThunderRT6FormDC|||
+90|Left Move & Click|129, 69 Left, Down|1|0|Click|||||
+91|[Pause]||1|156|Sleep|||||
+92|Left Move & Click|129, 69 Left, Up|1|0|Click|||||
+93|[Pause]||1|1610|Sleep|||||
+94|o|{o}|1|0|Send|||||
+95|[Pause]||1|578|Sleep|||||
+96|n|{n}|1|0|Send|||||
+97|[Pause]||1|656|Sleep|||||
+98|e|{e}|1|0|Send|||||
+99|[Pause]||1|1516|Sleep|||||
+100|Left Move & Click|385, 427 Left, Down|1|0|Click|||||
+101|[Pause]||1|140|Sleep|||||
+102|Left Move & Click|385, 427 Left, Up|1|0|Click|||||
+103|[Pause]||1|2485|Sleep|||||
+104|Left Move & Click|378, 463 Left, Down|1|0|Click|||||
+105|[Pause]||1|125|Sleep|||||
+106|Left Move & Click|378, 463 Left, Up|1|0|Click|||||
+107|[Pause]||1|3781|Sleep|||||
+108|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+109|Left Move & Click|83, 32 Left, Down|1|0|Click|||||
+110|[Pause]||1|156|Sleep|||||
+111|Left Move & Click|91, 40 Left, Up|1|0|Click|||||
+112|[Pause]||1|2453|Sleep|||||
+113|Left Move & Click|127, 278 Left, Down|1|0|Click|||||
+114|[Pause]||1|172|Sleep|||||
+115|Left Move & Click|127, 278 Left, Up|1|0|Click|||||
+

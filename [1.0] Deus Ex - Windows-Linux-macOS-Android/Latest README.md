@@ -10,6 +10,10 @@ This patch wouldn't exist without them, Revision, and numerous community members
 Thanks everyone! 
 
 ***
+Deus Ex Reddit: https://old.reddit.com/r/Deusex/
+
+Discord: https://discord.gg/75UpZhy
+
 This includes every translation, patch, alternate exe, and renderer known; as well as many useful tools.
 
 Also includes the original 2 mission demo with full multiplayer!

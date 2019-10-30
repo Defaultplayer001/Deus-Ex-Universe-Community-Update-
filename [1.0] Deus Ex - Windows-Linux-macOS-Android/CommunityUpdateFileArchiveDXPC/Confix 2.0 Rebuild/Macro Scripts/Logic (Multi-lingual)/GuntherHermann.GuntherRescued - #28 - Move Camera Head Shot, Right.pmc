@@ -1,0 +1,92 @@
+﻿[PMC Code v5.0.5]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Event ahk_class ThunderRT6FormDC|||
+2|[Pause]||1|1204|Sleep|||||
+3|RAlt Down|{RAlt Down}|1|0|Send|||||
+4|[Pause]||1|250|Sleep|||||
+5|i|{i}|1|0|Send|||||
+6|[Pause]||1|343|Sleep|||||
+7|RAlt Up|{RAlt Up}|1|0|Send|||||
+8|[Pause]||1|672|Sleep|||||
+9|LShift Down|{LShift Down}|1|0|Send|||||
+10|[Pause]||1|203|Sleep|||||
+11|g|{g}|1|0|Send|||||
+12|[Pause]||1|110|Sleep|||||
+13|LShift Up|{LShift Up}|1|0|Send|||||
+14|[Pause]||1|125|Sleep|||||
+15|i|{i}|1|0|Send|||||
+16|[Pause]||1|172|Sleep|||||
+17|v|{v}|1|0|Send|||||
+18|[Pause]||1|328|Sleep|||||
+19|e|{e}|1|0|Send|||||
+20|[Pause]||1|218|Sleep|||||
+21|LShift Down|{LShift Down}|1|0|Send|||||
+22|[Pause]||1|204|Sleep|||||
+23|n|{n}|1|0|Send|||||
+24|[Pause]||1|93|Sleep|||||
+25|LShift Up|{LShift Up}|1|0|Send|||||
+26|[Pause]||1|125|Sleep|||||
+27|o|{o}|1|0|Send|||||
+28|[Pause]||1|157|Sleep|||||
+29|t|{t}|1|0|Send|||||
+30|[Pause]||1|265|Sleep|||||
+31|h|{h}|1|0|Send|||||
+32|[Pause]||1|141|Sleep|||||
+33|i|{i}|1|0|Send|||||
+34|[Pause]||1|203|Sleep|||||
+35|n|{n}|1|0|Send|||||
+36|[Pause]||1|109|Sleep|||||
+37|g|{g}|1|0|Send|||||
+38|[Pause]||1|172|Sleep|||||
+39|LShift Down|{LShift Down}|1|0|Send|||||
+40|[Pause]||1|266|Sleep|||||
+41|c|{c}|1|0|Send|||||
+42|[Pause]||1|250|Sleep|||||
+43|f|{f}|1|0|Send|||||
+44|[Pause]||1|187|Sleep|||||
+45|LShift Up|{LShift Up}|1|0|Send|||||
+46|[Pause]||1|516|Sleep|||||
+47|Tab|{Tab}|1|0|Send|||||
+48|[Pause]||1|312|Sleep|||||
+49|Down|{Down}|1|0|Send|||||
+50|[Pause]||1|485|Sleep|||||
+51|Down|{Down}|1|0|Send|||||
+52|[Pause]||1|515|Sleep|||||
+53|Down|{Down}|1|0|Send|||||
+54|[Pause]||1|641|Sleep|||||
+55|Down|{Down}|1|0|Send|||||
+56|[Pause]||1|453|Sleep|||||
+57|Down|{Down}|1|0|Send|||||
+58|[Pause]||1|563|Sleep|||||
+59|Down|{Down}|1|0|Send|||||
+60|[Pause]||1|1437|Sleep|||||
+61|Tab|{Tab}|1|0|Send|||||
+62|[Pause]||1|547|Sleep|||||
+63|Tab|{Tab}|1|0|Send|||||
+64|[Pause]||1|313|Sleep|||||
+65|Down|{Down}|1|0|Send|||||
+66|[Pause]||1|359|Sleep|||||
+67|Down|{Down}|1|0|Send|||||
+68|[Pause]||1|281|Sleep|||||
+69|Down|{Down}|1|0|Send|||||
+70|[Pause]||1|438|Sleep|||||
+71|Down|{Down}|1|0|Send|||||
+72|[Pause]||1|500|Sleep|||||
+73|Down|{Down}|1|0|Send|||||
+74|[Pause]||1|484|Sleep|||||
+75|Down|{Down}|1|0|Send|||||
+76|[Pause]||1|344|Sleep|||||
+77|Down|{Down}|1|0|Send|||||
+78|[Pause]||1|500|Sleep|||||
+79|Down|{Down}|1|0|Send|||||
+80|[Pause]||1|547|Sleep|||||
+81|Down|{Down}|1|0|Send|||||
+82|[Pause]||1|578|Sleep|||||
+83|Down|{Down}|1|0|Send|||||
+84|[Pause]||1|1969|Sleep|||||
+85|RAlt Down|{RAlt Down}|1|0|Send|||||
+86|[Pause]||1|1109|Sleep|||||
+87|U|{U}|1|0|Send|||||
+88|[Pause]||1|1109|Sleep|||||
+89|RAlt Up|{RAlt Up}|1|0|Send|||||
+

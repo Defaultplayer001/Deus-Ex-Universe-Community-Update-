@@ -1,0 +1,46 @@
+﻿[PMC Code v5.0.5]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Event ahk_class ThunderRT6FormDC|||
+2|[Pause]||1|1140|Sleep|||||
+3|RAlt Down|{RAlt Down}|1|0|Send|||||
+4|[Pause]||1|1016|Sleep|||||
+5|i|{i}|1|0|Send|||||
+6|[Pause]||1|594|Sleep|||||
+7|RAlt Up|{RAlt Up}|1|0|Send|||||
+8|[Pause]||1|1515|Sleep|||||
+9|Tab|{Tab}|1|0|Send|||||
+10|[Pause]||1|703|Sleep|||||
+11|Down|{Down}|1|0|Send|||||
+12|[Pause]||1|516|Sleep|||||
+13|Down|{Down}|1|0|Send|||||
+14|[Pause]||1|422|Sleep|||||
+15|Down|{Down}|1|0|Send|||||
+16|[Pause]||1|422|Sleep|||||
+17|Down|{Down}|1|0|Send|||||
+18|[Pause]||1|406|Sleep|||||
+19|Down|{Down}|1|0|Send|||||
+20|[Pause]||1|406|Sleep|||||
+21|Down|{Down}|1|0|Send|||||
+22|[Pause]||1|453|Sleep|||||
+23|Down|{Down}|1|0|Send|||||
+24|[Pause]||1|453|Sleep|||||
+25|Down|{Down}|1|0|Send|||||
+26|[Pause]||1|407|Sleep|||||
+27|Down|{Down}|1|0|Send|||||
+28|[Pause]||1|390|Sleep|||||
+29|Down|{Down}|1|0|Send|||||
+30|[Pause]||1|485|Sleep|||||
+31|Down|{Down}|1|0|Send|||||
+32|[Pause]||1|406|Sleep|||||
+33|Down|{Down}|1|0|Send|||||
+34|[Pause]||1|1922|Sleep|||||
+35|RAlt Down|{RAlt Down}|1|0|Send|||||
+36|[Pause]||1|140|Sleep|||||
+37|RAlt Up|{RAlt Up}|1|0|Send|||||
+38|[Pause]||1|32|Sleep|||||
+39|RAlt Down|{RAlt Down}|1|0|Send|||||
+40|[Pause]||1|906|Sleep|||||
+41|u|{u}|1|0|Send|||||
+42|[Pause]||1|391|Sleep|||||
+43|RAlt Up|{RAlt Up}|1|0|Send|||||
+

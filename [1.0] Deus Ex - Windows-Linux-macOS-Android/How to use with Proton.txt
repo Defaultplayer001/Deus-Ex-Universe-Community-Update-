@@ -1,0 +1,7 @@
+The simplest solution right now seems to doing a "hard" install of the community update, then renaming DeusExCommunityUpdateINT.exe&ini (In the case of English), to DeusEx.exe&ini.
+Then simply launching normally.
+To do a "hard" install, you just copy the community update out of it's subdirectory in your Deus Ex folder, into the root. Overwriting when asked.
+Note that this will break any of the shortcuts the installer made. Though you won't need them ofc if using Steam.
+If you have any issues please let me know! If I have to I'll install Linux to help test, something I've meant to do for a while anyways.
+Info based off this guide : https://segmentnext.com/2018/12/06/steam-proton-guide/
+-Defaultplayer, taken from Discord.

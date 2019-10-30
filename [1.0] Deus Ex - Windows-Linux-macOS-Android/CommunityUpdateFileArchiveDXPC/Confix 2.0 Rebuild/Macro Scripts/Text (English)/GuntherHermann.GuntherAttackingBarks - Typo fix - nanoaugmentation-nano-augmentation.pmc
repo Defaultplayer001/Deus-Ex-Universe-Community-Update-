@@ -1,0 +1,54 @@
+﻿[PMC Code v5.0.5]|F5||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+2|[Pause]||1|1047|Sleep|||||
+3|Left Move & Click|687, 13 Left, Down|1|0|Click|||||
+4|[Pause]||1|125|Sleep|||||
+5|Left Move & Click|687, 13 Left, Up|1|0|Click|||||
+6|[Pause]||1|2250|Sleep|||||
+7|Left Move & Click|25, 190 Left, Down|1|0|Click|||||
+8|[Pause]||1|140|Sleep|||||
+9|Left Move & Click|25, 190 Left, Up|1|0|Click|||||
+10|[Pause]||1|1953|Sleep|||||
+11|Left Move & Click|90, 206 Left, Down|1|0|Click|||||
+12|[Pause]||1|110|Sleep|||||
+13|Left Move & Click|90, 206 Left, Up|1|0|Click|||||
+14|[Pause]||1|2531|Sleep|||||
+15|WinActivate||1|0|WinActivate||ConEdit ahk_class ThunderRT6FormDC|||
+16|Left Move & Click|651, 319 Left, Down|1|0|Click|||||
+17|[Pause]||1|141|Sleep|||||
+18|Left Move & Click|650, 319 Left, Up|1|0|Click|||||
+19|[Pause]||1|1062|Sleep|||||
+20|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+21|Right Move & Click|650, 319 Right, Down|1|0|Click|||||
+22|[Pause]||1|141|Sleep|||||
+23|Right Move & Click|650, 319 Right, Up|1|0|Click|||||
+24|[Pause]||1|1125|Sleep|||||
+25|Left Move & Click|688, 371 Left, Down|1|0|Click|||||
+26|[Pause]||1|109|Sleep|||||
+27|Left Move & Click|688, 371 Left, Up|1|0|Click|||||
+28|[Pause]||1|3141|Sleep|||||
+29|WinActivate||1|0|WinActivate||Event ahk_class ThunderRT6FormDC|||
+30|Left Move & Click|71, 248 Left, Down|1|0|Click|||||
+31|[Pause]||1|140|Sleep|||||
+32|Left Move & Click|71, 248 Left, Up|1|0|Click|||||
+33|[Pause]||1|1375|Sleep|||||
+34|-|{-}|1|0|Send|||||
+35|[Pause]||1|1610|Sleep|||||
+36|Left Move & Click|374, 436 Left, Down|1|0|Click|||||
+37|[Pause]||1|125|Sleep|||||
+38|Left Move & Click|374, 436 Left, Up|1|0|Click|||||
+39|[Pause]||1|1859|Sleep|||||
+40|Left Move & Click|382, 478 Left, Down|1|0|Click|||||
+41|[Pause]||1|156|Sleep|||||
+42|Left Move & Click|382, 478 Left, Up|1|0|Click|||||
+43|[Pause]||1|3172|Sleep|||||
+44|Left Move & Click|-223, -220 Left, Down|1|0|Click|||||
+45|[Pause]||1|141|Sleep|||||
+46|Left Move & Click|94, 37 Left, Up|1|0|Click|||||
+47|[Pause]||1|2687|Sleep|||||
+48|WinActivate||1|0|WinActivate||ConEdit - C:\Deus-Ex-Universe-Community-Update-\[1.0] Deus Ex - Windows-Linux-macOS-Android\CommunityUpdateFileArchiveDXPC\Confix 2.0 Rebuild\Scripts\Mission1.con ahk_class ThunderRT6FormDC|||
+49|Left Move & Click|138, 273 Left, Down|1|0|Click|||||
+50|[Pause]||1|125|Sleep|||||
+51|Left Move & Click|138, 273 Left, Up|1|0|Click|||||
+
