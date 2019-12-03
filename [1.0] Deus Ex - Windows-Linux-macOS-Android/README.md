@@ -22,7 +22,7 @@ Updates to included files have been and will continue to be done. Please report 
 
 We have a discord here:
 
-https://discord.gg/75UpZhy
+https://discord.gg/jCFJ3A6
 
 Feel free to stop by with any bugs, questions, comments or criticisms.
 
