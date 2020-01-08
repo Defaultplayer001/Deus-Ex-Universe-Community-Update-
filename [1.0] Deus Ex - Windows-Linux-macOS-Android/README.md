@@ -12,6 +12,8 @@ Also included are the original demo files which you apply the multiplayer patch 
 
 This lets you play the full multiplayer and singleplayer up to the end of mission 2!
 
+Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
+
 A program (Antimicro) is included that will run automatically when you launch the shortcut. This will let you use any gamepad capable of using the Xbox 360 driver in the game.
 
 Keybinds and guide can be found in the Help folder.

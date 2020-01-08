@@ -405,6 +405,8 @@ bird: Member of Deus Ex Hungarian Translation Team, made Hungarian setup transla
 
 Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, 
 
+Vauclair: German Language install testing, support. 
+
 PhinSorcery: UPV3 Testing
 
 JeniSkunk: UPV3 Testing (Maps), tester
