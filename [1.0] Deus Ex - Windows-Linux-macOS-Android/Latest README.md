@@ -1,3 +1,5 @@
+Note: This is a copy of the *latest* ReadMe, to view the latest release's Readme see "Latest ReadMe.MD". (Current release: 2019-5-14-342)"
+
 # Deus-Ex-1-Community-Update-
 
 https://www.patreon.com/hanfling/overview
@@ -150,9 +152,10 @@ If you install a translation, Confix will not be.
 
 ### Alternate EXEs : (Launch Recommended) 
 * Launch (Used by default, more compatible / stable,  still developed & supported) 
+	* LCC.exe, a UCC.exe update, is also included with Launch and can be used the same way as UCC. 
 * Deus Exe (More features, less compatible / stable, no longer developed or supported) (In archive, extract the setup exe to access)
 	* Note: Not compatible with XP, older version (5.3) that is included in files.
-* UE1 Launch (Relatively new, needs testing but promising. Uses borderless windows by default) (In archive extract the setup exe to access)
+* UE1 Launcher (Relatively new, needs testing but promising. Uses borderless windows by default) (In archive extract the setup exe to access)
 
 ### Video Renderers;
 * Nglide (3dfx emulator)
@@ -282,7 +285,7 @@ Hawk: ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision
 
 Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2
 
-Hanfling: Launch, RF (Revision Framework), RenderExt, HTK Commandlets, Editor Fix, Support, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
+Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, HTK Commandlets, Editor Fix, UCC Fix, Support, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 https://www.patreon.com/hanfling/overview
 
