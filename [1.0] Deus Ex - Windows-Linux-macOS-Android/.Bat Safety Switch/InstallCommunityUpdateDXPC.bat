@@ -217,8 +217,8 @@ IF "%Demo%"=="Yes" copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v
 IF "%Demo%"=="Yes" goto :demoskip 	
 :demoskip
 rem 		Unofficial Patch v2
-:Now using an edited version of UPV2 by default
-:"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10.zip" -y
+;Now using an edited version of UPV2 by default
+;"%~dp0\CommunityUpdateFileArchiveDXPC\7z1800\7z.exe" x "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10.zip" -y
 ;copy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\ReadMe.txt" "%~dp0\Help\Unofficial-Patch-V2-edited-render-relaunch-ReadMe.txt" /Y
 ;xcopy "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10\*" "%~dp0\System\" /Y /S
 ;rmdir "%~dp0\CommunityUpdateFileArchiveDXPC\Unofficial Patch v2\Unofficial_DeusExV2_v_0.10" /S /Q

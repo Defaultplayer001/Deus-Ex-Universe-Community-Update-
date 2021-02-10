@@ -1,0 +1,5 @@
+GreaselToday at 7:42 AM
+I think conversation files have to be in the same directory as the exe
+nahToday at 7:51 AM
+actually not necessarily, but but rather relative to the exe as ..\System\<thing>
+that is so unnecessary and annoying

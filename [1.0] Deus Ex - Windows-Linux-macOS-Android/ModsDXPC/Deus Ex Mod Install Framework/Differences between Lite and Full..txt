@@ -1,0 +1,13 @@
+Full has all the needed .u files, except conversation files. (If needed get those from Confix.) 
+
+Included at Han's suggestion, supposed to cause int errors. Most noticeably duplicate render int entries, causing duplicate renderers to show up on the selection screen.
+
+However, I (DP), discovered that if you don't have redundant paths in DeusEx.ini, or simply don't have a DeusEx.ini - 
+
+Then your modtitle.ini can have whatever paths it needs, without having duplicate int. 
+
+If it does cause errors, their also arguably minor enough to be worth the space savings. 
+
+Though, also arguably not considering modern storage.
+
+Still, the choice is there. 

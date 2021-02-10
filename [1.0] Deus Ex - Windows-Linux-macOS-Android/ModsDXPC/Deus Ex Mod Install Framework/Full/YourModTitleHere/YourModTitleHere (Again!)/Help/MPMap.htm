@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Deus Ex Multiplayer Map Creation Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#C0c0c0">
+<h2 align="center">Deus Ex Multiplayer Map Creation Guide</h2>
+<h4 align="center"> January 4, 2001<br>
+  Version 1.0</h4>
+<hr>
+<p>Making a deathmatch level for Deus Ex requires more than standard deathmatch 
+  architecture. Many of the game elements have been balanced assuming certain 
+  standard map settings. This document explains those map settings.</p>
+<p><b>Computers<br>
+  </b>In multiplayer games, all computers are supposed to start hacking automatically 
+  and not allow login via password. Since we don't support randomized passwords, 
+  any actual password would allow users to completely skip the hacking step, and 
+  thus eliminating the usefulness of the computer skill. To remove the password, 
+  set the Login and Passwords for all accounts on the computer to "" (that is, 
+  blank). If the passwords are successfully removed, the computer will not have 
+  a login screen and hacking will be automatic. </p>
+<p><b>Keypads<br>
+  </b>Multiplayer ignores keypad codes. Keypads are almost always used to guard 
+  repair bots, and for nothing else. There are exceptions, but the standard for 
+  the multitooling skill is that it allow Repair bot access and the ability to 
+  disable turrets. Repair bots should be locked up with a keypad between 20% and 
+  30% strength. Repair bot doors should close about 28 seconds after they open. 
+</p>
+<p><b>Locked Cabinets</b><br>
+  Locked cabinets are used to guard alternate ammo types, LAMs, biocells, LAW 
+  rockets and possibly other goodies such as ballistic armor. The standard lock 
+  should be between 20 and 30% difficult. LAW rockets should be locked up at about 
+  60% difficulty. Locked doors close automatically in multiplayer, there is no 
+  need to make them do so yourself.</p>
+<p><b>Weapon Racks</b><br>
+  Weapon racks are used to distribute weapons. Every spawn point should have both 
+  kinds of weapon racks (small and large weapons) within easy grasp.</p>
+<p><b>Repair/Med Bots<br>
+  </b>All bots should be set so that they don't move around. This involves setting 
+  their orders to "standing", and setting all Stimuli, Reactions, and Fears to 
+  false. </p>
+<p><b>Cameras and Turrets<br>
+  </b>In order to correctly inform your teammates as to which turret you've hacked, 
+  each turret should be set with a distinct TitleString. This name will appear 
+  when you put your crosshairs over a turret or when you or a teammate hacks a 
+  turret. It will also be the name displayed when a turret kills someone. <br>
+  <br>
+  Cameras should be set with bNoAlarm false and bActive false. They will start 
+  out off, and players using a computer can then turn them on. There should only 
+  be one camera per computer, due to the extra network traffic required for additional 
+  camera views.</p>
+<p><b>Spawn Points<br>
+  </b>Spawn points should be clustered together near weapon racks, approximately 
+  100 units from each other. Clustered spawn points allow teams to spawn together. 
+  Team spawning is handled automatically in code. As long as you provide sufficient 
+  spawn points in an area, an entire team can spawn there. Since spawn points 
+  should be clustered together in team games, this reduces the number of areas 
+  where players can reasonably spawn. In non-team games, this can present problems 
+  as players are more likely to spawn near each other. To solve this, any cluster 
+  of spawn points should have mark most spawn points bTeamOnlyStart. Only one 
+  spawn point per cluster should not be so marked. In addition, it is recommended 
+  that deathmatch maps have additional spawn points. These should be marked as 
+  bNonTeamOnlyStart true. This will activate them only in non-team games. </p>
+<hr>
+</body>
+</html>

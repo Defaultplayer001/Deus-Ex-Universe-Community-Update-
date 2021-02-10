@@ -26,6 +26,13 @@ Simply install and run from the created "Play Deus Ex" shortcut in your Start me
 
 This should work on every copy of Deus Ex available, if it doesn't please let us know! 
 
+Note: For some currently unknown reasoon on German copies of Windows the installer fails. If on one extract this pre-installed copy into your Deus Ex root instead, and run "DeusExCommunityUpdateINT.Exe" in your "DeusExRootHere"\DeusExCommunityUpdate\DeusEx\System folder to start the game!
+*Not* your regular DeusEx.exe. That will just launch whatever unmodified version of Deus Ex you have installed.
+
+https://drive.google.com/file/d/1QNISRX3ERaNN022HmUVDvZwSp6FCJR0z/view?usp=sharing
+
+Be aware this is an English only copy without mods or the demo installed, with all options set to their default.  
+
 #### Mirrors: 
 ModDB:
 https://www.moddb.com/mods/deus-ex-community-update/downloads/deus-ex-1-community-update-2019-5-14-342
