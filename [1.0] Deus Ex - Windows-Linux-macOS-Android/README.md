@@ -34,6 +34,15 @@ https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
 
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 
+Notable Features: 
+
+0. Something languages
+
+1, something confix
+
+2. something graphics
+
+3. something various community fixes
 
 The package Includes the following:
 

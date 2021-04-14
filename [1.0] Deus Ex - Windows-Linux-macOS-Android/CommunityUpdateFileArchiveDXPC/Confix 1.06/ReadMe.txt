@@ -67,6 +67,8 @@ HAWK:			PaulDenton.MeetPaul - Added a NoRoom response
 			TerroristCommander.TerroristStatueBarks - Typo fix ("seccessionism" => "secessionism")
 HAWK:			Trooper2.Trooper2Barks - Checks if A1 has played in order for A4 to play
 
+Veronika: 		PaulDenton.MeetPaul - Last speech line set to talk to PaulDenton instead of the incorrect TechSergeantKaplan 
+
 Mission1_Infolink:
 			JCDenton.DL_FrontEntranceBot - Will play even after the statue (case is handled in vanilla), so the player will know he can use EMP grenades on bots
 			JCDenton.DL_libertyruinsairshaft - "millenial" => "millennial"

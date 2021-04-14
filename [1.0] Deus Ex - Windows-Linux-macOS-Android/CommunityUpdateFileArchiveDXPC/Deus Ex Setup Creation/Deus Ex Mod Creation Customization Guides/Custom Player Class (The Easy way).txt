@@ -1,0 +1,11 @@
+1. Make an exstension of JCDentonMale.
+
+2. Modifiy with desired mesh / skin.
+
+3. Change DisplayName to desired name. 
+
+When using Conedit, use JCDentonMale as the bindname. 
+
+Yeah, it's ugly.
+
+Easy though, honestly possibly the best method. 

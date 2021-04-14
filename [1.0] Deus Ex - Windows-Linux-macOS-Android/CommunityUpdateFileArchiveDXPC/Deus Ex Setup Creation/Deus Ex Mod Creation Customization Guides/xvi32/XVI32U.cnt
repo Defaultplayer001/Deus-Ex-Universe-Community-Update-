@@ -1,0 +1,50 @@
+:Base XVI32U.HLP
+:Title XVI32
+1 About XVI32
+2 Features=IDH_FEAT
+2 Memory usage=IDH_MEMORY
+2 History=IDH_HISTORY
+2 What's a hex editor?=IDH_WHATS
+2 Licence agreement and Copyright=IDH_LIC
+1 Getting started
+2 Installation=IDH_INSTALL
+2 Uninstall XVI32=IDH_UNINSTALL
+2 XVI32 window=IDH_WINDOW
+2 Using keys=IDH_KEYS
+2 Mark a block=IDH_BLOCK
+2 Using help in dialogs=IDH_USEHELP
+1 Menus
+2 Overview=IDH_MENUS
+2 File=IDH_FILE
+2 Edit=IDH_EDIT
+2 Search=IDH_SEARCH
+2 Address=IDH_ADDRESS
+2 Bookmarks=IDH_BOOKM
+2 Tools=IDH_TOOLS
+2 XVIscript=IDH_SCRINTRO
+2 Help=IDH_HELP
+1 Main commands
+2 Insert string=IDH_INSSTR
+2 Find string=IDH_FIND
+2 Count occurrence of string=IDH_COUNT
+2 Replace string=IDH_REPLACE
+2 Character conversion=IDH_CHARCON
+2 Go to=IDH_GOTO
+2 Encode number=IDH_ENCODE
+2 Printing=IDH_PRINT
+2 Options
+3 General=IDH_OPT_GEN
+3 Appearance=IDH_OPT_APP
+3 Data Inspector=IDH_OPT_DI
+3 Shortcut Link=IDH_OPT_LNK
+1 XVIscript
+2 Introduction=IDH_SCRINTRO
+2 Syntax check and execution=IDH_SCRSYNT
+2 Error messages=IDH_SCRERR
+2 Command reference=IDH_SCRCMD
+2 Command line parameters=IDH_SCRPARAM
+2 Example=IDH_SCREXMP
+1 Tips
+2 Auto-fill feature=IDH_AUTOFILL
+2 Miscellaneous=IDH_MISC
+2 Create or remove shortcut link=IDH_OPTSHORT

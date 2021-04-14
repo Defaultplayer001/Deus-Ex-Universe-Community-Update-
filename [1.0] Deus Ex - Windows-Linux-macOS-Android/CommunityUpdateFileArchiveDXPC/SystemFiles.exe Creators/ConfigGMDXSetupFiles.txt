@@ -1,0 +1,5 @@
+;!@Install@!UTF-8!
+Title="GMDX Community Update"
+InstallPath="%TEMP%\GMDXCU"
+ExecuteFile="Mod Path Script.bat"
+;!@InstallEnd@!

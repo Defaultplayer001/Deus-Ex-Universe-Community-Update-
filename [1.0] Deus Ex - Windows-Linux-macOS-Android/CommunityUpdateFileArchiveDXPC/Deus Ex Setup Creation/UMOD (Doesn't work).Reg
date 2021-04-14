@@ -1,0 +1,19 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\.umod]
+@="UnrealTournament.Module"
+
+[HKEY_CLASSES_ROOT\UnrealTournament.Module]
+@="Unreal Tournament Module"
+
+[HKEY_CLASSES_ROOT\UnrealTournament.Module\DefaultIcon]
+@="C:\ADA\Dev\DeusEx\DeusExCommunityUpdate\IWRCU\Help\DeusEx.ico"
+
+[HKEY_CLASSES_ROOT\UnrealTournament.Module\Shell]
+@="open"
+
+[HKEY_CLASSES_ROOT\UnrealTournament.Module\Shell\open]
+@="&Install this Unreal Tournament module"
+
+[HKEY_CLASSES_ROOT\UnrealTournament.Module\Shell\open\command]
+@="C:\ADA\Dev\DeusEx\DeusExCommunityUpdate\IWRCU\System\Setup.exe install \"%1\""

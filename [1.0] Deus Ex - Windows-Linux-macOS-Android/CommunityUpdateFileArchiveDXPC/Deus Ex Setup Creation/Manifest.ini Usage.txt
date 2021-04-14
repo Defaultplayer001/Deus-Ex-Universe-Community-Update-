@@ -1,6 +1,6 @@
 Document created by Defaultplayer001, please message about anything you want to make with this, I'd love to help! 
 
-Error messages appear in XP! Very useful for debugging 
+Error messages appear more consistently in XP! Very useful for debugging 
 
 IMPORTANT NOTE: BE CAREFUL OF SPACES AND SYNTAX IN GENERAL
 If you have a space, say; right at the inital [Setup] line, so it's as follows:
@@ -12,12 +12,34 @@ This will BREAK the setup with a missing version number error.
 Keep MANY backups, and if in trouble, revert to your last working copy and carefully work your way back to where you were.
 In my experience this is normally faster then trying to debug the black box that is this setup. 
 
+Requires=
+	Sets requirments for install. 
+	If not set there will be no requirements.
+	Example:
+	Requires=PatchRequirements
+	(Then, set a properly named group below the [Setup] one, customarily directly below. Presumably anywhere should be fine)
+	Product=Deus Ex (Sets registry name to look for under HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Unreal Technology\Installed Apps\)
+	Version=1002f (Minimum version required.)
+	MaxVersion=9909z (Max version that can be used. *REQUIRED* to be entered for the 1014 Setup.exe, or it will fail seemingly any version check!)
+
 MasterPath=
 	Default value is MasterPath=..
 	Unknown purpose, if not present setup seems to still fine.
 	In a command prompt, one period "." refers to the current directory, two ".." refers to the parent directory.
 	My initial guess was this would specify the main working directory. 
 	However changing the valuse seems to have no effect
+	Related to Master=?
+Optional=
+	If set to false, group has to be installed and the user can't deselect it.
+Visible=
+	If set to false, group will be invisible.
+Selected=
+	If set to false, group will be deselected by default.
+	Many / all? versions of the setup exe but one seem to have an issue with items being selected by default no matter what the setting.
+	1014 found to work correctly with options and exes.
+	However, 1014 has an issue with version detection, will mistakenly fail the check no matter what - 
+	Unless a MaxVersion= is set. 
+	A workaround is to use a nigh impossible to reach hypothetical number such as MaxVersion=9999z.
 File=
 	Install command 
 		Example: File=(Src=System\SystemFiles.exe,Size=54847488)
@@ -46,9 +68,19 @@ Language=
 	There is also this bit of code in some official manifests:
 	[IntGroup]
 	;File=(Master=SystemLocalized\*.frt,Src=System\*.frt,Lang=frt)
-
 	Commented out and unused, but it should work. Haven't experimented with it however due to the clutter multiple sets of INT files in one folder involves.
+
+	Also in a UT 225c manifest I found: 
+	File=(Src=System\UnrealI.u,Ref=System\UnrealI.u)
 	
+	What is "Ref"? Experiment.
+
+	Also also:
+	File=(Src=System\User.ini,Master=System\DefUserUnreal.ini)
+
+	Why is "Master after "Src" here? 
+
+
 %Language%
 	Language variable, inputs the currently selected language's reference code as a string. 
 	Example: License=License.%Language% will load license.int by default, if German is selected, License.det will be loaded!
@@ -59,7 +91,7 @@ Language=
 
 PostExec=
 	**NOTE: ONLY SEEMS TO WORK IF THE EXE IS NAMED SYSTEMFILES.EXE, SYSTEMFILE%LANGUAGE% ALSO WORKS. Not sure why, swore I've used custom filenames before but can't reproduce reliably**
-
+	***Used custom filenames often since making this not, unsure of the issue. Was I using a different EXE version?***
 	Sets executable to run after installation.
 	Only had success with exes so far.
 	Example: PostExec=InstallSystemFiles will load info from an [InstallSystemFiles] group, which look as follows: 
@@ -75,6 +107,7 @@ PostExec=
 		DeleteExec= If true, deletes the executable after install
 		PollMessage= Message to display when running (Note: probably requires custom int entry for translations, investigate)
 ..
+	Better NOTE: Workaround, use: WorkDir="%TEMP%\InstallLocation" or similar.
 	NOTE: You *must* have installed the exectuable with the File= command! Or it will attempt to launch a file that's not there!
 	It will fail to launch without an error, and setup will finish as though normal. 
 		Example: File=(Src=System\SystemFiles.exe,Size=54906880) is how the SystemFiles.exe is installed. 
@@ -82,7 +115,7 @@ PostExec=
 	There seems to be a way to install an EXE without PostExec, some sort of hardcoding in the exe, as I have seen a few disc based manifests without the postexec that still install a systemfiles.exe
 	Also, you can only specify ONE exec per group, to install more, just create EXE specific groups.
 	Use "WorkDir=." to run an exe in the root directory 
-
+	Better NOTE: Workaround, use: WorkDir="%TEMP%\InstallLocation" or similar. (Again, to be super obvious hopefully)
 Lang=
 	installs files if a specific lang is selected
 		Example: File=(Master=SystemLocalized\*.frt,Src=System\*.frt,Lang=frt) will install ALL frt files if French is selected as the install language
@@ -101,3 +134,56 @@ Ini=
 	Adds ini entries or modifies existing ones.
 	No current known way to delete entries, for multiple similar entries such as ServerActors= that need to be modified this can present issues, as only the first will be changed.
 	Experiment with the above ! command, perhaps it has something to do with it.
+
+Backup=
+	?
+	In the 1112fm Uninstall Manifest. 
+	Example: Backup=System\Core.dll
+
+Copy=
+	?
+	Seems to be related to SrcPath/MasterPath. 
+	Example: Copy=(Src=System\Manifest.ini,Master=System\Manifest.ini,Size=18482)
+
+SrcPath=
+	?
+	Related to Src=?
+	Example: SrcPath=\\Battlezone\General\DeusEx\ReleaseGOTY
+
+
+Below is copy / pasted from https://beyondunrealwiki.github.io/pages/umod-reference.html
+
+Path variables
+Useful in shortcut paths. 
+
+WinSysPath
+	This path does not end with a backslash unless the system directory is the root directory.
+	For example, if the system directory is named Windows\System on drive C, the path of the system directory retrieved by this function is C:\Windows\System.
+WinPath
+	This path does not end with a backslash unless the Windows directory is the root directory.
+	For example, if the Windows directory is named Windows on drive C, the path of the Windows directory retrieved by this function is C:\Windows.
+	If the system was installed in the root directory of drive C, the path retrieved is C:\.
+DesktopPath
+	The virtual folder representing the Windows desktop.
+ProgramsPath
+	The file system directory that contains the user's program groups (which are themselves file system directories).
+	A typical path is C:\Documents and Settings\username\Start Menu\Programs.
+FavoritesPath
+	The file system directory that serves as a common repository for the user's favorite items.
+	A typical path is C:\Documents and Settings\username\Favorites.
+StartupPath
+	The file system directory that corresponds to the user's Startup program group.
+	A typical path is C:\Documents and Settings\username\Start Menu\Programs\Startup.
+CommonProgramsPath
+	The file system directory that contains the directories for the common program groups that appear on the Start menu for all users.
+	A typical path is C:\Documents and Settings\All Users\Start Menu\Programs.
+	Valid only for Windows NT systems.
+CommonFavoritesPath
+	The file system directory that serves as a common repository for favorite items common to all users.
+	Valid only for Windows NT systems.
+CommonStartupPath
+	The file system directory that contains the programs that appear in the Startup folder for all users.
+	A typical path is C:\Documents and Settings\All Users\Start Menu\Programs\Startup.
+	Valid only for Windows NT systems.
+
+
