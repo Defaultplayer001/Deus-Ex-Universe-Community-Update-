@@ -6,6 +6,8 @@ Full has all the needed .u files, except conversation files. (If needed get thos
 
 Included at Han's suggestion, supposed to cause int errors. Most noticeably duplicate render int entries, causing duplicate renderers to show up on the selection screen.
 
+Note: Use a custom language code (English=int) as an alternative workaround! Below does not consistently work, mysteriously started not working for me! 
+	Note to the Note: This doesn't seem to work if at least one extra system path isn't set up? Presumably with .int files.
 However, I (DP), discovered that if you don't have redundant paths in DeusEx.ini, or simply don't have a DeusEx.ini - 
 
 Then your modtitle.ini can have whatever paths it needs, without having duplicate int. 

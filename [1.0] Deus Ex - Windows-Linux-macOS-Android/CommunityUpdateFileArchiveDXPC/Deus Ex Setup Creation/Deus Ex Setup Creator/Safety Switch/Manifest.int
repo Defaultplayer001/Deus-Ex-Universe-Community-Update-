@@ -1,7 +1,7 @@
 [Setup]
 LocalProduct=Deus Ex Mod
 DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
-ReadMe=Help\ReadMe.htm
+ReadMe=subdir\Help\Changelog.html
 SetupWindowTitle=Deus Ex Mod Setup
 AutoplayWindowTitle=Deus Ex Mod Options
 ProductURL=
@@ -13,7 +13,7 @@ PublisherURL=
 PublisherStoreURL=
 PlanetDeusExURL=
 DeusExURL=
-Logo=Help\LogoSmall.bmp
+Logo=subdir\Help\LogoSmall.bmp
 License=License.int
 
 [General]
@@ -45,7 +45,18 @@ Description=Deus Ex world editor, for creating your own 3D Deus Ex environments.
 Caption=DirectX
 Description=Microsoft DirectX 7.0a drivers for enhanced graphics, sound, and joystick support. If you do not currently have DirectX 7.0a installed, you must choose this option.
 
+[PlayShortcutGroup]
+Caption=Start Menu Shortcut
+Description=Create shortcut in the Start Menu.
+
+[DesktopPlayShortcutGroup]
+Caption=Desktop Shortcut
+Description=Create shortcut on the Desktop.
+
 [PlayShortcut]
+Caption=Play Deus Ex Mod
+
+[DesktopPlayShortcut]
 Caption=Play Deus Ex Mod
 
 [SafeModeShortcut]

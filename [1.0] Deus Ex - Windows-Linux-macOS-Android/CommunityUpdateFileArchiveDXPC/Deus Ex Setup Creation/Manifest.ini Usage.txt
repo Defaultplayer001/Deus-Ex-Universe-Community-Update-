@@ -107,6 +107,7 @@ PostExec=
 		DeleteExec= If true, deletes the executable after install
 		PollMessage= Message to display when running (Note: probably requires custom int entry for translations, investigate)
 ..
+	EVEN BETTER NOTE: This shit DON'T WORK, idk why I thought it did. Investigate further.
 	Better NOTE: Workaround, use: WorkDir="%TEMP%\InstallLocation" or similar.
 	NOTE: You *must* have installed the exectuable with the File= command! Or it will attempt to launch a file that's not there!
 	It will fail to launch without an error, and setup will finish as though normal. 
