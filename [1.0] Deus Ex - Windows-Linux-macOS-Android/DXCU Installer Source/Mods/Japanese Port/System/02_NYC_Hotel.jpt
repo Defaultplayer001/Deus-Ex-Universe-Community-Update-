@@ -1,0 +1,29 @@
+[Male0]
+FamiliarName="Former Male Hostage"
+UnfamiliarName="Male Hostage"
+
+[Female0]
+FamiliarName="Former Female Hostage"
+UnfamiliarName="Female Hostage"
+
+[SkillAwardTrigger1]
+awardMessage="Accomplishment Bonus"
+
+[GilbertRenton0]
+UnfamiliarName="Hotel Clerk"
+
+[SkillAwardTrigger0]
+awardMessage="Exploration Bonus"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - 'Ton Hotel"
+startupMessage[0]="NYC - 'Ton Hotel"
+startupMessageJ[0]="ニューヨーク　'Ton Hotel"
+
+
+[NanoKey0]
+Description="'Ton Hotel, North Room Key"
+
+[LevelSummary]
+Title="Untitled"
+

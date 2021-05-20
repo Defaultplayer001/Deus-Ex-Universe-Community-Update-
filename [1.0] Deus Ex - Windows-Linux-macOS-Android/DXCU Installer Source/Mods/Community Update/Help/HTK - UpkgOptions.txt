@@ -1,0 +1,43 @@
+
+*---------------------*---------------------*---------------------*---------------------*---------------------*---------------------*---------------------*
+| Resource            | Property/Variable   | Command/Factory     | Subcommand          | Option              | *.upkg              | Type                |
+*---------------------*---------------------*---------------------*---------------------*---------------------*---------------------*---------------------*
+| Texture             | PolyFlags           | Texture             | Import              | Flags               | TextureFlags        | Integer             |
+| Texture             | LODSet              | Texture             | Import              | LODSet              | TextureLODSet       | Integer             |
+| Texture             |                     | Texture             | Import              | Mips                | TextureMips         | Boolean             |
+| Texture             |                     | Texture             | Import              | AlphaTrick          | TextureAlphaTrick   | Boolean             |
+| Texture             | AnimNext            | Texture             | Import              | Next                | TextureAnimNext (1) | Object<Texture>     |
+| Texture             | DetailTexture       | Texture             | Import              | Detail              | DetailTexture       | Object<Texture>     |
+| Texture             | MacroTexture        | Texture             | Import              | MTex                | MacroTexture        | Object<Texture>     |
+| Texture             | BumpMap             |                     |                     |                     | BumpMapTexture      | Object<Texture>     |
+| Texture             | MaxFrameRate        |                     |                     |                     | TextureMaxFrameRate | Float               |
+| Texture             | MinFrameRate        |                     |                     |                     | TextureMinFrameRate | Float               |
+| Texture             | PrimeCount          |                     |                     |                     | TexturePrimeCount   | Byte                |
+| Texture             | bHighColorQuality   |                     |                     |                     | (2)                 | Boolean             |
+| Texture             | bHighTextureQuality |                     |                     |                     | (2)                 | Boolean             |
+| Texture             | Palette             |                     |                     |                     | (3)                 | Object<Palette>     |
+| Texture             | FootstepSound       |                     |                     |                     | TextureFootstepSound| Object<Sound>       |
+| Texture             | HitSound            |                     |                     |                     | TextureHitSound     | Object<Sound>       |
+| Texture             | UClamp              |                     |                     |                     | TextureUClamp       | Integer             |
+| Texture             | VClamp              |                     |                     |                     | TextureVClamp       | Integer             |
+| Texture             | DrawScale           |                     |                     |                     | TextureDrawScale    | Float               |
+| Texture             | Friction            |                     |                     |                     | TextureFriction     | Float               |
+| Texture             | MipMult             |                     |                     |                     | TextureMipMult      | Float               |
+| Texture             | Alpha               |                     |                     |                     | TextureAlpha        | Float               |
+| Texture             | Diffuse             |                     |                     |                     | TextureDiffuse      | Float               |
+| Texture             | Specular            |                     |                     |                     | TextureSpecular     | Float               |
+*---------------------*---------------------*---------------------*---------------------*---------------------*---------------------*---------------------*
+| True Type Font      |                     | TrueTypeFontFactory |                     | USize               | PageUSize           | Integer             |
+| True Type Font      |                     | TrueTypeFontFactory |                     | VSize               | PageVSize           | Integer             |
+| True Type Font      |                     | TrueTypeFontFactory |                     | CharactersPerPage   | GlyphsPerPage       | Integer             |
+| True Type Font      |                     | TrueTypeFontFactory |                     | AntiAlias           | GlyphAntiAlias      | Boolean             |
+| True Type Font      |                     | TrueTypeFontFactory |                     | XPad                | GlyphXPad           | Integer             |
+| True Type Font      |                     | TrueTypeFontFactory |                     | YPad                | GlyphYPad           | Integer             |
+| True Type Font      |                     | TrueTypeFontFactory |                     | Height              | GlyphHeight         | Integer             |
+| True Type Font      |                     | TrueTypeFontFactory |                     | Count               | GlyphCount          | Integer             |
+| True Type Font      |                     | TrueTypeFontFactory |                     | List                | GlyphList           | String              |
+*---------------------*---------------------*---------------------*---------------------*---------------------*---------------------*---------------------*
+
+ (1) Texture animation linking should not be performed manually. Use _A[0-9]{2} pattern instead. Option added for legacy compatibilty in Deus Ex.
+ (2) Unused.
+ (3) Not feasable.

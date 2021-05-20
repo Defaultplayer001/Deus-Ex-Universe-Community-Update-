@@ -1,0 +1,67 @@
+[ComputerPersonal1]
+specialOptions[0]="(Text="CycleTunnel Doors",TriggerText="Cycling Main Doors",TriggerEvent=MainDoors)"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=LeadTerrorist,KeyID=CCSafe,Description="Key to Castle Clinton Safe")"
+
+[BumMale3]
+FamiliarName="Former Hostage"
+UnfamiliarName="Hostage"
+
+[SkillAwardTrigger5]
+awardMessage="Accomplishment Bonus"
+
+[ChildMale0]
+FamiliarName="Billy"
+UnfamiliarName="Kid"
+
+[JunkieFemale0]
+FamiliarName="Sick Woman"
+UnfamiliarName="Sick Woman"
+
+[NanoKey3]
+Description="Keys to the doors of the Kiosk"
+
+[JunkieMale2]
+FamiliarName="Sick Man"
+UnfamiliarName="Sick Man"
+
+[SkillAwardTrigger10]
+awardMessage="Area Location Bonus"
+
+[ChildMale1]
+FamiliarName="Josh"
+UnfamiliarName="Kid"
+
+[SkillAwardTrigger6]
+awardMessage="Accomplishment Bonus"
+
+[BumFemale0]
+FamiliarName="Girl Bum"
+UnfamiliarName="Girl Bum"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Storage Warehouse",cameraTag=Warehouse,turretTag=Turret1)"
+Views[1]="(titleString="Tunnel Bridge",cameraTag=Walkway,turretTag=Turret2)"
+Views[2]="(titleString="Boathouse Approach",cameraTag=Boathouse,turretTag=Turret3)"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Battery Park"
+startupMessage[0]="New York City, Battery Park"
+startupMessageJ[0]="ニューヨーク　バッテリーパーク"
+
+[NanoKey0]
+Description="Kiosk door key"
+
+[SkillAwardTrigger1]
+awardMessage="Exploration Bonus"
+
+[SkillAwardTrigger2]
+awardMessage="Area Location Bonus"
+
+[SkillAwardTrigger0]
+awardMessage="Accomplishment Bonus"
+
+[LevelSummary]
+Title="Untitled"
+

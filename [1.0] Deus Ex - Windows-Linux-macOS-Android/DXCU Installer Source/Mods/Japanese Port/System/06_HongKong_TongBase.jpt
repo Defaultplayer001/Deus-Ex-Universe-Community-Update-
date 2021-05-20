@@ -1,0 +1,54 @@
+[TriadRedArrow3]
+FamiliarName="Tong's Guard"
+UnfamiliarName="Tong's Guard"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Tong's Base"
+startupMessage[0]="Tracer Tong's Laboratory"
+startupMessageJ[0]="Tracer Tong　研究施設"
+
+[TriadRedArrow4]
+FamiliarName="Tong's Guard"
+UnfamiliarName="Tong's Guard"
+
+[TriadRedArrow1]
+FamiliarName="Tong's Guard"
+UnfamiliarName="Tong's Guard"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+PickupMessage="Jockのアパートへの入室キーを発見"
+Description="Jock's Tonnochi Road apartment"
+
+[TriadLumPath1]
+FamiliarName="Tong's Guard"
+UnfamiliarName="Tong's Guard"
+
+[TriadLumPath0]
+FamiliarName="Tong's Guard"
+UnfamiliarName="Tong's Guard"
+
+[TriadLumPath3]
+FamiliarName="Tong's Guard"
+UnfamiliarName="Tong's Guard"
+
+[TriadLumPath4]
+FamiliarName="Tong's Guard"
+UnfamiliarName="Tong's Guard"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[SkillAwardTrigger0]
+awardMessage="Subject Acquisition Bonus"
+
+[TriadLumPath2]
+FamiliarName="Tong's Guard"
+UnfamiliarName="Tong's Guard"
+
+[TriadRedArrow0]
+FamiliarName="Tong's Guard"
+UnfamiliarName="Tong's Guard"
+

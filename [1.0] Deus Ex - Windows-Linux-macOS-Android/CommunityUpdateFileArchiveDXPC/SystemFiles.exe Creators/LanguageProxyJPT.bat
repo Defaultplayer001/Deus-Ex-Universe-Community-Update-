@@ -1,4 +1,4 @@
 @ECHO OFF
 Echo Launching Deus Ex...
-"..\System (Japanese)\DeusEx.exe"
+"..\..\Japanese Port\System\DeusEx.exe"
 exit

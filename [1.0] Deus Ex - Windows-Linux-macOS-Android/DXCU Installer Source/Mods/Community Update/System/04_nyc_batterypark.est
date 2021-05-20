@@ -1,0 +1,27 @@
+[DeusExLevelInfo0]
+MissionLocation="NYC - Parque Battery"
+startupMessage[0]="New York City,"
+startupMessage[1]=" Parque Battery"
+
+[ChildMale0]
+FamiliarName="Billy"
+UnfamiliarName="Chico"
+
+[JunkieMale2]
+FamiliarName="Hombre enfermo"
+UnfamiliarName="Hombre enfermo"
+
+[JunkieFemale0]
+FamiliarName="Mujer enferma"
+UnfamiliarName="Mujer enferma"
+
+[BlackHelicopter0]
+FamiliarName="Jock en el helicóptero"
+UnfamiliarName="Jock en el helicóptero"
+
+[SkillAwardTrigger2]
+awardMessage="Bono por éxito"
+
+[LevelSummary]
+Title="Sin título"
+

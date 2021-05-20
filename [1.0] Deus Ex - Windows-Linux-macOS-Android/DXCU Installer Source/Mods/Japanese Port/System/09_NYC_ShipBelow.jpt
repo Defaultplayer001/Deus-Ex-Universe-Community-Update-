@@ -1,0 +1,91 @@
+[SkillAwardTrigger14]
+awardMessage="Accomplishment Bonus"
+
+[SkillAwardTrigger15]
+awardMessage="Accomplishment Bonus"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Bay Operations",cameraTag=BayOps)"
+Views[1]="(titleString="Helicopter Bay",cameraTag=HeliBay,turretTag=BayDefense)"
+Views[2]="(titleString="Bay Operations Entry",cameraTag=HeliOperEntry,doorTag=OpsDoor)"
+
+[HKMilitary0]
+FamiliarName="Guard"
+UnfamiliarName="Guard"
+
+[HKMilitary1]
+FamiliarName="Guard"
+UnfamiliarName="Guard"
+
+[SkillAwardTrigger13]
+awardMessage="Accomplishment Bonus"
+
+[SkillAwardTrigger12]
+awardMessage="Accomplishment Bonus"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Main Below Decks Entry",cameraTag=EngineCam1,doorTag=EngineeringDoor)"
+Views[1]="(titleString="Ready Room",cameraTag=EngineCam2,doorTag=ReadyRoomDoor)"
+Views[2]="(titleString="Bilge Pump Room",cameraTag=PumpRoomEntry)"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Pump Room Controls",cameraTag=PumpRoomEntry)"
+Views[1]="(titleString="Observation Deck Entry",cameraTag=ObsDeckPlatform,doorTag=DeckDoor)"
+Views[2]="(titleString="Upper Companionway",cameraTag=UpperHall)"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Reverse Pump Flow",TriggerText="Bilge Pump Flow reversed",TriggerEvent=PumpTrigger,bTriggerOnceOnly=True)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Transformer 2 - Main",cameraTag=ElectricalRoomMain)"
+Views[1]="(titleString="Bay Operations Entry",cameraTag=HeliOperEntry,doorTag=OpsDoor)"
+Views[2]="(titleString="Transformer 1 - Main",cameraTag=PowerDuct)"
+
+[SkillAwardTrigger2]
+awardMessage="Area Location Bonus"
+
+[SkillAwardTrigger5]
+awardMessage="Accomplishment Bonus"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Vent Chamber",cameraTag=Flue)"
+Views[1]="(titleString="Fan Motor",cameraTag=Motor)"
+Views[2]="(titleString="Bay Companionway",cameraTag=RedHall,doorTag=LowBayDoor)"
+
+[SkillAwardTrigger6]
+awardMessage="Area Location Bonus"
+
+[DeusExLevelInfo2]
+MissionLocation="NYC - Ship Lower Decks"
+startupMessage[0]="NYC - Ship Lower Decks"
+startupMessageJ[0]="タンカー下層デッキ"
+
+[SkillAwardTrigger10]
+awardMessage="Area Location Bonus"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Pilot1,KeyID=Locker1,Description="Key to Locker ")"
+NanoKeyData[1]="(ScriptedPawnTag=Pilot2,KeyID=Locker2,Description="Key to Locker")"
+
+[Mechanic0]
+FamiliarName="Electrician"
+UnfamiliarName="Electrician"
+
+[SkillAwardTrigger3]
+awardMessage="Exploration Bonus"
+
+[SkillAwardTrigger9]
+awardMessage="Area Location Bonus"
+
+[SkillAwardTrigger8]
+awardMessage="Area Location Bonus"
+
+[NanoKey0]
+Description="Key for Heli-Bay Ops room door"
+
+[SkillAwardTrigger7]
+awardMessage="Area Location Bonus"
+

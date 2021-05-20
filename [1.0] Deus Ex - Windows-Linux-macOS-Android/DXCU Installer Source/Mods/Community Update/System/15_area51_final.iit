@@ -1,0 +1,45 @@
+[ComputerSecurity0]
+Views[0]="(cameraTag=gen_camera,doorTag=door_generator)"
+Views[1]="(cameraTag=radiation_camera)"
+specialOptions[0]="(Text="Contenitore potenziamento",TriggerEvent=Aug_door,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Area51 - Zona finale"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[Mechanic2]
+FamiliarName="Jerri"
+
+[SkillAwardTrigger14]
+awardMessage="Bonus di esplorazione"
+
+[SkillAwardTrigger11]
+awardMessage="Bonus locazione critica"
+
+[SkillAwardTrigger12]
+awardMessage="Bonus locazione critica"
+
+[SkillAwardTrigger13]
+awardMessage="Bonus locazione critica"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di esplorazione"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di esplorazione"
+
+[MIB1]
+UnfamiliarName="Uomo in nero"
+
+[Switch14]
+FamiliarName="Helios"
+UnfamiliarName="Helios"
+
+[NanoKey0]
+Description="Chiave della tromba delle scale"
+
+[SkillAwardTrigger15]
+awardMessage="Bonus di esplorazione"
+

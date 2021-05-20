@@ -1,0 +1,48 @@
+[ComputerSecurity1]
+Views[0]="(titleString="Magnetic Pods (4)",cameraTag=podcam,doorTag=OpenThePODs)"
+Views[1]="(titleString="Cascade Abort Unit",cameraTag=PlatformCam,doorTag=PlatformTriggers)"
+Views[2]="(titleString="Toxin Containment",cameraTag=ToxicCamera)"
+specialOptions[0]="(Text="Open Nanotech Containment Pods",TriggerText="Magnetic Pods Opened",TriggerEvent=OpenThePODs,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Raise Cascade Shutdown Console",TriggerText="Cascade Console Elevated",TriggerEvent=control_platform)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Security Point One",cameraTag=Level1Cam,doorTag=FloodDoor08)"
+Views[1]="(titleString="AUC Monitor Station",cameraTag=Level2Cam)"
+Views[2]="(titleString="AUC Chamber",cameraTag=Level3Cam)"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger6]
+awardMessage="Critical Location Bonus"
+
+[ScientistFemale0]
+FamiliarName="Dr. Harrison"
+UnfamiliarName="Nonotechnology Researcher"
+
+[SkillAwardTrigger5]
+awardMessage="Progress Bonus"
+
+[SkillAwardTrigger4]
+awardMessage="Accomplishment Bonus"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Nano Manufacturing"
+startupMessage[0]="Level 2:"
+startupMessage[1]="Nanotech Containment Facility"
+startupMessage[2]="Deep beneath the VersaLife Building"
+startupMessageJ[0]="レベル２:"
+startupMessageJ[1]="ナノテク研究施設"
+startupMessageJ[2]="VersaLife社ビル　地下"
+
+[SkillAwardTrigger3]
+awardMessage="Exploration Bonus"
+
+[NanoKey0]
+PickupMessage="Lockdownドアキー発見"
+Description="Nanotech Containment Lockdown Door"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Upload Virus Schematics",TriggerText="Virus Schematics Uploaded",TriggerEvent=VirusUploaded,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Open UC Chamber",TriggerText="UC Access Door Opened",TriggerEvent=UC_Chamber_Door)"
+

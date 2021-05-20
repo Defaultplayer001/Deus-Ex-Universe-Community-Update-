@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + ConfigCustomIconSplashLogo.txt + Help.7z "Custom Icon Splash and Logo.exe"

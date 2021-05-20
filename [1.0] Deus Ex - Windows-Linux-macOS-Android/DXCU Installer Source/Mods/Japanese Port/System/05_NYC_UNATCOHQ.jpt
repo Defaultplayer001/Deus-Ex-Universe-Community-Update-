@@ -1,0 +1,97 @@
+[UNATCOTroop4]
+FamiliarName="Scott"
+UnfamiliarName="UNATCO Trooper"
+
+[Terrorist0]
+FamiliarName="Miguel"
+
+[UNATCOTroop0]
+FamiliarName="UNATCO Trooper"
+UnfamiliarName="UNATCO Trooper"
+
+[UNATCOTroop3]
+FamiliarName="UNATCO Trooper"
+UnfamiliarName="UNATCO Trooper"
+
+[UNATCOTroop6]
+FamiliarName="Scott"
+UnfamiliarName="UNATCO Trooper"
+
+[UNATCOTroop2]
+FamiliarName="UNATCO Trooper"
+UnfamiliarName="UNATCO Trooper"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[UNATCOTroop8]
+FamiliarName="UNATCO Trooper"
+UnfamiliarName="UNATCO Trooper"
+
+[UNATCOTroop9]
+FamiliarName="UNATCO Trooper"
+UnfamiliarName="UNATCO Trooper"
+
+[JosephManderley0]
+UnfamiliarName="UNATCO Chief"
+
+[SkillAwardTrigger0]
+awardMessage="Progress Bonus"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[SpecialEvent1]
+Message="No New Messages"
+
+[RetinalScanner0]
+msgUsed="網膜パターン照合:  一般保護エラー 0012E9023"
+
+[SpecialEvent0]
+Message="網膜パターン照合ミス: エージェントDentonの進入は許可できません"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="Shannon"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[ComputerPersonal3]
+specialOptions[0]="(Text="Decrypt Agent ANavarre Killphrase",TriggerText="Killphrase Part 2 of 2 Decrypted : 'Woman'",TriggerEvent=know2,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Decrypt Agent GHerman Killphrase",TriggerText="Killphrase Not Available - - Awaiting Installation")"
+specialOptions[2]="(userName="demiurge")"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Decrypt Agent ANavarre Killphrase",TriggerText="Killphrase Part 1 of 2 Decrypted : 'Flatlander'",TriggerEvent=know1,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Decrypt Agent GHerman Killphrase",TriggerText="Killphrase Not Available - - Awaiting Installation",userName="demiurge")"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=AlexJacobson,KeyID=levelone,Description="Level One Entrance")"
+
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="Janice Reed"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - UNATCO HQ"
+
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[SkillAwardTrigger1]
+awardMessage="Advancement Bonus"
+
+[LevelSummary]
+Title="Untitled"
+

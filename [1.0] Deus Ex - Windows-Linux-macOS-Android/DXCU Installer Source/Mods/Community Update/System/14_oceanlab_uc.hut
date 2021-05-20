@@ -1,0 +1,20 @@
+[DeusExLevelInfo0]
+MissionLocation="Új Nyugati-part - Óceán-labor, UK"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Hozzáférés az UK tervrajzaihoz",TriggerText="Tervrajz letöltve",TriggerEvent=schematic,bTriggerOnceOnly=True)"
+specialOptions[1]="(bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger0]
+awardMessage="Feladatteljesítési bónusz"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(titleString="UK gyaloghíd",CameraTag=bridgecam)"
+specialOptions[0]="(Text="Híd aktiválása",TriggerText="Híd meghosszabbítása folyamatban.",TriggerEvent=Activate)"
+
+[SpecialEvent0]
+Message="Nincs új üzenet"
+

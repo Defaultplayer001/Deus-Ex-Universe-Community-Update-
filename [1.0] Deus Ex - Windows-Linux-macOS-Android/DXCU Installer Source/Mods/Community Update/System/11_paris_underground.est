@@ -1,0 +1,37 @@
+[DeusExLevelInfo0]
+MissionLocation="París - estación de metro"
+startupMessage[0]="Esatación de metro"
+
+[Cop5]
+FamiliarName="Patrulla del Metro"
+UnfamiliarName="Patrulla del Metro"
+
+[Cop3]
+FamiliarName="Patrulla del Metro"
+UnfamiliarName="Patrulla del Metro"
+
+[Cop2]
+FamiliarName="Patrulla del Metro"
+UnfamiliarName="Patrulla del Metro"
+
+[Cop1]
+FamiliarName="Patrulla del Metro"
+UnfamiliarName="Patrulla del Metro"
+
+[Cop0]
+FamiliarName="Patrulla del Metro"
+UnfamiliarName="Patrulla del Metro"
+
+[LevelSummary]
+Title="Sin título"
+
+[SkillAwardTrigger1]
+awardMessage="Bono por avance"
+
+[Mechanic0]
+FamiliarName="Joseph"
+UnfamiliarName="Técnico del metro"
+
+[SkillAwardTrigger0]
+awardMessage="Bono de exploración"
+

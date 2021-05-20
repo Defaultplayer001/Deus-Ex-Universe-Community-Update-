@@ -1,0 +1,48 @@
+[Male3]
+FamiliarName="Defoe"
+UnfamiliarName="Arms Dealer"
+
+[NanoKey7]
+Description="Office Key"
+
+[DeusExLevelInfo1]
+MissionLocation="Paris - Denfert-Rochereau"
+startupMessage[0]="Denfert-Rochereau, Paris"
+startupMessage[1]="Abandoned Skyrise"
+startupMessageJ[0]="ダンフェルロシュロー　パリ"
+
+[JunkieFemale0]
+FamiliarName="Aimee"
+UnfamiliarName="Odd Woman"
+
+[NanoKey1]
+Description="Warehouse Key Code"
+
+[ComputerSecurity1]
+Views[0]="(titleString="ATM Security",cameraTag=atm_cam,turretTag=atm_turret02)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MJ12Commando_keymaster,KeyID=catdoor,Description="Catacombs Entry Key")"
+
+[SkillAwardTrigger2]
+awardMessage="Critical Location Bonus"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Warehouse Security",cameraTag=warehousecam,turretTag=warehousecamturret)"
+Views[1]="(titleString="Warehouse Blast Doors",cameraTag=warehousesecuritycam02,doorTag=ug_warehousedoors)"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger4]
+awardMessage="Exploration Bonus"
+
+[SkillAwardTrigger0]
+awardMessage="Progress Bonus"
+
+[SkillAwardTrigger1]
+awardMessage="Area Location Bonus"
+
+[ZoneInfo0]
+DamageString="High Levels of Radiation Detected"
+

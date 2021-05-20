@@ -1,0 +1,37 @@
+[DeusExLevelInfo0]
+MissionLocation="NYC - Hell's Kitchen"
+startupMessage[0]="New York City, Hell's Kitchen"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=StationaryCop,KeyID=UnderArea,Description="Llave á la area subterranea",SkinColor=SC_Level3)"
+
+[SpecialEvent0]
+Message="¡¡Que lo fichen los Knicks!!"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[LevelSummary]
+Title="Sin título"
+
+[BumMale0]
+FamiliarName="Vagabundo"
+UnfamiliarName="Vagabundo"
+
+[RiotCop1]
+FamiliarName="Poli"
+UnfamiliarName="Poli"
+
+[RiotCop0]
+FamiliarName="Poli"
+UnfamiliarName="Poli"
+
+[BlackHelicopter1]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[Button2]
+FamiliarName="Intercomunicador"
+UnfamiliarName="Intercomunicador"
+

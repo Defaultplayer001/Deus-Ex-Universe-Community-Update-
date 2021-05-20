@@ -1,0 +1,68 @@
+[TriadRedArrow0]
+FamiliarName="Член триады 'Красная Стрела'"
+UnfamiliarName="Член триады 'Красная Стрела'"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Терминал агента Чоу",CameraTag=Maggies_apt1,doorTag=vault_door)"
+Views[1]="(titleString="7-ой этаж",CameraTag=Maggies_apt2)"
+Views[2]="(titleString="Лифты",CameraTag=lobbycam2)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Терминал агента Чоу",CameraTag=Maggies_apt1,doorTag=vault_door)"
+Views[1]="(titleString="7-ой этаж",CameraTag=Maggies_apt2)"
+Views[2]="(titleString="Пост охраны",CameraTag=Maggies_apt3)"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger5]
+awardMessage="Премия за исследование"
+
+[JunkieFemale0]
+FamiliarName="Харриет"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за выполнение задания"
+
+[Businessman1]
+FamiliarName="Портье"
+UnfamiliarName="Портье"
+
+[ComputerPersonal1]
+specialOptions[0]="(Text="Открыть контейнер с оружием",TriggerText="Контейнер с оружием открыт",TriggerEvent=Get_The_Sword,bTriggerOnceOnly=True)"
+
+[TriadLumPath1]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[NanoKey0]
+PickupMessage="Вы нашли ключ к этим апартаментам."
+Description="Ключ к апартаменты Джока"
+
+[SarahMead0]
+FamiliarName="Ученица"
+UnfamiliarName="Ученица"
+
+[HKMilitary0]
+FamiliarName="Китайский военный полицейский"
+UnfamiliarName="Китайский военный полицейский"
+
+[SkillAwardTrigger7]
+awardMessage="Премия за исследование"
+
+[SkillAwardTrigger6]
+awardMessage="Премия за исследование"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Вход для обслуги",CameraTag=lobbycam1,doorTag=ServiceDoor)"
+Views[1]="(titleString="Лифты",CameraTag=lobbycam2)"
+Views[2]="(titleString="Холл здания",CameraTag=lobbycam3)"
+
+[Maid0]
+FamiliarName="Мей Сунг"
+
+[DeusExLevelInfo3]
+MissionLocation="Гонконг - Тонночи Роуд"
+startupMessage[0]="Тонночи Роуд"
+startupMessage[1]="Район Ван Чай"
+

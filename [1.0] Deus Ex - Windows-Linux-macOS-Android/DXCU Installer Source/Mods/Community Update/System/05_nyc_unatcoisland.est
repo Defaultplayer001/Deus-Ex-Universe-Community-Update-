@@ -1,0 +1,37 @@
+[DeusExLevelInfo0]
+MissionLocation="NYC - Isla Liberty"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Complejo SATCOM",cameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[1]="(titleString="Exterior CG. UNATCO",cameraTag=UN_CamSystem02)"
+Views[2]="(titleString="Interior CG. UNATCO",cameraTag=UN_CamSystem03)"
+
+[LevelSummary]
+Title="Sin título"
+
+[UNATCOTroop6]
+FamiliarName="Soldado Lloyd"
+
+[SecurityCamera0]
+FamiliarName="UN_lobby02"
+
+[SecurityCamera1]
+FamiliarName="UN_lobby01"
+
+[SecurityCamera4]
+FamiliarName="SATCOM_cam"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[Terrorist2]
+FamiliarName="Miguel"
+
+[SecurityCamera2]
+FamiliarName="UN_outside"
+
+[ThugMale9]
+FamiliarName="Matón mercenario"
+UnfamiliarName="Matón mercenario"
+

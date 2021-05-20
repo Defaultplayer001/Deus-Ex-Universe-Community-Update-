@@ -1,0 +1,78 @@
+[SkillAwardTrigger16]
+awardMessage="Премия за обнаружение"
+
+[NanoKey0]
+Description="Ключ к подвалу склада"
+
+[SkillAwardTrigger13]
+awardMessage="Премия за обнаружение"
+
+[SpecialEvent0]
+Message="Система охлаждения отключена. Неминуем взрыв генератора!"
+
+[SkillAwardTrigger17]
+awardMessage="Премия за успехи""
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Район складов"
+
+[InterpolateTrigger0]
+Message="Copter Activated"
+
+[ComputerPersonal5]
+specialOptions[0]="(Text="Отключить систему охлаждения генератора",TriggerText="Система охлаждения отключена. Неминуем взрыв.",TriggerEvent=BlowEvents,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger22]
+awardMessage="Премия за успехи"
+
+[SkillAwardTrigger23]
+awardMessage="Премия за успехи"
+
+[SkillAwardTrigger20]
+awardMessage="Премия за исследование"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger14]
+awardMessage="Премия за обнаружение"
+
+[SkillAwardTrigger4]
+awardMessage="Премия за обнаружение"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Вход в канализацию",CameraTag=BaseCam1,Turrettag=SubTurret)"
+Views[1]="(titleString="Второй коридор подвала",CameraTag=BaseCam2)"
+Views[2]="(titleString="Главный коридор подвала",CameraTag=BaseCam3)"
+
+[GoalCompleteTrigger0]
+Message="Генератор взорван. Миссия выполнена."
+
+[ComputerSecurity1]
+Views[0]="(titleString="Отстойник района складов",CameraTag=WareCamera1,Turrettag=WareTurret1)"
+Views[1]="(titleString="Вход в склад",CameraTag=WareCamera2,Turrettag=WareTurret2)"
+Views[2]="(titleString="Водосток подвала",CameraTag=BaseCam1,Turrettag=SubTurret,doorTag=DrainEntry)"
+
+[SkillAwardTrigger15]
+awardMessage="Премия за выполнение"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=DoorGuard,KeyID=WarehouseFrontDoor,Description="Ключ к передней двери склада")"
+NanoKeyData[1]="(ScriptedPawnTag=JoJoFine,KeyID=Mirror,Description="Ключ к секретной зеркальной двери")"
+
+[BlackHelicopter1]
+FamiliarName="Вертолет"
+UnfamiliarName="Черный вертолет"
+
+[SkillAwardTrigger10]
+awardMessage="Премия за обнаружение"
+
+[SkillAwardTrigger18]
+awardMessage="Премия за успехи"
+
+[SkillAwardTrigger19]
+awardMessage="Премия за критическую локацию"
+
+[SkillAwardTrigger21]
+awardMessage="Премия за обнаружение"
+

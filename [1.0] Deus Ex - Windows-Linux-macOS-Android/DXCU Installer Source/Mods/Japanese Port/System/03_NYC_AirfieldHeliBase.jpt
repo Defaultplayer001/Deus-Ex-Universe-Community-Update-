@@ -1,0 +1,37 @@
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=BathroomTerrorist,KeyID=HeliSecurityRoom,Description="Airfield Security Room")"
+NanoKeyData[1]="(ScriptedPawnTag=sewerguard,KeyID=Sewerdoor,Description="Sewer Door")"
+
+[SkillAwardTrigger1]
+awardMessage="Exploration Bonus"
+
+[SkillAwardTrigger0]
+awardMessage="Exploration Bonus"
+
+[LevelSummary]
+Title="Untitled"
+
+[SecurityCamera1]
+FamiliarName="SecurityCamera4"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Helibase"
+startupMessage[0]="New York City"
+startupMessage[1]="Unknown Location"
+startupMessageJ[0]="ニューヨーク"
+startupMessageJ[1]="ロケーション不明"
+
+[SecurityCamera12]
+FamiliarName="Rec Room Camera"
+
+[SkillAwardTrigger8]
+awardMessage="Goal Accomplishment Bonus"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Helicopter Base Rec Room",cameraTag=RecCamera,doorTag=SecretDoor)"
+Views[1]="(titleString="Helicopter Base Lobby",cameraTag=Lobbycam)"
+Views[2]="(titleString="Elevator Access",cameraTag=ElevatorTunnel,turretTag=ElevatorTurret)"
+
+[SkillAwardTrigger9]
+awardMessage="Advancement Bonus"
+

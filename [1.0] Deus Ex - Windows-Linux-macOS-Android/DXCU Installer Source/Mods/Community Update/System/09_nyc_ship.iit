@@ -1,0 +1,70 @@
+[ComputerSecurity0]
+Views[0]="(titleString="Plancia: ponte 3",cameraTag=Bridge,doorTag=OpsDoor)"
+Views[1]="(titleString="Sala di guardia: ponte 2",cameraTag=WatchRoom)"
+Views[2]="(titleString="Armeria: ponte 2",cameraTag=Deck2Cam,doorTag=ArmoryDoor)"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Zona d'ingresso",cameraTag=FrontCam)"
+Views[1]="(titleString="Sala armadietti",cameraTag=BuildingCam_2)"
+Views[2]="(titleString="Sala pausa",cameraTag=BuildingCam_3)"
+
+[DeusExLevelInfo15]
+MissionLocation="NY - Centro di costruzioni navali"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[SkillAwardTrigger8]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger10]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger11]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger17]
+awardMessage="Bonus di individuazione"
+
+[NanoKey2]
+Description="Chiave dei ponti inferiori"
+
+[NanoKey1]
+Description="Per il pannello di accesso di sicurezza"
+
+[NanoKey0]
+Description="Chiave dei ponti inferiori"
+
+[SkillAwardTrigger9]
+awardMessage="Elemento di successo"
+
+[SkillAwardTrigger14]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger15]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger18]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger19]
+awardMessage="Bonus di individuazione"
+
+[Switch6]
+FamiliarName="Pulsante"
+UnfamiliarName="Pulsante"
+
+[HKMilitary0]
+FamiliarName="Guardia informata"
+UnfamiliarName="Guardia informata"
+
+[HKMilitary1]
+FamiliarName="Nuova guardia"
+UnfamiliarName="Nuova guardia"
+
+[SkillAwardTrigger21]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger22]
+awardMessage="Bonus di successo"
+

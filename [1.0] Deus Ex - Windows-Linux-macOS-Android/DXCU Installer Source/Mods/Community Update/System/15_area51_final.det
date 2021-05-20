@@ -1,0 +1,45 @@
+[Switch14]
+FamiliarName="Helios"
+UnfamiliarName="Helios"
+
+[MIB1]
+UnfamiliarName="MIB"
+
+[Mechanic2]
+FamiliarName="Jerri"
+
+[SkillAwardTrigger14]
+awardMessage="Forschungsbonus"
+
+[SkillAwardTrigger11]
+awardMessage="Entdeckungsbonus"
+
+[SkillAwardTrigger12]
+awardMessage="Entdeckungsbonus"
+
+[SkillAwardTrigger13]
+awardMessage="Entdeckungsbonus"
+
+[SkillAwardTrigger0]
+awardMessage="Forschungsbonus"
+
+[SkillAwardTrigger1]
+awardMessage="Forschungsbonus"
+
+[ComputerSecurity0]
+Views[0]="(cameraTag=gen_camera,doorTag=door_generator)"
+Views[1]="(cameraTag=radiation_camera)"
+specialOptions[0]="(Text="Implantataufbewahrung",TriggerEvent=Aug_door,bTriggerOnceOnly=True)"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[NanoKey0]
+Description="Schlüssel zum Treppenhaus"
+
+[SkillAwardTrigger15]
+awardMessage="Forschungsbonus"
+
+[DeusExLevelInfo0]
+MissionLocation="Area51 - Finale"
+

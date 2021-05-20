@@ -1,0 +1,7 @@
+[Public]
+Object=(Name=ALAudio.ALAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem,Autodetect=)
+Preferences=(Caption="Audio"",Parent="Advanced Options")
+Preferences=(Caption="ALAudio",Parent="Audio",Class=ALAudio.ALAudioSubsystem,Immediate=True)
+
+[ALAudioSubsystem]
+ClassCaption="ALAudioSubsystem"

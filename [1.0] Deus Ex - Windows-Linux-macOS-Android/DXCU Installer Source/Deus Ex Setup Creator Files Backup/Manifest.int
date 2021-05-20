@@ -1,0 +1,109 @@
+[Setup]
+LocalProduct=Deus Ex Mod
+DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
+ReadMe=subdir\Help\Changelog.html
+SetupWindowTitle=Deus Ex Mod Setup
+AutoplayWindowTitle=Deus Ex Mod Options
+ProductURL=
+VersionURL=
+Developer=ION Storm Austin
+DeveloperURL=
+PublisherGamesURL=
+PublisherURL=
+PublisherStoreURL=
+PlanetDeusExURL=
+DeusExURL=
+Logo=subdir\Help\LogoSmall.bmp
+License=License.int
+
+[General]
+PlayLevelCommand=&Play this Deus Ex level
+OpenLinkCommand=&Open this Deus Ex link
+EditLevelCommand=&Edit this Deus Ex level
+
+[GameGroup]
+Caption=Deus Ex Mod
+Description=Deus Ex modification files. Installation is required.
+
+[DeusExContentGroup]
+Caption=Deus Ex Game Content
+Description=Deus Ex game content (textures, sound effects, and music) - install these to increase game performance, otherwise, content will be loaded from the CD during gameplay. Installation is optional.
+
+[DeusExMapsGroup]
+Caption=Deus Ex Maps
+Description=Deus Ex maps - install these to increase game performance, otherwise, maps will be loaded from the CD during gameplay. Installation is optional.
+
+[DeusExSpeechGroup]
+Caption=Deus Ex Speech Files
+Description=Deus Ex speech files - install these to increase game performance, otherwise, speech will be loaded from the CD during gameplay. Installation is optional.
+
+[EditorGroup]
+Caption=Deus Ex Editor
+Description=Deus Ex world editor, for creating your own 3D Deus Ex environments. For advanced users. Installation is optional.
+
+[DirectXGroup]
+Caption=DirectX
+Description=Microsoft DirectX 7.0a drivers for enhanced graphics, sound, and joystick support. If you do not currently have DirectX 7.0a installed, you must choose this option.
+
+[PlayShortcutGroup]
+Caption=Start Menu Shortcut
+Description=Create shortcut in the Start Menu.
+
+[DesktopPlayShortcutGroup]
+Caption=Desktop Shortcut
+Description=Create shortcut on the Desktop.
+
+[PlayShortcut]
+Caption=Play Deus Ex Mod
+
+[DesktopPlayShortcut]
+Caption=Play Deus Ex Mod
+
+[SafeModeShortcut]
+Caption=Deus Ex Safe Mode
+
+[EditorShortcut]
+Caption=Deus Ex Editor
+
+[DocumentationShortcut]
+Caption=Documentation
+
+[Patch1DocumentationShortcut]
+Caption=Patch 1 Documentation
+
+[MPDocumentationShortcut]
+Caption=Multiplayer Documentation
+
+[MPStrategyGuideShortcut]
+Caption=Multiplayer Strategy Guide
+
+[MPAdminShortcut]
+Caption=Multiplayer Administration
+
+[MPMapShortcut]
+Caption=Multiplayer Map Creation
+
+[PatchFixShortcut]
+Caption=Patch Fixes
+
+[ProductWebShortcut]
+Caption=Deus Ex Web Page
+
+[DeveloperWebShortcut]
+Caption=Ion Storm Web Page
+
+[PublisherWebShortcut]
+Caption=Eidos Interactive Web Page
+
+[PublisherGamesWebShortcut]
+Caption=Eidos Games Web Page
+
+[PublisherWebStoreShortcut]
+Caption=Eidos Interactive Store Web Page
+
+[PlanetDeusExWebShortcut]
+Caption=Planet Deus Ex Web Page
+
+[UninstallShortcut]
+Caption=Uninstall Deus Ex
+

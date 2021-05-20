@@ -1,0 +1,229 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.74 [en] (Windows NT 5.0; U) [Netscape]">
+   <title>Deus Ex Patch 1: ReadMe</title>
+</head>
+<body bgcolor="#C0C0C0" link="#0000FF" vlink="#0000FF" alink="#FF0000">
+
+<center><b><font size=+2>Deus Ex Patch 1 Readme File</font></b>
+<br><font size=+1>November 21, 2000</font>
+<br><font size=+1>Version 1.0</font></center>
+
+<p><b><font size=+0><a href="#patch">Patch Overview</a></font></b>
+<br><b><font size=+0><a href="#saveload">Crashes on Save/Load</a></font></b>
+<br><b><font size=+0><a href="#d3d">D3D Slowdown Issues</a></font></b>
+<p>
+<hr><a NAME="patch"></a><b><font face="Arial"><font color="#0000FF"><font size=+0>Patch
+Overview</font></font></font></b>
+<br><font size=+0>Changes made for version 1.011f:</font>
+<br>&nbsp;
+<ul>
+<li>
+<font size=+0>Crash fixed when using Hazmat Suit in training.</font></li>
+
+<li>
+<font size=+0>F1 and F2 can no longer be unmapped.</font></li>
+
+<li>
+<font size=+0>You will no longer occasionally get placeholder art when
+picking up bodies.</font></li>
+
+<li>
+<font size=+0>Infinite Skill Point bug fixed with Gary Savage conversation.</font></li>
+
+<li>
+<font size=+0>D3DDrv.dll patch has been incorporated.</font></li>
+
+<li>
+<font size=+0>Loki's new OpenGL code has been incorporated.</font></li>
+
+<li>
+<font size=+0>Game will now run correctly under Win95a.</font></li>
+
+<li>
+<font size=+0>Game will now display disk free space correctly when saving
+games.</font></li>
+
+<br>&nbsp;</ul>
+
+<hr><a NAME="saveload"></a><b><font face="Arial"><font color="#0000FF"><font size=+0>Recommendations
+for Crashes on Save/Load</font></font></font></b>
+<br><font size=+0>Occasionally, on installation, a map file can become
+corrupted. We suspect this is caused by certain hard drive/hard drive controller/CD-ROM
+combinations. If this happens, it is likely it will cause the game to crash
+or hang on a map transition. The following are suggestions that may help
+you fix this problem. Try them in order; if the first fix doesn't work,
+move on to the next one.</font>
+<ul>
+<li>
+<b><font size=+0>Lower texture detail during the transition</font></b></li>
+
+<p><br><font size=+0>We have heard of limited success in getting through
+level transitions with crashing by temporarily lowering World and Model
+Detail to their lowest setting for the transition. These Detail levels
+can be raised to their normal levels after the transition has completed.</font>
+<br>&nbsp;
+<li>
+<b><font size=+0><i>(Advanced users only!)</i> Install from a hard drive</font></b></li>
+
+<p><br><font size=+0>If you have recurring problems or have problems that
+don't provide a useful error message, there have been reports of success
+by installing the entire game from a hard drive, rather than the <i>Deus
+Ex</i> CD-ROM. To do this:</font>
+<p><font size=+0><b>1)</b> Make sure you have enough space available on
+your hard drive for both the installed game and the CD image -- about 1.4GB.</font>
+<br><font size=+0><b>2)</b> Create a folder called "<i>Deus Ex Install</i>"
+that will contain the CD image.</font>
+<br><font size=+0><b>3)</b> Copy the contents of the CD into this folder.</font>
+<br><font size=+0><b>4)</b> After it has finished copying, run the setup
+file in "<i>Deus Ex Install</i>" and install as you would from the CD.</font>
+<br><font size=+0><b>5)</b> After you have finished installation, you can
+delete the "<i>Deus Ex Install</i>" directory.</font>
+<br>&nbsp;
+<li>
+<b><font size=+0><i>(Advanced users only!)</i> Re-copy the map from the
+CD</font></b></li>
+
+<p><br><font size=+0><b>1)</b> Determine which map is causing the crash
+based on the error message. Within the dialog's error message, you should
+find something that looks like "<i>01_NYC_UNATCOIsland</i>". You are looking
+for something that begins with two numbers and sounds like a location.
+Add "<i>.dx</i>" to the end, and you will have the map name. In this case,
+it is "<i>01_NYC_UNATCOIsland.dx</i>".</font>
+<p><font size=+0><b>2)</b> Copy that map from the "<i>Maps</i>" directory
+on your <i>Deus Ex</i> CD to your installed "<i>Maps</i>" directory. In
+our example, if your CD-ROM drive is <i>"F:"</i> and you've installed to
+"<i>C:\DeusEx</i>", you would copy "<i>F:\Maps\01_NYC_UNATCOIsland.dx</i>"
+to "<i>C:\DeusEx\Maps\01_NYC_UNATCOIsland.dx</i>".</font>
+<p><font size=+0><b>3)</b> All savegames that contain data from the corrupted
+map may also be corrupted, so you should delete any savegame directories
+that contain the map (with a "<i>.dxs</i>" extension, rather than "<i>.dx</i>").
+Start with your most recent savegame -- that is, the one with the highest
+number -- and work backward, continuing until you find a savegame that
+does not contain the map in question.</font>
+<p><font size=+0>For example, if you have 20 savegames (in your "<i>Save</i>"
+folder), start with Save0020 and work backward to Save0001. If Save0020
+and Save0019 contain "<i>01_NYC_UNATCOIsland.dxs</i>", but Save0018 doesn't,
+you should delete the Save0020 and Save0019 folders. It is possible that
+no savegames will contain the map in question, and you won't have to delete
+any savegames.</font>
+<p><font size=+0><b>4)</b> At this point, you should be able to load your
+most recent remaining savegame and continue playing.</font>
+<br>&nbsp;</ul>
+
+<hr><a NAME="d3d"></a><b><font face="Arial"><font color="#0000FF"><font size=+0>Recommendations
+for D3D Slowdown Issues</font></font></font></b>
+<ul>
+<li>
+<font size=+0>If you are experiencing slow performance while running <i>Deus
+Ex</i> on your system, there are a few settings you can change to increase
+the performance of the game.</font></li>
+
+<p><br><font size=+0>From the Main Menu, click on Settings, then Display:</font>
+<br>&nbsp;
+<ul>
+<li>
+<font size=+0><b>Screen Resolution</b> - Set the resolution to 640x480
+or 800x600.</font></li>
+
+<li>
+<font size=+0><b>Texture Color Depth</b> - Set the color depth to 16-bit.</font></li>
+
+<li>
+<font size=+0><b>World Texture Detail</b> - Set to Medium.</font></li>
+
+<li>
+<font size=+0><b>Detail Textures</b> - Turn this option OFF.</font></li>
+</ul>
+
+<li>
+<font size=+0>If you are experiencing slow Direct3D performance, you may
+want to try using OpenGL as your rendering device. OpenGL in <i>Deus Ex</i>
+is unsupported, but has shown significant performance gains under certain
+circumstances (particularly on Nvidia chipsets such as the GeForce).</font></li>
+
+<p><br><font size=+0>OpenGL is <b>NOT RECOMMENDED</b> for users with 3DFx-based
+video cards. Those users should be using Glide for optimal performance.</font>
+<p>OpenGL may cause crashes for users with Radeon cards when "Black" or
+"Snapshot" is selected for the <i>UI/Menu Background </i>option.&nbsp;
+To prevent this, select "Render 3D".
+<p><font size=+0>To enable OpenGL, from <i>Deus Ex</i>'s main menu, select
+Settings, then Display, then Rendering Device. <i>Deus Ex</i> will automatically
+restart to get to the video device selection dialog. Once you've reached
+the dialog, click on the Show All Devices radio button. Select OpenGL Support,
+and then click Next twice and then Done. <i>Deus Ex</i> will attempt to
+start using OpenGL.</font>
+<p><font size=+0>If it fails to do so (displaying an error, or running
+extremely slowly in a window), your video card or its drivers may not support
+OpenGL. If this happens you will need to go back to Direct3D as your video
+device. To do so, simply exit, run <i>Deus Ex</i> via the Safe Mode shortcut
+it created when it installed, and select Direct3D.</font>
+<p><font size=+0><i>(Advanced users only!)</i> If you are running in OpenGL
+mode with a TNT or Radeon card, you might want to try the following to
+improve performance:</font>
+<br>&nbsp;
+<ul>
+<li>
+<font size=+0>Save off a copy of the <i>DeusEx.ini</i> file located in
+your game's "<i>System</i>" directory. You can use this copy to restore
+your settings if anything goes wrong.</font></li>
+
+<li>
+<font size=+0>Edit the <i>DeusEx.ini</i> file with a text editor.</font></li>
+
+<li>
+<font size=+0>Look for a block of text in the file that begins with a line
+reading "<i>[OpenGLDrv.OpenGLRenderDevice]</i>".</font></li>
+
+<li>
+<font size=+0>Several lines down, in the same block of text, you should
+see another line that reads "<i>UseTNT=0</i>". Change this to "<i>UseTNT=1</i>".</font></li>
+</ul>
+
+<p><br><i><font size=+0>(Note: when running in OpenGL mode, games that
+are saved <b>will not</b> display a screenshot on the loading menu. This
+is normal.)</font></i>
+<br>&nbsp;
+<li>
+<font size=+0>In our experience poor performance is often related to certain
+drivers or driver combinations. In particular, we've found that updating
+AGP drivers has yielded significant performance gains. You should be sure
+that all of the following drivers on your computer are up-to-date:</font></li>
+
+<br>&nbsp;
+<ul>
+<li>
+<i><font size=+0>Video drivers</font></i></li>
+
+<br><font size=+0><a href="http://www.nvidia.com" target="_blank">http://www.nvidia.com</a></font>
+<br><font size=+0><a href="http://www.matrox.com" target="_blank">http://www.matrox.com</a></font>
+<br><font size=+0><a href="http://www.ati.com" target="_blank">http://www.ati.com</a></font>
+<br>&nbsp;
+<li>
+<i><font size=+0>Sound drivers</font></i></li>
+
+<br><font size=+0><a href="http://www.creativelabs.com" target="_blank">http://www.creativelabs.com</a></font>
+<br>&nbsp;
+<li>
+<i><font size=+0>AGP drivers</font></i></li>
+
+<br><font size=+0><a href="http://www.intel.com" target="_blank">http://www.intel.com</a></font>
+<br><font size=+0><a href="http://www.viatech.com" target="_blank">http://www.viatech.com</a></font>
+<br>&nbsp;
+<li>
+<i><font size=+0>Motherboard bios</font></i></li>
+
+<br><font size=+0><a href="http://www.abit.com" target="_blank">http://www.abit.com</a></font>
+<br><font size=+0><a href="http://www.asus.com" target="_blank">http://www.asus.com</a></font>
+<br><font size=+0><a href="http://www.intel.com" target="_blank">http://www.intel.com</a></font>
+<br><font size=+0><a href="http://www.tyan.com" target="_blank">http://www.tyan.com</a></font></ul>
+</ul>
+
+<hr>
+<br><font size=+0>Special thanks to Daniel Vogel and the folks at <i>Loki
+Entertainment Software</i> for their major improvements to the OpenGL library
+for <i>Deus Ex</i>.</font>
+</body>
+</html>

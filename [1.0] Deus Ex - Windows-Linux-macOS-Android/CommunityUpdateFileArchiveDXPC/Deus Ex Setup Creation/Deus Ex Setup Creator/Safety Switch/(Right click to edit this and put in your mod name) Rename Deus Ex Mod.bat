@@ -58,7 +58,7 @@ Rem Adds custom subdir to manifest.int
 
 
 Rem Changes EXE name in the manifest
-"%~dp0\fart.exe" "%~dp0\System\Manifest.ini" "DeusExModEXEString.exe" "%EXEvalue%.exe"
+"%~dp0\fart.exe" "%~dp0\System\Manifest.ini" "DeusExModEXEString" "%EXEvalue%"
 
 Rem Changes version number
 "%~dp0\fart.exe" "%~dp0\System\Manifest.ini" "1300u" "%Version%"

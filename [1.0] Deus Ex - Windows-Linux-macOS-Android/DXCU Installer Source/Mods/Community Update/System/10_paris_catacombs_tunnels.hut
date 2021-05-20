@@ -1,0 +1,78 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Chad,KeyID=catacombs_blastdoor,Description="Bunkerajtó kulcsa")"
+
+[BumFemale0]
+FamiliarName="Silhouette-tag"
+UnfamiliarName="Silhouette-tag"
+
+[NanoKey0]
+Description="Bunkerajtó kulcsa"
+
+[SkillAwardTrigger6]
+awardMessage="Fejlõdési jutalom"
+
+[JunkieMale0]
+FamiliarName="Juveau"
+UnfamiliarName="Silhouette-tag"
+
+[LowerClassFemale0]
+FamiliarName="Anna"
+UnfamiliarName="Silhouette-tag"
+
+[Hooker1]
+FamiliarName="Silhouette-tag"
+UnfamiliarName="Silhouette-tag"
+
+[DeusExLevelInfo5]
+MissionLocation="Párizs - Katakombák"
+startupMessage[0]="Les catacombes de Paris"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Bunker bejárat",CameraTag=mj12catacam01,Turrettag=mj12cataturret01)"
+Views[1]="(titleString="Túszcella",CameraTag=mj12catacam02,Turrettag=mj12cataturret02)"
+
+[SkillAwardTrigger2]
+awardMessage="Teljesítési bónusz"
+
+[ChildMale0]
+FamiliarName="Pierre"
+
+[WIB0]
+FamiliarName="Hela ügynök"
+
+[Chad0]
+UnfamiliarName="Silhouette vezér"
+
+[ThugMale1]
+FamiliarName="Silhouette-tag"
+UnfamiliarName="Silhouette-tag"
+
+[BumMale0]
+FamiliarName="Silhouette-tag"
+UnfamiliarName="Silhouette-tag"
+
+[SkillAwardTrigger5]
+awardMessage="Célszemély-megtalálási bónusz"
+
+[SkillAwardTrigger3]
+awardMessage="Fejlõdési jutalom"
+
+[NanoKey1]
+Description="Katakombák csatornabejáratának kulcsa"
+
+[SkillAwardTrigger1]
+awardMessage="Célszemély-megtalálási bónusz"
+
+[SkillAwardTrigger0]
+awardMessage="Kritikus hely-megtalálási bónusz"
+
+[SkillAwardTrigger4]
+awardMessage="Fejlõdési jutalom"
+
+[LevelSummary]
+Title="Untitled"
+
+[JunkieMale1]
+FamiliarName="Csöves"
+UnfamiliarName="Csöves"
+

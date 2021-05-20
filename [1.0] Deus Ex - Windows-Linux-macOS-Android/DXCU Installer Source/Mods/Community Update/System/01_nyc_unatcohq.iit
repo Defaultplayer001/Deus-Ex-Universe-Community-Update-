@@ -1,0 +1,105 @@
+[DeusExLevelInfo0]
+MissionLocation="NY - QG UNATCO"
+startupMessage[0]="QG UNATCO"
+startupMessage[1]="Coalizione Antiterrorismo"
+startupMessage[2]="delle Nazioni Unite"
+
+[NanoKey2]
+Description="Codice armadietto UNATCO"
+
+[SecurityCamera4]
+FamiliarName="UN_portasic_medcam"
+
+[JosephManderley0]
+UnfamiliarName="Capo dell'UNATCO"
+
+[SecurityCamera7]
+FamiliarName="UN_retina_cam"
+
+[SpecialEvent1]
+Message="Nessun nuovo messaggio"
+
+[RetinalScanner0]
+msgUsed="Retina corrispondente: agente Denton autorizzato a entrare"
+
+[SpecialEvent0]
+Message="Retina non corrispondente: agente Denton non autorizzato a entrare"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="Amministrazione"
+
+[SamCarter0]
+UnfamiliarName="Agente dell'UNATCO"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="Segretaria dell'UNATCO"
+
+[SecurityCamera3]
+FamiliarName="UN_medicacam01"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di individuazione"
+Message="Ufficio UNATCO: JC Denton"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus acquisizione soggetti"
+Message="Furiere dell'UNATCO"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus individuazione critica"
+Message="Capo operazioni UNATCO"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di individuazione"
+Message="Ufficio medico UNATCO"
+
+[NanoKey4]
+Description="Codice della porta dell'ufficio"
+
+[NanoKey3]
+Description="Codice armadietto MedLab"
+
+[NanoKey1]
+Description="Codice della porta dell'ufficio"
+
+[AnnaNavarre0]
+UnfamiliarName="Agente potenziato dell'UNATCO"
+
+[UNATCOTroop4]
+FamiliarName="Scott"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[UNATCOTroop0]
+FamiliarName="Soldato dell'UNATCO"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[SecurityCamera0]
+FamiliarName="UN_salacam01"
+
+[SecurityCamera1]
+FamiliarName="UN_conferenzacam01"
+
+[UNATCOTroop1]
+FamiliarName="Sergente Michael Berry"
+
+[UNATCOTroop2]
+FamiliarName="Soldato dell'UNATCO"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[UNATCOTroop3]
+FamiliarName="Soldato dell'UNATCO"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[NanoKey0]
+Description="Codice della porta dell'ufficio"
+
+[SecurityCamera2]
+FamiliarName="UN_FUcam01"

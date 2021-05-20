@@ -1,0 +1,66 @@
+[ComputerPersonal1]
+specialOptions[0]="(Text="Ciclo porte tunnel",TriggerText="Ciclo porte principali",TriggerEvent=MainDoors)"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=LeadTerrorist,KeyID=CCSafe,Description="Cassaforte di Castello Clinton")"
+
+[BumMale3]
+FamiliarName="Ex ostaggio"
+UnfamiliarName="Ostaggio"
+
+[SkillAwardTrigger5]
+awardMessage="Bonus di successo"
+
+[ChildMale0]
+FamiliarName="Billy"
+UnfamiliarName="Ragazzo"
+
+[JunkieFemale0]
+FamiliarName="Ammalata"
+UnfamiliarName="Ammalata"
+
+[NanoKey3]
+Description="Chiave per la porta del chiosco"
+
+[JunkieMale2]
+FamiliarName="Ammalato"
+UnfamiliarName="Ammalato"
+
+[SkillAwardTrigger10]
+awardMessage="Bonus di individuazione"
+
+[ChildMale1]
+FamiliarName="Josh"
+UnfamiliarName="Ragazzo"
+
+[SkillAwardTrigger6]
+awardMessage="Bonus di successo"
+
+[BumFemale0]
+FamiliarName="Accattona"
+UnfamiliarName="Accattona"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Magazzino",cameraTag=Warehouse,turretTag=Turret1)"
+Views[1]="(titleString="Ponte del tunnel",cameraTag=Walkway,turretTag=Turret2)"
+Views[2]="(titleString="Rimessa delle barche",cameraTag=Boathouse,turretTag=Turret3)"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Battery Park"
+startupMessage[0]="New York City, Battery Park"
+
+[NanoKey0]
+Description="Chiave della porta del chiosco"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di esplorazione"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di successo"
+
+[LevelSummary]
+Title="Senza titolo"
+

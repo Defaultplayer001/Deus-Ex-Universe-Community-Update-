@@ -127,6 +127,7 @@ Size=
 	Not required but useful if tedious, seems likely it was done automatically with the official method.
 
 !
+	Seems to set value if group is NOT selected?
 	1000f manifest.ini has these lines in each group.
 	Ini=!System\Default.ini,Engine.Engine.ContentOnCD=True
 	Ini=!System\DeusEx.ini,Engine.Engine.ContentOnCD=True                                       
@@ -150,6 +151,10 @@ SrcPath=
 	?
 	Related to Src=?
 	Example: SrcPath=\\Battlezone\General\DeusEx\ReleaseGOTY
+
+ExtraSpace=
+	I'm assuming this ones just as it seems, a command to add filler space. Used in a file list group.
+	Example: ExtraSpace=68177248
 
 
 Below is copy / pasted from https://beyondunrealwiki.github.io/pages/umod-reference.html

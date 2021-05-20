@@ -1,0 +1,14 @@
+[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="OpenGL Support",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[OpenGLRenderDevice]
+ClassCaption="OpenGL Support"
+AskInstalled=OpenGLに対応した3Dアクセラレータカードをお使いですか？
+AskUse=Deus ExでOpenGLに対応した3Dアクセラレータカードを使用しますか?
+
+[Errors]
+NoFindGL=Can't find OpenGL driver %s
+MissingFunc=Missing OpenGL function %s (%i)
+ResFailed=Failed to set resolution

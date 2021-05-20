@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Administracja serwerem gry wieloosobowej Deus Ex</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+</head>
+
+<body bgcolor="#C0c0c0">
+<h2 align="center">Administracja serwerem gry wieloosobowej Deus Ex</h2>
+<h4 align="center">4 stycznia 2001<br>
+Wersja 1.0</h4>
+<hr>
+<p>Czasami warto zostać administratorem serwera. Dzięki temu można będzie zmieniać mapy i usuwać z rozgrywki graczy, którzy sprawiają kłopoty. Aby zostać administratorem, na serwerze musi być ustawione hasło administratora i trzeba je znać. Wszystkie poniższe komendy może wykonywać gracz. Jeżeli prowadzisz serwer, który nie jest dedykowany i chcesz korzystać z funkcji usuwania graczy, musisz się zalogować jako administrator, nawet pomimo tego, że jesteś już gospodarzem. </p>
+<p><b>Określenie hasła<br>
+  </b>W pliku DeusEx.INI na serwerze, pod nagłówkiem [Engine.GameInfo], można określić hasło za pomocą wersu "AdminPassword=TutajWpiszSwojeHasło". Jeżeli "AdminPassword= " nikt nie będzie mógł zalogować się na tym serwerze jako administrator. </p>
+<ul>
+  <li><i>Adminlogin <password> &lt;hasło&gt; - </i>Pozwala zalogować się na serwerze jako administrator </li>
+  <li><i>Adminlogout</i> - Wylogowanie administratora </li>
+  <li><i>PlayerList</i> - Wyświetla listę wszystkich graczy i ich identyfikatorów (z tej komendy mogą korzystać wszyscy gracze)</li>
+  <li><i> Kick</i> <i>&lt;IdentyfikatorGracza&gt;</i> - Usuwa z gry gracza o podanym identyfikatorze </li>
+  <li><i>KickBan <playerid> &lt;IdentyfikatorGracza&gt; - </i> Usuwa z gry gracza o podanym identyfikatorze i blokuje jego adres IP  </li>
+  <li><i>Admin ServerTravel &lt;mapa&gt;</i> - Pozwala wczytać wybraną mapę</li>
+</ul>
+<p>Jako administrator będziesz otrzymywać dodatkowe komunikaty (poza tymi, które są wyświetlane na HUDzie), zawsze, gdy jakiś gracz zabije innego. Będą one zawierać identyfikatory gracza, co przydaje się, gdy dwóch graczy korzysta z tego samego imienia. Jeżeli wylogujesz się z serwera jako administrator, nie będziesz już więcej otrzymywać takich rozszerzonych komunikatów.</p>
+<hr>
+</body>
+</html>

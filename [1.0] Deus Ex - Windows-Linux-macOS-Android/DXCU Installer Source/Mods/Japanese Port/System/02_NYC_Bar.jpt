@@ -1,0 +1,38 @@
+[Hooker0]
+FamiliarName="Janey"
+UnfamiliarName="Girl"
+
+[Jock0]
+UnfamiliarName="Pilot guy"
+
+[SkillAwardTrigger6]
+awardMessage="Accomplishment Bonus"
+
+[Female0]
+FamiliarName="Woman"
+UnfamiliarName="Lady"
+
+[JoeGreene0]
+UnfamiliarName="Used car salesman?"
+
+[Male0]
+FamiliarName="Dan"
+UnfamiliarName="Worker"
+
+[JordanShea0]
+UnfamiliarName="Bartender"
+
+[Female1]
+FamiliarName="Lady in sweater"
+UnfamiliarName="Lady in sweater"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Underworld Tavern"
+startupMessage[0]="NYC - Underworld Tavern"
+startupMessageJ[0]="NY - アンダーワールド・バー"
+
+
+
+[LevelSummary]
+Title="Untitled"
+

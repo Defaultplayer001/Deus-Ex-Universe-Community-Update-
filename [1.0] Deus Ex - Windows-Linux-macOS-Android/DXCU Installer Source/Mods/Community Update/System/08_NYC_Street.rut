@@ -1,0 +1,37 @@
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Адская Кухня"
+startupMessage[0]="Нью-Йорк, Адская Кухня"
+
+[LevelSummary]
+Title="Untitled"
+
+[BumMale0]
+FamiliarName="Бродяга"
+UnfamiliarName="Бродяга"
+
+[Button2]
+FamiliarName="Интерком"
+UnfamiliarName="Интерком"
+
+[SpecialEvent0]
+Message="Запишите его в команду Rockets!!!!"
+
+[BlackHelicopter1]
+FamiliarName="Джок"
+UnfamiliarName="Джок"
+
+[BlackHelicopter0]
+FamiliarName="Джок"
+UnfamiliarName="Джок"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=StationaryCop,KeyID=UnderArea,Description="Ключ к подземелью",SkinColor=SC_Level3)"
+
+[RiotCop1]
+FamiliarName="Полицейский"
+UnfamiliarName="Полицейский"
+
+[RiotCop0]
+FamiliarName="Полицейский"
+UnfamiliarName="Полицейский"
+

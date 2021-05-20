@@ -1,0 +1,333 @@
+[Setup]
+LocalProduct=Deus Ex Community Update
+DefaultFolder=
+ReadMe=Help\ReadMe.htm
+SetupWindowTitle=Deus Ex Setup
+AutoplayWindowTitle=Deus Ex Options
+ProductURL=http://www.deusex.com/
+VersionURL=https://old.reddit.com/r/dxarchive/
+Developer=The Deus Ex Community
+DeveloperURL=https://old.reddit.com/r/dxarchive/
+PublisherGamesURL=http://www.eidosgames.com/
+PublisherURL=http://www.eidos.com/
+PublisherStoreURL=http://www.eidosstore.com/
+PlanetDeusExURL=http://www.planetdeusex.com/
+DeusExURL=http://www.deusex.com/
+Logo=Help\LogoSmall.bmp
+License=License.int
+
+[General]
+PlayLevelCommand=&Play this Deus Ex level
+OpenLinkCommand=&Open this Deus Ex link
+EditLevelCommand=&Edit this Deus Ex level
+
+;//  GameGroup edited for Unofficial Patch v3 by Defaultplayer 2018/04/26  //
+
+[GameGroup]
+Caption=Deus Ex System
+Description=Deus Ex system files. Installation is required.
+
+[DeusExContentGroup]
+Caption=Deus Ex Game Content
+Description=Deus Ex game content (textures, sound effects, and music) - install these to increase game performance, otherwise, content will be loaded from the CD during gameplay. Installation is optional.
+
+[DeusExMapsGroup]
+Caption=Deus Ex Maps
+Description=Deus Ex maps - install these to increase game performance, otherwise, maps will be loaded from the CD during gameplay. Installation is optional.
+
+[DeusExSpeechGroup]
+Caption=Deus Ex Speech Files
+Description=Deus Ex speech files - install these to increase game performance, otherwise, speech will be loaded from the CD during gameplay. Installation is optional.
+
+[EditorGroup]
+Caption=Deus Ex Editor
+Description=Deus Ex world editor, for creating your own 3D Deus Ex environments. For advanced users. Installation is optional.
+
+[DirectXGroup]
+Caption=DirectX
+Description=Microsoft DirectX 7.0a drivers for enhanced graphics, sound, and joystick support. If you do not currently have DirectX 7.0a installed, you must choose this option.
+
+[PlayShortcut]
+Caption=Play Deus Ex
+
+[SafeModeShortcut]
+Caption=Deus Ex Safe Mode
+
+[EditorShortcut]
+Caption=Deus Ex Editor
+
+[DocumentationShortcut]
+Caption=Documentation
+
+[Patch1DocumentationShortcut]
+Caption=Patch Documentation
+
+[MPDocumentationShortcut]
+Caption=Multiplayer Documentation
+
+[MPStrategyGuideShortcut]
+Caption=Multiplayer Strategy Guide
+
+[MPAdminShortcut]
+Caption=Multiplayer Administration
+
+[MPMapShortcut]
+Caption=Multiplayer Map Creation
+
+[PatchFixShortcut]
+Caption=Patch Fixes
+
+[ProductWebShortcut]
+Caption=Deus Ex Web Page
+
+[DeveloperWebShortcut]
+Caption=Ion Storm Web Page
+
+[PublisherWebShortcut]
+Caption=Eidos Interactive Web Page
+
+[PublisherGamesWebShortcut]
+Caption=Eidos Games Web Page
+
+[PublisherWebStoreShortcut]
+Caption=Eidos Interactive Store Web Page
+
+[PlanetDeusExWebShortcut]
+Caption=Planet Deus Ex Web Page
+
+[UninstallShortcut]
+Caption=Uninstall Deus Ex
+
+;//  PatchFixShortcut and PatchGroup added from 1112fm patch manifest.int for Unofficial Patch v3 by Defaultplayer 2018/04/19  //
+
+[PatchFixShortcut]
+Caption=Patch Fixes
+
+[PatchGroup]
+Caption=Deus Ex Patch 
+Description=Deus Ex patch files. Installation is required.
+
+
+;//  DemoGroup added for Unofficial Patch v3 by Defaultplayer 2018/04/19  //
+
+[DemoGroup]
+Caption=Deus Ex Demo
+Description=Deus Ex demo files. Includes Missions 1 and 2. Installation is optional.
+
+;//  Extra Groups added for Unofficial Patch v3 by Defaultplayer 2018/04/26  //
+
+[ExtraGroup]
+Caption=Extras
+Description=English only extras. These include the gameplay mods: Shifter, Biomod, Huren and Vanilla Matters. Installation is optional.
+
+[ShifterGroup]
+Caption=Shifter
+Description="Removing the suck from Deus Ex." It's an odd slogan, but that's what Shifter does. Includes additional augmentations, unique weapons, new game mechanics, bugfixes, restored game content, and working alt-fire option for almost every weapon. Seamlessly integrated into the existing game, capable of running simultaneously with almost any other Deus Ex mod. -Edited description for UPV3
+
+[BiomodGroup]
+Caption=Biomod
+Description=An extension of the Shifter mod. primarily focused with augmentations and making them more balanced and easier to handle. Most now automated,the hard to manage made free or extended, the unsavable replaced with new augs. Gameplay changes include pickpocketing, autosaving, achievement-like challenges, and a Thief style ledge grabbing system. -Edited description for UPV3
+
+[HurenGroup]
+Caption=Human Renovation
+
+
+Description=An expansion of Unofficial Patch v2. I noticed a surprising number of things that could be fixed, both old and new. It's mostly bugfixing and balance-tweaking, without many major content changes at all; I was going more for a "patch" approach than a "mod" approach, despite the fact that a few bits of content notably have been changed. -Edited description for UPV3
+
+[VanillaMattersGroup]
+Caption=Vanilla Matters
+Description=A light-weight mod aimed to smooth out the rough edges of the vanilla experience. Does not try to alter the way you should experience the game, nor make any compromise to the original experience. Fixes numerous bugs and exploits, adds in quality of life features and most importantly re-balances the game to allow more diverse, fun character developments. -Edited description for UPV3
+
+;//  HXGroup added for Unofficial Patch v3 by Defaultplayer 2018/04/26  //
+
+[HXGroup]
+Caption=Co-op (HX) 
+Description=Co-op modification to play the singleplayer storyline in multiplayer. WIP and has bugs, but mostly stable! ((Not included by default, extract and place into "\CommunityUpdateFileArchiveDXPC\Hanfling's Co-op (HX)") -Edited description for UPV3 
+
+; 1002fMapsGroup 1002fMapsGroup added for unofficial Patch V3 by Defaultplayer 2018/11/11
+
+[1002fMapsGroup]
+Caption=1002f Maps
+Description=Vanilla Maps
+
+;Extra Patchgroups -DP 2018/12/12
+
+[PatchSetupGroup]
+Caption=Deus Ex Patch Setup
+Description=Deus Ex patch setup files. Installation is required.
+
+[PatchHelpGroup]
+Caption=Deus Ex Patch Help 
+Description=Deus Ex pach help files. Installation is required.
+
+[PatchPatchGroup]
+Caption=Deus Ex Patch 
+Description=Deus Ex patch files. Installation is required.
+
+[ModGroup]
+Caption=Mods (English Only)
+Description=Optional Modifications. Multiple can be installed at once. (Not Included) modifications can be installed by copying the files described in their description to the "Mods" folder of the setup.
+
+[IniGroup]
+Caption=Ini Tweaks
+Description=Optional ini tweaks
+
+[FanGroup]
+Caption=Unoffical Patches
+Description=Fan created fixes for Deus Ex.
+
+[InstallLanguageFiles]
+Caption=Language Files 
+Description=Selected language files. Installation is required.
+
+[VsyncGroup]
+Caption=Vsync Ini Tweaks
+Description=Optional Vsync ini tweaks. Prevents scren tearing as well as the game running too fast. On very low end machines can cause a perfomance loss. Applies to each renderer, aside from metal and SGL.
+;What is SGL?
+
+[FOVGroup]
+Caption=FOV Ini Tweaks
+Description=Optional FOV ini tweaks. 
+
+[MemGroup]
+Caption=Memory Usage Ini Tweaks
+Description=Optional memory usage ini tweaks, applies to the game and editor. Effects how much ram the game uses. 
+
+[TickGroup]
+Caption=Tick Rate Ini Tweaks
+Description=Optional Tick Rate ini tweaks, applies to the game and editor.
+
+[UnofficialPatchGroup]
+Caption=Unofficial Patch
+Description=Unofficial Patch v2. Contains numerous bug fixes.
+
+[RFGroup]
+Caption=Revision Framework (RF) 
+Description=Revision Framework mod. Contains updates from Revision, a singleplayer mod.
+
+[VideoRenderersGroup]
+Caption=Video Render Devices
+Description=Video Render Device Files 
+
+[AudioRenderersGroup]
+Caption=Audio Render Devices
+Description=Audio Render Device Files 
+
+[MultiplayerGroup]
+Caption=Unofficial Multiplayer Patches
+Description=Fan created multiplayer fixes for Deus Ex.
+
+[HXExtGroup]
+Caption=HX Extension (HXExt)
+Description=Mod for HX. Contains fixes and customization options.
+
+[MiniHXGroup]
+Caption=MiniHX
+Description=Hotfix mod for HX. Contains fixes. Not needed unless hosting a server.
+
+[OTPUIFixGroup]
+Caption=OTP UI Fix
+Description=A fix for the ugly upscaling of the GUI in DX at high resolutions
+
+[NglideGroup]
+Caption=Nglide
+Description=Nglide 3dfx Glide video render device emulator.
+
+[d3d10Group]
+Caption=Direct3D10
+Description=Direct3D10 video render device.
+
+[d3d9Group]
+Caption=Direct3D9
+Description=Direct3D9 video render device.
+
+[d3d8Group]
+Caption=Direct3D8
+Description=Direct3D8 video render device.
+
+[OpenALGroup]
+Caption=OpenAL
+Description=OpenAL audio render device.
+
+[SwFMODGroup]
+Caption=SwFMOD
+Description=SwFMOD audio render device.
+
+[MasterServerGroup]
+Caption=Master Server ini Tweaks
+Description=Updates master server from Gamespy to the current fan run one. Required to play multiplayer.
+
+[DXMTLGroup]
+Caption=DXMTL
+Description=Fan created multiplayer update for Deus Ex.
+
+[NephthysGroup]
+Caption=Nephthys
+Description=Fan created multiplayer security and administration update for Deus Ex.
+
+[HTKGroup]
+Caption=HTK Commandlets
+Description=UCC commandlets
+
+[RenderExt]
+Caption=Render Extension (RenderExt)
+Description=Prevents certain levels (most prominently Vandenberg, Tunnels) from crashing due to too many lit surfaces at one time.
+
+;Extra demo groups -DP 2018/12/12
+
+[DemoSetupGroup]
+Caption=Deus Ex Demo Setup Files
+Description=Deus Ex demo setup files. Installation is required.
+
+[DemoGameGroup]
+Caption=Deus Ex Demo System Files
+Description=Deus Ex demo system files. Installation is required.
+
+[DemoHelpGroup]
+Caption=Deus Ex Demo Help Files
+Description=Deus Ex demo help files. Installation is required.
+
+[UnofficialPatchv2DemoVersionGroup]
+Caption=Unofficial Patch v2 Demo Version
+Description=Unofficial Patch v2 demo version. Edited version of UPv2 to work with the demo. Contains numerous bug fixes.
+
+[DemoEngineSystemGroup]
+Caption=Deus Ex Engine Files
+Description=Deus Ex engine files. Installation is required.
+
+[DemoGameSystemGroup]
+Caption=Deus Ex Game Files
+Description=Deus Ex game files. Installation is required.
+
+[DemoDeusExMapsGroup]
+Caption=Deus Ex Maps
+Description=Deus Ex maps. Installation is required.
+
+[DemoDeusExMusicGroup]
+Caption=Deus Ex Music
+Description=Deus Ex music files. Installation is required.
+
+
+[DemoDeusExSoundsGroup]
+Caption=Deus Ex Sounds
+Description=Deus Ex sound files. Installation is required.
+
+
+[DemoDeusExSpeechGroup]
+Caption=Deus Ex Speech Files
+Description=Deus Ex speech files. Installation is required.
+
+
+[DemoDeusExTexturesGroup]
+Caption=Deus Ex Textures
+Description=Deus Ex Textures. Installation is required.
+
+;Extras Group -DP 2019/7/15
+
+[ExtrasGroup]
+Caption=Extras
+Description=Extra Deus Ex related content. Installation is optional. 
+
+[DXCUCustomIconSplashLogo]
+Caption=Custom Community Update Icon, Splash & Logo
+Description=The original Deus Ex assets hue-shifted purple, to indicate the community update is installed. Installation is optional. 

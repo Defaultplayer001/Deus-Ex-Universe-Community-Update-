@@ -1,0 +1,192 @@
+[MJ12Troop3]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[ScientistFemale0]
+FamiliarName="Dr. Vargas"
+UnfamiliarName="Pszionikai kutató"
+
+[ScientistFemale2]
+FamiliarName="Dr. Bates"
+UnfamiliarName="Komputerszakértõ"
+
+[MJ12Troop12]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Augmentáció-kutató labor",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Központi komputer",CameraTag=Camera2)"
+Views[2]="(titleString="Nagyterem",CameraTag=Camera3,doorTag=trap_door)"
+
+[SkillAwardTrigger9]
+awardMessage="Helymegtalálási bónusz"
+
+[NanoKey1]
+PickupMessage="Megtaláltad a Mágneses augmentációs kamra kulcsát"
+Description="Mágneses augmentációs kamra kulcsa"
+
+[DeusExLevelInfo4]
+MissionLocation="Hong Kong - MJ12-labor"
+startupMessage[0]="Fenséges 12 Fejlesztési Program"
+startupMessage[1]="Csendes-óceán menti Kutatólétesítmény"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Augmentáció-kutató labor",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Központi komputer",CameraTag=Camera2)"
+Views[2]="(titleString="Nagyterem",CameraTag=Camera3,doorTag=trap_door)"
+
+[Doctor1]
+FamiliarName="Dr. Kohl"
+
+[MJ12Troop15]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[mib1]
+FamiliarName="Különleges laborbiztonsági õr"
+UnfamiliarName="Különleges laborbiztonsági õr"
+
+[ScientistMale1]
+FamiliarName="Dr. Donovan"
+UnfamiliarName="Biotechnológus"
+
+[MJ12Troop2]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[MJ12Troop4]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[MJ12Troop0]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[MJ12Troop7]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[MJ12Troop6]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[MJ12Troop1]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[ScientistFemale1]
+FamiliarName="Dr. Lundquist"
+UnfamiliarName="Genetikus"
+
+[Secretary3]
+FamiliarName="Laborasszisztens"
+UnfamiliarName="Laborasszisztens"
+
+[MJ12Troop8]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[SkillAwardTrigger10]
+awardMessage="Teljesítési bónusz"
+
+[SkillAwardTrigger11]
+awardMessage="Teljesítési bónusz"
+
+[Businessman2]
+FamiliarName="Harrison igazgató"
+UnfamiliarName="Laboratóriumi igazgató"
+
+[ScientistMale3]
+FamiliarName="Dr. Michalopolis"
+UnfamiliarName="Nanotechnológus"
+
+[ScientistFemale3]
+FamiliarName="Dr. Casswell"
+UnfamiliarName="Biofegyver-fejlesztõ"
+
+[MIB3]
+FamiliarName="Különleges laborbiztonsági õr"
+UnfamiliarName="Különleges laborbiztonsági õr"
+
+[MJ12Troop11]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[mib2]
+FamiliarName="Különleges laborbiztonsági õr"
+UnfamiliarName="Különleges laborbiztonsági õr"
+
+[MJ12Troop9]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[ScientistMale0]
+FamiliarName="Dr. Trellaine"
+UnfamiliarName="Fizikus"
+
+[WIB0]
+FamiliarName="Különleges laborbiztonsági õr"
+UnfamiliarName="Különleges laborbiztonsági õr"
+
+[WIB1]
+FamiliarName="Különleges laborbiztonsági õr"
+UnfamiliarName="Különleges laborbiztonsági õr"
+
+[Secretary2]
+FamiliarName="Laborasszisztens"
+UnfamiliarName="Laborasszisztens"
+
+[SkillAwardTrigger8]
+awardMessage="Felfedezési bónusz"
+
+[Secretary1]
+FamiliarName="Laborasszisztens"
+UnfamiliarName="Laborasszisztens"
+
+[MJ12Troop13]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[MJ12Troop5]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+[MJ12Troop10]
+FamiliarName="Laborbiztonsági õr"
+UnfamiliarName="Laborbiztonsági õr"
+
+Views[0]="(titleString="Augmentáció-kutató labor",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Központi komputer",CameraTag=Camera2)"
+Views[2]="(titleString="Nagyterem",CameraTag=Camera3,doorTag=trap_door)"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Augmentáció-kutató labor",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Központi komputer",CameraTag=Camera2)"
+Views[2]="(titleString="Nagyterem",CameraTag=Camera3,doorTag=trap_door)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Augmentáció-kutató labor",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Központi komputer",CameraTag=Camera2)"
+Views[2]="(titleString="Nagyterem",CameraTag=Camera3,doorTag=trap_door)"
+
+[ComputerPersonal1]
+specialOptions[0]="(Text="Mágneses kamra sugárzásának kikapcsolása",TriggerText="Sugárzásgerjesztõk kikapcsolva",UnTriggerEvent=AugmentationRadiation,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="1-es szigetelõrekesz kinyitása",TriggerText="Rekesz nyitva",TriggerEvent=Pod01)"
+specialOptions[2]="(Text="2-es szigetelõrekesz kinyitása",TriggerText="Rekesz nyitva",TriggerEvent=Pod02)"
+specialOptions[3]="(Text="Mágneses kamra kinyitása",TriggerText="Mágneses kamra ajtaja nyitva",TriggerEvent=Nano_Chamber_Door)"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Nanotech-penge ROM-jának feltöltése",TriggerText="Penge-ROM feltöltve",TriggerEvent=TongHasRom,bTriggerOnceOnly=True)"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+PickupMessage="Megtaláltad a kísérleti alanycella kulcsát"
+Description="Kísérleti alanycella kulcsa"
+
+[MIB0]
+FamiliarName="Különleges laborbiztonsági õr"
+UnfamiliarName="Különleges laborbiztonsági õr"
+

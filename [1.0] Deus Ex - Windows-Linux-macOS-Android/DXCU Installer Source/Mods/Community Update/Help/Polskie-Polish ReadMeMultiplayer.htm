@@ -1,0 +1,330 @@
+<html>
+<head>
+<title>Plik przeczytaj do wieloosobowego trybu gry w Deus Ex</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+</head>
+
+<body bgcolor="#C0C0C0">
+<h2 align="center">Plik przeczytaj do wieloosobowego trybu gry w Deus Ex</h2>
+<h4 align="center">4 stycznia, 2001<br>
+Wersja 1.1</h4>
+<hr>
+<h4 align="left"><font face="Arial, Helvetica, sans-serif"><b><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF" size="-1"><a href="#CreatingACharacter">Tworzenie postaci</a></font></b></font><br>
+  <font color="#0000FF" size="-1"><a href="#KeyBindings">Konfiguracja klawiszy</a></font><br>
+  <font color="#0000FF" size="-1"><a href="#FindingAGame">Wyszukiwanie rozgrywki</a></font><br>
+  <font color="#0000FF" size="-1"><a href="#HostingAGame">Zakładanie rozgrywki<br>
+  </a></font><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF" size="-1"><a href="#NamingAServer">Nazwa serwera</a></font></b></font><br>
+  <font color="#0000FF" size="-1"><a href="#UserCreatedMaps">Mapy stworzone przez użytkowników</a></font><br>
+  <font color="#0000FF" size="-1"><a href="#Interface">Interfejs</a></font><br>
+  <font color="#0000FF" size="-1"><a href="#Skills">Umiejętności</a></font><br>
+  <font color="#0000FF" size="-1"><a href="#Augmentations">Modyfikacje</a></font><br>
+  <font color="#0000FF" size="-1"><a href="#ToolsAndItems">Narzędzia i inne przedmioty</a></font><br>
+  <font color="#0000FF" size="-1"><a href="#Weapons">Broń</a></font><br>
+  <font color="#0000FF" size="-1"><a href="#MultiplayerCredits">Autorzy modułu rozgrywki wieloosobowej</a></font> 
+  <font color="#0000FF" size="-1"><a href="#CreatingACharacter"> </a></font></b></font><font face="Arial, Helvetica, sans-serif"><b> 
+  <font color="#0000FF" size="-1"></font></b></font><br>
+</h4>
+<hr>
+<p>Deus Ex Multiplayer ("DXMP") umożliwia toczenie rozgrywek z innymi graczami w dwóch trybach: Death Match oraz Death Match drużynowy. </p>
+<ul>
+  <li>W rozgrywkach typu Death Match celem rozgrywki jest likwidacja innych graczy. Każdy gra sam przeciwko pozostałym użytkownikom. </li>
+  <li> W rozgrywkach typu Death Match drużynowy gracze podzieleni są na dwa zespoły, a celem jest likwidacja graczy drużyny przeciwnej.</li>
+</ul>
+<p>DXMP nie pozwala prowadzenie rozgrywki kooperacyjnej w trybie dla jednego gracza, a na mapach dostępnych w bieżącej wersji nie ma przeciwników SI. Rozgrywki toczą się wyłącznie pomiędzy gracami (lub drużynami graczy). Mapy stworzone na potrzeby trybu dla jednego gracza Deus Ex nie mogą być wykorzystywane podczas rozgrywek wieloosobowych - do tego celu nadają się wyłącznie mapy stworzone specjalnie do zmagań wielu graczy. Mapy przeznaczone do trybu wieloosobowego można łatwo rozpoznać, ponieważ zawierają one prefiks "dxmp" (np. "dxmp_silo.dx").</p>
+<p>W grze Deus Ex rozwój postaci jest równie ważny, co umiejętności samego graca. To samo dotyczy trybu wieloosobowego. Oznacza to, że DXMP jest czymś innym, niż tradycyjne rozgrywki typu deathmatch. W grze Deus Ex nie będziesz się poruszać tak szybko. Broń nie będzie tak celna, a umiejętności bojowe postaci mają ogromny wpływ na celność i skuteczność ostrzału.  
+</p>
+<p>Rozwiązaniem tych problemów jest wykorzystanie możliwości, jakie zapewniają umiejętności i systemy modyfikacji:  </p>
+<p>Jeżeli wydaje ci się, że twoja postać porusza się zbyt wolno, proszę pamiętać, że zawsze dysponuje ona modyfikacją o nazwie "Przyspieszenie". Proszę zrobić z niej użytek, a postać będzie się poruszać znacznie szybciej, skakać dalej i będzie ją trudniej trafi (trzeba będzie także wypatrywać ogniw bioelektrycznych, ale warto pójść na takie poświęcenie...). </p>
+<p>Jeżeli broń sprawia wrażenie niecelnej, proszę odpowiednio rozwinąć umiejętności (patrz poniżej). 
+  <br>
+</p>
+<p><b>WAŻNE</b>: Wiele elementów rozgrywki wieloosobowej Deus Ex działa bardzo odmiennie do sposobu znanego z trybu dla jednego gracza! Zostały one wyszczególnione w niniejszym pliku .</p>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="CreatingACharacter"></a>Tworzenie postaci</font></b></font></p>
+<p>Zanim dołączysz do pierwszej rozgrywki, przejdź do głównego menu i wybierz "Wielu graczy".  
+</p>
+<p>Wybierz "Ustawienia gracza". Tutaj można wybrać imię, wygląd, drużynę, typ połączenia oraz czy chcesz, aby podczas gry wyświetlane były komunikaty pomocy. Jeżeli w polu drużyny wybierzesz <I>Auto</I>, zostaniesz automatycznie przypisany do drużyny, w której jest mniejsza liczba graczy.</p>
+<p>W menu "Wielu graczy" zobaczysz listę "Modyfikacji". Proszę ją wybrać, aby przejść na ekran modyfikacji. Jeżeli chcesz od razu przejść do gry, wybierz domyślne modyfikacje. Możesz jednak sam wybrać modyfikacje dla postaci. Więcej informacji na ten temat znajdziesz w sekcji "Modyfikacje", w dalszej części niniejszego pliku readme.</p>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="KeyBindings"></a>Konfiguracja klawiszy</font></b></font></p>
+<p>Poniższe klawisze mają spore znaczenie w rozgrywkach DXMP. Funkcje te powinny być przypisane do wybranych klawiszy w menu klawiatury/myszy. Konfigurację klawiszy w trybie wieloosbowym można zmienić dokładnie tak samo, jak w trybie dla jednego gracza. Poniższe funkcje powinny zostać przypisane do klawiszy przed rozpoczęciem pierwszej sesji DXMP!  </p>
+<ul>
+  <li>Czat drużynowy </li>
+  <li>Czat </li>
+  <li>Pokaż wyniki </li>
+  <li>Kup umiejętności</li>
+  <li>Pokaż szczegółowe informacje o zabitych w trybie wieloosobowym </li>
+</ul>
+<p>Proszę pamiętać, że w trybie wieloosobowym Deus Ex można przypisać do modyfikacji dowolne klawisze.<br>
+  <br>
+Dodatkowo poniżej podano domyślne ustawienia klawiszy dla nowych funkcji z trybu wieloosobowego. Jeżeli nie zostaną one przypisane do innych klawiszy, gdy zainstalowana zostanie aktualizacja, automatycznie zostaną przypisane do klawiszy podanych poniżej.</p>
+<ul>
+  <li>T-Czat drużynowy</li>
+  <li>Y-Czat</li>
+  <li>=-Pokaż wyniki</li>
+  <li>B-Kup umiejętności</li>
+  <li>K-Pokaż szczegółowe informacje o zabitych w trybie wieloosobowym</li>
+</ul>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="FindingAGame"></a>Wyszukiwanie rozgrywki</font></b></font></p>
+<p>Po stworzeniu postaci i skonfigurowaniu klawiszy funkcji wieloosobowych, będzie można dołączyć do gry. Upewnij się, że jesteś połączony do sieci wewnętrznej lub do internetu za pośrednictwem modemu lub przy pomocy połączenia szerokopasmowego. Odpowiedni rodzaj połączenia należy wybrać na ekranie ustawień gracza. </p>
+<p>Na ekranie menu wielu graczy wybierz "Grę w sieci LAN" lub "Grę przez internet". Znajdziesz się na ekranie, za pośrednictwem którego można dołączyć lub rozpocząć ("Stworzyć") grę.  
+</p>
+<p>Jeżeli są dostępne sesje, znajdą się one na liście w górnej części ekranu. Kliknij na jednej z nich, a uzyskasz informacje o tym, jak gospodarz skonfigurował sesję (patrz poniżej: "Zakładanie rozgrywki"). Gdy wybrana sesja jest podświetlona, możesz kliknąć na przycisku "Dołącz", aby wziąć w niej udział.  </p>
+<p>Jeżeli w oknie w górnej części ekranu nie widzisz żadnych dostępnych sesji, możesz założyć własną, klikając na przycisku "Stwórz".</p>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="HostingAGame"></a>Zakładanie rozgrywki </font></b></font></p>
+<p>W każdej rozgrywce wieloosobowej musi być komputer PC, który spełnia funkcję gospodarza. Gracz może z niego normalnie korzystać podczas sesji (to serwer, który nie jest dedykowany). Im większa moc obliczeniowa komputera gospodarza, bym bardziej płynna będzie rozgrywka. Jeżeli komputer gospodarza znajduje się za zaporą ogniową, to proszę się upewnić, że odblokowano porty 7790, 7791, 7792 oraz 27900.</p>
+<p>Podczas zakładania rozgrywki wieloosobowej Deus Ex, można zmienić następujące ustawienia gry:</p>
+<ul>
+  <li><b>Typ gry</b> - Gospodarz DXMP może wybrać "Death Match" lub "Death Match drużynowy" i określić poziom trudności rozgrywki. Dla nowych graczy zalecany jest "Zwykły DM drużynowy", ponieważ w tym trybie nie trzeba zarządzać umiejętnościami - wszystkie są automatycznie na poziomie mistrzowskim. Dodatkowo gracze rozpoczną sesję posiadając wszystkie wybrane modyfikacje. "Zaawansowane DM drużynowe" są przeznaczone dla bardziej doświadczonych graczy. Na tym poziomie umiejętności i modyfikacje są zdobywane już w trakcie rozgrywki. Po wybraniu "Własnego DM drużynowego" gospodarz może samodzielnie skonfigurować ustawienia gry (patrz poniżej). We wszystkich typach gier za każdym razem, gdy gracz zostanie zabity, odrodzi się obok skrzyni z bronią - nie trzeba się martwić, że trzeba ruszać do walki w pustymi rękami!<br>
+    <br>
+  </li>
+  <li><b>Mapa</b> - Ta opcja określa jaka mapa zostanie wczytana w chwili rozpoczęcia gry. Może to być mapa stworzona przez zespół Deus Ex specjalnie do trybu wieloosobowego (dxmp_silo, dxmp_smuggler, dxmp_cathedral, dxmp_cmd, or dxmp_area51bunker) lub mapa stworzona przez gracza przy pomocy Deus Ex SDK (Patrz poniżej: "Mapy stworzone przez użytkowników").<br>
+    <br>
+  </li>
+  <li><b>Maksymalna liczba graczy</b> - Określa ilu graczy może dołączyć do gry. Wartość ta wynosi minimalnie 1, a maksymalnie 16.<br>
+    <br>
+  </li>
+  <li><b>Własny ostrzał</b> - To mnożnik, jaki obowiązuje wszelkie obrażenia zadawane sprzymierzeńcom przez ich kolegów z drużyny. Może wynosić od 0 do 1. Domyślna wartość wynosi 0,5, co oznacza, że ostrzał od członków własnej drużyny powoduje obrażenia mniejsze o 50%, niż normalnie. <br>
+    <br>
+  </li>
+  <li><b>Modyfikacje początkowe</b> - Ile z wybranych na początku modyfikacji dostępnych będzie dla gracza w chwili dołączenia do sesji lub gdy zginie i odrodzi się. Wartość ta należy od przedziału od 0 do 9.<br>
+    <br>
+  </li>
+  <li><b>Modyfikacje za wroga</b> - Ile z wybranych wcześniej przez gracza modyfikacji będzie mu udostępnianych za każdym razem, gdy pokonany zostanie kolejny przeciwnik. Wartość ta należy do przedziału od 0 do 9. Proszę pamiętać, że to poważna zmiana w stosunku do rozgrywki dla jednego gracza. Zamiast znajdować modyfikacje i ulepszenia, które muszę być następnie zainstalowane, postacie będą je otrzymywać automatycznie (patrz powyżej "Ulepszenia początkowe") i za pokonywanie wrogów. <br>
+    <br>
+  </li>
+  <li><b>Startowy poziom umiejętności</b> - Opcja ta określa poziom umiejętności graczy wchodzących do gry lub odradzających się po śmierci. Gospodarz może ustawić ją na Przeszkolony, Zaawansowany lub Mistrz. Żaden z uczestników rozgrywki wieloosobowej nie rozpoczyna gry z umiejętnościami na poziomie "Bez wyszkolenia". <br>
+    <br>
+  </li>
+  <li><b>Startowe punkty umiejętności</b> - Liczba punktów umiejętności, jakie gracze mają do rozdysponowania za każdym razem, gdy ich postać będzie się odradzać. Wartość ta może wynosić od 0 do 10 000.
+    <br>
+    <br>
+  </li>
+  <li><b>Punkty umiejętności za wroga</b> - Liczba punktów umiejętności przyznawanych za każdym razem, gdy postać pokona jakiegoś wroga. Nagroda może wynosić od 0 do 10 000. Proszę pamiętać, że za każdym razem, gdy postać ginie podczas rozgrywki wieloosobowej, wszelkie rozwinięte umiejętności powracają w chwili odrodzenia do wartości początkowych.<br>
+    <br>
+  </li>
+  <li><b>Zasady zwycięstwa</b> - W rozgrywkach Death Match i Death Match drużynowych obowiązują dwa warunki zwycięstwa. Jeżeli gospodarz wybierze opcję "limit czasu", gra zakończy się po upływie określonego czasu. Zwycięzcą zostanie ten, kto ma na koncie najwięcej zabitych. Limit czasowy może wynosić od 1 do 20 minut. Wybór opcji "Limit zabitych" oznacza, że gra zakończy się w momencie, gdy pierwszy z zespołów osiągnie zadaną wartość. Limit zabitych może wynosić od 1 do 40. <br>
+    <br>
+  </li>
+  <li><b>Wybór map</b> -Wybór opcji "Powtarzaj mapę" oznacza, że po zakończeniu rudny wczytana zostanie ta sama mapa. "Mapy po kolei" oznacza, że wczytywane będą kolejna wszystkie zainstalowane mapy DXMP. "Losowa mapa" oznacza, że za każdym razem wybierana będzie losowa mapa. <br>
+    <br>
+  </li>
+  <li><b>Tryb serwera</b> - To ustawienie określa czy chcesz uruchomić serwer dedykowany czy nie. W przypadku serwerów niededykowanych, można grać korzystając z komputera gospodarza. Serwery dedykowane zapewniają jednak lepszą wydajność. </li>
+</ul>
+<p>Aby zmienić wydajność serwera, można wprowadzić zmiany w obrębie następujących wpisów w pliku DeusEx.ini, w bloku [IpDrv.TcpNetDriver]. Przygotowaliśmy domyślne wartości, które powinny działać w większości sytuacji, ale można je modyfikować:</p>
+<ul>
+  <li><i>StaticUpdateRate</i>: zmniejszenie tej wartości wpłynie na poprawę wydajności procesora, gdy klienci nie przemieszczają się, ale może to prowadzić do powstawania u nich opóźnień.</li>
+  <li><i>DynamicUpdateRate</i>: zmniejszenie tej wartości wpłynie na poprawę wydajności serwera, gdy klienci się przemieszczają, ale może to prowadzić do powstawania u nich opóźnień.</li>
+</ul>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="NamingAServer"></a>Nazwa serwera</font></b></font></p>
+<p>Gdy gracze będą próbować dołączać do stworzonej przez ciebie gry, zobaczą adres IP lub nazwę serwera. Jeżeli chcesz, aby gracze widzieli nazwę serwera, wykonaj poniższe kroki:  
+</p>
+<ol>
+  <li>Otwórz w dowolnym edytorze tekstowym plik deusex.ini </li>
+  <li>Znajdź wpis  [Engine.GameReplicationInfo] </li>
+  <li>Zmień znajdującą się poniżej opcję ServerName=&lt;nothing&gt; <nothing> 
+    na ServerName=<Twoja nazwa serwera>&lt;Twoja nazwa serwera&gt;.</li>
+</ol>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="UserCreatedMaps"></a>Mapy stworzone przez użytkowników</font></b></font></p>
+<p>Do rozgrywek wieloosobowych Deus Ex przygotowano pięć map. Później mogą się pojawić kolejne, gdy zostaną stworzone przez zespół roboczy Deus Ex lub przez użytkowników za pomocą Deus Ex SDK. </p>
+<p>Jeżeli chcesz dodać nowe pozycje do listy map dostępnych na serwerze, wykonaj poniższe kroki:  
+</p>
+<ol>
+  <li>Skopiuj nową mapę do foldera Deusex\Maps. (Proszę pamiętać, że mapy do rozgrywek wieloosobowych muszą być poprzedzone prefiksem "dxmp").  </li>
+  <li>W folderze DeusEx\System znajduje się plik Deusex.Ini. Proszę go otworzyć. </li>
+  <li> Znajdź wers [DeusEx.DXMapList] </li>
+  <li> Poniżej znajduje się lista map, w postaci "Maps[X]=DXMP_MapName" oraz "MapSizes[X]=(A-B)". 
+    Lista map dostępnych na serwerze zaczyna się od pozycji Map[0] i kończy się pustym wersem. Domyślnie więc mapy przechodzą od Maps[0]=DXMP_Cmd do Maps[4]=DXMP_Smuggler. Mapy można dodawać w dowolnych pustych wierszach (można także zastąpić istniejące mapy). Zalecamy także, aby zmienić odpowiednie wiersze zawierające informacje "MapSizes", aby przeglądając je w interfejsie Deus Ex można było zobaczyć liczbę graczy, dla których są przeznaczone.</li>
+</ol>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="Interface"></a>Interfejs</font></b></font></p>
+<p>Po dołączeniu do gry zauważysz, że interfejs uległ zmianie. Konkretnie chodzi o ekran Archiwum danych, znany z trybu dla jednego gracza (ekwipunek, notatki, cele, itd.) nie istnieje w trybie wieloosobowym Deus Ex.</p>
+<p>Podczas rozgrywek wieloosobowych można korzystać z wszystkich niezbędnych funkcji w widoku 3D i nigdy nie trzeba zmieniać wyświetlanych ekranów.  </p>
+<p>Większość zmian jest oczywista, ale trzeba pamiętać o jednej rzeczy: podczas rozgrywek wieloosobowych ekwipunek jest bardziej ograniczony, a wielkość nie ma już wpływu na to czy można dany przedmiot nieść. Podczas rozgrywek wieloosobowych w Deus Ex można nosić trzy sztuki broni, trzy ładunki wybuchowe i cztery dodatkowe przedmioty.  
+</p>
+<p>Broń może mieć dowolną wielkość i zawsze będzie wyświetlana w trzech gniazdach po lewej stronie na pasku obiektów.  </p>
+<p>Ładunki wybuchowe zawsze pojawiają się w trzech gniazdach na środku. </p>
+<p>Dodatkowe przedmioty zawsze zajmują gniazda po prawej stronie. Kolejność przedmiotów na pasku obiektów można zmieniać, ale nie trzeba tego robić. Dostępnych jest zaledwie dziesięć przedmiotów i dla poszczególnych obiektów przygotowano konkretne miejsca. Dodatkowo ich wielkość nie ma znaczenia.</p>
+<p>Jest jedna bardzo ważna rzecz dotycząca interfejsu: proszę korzystać z możliwości, jakie zapewnia identyfikacja swój-wróg. Obiekty i postacie, które zmieniają celownik na kolor CZERWONY są wrogo nastawione lub należą do przeciwnika. Obiekty i postacie, które są wyświetlane na ZIELONO, są sprzymierzeńcami lub należą do nich. Obiekty wyświetlane na BIAŁO są neutralne.</p>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="Skills"></a>Umiejętności</font></b></font></p>
+<p>Umiejętności działają w sposób niemal identyczny, jak w trybie dla jednego gracza. W trybie wieloosobowym gracze nie zdobywają jednak punktów umiejętności (PU) za rozwiązywanie problemów. Są one przyznawane za pokonywanie przeciwników. </p>
+<p>Po rozpoczęciu gry lub odrodzeniu po śmierci postaci, pojawi się komunikat z prośbą o rozwinięcie umiejętności.  </p>
+<p>Aby uzyskać nowe lub rozwinąć posiadane umiejętności, naciśnij klawisz przypisany do funkcji "Kupowania umiejętności", tak jak to opisano powyżej. Wszyscy gracze zaczynają grę na pierwszym poziomie umiejętności i mają do dyspozycji dwa rozwinięcia. W zależności od opcji wybranych przez gospodarza, gracze mogą rozpoczynać sesję dysponując umiejętnościami na poziomie maksymalnym (co oznacza, że nie trzeba kupować umiejętności). </p>
+<p>Poniżej opisano wieloosobowe funkcje dostępnych umiejętności (proszę zauważyć, umiejętność pływania została usunięta z listy. Została ona połączona z modyfikacją o nazwie akwalung).</p>
+<p><b>Komputery</b><br>
+Rozwijanie umiejętności korzystania z komputerów pozwala skrócić czas potrzebny na włamania do komputerowego systemu bezpieczeństwa lub przejęcie kontroli nad kamerami i wieżyczkami. W przeciwieństwie do trybu dla jednego gracza Deus Ex, w trybie wieloosobowym takie próby mogą podejmować wszyscy gracze, ale im wyższy poziom umiejętności, tym szybciej można się włamać. W ten sposób można atakować komputery kontrolowane przez wroga i neutralne. Nie można włamywać się na komputer, na który już włamał się już twój sprzymierzeniec.</p>
+<p><b>Sprzęt elektroniczny</b><br>
+Ta umiejętność zmniejsza liczbę multikluczy i czasu potrzebnego do pokonania zamka szyfrowego lub wieżyczki (przywrócenie jej do stanu neutralnego).</p>
+<p><b>Sprzęt ochronny </b><br>
+Ta umiejętność wydłuża czas działania i zwiększa skuteczność kamuflażu termooptycznego, pancerza balistycznego i skafandra ochronnego (Ważne: choć funkcja ta jest aktywna, na żadnej z map dostępnych w trybie wieloosobowym nie ma takich skafandrów. Ich obsługa została dodana na potrzeby użytkowników, którzy chcą rozmieścić takie przedmioty na stworzonych przez siebie mapach).</p>
+<p><b>Otwieranie zamków </b><br>
+Rozwinięcie tej umiejętności pozwala zmniejszyć liczbę wytrychów i skrócić czas potrzebny na otwarcie zamka mechanicznego.</p>
+<p><b>Medycyna</b><br>
+Rozwinięcie tej umiejętności pozwala na skuteczniejsze wykorzystywania apteczek przy odzyskiwaniu utraconych punktów zdrowia (PZ).</p>
+<p><b>Broń: Materiały wybuchowe</b><br>
+Rozwinięcie tej umiejętności zapewnia większą celność i zwiększa obrażenia powodowane przez ładunki wybuchowe (np. LAM, granaty gazowe, granaty EMP). Jeżeli twój poziom umiejętności jest wyższy, niż poziom umiejętności gracza, który podłożył taką pułapkę, to będziesz miał więcej czasu na jej rozbrojenie, zanim wybuchnie.</p>
+<p><b>Broń ciężka</b><br>
+Rozwinięcie tej umiejętności zapewnia większą celność, szybkość i obrażenia zadawane ogniem broni ciężkiej, tak samo jak w trybie dla jednego gracza.</p>
+<p><b>Broń lekka </b><br>
+Rozwinięcie tej umiejętności zapewnia większą celność i obrażenia zadawana przez podstawową, nieskomplikowaną broń, dokładnie tak samo, jak w trybie dla jednego gracza.</p>
+<p><b>Broń: pistolety </b><br>
+Rozwinięcie tej umiejętności zapewnia większą celność i obrażenia zadawane przez pistolety, dokładnie tak samo, jak w trybie dla jednego gracza.</p>
+<p><b>Broń: karabiny</b><br>
+Rozwinięcie tej umiejętności zapewnia większą celność i obrażenia zadawane przez karabiny, dokładnie tak samo, jak w trybie dla jednego gracza.</p>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="Augmentations"></a>Modyfikacje</font></b></font></p>
+<p>Gospodarz każdej rozgrywki wieloosobowej określa liczbę modyfikacji, a jakimi gracze rozpoczynają grę i które są przyznawane za pokonanie przeciwnika. </p>
+<p>Przed dołączeniem do meczu, gracze mogą zdecydować się na korzystanie z domyślnych modyfikacji, bądź też wybrać je indywidualnie. Proszę kliknąć na odpowiednich przyciskach, aby wybrać poszczególne modyfikacje. </p>
+<p>Podobnie jak w rozgrywkach jednoosobowych, każda z modyfikacji ma swoje przeciwieństwo i można wybrać tylko jedną z takiej pary. Na przykład modyfikacje poprawy wzroku stanowią przeciwieństwo modyfikacji maskowania. Istnieje 8 par modyfikacji. Jedyną modyfikacją, która nie ma przeciwieństwa jest akwalung (Ważne: modyfikacje przeciwne NIE są w trybie wieloosobowym takie same, jak w trybie jednoosobowym!).</p>
+<p>Po przygotowaniu listy modyfikacji, proszę określić ich ważność - kolejność, w jakiej będą zdobywane i ulepszane. Można to zrobić podświetlając nazwę modyfikacji na liście i używając klawiszy strzałek w górę i w dół, aby określić jej pozycję na liście. </p>
+<p>Większość modyfikacji funkcjonuje dokładnie tak samo, jak w trybie Deus Ex dla jednego gracza, ale istnieje kilka różnic. W trybie wieloosobowym wykorzystywane są wszystkie modyfikacje wymienione poniżej.  
+</p>
+<p><b>System aktywnej obrony </b><br>
+  <i>Zużycie energii: Niskie</i><br>
+Pociski rakietowe wystrzelone przez wroga będą wybuchać zanim w ciebie trafią, a co za tym idzie będą powodować zmniejszone obrażenia. Większe pociski (taki jak LAW) mogą zostać zdetonowane dostatecznie blisko, aby spowodować znaczne obrażenia, nawet po włączeniu systemu aktywnej obrony. Modyfikacja ta nie doprowadza do detonacji rzucanych pocisków LAM, ani granatów gazowych i EM.</p>
+<p><b>Akwalung </b><br>
+  <i>Zużycie energii: Niskie </i><br>
+Pozwala przebywać pod wodą 12 razy dłużej, niż normalnie. Dodatkowo zwiększa dwukrotnie szybkość pływania gracza.</p>
+<p><b>Pancerz balistyczny </b><br>
+  <i>Zużycie energii: Wysokie </i><br>
+Zmniejsza  o 40% skuteczność broni do walki wręcz i balistycznej (np. karabinów i pistoletów).</p>
+<p><b>Maskowanie  </b><br>
+  <i>Zużycie energii: Średnie </i><br>
+Sprawia, że postać staje się niewidzialna dla wroga. Urządzenia elektroniczne i gracze, którzy dysponują modyfikacjami poprawy wzroku będą w stanie cię wykryć. Wyciągnięcie broni przerywa działanie maskowania. W rozgrywkach typu Death Match drużynowy gracze korzystający z maskowania wciąż są widoczni dla swych sprzymierzeńców.</p>
+<p><b>Siła bojowa  </b><br>
+  <i>Zużycie energii: Niskie </i><br>
+Postać będzie zadawać dwukrotnie większe obrażenia za pomocą broni do walki wręcz (np. nożem bojowym).</p>
+<p><b>Tarcza EM</b><br>
+  <i>Zużycie energii: Bardzo niskie </i><br>
+Zmniejsza o 95% skuteczność ataków elektromagnetycznych skierowanych przeciwko postaci.</p>
+<p><b>Tarcza energetyczna  </b><br>
+  <i>Zużycie energii: Średnie </i><br>
+Zmniejsza o 80% skuteczność ataków plazmowych i miotaczem ognia, skierowanych przeciwko postaci. </p>
+<p><b>Odporność<br>
+  </b><i>Zużycie energii: Niskie</i><br>
+Zmniejsza o 90% obrażenia od trucizny i gazu, a także całkowicie znosi zaburzenia wzroku spowodowane działaniem gazu. Proszę pamiętać, że włączenie tej modyfikacji w chwili, kiedy wystąpiły problemy ze wzrokiem nie usunie takich efektów.</p>
+<p><b>Mięśnie z mikrowłókien</b><br>
+  <i>Zużycie energii: Niskie </i><br>
+Pozwala podnosić duże skrzynie.</p>
+<p><b>Cyrkulacja energii </b><br>
+  <i>Zużycie energii: Brak </i><br>
+Zmniejsza zużycie energii pozostałych modyfikacji. Proszę pamiętać, że modyfikacja cyrkulacji energii jest automatycznie uruchamiana w chwili, gdy włączona zostanie jakakolwiek inna modyfikacja.</p>
+<p><b>Niewidoczność dla radarów  </b><br>
+  <i>Zużycie energii: Bardzo niskie </i><br>
+Sprawia, że postać staje się niewidzialna dla urządzeń elektronicznych, takich, jak kamery, wieżyczki i miny z zapalnikami zbliżeniowymi (np. LAM).</p>
+<p><b>Cichy bieg </b><br>
+  <i>Zużycie energii: Niskie </i><br>
+Poruszasz się całkowicie cicho, bez względu na szybkość.</p>
+<p><b>Przyspieszenie </b><br>
+  <i>Zużycie energii: Bardz wysokie </i><br>
+Pozwala poruszać się dwukrotnie szybciej i skakać dwukrotnie wyżej.</p>
+<p><b>Sonda szpiegowska </b><br>
+  <i>Zużycie energii: Średnie </i><br>
+Tworzy niewielką, zdalnie sterowaną sondę. Po naciśnięcia klawisza strzału (lub przycisku myszy), gdy sonda jest aktywna, wywołane zostanie potężne wyładowanie elektromagnetyczne, oddziałujące na wszystkich graczy i urządzenia znajdujące się w jej pobliżu. </p>
+<p><b>Celowanie </b><br>
+  <i>Zużycie energii: Średnie </i><br>
+Postać będzie zadawać każdą bronią obrażenia o 40% większe. Będzie także znać dokładną wartość zdrowia przeciwnika. 
+</p>
+<p><b>Poprawa wzroku </b><br>
+  <i>Zużycie energii: Średnie </i><br>
+Pozwala widzieć graczy przeciwnika w ciemności i z każdej odległości. Przez krótki czas można widzieć przez mury i zauważać przeciwników korzystających z maskowania. Przeciwnicy będą wyświetlani na czerwono.</p>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="ToolsAndItems"></a>Narzędzia i inne przedmioty</font></b></font></p>
+<p>Większość narzędzi i przedmiotów w trybie wieloosobowym Deus Ex działa dokładnie tak samo jak w trybie dla jednego gracza. <I>Różnice</I> podano poniżej.</p>
+<p><b>Ogniwa bioelektryczne</b><br>
+Przywracają 50 punktów energii bioelektrycznej. </p>
+<p><b>Zwłoki </b><br>
+Przeszukanie zabitej postaci - wroga czy sprzymierzeńca - przywraca 25 punktów bioenergii. </p>
+<p><b>Wytrychy  </b><br>
+Za pomocą wytrychów można otworzyć szafki i zamknięte gry. </p>
+<p><b>Roboty medyczne  </b><br>
+Całkowicie przywracają zdrowie postaci. Po każdym użyciu robot medyczny potrzebuje 30 sekund na przygotowanie do przycięcia kolejnego pacjęta. Apteczki całkowicie znoszą działanie trucizny i ognia.</p>
+<p><b>Multiklucze </b><br>
+Służą do otwierania zamków szyfrowych zabezpieczających obszary z robotami naprawczymi i niewielkie skrzynki z ekwipunkiem. Za pomocą multikluczy można zmieniać przynależność wieżyczki (patrz poniżej "Wieżyczki").  </p>
+<p><b>Roboty naprawcze  </b><br>
+Całkowicie ładuje energię bioleketryczną postaci. Robot naprawczy potrzebuje 30 sekund na doładowanie po każdym użyciu. Proszę pamiętać, że na przygotowanych mapach roboty naprawcze znajdują się zawsze na obszarach, które trzeba otworzyć pokonując włamaniem zamek szyfrowy. </p>
+<p><b>Wieżyczki </b><br>
+W trybie wieloosobowym wieżyczki są niezniszczalne, bez względu na używaną broń i poziom umiejętności. Mogą zostać jednak na pewien czas wyłączone z akcji za pomocą ataków elektromagnetycznych. Ataki EM całkowicie wyłączają wieżyczkę na 10 do 30 sekund. Można na nie także oddziaływać za pomocą multikluczy, aby je "obejść" lub ustawić w trybie uśpionym. Dodatkowo można się włamać na terminal komputerowy sterowania wieżyczką, aby zmienić jej przynależność do drużyny. Wieżyczki kontrolowane przez twoją drużynę będą prowadzić ogień do wszystkich wrogów, jacy znajdą się w ich zasięgu. 
+</p>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="Weapons"></a>Broń </font></b></font> 
+</p>
+<p>Amunicja jest gromadzona automatyczna, gdy postać ją podnosi. Aby uzupełnić zapas, wystarczy znaleźć i podnieść kolejny egzemplarz tej samej broni, albo skorzystać z dużej skrzyni z amunicją (w ten sposób uzupełnisz zapasy do każdej posiadanej broni). Można także znaleźć oddzielnie dodatkowe rodzaje amunicji, np. rakiety WP czy pociski 20 mm.</p>
+<p><b>Karabin szturmowy</b><br>
+  <i>Umiejętność - Broń: karabiny  </i><br>
+Broń automatyczna, która zadaje dobre obrażenia na średnie i małe odległości. </p>
+<p><b>Strzelba szturmowa </b><br>
+  <i>Umiejętność - Broń: karabiny </i><br>
+Strzelba automatyczna zadaje ogromne obrażenia na małe odległości i dobre na średnich dystansach. </p>
+<p><b>Obrzyn  </b><br>
+  <i>Umiejętność - Broń: karabiny  </i><br>
+Bardzo potężny na bardzo małe odległości. </p>
+<p><b>Karabin snajperski  </b><br>
+  <i>Umiejętność - Broń: karabiny  </i><br>
+Karabin snajperski zadaje ogromne obrażenia na bardzo duże odległości, szczególnie, gdy aktywny jest celownik optyczny. Skuteczność tej broni na małą odległość jest mocno ograniczona. </p>
+<p><b>Miotacz ognia </b> <br>
+  <i>Umiejętność - Broń ciężka </i> <br>
+Pali ofiary na bardzo małe odległości. Każdy postać zraniona z tej broni zostanie podpalona i będzie otrzymywać dalsze obrażenia przez kolejne 15 sekund, aż zginie lub płomienie zostaną ugaszone. Można to zrobić za pomocą robota medycznego, apteczki lub skacząc po prostu do wody.  </p>
+<p><b>Wyrzutnia GEP </b> <br>
+  <i>Umiejętność - Broń ciężka  </i><br>
+Wystrzeliwuje niewielkie rakiety. Po namierzeniu celu pocisk będzie go śledził. Wyrzutnia jest wyposażona w bardzo skuteczny celownik optyczny. Proszę pamiętać, że trzymając w rękach tę broń postać nie będzie się obracać tak szybko, jak normalnie. </p>
+<p><b>LAW</b> <br>
+  <i>Umiejętność - Broń ciężka  </i><br>
+Jednostrzałowa wyrzutnia rakiety dalekiego zasięgu. To najpotężniejsza broń obszarowa w grze. </p>
+<p><b>Karabin plazmowy  </b><br>
+  <i>Umiejętność - Broń ciężka </i> <br>
+Wystrzeliwuje ładunek plazmy, który rozpryskuje się przy uderzeniu w cel. Ta broń doskonale nadaje się do prowadzenia ognia zaporowego na duże i średnie odległości. . </p>
+<p><b>Kusza  </b><br>
+  <i>Umiejętność - Broń: pistolety </i><br>
+Wystrzeliwuje zatrute strzałki na małe i średnie odległości. Trucizna zadaje obrażenia i przysłaniają wzrok ofiary przez 15 sekund, aż umrze lub trucizna zostanie zneutralizowana. Truciznę można zneutralizować za pomocą apteczki lub robota medycznego. </p>
+<p><b>Pistolet </b><br>
+  <i>Umiejętność - Broń: pistolety  </i><br>
+Sprawdza się na małe i średnie odległości.  </p>
+<p><b>Pistolet z tłumikiem </b><br>
+  <i>Umiejętność - Broń: pistolety </i> <br>
+Zadaje mniejsze obrażenia, niż normalny pistolet, ale ma większą szybkostrzelność i generuje znaczniej mniej hałasu. </p>
+<p><b>Nóż bojowy </b><br>
+  <i>Umiejętność - Broń lekka</i> <br>
+Broń do walki wręcz, zadaje średnie obrażenia. </p>
+<p><b>Miecz - Ząb Smoka </b><br>
+  <i>Umiejętność - Broń lekka</i> <br>
+Najpotężniejsza z broni do walki wręcz. Jest jednak niezwykle hałaśliwa. Proszę zwrócić uwagę w stosunku do trybu dla jednego gracza: miecz ma większy zasięg i obejmuje atakiem niewielki obszar, zamiast uderzać w jeden tylko punkt.</p>
+<p> <b>Noże do rzucania </b> <br>
+  <i>Umiejętność - Broń lekka </i> <br>
+Całkowicie cicha broń dystansowa, o ogromnej szybkości ataków. Zadaje średnie obrażenia na małe i średnie odległości. </p>
+<p><b>Granat elektromagnetyczny </b><br>
+  <i>Umiejętność - Broń: Materiały wybuchowe</i><br>
+Ataki elektromagnetyczne wyczerpują większość lub nawet całość bioenergii, w zależności, jaka odległość będzie dzielić postać od miejsca wybuchu. Granty EM	 rozstawione jako miny z zapalnikami zbliżeniowymi nie są detonowane, gdy w ich zasięgu znajdą się sojusznicy. Nie można zabierać granatów EM rozstawionych przez sprzymierzeńców jako pułapki z zapalnikami zbliżeniowymi.</p>
+<p><b>Granat gazowy  </b><br>
+  <i>Umiejętność - Broń: Materiały wybuchowe </i><br>
+Granaty gazowe zadają obrażenia od trucizny. Dodatkowo ograniczają pole widzenia postaci znajdujących się w chmurze i przez 15 sekund po jej opuszczeniu. Efekty działania gazu można zneutralizować uruchamiając modyfikację odporności lub za pomocą apteczki czy robota medycznego. Granty gazowe rozstawione jako miny z zapalnikami zbliżeniowymi nie są detonowane, gdy w ich zasięgu znajdą się sojusznicy. Nie można zabierać granatów gazowych rozstawionych przez sprzymierzeńców jako pułapki z zapalnikami zbliżeniowymi.  </p>
+<p><b>Granat LAM </b><br>
+  <i>Umiejętność - Broń: Materiały wybuchowe </i><br>
+Podobnie jak w trybie Deus Ex dla jednego gracza, LAMy mogą być rzucane jak granaty, albo rozstawiane, jako miny z zapalnikami zbliżeniowymi. Podobnie jak w trybie dla jednego gracza LAMami można rzucać, tak samo jak granatami lub rozstawiać je jako miny z zapalnikami zbliżeniowymi. LAMy rozstawione jako miny z zapalnikami zbliżeniowymi nie są detonowane, gdy w ich zasięgu znajdą się sojusznicy. Nie można zabierać LAMów rozstawionych przez sprzymierzeńców jako pułapki z zapalnikami zbliżeniowymi.  </p>
+<hr>
+<p><font face="Arial, Helvetica, sans-serif"><b><font color="#0000FF"><a name="MultiplayerCredits"></a>Autorzy modułu rozgrywki wieloosobowej</font></b></font></p>
+<p><b>Programiści  </b><br>
+  Matt Baer <br>
+  Alex Duran </p>
+<p><b>Projektanci  </b><br>
+  Ricardo Bare <br>
+  Clay Hoffman <br>
+  Monte Martinez</p>
+<p> <b>Graficy </b><br>
+  Clay Hoffman <br>
+  Rob Kovach </p>
+<p><b>Dźwięk </b><br>
+  Alex Brandon </p>
+<p><b>KJ </b><br>
+  Dane Caruthers <br>
+  Andy Dombroski </p>
+<p><b>Dodatkowe wsparcie projektowe i programistyczne  </b><br>
+  Chris Carollo</p>
+<hr>
+</body>
+</html>

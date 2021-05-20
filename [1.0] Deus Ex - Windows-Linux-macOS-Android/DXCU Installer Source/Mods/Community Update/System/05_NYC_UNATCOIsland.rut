@@ -1,0 +1,37 @@
+[Terrorist2]
+FamiliarName="Мигель"
+
+[BlackHelicopter0]
+FamiliarName="Джок"
+UnfamiliarName="Джок"
+
+[ThugMale9]
+FamiliarName="Наемный головорез"
+UnfamiliarName="Наемный головорез"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Строение SATCOM",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[1]="(titleString="Штаб UNATCO снаружи",CameraTag=UN_CamSystem02)"
+Views[2]="(titleString="Штаб UNATCO внутри",CameraTag=UN_CamSystem03)"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Остров Свободы"
+
+[SecurityCamera0]
+FamiliarName="UN_lobby02"
+
+[SecurityCamera1]
+FamiliarName="UN_lobby01"
+
+[SecurityCamera2]
+FamiliarName="UN_outside"
+
+[SecurityCamera4]
+FamiliarName="SATCOM_cam"
+
+[UNATCOTroop6]
+FamiliarName="Рядовой Ллойд"
+

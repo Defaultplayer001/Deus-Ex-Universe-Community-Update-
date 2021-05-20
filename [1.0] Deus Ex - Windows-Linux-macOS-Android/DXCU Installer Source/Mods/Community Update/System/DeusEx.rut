@@ -1,0 +1,3275 @@
+[General]
+Start=Deus Ex (Starting)
+Exit=Deus Ex (Exiting)
+Run=Deus Ex (Running)
+Product=Deus Ex
+
+[Progress]
+Loading="Загрузка"
+Saving="Сохранение"
+
+[ScriptedPawn]
+FamiliarName="DEFAULT FAMILIAR NAME - REPORT THIS AS A BUG"
+UnfamiliarName="DEFAULT UNFAMILIAR NAME - REPORT THIS AS A BUG"
+
+[DeusExPlayer]
+InventoryFull="У вас недостаточно места в инвентаре, чтобы взять %s"
+TooMuchAmmo="У вас уже достаточно таких боеприпасов"
+TooHeavyToLift="Это слишком тяжело"
+CannotLift="Вам это не поднять"
+NoRoomToLift="Нет места, чтобы взять это"
+CanCarryOnlyOne="Вам под силу нести только 1 %s"
+CannotDropHere="Это нельзя здесь положить"
+HandsFull="Ваши руки заняты"
+NoteAdded="Получено сообщение - проверьте вашу базу данных"
+GoalAdded="Цель получена - проверьте вашу базу данных"
+PrimaryGoalCompleted="Основное задание выполнено"
+SecondaryGoalCompleted="Дополнительное задание выполнено"
+EnergyDepleted="Запас биоэнергии исчерпан"
+AddedNanoKey="%s добавлен в базу наноключей"
+HealedPointsLabel="Восстановлено %d единиц"
+HealedPointLabel="Восстановлена %d единица"
+SkillPointsAward="Добавлено %d единиц навыка"
+QuickSaveGameTitle="Быстрое сохранение"
+FamiliarName="JC Дентон"
+UnfamiliarName="JC Дентон"
+WeaponUnCloak="Вы достали оружие и... стали видимым"
+TakenOverString="Я захватил "
+HeadString="Голова"
+TorsoString="Туловище"
+LegsString="Ноги"
+WithTheString=" с "
+WithString=" с "
+PoisonString=" со смертельным отравлением"
+BurnString=" с сильным ожогом"
+NoneString="Нет"
+
+[DeusExDecoration]
+ItemName="DEFAULT DECORATION NAME - REPORT THIS AS A BUG"
+ItemArticle=" "
+
+[SkillManager]
+NoToolMessage="Вам необходим %s"
+NoSkillMessage="Уровень умения %s недостаточен для использования %s"
+SuccessMessage="Выполнено!"
+YourSkillLevelAt="Ваш уровень умения %s теперь %d"
+
+[Skill]
+skillLevelStrings[0]="НЕТРЕНИ-|nРОВАННЫЙ"
+skillLevelStrings[1]="ТРЕНИРО-|nВАННЫЙ"
+skillLevelStrings[2]="ОПЫТНЫЙ"
+skillLevelStrings[3]="МАСТЕР"
+SkillAtMaximum="Навык развит максимально"
+
+[AugmentationManager]
+AugLocationFull="Вы не можете больше добавить сюда приращение!"
+NoAugInSlot="Нет приращения в этой части тела"
+
+[Augmentation]
+EnergyRateLabel="Расход энергии: %d единиц/минуту"
+OccupiesSlotLabel="Область тела: %s"
+AugLocsText[0]="Череп"
+AugLocsText[1]="Глаза"
+AugLocsText[2]="Торс"
+AugLocsText[3]="Руки"
+AugLocsText[4]="Ноги"
+AugLocsText[5]="Кожа"
+AugLocsText[6]="По умолчанию"
+AugActivated="%s включен"
+AugDeactivated="%s выключен"
+AugAlreadyHave="%s у вас уже на максимуме"
+AugNowHave="%s улучшен до уровня %d"
+AugNowHaveAtLevel="Приращение %s до уровня %d"
+AlwaysActiveLabel="[Всегда активно]"
+CanUpgradeLabel="(Можно улучшить)"
+CurrentLevelLabel="Текущий уровень: %d"
+MaximumLabel="(максимальный)"
+MPInfo="DEFAULT AUG MP INFO - REPORT THIS AS A BUG"
+
+[DeusExRootWindow]
+QuickLoadTitle="Быстрая загрузка?"
+QuickLoadMessage="Вы потеряете текущую игру! Вы уверены, что хотите загрузить игру?"
+
+[DeusExWeapon]
+msgCannotBeReloaded="Это оружие не перезаряжается"
+msgOutOf="Закончились %s"
+msgNowHas="%s заряжен %s"
+msgAlreadyHas="%s уже заряжен %s"
+msgNone="НЕТ"
+msgLockInvalid="НЕВЕРНО"
+msgLockRange="ДАЛЬНОСТЬ"
+msgLockAcquire="ПОИСК"
+msgLockLocked="ЗАХВАТ"
+msgRangeUnit="фт"
+msgTimeUnit="сек"
+msgMassUnit="фунт(а,ов)"
+msgNotWorking="Это оружие в воде не работает"
+msgInfoAmmoLoaded="Заряжены:"
+msgInfoAmmo="Тип боеприпасов:"
+msgInfoDamage="Основные повреждения:"
+msgInfoClip="Размер обоймы:"
+msgInfoROF="Скорость стрельбы:"
+msgInfoReload="Время перезарядки:"
+msgInfoRecoil="Отдача:"
+msgInfoAccuracy="Базовая точность:"
+msgInfoAccRange="Прицельная дальность:"
+msgInfoMaxRange="Максимальная дальность:"
+msgInfoMass="Масса:"
+msgInfoLaser="Лазерный прицел:"
+msgInfoScope="Оптический прицел:"
+msgInfoSilencer="Глушитель:"
+msgInfoNA="Нет данных"
+msgInfoYes="ДА"
+msgInfoNo="НЕТ"
+msgInfoAuto="автоматическая"
+msgInfoSingle="одиночная"
+msgInfoRounds="патронов"
+msgInfoRoundsPerSec="выстрел/сек"
+msgInfoSkill="Навык:"
+msgInfoWeaponStats="Характеристики оружия:"
+PickupMessage="Вы нашли"
+ItemName="DEFAULT WEAPON NAME - REPORT THIS AS A BUG"
+
+[DeusExCarcass]
+msgSearching="Вы нашли:"
+msgEmpty="Вы ничего не нашли"
+msgNotDead="Без сознания"
+msgAnimalCarcass="Труп животного"
+msgCannotPickup="Вы не поднимете %s"
+ItemName="Труп"
+msgRecharged="Перезаряжено %d единиц"
+
+[DeusExMover]
+msgKeyLocked="Ваш дубликатор наноключей закрыл этот замок"
+msgKeyUnlocked="Ваш дубликатор наноключей открыл этот замок"
+msgLockpickSuccess="Вы открыли замок"
+msgOneWayFail="С этой стороны открыть невозможно"
+msgLocked="Закрыто"
+msgPicking="Открываем замок..."
+msgAlreadyUnlocked="Уже открыто"
+msgNoNanoKey="В Вашей базе наноключей нет верного кода"
+
+[DeusExPickup]
+CountLabel="Кол-во:"
+msgTooMany="Вы не сможете нести больше"
+PickupMessage="Вы нашли"
+ItemName="DEFAULT PICKUP NAME - REPORT THIS AS A BUG"
+
+[MenuUIChoice]
+actionText="Choice"
+FalseTrue[0]="False"
+FalseTrue[1]="True"
+
+[DataVaultImage]
+PickupMessage="Изображение внесено в базу данных"
+beltDescription="ИЗОБРАЖЕНИЕ"
+
+[PersonaInventoryItemButton]
+CountLabel="Кол-во: %d"
+RoundLabel="%d шт"
+RoundsLabel="%d шт"
+
+[Computers]
+msgLockedOut="Терминал заблокирован еще на %d секунд"
+NodeInfo[0]="(nodeName="UNATCO",nodeAddress="UN//UNATCO//RESTRICTED//923.128.6430",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoUNATCO')"
+NodeInfo[1]="(nodeName="VersaLife",nodeDesc="VersaLife",nodeAddress="VERSALIFECORP//GLOBAL//3939.39.8",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoVersaLife')"
+NodeInfo[2]="(nodeName="Queens Tower",nodeDesc="Королевская Башня. Номера-Люкс",nodeAddress="QT_UTIL//LOCAL//673.9845.09531",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoQueensTower')"
+NodeInfo[3]="(nodeName="USN",nodeDesc="United States Navy",nodeAddress="USGOV//MIL//USN//GLOBAL//0001",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoUSNavy')"
+NodeInfo[4]="(nodeName="MJ12Net",nodeDesc="Majestic 12 Net",nodeAddress="MAJESTIC//GLOBAL//12.12.12",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoMJ12')"
+NodeInfo[5]="(nodeName="Page Industries",nodeDesc="Page Industries",nodeAddress="PAGEIND//USERWEB//NODE.34@778",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoPage')"
+NodeInfo[6]="(nodeName="X-51 SecureNet",nodeDesc="X-51 SecureNet",nodeAddress="X51//SECURENET//NODE.938@893",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoArea51')"
+NodeInfo[7]="(nodeName="Everett Enterprises",nodeDesc="Everett Enterprises",nodeAddress="EE//INTSYS.TT//0232.98//TERMINAL",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoEverettEnt')"
+NodeInfo[8]="(nodeName="NSF",nodeDesc="NSF",nodeAddress="HUB//RESISTANCE.7654//NSFNODES",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoNSF')"
+NodeInfo[9]="(nodeName="NYComm",nodeDesc="NYC Communications",nodeAddress="USA//DOMESTIC//NYCCOM.USERS.PUB",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoNYComm')"
+NodeInfo[10]="(nodeName="PRChina",nodeDesc="Китайская Народная Республика",nodeAddress="PRC//GOV//RESTRICTED.HK.562",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoPRChina')"
+NodeInfo[11]="(nodeName="HKNet",nodeDesc="HK Net",nodeAddress="PUB//HKNET//USERS.ACCTS.20435//2",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoHKNet')"
+NodeInfo[12]="(nodeName="Quick Stop",nodeDesc="Quick Stop",nodeAddress="PUB//HKNET//QUICKSTOPINT//NODE98",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoQuickStop')"
+NodeInfo[13]="(nodeName="Lucky Money",nodeDesc="Lucky Money Club",nodeAddress="PUB//HKNET//LUCKYMONEY/BUSSYS.294",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoLuckyMoney')"
+NodeInfo[14]="(nodeName="IIS",nodeDesc="Illuminati Information Systems",nodeAddress="SECURE//IIS.INFTRANS.SYS//UEU",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoIlluminati')"
+CompInUseMsg="Компьютер уже используется %s."
+
+[HUDObjectSlot]
+RoundLabel="%d Пт"
+RoundsLabel="%d Птв"
+CountLabel="Кол-во:"
+
+[DeusExProjectile]
+ItemName="DEFAULT PROJECTILE NAME - REPORT THIS AS A BUG"
+ItemArticle="Ошибка"
+
+[DeusExAmmo]
+msgInfoRounds="Осталось %d патронов"
+PickupMessage="Вы нашли"
+ItemName="DEFAULT AMMO NAME - REPORT THIS AS A BUG"
+ItemArticle=":"
+
+[ComputerSecurityCameraWindow]
+CameraLabel="Камера"
+CameraStatusLabel="Камера:"
+DoorStatusLabel="Дверь:"
+TurretStatusLabel="Турель:"
+OnLabel="Вкл"
+OffLabel="Выкл"
+DisabledLabel="Отключена"
+AttackingAlliesLabel="Атаковать союзников"
+AttackingEnemiesLabel="Атаковать врага"
+AttackingEverythingLabel="Атаковать всех"
+NoSignalLabel="НЕТ СИГНАЛА"
+OpenLabel="Открыто"
+ClosedLabel="Закрыто"
+LockedLabel="Блокировано"
+UnlockedLabel="Открыто"
+FriendlyLabel="Обнаружение врагов"
+HostileLabel="Обнаружение союзников"
+
+[MenuScreenLoadGame]
+strHeaderNameLabel="Название"
+strHeaderDateLabel="Дата"
+NewSaveGameButtonText="Новая сохр. игра"
+DeleteGameButtonText="Удалить игру"
+LoadGameButtonText="Загрузить игру"
+OverwriteTitle="Записать поверх?"
+OverwritePrompt="Вы уверены, что стоит перезаписать эту игру?"
+DeleteTitle="Удалить запись?"
+DeletePrompt="Вы уверены, что стоит удалить эту запись?"
+LoadGameTitle="Загрузить"
+SaveGameTitle="Сохранить"
+SaveInfoMissing_Label="SAVEINFO.DXS Отсутствует!!!"
+TimeAMLabel="am"
+TimePMLabel="pm"
+LocationLabel="Локация: %s|n"
+SaveCountLabel="Номер записи: %d|n"
+FileSizeLabel="Размер файла: %dMB"
+FreeSpaceLabel="Свободно: %dMB"
+Title="Загрузить"
+PlayTimeLabel="Время игры: %s|n"
+ConfirmDeleteLabel="Подтверждать удаление зап."
+CheatsEnabledLabel="- ЧИТЫ РАЗРЕШЕНЫ -"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="Загрузить",Key="LOAD")"
+actionButtons[2]="(Action=AB_Other,Text="|&Удалить",Key="DELETE")"
+
+[MenuUIWindow]
+btnLabelOK="|&OK"
+btnLabelCancel="|&Отмена"
+btnLabelPrevious="|&Предыдущий"
+btnLabelResetToDefaults="|&Отменить изменения"
+MessageBoxTitle="Подтвердите"
+ExitMessage="Вы уверены, что хотите|nвыйти из Deus Ex?"
+TrainingWarningMessage="Ваша текущая игра будет утеряна, если вы ее не записали.  Действительно начинать тренировку?"
+IntroWarningMessage="Ваша текущая игра будет утеряна, если вы ее не записали.  Действительно будем смотреть ролик?"
+AskToTrainTitle="Тренировочная миссия"
+AskToTrainMessage="Перед началом новой игры в первый раз мы рекомендуем пройти тренировку.  Вы хотите сделать это сейчас?"
+
+[DamageHUDDisplay]
+msgAbsorbed="%d%% поглощено"
+
+[BlackHelicopter]
+ItemName="Черный вертолет"
+
+[AugmentationDisplayWindow]
+msgRange="Дальность"
+msgRangeUnits="фт"
+msgHigh="Высокое"
+msgMedium="Среднее"
+msgLow="Низкое"
+msgHealth="Здоровье"
+msgOverall="Всего"
+msgPercent="%"
+msgHead="Голова"
+msgTorso="Торс"
+msgLeftArm="Лев. рука"
+msgRightArm="Пр. рука"
+msgLeftLeg="Лев. нога"
+msgRightLeg="Пр. нога"
+msgWeapon="Оружие:"
+msgNone="Нет"
+msgScanning1="* Нет цели *"
+msgScanning2="* Сканирование *"
+msgADSTracking="* АСЗ Слежение *"
+msgADSDetonating="* АСЗ Детонация *"
+msgBehind="СЗАДИ"
+msgDroneActive="Дистанционный Дрон-Шпион включен"
+msgEnergyLow="Биоэнергия заканчивается!"
+msgCantLaunch="ОШИБКА - Нет места для постройки Дрона-Шпиона!"
+msgLightAmpActive="Светоусиление включено"
+msgIRAmpActive="ИК усиление включено"
+msgNoImage="Нет изображения"
+msgDisabled="Отключено"
+msgLegs="Ноги"
+SpottedTeamString="Вы заметили товарища по команде!"
+YouArePoisonedString="Вы отравлены!"
+YouAreBurnedString="Вы горите!"
+TurretInvincibleString="Турели деактивируются только э/м полем!"
+CameraInvincibleString="Камеры деактивируются только э/м полем!"
+NeutBurnPoisonString="(Используйте аптечки, чтобы мгновенно нейтрализовать процесс)"
+OnlyString="Еще "
+KillsToGoString=" убийств и "
+KillToGoString=" убийство и "
+LessThanMinuteString="Играть меньше минуты и "
+LessThanXString1="Меньше чем "
+LessThanXString2=" минут и "
+LeadsMatchString=" ведет матч!"
+TiedMatchString="матч завершится вничью!"
+WillWinMatchString=" выиграет матч!"
+OutOfRangeString="(За пределами)"
+LostLegsString="Вы потеряли свои ноги!"
+DropItem1String="Вы можете использовать <"
+DropItem2String=">, чтобы бросить используемую вещь."
+msgTeammateHit="Вы попали в товарища по команде!"
+msgTeamNsf="Вы в команде NSF!"
+msgTeamUnatco="Вы в команде Unatco!"
+UseString="Используйте <"
+TeamTalkString=">, чтобы послать сообщение команде."
+TalkString=">, чтобы послать сообщение в чат."
+YouKilledTeammateString="Вы убили товарища по команде!"
+TeamLAMString="Вы не можете снять гранату вашего товарища по команде!"
+TeamComputerString="Этот компьютер уже принадлежит вашей команде!"
+NoCloakWeaponString="Вы не можете замаскироваться, пока держите оружие!"
+TeamHackTurretString="Эта турель уже принадлежит вашей команде!"
+KeyNotBoundString="Клавиша не назначена"
+OutOfAmmoString="Кончились боеприпасы!"
+
+[ComputerUIWindow]
+ButtonLabelLogin="|&Войти"
+ButtonLabelLogout="|&Выйти"
+ButtonLabelCancel="|&Отмена"
+ButtonLabelSpecial="|&Специальные опции"
+
+[PersonaInventoryInfoWindow]
+AmmoLabel="Тип боеприпаса:"
+AmmoRoundsLabel="Кол-во:"
+ShowAmmoDescriptionsLabel="Показывать описание патронов"
+
+[FrobDisplayWindow]
+msgLocked="Закрыто"
+msgUnlocked="Открыто"
+msgLockStr="Сложность замка: "
+msgDoorStr="Прочность двери : "
+msgHackStr="Устойчивость к шунтированию: "
+msgInf="БЕСК"
+msgHacked="Шунтировано"
+msgPick="отмычка"
+msgPicks="отмычки"
+msgTool="инструм."
+msgTools="инструм."
+
+[AutoTurretGun]
+ItemName="Автономная защитная турель"
+
+[HackableDevices]
+msgMultitoolSuccess="Вы шунтировали устройство"
+msgNotHacked="Защищено"
+msgHacking="Шунтирование устройства..."
+msgAlreadyHacked="Уже шунтировано"
+
+[AutoTurret]
+ItemName="Основание турели"
+titleString="Автотурель"
+
+[MedKit]
+MustBeUsedOn="Используется для лечения частей тела в критическом состоянии, или применяется к определенным частям тела на экране персонажа."
+M_Activated=" использована"
+ItemName="Аптечка"
+ItemArticle=" "
+Description="Аптечка первой помощи.|n|n<UNATCO OPS FILE NOTE JR095-VIOLET> Наномашины агента автоматически усваивают содержимое аптечки для эффективного излечения поврежденных зон. Агент с медицинским опытом может значительно ускорить этот процесс. -- Джейми Рэйес <КОНЕЦ ЗАПИСИ>"
+beltDescription="АПТЕЧКА"
+
+[UNATCOTroop]
+FamiliarName="Солдат UNATCO"
+UnfamiliarName="Солдат UNATCO"
+
+[POVCorpse]
+ItemName="тело"
+ItemArticle=" "
+
+[PersonaScreenInventory]
+InventoryTitleText="Инвентарь"
+EquipButtonLabel="|&Взять"
+UnequipButtonLabel="|&Убрать"
+UseButtonLabel="|&Использовать"
+DropButtonLabel="|&Бросить"
+ChangeAmmoButtonLabel="Смен патр"
+NanoKeyRingInfoText="Нажми на значок для списка нано- ключей."
+NanoKeyRingLabel="Ключей: %s"
+DroppedLabel="%s сброшен"
+AmmoLoadedLabel="%s заряжен(ы)"
+WeaponUpgradedLabel="%s улучшен"
+CannotBeDroppedLabel="%s нельзя здесь положить"
+AmmoInfoText="Нажми на значок для списка боепри- пасов."
+AmmoTitleLabel="Боеприпасы"
+NoAmmoLabel="Нет патронов"
+
+[ATM]
+msgLockedOut="Банкомат заблокирован еще на %d секунд"
+ItemName="Банкомат"
+
+[AlarmUnit]
+msgActivated="Сигнализация включена"
+msgDeactivated="Сигнализация выключена"
+ItemName="Панель звуковой сигнализации"
+
+[ComputerScreenSecurity]
+ActiveWindowOptionsHeader="Опции активного окна"
+CameraOptionsHeader="Управление камерой"
+PanZoomSpeedHeader="Скорость обзора"
+ClickCameraWindowText="Щелкните на нужный экран, чтобы выбрать эту камеру."
+Title="Наблюдение"
+ComputerNodeFunctionLabel="Security"
+
+[Terrorist]
+FamiliarName="Террорист"
+UnfamiliarName="Террорист"
+
+[MenuScreenRGB_MenuExample]
+ButtonMenuDisabledLabel="Откл"
+ButtonMenuNormalLabel="Нормал"
+ButtonMenuFocusLabel="Фокус"
+ButtonMenuPressedLabel="Нажат"
+ButtonSmallPressedLabel="Нажат"
+ButtonSmallNormalLabel="Нормал"
+ButtonActionDisabledLabel="Выключен"
+ButtonActionNormalLabel="Нормал"
+ButtonActionFocusLabel="Фокус"
+ButtonActionPressedLabel="Нажат"
+ListNormalLabel="Нормал"
+ListFocusLabel="Фокус"
+EditLabel="Ввод"
+TitleLabel="Назва"
+
+[PersonaScreenHealth]
+MedKitUseText="Для лечения определенной части тела выделите ее, затем нажмите кнопку 'Лечить'."
+HealthTitleText="Здоровье"
+HealAllButtonLabel="Л|&ечить все"
+HealthLocationHead="Голова"
+HealthLocationTorso="Торс"
+HealthLocationRightArm="Прав рука"
+HealthLocationLeftArm="Лев рука"
+HealthLocationRightLeg="Прав нога"
+HealthLocationLeftLeg="Лев нога"
+PointsHealedLabel="%d единиц вылечено"
+HealthPartDesc[0]="В большинстве ситуаций попадание в голову смертельно; однако, в том случае, когда смерть не наступает мгновенно, у агентов чаще всего с повреждением головы портится зрение и меткость. Позаботиться о здоровье в таком случае следует так быстро, как только возможно, иначе - смерть.|n|nЛегкие раны: Незначительное снижение меткости.|nСредние раны: Размытие изображения.|nТяжелые раны: Смерть."
+HealthPartDesc[1]="Торс, безусловно, является частью человеческого тела, получающей наибольшую долю повреждений, а также самой легкой мишенью в ближнем бою. Постепенно торсу наносится все больший вред, и агенты теряют подвижность, истекая кровью, погибают, даже если не получили смертельного удара в жизненноважный орган.|n|nЛегкие раны: Незначительное снижение подвижности.|nСредние раны: Значительное снижение подвижности.|nСерьезные раны: Смерть."
+HealthPartDesc[2]="Очевидно, что повреждение рук в любой боевой ситуации непосредственно влияет на способность агента управляться с различным оружием. Потеря одной руки непременно снизит эффективность агента в бою, тогда как потеря обоих рук делает почти невозможным для агента нанести какой-либо вред врагу.|n|nЛегкие раны: Незначительное снижение точности.|nСредние раны: Среднее снижение точности.|nСерьезные раны: Значительное снижение точности."
+HealthPartDesc[3]="Повреждение ног радикально снижает подвижность. Если агент на вражеской территории близок к потери обеих ног, но все еще жизнеспособен, он обязан следовать Приказу 99009 Отдела Специальных Операций UNATCO (Самоуничтожение).|n|nЛегкие раны: Незначительное снижение подвижности.|nСредние раны: Среднее снижение подвижности.|nТяжелые раны: Значительное снижение подвижности."
+
+[WaltonSimons]
+FamiliarName="Уолтон Саймонс"
+UnfamiliarName="Уолтон Саймонс"
+
+[SecurityCamera]
+msgActivated="Камера включена"
+msgDeactivated="Камера выключена"
+ItemName="Камера наблюдения"
+
+[HUDHitDisplay]
+O2Text="о2"
+EnergyText="бэ"
+
+[PersonaAmmoDetailButton]
+RoundLabel="%d Патрон"
+RoundsLabel="%d Патронов"
+
+[PersonaScreenImages]
+ImagesTitleText="Изображения"
+DeleteNoteButtonLabel="|&Удалить запись"
+AddNoteButtonLabel="Добавить |&запись"
+ShowNotesLabel="Показ з|&аписей"
+
+[PersonaScreenAugmentations]
+AugmentationsTitleText="Приращения"
+UpgradeButtonLabel="|&Улучш."
+ActivateButtonLabel="Вклю|&чить"
+DeactivateButtonLabel="Выкл|&ючить"
+UseCellButtonLabel="|&Пополнить"
+AugCanUseText="Чтобы улучшить приращение, щелкните на нужном приращении, затем на кнопку 'Улучш.'."
+BioCellUseText="Для пополнения биоэнергии ваших приращений щелкните на кнопку 'Пополнить'."
+AugLocationDefault="Встроены"
+AugLocationCranial="Череп"
+AugLocationEyes="Глаза"
+AugLocationArms="Руки"
+AugLocationLegs="Ноги"
+AugLocationTorso="Торс"
+AugLocationSubdermal="Кожа"
+
+[WeaponMod]
+DragToUpgrade="Перетащить на оружие для улучшения. Оружие, выделенное ЗЕЛЕНЫМ, может быть улучшено этим модом."
+
+[Faucet]
+ItemName="Кран"
+
+[MenuScreenRGB]
+HUDBackgroundTranslucentLabel="|&Прозрачность HUD"
+HUDBordersTranclucentLabel="Прозрачность гра|&ниц HUD"
+MenusBackgroundTranslucentLabel="Прозрачность |&фона меню"
+RedLabel="Красный"
+GreenLabel="Зеленый"
+BlueLabel="Синий"
+TabHUDLabel="|&HUD"
+TabMenusLabel="|&Меню"
+ThemeLabel="Тема:"
+Title="Выбор цвета"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Close",Key="CLOSE")"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Load",Key="LOAD")"
+actionButtons[2]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Save",Key="SAVE")"
+actionButtons[3]="(Action=AB_Reset)"
+
+[ShowerFaucet]
+ItemName="Кран душа"
+
+[HUDInfoLinkDisplay]
+strQueued="входящее сообщение..."
+IncomingTransmission="ПОЛУЧЕНО СООБЩЕНИЕ..."
+
+[Keypad]
+ItemName="Клавиатура системы безопасности"
+
+[MedicalBot]
+FamiliarName="Медицинский бот"
+UnfamiliarName="Медицинский бот"
+
+[MenuScreenAdjustColorsExample]
+TitleBarLabel="Заголовок"
+TextHeaderLabel="Образец текста"
+TextNormalLabel="Образец текста"
+ButtonPressedLabel="Нажата"
+ButtonNormalLabel="Обычная"
+
+[HUDAmmoDisplay]
+NotAvailable="Н/Д"
+msgReloading="---"
+AmmoLabel="ПАТР"
+ClipsLabel="ОБОЙМ"
+
+[MJ12Commando]
+FamiliarName="Коммандос MJ12"
+UnfamiliarName="Коммандос MJ12"
+
+[DataLinkPlay]
+EndTransmission="КОНЕЦ ПЕРЕДАЧИ..."
+
+[HUDRechargeWindow]
+RechargeButtonLabel="  |&Подзарядка  "
+CloseButtonLabel="  |&Закрыть  "
+RechargeTitle="ИНТЕРФЕЙС РЕМОНТНОГО БОТА"
+RepairBotInfoText="Ремонтный бот может восстанавливать до %d единиц биоэнергии каждые %d секунд."
+RepairBotStatusLabel="Статус рем.бота:"
+ReadyLabel="Готов!"
+SecondsPluralLabel="Перезарядка: %d секунд"
+SecondsSingularLabel="Перезарядка: %d секунд"
+BioStatusLabel="Биоэнергия:"
+RepairBotRechargingLabel="|nРемонтный бот сейчас перезаряжается. Пожалуйста, подождите."
+RepairBotReadyLabel="|n|nРемонтный бот готов. Можете подзарядиться."
+RepairBotYouAreHealed="|n|nЗапас Вашей биоэнергии максимален."
+
+[MenuUIChoiceSlider]
+actionText="Регулятор выбора"
+
+[MenuScreenNewGame]
+ButtonUpgradeLabel="Улучшить"
+ButtonDowngradeLabel="Ухудшить"
+HeaderNameLabel="Настоящее имя"
+HeaderCodeNameLabel="Кодовое имя"
+HeaderAppearanceLabel="Внешний вид"
+HeaderSkillsLabel="Навыки"
+HeaderSkillPointsLabel="Ед. навыка"
+HeaderSkillLevelLabel="Тек.уровень"
+HeaderPointsNeededLabel="След.уровень"
+NameBlankTitle="Пустое имя!"
+NameBlankPrompt="Настоящее имя не может отсутствовать. Пожалуйста, введите его."
+Title="Начать новую игру"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Начать игру",Key="START")"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenRGB_HUDExample]
+TitleLabel="Название"
+HeaderLabel="Заголовок"
+TextNormalLabel="Нормал"
+GoalCompletedLabel="Задание выполнено"
+ListLabel="Список предметов"
+ListHighlightLabel="Выделить список"
+ListFocusLabel="Фокус списка"
+EditSelectedLabel="Ввод текста"
+ButtonDisabledLabel="Отключен"
+ButtonNormalLabel="Нормал"
+ButtonFocusLabel="Фокус"
+ButtonPressedLabel="Нажато"
+
+[HUDKeypadWindow]
+msgAccessDenied="НЕТ ДОСТУПА"
+msgAccessGranted="ЕСТЬ ДОСТУП"
+
+[HUDReceivedDisplay]
+TextReceivedLabel="Получено:"
+
+[InformationDevices]
+msgNoText="Нет ничего интересного для прочтения"
+ImageLabel="[Изображение: %s]"
+AddedToDatavaultLabel="Изображение %s внесено в базу данных"
+
+[GuntherHermann]
+FamiliarName="Гюнтер Херманн"
+UnfamiliarName="Гюнтер Херманн"
+
+[SpyDrone]
+ItemName="Дистанционный Дрон-Шпион"
+
+[HUDMedBotHealthScreen]
+MedbotInterfaceText="ИНТЕРФЕЙС МЕДБОТА"
+HealthInfoTextLabel="МедБот восстановит до %d единиц, распределяя их поровну между поврежденными частями тела."
+MedBotRechargingLabel="|nМедБот сейчас перезаряжается. Подождите."
+MedBotReadyLabel="|nМедбот готов, можете лечиться."
+MedBotYouAreHealed="|nВаше здоровье восстановлено."
+SecondsPluralLabel="Перезарядка: %d секунд"
+SecondsSingularLabel="Перезарядка: %d секунд"
+ReadyLabel="Готов!"
+HealAllButtonLabel="  Л|&ечить все  "
+
+[PersonaItemDetailButton]
+CountLabel="Кол-во: %d"
+
+[MenuScreenSaveGame]
+Title="Сохранить"
+DiskSpaceTitle="Мало места на диске"
+DiskSpaceMessage="Вы должны иметь по крайней мере 100MB свободного места, прежде чем сможете сохраниться.  Пожалуйста удалите ненужные сэйвы или освободите место в Windows."
+actionButtons[1]="(Text="|&Сохранить",Key="SAVE")"
+
+[RepairBot]
+FamiliarName="Ремонтный Бот"
+UnfamiliarName="Ремонтный Бот"
+
+[PersonaNavBarWindow]
+InventoryButtonLabel="|&Инвентарь"
+HealthButtonLabel="|&Здоровье"
+AugsButtonLabel="|&Приращ"
+SkillsButtonLabel="|&Навыки"
+GoalsButtonLabel="|&Цели/Заметки"
+ConsButtonLabel="|&Разговоры"
+ImagesButtonLabel="Изображения"
+LogsButtonLabel="|&Логи"
+
+[PersonaNavBarBaseWindow]
+ExitButtonLabel="В|&ыход"
+
+[PersonaScreenConversations]
+ConversationsTitleText="Разговоры"
+ActorButtonLabel="Контакт"
+LocationButtonLabel="Место"
+TypeButtonLabel="Тип"
+
+[MenuScreenCustomizeKeys]
+strHeaderActionLabel="Действие"
+strHeaderAssignedLabel="Назначить клавишу"
+WaitingHelpText="Выберите действие, которое хотите переназначить, и нажмите [Enter] или дважды щелкните его. Нажмите [Delete] для отмены назначения клавиши."
+InputHelpText="Пожалуйста, нажмите клавишу или кнопку мыши для назначения ей этой функции. Нажмите [ESC] для отмены."
+ReassignedFromLabel="'%s' переназначено с '%s'"
+Title="Установки Клавиатуры/Мыши"
+FunctionText[0]="Стрелять/использовать предмет"
+FunctionText[1]="Использовать объект в мире"
+FunctionText[2]="Положить/бросить предмет"
+FunctionText[3]="Убрать предмет"
+FunctionText[4]="Вперед"
+FunctionText[5]="Назад"
+FunctionText[6]="Поворот влево"
+FunctionText[7]="Поворот вправо"
+FunctionText[8]="Шаг влево"
+FunctionText[9]="Шаг вправо"
+FunctionText[10]="Наклон влево"
+FunctionText[11]="Наклон вправо"
+FunctionText[12]="Прыжок"
+FunctionText[13]="Присесть"
+FunctionText[14]="Взгляд мышью"
+FunctionText[15]="Посмотреть наверх"
+FunctionText[16]="Посмотреть вниз"
+FunctionText[17]="Центрировать взгляд"
+FunctionText[18]="Идти/бежать"
+FunctionText[19]="Переключать ходьба/бег"
+FunctionText[20]="Движение боком"
+FunctionText[21]="Выбрать следующий предмет"
+FunctionText[22]="Выбрать предыдущий предмет"
+FunctionText[23]="Перезарядить оружие"
+FunctionText[24]="Вкл/выкл оптический прицел"
+FunctionText[25]="Вкл/выкл лазерный прицел"
+FunctionText[26]="Активировать все приращения"
+FunctionText[27]="Деактивировать все приращения"
+FunctionText[28]="Сменить патроны"
+FunctionText[29]="Получить скриншот"
+FunctionText[30]="Показать экран инвентаря"
+FunctionText[31]="Показать экран лечения"
+FunctionText[32]="Показать экран приращений"
+FunctionText[33]="Показать экран навыков"
+FunctionText[34]="Показать экран заданий/заметок"
+FunctionText[35]="Показать экран переговоров"
+FunctionText[36]="Показать экран изображений"
+FunctionText[37]="Показать экран логов"
+FunctionText[38]="Быстрое сохранение"
+FunctionText[39]="Быстрая загрузка"
+FunctionText[40]="Вкл/выкл прицел"
+FunctionText[41]="Вкл/выкл экран повреждений"
+FunctionText[42]="Вкл/выкл компас"
+FunctionText[43]="Вкл/выкл экран приращений"
+FunctionText[44]="Вкл/выкл полосу предметов"
+FunctionText[45]="Вкл/выкл экран оружия"
+keyDisplayNames[0]="(inputKey=IK_LeftMouse,displayName="Left Mouse Button")"
+keyDisplayNames[1]="(inputKey=IK_RightMouse,displayName="Right Mouse Button")"
+keyDisplayNames[2]="(inputKey=IK_MiddleMouse,displayName="Middle Mouse Button")"
+keyDisplayNames[3]="(inputKey=IK_CapsLock,displayName="CAPS Lock")"
+keyDisplayNames[4]="(inputKey=IK_PageUp,displayName="Page Up")"
+keyDisplayNames[5]="(inputKey=IK_PageDown,displayName="Page Down")"
+keyDisplayNames[6]="(inputKey=IK_PrintScrn,displayName="Print Screen")"
+keyDisplayNames[7]="(inputKey=IK_GreyStar,displayName="NumPad Asterisk")"
+keyDisplayNames[8]="(inputKey=IK_GreyPlus,displayName="NumPad Plus")"
+keyDisplayNames[9]="(inputKey=IK_GreyMinus,displayName="NumPad Minus")"
+keyDisplayNames[10]="(inputKey=IK_GreySlash,displayName="NumPad Slash")"
+keyDisplayNames[11]="(inputKey=IK_NumPadPeriod,displayName="NumPad Period")"
+keyDisplayNames[12]="(inputKey=IK_NumLock,displayName="Num Lock")"
+keyDisplayNames[13]="(inputKey=IK_ScrollLock,displayName="Scroll Lock")"
+keyDisplayNames[14]="(inputKey=IK_LShift,displayName="Left Shift")"
+keyDisplayNames[15]="(inputKey=IK_RShift,displayName="Right Shift")"
+keyDisplayNames[16]="(inputKey=IK_LControl,displayName="Left Control")"
+keyDisplayNames[17]="(inputKey=IK_RControl,displayName="Right Control")"
+keyDisplayNames[18]="(inputKey=IK_MouseWheelUp,displayName="Mouse Wheel Up")"
+keyDisplayNames[19]="(inputKey=IK_MouseWheelDown,displayName="Mouse Wheel Down")"
+keyDisplayNames[20]="(inputKey=IK_MouseX,displayName="Mouse X")"
+keyDisplayNames[21]="(inputKey=IK_MouseY,displayName="Mouse Y")"
+keyDisplayNames[22]="(inputKey=IK_MouseZ,displayName="Mouse Z")"
+keyDisplayNames[23]="(inputKey=IK_MouseW,displayName="Mouse W")"
+keyDisplayNames[24]="(inputKey=IK_LeftBracket,displayName="Left Bracket")"
+keyDisplayNames[25]="(inputKey=IK_RightBracket,displayName="Right Bracket")"
+keyDisplayNames[26]="(inputKey=IK_SingleQuote,displayName="Single Quote")"
+keyDisplayNames[27]="(inputKey=IK_Joy1,displayName="Joystick Button 1")"
+keyDisplayNames[28]="(inputKey=IK_Joy2,displayName="Joystick Button 2")"
+keyDisplayNames[29]="(inputKey=IK_Joy3,displayName="Joystick Button 3")"
+keyDisplayNames[30]="(inputKey=IK_Joy4,displayName="Joystick Button 4")"
+keyDisplayNames[31]="(inputKey=IK_JoyX,displayName="Joystick X")"
+keyDisplayNames[32]="(inputKey=IK_JoyY,displayName="Joystick Y")"
+keyDisplayNames[33]="(inputKey=IK_JoyZ,displayName="Joystick Z")"
+keyDisplayNames[34]="(inputKey=IK_JoyR,displayName="Joystick R")"
+keyDisplayNames[35]="(inputKey=IK_JoyU,displayName="Joystick U")"
+keyDisplayNames[36]="(inputKey=IK_JoyV,displayName="Joystick V")"
+keyDisplayNames[37]="(inputKey=IK_JoyPovUp,displayName="Joystick Pov Up")"
+keyDisplayNames[38]="(inputKey=IK_JoyPovDown,displayName="Joystick Pov Down")"
+keyDisplayNames[39]="(inputKey=IK_JoyPovLeft,displayName="Joystick Pov Left")"
+keyDisplayNames[40]="(inputKey=IK_JoyPovRight,displayName="Joystick Pov Right")"
+keyDisplayNames[41]="(inputKey=IK_Ctrl,displayName="Control")"
+keyDisplayNames[42]="(inputKey=IK_Left,displayName="Left Arrow")"
+keyDisplayNames[43]="(inputKey=IK_Right,displayName="Right Arrow")"
+keyDisplayNames[44]="(inputKey=IK_Up,displayName="Up Arrow")"
+keyDisplayNames[45]="(inputKey=IK_Down,displayName="Down Arrow")"
+keyDisplayNames[46]="(inputKey=IK_Insert,displayName="Insert")"
+keyDisplayNames[47]="(inputKey=IK_Home,displayName="Home")"
+keyDisplayNames[48]="(inputKey=IK_Delete,displayName="Delete")"
+keyDisplayNames[49]="(inputKey=IK_End,displayName="End")"
+keyDisplayNames[50]="(inputKey=IK_NumPad0,displayName="NumPad 0")"
+keyDisplayNames[51]="(inputKey=IK_NumPad1,displayName="NumPad 1")"
+keyDisplayNames[52]="(inputKey=IK_NumPad2,displayName="NumPad 2")"
+keyDisplayNames[53]="(inputKey=IK_NumPad3,displayName="NumPad 3")"
+keyDisplayNames[54]="(inputKey=IK_NumPad4,displayName="NumPad 4")"
+keyDisplayNames[55]="(inputKey=IK_NumPad5,displayName="NumPad 5")"
+keyDisplayNames[56]="(inputKey=IK_NumPad6,displayName="NumPad 6")"
+keyDisplayNames[57]="(inputKey=IK_NumPad7,displayName="NumPad 7")"
+keyDisplayNames[58]="(inputKey=IK_NumPad8,displayName="NumPad 8")"
+keyDisplayNames[59]="(inputKey=IK_NumPad9,displayName="NumPad 9")"
+keyDisplayNames[60]="(inputKey=IK_Period,displayName="Period")"
+keyDisplayNames[61]="(inputKey=IK_Comma,displayName="Comma")"
+keyDisplayNames[62]="(inputKey=IK_Backslash,displayName="Backslash")"
+keyDisplayNames[63]="(inputKey=IK_Semicolon,displayName="Semicolon")"
+keyDisplayNames[64]="(inputKey=IK_Equals,displayName="Equals")"
+keyDisplayNames[65]="(inputKey=IK_Slash,displayName="Slash")"
+keyDisplayNames[66]="(inputKey=IK_Enter,displayName="Enter")"
+keyDisplayNames[67]="(inputKey=IK_Alt,displayName="Alt")"
+keyDisplayNames[68]="(inputKey=IK_Backspace,displayName="Backspace")"
+keyDisplayNames[69]="(inputKey=IK_Shift,displayName="Shift")"
+keyDisplayNames[70]="(inputKey=IK_Space,displayName="Space")"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+NoneText="[None]"
+FunctionText[46]="F3"
+FunctionText[47]="F4"
+FunctionText[48]="F5"
+FunctionText[49]="F6"
+FunctionText[50]="F7"
+FunctionText[51]="F8"
+FunctionText[52]="F9"
+FunctionText[53]="F10"
+FunctionText[54]="F11"
+FunctionText[55]="F12"
+FunctionText[56]="Результаты сетевой игры"
+FunctionText[57]="Послать сообщение команде"
+FunctionText[58]="Послать сообщение всем"
+FunctionText[59]="Меню навыка сетевой игры"
+FunctionText[60]="Отчет убийств в сетевой игре"
+
+[NanoKeyRing]
+NoKeys="Нет доступных наноключей!"
+KeysAvailableLabel="Список доступных наноключей:"
+ItemName="Дубликатор наноключей"
+ItemArticle=" "
+Description="Дубликатор наноключей может считывать и хранить двухмерные молекулярные образцы разных наноключей, и затем воссоздавать эти структуры при необходимости."
+beltDescription="КЛЮЧИ"
+
+[SkilledTool]
+CountLabel="Кол-во:"
+
+[ComputerScreenEmail]
+NoEmailTodayText="Сегодня нет почты!"
+EmailFromHeader="От:"
+EmailToHeader="К:"
+EmailCarbonCopyHeader="CC:"
+EmailSubjectHeader="Тема:"
+HeaderFromLabel="От"
+HeaderSubjectLabel="Тема"
+Title="Электронная почта"
+ComputerNodeFunctionLabel="Email"
+
+[Ammo762mm]
+ItemName="Патроны 7.62x51мм"
+ItemArticle=" "
+Description="Патроны 7.62x51мм (NATO) использовались в основном анти-террористическими войсками, снаряженными винтовками ближнего боя, затем они получили широкое распространение среди национальных сил безопасности и стали постоянным аттрибутом в арсенале военных"
+beltDescription="7.62 ПАТР"
+
+[Flare]
+M_Activated=" зажжен"
+ExpireMessage="Осветительный патрон уже использован"
+ItemName="Осветительный патрон"
+ItemArticle=" "
+Description="Осветительный патрон."
+beltDescription="Освет.патр"
+
+[ComputerScreenHack]
+HackButtonLabel="|&Взлом"
+ReturnButtonLabel="|&Выход"
+HackReadyLabel="Взломщик готов..."
+HackInitializingLabel="Инициализация взломщика..."
+HackSuccessfulLabel="Взлом прошел успешно..."
+HackDetectedLabel="*** ТРЕВОГА ***|nОБНАРУЖЕНО ВТОРЖЕНИЕ В СИСТЕМУ!"
+MPHackInitializingLabel="Взлом... Нажмите ESC, чтобы прервать"
+
+[Barrel1]
+ItemName="Бочка"
+
+[BioelectricCell]
+M_Activated=" использована"
+msgRecharged="Запас биоэнергии увеличен на %d Энерго-Единиц"
+RechargesLabel="Подзарядка биоэнергии на %d Энерго-Единиц"
+ItemName="Биоэлектрическая батарея"
+ItemArticle=" "
+Description="Биоэлектрическая батарея обеспечивает достаточное вмещение энергии в форме пригодной для использования в ряде приборов.|n|n<UNATCO OPS FILE NOTE JR289-VIOLET> Агенты с приращениями оборудованы интерфейсом, что позволяет им поглощать энергию из биоэлектрических батарей. -- Джейми Рэйес <КОНЕЦ ЗАПИСИ>"
+beltDescription="Биобатарея"
+
+[AugmentationCannister]
+AugsAvailable="Можно добавить:"
+MustBeUsedOn="Можно установить лишь при помощи МедБота."
+ItemName="Канистра с приращением"
+ItemArticle=" "
+Description="Канистра с приращением содержит мириады наноуровневых мекано-карбоновых модулей памяти, взвешенных в проводящей субстанции. При вводе в совместимое тело-приемник эти модули наделяют индивидуум повышенными способностями. При этом, однако, необходимо проведение медицинским роботом соответствующего программирования приращений, иначе возможно повреждение. Для дальнейшей информации обратитесь к книге Келли Шанса 'Лицо Нового Человека'."
+beltDescription="Приращение"
+
+[PersonaSkillButtonWindow]
+NotAvailableLabel="Н/Д"
+
+[PaulDenton]
+FamiliarName="Пол Дентон"
+UnfamiliarName="Пол Дентон"
+
+[BobPage]
+FamiliarName="Боб Пэйдж"
+UnfamiliarName="Боб Пэйдж"
+
+[MJ12Troop]
+FamiliarName="Солдат MJ12"
+UnfamiliarName="Солдат MJ12"
+
+[NanoKey]
+ItemName="Наноключ"
+Description="NO KEY DESCRIPTION - REPORT THIS AS A BUG!"
+beltDescription="НАНО"
+
+[TAD]
+ItemName="Телефонный автоответчик"
+
+[Credits]
+msgCreditsAdded="добавлено %d кредитов"
+ItemName="Кредитная расписка"
+ItemArticle=" "
+beltDescription="КРЕДИТЫ"
+
+[PersonaScreenGoals]
+GoalsTitleText="Задания"
+PrimaryGoalsHeader="Основные задания"
+SecondaryGoalsHeader="Дополнительные задания"
+DisplayCompletedGoals="Показать выполненные задания"
+NoGoalsLabel="Нет"
+GoalCompletedText="[Выполнено]"
+NotesTitleText="Заметки"
+defaultNoteText="Новая запись"
+ClickToEditNote="Щелкните на записи, чтобы изменить ее:"
+DeleteNoteTitle="Удалить запись?"
+DeleteNotePrompt="Вы действительно хотите удалить эту запись?"
+AddButtonLabel="Доб. |&запись"
+DeleteButtonLabel="|&Удал. запись"
+ConfirmNoteDeletionLabel="Подтвердите удаление записи"
+
+[Greasel]
+FamiliarName="Гризл"
+UnfamiliarName="Гризл"
+
+[PersonaScreenLogs]
+LogsTitleText="Логи"
+ClearButtonLabel="Ст|&ереть"
+
+[AugmentationUpgradeCannister]
+MustBeUsedOn="Нужно использовать на экране приращений."
+ItemName="Канистра улучшения приращений"
+ItemArticle=" "
+Description="Канистра улучшения приращений содержит крайне специфические наномеханизмы, которые в комбинации с уже запрограммированными модулями могут увеличивать эффективность установленных приращений. Так как их не нужно программировать, эти канистры могут с минимальным риском использовать опытные агенты в полевых условиях."
+beltDescription="УЛУЧ ПРИР"
+
+[HKIncenseBurner]
+ItemName="Курильница"
+
+[PersonaImageWindow]
+strNoImages="Нет изображений"
+PressSpace="Нажмите [ESCAPE], когда закончите ввод текста"
+EscapeToCancel="Щелкните на изображении для добавления заметки, [ESCAPE] -- для отмены"
+NewNoteLabel="Новая запись"
+
+[FireExtinguisher]
+ItemName="Огнетушитель"
+ItemArticle=" "
+Description="Химический огнетушитель."
+beltDescription="ПОЖ ОГНТ"
+
+[AugLight]
+AugmentationName="Свет"
+Description="Встроенные в сетчатку биолюминесцентные клетки обеспечивают четкое освещение поля зрения агента.|n|nУЛУЧШЕНИЕ НЕВОЗМОЖНО"
+
+[ComputerScreenHackAccounts]
+ChangeAccountButtonLabel="|&Открыть"
+AllAccountsHeader="Все учетные записи"
+CurrentAccountHeader="Текущая учетная запись"
+
+[AmmoShell]
+ItemName="Картечь 12 калибра"
+ItemArticle=" "
+Description="Стандартные патроны для ружья 12 калибра; очень эффективные в ближнем бою против незащищенных целей, но бесполезны против брони."
+beltDescription="КАРТЕЧЬ"
+
+[AnnaNavarre]
+FamiliarName="Анна Наварре"
+UnfamiliarName="Анна Наварре"
+
+[HUDMedBotAddAugsScreen]
+AvailableAugsText="Доступные приращения"
+MedbotInterfaceText="ИНТЕРФЕЙС МЕДБОТА"
+InstallButtonLabel="|&Установка"
+NoCansAvailableText="Нет канистр с приращениями!"
+AlreadyHasItText="У вас уже есть это приращение, второй раз нельзя его установить."
+SlotFullText="Все слоты, в которые устанавливается это приращение, уже заняты, вам его не установить."
+SelectAnotherText="Выберите другое приращение для установки."
+
+[CleanerBot]
+FamiliarName="Бот-уборщик"
+UnfamiliarName="Бот-уборщик"
+
+[Button1]
+ItemName="Кнопка"
+
+[MenuScreenThemesLoad]
+LoadHelpText="Выберите палитру для загрузки"
+Title="Загрузка палитры"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Load Theme",Key="LOAD")"
+
+[ComputerScreenATMWithdraw]
+ButtonLabelWithdraw="|&Снять"
+ButtonLabelClose="|&Закрыть"
+BalanceLabel="Текущий баланс:"
+WithdrawAmountLabel="Сумма к выдаче:"
+InstructionText="Счет #: %d|nПожалуйста, введите количество кредитов,|nкоторое вы хотите снять."
+InvalidAmountLabel="ВВЕДЕНА НЕПРАВИЛЬНАЯ СУММА"
+InsufficientCreditsLabel="КРЕДИТОВ НЕДОСТАТОЧНО"
+CreditsWithdrawnLabel="КРЕДИТ(А,ОВ) СНЯТО"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[wd]"
+HackedText="ТЕРМИНАЛ ВЗЛОМАН"
+Title="Глобальная Банковская Система ПейджНет"
+ComputerNodeFunctionLabel="ATMWD"
+
+[Ammo10mm]
+ItemName="10-мм патроны"
+ItemArticle=" "
+Description="Сочетая в себе большую убойную силу и низкую отдачу, оружие, стреляющее этими патронами, стало ходовым в войсках по всему миру."
+beltDescription="10MM ПАТР"
+
+[ComputerScreenSpecialOptions]
+SecurityButtonLabel="|&Безопасность"
+EmailButtonLabel="|&Email"
+Title="Специальные опции"
+ComputerNodeFunctionLabel="SpecialOptions"
+
+[BumMale]
+FamiliarName="Бродяга"
+UnfamiliarName="Бродяга"
+
+[Lockpick]
+ItemName="Отмычка"
+ItemArticle=" "
+Description="Одноразовая отмычка. Обычные инструменты делаются из стали, но тонкие игольчатые - из быстротвердеющих полимеров.|n|n<UNATCO OPS FILE NOTE AJ006-BLACK> Вы наверняка не знаете, что несмотря на описания в литературе, отмычкой можно открыть почти все, кроме сложных нанозамков. -- Алекс Джейкобсон <КОНЕЦ ЗАПИСИ>"
+beltDescription="ОТМЫЧКА"
+
+[ComputerScreenBulletins]
+NoBulletinsTodayText="Сегодня нет бюллетеней!"
+BulletinsHeaderText="Выберите бюллетень для просмотра:"
+Title="Бюллетени"
+ComputerNodeFunctionLabel="Bulletins"
+
+[PersonaHealthActionButtonWindow]
+HealButtonLabel="Лечить"
+
+[MenuUIMessageBoxWindow]
+btnLabelYes="|&Да"
+btnLabelNo="|&Нет"
+btnLabelOK="|&OK"
+btnLabelCancel="О|&тмена"
+
+[WeaponPistol]
+ItemName="Пистолет"
+ItemArticle=" "
+Description="Стандартный 10-мм пистолет."
+beltDescription="ПИСТОЛЕТ"
+
+[Multitool]
+ItemName="Мультиинструмент"
+ItemArticle=" "
+Description="Одноразовый электронный инструмент. Используется для определения электромагнитного резонанса и частотной модуляции для динамического изменения энерготока в цепи, опытные агенты могут использовать мультиинструмент для оперирования кодовыми замками, камерами, автопушками, сигнализацией и другими системами безопасности."
+beltDescription="МУЛЬТИИНСТ"
+
+[SecurityBot3]
+FamiliarName="Охранный бот"
+UnfamiliarName="Охранный бот"
+
+[MenuChoice_Resolution]
+helpText="Изменить видео разрешение"
+actionText="|&Разрешение экрана"
+
+[PersonaItemDetailIconWindow]
+CountLabel="Кол-во: %d"
+
+[VendingMachine]
+msgDispensed="2 кредита снято с вашего счета"
+msgNoCredits="Стоит 2 кредита..."
+msgEmpty="Пусто"
+ItemName="Торговый автомат"
+
+[PersonaScreenSkills]
+SkillsTitleText="Навыки"
+UpgradeButtonLabel="|&Улучшить"
+PointsNeededHeaderText="След.уровень"
+SkillLevelHeaderText="Тек.уровень"
+SkillPointsHeaderText="Единиц навыка"
+SkillUpgradedLevelLabel="%s улучшено"
+
+[JaimeReyes]
+FamiliarName="Джейми Рэйес"
+UnfamiliarName="Джейми Рэйес"
+
+[WeaponCombatKnife]
+ItemName="Боевой нож"
+ItemArticle=" "
+Description="Нож из ультра-высококарбонной нержавеющей стали."
+beltDescription="НОЖ"
+
+[Switch2]
+ItemName="Переключатель"
+
+[ShowerHead]
+ItemName="Душ"
+
+[ComputerSecurity]
+ItemName="Терминал компьютера безопасности"
+
+[TrashPaper]
+ItemName="Бумага"
+
+[HUDMedBotAugCanWindow]
+AugContainsText="Содержит:|n"
+
+[AugDefense]
+AugmentationName="Агрессивная Система Защиты"
+Description="При приближении объектов типа ракет и гранат выпускается аэрозоль наночастиц; эти наночастицы заранее детонируют объект до его приближения к агенту.|n|nУРОВЕНЬ 1: Расстояние, на котором приближающиеся ракеты и гранаты уничтожаются, небольшое.|n|nУРОВЕНЬ 2: Расстояние, на котором приближающиеся ракеты и гранаты уничтожаются, немного увеличено.|n|nУРОВЕНЬ 3: Расстояние, на котором приближающиеся ракеты и гранаты уничтожаются, увеличено до среднего.|n|nУРОВЕНЬ 4: Ракеты и гранаты взрываются почти сразу после выстрела."
+MPInfo="Когда активно, вражеские ракеты взрываются до сближения с агентом, причиняя меньше ущерба.  Большие ракеты все же могут оказаться достаточно близко, чтобы причинить вред.  Потребление энергии: низкое"
+
+[CigaretteMachine]
+msgDispensed="8 кредитов снято с вашего счета"
+msgNoCredits="Стоит 8 кредитов..."
+msgEmpty="Пусто"
+ItemName="Сигаретный автомат"
+
+[RiotCop]
+FamiliarName="Коп в броне"
+UnfamiliarName="Коп в броне"
+
+[Fly]
+FamiliarName="Муха"
+UnfamiliarName="Муха"
+
+[Gray]
+FamiliarName="Серый"
+UnfamiliarName="Серый"
+
+[ComputerScreenLogin]
+UserNameLabel="Пользователь"
+PasswordLabel="Пароль"
+InvalidLoginMessage="ОШИБОЧНЫЙ ЛОГИН - В ДОСТУПЕ ОТКАЗАНО"
+Title="Добро пожаловать в %s"
+ComputerNodeFunctionLabel="Login"
+
+[Poolball]
+ItemName="Бильярдный шар"
+
+[HUDMedBotNavBarWindow]
+HealthButtonLabel=" |&Здоровье   "
+AugsButtonLabel="   |&Приращения   "
+
+[SandraRenton]
+FamiliarName="Сандра Рентон"
+UnfamiliarName="Сандра Рентон"
+
+[AmmoDart]
+ItemName="Дротики"
+ItemArticle=" "
+Description="Дротик мини-арбалета - это наиболее подходящее оружие для 'мокрых' операций; однако, бесшумные убийства требуют высокого уровня навыка."
+beltDescription="ДРОТИК"
+
+[ComputerScreenATM]
+AccountLabel="Счет #:"
+PinLabel="ПИН-код #:"
+LoginInfoText="Пожалуйста, введите номер вашего Счета и Пин-Код"
+WarningText="ВНИМАНИЕ: Несанкционированный доступ будет встречен жестким силовым воздействием!"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[login]"
+InvalidLoginMessage="ОШИБКА ЛОГИНА, В ДОСТУПЕ ОТКАЗАНО"
+Title="Глобальная Банковская Система ПейджНет"
+
+[WeaponAssaultGun]
+ItemName="Штурмовая автоматическая винтовка"
+ItemArticle=" "
+Description="Штурмовая автоматическая винтовка калибра 7.62x51мм спроектирована для ближнего боя. Для повышения маневренности на ней укорочен ствол и изменен общий дизайн. Дополнительно установленный подствольный гранатомет '20-мм HE' увеличивает эффективность оружия против разнообразных целей."
+beltDescription="АВТОМАТ"
+
+[ComputerScreenATMDisabled]
+ButtonLabelClose="Закрыть"
+LoginInfoText="Извините, но данный терминал не работает (ERR 06MJ12).|n|nПриносим свои извинения за доставленные неудобства и с удовольствием готовы обслужить вас в любом другом из 231000 банковских терминалов ПейджНет по всему миру."
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[dsbld]"
+Title="Глобальная Банковская Система ПейджНет"
+
+[MenuChoice_Volume]
+VolumeOffText="ВЫКЛ"
+VolumeMaxText="МАКС"
+
+[PersonaInventoryCreditsWindow]
+CreditsLabel="Кред."
+
+[ThugMale]
+FamiliarName="Убийца"
+UnfamiliarName="Убийца"
+
+[MenuScreenBrightness]
+HelpMessage="Установите регулятор так, чтобы цветные полоски постепенно и плавно переходили книзу в черный цвет."
+Title="Настройка яркости"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuMain]
+Title="Добро пожаловать в DEUS EX"
+ButtonNames[0]="Новая игра"
+ButtonNames[1]="Сохранить"
+ButtonNames[2]="Загрузить"
+ButtonNames[3]="Установки"
+ButtonNames[4]="Тренировка"
+ButtonNames[5]="Вступление"
+ButtonNames[6]="Создатели"
+ButtonNames[7]="Вернуться в игру"
+ButtonNames[8]="Сетевая игра"
+ButtonNames[9]="Выход"
+
+[LAM]
+ItemName="Легкая наступательная граната (LAM)"
+
+[Cigarettes]
+M_Activated=" выкурены"
+ItemName="Сигареты"
+ItemArticle=" "
+Description="'СРЕДСТВО ОТ КАШЛЯ -- когда вы хотите просто покурить'"
+beltDescription="Сигареты"
+
+[WeaponModAccuracy]
+ItemName="Модификатор оружия (Точность)"
+ItemArticle=" "
+Description="При установке на стволы большинства стреляющего оружия этот гармонический стабилизатор уменьшит вертикальную отдачу при выстреле, что повышает меткость.|n|n<UNATCO OPS FILE NOTE SC108-BLUE> Почти любое оружие, чей выстрел сопровождается вибрацией, может быть модифицировано с помощью этого стабилизатора; я даже видел его работающим в паре с мини-арбалетом и прототипом плазменного оружия. -- Сэм Картер <КОНЕЦ ЗАПИСИ>"
+beltDescription="МОД ТОЧН"
+
+[WeaponModRecoil]
+ItemName="Модификатор оружия (Отдача)"
+ItemArticle=" "
+Description="Упругая насадка из комбинированного отдачепоглощающего материала сильно гасит отдачу от выстрела."
+beltDescription="МОД ОТДАЧ"
+
+[WeaponModReload]
+ItemName="Модификатор оружия (Перезаряд)"
+ItemArticle=" "
+Description="Время, требуемое для перезарядки оружия, значительно сокращается."
+beltDescription="МОД ПЕРЕЗ"
+
+[EMPGrenade]
+ItemName="Электромагнитная импульсная граната"
+
+[NanoVirusGrenade]
+ItemName="Кодовая граната"
+
+[WeaponSword]
+ItemName="Меч"
+Description="Устрашающий меч."
+beltDescription="МЕЧ"
+
+[WeaponCrowbar]
+ItemName="Лом"
+ItemArticle=" "
+Description="Лом. Стукни по кому-нибудь или по чему-нибудь. Повтори.|n|n<UNATCO OPS FILE NOTE GH010-BLUE> Многие ломы мы называем 'ломами-убийцами'. Всегда держи один наготове. Ха. -- Гюнтер Херманн <КОНЕЦ ЗАПИСИ>"
+beltDescription="ЛОМ"
+
+[TracerTong]
+FamiliarName="Трэйсер Тонг"
+UnfamiliarName="Трэйсер Тонг"
+
+[WIB]
+FamiliarName="Женщина в Черном"
+UnfamiliarName="Женщина в Черном"
+
+[MIB]
+FamiliarName="Мужчина в Черном"
+UnfamiliarName="Мужчина в Черном"
+
+[AugMuscle]
+AugmentationName="Микрофибральные мышцы"
+Description="Мускульная сила усиливается ионным полимерным гелем мышечных волокон, позволяющими агенту толкать и поднимать сверхтяжелые предметы.|n|nУровень 1: Сила увеличена незначительно.|n|nУровень 2:  Сила увеличена средне.|n|nУровень 3: Сила увеличена значительно.|n|nУровень 4: Агент нечеловечески силен."
+MPInfo="Когда активно, вы можете передвигать большие ящики.  Потребление энергии: низкое"
+
+[DeathMatchGame]
+TooManyPlayers="Слишком много игроков"
+VictoryConString1="Цель: Первый игрок, достигший "
+VictoryConString2=" убийств, выигрывает матч."
+TimeLimitString1="Цель: Сделайте как можно больше убийств, пока время ( "
+TimeLimitString2=" ) не закончится!"
+
+[Rat]
+FamiliarName="Крыса"
+UnfamiliarName="Крыса"
+
+[Karkian]
+FamiliarName="Каркиан"
+UnfamiliarName="Каркиан"
+
+[AlarmLight]
+ItemName="Сигнализация"
+
+[Cat]
+FamiliarName="Кот"
+UnfamiliarName="Кот"
+
+[Cart]
+ItemName="Хозяйственная тележка"
+
+[WaterCooler]
+msgEmpty="Вода кончилась"
+ItemName="Водоохладитель"
+
+[WaterFountain]
+msgEmpty="Вода кончилась"
+ItemName="Фонтанчик"
+
+[MiniSub]
+ItemName="Мини-подлодка"
+
+[Dart]
+ItemName="Дротик"
+ItemArticle=" "
+
+[Ammo3006]
+ItemName="30.06 патроны"
+ItemArticle=" "
+Description="Это высокоскоростная и точная снайперская винтовка, использующая патроны калибра 30.06, за последние 50 лет стала основным оружием тех, чей девиз: 'один выстрел - один труп'"
+beltDescription="3006 ПАТР"
+
+[TechGoggles]
+ExpireMessage="Заряд тех-очков закончился"
+ItemName="Тех-очки"
+ItemArticle=" "
+Description="Тех-очки используются многими силами специального назначения по всему миру под разными торговыми марками - все они представляют собой некий портативный усилитель света в одноразовой упаковке."
+beltDescription="ТЕХОЧКИ"
+
+[MorganEverett]
+FamiliarName="Морган Эверетт"
+UnfamiliarName="Морган Эверетт"
+
+[MenuChoice_ObjectTextureDetail]
+helpText="Изменяет качество текстур объектов"
+actionText="|&Текстуры обьектов"
+configSetting="ini:Engine.Engine.ViewportManager SkinDetail"
+enumText[0]="Низ"
+enumText[1]="Выс"
+
+[MenuChoice_WorldTextureDetail]
+helpText="Изменяет качество текстур окружающего мира"
+actionText="|&Текстура мира"
+configSetting="ini:Engine.Engine.ViewportManager TextureDetail"
+
+[MenuChoice_DetailTextures]
+helpText="Отключение детализации текстур на слабых машинах может повысить быстродействие"
+actionText="Детализация т|&екстур"
+configSetting="ini:Engine.Engine.GameRenderDevice DetailTextures"
+
+[MenuChoice_Decals]
+helpText="Отключение накладываемых на поверхности изображений (н-р, дырок от пуль и т.п.) может повысить быстродействие на слабых машинах"
+actionText="Дополнительные |&эффекты (деколи)"
+configSetting="ini:Engine.Engine.ViewportManager Decals"
+
+[MenuChoice_MouseSensitivity]
+helpText="Изменяет чувствительность мышки"
+actionText="|&Чувствительность мыши"
+
+[MenuChoice_MaxLogLines]
+helpText="Максимальное количество строчек диалога видимых на экране в любое время"
+actionText="Макс. кол-во строк"
+
+[MenuChoice_LogTimeoutValue]
+msgSecond=" "
+helpText="Установить время, в течении которого сообщения видны на экране"
+actionText="|&Время показа сообщений"
+
+[HKMilitary]
+FamiliarName="Китайский солдат"
+UnfamiliarName="Китайский солдат"
+
+[NicoletteDuClare]
+FamiliarName="Николетт ДюКлэр"
+UnfamiliarName="Николетт ДюКлэр"
+
+[ThugMale2]
+FamiliarName="Убийца"
+UnfamiliarName="Убийца"
+
+[AdaptiveArmor]
+ExpireMessage="Термооптический камуфляж разряжен"
+ItemName="Термооптический камуфляж"
+ItemArticle=" "
+Description="Сплетенный из оптоволокна, с передовой компьютерной системой, термооптический камуфляж способен сделать агента невидимым для людей и ботов, динамически поглощая свет и волны радара; однако, высокое потребление энергии делает его полезным весьма короткое время, после чего его структура выплавляется и он становится бесполезным."
+beltDescription="КАМУФЛЯЖ"
+
+[AugRadarTrans]
+AugmentationName="Невидимость для радара"
+Description="Поглощает лучи радаров эпителиальными протеинами; элементы микропроекции разрушают визуальный образ агента. Дает высокоэффективную маскировку от систем автоматического обнаружения - ботов, камер, турелей.|n|nУРОВЕНЬ 1: Потреблении энергии нормальное.|n|nУРОВЕНЬ 2: Потреблении энергии слегка уменьшенное.|n|nУРОВЕНЬ 3: Потреблении энергии среднее.|n|nУРОВЕНЬ 4: Потреблении энергии значительно уменьшено."
+MPInfo="Когда активно, вы невидимы для электронных устройств, таких как камеры, турели и сенсорные мины.  Потребление энергии: очень низкое"
+
+[MenuChoice_SoundQuality]
+RestartTitle="Качество звука"
+RestartMessage="Чтобы изменения вступили в силу, необходимо перезапустить Deus Ex."
+helpText="16-битный звук, конечно, более высокого качества, но расходует в 2 раза больше памяти чем 8-битный, так что, если у вас мало памяти, используйте 8-битный."
+actionText="Качество |&звука"
+configSetting="ini:Engine.Engine.AudioDevice LowSoundQuality"
+enumText[0]="8-бит"
+enumText[1]="16-бит"
+
+[AmmoSabot]
+ItemName="Патроны 12 калибра Сабо"
+ItemArticle=" "
+Description="Патроны 12 калибра для ружья с пулей в оболочке из вольфрама прошивают все, на близком расстоянии даже толстую тяжелую стальную броню; тем не менее, из-за их обтекаемой формы, они приносят мало повреждений незащищенным целям."
+beltDescription="САБО"
+
+[MenuChoice_TextureColorBits]
+RestartTitle="Глубина цвета текстур"
+RestartMessage="Эти изменения вступят в силу после перезагрузки Deus Ex."
+helpText="Определяет глубину цвета текстур. 32-битные текстуры выглядят лучше, если оборудование их поддерживает."
+actionText="|&Глубина цвета текстур"
+configSetting="ini:Engine.Engine.ViewportManager FullscreenColorBits"
+enumText[0]="16-бит"
+enumText[1]="32-бит"
+
+[Binoculars]
+ItemName="Бинокль"
+M_Activated=" - смотрим"
+M_Deactivated=" - убрали"
+ItemArticle=" "
+Description="Военный бинокль."
+beltDescription="БИНОКЛЬ"
+
+[Liquor40oz]
+ItemName="Форти"
+ItemArticle=" "
+Description="'ХОЛОДОК - сорок унций солодового ликера. Никому не давайте попробовать свой ХОЛОДОК'"
+beltDescription="ФОРТИ"
+
+[LiquorBottle]
+ItemName="Ликер"
+ItemArticle=" "
+Description="Этикетка оторвана, но выглядит неплохо"
+beltDescription="Ликер"
+
+[ComputerPublic]
+ItemName="Публичный терминал"
+
+[WeaponModClip]
+ItemName="Модификатор оружия (Обойма)"
+ItemArticle=" "
+Description="Расширенный магазин - увеличивает предусмотренную изначально вместимость патронника."
+beltDescription="МОД ОБОЙМ"
+
+[VialCrack]
+ItemName="Пузырек фермента"
+ItemArticle=" "
+Description="Фермент, приготовленный в некой подпольной лаборатории."
+beltDescription="ФЕРМЕНТ"
+
+[HazMatSuit]
+M_Activated=" одет"
+ExpireMessage="Заряд защитного костюма кончился"
+ItemName="Защитный костюм"
+ItemArticle=" "
+Description="Стандартный костюм для опасных работ, защищающий от широкого спектра вредных воздействий, включая радиацию, огонь, биохимические токсины, электричество и э/м поле. В костюм интегрирован бактериальный кислородный фильтр, разрушающийся со временем, он не может быть использован повторно."
+beltDescription="ЗАЩ КОСТ"
+
+[WeaponModRange]
+ItemName="Модификатор оружия (Дальность)"
+ItemArticle=" "
+Description="Смазывание внутри ствола синтетической синовиальной субстанцией, разгонящей снаряд, приводит к увеличению эффективной дальности его полета.|n|n<UNATCO OPS FILE NOTE SC111-BLUE> Покрытие системы затвора огнемета или плазменного ружья синовиальной смазкой и затем подача снаряда в ствол под давлением также имеют результатом увеличение дальности. Небольшая тонкость, я узнал ее в ходе полевых испытаний. -- Сэм Картер <КОНЕЦ ЗАПИСИ>"
+beltDescription="МОД ДАЛЬН"
+
+[PersonaImageNewLegendLabel]
+NewLegendLabel=" = Новое изображение"
+
+[BallisticArmor]
+ExpireMessage="Баллистическая Защита разряжена"
+ItemName="Баллистическая защита"
+ItemArticle=" "
+Description="Баллистическая защита сделана из электрически чувствительных полимеров, которые реагируют на удары пуль или взрывчатки, при этом затвердевая, поглощая основной ущерб. Эти полимеры должны быть заряжены перед использованием; после разрядки они теряют свои свойства и должны быть выброшены."
+beltDescription="БАЛ ЗАЩ"
+
+[MenuChoice_EffectsChannels]
+helpText="Количество каналов звука"
+actionText="З|&вуковые каналы"
+configSetting="ini:Engine.Engine.AudioDevice EffectsChannels"
+
+[SkillAwardTrigger]
+awardMessage="DEFAULT SKILL AWARD MESSAGE - REPORT THIS AS A BUG"
+
+[Shuriken]
+ItemName="Метательный нож"
+ItemArticle=" "
+
+[ShipsWheel]
+ItemName="Штурвал"
+
+[AmmoRocket]
+ItemName="Ракеты"
+ItemArticle=" "
+Description="Гироскопические стабилизированные ракеты с ограниченной бортовой системой самонаведения для коррекции курса. Разработаны для использования с ракетницей (GEP)."
+beltDescription="РАКЕТА"
+
+[CageLight]
+ItemName="Армированный фонарь"
+
+[AmmoBattery]
+ItemName="Батарейка для шокера"
+ItemArticle=" "
+Description="Портативное зарядное устройство для шокера."
+beltDescription="ЗАРЯДНИК"
+
+[AugDrone]
+AugmentationName="Дрон-Шпион"
+Description="Продвинутые наносистемы могут вызывать Дрона-Шпиона, которым агент может управлять издалека, пока тот не будет уничтожен или разряжен, а затем может быть вызван новый. Дальнейшие улучшения Дронов-Шпионов добавляют им броню и одноразовую э/м атаку.|n|nУРОВЕНЬ 1: У дрона легкая защита и очень слабая э/м атака.|n|nУРОВЕНЬ 2: Нормальная защита и слабая э/м атака.|n|nУРОВЕНЬ 3: Средняя защита и э/м атака.|n|nУРОВЕНЬ 4: Хорошая защита и мощная э/м атака."
+MPInfo="Включение создает дистанционного Дрона-Шпиона.  Выключение - отрубает его.  Взрыв дрона, пока он управляем, вызывает сильный э/м разряд.  Потребление энергии: Среднее"
+
+[Basketball]
+ItemName="Баскетбольный мяч"
+
+[AugCombat]
+AugmentationName="Боевая сила"
+Description="Система роторов ускоряет концентрацию ионов кальция в саркоплазматической сети, увеличивая скорость сокращения мускулатуры и значительно повышая наносимый в рукопашном бою урон.|n|nУРОВЕНЬ 1: Эффективность рукопашной немного возросла.|n|nУРОВЕНЬ 2: Эффективность возросла средне.|n|nУРОВЕНЬ 3: Эффективность возросла значительно.|n|nУРОВЕНЬ 4: Рукопашная с агентом скорее всего ведет к смерти оппонента."
+MPInfo="Когда активно, удваивает ущерб от рукопашного боя.  Потребление энергии: Низкое"
+
+[AugAqualung]
+AugmentationName="Акваланг"
+Description="Экзоструктуры натровой извести, помещенные в альвиолы легких, превращают CO2 в O2, увеличивая время пребывания агента под водой.|n|nУРОВЕНЬ 1: Объем легких немного увеличен.|n|nУРОВЕНЬ 2: Объем легких увеличен средне.|n|nУРОВЕНЬ 3: Объем легких значительно увеличен.|n|nУРОВЕНЬ 4:Агент может оставаться под водой бесконечно."
+MPInfo="Когда активно, вы можете оставаться под водой в 12 раз дольше и плавать вдвое быстрее.  Потребление энергии: Низкое"
+
+[RetinalScanner]
+msgUsed="Доступ разрешен"
+ItemName="Сканер сетчатки"
+
+[WineBottle]
+M_Activated=" выпито"
+ItemName="Вино"
+ItemArticle=" "
+Description="Бутылка хорошего вина."
+beltDescription="ВИНО"
+
+[Valve]
+ItemName="Вентиль"
+
+[LowerClassFemale]
+FamiliarName="Низший Класс"
+UnfamiliarName="Низший Класс"
+
+[TerroristCommander]
+FamiliarName="Командир террористов"
+UnfamiliarName="Командир террористов"
+
+[GarySavage]
+FamiliarName="Гари Сэведж"
+UnfamiliarName="Гари Сэведж"
+
+[SpiderBot]
+FamiliarName="Паук-Бот"
+UnfamiliarName="Паук-Бот"
+
+[StantonDowd]
+FamiliarName="Стэнтон Дауд"
+UnfamiliarName="Стэнтон Дауд"
+
+[FordSchick]
+FamiliarName="Форд Шик"
+UnfamiliarName="Форд Шик"
+
+[MenuChoice_RenderDevice]
+PromptTitle="Перезапустить Deus Ex?"
+GamePromptMessage="Для выбора акселератора надо перезапустить Deus Ex, при этом текущая игра потеряется, если вы не сохранились. Перезапустить?"
+RestartPromptMessage="Для выбора акселератора надо перезапустить Deus Ex. Желаете продолжить?"
+helpText="Выберите устройство для 3D рендеринга.  Для этого нужно покинуть Deus Ex и выбрать 3D ускоритель"
+actionText="|&Видеокарта для рендеринга..."
+
+[WeaponModSilencer]
+ItemName="Модификатор оружия (глушитель)"
+ItemArticle=" "
+Description="Глушитель подавит хлопок, вызванный быстрым выходом газов, оставшихся в стволе после вылета пули.|n|n<UNATCO OPS FILE NOTE SC108-BLUE> Очевидно, что глушитель эффективен только с огнестрельным оружием. -- Сэм Картер <КОНЕЦ ЗАПИСИ>"
+beltDescription="МОД ГЛУШ"
+
+[WeaponModScope]
+ItemName="Модификатор оружия (прицел)"
+ItemArticle=" "
+Description="Оптический прицел позволяет приблизить удаленную цель и повысить точность."
+beltDescription="МОД ПРИЦ"
+
+[ScubaDiver]
+FamiliarName="Аквалангист"
+UnfamiliarName="Аквалангист"
+
+[WeaponModLaser]
+ItemName="Модификатор (лазер)"
+ItemArticle=" "
+Description="Фокусируемая лазером точка исключает любые ошибки, вызванные невозможностью визуально определить точку попадания пули."
+beltDescription="МОД ЛАЗЕР"
+
+[VialAmbrosia]
+msgNoEffect="Странно...ничего не происходит..."
+ItemName="Пузырек амброзии"
+ItemArticle=" "
+Description="Единственная известная вакцина против 'Серой Смерти'. К сожалению, быстро усваивается, делая эффект в лучшем случае временным."
+beltDescription="АМБРОЗИЯ"
+
+[SoyFood]
+M_Activated=" съедена"
+ItemName="Соевая еда"
+ItemArticle=" "
+Description="(надпись мелким шрифтом):"Выращенный механо-химическими наногенераторами, этот текстурированый соевый протеин (ТСП) не только вкусный, но еще и подогревается сам, когда вскрывается его упаковка.'"
+beltDescription="СОЕВАЯ ЕДА"
+
+[Sodacan]
+M_Activated=" выпита"
+ItemName="Содовая"
+ItemArticle=" "
+Description="На банке ничего нет кроме фразы 'СВОБОДА СРЕДИ ЗВЕЗД!'. Неясно название это или приглашение."
+beltDescription="СОДОВАЯ"
+
+[BookOpen]
+ItemName="Книга"
+
+[Candybar]
+M_Activated=" съеден"
+ItemName="Шоколад"
+ItemArticle=" "
+Description="'ШОКОЛАДНАЯ МЕЧТА. ЭТО ШОКОЛАД! ЭТО ЛЮДИ! ЭТО ВСЕ!(tm)|n|n(85% материала переработано повторно).'"
+beltDescription="ШОКОЛАД"
+
+[Rebreather]
+ExpireMessage="Акваланг разряжен"
+ItemName="Акваланг"
+ItemArticle=" "
+M_Activated=" одет"
+M_Deactivated=" снят"
+Description="Одноразовый химический фильтр, извлекающий кислород из воды при коротких подводных операциях."
+beltDescription="АКВАЛАНГ"
+
+[MenuChoice_SampleRate]
+helpText="Низкая частота воспроизведения звука занимает меньше процессорного времени, но так снижается его качество."
+actionText="Частота звука"
+configSetting="ini:Engine.Engine.AudioDevice OutputRate"
+enumText[0]="11025 Гц"
+enumText[1]="22050 Гц"
+enumText[2]="44100 Гц"
+RestartTitle="Качество звука"
+RestartMessage="Это изменение вступит в силу после перезагрузки Deus Ex."
+
+[SecurityBot2]
+FamiliarName="Охранный бот"
+UnfamiliarName="Охранный бот"
+
+[AugSpeed]
+AugmentationName="Повышение скорости"
+Description="Ионо-полимерные гелевые микрофибриллы вплетаются в мышцы ног, увеличивая скорость, с которой агент может бежать и карабкаться, высоту, на которую он может прыгать, и уменьшают повреждение от падения с высоты.|n|nУРОВЕНЬ 1: Бег и прыжки немного улучшены, вред от падения уменьшен.|n|nУРОВЕНЬ 2: Бег и прыжки улучшены средне, вред от падения еще уменьшен.|n|nУРОВЕНЬ 3: Бег и прыжки улучшены значительно, вред от падения еще более уменьшен.|n|nУРОВЕНЬ 4: Агент бегает как ветер, и может прыгать с небоскребов."
+MPInfo="Когда активно, вы вдвое быстрее бегаете и прыгаете.  Потребление энергии: Очень высокое"
+
+[WeaponNanoVirusGrenade]
+ItemName="Кодовая граната"
+ItemArticle=" "
+Description="При взрыве противоботовой кодовой гранаты в малом радиусе распространяется полиморфное провоцирующее излучение на командных частотах почти всех ботов, выпущеных после 2028 г. Последующий электронный шторм заставляет ботов в радиусе его действия атаковать других ботов, до тех пор, пока радиоконтроль над ними не будет восстановлен. Так же, как и LAM, граната может крепиться к любой поверхности."
+beltDescription="КОД ГРАН"
+
+[WeaponEMPGrenade]
+ItemName="Э/м импульсная граната"
+ItemArticle=" "
+Description="Э/м граната создает локальные импульсы, которые временно выводят из строя всю электронику в зоне действия, включая камеры и охранную систему.|n|n<UNATCO OPS FILE NOTE JR134-VIOLET> Хотя на нанотехнологические приращения сильного действия не оказывает, опыт показывает, что происходит спонтанное рассеяние биоэлектрической энергии. -- Джейми Рэйес <КОНЕЦ ЗАПИСИ>"
+beltDescription="Э/М ГРАН"
+
+[MenuSelectDifficulty]
+Title="Выбор сложности боя"
+ButtonNames[0]="Легкий"
+ButtonNames[1]="Средний"
+ButtonNames[2]="Трудный"
+ButtonNames[3]="Реалистичный"
+ButtonNames[4]="Предыдущее меню"
+
+[AttackHelicopter]
+ItemName="Боевой вертолет"
+
+[MilitaryBot]
+FamiliarName="Военный бот"
+UnfamiliarName="Военный бот"
+
+[AmmoDartPoison]
+ItemName="Дротики с транквилизатором"
+Description="Дротики для мини-арбалета, смазанные разновидностью сукцинилхолина, вызывает расслабление скелетных мышц, эффективно обездвиживая цель без смертельного поражения."
+beltDescription="ТРН ДРОТ"
+
+[AlexJacobson]
+FamiliarName="Алекс Джейкобсон"
+UnfamiliarName="Хакер"
+
+[Phone]
+ItemName="Телефон"
+
+[Toilet2]
+ItemName="Писсуар"
+
+[Toilet]
+ItemName="Унитаз"
+
+[Switch1]
+ItemName="Переключатель"
+
+[LightSwitch]
+ItemName="Переключатель"
+
+[HKMarketTarp]
+ItemName="Кусок брезента"
+
+[HKHangingPig]
+ItemName="Забитая свинья"
+
+[HangingChicken]
+ItemName="Забитая курица"
+
+[BarrelFire]
+ItemName="Горящая бочка"
+
+[Doctor]
+FamiliarName="Доктор"
+UnfamiliarName="Доктор"
+
+[TobyAtanwe]
+FamiliarName="Тоби Атанвэ"
+UnfamiliarName="Тоби Атанвэ"
+
+[WeaponStealthPistol]
+ItemName="Бесшумный пистолет"
+ItemArticle=" "
+Description="Бесшумный пистолет - это вариант стандартного 10-мм пистолета с обоймой большей емкости и со встроенным глушителем для *мокрой* работы на очень близком расстоянии."
+beltDescription="Б/Ш ПИСТ"
+
+[WeaponShuriken]
+ItemName="Метательные ножи"
+ItemArticle=" "
+Description="Любимое оружие ассассинов Дальнего Востока во все времена, метательные ножи могут быть смертоносны в руках мастера, но обычно используются когда необходимо послать сообщение. Обычно такое: 'Твоя смерть наступит скоро'."
+beltDescription="МЕТ НОЖ"
+
+[WeaponSawedOffShotgun]
+ItemName="Обрез"
+ItemArticle=" "
+Description="Обрез - это помповое ружье с укороченным стволом, с большим радиусом поражения на близком расстоянии, можно заряжать картечью или сабо патронами."
+beltDescription="ОБРЕЗ"
+
+[MenuScreenAdjustColors]
+Title="Настройка цветов"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[WeaponProd]
+ItemName="Электрошокер"
+ItemArticle=" "
+Description="Электрошокер широко используется силами правопорядка, которые пытаются сохранить остатки этого гибнущего мира, и считают шокер самым подходящим инструментом. На ближних дистанциях его оглушающий эффект максимален при ударе по торсу или когда субъект застигнут врасплох."
+beltDescription="Шокер"
+
+[WeaponPlasmaRifle]
+ItemName="Плазменное ружье"
+ItemArticle=" "
+Description="Это экспериментальное оружие, производимое сейчас ограниченными партиями. Плазменное ружье разогревает намагниченный пластиковый заряд и ускоряет полученную газо-жидкостную смесь рядом вытянутых магнитов. Выходящий поток плазмы смертелен для медленно движущихся целей."
+beltDescription="ПЛАЗМА"
+
+[SpiderBot2]
+FamiliarName="Мини Паук-Бот"
+UnfamiliarName="Мини Паук-Бот"
+
+[HowardStrong]
+FamiliarName="Говард Стронг"
+UnfamiliarName="Говард Стронг"
+
+[WeaponAssaultShotgun]
+ItemName="Штурмовое автоматическое ружье"
+ItemArticle=" "
+Description="Штурмовое ружье (иногда называется 'очистителем улиц') сочетает в себе лучшие черты обычной винтовки с полностью автоматической подачей патронов, позволяющей очистить территорию от врагов за считанные секунды. Особенно эффективна в уличных боях, может быть заряжена картечью или сабо патронами."
+beltDescription="АВТ.РУЖЬЕ"
+
+[WeaponFlamethrower]
+ItemName="Огнемет"
+ItemArticle=" "
+Description="Портативный огнемет, который работает на новых канистрах сжатого напалма, а не на старых, крайне опасных емкостях с топливом. Неопытным агентам огнемет все же может показаться затрудняющим движения."
+beltDescription="ОГНЕМЕТ"
+
+[WeaponGasGrenade]
+ItemName="Газовая граната"
+ItemArticle=" "
+Description="После детонации выделяет большое количество СГ (по-военному 'слезоточивого газа'), который поражает слизистую оболочку, приводя к временной слепоте и сильному кашлю. Как и LAM, крепится на любую поверхность."
+beltDescription="ГАЗ ГРАН"
+
+[TriadLumPath]
+FamiliarName="Член Триады"
+UnfamiliarName="Член Триады"
+
+[WeaponLAM]
+ItemName="Легкая наступательная граната (LAM)"
+ItemArticle=" "
+Description="Многофункциональная взрывчатка с электронной системой детонации, может быть брошена или закреплена на любую поверхность в качестве мины-ловушки.|n|n<UNATCO OPS FILE NOTE SC093-BLUE> Обезвредить такое устройство можно только после специальных тренировок. -- Сэм Картер <КОНЕЦ ЗАПИСИ>"
+beltDescription="LAM"
+ShortName="LAM"
+
+[TriadRedArrow]
+FamiliarName="Член Триады"
+UnfamiliarName="Член Триады"
+
+[ControlPanel]
+ItemName="Электронная панель управления"
+
+[DartPoison]
+ItemName="Дротик с транквилизатором"
+
+[AmmoDartFlare]
+ItemName="Сигнальные дротики"
+ItemArticle=" "
+Description="В сигнальных дротиках используют тлеющее горючее вещество, воспламеняющееся при ударе и освещающее область попадания."
+beltDescription="СИГ ДРОТ"
+
+[MenuChoice_MenuColor]
+helpText="Палитра для всех меню."
+actionText="|&Цвета меню"
+
+[MenuChoice_HUDColor]
+helpText="Палитра для всех игровых экранов."
+actionText="Цвета |&HUD"
+
+[AmmoNapalm]
+ItemName="Канистра с напалмом"
+ItemArticle=" "
+Description="Канистра сжатого желеобразного бензина используется в огнеметах.|n|n<UNATCO OPS FILE NOTE SC080-BLUE> Снабжена двойными стенками для уменьшения вероятности детонации при попадании в нее пуль во время боя. -- Сэм Картер <КОНЕЦ ЗАПИСИ>"
+beltDescription="НАПАЛМ"
+
+[AmmoPlasma]
+ItemName="Заряд пластика"
+ItemArticle=" "
+Description="Обойма спрессованых намагниченных кусков пластика, которые могут быть нагреты и выстрелены с убийственной мощью плазменного ружья."
+beltDescription="ПЛАСТИК"
+
+[AugBallistic]
+AugmentationName="Баллистическая защита"
+Description="Мономолекулярные пластины усиливают кожные эпителиальные мембраны, снижая ущерб, получаемый агентом от стрелкового и холодного оружия.|n|nУРОВЕНЬ 1: Получаемый урон от стрелкового и холодного оружия немного уменьшен.|n|nУРОВЕНЬ 2: Получаемый урон от стрелкового и холодного оружия уменьшен средне.|n|nУРОВЕНЬ 3: Получаемый урон от стрелкового и холодного оружия значительно уменьшен.|n|nУРОВЕНЬ 4: Агент почти неуязвим к урону от стрелкового и холодного оружия."
+MPInfo="Когда активна, ущерб от стрелкового и холодного оружия снижается на 40%.  Потребление энергии: Высокое"
+
+[AugCloak]
+AugmentationName="Маскировка"
+Description="Ячейки подкожной пигментации позволяют агенту сливаться с окружающим миром, делая его невидимым для зрения органических существ.|n|nУРОВЕНЬ 1: Расход энергии нормальный.|n|nУРОВЕНЬ 2: Расход энергии уменьшен.|n|nУРОВЕНЬ 3: Расход энергии заметно уменьшен.|n|nУРОВЕНЬ 4: Расход энергии уменьшен значительно."
+MPInfo="Когда активно, вы невидимы для врагов.  Электронные устройства и игроки с приращением Зрение по-прежнему могут вас видеть.  При использовании спрячьте оружие.  Потребление энергии: Среднее"
+
+[AugDatalink]
+AugmentationName="Инфосвязь"
+Description="Односторонний микро-приемник позволяет агенту в боевых условиях получать сообщения из Центра, накапливать их, и в дальнейшем использовать относящиеся к делу карты, записи разговоров и заметки.|n|n<UNATCO OPS FILE NOTE JR133-VIOLET> Это - предел наших возможностей, так что не ждите никаких улучшений. -- Джейми Рэйес <КОНЕЦ ЗАПИСИ>|n|nУЛУЧШЕНИЕ НЕВОЗМОЖНО"
+
+[AugEMP]
+AugmentationName="Э/м защита"
+Description="Нано э/м генераторы частично защищают индивидуальные наниты и ослабляют их утечку гашением поступающих импульсов.|n|nУРОВЕНЬ 1: Вред от э/м атак немного снижен.|n|nУРОВЕНЬ 2: Вред от э/м атак заметно снижен.|n|nУРОВЕНЬ 3: Вред от э/м атак снижен значительно.|n|nУРОВЕНЬ 4: Почти неуязвим к э/м атакам."
+MPInfo="Когда активно, вы получаете лишь 5% ущерба от э/м атак.  Потребление энергии: Очень низкое"
+
+[Fan1]
+ItemName="Вентилятор"
+
+[AugEnviro]
+AugmentationName="Устойчивость к среде"
+Description="Стимулирует выработку кератина, который усиливает кожные ткани и повышает устойчивость агента к радиации и другим токсинам.|n|nУРОВЕНЬ 1: Сопротивление токсинам повышено.|n|nУРОВЕНЬ 2: Сопротивление токсинам повышено до среднего.|n|nУРОВЕНЬ 3: Сопротивление токсинам значительно повышено.|n|nУРОВЕНЬ 4: Агент почти не получает вреда от токсинов."
+MPInfo="Когда активно, вы получаете 10% ущерба от яда и газа, и они не влияют на ваше зрение.  Потребление энергии: Низкое"
+
+[AugIFF]
+AugmentationName="Cистема опознавания друг-враг (IFF)"
+Description="Автоматическое опознавание врагов и союзников с применением улучшенных эвристических алгоритмов для сопоставления видимых объектов с известными категориями опасности.|n|nПерекрестие прицела подсвечивается красным на врагах, зеленым на нейтралах и союзниках.|n|nУЛУЧШЕНИЕ НЕВОЗМОЖНО."
+
+[AugShield]
+AugmentationName="Энергетическая защита"
+Description="Полианиленовые конденсаторы под кожей поглощают тепло и электричество, уменьшая повреждения от электричества, пламени и плазменных атак.|n|nУРОВЕНЬ 1: Вред от энергетических атак снижен.|n|nУРОВЕНЬ 2: Вред от энергетических атак снижен средне.|n|nУРОВЕНЬ 3: Вред от энергетических атак значительно снижен.|n|nУРОВЕНЬ 4: Агент почти неуязвим к энергетическим атакам."
+MPInfo="Когда активно, вы получаете 50% ущерба от огня и плазмы.  Потребление энергии: Низкое"
+
+[AugStealth]
+AugmentationName="Бесшумное движение"
+Description="Необходимые движения мускулов для достижения полной бесшумности производятся реактивными кинематическими стабилизаторами под управлением встроенного нанокомпьютера.|n|nУРОВЕНЬ 1: Шум при движении уменьшен.|n|nУРОВЕНЬ 2: Шум при движении уменьшен средне.|n|nУРОВЕНЬ 3: Шум при движении значительно снижен.|n|nУРОВЕНЬ 4: Агент абсолютно бесшумен."
+MPInfo="Когда активно, вы не производите шума при ходьбе.  Потребление энергии: Низкое"
+
+[AugTarget]
+AugmentationName="Нацеливание"
+Description="Увеличение и распознание изображений за счет мультиплексирования оптического нерва вставкой полиацетиленовой *квантовой струны* не только повышает точность, но и выдает дополнительную информацию о цели.|n|nУРОВЕНЬ 1: Легкое увеличение меткости и общая информация.|n|nУРОВЕНЬ 2: Дополнительное увеличение точности и больше информации.|n|nУРОВЕНЬ 3: Дополнительное увеличение точности и специальная информация.|n|nУРОВЕНЬ 4: Дополнительное увеличение точности и телескопическое изображение."
+MPInfo="Когда активно, все оружейные навыки увеличены на 1 уровень, и вы можете видеть состояние врага.  Повышение навыков дает вам эффективность уровня 3.  Потребление энергии: Среднее"
+
+[AcousticSensor]
+ItemName="Акустический cенсор cтрельбы"
+
+[CeilingFan]
+ItemName="Лопасти вентилятора"
+
+[CeilingFanMotor]
+ItemName="Мотор вентилятора"
+
+[Female4]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[ClothesRack]
+ItemName="Одежда"
+
+[HKHangingLantern2]
+ItemName="Декоративный фонарь из бумаги"
+
+[ChairLeather]
+ItemName="Кресло"
+
+[CouchLeather]
+ItemName="Кожаный диван"
+
+[OfficeChair]
+ItemName="Вращающееся кресло"
+
+[WHChairPink]
+ItemName="Кресло"
+
+[CoffeeTable]
+ItemName="Кофейный столик"
+
+[FlagPole]
+ItemName="Флагшток"
+
+[Female1]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[Female3]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[Female2]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[Male4]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[MenuChoice_Crosshairs]
+helpText="Включение видимости прицела."
+actionText="При|&цел"
+
+[DartFlare]
+ItemName="Сигнальный дротик"
+
+[MenuChoice_ObjectNames]
+helpText="Если включено, показывает название выделенного объекта"
+actionText="|&Название объекта"
+
+[MenuChoice_ReverseStereo]
+helpText="Если включено, меняет местами левый и правый каналы."
+actionText="|&Инверсное стерео"
+configSetting="ini:Engine.Engine.AudioDevice ReverseStereo"
+
+[MenuChoice_SoundVolume]
+helpText="Настройка громкости звуковых эффектов."
+actionText="Громкость звуковых |&эффектов"
+configSetting="ini:Engine.Engine.AudioDevice SoundVolume"
+
+[MenuChoice_Subtitles]
+helpText="Если субтитры включены, то диалоги отображаются на экране."
+actionText="|&Субтитры"
+
+[MenuChoice_ToggleCrouch]
+helpText="Если включено, то клавиша приседания работает как переключатель"
+actionText="|&Переключатель приседания"
+
+[MenuScreenControls]
+Title="Управление"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenDisplay]
+Title="Настройка дисплея"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenSound]
+Title="Настройка звука"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenThemesSave]
+LoadHelpText="Выберите палитру для сохранения"
+Title="Сохранить Палитру"
+actionButtons[1]="(Text="Save Theme",Key="SAVE")"
+
+[ComputerSecurityChoice_Turret]
+actionText="|&Статус Турели"
+enumText[0]="Отключена"
+enumText[1]="Союзники"
+enumText[2]="Враги"
+enumText[3]="Все"
+
+[ComputerSecurityChoice_DoorOpen]
+actionText="|&Состояние двери"
+enumText[0]="Открыта"
+enumText[1]="Закрыта"
+
+[ComputerSecurityChoice_DoorAccess]
+actionText="Доступ |&Двери"
+enumText[0]="Заперта"
+enumText[1]="Незаперта"
+
+[ComputerSecurityChoice_Camera]
+actionText="|&Статус Камеры"
+enumText[0]="Вкл"
+enumText[1]="Выкл"
+
+[AmmoLAM]
+beltDescription="LAM"
+
+[WeaponMiniCrossbow]
+ItemName="Мини-Арбалет"
+ItemArticle=" "
+Description="Мини-арбалет был специально разработан для шпионских дел и использует ряд типов дротиков (обычный, транквилизатор или осветительный), которые могут сменяться в зависимости от требований миссии."
+beltDescription="АРБАЛЕТ"
+
+[MenuChoice_SpeechVolume]
+helpText="Настройка громкости речи."
+actionText="|&Громкость речи"
+configSetting="ini:Engine.Engine.AudioDevice SpeechVolume"
+
+[AmmoPepper]
+ItemName="Картридж с перцем"
+ItemArticle=" "
+Description="'ЩАДЯЩИЙ перцовый спрэй выводит из строя противника ЗА 2 СЕКУНДЫ. ЩАДЯЩИЙ - лучше СЛЕПОТА, чем СМЕРТЬ. --  ПРЕДУПРЕЖДЕНИЕ: Держать подальше от детей до 5 лет. Содержимое под давлением.'"
+beltDescription="ПЕРЕЦ"
+
+[MenuChoice_HUDAugDisplay]
+helpText="Эта опция определяет, какие приращения отображаются на HUD."
+actionText="Показ |&приращений на HUD"
+enumText[0]="Активные"
+enumText[1]="Все"
+
+[GasGrenade]
+ItemName="Газовая граната"
+
+[Male2]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[Male3]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[MenuChoice_AdjustBrightness]
+actionText="|&Яркость"
+configSetting="ini:Engine.Engine.ViewportManager Brightness"
+
+[MenuChoice_AlwaysRun]
+helpText="Если Разрешено, то игрок всегда бежит"
+actionText="|&Всегда бежать"
+
+[MenuChoice_Brightness]
+actionText="Настройка |&яркости..."
+
+[MenuChoice_HUDBordersVisible]
+helpText="Определяет показываются или нет границы HUD"
+actionText="|&Видимость границ HUD"
+
+[MenuChoice_HUDBorderTranslucency]
+helpText="Если прозрачность включена, то границы HUD будут прозрачны"
+actionText="|&Прозрачность границ HUD"
+
+[MenuChoice_InvertMouse]
+helpText="Инвертирование движения мыши верх/низ"
+actionText="Инвертирование |&мыши"
+
+[MenuChoice_HUDTranslucency]
+helpText="Если прозрачность включена, то фон будет виден через игровые HUD или Вспомогательные экраны."
+actionText="Прозрачность HUD ф|&она"
+
+[MenuChoice_MenuTranslucency]
+helpText="Если прозрачность включена, то фон будет виден через игровые Меню."
+actionText="|&Прозрачность меню"
+
+[MenuChoice_MusicVolume]
+helpText="Настройка уровня громкости музыки."
+actionText="|&Громкость музыки"
+configSetting="ini:Engine.Engine.AudioDevice MusicVolume"
+
+[MenuChoice_SurroundSound]
+helpText="Включение поддержки звука Dolby Surround.  Требуется Dolby Pro-Logic Surround звуковой процессор."
+actionText="|&Звук Dolby Surround"
+configSetting="ini:Engine.Engine.AudioDevice UseSurround"
+
+[MenuChoice_GoreLevel]
+helpText="Установка на Низкий запретит показ крови в игре"
+actionText="|&Уровень насилия"
+enumText[0]="Низкий"
+enumText[1]="Нормальный"
+
+[MenuChoice_FullScreen]
+helpText="Переключение между полноэкранным и оконным режимом"
+actionText="Вкл/выкл полноэкранный режим"
+
+[MenuChoice_Use3DHardware]
+helpText="Включение поддержки аппаратного 3D звука."
+actionText="|&Аппаратный 3D звук"
+configSetting="ini:Engine.Engine.AudioDevice Use3dHardware"
+RestartTitle="Качество звука"
+RestartMessage="Чтобы изменения вступили в силу надо перезапустить Deus Ex."
+
+[MenuChoice_WeaponAutoReload]
+helpText="Если Разрешено, оружие будет автоматически перезаряжаться, когда обойма опустеет."
+actionText="|&Авто перезарядка"
+
+[MenuScreenOptions]
+Title="Опции"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuSettings]
+Title="Установки"
+ButtonNames[0]="Клавиатура/Мышь"
+ButtonNames[1]="Управление"
+ButtonNames[2]="Опции игры"
+ButtonNames[3]="Экран"
+ButtonNames[4]="Цвета"
+ButtonNames[5]="Звук"
+ButtonNames[6]="Предыдущее меню"
+
+[AmmoEMPGrenade]
+beltDescription="Э/М ГРАН"
+
+[AmmoGasGrenade]
+beltDescription="ГАЗ ГРАН"
+
+[AmmoNanoVirusGrenade]
+beltDescription="КОД ГРАН"
+
+[Pigeon]
+FamiliarName="Голубь"
+UnfamiliarName="Голубь"
+
+[AugHeartLung]
+AugmentationName="Синтетическое сердце"
+Description="Это синтетическое сердце не только ускоряет циркуляцию  крови, но и повышает энергозаряд ячеек приращений, улучшает фагоциты и липосомы, добавляя к ним искусственные антитела, в результате возрастает эффективность всех установленных приращений|n|n<UNATCO OPS FILE NOTE JR133-VIOLET> Однако, не улучшит приращение, которое уже улучшено до предела. -- Джейми Рэйес <КОНЕЦ ЗАПИСИ>|n|nУЛУЧШЕНИЕ НЕВОЗМОЖНО"
+
+[Seagull]
+FamiliarName="Чайка"
+UnfamiliarName="Чайка"
+
+[AugPower]
+AugmentationName="Рециркулятор энергии"
+Description="Понижает потребление энергии для всех приращений с помощью полианиленовых цепей, включенных прямо в клеточные мембраны, что позволяет нанитовым частицам приращений электронно сообщаться, не покидая занимаемых клеток.|n|nУРОВЕНЬ 1: Энергопотребление снижено слегка.|n|nУРОВЕНЬ 2: Энергопотребление снижено средне.|n|nУРОВЕНЬ 3: Энергопотребление снижено сильно.|n|nУРОВЕНЬ 4: Энергопотребление снижено до предела."
+MPInfo="Снижает затраты энергии остальных приращений.  Включается автоматически при необходимости.  Потребление энергии: Нет"
+
+[BarrelAmbrosia]
+ItemName="Контейнер для хранения Амброзии"
+
+[Tumbleweed]
+ItemName="Сорняк"
+
+[WeaponGEPGun]
+ItemName="Ракетница (GEP)"
+ItemArticle=" "
+Description="Ракетница (GEP) - сравнительно недавнее изобретение вооруженных сил: портативная, наплечная пусковая установка, способная запускать ракеты с лазерной наводкой, наводящей их в цель с большой точностью. Эффективна в чрезвычайных боевых ситуациях, может показаться громоздкой для агентов плохо с ней знакомых."
+beltDescription="РАКЕТНИЦА"
+ShortName="GEP Gun"
+
+[WeaponLAW]
+ItemName="Легкое Противотанковое Оружие(LAW)"
+ItemArticle=" "
+Description="Дешевая ракетная бронебойная одноразовая система, стреляющая ракетами с автонаводкой, вместо использования дорогостоящей лазерной наводки. Как и прочее тяжелое оружие, замедляет движение агентов, не прошедших экстенсивную тренировку"
+beltDescription="LAW"
+
+[WeaponPepperGun]
+ItemName="Перцовка"
+ItemArticle=" "
+Description="Может заряжаться множеством доступных боевых аэрозолей, упакованых в картриджи, и выстреливать их на небольшое расстояние, распространяя частицы, вызывающие временную слепоту или волдыри."
+beltDescription="ПЕРЕЦ"
+
+[WeaponNanoSword]
+ItemName="Меч Зуб Дракона"
+ItemArticle=" "
+Description="Настоящее оружие современного воина, хотя Зуб Дракона не является мечом в обычном понимании, но нанотехнологии позволили создать лезвие не только не ломающееся, но и смертельно острое."
+beltDescription="ДРАКОН"
+
+[MenuChoice_UIBackground]
+helpText="Определяет, что будет показываться под меню и 2D экранами.  3D-рендер хорош для быстрых машин,  затем Снапшот, затем Черный."
+actionText="|&Фон UI/Меню"
+enumText[0]="3D-рендер"
+enumText[1]="Снапшот"
+enumText[2]="Черный"
+
+[MenuChoice_HeadBob]
+helpText="Включает легкое покачивание вверх и вниз при ходьбе."
+actionText="|&Покачивание"
+
+[Male1]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[Ammo20mm]
+ItemName="20-мм разрывные гранаты"
+ItemArticle=" "
+Description="20-мм разрывные гранаты дополняют стандартное оснащение штурмовой винтовки 7.62x51мм, позволяя зачищать небольшие помещения, окопы, мертвые зоны за углами с помощью подствольного гранатомета."
+beltDescription="20MM ГРАН"
+
+[AmmoRocketWP]
+ItemName="Ракеты БФ"
+Description="Бело-фосфорная ракета, или *wooly peter*, была разработана как дополнение к ракетнице (GEP). После детонации происходит слабый взрыв, высвобождающий облако особого белого фосфора, который при соприкосновении с воздухом немедленно воспламеняется."
+beltDescription="РАКЕТА БФ"
+
+[AugHealing]
+AugmentationName="Регенерация"
+Description="Программируемые ферменты, *полимеразы*,  управляют созданием протеинов в поврежденных клетках, восстанавливая полное здоровье агента со временем.|n|nУРОВЕНЬ 1: Оздоровление нормальное.|n|nУРОВЕНЬ 2: Оздоровление слегка ускоренное.|n|nУРОВЕНЬ 3: Оздоровление довольно быстрое.|n|nУРОВЕНЬ 4: Оздоровление очень быстрое."
+MPInfo="Когда активно, вы лечитесь, но недостаточно быстро для восстановления в бою.  Потребление энергии: Высокое"
+
+[AugVision]
+AugmentationName="Улучшенное зрение"
+Description="Отбеливая палочки-фоторецепторы глаза и насыщая их метародопсином XII, имитируется 'ночное видение', присущее, в основном, ночным животным. Дальнейшие улучшения добавляют инфравидение и сонарно-резонансное восприятие, что позволяет агенту эффективно видеть сквозь стены.|n|nУРОВЕНЬ 1: Ночное видение.|n|nУРОВЕНЬ 2: Инфравидение.|n|nУРОВЕНЬ 3: Сонарное восприятие на близком расстоянии.|n|nУРОВЕНЬ 4: Дальнее сонарное восприятие."
+MPInfo="Когда активно, вы можете видеть врагов в темноте на большом расстоянии, а вблизи вы можете смотреть сквозь стены и видеть игроков в состоянии невидимости.  Потребление энергии: Среднее"
+
+[WeaponBaton]
+ItemName="Полицейская дубинка"
+ItemArticle=" "
+Description="Выглядящая внушительно, эта дубинка обычно используется полицией и охранными силами для противодействия сопротивлению граждан."
+beltDescription="ДУБИНКА"
+
+[WeaponHideAGun]
+ItemName="PS20"
+ItemArticle=" "
+Description="PS20 – это однозарядный плазменный пистолет, разработанный неизвестной охранной организацией в качестве пистолета-невидимки нового поколения. К сожалению, его компактный размер позволяет сделать лишь один выстрел. Но несмотря на такое ограничение, выстрел из PS20 с близкого расстояния смертелен."
+beltDescription="PS20"
+
+[WeaponRifle]
+ItemName="Снайперская винтовка"
+ItemArticle=" "
+Description="Военная снайперская винтовка - это превосходный инструмент для устранения далеко расположенных целей. Если ее зарядить патронами калибра 30.06, в зависимости от условий окружающей среды, снайпер может достигнуть кучности стрельбы менее чем 1 угловая минута."
+beltDescription="СНАЙПЕРКА"
+
+[HangingShopLight]
+ItemName="Флюоресцентный свет"
+
+[GordonQuick]
+FamiliarName="Гордон Квик"
+UnfamiliarName="Гордон Квик"
+
+[ChildMale]
+FamiliarName="Ребенок"
+UnfamiliarName="Ребенок"
+
+[HKBuddha]
+ItemName="Статуя Будды"
+
+[HKBirdcage]
+ItemName="Клетка"
+
+[Cop]
+FamiliarName="Полицейский"
+UnfamiliarName="Полицейский"
+
+[CrateBreakableMedGeneral]
+ItemName="Ящик со снаряжением"
+
+[Chef]
+FamiliarName="Шеф-повар"
+UnfamiliarName="Шеф-повар"
+
+[CrateBreakableMedMedical]
+ItemName="Ящик с медикаментами"
+
+[HKCouch]
+ItemName="Скамья"
+
+[Chandelier]
+ItemName="Канделябр"
+
+[Flowers]
+ItemName="Цветы"
+
+[CrateExplosiveSmall]
+ItemName="Ящик тротила"
+
+[CrateUnbreakableLarge]
+ItemName="Железный ящик"
+
+[CrateUnbreakableMed]
+ItemName="Железный ящик"
+
+[Flask]
+ItemName="Пробирка"
+
+[HKHangingLantern]
+ItemName="Бумажная лампа"
+
+[Chair1]
+ItemName="Стул"
+
+[Chad]
+FamiliarName="Чэд"
+UnfamiliarName="Чэд"
+
+[ChildMale2]
+FamiliarName="Ребенок"
+UnfamiliarName="Ребенок"
+
+[CrateUnbreakableSmall]
+ItemName="Железный ящик"
+
+[HKMarketLight]
+ItemName="Подвесной светильник"
+
+[HKMarketTable]
+ItemName="Стол"
+
+[Doberman]
+FamiliarName="Доберман"
+UnfamiliarName="Доберман"
+
+[Cushion]
+ItemName="Большая подушка"
+
+[GilbertRenton]
+FamiliarName="Гилберт Рентон"
+UnfamiliarName="Гилберт Рентон"
+
+[ComputerPersonal]
+ItemName="Персональный Компьютерный Терминал"
+
+[HKChair]
+ItemName="Стул"
+
+[Butler]
+FamiliarName="Дворецкий"
+UnfamiliarName="Дворецкий"
+
+[Businesswoman1]
+FamiliarName="Деловая женщина"
+UnfamiliarName="Деловая женщина"
+
+[Businessman3]
+FamiliarName="Бизнесмен"
+UnfamiliarName="Бизнесмен"
+
+[DataCube]
+ItemName="Датакуб"
+
+[Businessman2]
+FamiliarName="Бизнесмен"
+UnfamiliarName="Бизнесмен"
+
+[HKTable]
+ItemName="Стол"
+
+[HKTukTuk]
+ItemName="Тук-тук"
+
+[BobPageAugmented]
+ItemName="Приращенный Боб Пейдж"
+
+[Businessman1]
+FamiliarName="Бизнесмен"
+UnfamiliarName="Бизнесмен"
+
+[Hooker1]
+FamiliarName="Проститутка"
+UnfamiliarName="Проститутка"
+
+[CrateBreakableMedCombat]
+ItemName="Ящик с боеприпасами"
+
+[BumMale3]
+FamiliarName="Бродяга"
+UnfamiliarName="Бродяга"
+
+[Hooker2]
+FamiliarName="Проститутка"
+UnfamiliarName="Проститутка"
+
+[BumMale2]
+FamiliarName="Старый бомж"
+UnfamiliarName="Старый бомж"
+
+[BumFemale]
+FamiliarName="Бомжиха"
+UnfamiliarName="Бомжиха"
+
+[BoxSmall]
+ItemName="Картонный ящик"
+
+[DentonClone]
+ItemName="Клон JC Дентона"
+
+[BoxMedium]
+ItemName="Картонный ящик"
+
+[BoxLarge]
+ItemName="Картонный ящик"
+
+[BookClosed]
+ItemName="Книга"
+
+[BoneSkull]
+ItemName="Череп человека"
+
+[BoneFemur]
+ItemName="Человеческое бедро"
+
+[HarleyFilben]
+FamiliarName="Харли Филбен"
+UnfamiliarName="Харли Филбен"
+
+[WHTableBlue]
+ItemName="Стол"
+
+[WHRedVase]
+ItemName="Ваза"
+
+[WHRedOvalTable]
+ItemName="Стол"
+
+[WHRedLampTable]
+ItemName="Стол"
+
+[WHRedEagleTable]
+ItemName="Стол"
+
+[WHRedCouch]
+ItemName="Кушетка"
+
+[WHRedCandleabra]
+ItemName="Канделябр"
+
+[WHPiano]
+ItemName="Рояль"
+
+[WHPhone]
+ItemName="Телефон"
+
+[WHFireplaceLog]
+ItemName="Полено"
+
+[WHFireplaceGrill]
+ItemName="Решетка камина"
+
+[WHEndtableLibrary]
+ItemName="Стол"
+
+[WHDeskOvalOffice]
+ItemName="Стол"
+
+[BoatPerson]
+FamiliarName="Лодочник"
+UnfamiliarName="Лодочник"
+
+[WHDeskLibrarySmall]
+ItemName="Стол"
+
+[WHChairOvalOffice]
+ItemName="Кожаное кресло"
+
+[WHChairDining]
+ItemName="Стул"
+
+[WHCabinet]
+ItemName="Кабинет"
+
+[WHBookstandLibrary]
+ItemName="Книжный шкаф"
+
+[WHBenchLibrary]
+ItemName="Скамья"
+
+[WHBenchEast]
+ItemName="Скамья"
+
+[Basket]
+ItemName="Плетеная корзина"
+
+[Vase2]
+ItemName="Ваза"
+
+[Vase1]
+ItemName="Ваза"
+
+[Van]
+ItemName="Черный фургон"
+
+[Bartender]
+FamiliarName="Бармен"
+UnfamiliarName="Бармен"
+
+[Trophy]
+ItemName="Призовой кубок"
+
+[TriadLumPath2]
+FamiliarName="Лидер Триады"
+UnfamiliarName="Лидер Триады"
+
+[BarrelVirus]
+ItemName="Контейнер для нановируса"
+
+[TrashCan4]
+ItemName="Мусорный ящик"
+
+[TrashCan3]
+ItemName="Мусорный ящик"
+
+[Trashcan2]
+ItemName="Корзина для мусора"
+
+[TrashCan1]
+ItemName="Урна для мусора"
+
+[Trashbag2]
+ItemName="Мешок с мусором"
+
+[Trashbag]
+ItemName="Мешок с мусором"
+
+[TrafficLight]
+ItemName="Светофор"
+
+[TiffanySavage]
+FamiliarName="Тиффани Сэведж"
+UnfamiliarName="Тиффани Сэведж"
+
+[ThugMale3]
+FamiliarName="Убийца"
+UnfamiliarName="Убийца"
+
+[SubwayControlPanel]
+ItemName="Панель управления метро"
+
+[Soldier]
+FamiliarName="Солдат"
+UnfamiliarName="Солдат"
+
+[Smuggler]
+FamiliarName="Контрабандист"
+UnfamiliarName="Контрабандист"
+
+[SignFloor]
+ItemName="Знак предупреждения"
+
+[ShopLight]
+ItemName="Флюоресцентный свет"
+
+[SecurityBot4]
+FamiliarName="Охранный бот"
+UnfamiliarName="Охранный бот"
+
+[SecretService]
+FamiliarName="Агент Секретной Службы"
+UnfamiliarName="Агент Секретной Службы"
+
+[Secretary]
+FamiliarName="Секретарь"
+UnfamiliarName="Секретарь"
+
+[ScientistMale]
+FamiliarName="Ученый"
+UnfamiliarName="Ученый"
+
+[ScientistFemale]
+FamiliarName="Ученый"
+UnfamiliarName="Ученый"
+
+[SarahMead]
+FamiliarName="Сара Мид"
+UnfamiliarName="Сара Мид"
+
+[SamCarter]
+FamiliarName="Сэм Картер"
+UnfamiliarName="Сэм Картер"
+
+[Sailor]
+FamiliarName="Моряк"
+UnfamiliarName="Моряк"
+
+[RoadBlock]
+ItemName="Бетонная баррикада"
+
+[RachelMead]
+FamiliarName="Рэйчел Мид"
+UnfamiliarName="Рэйчел Мид"
+
+[Pot2]
+ItemName="Глиняный горшок"
+
+[Pot1]
+ItemName="Глиняный горшок"
+
+[PoolTableLight]
+ItemName="Светильник"
+
+[Plant3]
+ItemName="Комнатное растение"
+
+[Plant2]
+ItemName="Комнатное растение"
+
+[Plant1]
+ItemName="Комнатное растение"
+
+[Pinball]
+ItemName="Игральный автомат"
+
+[Pillow]
+ItemName="Подушка"
+
+[PhilipMead]
+FamiliarName="Филип Мид"
+UnfamiliarName="Филип Мид"
+
+[Mutt]
+FamiliarName="Пес"
+UnfamiliarName="Пес"
+
+[Fan1Vertical]
+ItemName="Вентилятор"
+
+[Fan2]
+ItemName="Вентилятор"
+
+[Pan4]
+ItemName="Кастрюля"
+
+[Pan3]
+ItemName="Сковорода"
+
+[Pan2]
+ItemName="Кастрюля"
+
+[Pan1]
+ItemName="Сковорода"
+
+[NYPoliceBoat]
+ItemName="Полицейская лодка"
+UnfamiliarName="Рулевой лодки UNATCO"
+
+[Nurse]
+FamiliarName="Медсестра"
+UnfamiliarName="Медсестра"
+
+[NewspaperOpen]
+ItemName="Газета"
+
+[Newspaper]
+ItemName="Газета"
+
+[NathanMadison]
+FamiliarName="Натан Мэдисон"
+UnfamiliarName="Натан Мэдисон"
+
+[Microscope]
+ItemName="Микроскоп"
+
+[MichaelHamner]
+FamiliarName="Михаэль Хамнер"
+UnfamiliarName="Михаэль Хамнер"
+
+[Janitor]
+FamiliarName="Привратник"
+UnfamiliarName="Привратник"
+
+[Jock]
+FamiliarName="Джок"
+UnfamiliarName="Джок"
+
+[JoeGreene]
+FamiliarName="Джо Грин"
+UnfamiliarName="Джо Грин"
+
+[JoJoFine]
+FamiliarName="ДжоДжо Файн"
+UnfamiliarName="ДжоДжо Файн"
+
+[JordanShea]
+FamiliarName="Джордан Ши"
+UnfamiliarName="Джордан Ши"
+
+[MenuChoice_AdjustColors]
+helpText="Позволяет настроить цвета в МЕНЮ и игровых HUD экранах."
+actionText="Коррекция цвета..."
+
+[JosephManderley]
+FamiliarName="Джозеф Мандерли"
+UnfamiliarName="Джозеф Мандерли"
+
+[Mechanic]
+FamiliarName="Механик"
+UnfamiliarName="Механик"
+
+[MaxChen]
+FamiliarName="Макс Чен"
+UnfamiliarName="Макс Чен"
+
+[MargaretWilliams]
+FamiliarName="Маргарэт Вильямс"
+UnfamiliarName="Маргарэт Вильямс"
+
+[AIPrototype]
+ItemName="Прототип искусственного интеллекта"
+
+[Mailbox]
+ItemName="Почтовый ящик"
+
+[Maid]
+FamiliarName="Служанка"
+UnfamiliarName="Служанка"
+
+[MaggieChow]
+FamiliarName="Мэгги Чоу"
+UnfamiliarName="Мэгги Чоу"
+
+[LuciusDeBeers]
+ItemName="Люциус Де Бирс в камере жизнеобеспечения"
+
+[LowerClassMale2]
+FamiliarName="Низший класс"
+UnfamiliarName="Низший класс"
+
+[LowerClassMale]
+FamiliarName="Низший класс"
+UnfamiliarName="Низший класс"
+
+[Lightbulb]
+ItemName="Лампочка"
+
+[Lamp3]
+ItemName="Настольная лампа"
+
+[Lamp2]
+ItemName="Галогенная лампа"
+
+[Lamp1]
+ItemName="Настольная лампа"
+
+[JuanLebedev]
+FamiliarName="Хуан Лебедев"
+UnfamiliarName="Хуан Лебедев"
+
+[KarkianBaby]
+FamiliarName="Малыш Каркиан"
+UnfamiliarName="Малыш Каркиан"
+
+[JunkieMale]
+FamiliarName="Наркоман"
+UnfamiliarName="Наркоман"
+
+[JunkieFemale]
+FamiliarName="Наркоманка"
+UnfamiliarName="Наркоманка"
+
+[JCDouble]
+FamiliarName="JC Дентон"
+UnfamiliarName="JC Дентон"
+
+[SkillWeaponLowTech]
+SkillName="Оружие: Холодное"
+Description="Использование оружия ближнего боя, такого как ножи, метательные ножи, мечи, слезоточивое оружие и дубинки.|n|nНЕТРЕНИРОВАННЫЙ: Агент может использовать оружие ближнего боя.|n|nТРЕНИРОВАННЫЙ: Точность, наносимый урон и скорость атаки незначительно повышаются.|n|nОПЫТНЫЙ: Точность, наносимый урон и скорость атаки повышаются средне.|n|nМАСТЕР: Агент может отключить или убить большинство противников одним ударом."
+
+[SkillEnviro]
+SkillName="Тренировка на выживание"
+Description="Опыт работы с защитными костюмами, баллистической броней, термооптическим камуфляжем и аквалангами в опасных ситуациях.|n|nНЕТРЕНИРОВАННЫЙ: Агент может пользоваться костюмами, броней, камуфляжем и аквалангами.|n|nТРЕНИРОВАННЫЙ: Броня, костюм, камуфляж и акваланги могут использоваться чуть дольше и более эффективно.|n|nОПЫТНЫЙ: Броня, костюм, камуфляж и акваланги могут использоваться еще дольше и еще более эффективно.|n|nМАСТЕР: Агент носит костюмы и броню словно вторую кожу."
+
+[SkillWeaponRifle]
+SkillName="Оружие: Винтовка"
+Description="Использование винтовок, включая штурмовые, снайперские винтовки и ружья.|n|nНЕТРЕНИРОВАННЫЙ: Агент может использовать винтовки.|n|nТРЕНИРОВАННЫЙ: Точность и наносимый урон повышаются незначительно, тогда как перезарядка ускоряется.|n|nОПЫТНЫЙ: Точность и наносимый урон повышаются средне, перезарядка еще более ускоряется.|n|nМАСТЕР: Агент может поразить цель на расстоянии в одну милю с одного выстрела."
+
+[SkillDemolition]
+SkillName="Оружие: Подрывное"
+Description="Использование метательных взрывчатых устройств, включая LAM, газовые и электромагнитные гранаты, а также электронные кодовые гранаты.|n|nНЕТРЕНИРОВАННЫЙ: Агент умеет метать гранаты, прикреплять их к поверхности как мины-ловушки или может попытаться разминировать и снять ранее установленное устройство.|n|nТРЕНИРОВАННЫЙ: Наносимый урон, точность метания и расстояние для безопасного разминирования мины-ловушки незначительно повышаются.|n|nОПЫТНЫЙ: Наносимый урон, точность метания и расстояние для безопасного разминирования мины-ловушки повышаются средне.|n|nМАСТЕР: Агент становится экспертом подрывного дела."
+
+[SkillWeaponPistol]
+SkillName="Оружие: Пистолет"
+Description="Использование одноручного оружия, включая стандартный 10-мм пистолет, его бесшумный вариант и миниарбалет.|n|nНЕТРЕНИРОВАННЫЙ: Агент может пользоваться пистолетами.|n|nТРЕНИРОВАННЫЙ: Точность и наносимый урон повышаются незначительно, перезарядка ускоряется.|n|nОПЫТНЫЙ: Точность и наносимый урон повышаются средне, перезарядка еще более ускоряется.|n|nМАСТЕР: Агент с пистолетами становится смертельно опасным."
+
+[SkillWeaponHeavy]
+SkillName="Оружие: Тяжелое"
+Description="Использование тяжелого вооружения, включая огнеметы, LAW, экспериментальные плазменные пушки и ракетницы (GEP).|n|nНЕТРЕНИРОВАННЫЙ: Агент может использовать тяжелое вооружение, но его точность невелика, а передвижение затруднено.|n|nТРЕНИРОВАННЫЙ: Точность и ущерб незначительно повышаются, перезарядка и передвижение становятся несколько быстрее.|n|nОПЫТНЫЙ: Точность и ущерб повышаются средне, перезарядка и передвижение становятся еще быстрее.|n|nМАСТЕР: Агент - ходячий танк, когда он с тяжелым вооружением."
+
+[SkillSwimming]
+SkillName="Плавание"
+Description="Подводные операции требуют от агента уникального набора навыков, которые нужно целеустремленно развивать.|n|nНЕТРЕНИРОВАННЫЙ: Агент обладает первичными навыками плавания.|n|nТРЕНИРОВАННЫЙ: Скорость плавания и объем легких агента незначительно повышаются.|n|nОПЫТНЫЙ: Скорость плавания и объем легких агента повышаются средне.|n|nМАСТЕР: Агент плавает под водой как дельфин."
+
+[SkillComputer]
+SkillName="Компьютер"
+Description="Скрытное управление компьютерами и консолями безопасности.|n|nНЕТРЕНИРОВАННЫЙ: Агент может использовать терминалы для чтения новостей и объявлений.|n|nТРЕНИРОВАННЫЙ: Агент умеет взламывать банкоматы, компьютеры и консоли безопасности.|n|nОПЫТНЫЙ: Агент достигает приемлемого времени обнаружения, и при этом умеренно уменьшается время взлома. Также он получает возможность управлять автоматическими турелями.|n|nМАСТЕР: Агент становится элитным хакером, против которого устоят считанные системы."
+
+[SkillTech]
+SkillName="Электроника"
+Description="Изучая электронику и ее практическое применение, агенты смогут эффективнее отключать большинство систем безопасности при помощи мультиинструментов.|n|nНЕТРЕНИРОВАННЫЙ: Агент может отключать системы безопасности.|n|nТРЕНИРОВАННЫЙ: Эффективность, с которой агент отключает системы безопасности, немного повышается.|n|nОПЫТНЫЙ: Эффективность, с которой агент отключает системы безопасности, повышается средне.|n|nМАСТЕР: Перед агентом не устоит практически ни одна система безопасности."
+MultitoolString="Электроника"
+
+[SkillLockpicking]
+SkillName="Взлом замков"
+Description="Взлом замков - это скорее искусство чем навык, однако при упорной учебе им может овладеть любой агент, обладающий терпением и набором отмычек.|n|nНЕТРЕНИРОВАННЫЙ: Агент может взламывать замки.|n|nТРЕНИРОВАННЫЙ: Эффективность взлома замков агентом незначительно повышается.|n|nОПЫТНЫЙ: Эффективность взлома замков агентом повышается средне.|n|nМАСТЕР: Агент может открыть практически любой механический замок."
+
+[SkillMedicine]
+SkillName="Медицина"
+Description="Практическое знание человеческой физиологии может быть применено агентом в бою, позволяя эффективно использовать аптечки.|n|nНЕТРЕНИРОВАННЫЙ: Агент может использовать аптечки.|n|nТРЕНИРОВАННЫЙ: Агент может излечивать чуть больше повреждений и уменьшить время заражения токсинами.|n|nОПЫТНЫЙ: Агент может излечивать значительные повреждения и намного уменьшить время заражения токсинами.|n|nМАСТЕР: Агент сможет симулировать работу сердца с помощью подручных материалов."
+
+[Image12_Tiffany_HostagePic]
+imageDescription="Тиффани в плену"
+
+[Image15_Area51_Sector4]
+imageDescription="Зона 51 сектор 4"
+
+[Image15_BlueFusionDevice]
+imageDescription="Устройство голубого синтеза"
+
+[Image15_Area51_Sector3]
+imageDescription="Зона 51 сектор 3"
+
+[Image03_WaltonSimons]
+imageDescription="Уолтон Саймонс"
+
+[Image02_BobPage_ManOfYear]
+imageDescription="Журнал Millenium"
+
+[Image15_GrayDisection]
+imageDescription="Разрез Серого"
+
+[Image15_Area51Bunker]
+imageDescription="Зона 51 Бункер"
+
+[Image14_Schematic]
+imageDescription="Компонент универсального конструктора"
+
+[Image14_OceanLab]
+imageDescription="Океаническая лаборатория"
+
+[Image12_Vandenberg_Sub]
+imageDescription="База Ванденберг"
+
+[Image12_Vandenberg_Command]
+imageDescription="Ванденберг. Коммандный комплекс"
+
+[Image11_Paris_CathedralEntrance]
+imageDescription="Вход в Кафедральный собор"
+
+[Image11_Paris_Cathedral]
+imageDescription="Кафедральный собор в Париже"
+
+[Image10_Paris_Metro]
+imageDescription="Карта метро Парижа"
+
+[Image10_Paris_CatacombsTunnels]
+imageDescription="Катакомбы Парижа - Туннели"
+
+[Image10_Paris_Catacombs]
+imageDescription="Катакомбы Парижа"
+
+[Image09_NYC_Ship_Top]
+imageDescription="PCRS Wall Cloud: Верхние палубы"
+
+[Image09_NYC_Ship_Bottom]
+imageDescription="PCRS Wall Cloud: Нижние палубы"
+
+[Image08_JoeGreenMIBMJ12]
+imageDescription="Джо Грин MIB MJ12"
+
+[Image06_HK_WanChai]
+imageDescription="Гонконг, район Ван Чай"
+
+[Image06_HK_Versalife]
+imageDescription="Здание VersaLife"
+
+[Image06_HK_MJ12Lab]
+imageDescription="Лаборатория MJ12"
+
+[Image06_HK_MJ12Helipad]
+imageDescription="Вертолетная площадка MJ12"
+
+[Image06_HK_Market]
+imageDescription="Рынок Гонконга"
+
+[Image05_NYC_MJ12Lab]
+imageDescription="Лаборатория MJ12"
+
+[Image05_GreaselDisection]
+imageDescription="Разрез Гризла"
+
+[Image04_UNATCONotice]
+imageDescription="UNATCO Notice"
+
+[Image04_NSFHeadquarters]
+imageDescription="Штабквартира NSF"
+
+[Image03_NYC_Airfield]
+imageDescription="NYC Воздушная база"
+
+[Image03_747Diagram]
+imageDescription="Схема 747-го"
+
+[Image02_NYC_Warehouse]
+imageDescription="Склады Нью-Йорка"
+
+[Image02_Ambrosia_Flyer]
+imageDescription="Амброзия"
+
+[Image01_TerroristCommander]
+imageDescription="Командир террористов"
+
+[Image01_LibertyIsland]
+imageDescription="Фотография о.Свободы со спутника"
+
+[Image01_GunFireSensor]
+imageDescription="Сенсор стрельбы"
+
+[ChargedPickup]
+ChargeRemainingLabel="Осталось заряда:"
+
+[MenuChoice_OnOff]
+enumText[0]="Выкл"
+enumText[1]="Вкл"
+
+[MenuChoice_EnabledDisabled]
+enumText[0]="Разрешено"
+enumText[1]="Запрещено"
+
+[MenuChoice_LowMedHigh]
+enumText[0]="Низкая"
+enumText[1]="Средняя"
+enumText[2]="Высокая"
+
+[MenuChoice_VisibleHidden]
+enumText[0]="Виден"
+enumText[1]="Не виден"
+
+[MissionEndgame]
+endgameQuote[0]="ВЧЕРА МЫ ПОВИНОВАЛИСЬ КОРОЛЯМ И ПРЕКЛОНЯЛИ КОЛЕНИ ПРЕД ИМПЕРАТОРАМИ. НО СЕГОДНЯ МЫ СКЛОНЯЕМСЯ ТОЛЬКО К ИСТИНЕ..."
+endgameQuote[1]="    -- КАЛИЛ ГИБРАН"
+endgameQuote[2]="ЕСЛИ БЫ БОГА НЕ БЫЛО, ЕГО НАДО БЫЛО БЫ ВЫДУМАТЬ."
+endgameQuote[3]="    -- ВОЛЬТЕР"
+endgameQuote[4]="ЛУЧШЕ ПРАВИТЬ В АДУ, ЧЕМ ПРИСЛУЖИВАТЬ В РАЮ."
+endgameQuote[5]="    -- ПОТЕРЯННЫЙ РАЙ, ДЖОН МИЛТОН"
+
+[deusexserverping]
+AdminEmailText="E-mail админа"
+AdminNameText="Имя админа"
+ChangeLevelsText="Поменять карты"
+MultiplayerBotsText="Боты в сетевой игре"
+FragLimitText="Лимит фрагов"
+TimeLimitText="Лимит времени"
+GameModeText="Режим игры"
+GameTypeText="Тип игры"
+GameVersionText="Версия игры"
+WorldLogText="ngWorldStats"
+MutatorsText="Мутаторы"
+TrueString="Включено"
+FalseString="Выключено"
+ServerAddressText="Адрес Сервера"
+GoalTeamScoreText="Необходимые Командные Очки"
+MinPlayersText="Боты входят в игру для минимум"
+PlayersText="Игроки"
+MaxTeamsText="Макс. Команд"
+BalanceTeamsText="Боты уравновешивают команды"
+PlayersBalanceTeamsText="Включить баланс команд"
+FriendlyFireText="Ущерб от огня по своим"
+MinNetVersionText="Мин. совместимая версия"
+BotSkillText="Уровень мастерства ботов"
+TournamentText="Режим Турнира"
+ServerModeText="Режим Сервера"
+DedicatedText="Выделенный"
+NonDedicatedText="Невыделенный"
+WorldLogWorkingText="Статус ngWorldStats"
+WorldLogWorkingTrue="Обработка статистики корректна"
+WorldLogWorkingFalse="Обработка статистики не корректна"
+StartingSkillsText="Начальные очки умений"
+SkillsPerKillText="Очков умений за убийство"
+StartingAugsText="Начальное кол-во приращений"
+AugsPerKillText="Приращений за убийство"
+AugsAllowedText="Приращения"
+TargetKillsText="Лимит фрагов"
+TargetTimeText="Лимит времени(минуты)"
+
+[DeusExMPGame]
+TooManyPlayers="Слишком много игроков"
+StreakString="Серия убийств"
+KillsString="Убийства"
+DeathsString="Смерти"
+PlayerString="Игрок"
+NewMapSecondsString=" секунд до новой карты."
+WonMatchString=" - победитель!"
+PingString="Пинг"
+EscapeString="Нажмите <Escape>, чтобы отсоединиться."
+MatchEnd1String="Матч закончен "
+MatchEnd2String=", убившим "
+TeamNsfString="Команда NSF"
+TeamUnatcoString="Команда Unatco"
+TeamDrawString="Матч сыгран вничью!"
+
+[teamdmgame]
+EnemiesString="Враги"
+AlliesString="Союзники"
+VictoryConString1="Цель: Первая команда, достигшая "
+VictoryConString2=" убийств, выигрывает матч."
+TimeLimitString1="Цель: Сделайте как можно больше убийств, пока время ( "
+TimeLimitString2=" ) не закончится!"
+TeamScoreString=" Очки команды:"
+
+[ThrownProjectile]
+ItemName="ERROR ThrownProjectile Default-Report as bug!"
+ItemArticle="~"
+
+[MultiplayerMessageWin]
+KilledByString="Вас убил "
+WereKilledString="Вы были убиты."
+KilledYourselfString="Вы - самоубийца!"
+FireToContinueMsg="Нажмите <Огонь>, чтобы снова войти в игру."
+ActiveAugsString="Активных приращений: "
+WeaponString="Текущее оружие: "
+RelevantSkillString="Важное умение: "
+LevelString="Уровень умений: "
+FinalBlowString="Последний урон на "
+ToTheString=" пунктов нанес вам "
+RemHealthString="В момент вашей смерти, "
+RemHealth2String=" было здоровья: "
+RemEnergyString=" и "
+RemEnergy2String=" пунктов биоэнергии осталось."
+HealthHeadString=" Голова: "
+HealthMidString="  Туловище: "
+HealthLowString="  Ноги: "
+StreakString=" продолжил серию убийств до "
+Detail1String="Нажмите <"
+Detail2String="> для деталей."
+KeyNotBoundString="Клавиша не назначена"
+VSString="против"
+
+[menuscreenjoingame]
+HeaderIPWindowLabel="IP-адрес"
+HostButtonName="Хост Игры"
+JoinButtonName="Войти в игру"
+RefreshButtonName="Обновить"
+HostButtonHelpText="Создать сетевую игру"
+JoinButtonHelpText="Присоединиться к выделенной игре"
+RefreshButtonHelpText="Обновить список серверов"
+strHostNameLabel="Имя Хоста"
+strMapNameLabel="Карта"
+strGameTypeLabel="Тип игры"
+strNumPlayersLabel="Игроки"
+strPingLabel="Пинг"
+GameTypeOneLabel="Показать игры по Дезматчу"
+GameTypeTwoLabel="Показать игры по Командному Дезматчу"
+ShowAllGameTypesLabel="Показать все игры"
+GameHumanNames[0]="Дезматч"
+GameHumanNames[1]="Командный Дезматч"
+GameHumanNames[2]="Опытн. Командный DM"
+GameHumanNames[3]="Осн. Командный DM"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+Title="Начать сетевую игру"
+
+[HUDMultiSkills]
+ToExitString=">, чтобы выйти."
+SkillsAvailableString="Умения доступны!"
+PressString="Нажмите <"
+PressEndString=">"
+SkillPointsString="Очки умений: "
+skillString="Умение"
+CostString="Стоимость"
+NAString="МАКС"
+LevelString="Уровень"
+KeyNotBoundString="Клавиша не назначена"
+
+[menuscreenaugsetup]
+HeaderAugChosenLabel="Приоритет приращений"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_OK)"
+Title="Настройка приращений в сетевой игре"
+
+[dxmaplist]
+CycleNames[0]="Повторить карту"
+CycleNames[1]="Случайная карта"
+CycleNames[2]="Играть карты по кругу"
+
+[HECannister20mm]
+ItemName="20-мм разрывные гранаты"
+ItemArticle=" "
+
+[PlasmaBolt]
+ItemName="Заряд Плазмы"
+ItemArticle=" "
+
+[Rocket]
+ItemName="GEP Ракета"
+ItemArticle=" "
+
+[menuscreenjoininternet]
+Title="Начать игру через Интернет"
+
+[menuscreenhostgame]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_Other,Text="Начать игру",Key="BEGINHOST")"
+Title="Создать сетевую игру"
+
+[Cloud]
+ItemName="Облако Газа"
+ItemArticle=" "
+
+[deusexgspylink]
+ResolveFailedError="Мастер-сервер не может быть найден: "
+TimeOutError="Время ожидания ответа мастер-сервера истекло"
+CouldNotConnectError="Соединение с мастер-сервером разорвано: "
+
+[RocketWP]
+ItemName="WP Ракета"
+
+[menuchoice_victoryvalue]
+TimeLimitActionText="Лимит времени(минуты)"
+FragLimitActionText="Лимит убийств"
+TimeLimitHelpText="Минут до конца игры"
+FragLimitHelpText="Убийств для выигрыша"
+actionText=" "
+configSetting="DeusExMPGame ScoreToWin"
+
+[menuscreenjoinlan]
+Title="Начать игру по локальной сети"
+
+[menuchoice_gametype]
+gameNames[0]="Дезматч"
+gameNames[1]="Командный Дезматч (основной)"
+gameNames[2]="Командный Дезматч (опытный)"
+gameNames[3]="Командный Дезматч (свой)"
+HelpText="Тип сетевой игры"
+actionText="Тип игры"
+configSetting="MenuScreenHostGame CurrentGameType"
+
+[RocketLAW]
+ItemName="Ракета LAW"
+
+[menuchoice_map]
+HelpText="Карта, на которой начнется игра(включая рекомендуемое число игроков для нее)"
+actionText="Карта"
+configSetting="DXMapList MapNum"
+
+[ammocrate]
+AmmoReceived="Запас патронов восполнен"
+ItemName="Ящик с патронами"
+
+[menuscreenplayersetup]
+HeaderPlayerNameLabel="Имя игрока"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_OK)"
+Title="Настройка игрока в сетевой игре"
+
+[Fireball]
+ItemName="Огненный шар"
+ItemArticle=" "
+
+[menuchoice_victorytype]
+VictoryNames[0]="Лимит убийств"
+VictoryNames[1]="Лимит времени"
+HelpText="Определяет, при каких условиях игра заканчивается."
+actionText="Условие победы"
+configSetting="DeusEXMPGame VictoryCondition"
+
+[menuchoice_cycle]
+HelpText="Определяет, как сервер переходит на следующую карту по завершении текущей"
+actionText="Чередование карт"
+configSetting="DXMapList CycleType"
+
+[menuchoice_team]
+TeamNames[0]="UNATCO"
+TeamNames[1]="NSF"
+TeamNames[2]="АВТО"
+HelpText="Выберите команду, в которой будете играть."
+actionText="Командная модель"
+
+[menuchoice_skilllevel]
+LevelNames[0]="Тренированный(1)"
+LevelNames[1]="Опытный(2)"
+LevelNames[2]="Мастер(3)"
+HelpText="Начальный уровень умений игрока: Тренированный, Опытный или Мастер."
+actionText="Начальный уровень умения"
+configSetting="DeusExMPGame MPSkillStartLevel"
+
+[menuchoice_servermode]
+ModeNames[0]="Выделенный"
+ModeNames[1]="Невыделенный"
+HelpText="Тип сервера для запуска.  Выделенные серверы не могут иметь локального игрока, но работают быстрее."
+actionText="Режим Сервера"
+configSetting="MenuScreenHostGame ServerMode"
+
+[menuchoice_class]
+ClassNames[0]="JC Дентон"
+ClassNames[1]="Террорист NSF"
+ClassNames[2]="Солдат UNATCO"
+ClassNames[3]="Агент Маджестик-12"
+HelpText="Модель вашего игрока для некомандных игр."
+actionText="Личная модель"
+
+[menuchoice_connection]
+ConnectionNames[0]="Модем"
+ConnectionNames[1]="DSL или лучше"
+HelpText="Тип интернет-соединения"
+actionText="Тип соединения"
+configSetting="Player ConfiguredInternetSpeed"
+
+[ComputerSecurityChoice_MPCamera]
+enumText[0]="Выкл."
+enumText[1]="Враги"
+enumText[2]="Союзники"
+actionText="|&Статус камеры"
+
+[menuchoice_multihelp]
+HelpText="Показывать ли информацию об игровых правилах во время сетевой игры."
+actionText="Подсказки"
+configSetting="DeusExPlayer bHelpMessages"
+
+[menuchoice_augsallowed]
+HelpText="Устанавливает, получают ли игроки приращения при старте или за убийства."
+actionText="Приращения"
+configSetting="DeusExMPGame bAugsAllowed"
+
+[menumpmain]
+ButtonNames[0]="Игра в Интернете"
+ButtonNames[1]="Игра по лок.сети"
+ButtonNames[2]="Установки игрока"
+ButtonNames[3]="Приращения"
+ButtonNames[4]="Отключение"
+ButtonNames[5]="Предыдущее меню"
+Title="Главное меню сетевой игры"
+
+[menuscreenhostlan]
+Title="Создать игру по локальной сети"
+
+[menuchoice_maxplayers]
+HelpText="Устанавливает максимальное число игроков, разрешенных в игре."
+actionText="Максимальное кол. игроков"
+configSetting="DeusExMPGame MaxPlayers"
+
+[menuchoice_augbonus]
+HelpText="Устанавливает число дополнительных приращений, дающихся игроку за убийство."
+actionText="Приращений за убийство"
+configSetting="DeusExMPGame AugsPerKill"
+
+[menuchoice_Startingaugs]
+HelpText="Устанавливает начальное количество приращений, доступных игроку."
+actionText="Начальные приращения"
+configSetting="DeusExMPGame InitialAugs"
+
+[menuscreenhostnet]
+Title="Создать игру по Интернет"
+
+[menuchoice_startingskills]
+HelpText="Устанавливает начальное количество очков умений, доступных игроку."
+actionText="Начальные очки умений"
+configSetting="DeusExMPGame SkillsAvail"
+
+[menuchoice_skillbonus]
+HelpText="Устанавливает число дополнительных очков умений, дающихся игроку за убийство."
+actionText="Очков умений за убийство"
+configSetting="DeusExMPGame SkillsPerKill"
+
+[menuchoice_friendlyfire]
+HelpText="Процент полного ущерба, получаемого от огня союзников."
+actionText="Огонь по своим"
+configSetting="DeusExMPGame fFriendlyFireMult"
+
+[CarBurned]
+ItemName="Обгоревшая машина"
+
+[CarStripped]
+ItemName="Развалины машины"
+
+[CarWrecked]
+ItemName="Обломки машины"
+
+[Tree1]
+ItemName="Дерево"
+
+[Tree2]
+ItemName="Дерево"
+
+[Tree3]
+ItemName="Дерево"
+
+[Tree4]
+ItemName="Дерево"
+
+[Bushes1]
+ItemName="Куст"
+
+[Bushes2]
+ItemName="Куст"
+
+[Bushes3]
+ItemName="Куст"
+
+[Cactus1]
+ItemName="Кактус"
+
+[Cactus2]
+ItemName="Маленький кактус"
+
+[buoy]
+ItemName="Буй"
+

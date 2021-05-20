@@ -1,0 +1,11 @@
+[SkillAwardTrigger11]
+awardMessage="Area location bonus"
+
+[DeusExLevelInfo1]
+MissionLocation="NYC - Smuggler's Lair"
+startupMessage[0]="NYC - Smuggler's Lair"
+startupMessageJ[0]="Smuggler‚Ì‰B‚ê‰Æ"
+
+[LevelSummary]
+Title="Untitled"
+

@@ -1,0 +1,89 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Pilot1,KeyID=Locker1,Description="Chiave dell'armadietto")"
+NanoKeyData[1]="(ScriptedPawnTag=Pilot2,KeyID=Locker2,Description="Chiave dell'armadietto")"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Stiva operazioni",cameraTag=BayOps)"
+Views[1]="(titleString="Stiva elicottero",cameraTag=HeliBay,turretTag=BayDefense)"
+Views[2]="(titleString="Ingresso stiva operazioni",cameraTag=HeliOperEntry,doorTag=OpsDoor)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Ingresso primario ponti inferiori",cameraTag=EngineCam1,doorTag=EngineeringDoor)"
+Views[1]="(titleString="Sala preparatoria",cameraTag=EngineCam2,doorTag=ReadyRoomDoor)"
+Views[2]="(titleString="Sala delle pompe di sentina",cameraTag=PumpRoomEntry)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Controlli sala pompe",cameraTag=PumpRoomEntry)"
+Views[1]="(titleString="Ingresso ponte osservazione",cameraTag=ObsDeckPlatform,doorTag=DeckDoor)"
+Views[2]="(titleString="Sala superiore",cameraTag=UpperHall)"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Inversione flusso pompe",TriggerText="Flusso pompe di sentina invertito",TriggerEvent=PumpTrigger,bTriggerOnceOnly=True)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Trasformatore 2 - Primario",cameraTag=ElectricalRoomMain)"
+Views[1]="(titleString="Ingresso stiva operazioni",cameraTag=HeliOperEntry,doorTag=OpsDoor)"
+Views[2]="(titleString="Trasformatore 1 - Primario",cameraTag=PowerDuct)"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Camera ventilazione",cameraTag=Flue)"
+Views[1]="(titleString="Motore ventilatore",cameraTag=Motor)"
+Views[2]="(titleString="Sala inferiore",cameraTag=RedHall,doorTag=LowBayDoor)"
+
+[DeusExLevelInfo2]
+MissionLocation="NY - Nave, ponti inferiori"
+
+[SkillAwardTrigger12]
+awardMessage="Bonus di successo"
+
+[NanoKey0]
+Description="Chiave della sala operativa all'eliporto"
+
+[SkillAwardTrigger15]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger14]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger13]
+awardMessage="Bonus di successo"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[SkillAwardTrigger7]
+awardMessage="Bonus di individuazione"
+
+[Mechanic0]
+FamiliarName="Elettricista"
+UnfamiliarName="Elettricista"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di esplorazione"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger5]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger6]
+awardMessage="Bonus di individuazione"
+
+[HKMilitary1]
+FamiliarName="Guardia"
+UnfamiliarName="Guardia"
+
+[HKMilitary0]
+FamiliarName="Guardia"
+UnfamiliarName="Guardia"
+
+[SkillAwardTrigger10]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger9]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger8]
+awardMessage="Bonus di individuazione"
+

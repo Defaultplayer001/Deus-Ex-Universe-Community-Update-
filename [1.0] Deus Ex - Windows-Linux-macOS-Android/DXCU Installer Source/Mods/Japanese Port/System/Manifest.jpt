@@ -1,0 +1,68 @@
+﻿[Setup]
+LocalProduct=デウスエクス
+DefaultFolder=
+ReadMe=Help\ReadMe.htm
+SetupWindowTitle=デウスエクス　セットアップ
+AutoplayWindowTitle=DeusEx Options
+ProductURL=http://www.eidos.co.jp/
+Developer=The Deus Ex Community
+DeveloperURL=http://www.ionstorm.com/
+PublisherURL=http://www.eidos.com/
+Logo=Help\LogoSmall.bmp
+License=License.int
+
+[General]
+PlayLevelCommand=&Play this Deus Ex level
+OpenLinkCommand=&Open this Deus Ex link
+EditLevelCommand=&Edit this Deus Ex level
+
+[GameGroup]
+Caption=Deus Ex System
+Description=Deus Exシステム・ファイルです。インストールが必要です。
+
+[DeusExContentGroup]
+Caption=Deus Ex Game Content
+Description=Deus Ex ゲーム・コンテンツ (サウンド・エフェクト、ミュージック)です。　――　ゲームのパフォーマンスをあげるためにインストールすることをお勧めします。インストールしない場合は、コンテンツは”CD-ROM”からロードします。
+[DeusExMapsGroup]
+Caption=Deus Ex Maps
+Description=Deus Exのマップデータです。　――　ゲームのパフォーマンスをあげるためにインストールすることをお勧めします。インストールしない場合は、マップは”CD-ROM”からロードされます。
+
+[DeusExSpeechGroup]
+Caption=Deus Ex Speech Files
+Description=Deus Exスピーチファイルです。　――　ゲームのパフォーマンスをあげるためにインストールすることをお勧めします。 インストールしない場合は、プレイ中の会話データは”CD-ROM”からロードされます。
+
+[EditorGroup]
+Caption=Deus Ex Editor
+Description=Deus Ex ワールド・エディタです。熟練したユーザーが、Deus Exの環境を設定するものです。
+
+[DirectXGroup]
+Caption=DirectX
+Description=Microsoft DirectX 7.0a ドライバです。本製品を動作させるためには、DirectX7.0a以上がインストールされている必要があります。現在、DirectX 7.0a以上がインストールされていない場合は選択してください.
+
+[PlayShortcut]
+Caption=デウスエクスをプレイする
+
+[SafeModeShortcut]
+Caption=デウスエクスセーフモード
+
+[EditorShortcut]
+Caption=デウスエクス　エディタ
+
+[DocumentationShortcut]
+Caption=ReadMe
+
+[ProductWebShortcut]
+Caption=Eidosホームページ
+
+[DeveloperWebShortcut]
+Caption=Ion Storm Web Page
+
+[PublisherWebShortcut]
+Caption=Eidos Interactive Web Page
+
+[UninstallShortcut]
+Caption=デウスエクスをアンインストールする
+
+;Japanese 1109f patch manifest added 2019/1/3
+[Patch1DocumentationShortcut]
+Caption=必ずお読みください（パッチ版）

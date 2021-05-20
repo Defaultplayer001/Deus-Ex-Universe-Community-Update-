@@ -1,0 +1,58 @@
+[ChildMale2]
+FamiliarName="Giovane vagabondo"
+UnfamiliarName="Giovane vagabondo"
+
+[ChildMale1]
+FamiliarName="Giovane vagabondo"
+UnfamiliarName="Giovane vagabondo"
+
+[SkillAwardTrigger7]
+awardMessage="Bonus di esplorazione"
+
+[JunkieMale0]
+FamiliarName="Vagabondo"
+UnfamiliarName="Vagabondo"
+
+[ChildMale0]
+FamiliarName="Giovane vagabondo"
+UnfamiliarName="Giovane vagabondo"
+
+[BumMale2]
+FamiliarName="Vagabondo"
+UnfamiliarName="Vagabondo"
+
+[BumMale0]
+FamiliarName="Kevin Bradley"
+UnfamiliarName="Vagabondo"
+
+[BumFemale4]
+FamiliarName="Vagabonda"
+UnfamiliarName="Vagabonda"
+
+[BumFemale3]
+FamiliarName="Vagabonda"
+UnfamiliarName="Vagabonda"
+
+[Terrorist33]
+FamiliarName="Capo terrorista"
+UnfamiliarName="Capo terrorista"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[SkillAwardTrigger6]
+awardMessage="Bonus di progresso"
+
+[SkillAwardTrigger8]
+awardMessage="Bonus di successo"
+
+[BumMale1]
+FamiliarName="Vagabondo"
+UnfamiliarName="Vagabondo"
+
+[NanoKey0]
+Description="Chiave del bagno dei vagabondi"
+
+[DeusExLevelInfo0]
+MissionLocation="NY - Tunnel dei senzatetto"
+

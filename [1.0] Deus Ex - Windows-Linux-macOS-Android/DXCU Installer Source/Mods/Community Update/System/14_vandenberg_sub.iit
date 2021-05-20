@@ -1,0 +1,70 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Guard_base,KeyID=Sub_base,Description="Chiave base sottomarina",SkinColor=SC_Level2)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Porte piscina URV",cameraTag=sub_bay,doorTag=sub_doors)"
+Views[1]="(titleString="Uscita URV",cameraTag=sub_bay3)"
+specialOptions[0]="(bTriggerOnceOnly=True)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Ingresso modulo scientifico",cameraTag=Hallcam2,turretTag=Hallturret2)"
+Views[1]="(titleString="Ascensore modulo scientifico",cameraTag=hallcam,turretTag=Hallturret)"
+Views[2]="(titleString="Laboratorio",cameraTag=labcam)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Porte piscina URV",cameraTag=sub_bay,doorTag=sub_doors)"
+Views[1]="(titleString="Uscita URV",cameraTag=sub_bay3)"
+Views[2]="(titleString="Laboratorio",cameraTag=labcam)"
+specialOptions[0]="(bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Nuova Costa Orientale - Base sottomarina"
+startupMessage[0]="Base sottomarina MJ12"
+startupMessage[1]="Barriera di SoCal"
+
+[NanoKey0]
+Description="Modulo di comando"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[ScientistFemale1]
+FamiliarName="Dott. Corwell"
+
+[AutoTurret0]
+FamiliarName="Torrette del salone"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di esplorazione"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di progresso"
+
+[ScientistMale3]
+FamiliarName="Dott. Pinkerton"
+
+[NanoKey1]
+Description="Capanno dei rifornimenti"
+
+[BlackHelicopter2]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[DeusExMover4]
+FamiliarName="Porte dei mini-sub"
+
+[DeusExMover5]
+FamiliarName="Porte dei mini-sub"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di esplorazione"
+
+[AutoTurret2]
+FamiliarName="Torrette del salone"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di esplorazione"
+
+[ScientistFemale2]
+FamiliarName="Dott. Brittany Prinzler"
+

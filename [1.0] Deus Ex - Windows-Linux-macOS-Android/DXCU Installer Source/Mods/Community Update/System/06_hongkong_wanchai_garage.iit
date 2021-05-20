@@ -1,0 +1,71 @@
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Canal Road"
+startupMessage[0]="Tunnel di Canal Road"
+startupMessage[1]="Terminale di WanChai"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[TriadRedArrow0]
+FamiliarName="Membro della Triade Freccia Rossa"
+UnfamiliarName="Membro della Triade Freccia Rossa"
+
+[TriadRedArrow2]
+FamiliarName="Membro della Triade Freccia Rossa"
+UnfamiliarName="Membro della Triade Freccia Rossa"
+
+[TriadRedArrow1]
+FamiliarName="Membro della Triade Freccia Rossa"
+UnfamiliarName="Membro della Triade Freccia Rossa"
+
+[HKMilitary5]
+FamiliarName="Poliziotto militare cinese"
+UnfamiliarName="Poliziotto militare cinese"
+
+[HKMilitary4]
+FamiliarName="Poliziotto militare cinese"
+UnfamiliarName="Poliziotto militare cinese"
+
+[TriadLumPath5]
+FamiliarName="Membro della Triade Sentiero Luminoso"
+UnfamiliarName="Membro della Triade Sentiero Luminoso"
+
+[TriadLumPath0]
+FamiliarName="Membro della Triade Sentiero Luminoso"
+UnfamiliarName="Membro della Triade Sentiero Luminoso"
+
+[HKMilitary3]
+FamiliarName="Poliziotto militare cinese"
+UnfamiliarName="Poliziotto militare cinese"
+
+[HKMilitary2]
+FamiliarName="Poliziotto militare cinese"
+UnfamiliarName="Poliziotto militare cinese"
+
+[HKMilitary1]
+FamiliarName="Poliziotto militare cinese"
+UnfamiliarName="Poliziotto militare cinese"
+
+[TriadLumPath4]
+FamiliarName="Membro della Triade Sentiero Luminoso"
+UnfamiliarName="Membro della Triade Sentiero Luminoso"
+
+[HKMilitary8]
+FamiliarName="Poliziotto militare cinese"
+UnfamiliarName="Poliziotto militare cinese"
+
+[HKMilitary7]
+FamiliarName="Poliziotto militare cinese"
+UnfamiliarName="Poliziotto militare cinese"
+
+[TriadLumPath2]
+FamiliarName="Membro della Triade Sentiero Luminoso"
+UnfamiliarName="Membro della Triade Sentiero Luminoso"
+
+[TriadRedArrow3]
+FamiliarName="Membro della Triade Freccia Rossa"
+UnfamiliarName="Membro della Triade Freccia Rossa"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di esplorazione"
+

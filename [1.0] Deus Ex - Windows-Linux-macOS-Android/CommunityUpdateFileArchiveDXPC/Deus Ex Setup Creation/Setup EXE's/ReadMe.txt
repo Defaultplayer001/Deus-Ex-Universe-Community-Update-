@@ -13,6 +13,8 @@ Edit3: It does REQUIRE a MaxVersion= be set however if Require= is set. OTherwis
 
 Edit4: 1003c is working without EITHER of the above limitations? Why on earth didn't I test it sooner, literally wrote "I haven't tested with 1003c." above. JFC.
 
+Edit5: However it doesn't work with postexecs? Ugh.
+
 All shortcut EXE's seem to be the same, kept for convienance. 
 
 Can be used to create new setup files by modifying the manifest.ini

@@ -1,0 +1,57 @@
+[SkillAwardTrigger3]
+awardMessage="Премия за критическую локацию"
+
+[DeusExLevelInfo0]
+MissionLocation="Париж - Cобор Рыцарей Тамплиеров"
+startupMessage[0]="Париж"
+startupMessage[1]="Первоочередная цель:"
+startupMessage[2]="Кафедральный собор Рыцарей Тамплиеров"
+
+[NanoKey5]
+Description="Ключ к парадным дверям собора"
+
+[NanoKey2]
+PickupMessage="Ключ смотрителя"
+Description="Ключ смотрителя"
+
+[NanoKey3]
+Description="Ключ к парадным дверям собора"
+
+[NanoKey4]
+Description="Ключ к парадным дверям собора"
+
+[SpecialEvent1]
+Message="Нет новых сообщений"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за обнаружение"
+
+[SkillAwardTrigger4]
+awardMessage="Премия за обнаружение"
+
+[SkillAwardTrigger5]
+awardMessage="Премия за исследование"
+
+[Chef0]
+FamiliarName="Уставший повар"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Разрешить связь с системой",TriggerText="Защита данных отключена: Разрешена связь с системой",TriggerEvent=templar_upload,bTriggerOnceOnly=True)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Технический архив",CameraTag=godcompcam001)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Sporting Goods Security System",CameraTag=SportingGoodsCam,Turrettag=SportingGoodsSecurity)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Хранилище золота 001",CameraTag=au_cam001,Turrettag=au_turret001)"
+Views[1]="(titleString="Хранилище золота 002",CameraTag=au_cam002,Turrettag=au_turret002)"
+Views[2]="(titleString="Хранилище золота 003",CameraTag=au_cam003,Turrettag=au_turret003)"
+
+[ComputerSecurity3]
+specialOptions[0]="(Text="Отключить военный патрульный бот",TriggerText="Военный патрульный бот отключен",TriggerEvent=CathMilitaryBotTrigger)"
+

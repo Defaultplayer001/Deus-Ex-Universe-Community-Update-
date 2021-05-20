@@ -1,0 +1,41 @@
+[BlackHelicopter0]
+FamiliarName="Jock helikoptere"
+UnfamiliarName="Jock helikoptere"
+
+[MIB0]
+FamiliarName="Testõr"
+UnfamiliarName="Testõr"
+
+[mib1]
+FamiliarName="Testõr"
+UnfamiliarName="Testõr"
+
+[ComputerSecurity0]
+Views[0]="(titleString="SATCOM-fülke",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[1]="(titleString="UNATCO fhsz. kültér",CameraTag=UN_CamSystem02)"
+Views[2]="(titleString="UNATCO fhsz. beltér",CameraTag=UN_CamSystem03)"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="New York City - Szabadság-sziget"
+startupMessage[0]="New York City, "
+startupMessage[1]="Szabadság-sziget"
+startupMessage[2]="Az UNATCO fõhadiszállása"
+
+[SecurityCamera0]
+FamiliarName="UN_lobby02"
+
+[SecurityCamera1]
+FamiliarName="UN_lobby01"
+
+[SecurityCamera2]
+FamiliarName="UN_outside"
+
+[SecurityCamera4]
+FamiliarName="SATCOM_cam"
+
+[UNATCOTroop13]
+FamiliarName="Lloyd közlegény"
+

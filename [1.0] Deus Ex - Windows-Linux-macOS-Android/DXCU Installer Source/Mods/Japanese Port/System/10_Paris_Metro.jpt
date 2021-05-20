@@ -1,0 +1,134 @@
+[Chef0]
+FamiliarName="Raymond"
+UnfamiliarName="Raymond"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger3]
+awardMessage="Exploration Bonus"
+
+[Businessman2]
+FamiliarName="Rene"
+UnfamiliarName="Man"
+
+[Female2]
+FamiliarName="Kristi"
+UnfamiliarName="Cafe Hostess"
+
+[Cop7]
+FamiliarName="Police"
+UnfamiliarName="Police"
+
+[NanoKey0]
+Description="Hotel key"
+
+[Male3]
+FamiliarName="Joshua"
+UnfamiliarName="Joshua"
+
+[SkillAwardTrigger4]
+awardMessage="Exploration Bonus"
+
+[Mutt0]
+FamiliarName="Starr"
+UnfamiliarName="Starr"
+
+[Businessman0]
+FamiliarName="Renault"
+UnfamiliarName="Renault"
+
+[SkillAwardTrigger0]
+awardMessage="Area Location Bonus"
+
+[Bartender0]
+FamiliarName="Hotel Bartender"
+UnfamiliarName="Hotel Bartender"
+
+[Cop8]
+FamiliarName="Police"
+UnfamiliarName="Police"
+
+[ChildMale1]
+FamiliarName="Jon"
+UnfamiliarName="Jon"
+
+[Cat0]
+FamiliarName="Kitty"
+UnfamiliarName="Kitty"
+
+[Cop4]
+FamiliarName="Police"
+UnfamiliarName="Police"
+
+[ThugMale0]
+FamiliarName="Guy"
+UnfamiliarName="Guy"
+
+[Chef1]
+FamiliarName="Cafe Chef"
+UnfamiliarName="Cafe Chef"
+
+[Butler0]
+FamiliarName="Night Manager"
+UnfamiliarName="Night Manager"
+
+[Maid0]
+FamiliarName="Hotel Maid"
+UnfamiliarName="Hotel Maid"
+
+[Janitor0]
+FamiliarName="Leone"
+UnfamiliarName="Leone"
+
+[SkillAwardTrigger2]
+awardMessage="Accomplishment Bonus"
+
+[BlackHelicopter0]
+FamiliarName="Black Helicopter"
+UnfamiliarName="Black Helicopter"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Deactivate Military Patrol Bots",TriggerText="Military Bots Deactivated",TriggerEvent=ComputerSpecialOption_shutdown)"
+specialOptions[1]="(Text="Activate Military Patrol Bots",TriggerText="Military Bots Activated",TriggerEvent=ComputerSpecialOption_wakeup)"
+
+[Cop5]
+FamiliarName="Police"
+UnfamiliarName="Police"
+
+[Cop3]
+FamiliarName="Police"
+UnfamiliarName="Police"
+
+[Cop2]
+FamiliarName="Police"
+UnfamiliarName="Police"
+
+[Cop0]
+FamiliarName="Police"
+UnfamiliarName="Police"
+
+[Cop1]
+FamiliarName="Police"
+UnfamiliarName="Police"
+
+[Female4]
+FamiliarName="Agathe"
+UnfamiliarName="Mother"
+
+[Cop6]
+FamiliarName="Police"
+UnfamiliarName="Police"
+
+[Female6]
+FamiliarName="O"
+UnfamiliarName="Woman"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Near Champs Elysses"
+startupMessage[0]="Paris Under Martial Law"
+startupMessageJ[0]="åµâ˙óﬂâ∫Å@ÉpÉä"
+
+[SkillAwardTrigger6]
+awardMessage="Exploration Bonus"
+

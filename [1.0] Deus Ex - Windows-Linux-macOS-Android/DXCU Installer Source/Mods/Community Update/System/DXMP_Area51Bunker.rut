@@ -1,0 +1,37 @@
+[AutoTurret2]
+titleString="Comm Turret"
+
+[AutoTurret1]
+titleString="Tower Turret"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Турель в ангаре",CameraTag=hangarcam,Turrettag=hangarturret,doorTag=hangardoor)"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Турель в комн.связи",CameraTag=commcam,Turrettag=commturret)"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Турель на башне",CameraTag=towercam,Turrettag=towerturret)"
+
+[Multitool10]
+CountLabel=""
+msgTooMany=""
+PickupMessage=""
+ItemName=""
+ItemArticle=""
+M_Activated=""
+M_Selected=""
+M_Deactivated=""
+Description=""
+beltDescription=""
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+startupMessage[0]="Зона 51"
+startupMessage[1]="Рейчел Невада"
+
+[AutoTurret0]
+titleString="Hangar Turret"
+

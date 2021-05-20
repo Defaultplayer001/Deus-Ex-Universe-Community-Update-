@@ -1,0 +1,34 @@
+[Hooker0]
+FamiliarName="Janey"
+UnfamiliarName="Mädchen"
+
+[Jock0]
+UnfamiliarName="Pilot"
+
+[SkillAwardTrigger6]
+awardMessage="Durchführungsbonus"
+
+[Female0]
+FamiliarName="Frau"
+UnfamiliarName="Lady"
+
+[JoeGreene0]
+UnfamiliarName="Reporter"
+
+[Male0]
+FamiliarName="Dan"
+UnfamiliarName="Arbeiter"
+
+[JordanShea0]
+UnfamiliarName="Barkeeperin"
+
+[Female1]
+FamiliarName="Dame mit Pullover"
+UnfamiliarName="Dame mit Pullover"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Underworld Bar"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+

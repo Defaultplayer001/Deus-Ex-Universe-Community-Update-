@@ -1,0 +1,76 @@
+[ThugMale4]
+FamiliarName="NSF Thug"
+UnfamiliarName="NSF Thug"
+
+[SkillAwardTrigger4]
+awardMessage="Exploration Bonus"
+
+[BumMale0]
+FamiliarName="Hobo"
+UnfamiliarName="Hobo"
+
+[SkillAwardTrigger3]
+awardMessage="Exploration Bonus"
+
+[SkillAwardTrigger5]
+awardMessage="Exploration Bonus"
+
+[SkillAwardTrigger2]
+awardMessage="Exploration Bonus"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=Apartment,Description="Apartment key")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Osgood and Sons' front door key")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Osgood and Sons' back door key")"
+
+[Hooker0]
+FamiliarName="Sally"
+
+[RiotCop0]
+FamiliarName="Cop"
+UnfamiliarName="Cop"
+
+[ThugMale3]
+FamiliarName="NSF Thug"
+UnfamiliarName="NSF Thug"
+
+[RiotCop1]
+FamiliarName="Cop"
+UnfamiliarName="Cop"
+
+[ThugMale0]
+FamiliarName="Pimp"
+UnfamiliarName="Pimp"
+
+[BumFemale1]
+FamiliarName="Former hostage"
+UnfamiliarName="Former hostage"
+
+[SandraRenton0]
+UnfamiliarName="Pretty Girl"
+
+[BumMale3]
+FamiliarName="Former hostage"
+UnfamiliarName="Former hostage"
+
+[BumMale1]
+FamiliarName="Muttering Bum"
+
+[BumMale4]
+FamiliarName="Homeless guy"
+UnfamiliarName="Homeless guy"
+
+[Button2]
+FamiliarName="Intercomm"
+UnfamiliarName="Intercomm"
+
+[SpecialEvent0]
+Message="Sign him up for the Knicks!!!!"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Hell's Kitchen"
+startupMessage[0]="New York City, Hell's Kitchen"
+startupMessageJ[0]="ニューヨーク　ヘルズキッチン"

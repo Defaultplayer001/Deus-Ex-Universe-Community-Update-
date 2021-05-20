@@ -1,0 +1,80 @@
+[DeusExLevelInfo0]
+MissionLocation="New York City - Brooklyn-híd"
+startupMessage[0]="New York City, "
+startupMessage[1]="Brooklyn-hídi állomás"
+
+[SkillAwardTrigger0]
+awardMessage="Teljesítési jutalom"
+
+[LevelSummary]
+Title="Untitled"
+
+[BumMale2]
+FamiliarName="Charlie Fann"
+UnfamiliarName="Vakondember"
+
+[JunkieMale1]
+FamiliarName="Lenny"
+
+[ThugMale11]
+FamiliarName="Bandatag"
+UnfamiliarName="Bandatag"
+
+[JunkieFemale4]
+FamiliarName="Bandatag"
+UnfamiliarName="Bandatag"
+
+[JunkieFemale3]
+FamiliarName="Bandatag"
+UnfamiliarName="Bandatag"
+
+[Hooker1]
+FamiliarName="Bandatag"
+UnfamiliarName="Bandatag"
+
+[ThugMale3]
+FamiliarName="El Rey"
+UnfamiliarName="Szélhámos"
+
+[ThugMale9]
+FamiliarName="Bandatag"
+UnfamiliarName="Bandatag"
+
+[BumMale3]
+FamiliarName="Hajléktalan"
+UnfamiliarName="Hajléktalan"
+
+[JunkieFemale1]
+FamiliarName="Bandatag"
+UnfamiliarName="Bandatag"
+
+[ThugMale13]
+FamiliarName="Drogdíler"
+UnfamiliarName="Drogdíler"
+
+[ThugMale8]
+FamiliarName="Bandatag"
+UnfamiliarName="Bandatag"
+
+[ThugMale6]
+FamiliarName="Bandatag"
+UnfamiliarName="Bandatag"
+
+[JunkieMale0]
+FamiliarName="Don"
+
+[ThugMale1]
+FamiliarName="Bandatag"
+UnfamiliarName="Bandatag"
+
+[SkillAwardTrigger7]
+awardMessage="Haladási jutalom"
+
+[ChildMale0]
+FamiliarName="Kölyök"
+UnfamiliarName="Kölyök"
+
+[ThugMale12]
+FamiliarName="Bandatag"
+UnfamiliarName="Bandatag"
+

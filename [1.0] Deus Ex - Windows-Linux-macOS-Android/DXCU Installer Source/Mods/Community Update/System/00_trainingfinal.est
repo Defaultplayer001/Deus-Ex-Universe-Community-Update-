@@ -1,0 +1,15 @@
+[DeusExLevelInfo0]
+MissionLocation="UNATCO Curso de entrenamiento"
+
+[SpecialEvent0]
+Message="Reiniciar test de sigilo"
+
+[LevelSummary]
+Title="Sin título"
+
+[SecurityCamera4]
+FamiliarName="UN_obst_hangar"
+
+[SecurityCamera5]
+FamiliarName="UN_obst_hangar2"
+

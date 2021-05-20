@@ -1,0 +1,4 @@
+;!@Install@!UTF-8!
+Title="DXCU Custom Icon-Splash-Logo"
+InstallPath="..\.."
+;!@InstallEnd@!

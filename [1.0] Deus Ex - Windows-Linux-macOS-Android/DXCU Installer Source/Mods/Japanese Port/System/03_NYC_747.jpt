@@ -1,0 +1,16 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=CommTerrorist,KeyID=LebedevBedroom,Description="Key to Juan Ivanovich Lebedev's bedroom")"
+
+[NanoKey0]
+Description="Private Quarters"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger11]
+awardMessage="Goal Accomplishment Bonus"
+
+[DeusExLevelInfo2]
+MissionLocation="NYC - 747 Airplane"
+startupMessage[0]="NYC - 747 Airplane"
+startupMessageJ[0]="ÉWÉÉÉìÉ{ó∑ãqã@Å@äiî[å…"

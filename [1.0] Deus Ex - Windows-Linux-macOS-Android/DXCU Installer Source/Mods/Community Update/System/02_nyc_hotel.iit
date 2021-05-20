@@ -1,0 +1,25 @@
+[Male0]
+FamiliarName="Ex ostaggio (uomo)"
+UnfamiliarName="Ostaggio (uomo)"
+
+[Female0]
+FamiliarName="Ex ostaggio (donna)"
+UnfamiliarName="Ostaggio (donna)"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di successo"
+
+[GilbertRenton0]
+UnfamiliarName="Impiegato d'albergo"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di esplorazione"
+
+[DeusExLevelInfo0]
+MissionLocation="NY - Albergo 'Ton"
+
+[NanoKey0]
+Description="Albergo 'Ton, chiave stanza nord"
+
+[LevelSummary]
+Title="Senza titolo"

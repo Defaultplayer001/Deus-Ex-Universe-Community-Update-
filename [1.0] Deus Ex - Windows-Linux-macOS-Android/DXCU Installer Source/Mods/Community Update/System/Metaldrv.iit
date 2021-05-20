@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=MeTaLDrv.MeTaLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Metal.dll)
+Preferences=(Caption="Rendering",Parent="Opzioni avanzate")
+Preferences=(Caption="Supporto S3 MeTaL",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+
+[MeTaLRenderDevice]
+ClassCaption="S3 MeTaL per Windows"
+AskInstalled=Disponi di una scheda video Savage 3D?
+AskUse=Vuoi che Deus Ex usi la tua scheda video Savage 3D?

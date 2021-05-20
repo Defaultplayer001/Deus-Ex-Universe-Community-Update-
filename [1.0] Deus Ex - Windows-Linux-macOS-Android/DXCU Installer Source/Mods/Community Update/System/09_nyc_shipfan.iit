@@ -1,0 +1,27 @@
+[ComputerSecurity6]
+Views[0]="(titleString="Sala ventilatore",cameraTag=Main,doorTag=MainDuctVent)"
+
+[DeusExLevelInfo0]
+MissionLocation="NY - Sistema AC, centro di costruzioni navali"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[NanoKey2]
+PickupMessage=""
+ItemName=""
+ItemArticle=""
+M_Activated=""
+M_Selected=""
+M_Deactivated=""
+Description=""
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di individuazione"
+
+[ZoneInfo0]
+DamageString="Questa zona è davvero CALDA"
+

@@ -1,0 +1,70 @@
+[SkillAwardTrigger11]
+awardMessage="Bônus: êxito"
+
+[NanoKey2]
+Description="Chave para o deque inferior"
+
+[NanoKey1]
+Description="Desbloqueia o painel de acesso à área de segurança"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: êxito"
+
+[NanoKey0]
+Description="Chave para o deque inferior"
+
+[SkillAwardTrigger8]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger10]
+awardMessage="Bônus: êxito"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Ponte: Deque 3",CameraTag=bridge,doorTag=OpsDoor)"
+Views[1]="(titleString="Sala de obs.:Deque 2",CameraTag=WatchRoom)"
+Views[2]="(titleString="Arsenal: Deque 2",CameraTag=Deck2Cam,doorTag=ArmoryDoor)"
+
+[LevelSummary]
+Title="Sem título"
+
+[Switch6]
+FamiliarName="Botão"
+UnfamiliarName="Botão"
+
+[HKMilitary1]
+FamiliarName="Novo guarda"
+UnfamiliarName="Novo guarda"
+
+[HKMilitary0]
+FamiliarName="Guarda informado"
+UnfamiliarName="Guarda informado"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Área de entrada",CameraTag=FrontCam)"
+Views[1]="(titleString="Sala de armários",CameraTag=BuildingCam_2)"
+Views[2]="(titleString="Refeitório",CameraTag=BuildingCam_3)"
+
+[SkillAwardTrigger17]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger15]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger19]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger21]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger22]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger14]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger18]
+awardMessage="Bônus: localização"
+
+[DeusExLevelInfo15]
+MissionLocation="Nova Iorque - Edifício de Montagem e Navio"
+

@@ -1,0 +1,50 @@
+[NanoKey0]
+PickupMessage="Abre os deques de controle de voo"
+ItemName="Código dos deques de controle de voo"
+Description="Código dos deques de controle de voo"
+
+[NanoKey1]
+PickupMessage="Você encontrou a chave mestra dos armários das barracas"
+Description="Chave mestra dos armários das barracas"
+
+[LevelSummary]
+Title="Sem título"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: êxito em objetivo"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Elevador",CameraTag=camera_elevator,Turrettag=eleturret)"
+Views[1]="(titleString="Barracas",CameraTag=camera_barracks)"
+Views[2]="(titleString="Telhado",CameraTag=camera_roof,Turrettag=Roof_Defense,doorTag=hangar_door)"
+
+[SkillAwardTrigger1]
+awardMessage="Bônus por êxito"
+Message="Grande disparo!"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Elevador",CameraTag=camera_elevator,Turrettag=eleturret)"
+Views[1]="(titleString="Barracas",CameraTag=camera_barracks)"
+Views[2]="(titleString="Telhados",CameraTag=camera_roof,Turrettag=Roof_Defense)"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Heliporto do MJ12"
+startupMessage[0]="Hong Kong, República Popular da China"
+startupMessage[1]="Heliporto secreto do MJ12"
+startupMessage[2]="Ao topo do edifício VersaLife"
+
+[SkillAwardTrigger2]
+awardMessage="Bônus: êxito"
+
+[SkillAwardTrigger3]
+awardMessage="Bônus: êxito"
+
+[NanoKey3]
+PickupMessage="Abre a porta do compartimento de munições"
+ItemName="Abre o compartimento de munições"
+Description="Porta do compartimento de munições"
+
+[NanoKey2]
+PickupMessage="Abre a porta do compartimento de munições"
+ItemName="Abre o compartimento de munições"
+Description="Porta do compartimento de munições"

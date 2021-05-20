@@ -1,0 +1,53 @@
+[TriadRedArrow0]
+FamiliarName="Guarda de Tong"
+UnfamiliarName="Guarda de Tong"
+
+[TriadLumPath2]
+FamiliarName="Guarda de Tong"
+UnfamiliarName="Guarda de Tong"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: aquisição de assunto"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[TriadLumPath4]
+FamiliarName="Guarda de Tong"
+UnfamiliarName="Guarda de Tong"
+
+[TriadLumPath3]
+FamiliarName="Guarda de Tong"
+UnfamiliarName="Guarda de Tong"
+
+[TriadLumPath0]
+FamiliarName="Guarda de Tong"
+UnfamiliarName="Guarda de Tong"
+
+[TriadLumPath1]
+FamiliarName="Guarda de Tong"
+UnfamiliarName="Guarda de Tong"
+
+[NanoKey0]
+PickupMessage="Você encontrou a chave do apartamento de Jock."
+Description="Apartamento de Jock na rua Tonnochi"
+
+[LevelSummary]
+Title="Sem título"
+
+[TriadRedArrow1]
+FamiliarName="Guarda de Tong"
+UnfamiliarName="Guarda de Tong"
+
+[TriadRedArrow4]
+FamiliarName="Guarda de Tong"
+UnfamiliarName="Guarda de Tong"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Base de Tong"
+startupMessage[0]="Laboratório de Tracer Tong"
+
+[TriadRedArrow3]
+FamiliarName="Guarda de Tong"
+UnfamiliarName="Guarda de Tong"
+

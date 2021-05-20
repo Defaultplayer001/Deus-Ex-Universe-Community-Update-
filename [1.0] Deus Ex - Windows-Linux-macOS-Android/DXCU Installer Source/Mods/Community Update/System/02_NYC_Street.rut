@@ -1,0 +1,76 @@
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Адская Кухня"
+startupMessage[0]="Нью-Йорк, Адская Кухня"
+
+[LevelSummary]
+Title="Untitled"
+
+[SpecialEvent0]
+Message="Запишите его в команду Knicks!!!!"
+
+[Button2]
+FamiliarName="Интерком"
+UnfamiliarName="Интерком"
+
+[SkillAwardTrigger2]
+awardMessage="Премия за исследование"
+
+[SkillAwardTrigger5]
+awardMessage="Премия за исследование"
+
+[SkillAwardTrigger3]
+awardMessage="Премия за исследование"
+
+[BumMale0]
+FamiliarName="Бродяга"
+UnfamiliarName="Бродяга"
+
+[SkillAwardTrigger4]
+awardMessage="Премия за исследование"
+
+[ThugMale4]
+FamiliarName="Головорез NSF"
+UnfamiliarName="Головорез NSF"
+
+[BumMale4]
+FamiliarName="Бездомный парень"
+UnfamiliarName="Бездомный парень"
+
+[BumMale1]
+FamiliarName="Ворчливый бомж"
+
+[BumMale3]
+FamiliarName="Бывший заложник"
+UnfamiliarName="Бывший заложник"
+
+[SandraRenton0]
+UnfamiliarName="Красивая девушка"
+
+[BumFemale1]
+FamiliarName="Бывшая заложница"
+UnfamiliarName="Бывшая заложница"
+
+[ThugMale0]
+FamiliarName="Сводник"
+UnfamiliarName="Сводник"
+
+[RiotCop1]
+FamiliarName="Полицейский"
+UnfamiliarName="Полицейский"
+
+[ThugMale3]
+FamiliarName="Головорез NSF"
+UnfamiliarName="Головорез NSF"
+
+[RiotCop0]
+FamiliarName="Полицейский"
+UnfamiliarName="Полицейский"
+
+[Hooker0]
+FamiliarName="Салли"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=Apartment,Description="Ключ к апартаментам")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Ключ к передней двери Осгуд и Сыновья")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Ключ к задней двери Осгуд и Сыновья")"
+

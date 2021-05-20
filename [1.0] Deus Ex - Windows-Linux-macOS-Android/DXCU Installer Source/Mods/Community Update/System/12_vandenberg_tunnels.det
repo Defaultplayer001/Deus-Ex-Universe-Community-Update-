@@ -1,0 +1,24 @@
+[NanoKey0]
+Description="Schlüssel für Kontrollraum"
+
+[SkillAwardTrigger2]
+awardMessage="Forschungsbonus"
+
+[SkillAwardTrigger1]
+awardMessage="Forschungsbonus"
+
+[SkillAwardTrigger0]
+awardMessage="Fortschrittsbonus"
+
+[ComputerSecurity1]
+Views[0]="(cameraTag=camera_gen,turretTag=turret_gen)"
+
+[NanoKey1]
+Description="Schlüssel für Wartungsraum"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Tunnels"
+

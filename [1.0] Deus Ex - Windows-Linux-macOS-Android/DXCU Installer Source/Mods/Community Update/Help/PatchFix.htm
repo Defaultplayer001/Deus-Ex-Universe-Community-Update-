@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>Deus Ex Patch Fixes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#C0c0c0">
+<h2 align="center">Deus Ex Patch Fixes</h2>
+<h4 align="center"> March 16, 2001<br>
+  Version 1.1</h4>
+<hr>
+<p><b>In version 1.112fm:</b></p>
+<p><b>Bugs:</b></p>
+<ul>
+  <li>Blocked some cheats related to overriding the local console or root window.</li>
+  <li>Doors opened by buttons in multiplayer work properly now. </li>
+  <li>Opening a door in multiplayer automatically unlocks it, whether opened by 
+    button or by lockpicking. </li>
+  <li>Fixed some potential problems with locked double doors in multiplayer. </li>
+  <li>Disabling screenflashes no longer has an effect on multiplayer. Multiplayer 
+    always has screenflashes on. </li>
+  <li>The server information window in the join game screen now indicates whether 
+    or not a server is password protected. </li>
+  <li>Mousewheel support for remote clients has been fixed to be consistent with 
+    mousewheel use for the singleplayer game. </li>
+  <li>If a server is listed as full on the join game screen, you cannot join it. 
+    If you refresh the list and the server is no longer listed as full, you can 
+    then join. </li>
+  <li>The viewplayer command no longer works in multiplayer games. Mod makers 
+    can change this by overriding the CanSpectate function. </li>
+  <li>Looting corpses while carrying no weapons no longer gives you increased 
+    ammo counts. </li>
+  <li>The flamethrower was generating log warning messages under certain circumstances. 
+    Those have been fixed. </li>
+  <li>Dropping a weapon and then picking it up caused its ammo count to get messed 
+    up, causing problems when you tried to restock it with an ammo crate. This 
+    has been fixed. </li>
+  <li>LAMs become disabled when the person who placed them leaves the game. </li>
+  <li>You can no longer lean on other players to kill them. </li>
+  <li>Leaning occasionally caused people to rotate wierdly. This has been fixed. 
+  </li>
+  <li>Under certain circumstances, the vision augmentation could be broken until 
+    you died and respawned. This has been fixed. </li>
+</ul>
+<hr>
+<p><b>Bugs:</b></p>
+<ul>
+  <li> All locked doors in multiplayer should close properly now and will not 
+    get stuck open. </li>
+  <li> Keypads and locked doors lock after 28 seconds instead of 30 seconds. This 
+    prevents people from looting the same cabinet twice for one pick attempt. 
+  </li>
+  <li> Singleplayer energy shield was only blocking 70% damage at max level instead 
+    of the 80% of the original singleplayer game. It has been put back to 80%. 
+  </li>
+  <li>If you hit the buy skills key in a singleplayer game, the belt will no longer 
+    dim. </li>
+  <li>Grenade placement animation works correctly now. </li>
+  <li>Grenades can no longer be placed on selectable objects (computers, weapons 
+    on the weapon rack). This includes doors. This prevents players from hiding 
+    grenades behind computers, GEP guns, etc. </li>
+  <li>At very low framerates(for the server or singleplayer), lockpicking and 
+    multitooling took longer than they should. This has been fixed. </li>
+  <li>Pings now sort correctly on the join game screen. </li>
+  <li>In multiplayer, when coming out of water, clients occasionally did not get 
+    their eye heights adjusted properly, and would appear (to themselves) to be 
+    crouched. This has been fixed. </li>
+  <li>Elevator buttons should stay in better sync now. </li>
+  <li>Next item/ Previous item commands (by default bound to the mousewheel) should 
+    work better in multiplayer.</li>
+  <li>The inventory screen can no longer be activated at the end of a match. </li>
+  <li>The player death sequence should no longer occasionally freeze in singleplayer. 
+  </li>
+  <li>The multiplayer scoreboard only highlights your player in gold, even if 
+    other players have the same name. </li>
+  <li>You can no longer exploit the regeneration augmentation by toggling it on 
+    and off very quickly (resulting in almost instant healing for almost no cost). 
+  </li>
+  <li>Fixed a situation in which cloaked people were occasionally slightly visible 
+    just after coming into the room or around a corner. </li>
+  <li>Fixed a bug in multiplayer in which you could turn 2 biocells, lockpicks, 
+    medkits, grenades, or multitools into a lot by clicking very quickly. </li>
+  <li>Fixed a bug in singleplayer in which corpses occasionally became placeholder 
+    boxes (garish boxes bearing the legend "Do not place"). </li>
+  <li>Fixed a bug in which firing a rapid-fire weapon immediately after drawing 
+    it could get the weapon stuck in a bad state. </li>
+  <li>Repair bots should no longer be accessible through closed repairbot bay 
+    doors in multiplayer. </li>
+  <li>The listen client player will not bleed from the previous deathblow after 
+    respawn.</li>
+  <li>In a DeathMatchGame, if there is a winning tie at all, the match will be 
+    called a draw. </li>
+  <li>A certain class of cheats was available by using alternate root windows. 
+    The standard deathmatch and team deathmatch games now kick players who are 
+    using a different root window, and support has been added for mod teams to 
+    insist on their own windows. </li>
+  <li>Text files can now be read in from packages other than deusextext.u. This 
+    affects class Computers (emails/bulletins) and class InformationDevices(datacubes, 
+    books, etc). A new property "TextPackage" specifies the package from which 
+    the text comes.</li>
+</ul>
+<p><b>Balancing/Features:</b></p>
+<ul>
+  <li>Targeting augmentation now displays hit location at which you are aiming 
+    (head/torso/leg). </li>
+  <li>Throwing knife does 17 base damage instead of 25. </li>
+  <li>Plasma does 8 base damage instead of 12. </li>
+  <li>Energy shield blocks 50% of damage instead of 80%. Drains 25 energy per 
+    minute instead of 40. </li>
+  <li>You can now chat while dead, while at the end of a match, or while logged 
+    into a computer. </li>
+  <li>Checkboxes on the join game screen are now slightly more user friendly. 
+    Turning off one of team/non-team also turns off the "show-all" checkbox. </li>
+  <li>A GEP gun no longer maintains its lock while reloading. You must get a fresh 
+    lock for every shot. </li>
+  <li>Leg damage no longer slows you down (unless you completely lose them) </li>
+  <li>In team games, you should be less likely to spawn into battles between teammates 
+    and enemies. </li>
+  <li>Added functionality so that administrators can more easily kick the players 
+    that they intend to kick. (See MP Administration doc) </li>
+</ul>
+<p><b>Spoliers:</b></p>
+<ul>
+  <li>If you receive a datalink while logged into a computer, the datalink now 
+    plays properly when you exit the computer. This was most noticeable when sending 
+    the transmission to the NSF after Paul asks you to do so.</li>
+</ul>
+<p><b>Changes for the Mod Community:</b></p>
+<ul>
+  <li>Singleplayer mods are now able to use classes other than JCDenton for the 
+    player character. Override the ApproveClass function in DeusEx.DeusExGameInfo. 
+  </li>
+  <li>Multiplayer mods can now add new gametypes in configs, as well as new classes 
+    and teams. To add new teams, you will need to override the ApproveTeam function 
+    in DeusEx.TeamDMGame. New classes and teams will also require new portraits. 
+  </li>
+  <li>It is now easier to have new gametypes in packages other than DeusEx.u.</li>
+</ul>
+<hr>
+</body>
+</html>

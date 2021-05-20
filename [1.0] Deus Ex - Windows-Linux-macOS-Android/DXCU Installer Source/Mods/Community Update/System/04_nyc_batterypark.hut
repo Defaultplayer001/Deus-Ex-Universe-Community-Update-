@@ -1,0 +1,27 @@
+[SkillAwardTrigger2]
+awardMessage="Teljesítési jutalom"
+
+[JunkieFemale0]
+FamiliarName="Beteg nõ"
+UnfamiliarName="Beteg nõ"
+
+[JunkieMale2]
+FamiliarName="Beteg férfi"
+UnfamiliarName="Beteg férfi"
+
+[ChildMale0]
+FamiliarName="Billy"
+UnfamiliarName="Kölyök"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="New York City - Battery park"
+startupMessage[0]="New York City,"
+startupMessage[1]="Battery park"
+
+[BlackHelicopter0]
+FamiliarName="Jock, a helikopterében"
+UnfamiliarName="Jock, a helikopterében"
+

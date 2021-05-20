@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Deus Ex Multiplayer Server Administration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#C0c0c0">
+<h2 align="center">Deus Ex Multiplayer Server Administration</h2>
+<h4 align="center"> January 4, 2001<br>
+  Version 1.0</h4>
+<hr>
+<p>Occasionally it is useful to become a server administrator. This allows you 
+  to change maps remotely or to kick troublesome players. In order to become an 
+  administrator, the server must have an administrator password set, and you need 
+  to know what it is. All of these commands must be done as a player. If you are 
+  hosting a non-dedicated server, and wish to use the kick functionality, you 
+  must login as an administrator, even though you are already the host. </p>
+<p><b>Setting a Password<br>
+  </b>In the DeusEx.INI file on the server, under the heading marked [Engine.GameInfo], 
+  set AdminPassword=yourpasswordhere. If AdminPassword=<blank> no one can log 
+  in as administrator to that server. </p>
+<ul>
+  <li><i>Adminlogin <password> &lt;password&gt; - </i>Logs in as administrator 
+    for that server </li>
+  <li><i>Adminlogout</i> - Logs out as administrator </li>
+  <li><i>PlayerList</i> - Shows a list of all players and player IDs (any player 
+    can use this command)</li>
+  <li><i> Kick</i> <i>&lt;PlayerID&gt;</i> - Kicks the player with that ID from 
+    the game </li>
+  <li><i>KickBan <playerid> &lt;PlayerID&gt; - </i> Kicks the player with that 
+    ID from the game, and bans that IP address. </li>
+  <li><i>Admin ServerTravel &lt;map&gt;</i> - Changes to the specified map</li>
+</ul>
+<p>As As administrator, you will also get additional messages (besides the ones 
+  in your HUD) whenever any player kills another. These will contain the ID of 
+  the killer, useful when two players have the same name. If you logout as administrator, 
+  you will stop receiving these messages.</p>
+<hr>
+</body>
+</html>

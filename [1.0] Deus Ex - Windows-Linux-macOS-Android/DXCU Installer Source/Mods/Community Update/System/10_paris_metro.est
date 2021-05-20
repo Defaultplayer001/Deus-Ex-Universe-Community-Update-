@@ -1,0 +1,133 @@
+[DeusExLevelInfo0]
+MissionLocation="París - Cerca de los Campos Elíseos"
+startupMessage[0]="París bajo ley marcial"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Desactivar bots patrulla militar",TriggerText="Bots militares desactivados",TriggerEvent=ComputerSpecialOption_shutdown)"
+specialOptions[1]="(Text="Activar bots patrulla militar",TriggerText="Bots militares activados",TriggerEvent=ComputerSpecialOption_wakeup)"
+
+[SkillAwardTrigger3]
+awardMessage="Bono de exploración"
+
+[Female4]
+FamiliarName="Agathe"
+UnfamiliarName="Madre"
+
+[Cop6]
+FamiliarName="Policía"
+UnfamiliarName="Policía"
+
+[Female6]
+FamiliarName="O"
+UnfamiliarName="Mujer"
+
+[Cop8]
+FamiliarName="Policía"
+UnfamiliarName="Policía"
+
+[Cop4]
+FamiliarName="Policía"
+UnfamiliarName="Policía"
+
+[Butler0]
+FamiliarName="Encargado nocturno"
+UnfamiliarName="Encargado nocturno"
+
+[Maid0]
+FamiliarName="Empleada del hotel"
+UnfamiliarName="Empleada del hotel"
+
+[Janitor0]
+FamiliarName="Leone"
+UnfamiliarName="Leone"
+
+[ThugMale0]
+FamiliarName="Hombre"
+UnfamiliarName="Hombre"
+
+[Bartender0]
+FamiliarName="Camarero del hotel"
+UnfamiliarName="Camarero del hotel"
+
+[Businessman0]
+FamiliarName="Renault"
+UnfamiliarName="Renault"
+
+[Mutt0]
+FamiliarName="Starr"
+UnfamiliarName="Starr"
+
+[Male3]
+FamiliarName="Joshua"
+UnfamiliarName="Joshua"
+
+[Businessman2]
+FamiliarName="Rene"
+UnfamiliarName="Hombre"
+
+[Female2]
+FamiliarName="Kristi"
+UnfamiliarName="Camarera del café"
+
+[SkillAwardTrigger4]
+awardMessage="Bono por exploración"
+
+[SkillAwardTrigger0]
+awardMessage="Bono por localización de zona"
+
+[Cop5]
+FamiliarName="Policía"
+UnfamiliarName="Policía"
+
+[Cop3]
+FamiliarName="Policía"
+UnfamiliarName="Policía"
+
+[Cop2]
+FamiliarName="Policía"
+UnfamiliarName="Policía"
+
+[Cop1]
+FamiliarName="Policía"
+UnfamiliarName="Policía"
+
+[Cop0]
+FamiliarName="Policía"
+UnfamiliarName="Policía"
+
+[LevelSummary]
+Title="Sin título"
+
+[SkillAwardTrigger2]
+awardMessage="Bono por éxito"
+
+[SkillAwardTrigger6]
+awardMessage="Bono por exploración"
+
+[Chef1]
+FamiliarName="Chef del café"
+UnfamiliarName="Chef del café"
+
+[NanoKey0]
+Description="Llave del hotel"
+
+[Cat0]
+FamiliarName="Gato"
+UnfamiliarName="Gato"
+
+[BlackHelicopter0]
+FamiliarName="Helicóptero negro"
+UnfamiliarName="Helicóptero negro"
+
+[Chef0]
+FamiliarName="Raymond"
+UnfamiliarName="Raymond"
+
+[ChildMale1]
+FamiliarName="Jon"
+UnfamiliarName="Jon"
+
+[Cop7]
+FamiliarName="Policía"
+UnfamiliarName="Policía"
+

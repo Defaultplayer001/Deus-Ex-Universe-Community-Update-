@@ -1,0 +1,30 @@
+[SkillAwardTrigger1]
+awardMessage="Area Location Bonus"
+
+[DeusExLevelInfo1]
+MissionLocation="NYC - New York Sewers"
+startupMessage[0]="NYC - New York Sewers"
+startupMessageJ[0]="ニューヨーク地下 下水道"
+
+[SkillAwardTrigger0]
+awardMessage="Accomplishment Bonus"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Water Treatment Junction",cameraTag=CameraA,doorTag=ArmoryDoor)"
+Views[1]="(titleString="Chemical Laboratory",cameraTag=CameraB,doorTag=Door1)"
+Views[2]="(titleString="Guard Quarters",cameraTag=CameraC)"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity1]
+Views[0]="(titleString="East Entry",cameraTag=Camera1,doorTag=DoorA)"
+Views[1]="(titleString="West Entry",cameraTag=Camera2)"
+Views[2]="(titleString="Pipe Access Tunnel",cameraTag=Camera3,turretTag=AutoTurretA)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="East Entry",cameraTag=Camera1,doorTag=DoorA)"
+Views[1]="(titleString="West Entry",cameraTag=Camera2)"
+Views[2]="(titleString="Pipe Access Tunnel",cameraTag=Camera3,turretTag=AutoTurretA)"
+specialOptions[0]="(Text="Rotate Bridge",TriggerText="Rotating Bridge",TriggerEvent=RotateBridge)"
+

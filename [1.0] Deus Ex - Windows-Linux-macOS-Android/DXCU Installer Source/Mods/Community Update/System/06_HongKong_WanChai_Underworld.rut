@@ -1,0 +1,182 @@
+[TriadRedArrow3]
+FamiliarName="Член триады 'Красная Стрела'"
+UnfamiliarName="Член триады 'Красная Стрела'"
+
+[Hooker4]
+FamiliarName="Мерседес"
+UnfamiliarName="Клубная девушка"
+
+[ThugMale5]
+FamiliarName="Винс"
+UnfamiliarName="Алкоголик"
+
+[Hooker2]
+FamiliarName="Танцовщица"
+UnfamiliarName="Танцовщица"
+
+[TriadRedArrow4]
+FamiliarName="Член триады 'Красная Стрела'"
+UnfamiliarName="Член триады 'Красная Стрела'"
+
+[LowerClassMale1]
+FamiliarName="Головорез"
+UnfamiliarName="Головорез"
+
+[Sailor0]
+FamiliarName="Борис"
+UnfamiliarName="Русский моряк"
+
+[TriadRedArrow6]
+FamiliarName="Телохранитель Чена"
+UnfamiliarName="Телохранитель Чена"
+
+[HKMilitary0]
+FamiliarName="Эдди Вей"
+UnfamiliarName="Китайский военный полицейский"
+
+[Female2]
+FamiliarName="Завсегдатай бара"
+UnfamiliarName="Завсегдатай бара"
+
+[Businessman3]
+FamiliarName="Служащий VersaLife"
+
+[TriadRedArrow8]
+FamiliarName="Вышибала"
+UnfamiliarName="Вышибала"
+
+[Sailor1]
+FamiliarName="Владимир"
+UnfamiliarName="Русский моряк"
+
+[TriadRedArrow2]
+FamiliarName="Член триады 'Красная Стрела'"
+UnfamiliarName="Член триады 'Красная Стрела'"
+
+[TriadRedArrow1]
+FamiliarName="Член триады 'Красная Стрела'"
+UnfamiliarName="Член триады 'Красная Стрела'"
+
+[HKMilitary2]
+FamiliarName="Эдди Вей"
+UnfamiliarName="Китайский военный полицейский"
+
+[HKMilitary1]
+FamiliarName="Эдди Вей"
+UnfamiliarName="Китайский военный полицейский"
+
+[Businessman1]
+FamiliarName="М-р Синг"
+UnfamiliarName="Скучный мужчина"
+
+[Female4]
+FamiliarName="Девушка легкого поведения"
+UnfamiliarName="Девушка легкого поведения"
+
+[JunkieFemale0]
+FamiliarName="Девушка в оцепенении"
+UnfamiliarName="Девушка в оцепенении"
+
+[TriadRedArrow7]
+FamiliarName="Вышибала"
+UnfamiliarName="Вышибала"
+
+[Female7]
+FamiliarName="Мамасан"
+UnfamiliarName="Мамасан"
+
+[Female6]
+FamiliarName="Девушка легкого поведения"
+UnfamiliarName="Девушка легкого поведения"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Открыть хранилище",TriggerText="Хранилище открыто",TriggerEvent=Safe_door)"
+
+[Bartender0]
+FamiliarName="Исаак"
+
+[Female5]
+FamiliarName="Девушка легкого поведения"
+UnfamiliarName="Девушка легкого поведения"
+
+[Sailor2]
+FamiliarName="Дмитрий"
+UnfamiliarName="Русский моряк"
+
+[TriadRedArrow5]
+FamiliarName="Телохранитель Чена"
+UnfamiliarName="Телохранитель Чена"
+
+[SkillAwardTrigger3]
+awardMessage="Премия за исследование"
+
+[Female1]
+FamiliarName="Билетерша"
+UnfamiliarName="Билетерша"
+
+[Sailor3]
+FamiliarName="Иван"
+UnfamiliarName="Русский моряк"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Обзор клуба",CameraTag=ClubCam1)"
+Views[1]="(titleString="Касса и сейф",CameraTag=ClubCam2,doorTag=Strongbox)"
+Views[2]="(titleString="Служебная лестница",CameraTag=ClubCam3)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Охрана Quick Stop",CameraTag=SecurityCamera)"
+Views[1]="(titleString="Охрана Quick Stop",CameraTag=SecurityCamera1,doorTag=StoreDoor)"
+
+[Hooker0]
+FamiliarName="Кэрол"
+UnfamiliarName="Робкая женщина"
+
+[SkillAwardTrigger12]
+awardMessage="Премия за продвижение"
+
+[LowerClassFemale1]
+FamiliarName="Тесса"
+UnfamiliarName="Девушка легкого поведения"
+
+[LowerClassMale0]
+FamiliarName="Лоренс"
+UnfamiliarName="Неудачник"
+
+[Businesswoman0]
+UnfamiliarName="Служащий VersaLife"
+
+[Secretary0]
+FamiliarName="Лиза"
+UnfamiliarName="Привлекательная женщина"
+
+[SkillAwardTrigger13]
+awardMessage="Премия за взаимодействие с персонажами"
+
+[TriadRedArrow0]
+FamiliarName="Член триады 'Красная Стрела'"
+UnfamiliarName="Член триады 'Красная Стрела'"
+
+[LevelSummary]
+Title="Untitled"
+
+[Female10]
+FamiliarName="Маймай"
+UnfamiliarName="Юный эскорт"
+
+[SarahMead0]
+FamiliarName="Линг"
+UnfamiliarName="Юный эскорт"
+
+[Female3]
+FamiliarName="Девушка легкого поведения"
+UnfamiliarName="Девушка легкого поведения"
+
+[DeusExLevelInfo0]
+MissionLocation="Гонконг - Клуб 'Lucky Money'"
+startupMessage[0]="Подземный торговый центр Ван Чай"
+startupMessage[1]="Клуб 'Lucky Money'"
+
+[HKMilitary3]
+FamiliarName="Эдди Вей"
+UnfamiliarName="Китайский военный полицейский"
+

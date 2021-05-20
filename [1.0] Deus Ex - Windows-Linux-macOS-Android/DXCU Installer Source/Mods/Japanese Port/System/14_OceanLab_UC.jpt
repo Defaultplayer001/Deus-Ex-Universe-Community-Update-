@@ -1,0 +1,23 @@
+[SpecialEvent0]
+Message="No New Messages"
+
+[ComputerSecurity0]
+Views[0]="(titleString="UC Access Bridge",cameraTag=bridgecam)"
+specialOptions[0]="(Text="Activate Bridge",TriggerText="Bridge Extending",TriggerEvent=Activate)"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger0]
+awardMessage="Goal Accomplishment Bonus"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Access UC Schematics ",TriggerText="Schematic Downloaded",TriggerEvent=schematic,bTriggerOnceOnly=True)"
+specialOptions[1]="(bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="New West Coast - OceanLab UC"
+startupMessage[0]="New West Coast - OceanLab UC
+startupMessageJ[0]="ニューウエストコースト　海洋研究所統合コンピュータ"
+
+

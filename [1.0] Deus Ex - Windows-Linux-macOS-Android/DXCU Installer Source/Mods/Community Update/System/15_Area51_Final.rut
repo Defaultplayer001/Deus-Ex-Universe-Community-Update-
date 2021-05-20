@@ -1,0 +1,45 @@
+[SkillAwardTrigger15]
+awardMessage="Премия за исследование"
+
+[DeusExLevelInfo0]
+MissionLocation="Зона 51 - Финал"
+
+[NanoKey0]
+Description="Ключ к лестничному проему"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(CameraTag=gen_camera,doorTag=door_generator)"
+Views[1]="(CameraTag=radiation_camera)"
+specialOptions[0]="(Text="Открыть контейнер с приращением",TriggerEvent=Aug_door,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за исследование"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за исследование"
+
+[SkillAwardTrigger13]
+awardMessage="Премия за критическую локацию"
+
+[SkillAwardTrigger12]
+awardMessage="Премия за критическую локацию"
+
+[SkillAwardTrigger11]
+awardMessage="Премия за критическую локацию"
+
+[SkillAwardTrigger14]
+awardMessage="Премия за исследование"
+
+[Mechanic2]
+FamiliarName="Джерри"
+
+[MIB1]
+UnfamiliarName="Человек в черном"
+
+[Switch14]
+FamiliarName="Гелиос"
+UnfamiliarName="Гелиос"
+

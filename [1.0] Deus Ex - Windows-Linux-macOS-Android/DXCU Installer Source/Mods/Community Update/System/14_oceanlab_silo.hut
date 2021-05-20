@@ -1,0 +1,38 @@
+[SecurityCamera3]
+FamiliarName="Rakétasiló"
+
+[NanoKey1]
+Description="Pótkocsiajtó kulcsa"
+
+[SkillAwardTrigger0]
+awardMessage="Feladatteljesítési bónusz"
+
+[NanoKey8]
+Description="Fõkapu kulcsa"
+
+[SpecialEvent5]
+Message="Rakéta kilövése megszakítva"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Siló",CameraTag=rocketcam)"
+Views[1]="(titleString="Rakéta indítóhajtómûve",CameraTag=rocketcam2)"
+specialOptions[0]="(Text="Új kilövés kezdése",TriggerText="Kilövés megkezdve.",TriggerEvent=klax,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger1]
+awardMessage="Fejlõdési jutalom"
+
+[SkillAwardTrigger6]
+awardMessage="Feladatteljesítési bónusz"
+
+[DeusExLevelInfo1]
+MissionLocation="Új Nyugati-part - Rakétasiló"
+
+[SecurityCamera38]
+FamiliarName="Rakétasiló"
+
+[ScientistMale0]
+FamiliarName="Dr. Bernard"
+
+[LevelSummary]
+Title="Untitled"
+

@@ -1,0 +1,50 @@
+[SkillAwardTrigger3]
+awardMessage="Премия за исследование"
+
+[SkillAwardTrigger5]
+awardMessage="Премия за обнаружение"
+
+[SkillAwardTrigger2]
+awardMessage="Премия за исследование"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Бронированные двери",CameraTag=doors,doorTag=blast_door)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Туннели обслуживания",CameraTag=camera_pipe,Turrettag=turret_pipe)"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за обнаружение"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за обнаружение"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Вход в бункер",CameraTag=hall_camera,Turrettag=hall_turret)"
+
+[SkillAwardTrigger6]
+awardMessage="Премия за продвижение"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="Ключ к башне"
+
+[NanoKey1]
+Description="Ключ к хранилищу"
+
+[DeusExLevelInfo0]
+MissionLocation="Зона 51 - Бункер"
+startupMessage[0]="Зона 51"
+startupMessage[1]="Рейчел Невада"
+
+[SkillAwardTrigger4]
+awardMessage="Премия за выполнение"
+
+[ComputerSecurity3]
+Views[0]="(CameraTag=shack_camera,Turrettag=shack_turret)"
+
+[Soldier0]
+FamiliarName="Ксандер"
+

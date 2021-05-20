@@ -1,0 +1,91 @@
+[NanoKey2]
+Description="UNATCO-Schrankcode"
+
+[SecurityCamera4]
+FamiliarName="UN_Schutztür_Medkam"
+
+[JosephManderley0]
+UnfamiliarName="Leiter der UNATCO"
+
+[SecurityCamera7]
+FamiliarName="UN_Retina_Kam"
+
+[SpecialEvent1]
+Message="Keine neuen Nachrichten"
+
+[RetinalScanner0]
+msgUsed="Retinastruktur gültig: Agent Denton ist zugangsberechtigt"
+
+[SpecialEvent0]
+Message="Retinastruktur ungültig: Agent Denton ist nicht zugangsberechtigt"
+
+[SecurityCamera6]
+FamiliarName="UN_Proteus_Kam"
+
+[RetinalScanner1]
+msgUsed="Retinastruktur ungültig: Agent Denton ist nicht zugangsberechtigt"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="UNATCO-Mitarbeiterin"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="UNATCO-Sekretärin"
+
+[SecurityCamera3]
+FamiliarName="UN_Medikam01"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[WaltonSimons0]
+FamiliarName="Regierungsbeauftragter"
+UnfamiliarName="Regierungsbeauftragter"
+
+[UNATCOTroop29]
+FamiliarName="Scott"
+UnfamiliarName="UNATCO-Trooper"
+
+[Terrorist1]
+FamiliarName="Inhaftierter Terrorist"
+UnfamiliarName="Inhaftierter Terrorist"
+
+[UNATCOTroop4]
+FamiliarName="UNATCO-Trooper"
+UnfamiliarName="UNATCO-Trooper"
+
+[UNATCOTroop0]
+FamiliarName="Corporal Collins"
+UnfamiliarName="UNATCO-Trooper"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - UNATCO HQ"
+
+[SecurityCamera0]
+FamiliarName="UN_Lobbykam01"
+
+[SecurityCamera1]
+FamiliarName="UN_Konferenzkam01"
+
+[UNATCOTroop1]
+FamiliarName="Sgt. Michael Berry"
+
+[UNATCOTroop2]
+FamiliarName="UNATCO-Trooper"
+UnfamiliarName="UNATCO-Trooper"
+
+[UNATCOTroop3]
+FamiliarName="UNATCO-Trooper"
+UnfamiliarName="UNATCO-Trooper"
+
+[Terrorist0]
+FamiliarName="Inhaftierter Terrorist"
+UnfamiliarName="Inhaftierter Terrorist"
+
+[NanoKey0]
+Description="Schlüssel zu Manderleys Büro"
+
+[SecurityCamera2]
+FamiliarName="UN_QMKam01"
+

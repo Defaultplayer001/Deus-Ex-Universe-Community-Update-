@@ -1,0 +1,30 @@
+[NanoKey2]
+PickupMessage=""
+ItemName=""
+ItemArticle=""
+M_Activated=""
+M_Selected=""
+M_Deactivated=""
+Description=""
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Naval Assembly Building AC System"
+startupMessage[0]="NYC - Naval Assembly Building AC System"
+startupMessageJ[0]="ニューヨーク海軍組立工場空調システム"
+
+
+[SkillAwardTrigger0]
+awardMessage="Area Location Bonus"
+
+[SkillAwardTrigger1]
+awardMessage="Accomplishment Bonus"
+
+[ComputerSecurity6]
+Views[0]="(titleString="Fan Room",cameraTag=Main,doorTag=MainDuctVent)"
+
+[LevelSummary]
+Title="Untitled"
+
+[ZoneInfo0]
+DamageString="This area is extremely HOT"
+

@@ -1,0 +1,66 @@
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за успехи"
+
+[SkillAwardTrigger2]
+awardMessage="Премия за обнаружение"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за исследование"
+
+[NanoKey0]
+Description="Ключ к двери киоска"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Баттери Парк"
+startupMessage[0]="Нью-Йорк, Баттери Парк"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Складское хранилище",CameraTag=Warehouse,Turrettag=Turret1)"
+Views[1]="(titleString="Мост в туннеле",CameraTag=Walkway,Turrettag=Turret2)"
+Views[2]="(titleString="Вход в док",CameraTag=Boathouse,Turrettag=Turret3)"
+
+[BumFemale0]
+FamiliarName="Бродяжка"
+UnfamiliarName="Бродяжка"
+
+[SkillAwardTrigger6]
+awardMessage="Премия за успехи"
+
+[ChildMale1]
+FamiliarName="Джош"
+UnfamiliarName="Ребенок"
+
+[SkillAwardTrigger10]
+awardMessage="Премия за обнаружение"
+
+[JunkieMale2]
+FamiliarName="Больной мужчина"
+UnfamiliarName="Больной мужчина"
+
+[NanoKey3]
+Description="Ключ к дверям киоска"
+
+[JunkieFemale0]
+FamiliarName="Больная женщина"
+UnfamiliarName="Больная женщина"
+
+[ChildMale0]
+FamiliarName="Билли"
+UnfamiliarName="Ребенок"
+
+[SkillAwardTrigger5]
+awardMessage="Премия за успехи"
+
+[BumMale3]
+FamiliarName="Бывший заложник"
+UnfamiliarName="Заложник"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=LeadTerrorist,KeyID=CCSafe,Description="Ключ к сейфу в замке Клинтона")"
+
+[ComputerPersonal1]
+specialOptions[0]="(Text="Открыть ворота в туннель",TriggerText="Главные ворота открыты",TriggerEvent=MainDoors)"
+

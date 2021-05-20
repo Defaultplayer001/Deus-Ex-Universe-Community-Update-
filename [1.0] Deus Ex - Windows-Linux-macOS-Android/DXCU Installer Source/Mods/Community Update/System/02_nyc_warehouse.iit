@@ -1,0 +1,78 @@
+[SkillAwardTrigger13]
+awardMessage="Bonus di individuazione"
+
+[NanoKey0]
+Description="Chiave deposito nell'interrato del magazzino"
+
+[SkillAwardTrigger16]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger21]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger19]
+awardMessage="Bonus individuazione critica"
+
+[SkillAwardTrigger18]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger10]
+awardMessage="Bonus di individuazione"
+
+[BlackHelicopter1]
+FamiliarName="Elicottero"
+UnfamiliarName="Elicottero nero"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=DoorGuard,KeyID=WarehouseFrontDoor,Description="Porta anteriore del magazzino")"
+NanoKeyData[1]="(ScriptedPawnTag=JoJoFine,KeyID=Mirror,Description="Chiave della porta segreta")"
+
+[SkillAwardTrigger15]
+awardMessage="Bonus di successo"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Accesso al distretto commerciale",cameraTag=WareCamera1,turretTag=WareTurret1)"
+Views[1]="(titleString="Accesso al magazzino",cameraTag=WareCamera2,turretTag=WareTurret2)"
+Views[2]="(titleString="Ingresso al sotterraneo",cameraTag=BaseCam1,turretTag=SubTurret,doorTag=DrainEntry)"
+
+[GoalCompleteTrigger0]
+Message="Generatore esploso. Missione compiuta."
+
+[ComputerSecurity0]
+Views[0]="(titleString="Ingresso alle fogne",cameraTag=BaseCam1,turretTag=SubTurret)"
+Views[1]="(titleString="Corridoio sotterraneo secondario",cameraTag=BaseCam2)"
+Views[2]="(titleString="Corridoio sotterraneo primario",cameraTag=BaseCam3)"
+
+[SkillAwardTrigger4]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger14]
+awardMessage="Bonus di individuazione"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[SkillAwardTrigger20]
+awardMessage="Bonus di esplorazione"
+
+[SkillAwardTrigger23]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger22]
+awardMessage="Bonus di successo"
+
+[ComputerPersonal5]
+specialOptions[0]="(Text="Disattiva il generatore",TriggerText="Sistema di raffreddamento disattivato. Esplosione imminente.",TriggerEvent=BlowEvents,bTriggerOnceOnly=True)"
+
+[InterpolateTrigger0]
+Message="Elicottero arrivato"
+
+[SkillAwardTrigger17]
+awardMessage="Bonus di successo"
+
+[SpecialEvent0]
+Message="Blocco del refrigerante del nucleo. Esplosione del generatore imminente!"
+
+[DeusExLevelInfo0]
+MissionLocation="NY - Distretto commerciale"
+

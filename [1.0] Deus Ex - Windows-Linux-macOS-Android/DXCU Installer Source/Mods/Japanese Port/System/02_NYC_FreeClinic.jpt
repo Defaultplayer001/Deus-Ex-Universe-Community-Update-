@@ -1,0 +1,47 @@
+[BumFemale1]
+FamiliarName="Sick Female"
+UnfamiliarName="Sick Female"
+
+[JunkieFemale0]
+FamiliarName="Sick woman"
+UnfamiliarName="Unhealthy looking woman"
+
+[BumMale3]
+FamiliarName="Old Bum"
+UnfamiliarName="Old Bum"
+
+[BumMale1]
+FamiliarName="Sick street person"
+UnfamiliarName="Sick looking guy"
+
+[Female1]
+FamiliarName="Receptionist"
+UnfamiliarName="Receptionist"
+
+[BumMale4]
+FamiliarName="Old Bum"
+UnfamiliarName="Old Bum"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Doctor,KeyID=Cabinet,Description="Medical cabinet key",SkinColor=SC_Level2)"
+NanoKeyData[1]="(ScriptedPawnTag=Nurse,KeyID=Cabinet,Description="Medical cabinet key",SkinColor=SC_Level2)"
+
+[SkillAwardTrigger6]
+awardMessage="Goal Accomplishment Bonus"
+
+[BumFemale0]
+FamiliarName="Homeless Lady"
+UnfamiliarName="Homeless Lady"
+
+[BumMale2]
+FamiliarName="Homeless Man"
+UnfamiliarName="Homeless Man"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Free Clinic"
+startupMessage[0]="NYC - Free Clinic"
+startupMessageJ[0]="ニューヨーク　フリー・クリニック"
+

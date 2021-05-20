@@ -1,0 +1,28 @@
+[SkillAwardTrigger1]
+awardMessage="Area Location Bonus"
+
+[SkillAwardTrigger0]
+awardMessage="Accomplishment Bonus"
+
+[Janitor0]
+FamiliarName="Gate Keeper"
+UnfamiliarName="Gate Keeper"
+
+[Switch0]
+FamiliarName="Call button"
+UnfamiliarName="Call button"
+
+[SkillAwardTrigger2]
+awardMessage="Accomplishment Bonus"
+
+[BlackHelicopter1]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Lower East Side Cemetary"
+startupMessage[0]="New York City, Lower East Side Cemetary"
+startupMessageJ[0]="ニューヨーク　ロウアーイースト　墓地"

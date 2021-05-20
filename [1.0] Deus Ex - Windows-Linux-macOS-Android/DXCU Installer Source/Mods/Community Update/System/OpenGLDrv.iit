@@ -1,0 +1,14 @@
+[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+Preferences=(Caption="Rendering",Parent="Opzioni avanzate")
+Preferences=(Caption="Supporto OpenGL",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[OpenGLRenderDevice]
+ClassCaption="Supporto OpenGL"
+AskInstalled=Hai una scheda acceleratrice 3D compatibile OpenGL?
+AskUse=Vuoi che Deus Ex sfrutti la tua scheda compatibile OpenGL?
+
+[Errors]
+NoFindGL=Impossibile trovare il driver OpenGL %s
+MissingFunc=Funzione mancante OpenGL %s (%i)
+ResFailed=Impostazione risoluzione fallita

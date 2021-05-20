@@ -1,0 +1,79 @@
+[JunkieMale1]
+FamiliarName="Penner"
+UnfamiliarName="Penner"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[SkillAwardTrigger4]
+awardMessage="Fortschrittsbonus"
+
+[SkillAwardTrigger0]
+awardMessage="Entdeckungsbonus"
+
+[SkillAwardTrigger1]
+awardMessage="Einsatzziel-Bonus"
+
+[NanoKey1]
+Description="Schlüssel für Tür zum Abwasserkanal"
+
+[SkillAwardTrigger3]
+awardMessage="Fortschrittsbonus"
+
+[SkillAwardTrigger5]
+awardMessage="Einsatzziel-Bonus"
+
+[BumMale0]
+FamiliarName="Mitglied der Silhouette"
+UnfamiliarName="Mitglied der Silhouette"
+
+[ThugMale1]
+FamiliarName="Mitglied der Silhouette"
+UnfamiliarName="Mitglied der Silhouette"
+
+[Chad0]
+UnfamiliarName="Anführer der Silhouette"
+
+[WIB0]
+FamiliarName="Agent Hela"
+
+[ChildMale0]
+FamiliarName="Pierre"
+
+[SkillAwardTrigger2]
+awardMessage="Durchführungsbonus"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Bunkereingang",cameraTag=mj12catacam01,turretTag=mj12cataturret01)"
+Views[1]="(titleString="Geiselverwahrung",cameraTag=mj12catacam02,turretTag=mj12cataturret02)"
+
+[Hooker1]
+FamiliarName="Mitglied der Silhouette"
+UnfamiliarName="Mitglied der Silhouette"
+
+[LowerClassFemale0]
+FamiliarName="Anna"
+UnfamiliarName="Mitglied der Silhouette"
+
+[JunkieMale0]
+FamiliarName="Juveau"
+UnfamiliarName="Mitglied der Silhouette"
+
+[SkillAwardTrigger6]
+awardMessage="Fortschrittsbonus"
+
+[NanoKey0]
+Description="Schlüssel für Schutztür"
+
+[BumFemale0]
+FamiliarName="Mitglied der Silhouette"
+UnfamiliarName="Mitglied der Silhouette"
+
+[DeusExLevelInfo5]
+MissionLocation="Paris - Katacomben"
+startupMessage[0]="Die Katakomben von Paris"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Chad,KeyID=catacombs_blastdoor,Description="Schlüssel für Schutztüre")"
+
+

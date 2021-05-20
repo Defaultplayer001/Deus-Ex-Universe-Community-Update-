@@ -1,0 +1,58 @@
+[BumMale2]
+FamiliarName="Vakondember"
+UnfamiliarName="Vakondember"
+
+[DeusExLevelInfo0]
+MissionLocation="New York City - Vakondemberek alagútjai"
+
+[LevelSummary]
+Title="Untitled"
+
+[BumMale1]
+FamiliarName="Vakondember"
+UnfamiliarName="Vakondember"
+
+[ChildMale0]
+FamiliarName="Vakond-kölyök"
+UnfamiliarName="Vakond-kölyök"
+
+[SkillAwardTrigger8]
+awardMessage="Teljesítési jutalom"
+
+[Terrorist33]
+FamiliarName="Terroristavezér"
+UnfamiliarName="Terroristavezér"
+
+[BumFemale3]
+FamiliarName="Vakondember"
+UnfamiliarName="Vakondember"
+
+[BumFemale4]
+FamiliarName="Vakondember"
+UnfamiliarName="Vakondember"
+
+[BumMale0]
+FamiliarName="Kevin Bradley"
+UnfamiliarName="Vakondember"
+
+[ChildMale1]
+FamiliarName="Vakond-kölyök"
+UnfamiliarName="Vakond-kölyök"
+
+[ChildMale2]
+FamiliarName="Vakond-kölyök"
+UnfamiliarName="Vakond-kölyök"
+
+[SkillAwardTrigger6]
+awardMessage="Haladási jutalom"
+
+[NanoKey0]
+Description="Vakondemberek mosdókulcsa"
+
+[JunkieMale0]
+FamiliarName="Vakondember"
+UnfamiliarName="Vakondember"
+
+[SkillAwardTrigger7]
+awardMessage="Felderítési jutalom"
+

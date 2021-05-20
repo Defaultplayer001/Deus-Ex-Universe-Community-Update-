@@ -1,0 +1,52 @@
+[TriadRedArrow3]
+FamiliarName="Wachmann von Tong"
+UnfamiliarName="Wachmann von Tong"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Tongs Basis"
+startupMessage[0]="Tracer Tongs Laboratorium"
+
+[TriadRedArrow4]
+FamiliarName="Wachmann von Tong"
+UnfamiliarName="Wachmann von Tong"
+
+[TriadRedArrow1]
+FamiliarName="Wachmann von Tong"
+UnfamiliarName="Wachmann von Tong"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[NanoKey0]
+PickupMessage="Sie haben den Schlüssel zu Jocks Apartment gefunden."
+Description="Jocks Apartment in der Tonnochi Road"
+
+[TriadLumPath1]
+FamiliarName="Wachmann von Tong"
+UnfamiliarName="Wachmann von Tong"
+
+[TriadLumPath0]
+FamiliarName="Wachmann von Tong"
+UnfamiliarName="Wachmann von Tong"
+
+[TriadLumPath3]
+FamiliarName="Wachmann von Tong"
+UnfamiliarName="Wachmann von Tong"
+
+[TriadLumPath4]
+FamiliarName="Wachmann von Tong"
+UnfamiliarName="Wachmann von Tong"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[SkillAwardTrigger0]
+awardMessage="Durchführungsbonus"
+
+[TriadLumPath2]
+FamiliarName="Wachmann von Tong"
+UnfamiliarName="Wachmann von Tong"
+
+[TriadRedArrow0]
+FamiliarName="Wachmann von Tong"
+UnfamiliarName="Wachmann von Tong"

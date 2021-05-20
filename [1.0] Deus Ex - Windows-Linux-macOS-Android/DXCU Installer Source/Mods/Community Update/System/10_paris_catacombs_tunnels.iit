@@ -1,0 +1,78 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Chad,KeyID=catacombs_blastdoor,Description="Chiave della porta di sicurezza")"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Ingresso bunker",cameraTag=mj12catacam01,turretTag=mj12cataturret01)"
+Views[1]="(titleString="Zona detenzione ostaggi",cameraTag=mj12catacam02,turretTag=mj12cataturret02)"
+
+[DeusExLevelInfo5]
+MissionLocation="Paris - Catacombe"
+startupMessage[0]="Les catacombes de Paris"
+
+[NanoKey1]
+Description="Chiave d'ingresso alle catacombe attraverso le fogne"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[BumFemale0]
+FamiliarName="Membro della Silhouette"
+UnfamiliarName="Membro della Silhouette"
+
+[SkillAwardTrigger4]
+awardMessage="Bonus di avanzamento"
+
+[JunkieMale1]
+FamiliarName="Barbone"
+UnfamiliarName="Barbone"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus locazione critica"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus acquisizione soggetti"
+
+[Hooker1]
+FamiliarName="Membro della Silhouette"
+UnfamiliarName="Membro della Silhouette"
+
+[SkillAwardTrigger5]
+awardMessage="Bonus acquisizione soggetti"
+
+[SkillAwardTrigger6]
+awardMessage="Bonus di avanzamento"
+
+[JunkieMale0]
+FamiliarName="Juveau"
+UnfamiliarName="Membro della Silhouette"
+
+[LowerClassFemale0]
+FamiliarName="Anna"
+UnfamiliarName="Membro della Silhouette"
+
+[NanoKey0]
+Description="Chiave della porta corazzata"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di avanzamento"
+
+[ChildMale0]
+FamiliarName="Pierre"
+
+[WIB0]
+FamiliarName="Agente Hela"
+
+[Chad0]
+UnfamiliarName="Capo della Silhouette"
+
+[ThugMale1]
+FamiliarName="Membro della Silhouette"
+UnfamiliarName="Membro della Silhouette"
+
+[BumMale0]
+FamiliarName="Membro della Silhouette"
+UnfamiliarName="Membro della Silhouette"
+
