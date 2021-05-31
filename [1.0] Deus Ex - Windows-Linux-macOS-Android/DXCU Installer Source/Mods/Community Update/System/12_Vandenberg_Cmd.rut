@@ -31,7 +31,7 @@ FamiliarName="Карла Браун"
 awardMessage="Премия за исследование"
 
 [Mechanic1]
-FamiliarName="Лэрри"
+FamiliarName="Ларри"
 UnfamiliarName="Техник"
 
 [SkillAwardTrigger2]
@@ -52,9 +52,9 @@ FamiliarName="Джок"
 UnfamiliarName="Джок"
 
 [ComputerSecurity2]
-Views[0]="(CameraTag=camera_main)"
-Views[1]="(CameraTag=camera_lobby,Turrettag=turret_main1)"
-Views[2]="(CameraTag=camera_lobby2,Turrettag=turret_main2)"
+Views[0]="(titleString="Лифт",CameraTag=camera_main)"
+Views[1]="(titleString="Регистратура",CameraTag=camera_lobby,Turrettag=turret_main1)"
+Views[2]="(titleString="Вход в вестибюль",CameraTag=camera_lobby2,Turrettag=turret_main2)"
 
 [DirectionalTrigger2]
 Message="worked"
@@ -84,9 +84,9 @@ awardMessage="Премия за исследование"
 Message="logic trig"
 
 [ComputerSecurity1]
-Views[0]="(CameraTag=camera_main)"
-Views[1]="(CameraTag=camera_lobby,Turrettag=turret_main1)"
-Views[2]="(CameraTag=camera_lobby2,Turrettag=turret_main2)"
+Views[0]="(titleString="Лифт",CameraTag=camera_main)"
+Views[1]="(titleString="Регистратура",CameraTag=camera_lobby,Turrettag=turret_main1)"
+Views[2]="(titleString="Вход в вестибюль",CameraTag=camera_lobby2,Turrettag=turret_main2)"
 
 [ScientistMale1]
 FamiliarName="Тим Бейкер"
@@ -105,7 +105,7 @@ Message="worked"
 Title="Untitled"
 
 [ScientistMale0]
-FamiliarName="Д-р Тони Мейрс"
+FamiliarName="Д-р Тони Мейрес"
 
 [DeusExLevelInfo1]
 MissionLocation="Ванденберг - Командный центр"

@@ -26,6 +26,13 @@ Create / update a mod installer:
 
 4. Run "(Run this!) Create Deus Ex Mod Setup.bat"
 
+If no files were ADDED or REMOVED, the following can also simply be done. 
+Update a mod installer:
+
+1. Navigate to \Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator
+
+2. Run "Setup.exe Creator.bat"
+
 
 
 Update your mod: 

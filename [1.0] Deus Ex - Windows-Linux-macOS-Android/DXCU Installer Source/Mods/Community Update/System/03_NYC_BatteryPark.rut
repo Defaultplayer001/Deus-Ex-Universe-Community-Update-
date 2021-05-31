@@ -6,9 +6,9 @@ FamiliarName="Бродяжка"
 UnfamiliarName="Бродяжка"
 
 [DeusExLevelInfo0]
-MissionLocation="Нью-Йорк - Баттери Парк"
+MissionLocation="Нью-Йорк - Бэттери Парк"
 startupMessage[0]="Нью-Йорк,"
-startupMessage[1]="Баттери Парк"
+startupMessage[1]="Бэттери Парк"
 
 [BumFemale0]
 FamiliarName="Бродяжка"

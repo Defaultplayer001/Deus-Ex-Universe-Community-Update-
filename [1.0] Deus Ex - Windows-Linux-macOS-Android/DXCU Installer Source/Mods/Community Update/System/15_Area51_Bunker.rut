@@ -37,7 +37,7 @@ Description="Ключ к хранилищу"
 [DeusExLevelInfo0]
 MissionLocation="Зона 51 - Бункер"
 startupMessage[0]="Зона 51"
-startupMessage[1]="Рейчел Невада"
+startupMessage[1]="Рейчел, штат Невада"
 
 [SkillAwardTrigger4]
 awardMessage="Премия за выполнение"

@@ -6,12 +6,9 @@ rem Replace everything after "="
 set Fullvalue=ModTitle
 set DevName=YourName
 
-rem Keep the following single words
-set value=ModAcronym
 rem Leave empty if using the root / not using a subdir, also make sure to disable the del command for systemfileslist.txt at the top of Manifest Merge.bat
 set Subvalue=ModSubdirectory
 set EXEvalue=EXEName
-set Language=int
 set version=ModVersion
 
 
@@ -34,10 +31,10 @@ rem Changes developer name
 
 
 rem Change mod name in manifest.ini
-call "%~dp0\fart.exe" "%~dp0\System\Manifest.ini" "DeusExModString" "%value%"
+call "%~dp0\fart.exe" "%~dp0\System\Manifest.ini" "DeusExModString" "%Fullvalue%"
 
 rem Change mod name in manifest.int
-call "%~dp0\fart.exe" "%~dp0\System\Manifest.%Language%" "Deus Ex Mod" "%Fullvalue%"
+"%~dp0\fart.exe" "%~dp0\System\Manifest.int" "Deus Ex Mod" "%Fullvalue%"
 rem "%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\Manifest.*" "Deus Ex Mod" "%Fullvalue%"
 
 
@@ -47,11 +44,10 @@ Rem Adds custom subdir to manifestheader.ini
 rem Remove Substring from any optional file entries, needs to be set BEFORE custom subdir write or it will DELETE it. 
 rem Remove any backslash from value for writing a file name
 set SubvalueSafe=%Subvalue:\=%
-"%~dp0\fart.exe" "%~dp0\System\Manifest.%Language%" "Caption=%SubvalueSafe%" "Caption="
+"%~dp0\fart.exe" "%~dp0\System\Manifest.int" "Caption=%SubvalueSafe%" "Caption="
 
 echo %SubvalueSafe%
 
-pause
 
 Rem Adds custom subdir to manifest.int
 "%~dp0\fart.exe" "%~dp0\system\Manifest.int" "subdir" "%Subvalue%"
@@ -64,10 +60,7 @@ Rem Changes version number
 "%~dp0\fart.exe" "%~dp0\System\Manifest.ini" "1300u" "%Version%"
 
 rem 7Zip files isolated to make cleanup easier
-"%~dp0\fart.exe" "%~dp0\Safety Switch\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%value%" 
-"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%value%" 
+"%~dp0\fart.exe" "%~dp0\Safety Switch\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%Fullvalue%" 
+"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%Fullvalue%" 
 "%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "DeusExModFullName" "%Fullvalue%" 
 "%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "subdir" "%Subvalue%"
-
-Rem Rename anything not caught in the previous step (Set last JIC, had issues with it rewriting THIS .bat before. Experiment with.)
-"%~dp0\fart.exe" "%~dp0\*.*" "Deus Ex Mod" "%value%" 

@@ -1,8 +1,0 @@
-20190603:
- - FOutputDevice::Logf is now unlimited and will properly null terminate as well.
- - appSprintf is now unlimited and won't stop after 1024 characters without termininating the string.
- - appGetVarArgs will now always terminates the string.
- - A hardcoded string is now used in place of the broken LoadClassMismatch localisation entry in Core.int.
-
-20190602:
- - Testing build.

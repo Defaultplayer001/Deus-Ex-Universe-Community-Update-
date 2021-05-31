@@ -8,23 +8,23 @@ UnfamiliarName="Исследователь псионики"
 
 [ScientistFemale2]
 FamiliarName="Д-р Бейтс"
-UnfamiliarName="Ученый-компьютерщик"
+UnfamiliarName="Ученая-кибернетик"
 
 [MJ12Troop12]
 FamiliarName="Охранник лаборатории"
 UnfamiliarName="Охранник лаборатории"
 
 [ComputerSecurity2]
-Views[0]="(titleString="Лаб.иссл.приращений",CameraTag=Camera1,doorTag=SubjectDoors1)"
-Views[1]="(titleString="Ядро главного компьютера",CameraTag=Camera2)"
-Views[2]="(titleString="Главный холл",CameraTag=Camera3,doorTag=trap_door)"
+Views[0]="(titleString="Лаб.иссл.аугментаций",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Главный компьютер",CameraTag=Camera2)"
+Views[2]="(titleString="Холл",CameraTag=Camera3,doorTag=trap_door)"
 
 [SkillAwardTrigger9]
 awardMessage="Премия за обнаружение"
 
 [NanoKey1]
-PickupMessage="Вы нашли ключ к магнитной камере приращений"
-Description="Ключ к магнитной камере приращений"
+PickupMessage="Вы нашли ключ к магнитной камере аугментаций"
+Description="Ключ к магнитной камере аугментаций"
 
 [DeusExLevelInfo4]
 MissionLocation="Гонконг - Лаборатория MJ12"
@@ -33,7 +33,7 @@ startupMessage[1]="Исследовательский комплекс"
 startupMessage[2]="в странах Тихоокеанского бассейна"
 
 [ComputerSecurity0]
-Views[0]="(titleString="Лаб.иссл.приращений",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[0]="(titleString="Лаб.иссл.аугментаций",CameraTag=Camera1,doorTag=SubjectDoors1)"
 Views[1]="(titleString="Ядро главного компьютера",CameraTag=Camera2)"
 Views[2]="(titleString="Главный холл",CameraTag=Camera3,doorTag=trap_door)"
 
@@ -78,11 +78,11 @@ UnfamiliarName="Охранник лаборатории"
 
 [ScientistFemale1]
 FamiliarName="Д-р Ландквист"
-UnfamiliarName="Исследователь генетики"
+UnfamiliarName="Ученая-генетик"
 
 [Secretary3]
-FamiliarName="Ассистент"
-UnfamiliarName="Ассистент"
+FamiliarName="Ассистентка"
+UnfamiliarName="Ассистентка"
 
 [MJ12Troop8]
 FamiliarName="Охранник лаборатории"
@@ -135,15 +135,15 @@ FamiliarName="Спец-охранник лаборатории"
 UnfamiliarName="Спец-охранник лаборатории"
 
 [Secretary2]
-FamiliarName="Ассистент"
-UnfamiliarName="Ассистент"
+FamiliarName="Ассистентка"
+UnfamiliarName="Ассистентка"
 
 [SkillAwardTrigger8]
 awardMessage="Премия за исследование"
 
 [Secretary1]
-FamiliarName="Ассистент"
-UnfamiliarName="Ассистент"
+FamiliarName="Ассистентка"
+UnfamiliarName="Ассистентка"
 
 [MJ12Troop13]
 FamiliarName="Охранник лаборатории"
@@ -158,14 +158,14 @@ FamiliarName="Охранник лаборатории"
 UnfamiliarName="Охранник лаборатории"
 
 [ComputerSecurity3]
-Views[0]="(titleString="Лаб.иссл.приращений",CameraTag=Camera1,doorTag=SubjectDoors1)"
-Views[1]="(titleString="Ядро главного компьютера",CameraTag=Camera2)"
-Views[2]="(titleString="Главный холл",CameraTag=Camera3,doorTag=trap_door)"
+Views[0]="(titleString="Лаб.иссл.аугментаций",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Главный компьютер",CameraTag=Camera2)"
+Views[2]="(titleString="Холл",CameraTag=Camera3,doorTag=trap_door)"
 
 [ComputerSecurity1]
-Views[0]="(titleString="Лаб.иссл.приращений",CameraTag=Camera1,doorTag=SubjectDoors1)"
-Views[1]="(titleString="Ядро главного компьютера",CameraTag=Camera2)"
-Views[2]="(titleString="Главный холл",CameraTag=Camera3,doorTag=trap_door)"
+Views[0]="(titleString="Лаб.иссл.аугментаций",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Главный компьютер",CameraTag=Camera2)"
+Views[2]="(titleString="Холл",CameraTag=Camera3,doorTag=trap_door)"
 
 [ComputerPersonal1]
 specialOptions[0]="(Text="Отключить радиацию в магнитной камере",TriggerText="Генератор радиации отключен",UnTriggerEvent=AugmentationRadiation,bTriggerOnceOnly=True)"

@@ -51,8 +51,8 @@ FamiliarName="Бывшая заложница"
 UnfamiliarName="Бывшая заложница"
 
 [ThugMale0]
-FamiliarName="Сводник"
-UnfamiliarName="Сводник"
+FamiliarName="Сутенер"
+UnfamiliarName="Сутенер"
 
 [RiotCop1]
 FamiliarName="Полицейский"
@@ -71,6 +71,6 @@ FamiliarName="Салли"
 
 [PickupDistributor1]
 NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=Apartment,Description="Ключ к апартаментам")"
-NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Ключ к передней двери Осгуд и Сыновья")"
-NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Ключ к задней двери Осгуд и Сыновья")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Ключ к передней двери Озгуд и Сыновья")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Ключ к задней двери Озгуд и Сыновья")"
 

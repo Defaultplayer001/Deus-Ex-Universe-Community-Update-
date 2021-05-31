@@ -54,7 +54,7 @@ ConnectingText=Соединение (F10 - отмена):
 ConnectingURL=deusex://%s/%s
 
 [Console]
-ClassCaption=Standard Deus Ex Console
+ClassCaption=Стандартный экран Deus Ex
 LoadingMessage=ЗАГРУЗКА
 SavingMessage=ЗАПИСЬ
 ConnectingMessage=СОЕДИНЕНИЕ

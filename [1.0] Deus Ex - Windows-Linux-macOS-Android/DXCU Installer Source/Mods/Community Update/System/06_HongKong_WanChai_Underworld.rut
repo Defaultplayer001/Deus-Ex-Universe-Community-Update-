@@ -35,8 +35,8 @@ FamiliarName="Эдди Вей"
 UnfamiliarName="Китайский военный полицейский"
 
 [Female2]
-FamiliarName="Завсегдатай бара"
-UnfamiliarName="Завсегдатай бара"
+FamiliarName="Постоянная посетительница"
+UnfamiliarName="Постоянная посетительница"
 
 [Businessman3]
 FamiliarName="Служащий VersaLife"
@@ -67,15 +67,15 @@ UnfamiliarName="Китайский военный полицейский"
 
 [Businessman1]
 FamiliarName="М-р Синг"
-UnfamiliarName="Скучный мужчина"
+UnfamiliarName="Чопорный мужчина"
 
 [Female4]
-FamiliarName="Девушка легкого поведения"
-UnfamiliarName="Девушка легкого поведения"
+FamiliarName="Тусовщица"
+UnfamiliarName="Тусовщица"
 
 [JunkieFemale0]
-FamiliarName="Девушка в оцепенении"
-UnfamiliarName="Девушка в оцепенении"
+FamiliarName="Девушка под кайфом"
+UnfamiliarName="Девушка под кайфом"
 
 [TriadRedArrow7]
 FamiliarName="Вышибала"
@@ -86,8 +86,8 @@ FamiliarName="Мамасан"
 UnfamiliarName="Мамасан"
 
 [Female6]
-FamiliarName="Девушка легкого поведения"
-UnfamiliarName="Девушка легкого поведения"
+FamiliarName="Тусовщица"
+UnfamiliarName="Тусовщица"
 
 [ComputerPersonal0]
 specialOptions[0]="(Text="Открыть хранилище",TriggerText="Хранилище открыто",TriggerEvent=Safe_door)"
@@ -96,8 +96,8 @@ specialOptions[0]="(Text="Открыть хранилище",TriggerText="Хранилище открыто",Tri
 FamiliarName="Исаак"
 
 [Female5]
-FamiliarName="Девушка легкого поведения"
-UnfamiliarName="Девушка легкого поведения"
+FamiliarName="Тусовщица"
+UnfamiliarName="Тусовщица"
 
 [Sailor2]
 FamiliarName="Дмитрий"
@@ -136,7 +136,7 @@ awardMessage="Премия за продвижение"
 
 [LowerClassFemale1]
 FamiliarName="Тесса"
-UnfamiliarName="Девушка легкого поведения"
+UnfamiliarName="Тусовщица"
 
 [LowerClassMale0]
 FamiliarName="Лоренс"
@@ -160,16 +160,16 @@ UnfamiliarName="Член триады 'Красная Стрела'"
 Title="Untitled"
 
 [Female10]
-FamiliarName="Маймай"
-UnfamiliarName="Юный эскорт"
+FamiliarName="Меймей"
+UnfamiliarName="Эскорт"
 
 [SarahMead0]
 FamiliarName="Линг"
-UnfamiliarName="Юный эскорт"
+UnfamiliarName="Эскорт"
 
 [Female3]
-FamiliarName="Девушка легкого поведения"
-UnfamiliarName="Девушка легкого поведения"
+FamiliarName="Тусовщица"
+UnfamiliarName="Тусовщица"
 
 [DeusExLevelInfo0]
 MissionLocation="Гонконг - Клуб 'Lucky Money'"

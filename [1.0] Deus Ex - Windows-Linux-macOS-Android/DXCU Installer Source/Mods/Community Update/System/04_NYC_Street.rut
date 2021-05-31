@@ -10,11 +10,11 @@ UnfamiliarName="Интерком"
 
 [PickupDistributor1]
 NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=ApartmentKey,Description="Ключ к апартаментам Пола")"
-NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Ключ к передней двери Осгуд и Сыновья")"
-NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Ключ к задней двери Осгуд и Сыновья")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Ключ к передней двери Озгуд и Сыновья")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Ключ к задней двери Озгуд и Сыновья")"
 
 [SpecialEvent0]
-Message="Баскетбол?!!? Ты должен играть в футбол: Вперед ковбои!"
+Message="Запишите его в команду Knicks!!!!"
 
 [SkillAwardTrigger9]
 awardMessage="Премия за выполнение"

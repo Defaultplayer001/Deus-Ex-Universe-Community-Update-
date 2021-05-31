@@ -1,0 +1,20 @@
+
+  Copyright (c) IstraSoft 2002
+
+  Installing, copying, or otherwise using this product indicates your acknowledgment that you have read this license and agree to be bound by and comply with its terms.
+
+  This software is provided 'as-is'. The author disclaims all warranties, expressed or implied.
+
+  In no event will the authors be held liable for any damages or data loss arising from the use of this software.
+
+  Supported file formats are property of 
+  
+  Discreet (3DS,ASC), 
+  AutoDesk (DXF), 
+  NewTek (LWO), 
+  WaveFront (OBJ) and 
+  Epic Games (T3D).
+
+  This notice may not be removed or altered from any distribution.
+
+  All feedback must be sent to istrasoft@hotmail.com

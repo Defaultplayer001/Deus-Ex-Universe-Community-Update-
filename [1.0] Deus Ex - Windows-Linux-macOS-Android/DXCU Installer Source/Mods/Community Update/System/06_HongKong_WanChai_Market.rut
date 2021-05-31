@@ -8,7 +8,7 @@ Title="Untitled"
 [ComputerSecurity1]
 Views[0]="(titleString="Главные ворота",CameraTag=compound1,doorTag=compound_gate)"
 Views[1]="(titleString="Внутренний двор",CameraTag=compound2)"
-Views[2]="(titleString="Главный вход Тонга",CameraTag=compound3)"
+Views[2]="(titleString="К Учителю Тонгу",CameraTag=compound3)"
 
 [ComputerSecurity0]
 Views[0]="(titleString="Рынок, проход 1",CameraTag=marketcamera1)"
@@ -60,7 +60,7 @@ FamiliarName="Китайский военный полицейский"
 UnfamiliarName="Китайский военный полицейский"
 
 [Secretary0]
-FamiliarName="Пэгги"
+FamiliarName="Пегги"
 UnfamiliarName="Любующаяся цветами"
 
 [Female4]
@@ -84,7 +84,7 @@ FamiliarName="Член триады 'Светлый Путь'"
 UnfamiliarName="Член триады 'Светлый Путь'"
 
 [HKMilitary4]
-FamiliarName="Офицер Там"
+FamiliarName="Офицер Тэм"
 UnfamiliarName="Китайский военный полицейский"
 
 [TriadLumPath5]

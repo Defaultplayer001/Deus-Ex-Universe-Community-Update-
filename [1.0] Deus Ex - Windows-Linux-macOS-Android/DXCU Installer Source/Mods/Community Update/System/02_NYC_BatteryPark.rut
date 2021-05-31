@@ -14,12 +14,12 @@ awardMessage="Премия за исследование"
 Description="Ключ к двери киоска"
 
 [DeusExLevelInfo0]
-MissionLocation="Нью-Йорк - Баттери Парк"
-startupMessage[0]="Нью-Йорк, Баттери Парк"
+MissionLocation="Нью-Йорк - Бэттери Парк"
+startupMessage[0]="Нью-Йорк, Бэттери Парк"
 
 [ComputerSecurity2]
 Views[0]="(titleString="Складское хранилище",CameraTag=Warehouse,Turrettag=Turret1)"
-Views[1]="(titleString="Мост в туннеле",CameraTag=Walkway,Turrettag=Turret2)"
+Views[1]="(titleString="Мост через туннель",CameraTag=Walkway,Turrettag=Turret2)"
 Views[2]="(titleString="Вход в док",CameraTag=Boathouse,Turrettag=Turret3)"
 
 [BumFemale0]
@@ -59,7 +59,7 @@ FamiliarName="Бывший заложник"
 UnfamiliarName="Заложник"
 
 [PickupDistributor1]
-NanoKeyData[0]="(ScriptedPawnTag=LeadTerrorist,KeyID=CCSafe,Description="Ключ к сейфу в замке Клинтона")"
+NanoKeyData[0]="(ScriptedPawnTag=LeadTerrorist,KeyID=CCSafe,Description="Ключ к сейфу в форте Касл-Клинтон")"
 
 [ComputerPersonal1]
 specialOptions[0]="(Text="Открыть ворота в туннель",TriggerText="Главные ворота открыты",TriggerEvent=MainDoors)"

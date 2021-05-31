@@ -13,7 +13,7 @@ awardMessage="Премия за исследование"
 Description="Ключ к канализации"
 
 [BumMale0]
-FamiliarName="Фрэд"
+FamiliarName="Фред"
 
 [PickupDistributor1]
 NanoKeyData[0]="(ScriptedPawnTag=Guard_Garage,KeyID=garage_entrance,Description="Ключ к двери гаража")"

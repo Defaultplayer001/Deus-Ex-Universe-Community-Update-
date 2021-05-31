@@ -1,0 +1,514 @@
+Begin Map
+Begin Actor Class=LevelInfo Name=LevelInfo2
+    TimeSeconds=27.634432
+    AIProfile(0)=3500
+    Level=LevelInfo'MyLevel.LevelInfo2'
+    Tag=LevelInfo
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo2',iLeaf=-1)
+    Name=LevelInfo2
+End Actor
+Begin Actor Class=Brush Name=Brush172
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    Level=LevelInfo'MyLevel.LevelInfo2'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo2',iLeaf=-1)
+    Begin Brush Name=Brush
+       Begin PolyList
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Brush'
+    Name=Brush172
+End Actor
+Begin Actor Class=Brush Name=Brush122
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    DistanceFromPlayer=2383.909180
+    Level=LevelInfo'MyLevel.LevelInfo2'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo2',iLeaf=-1)
+    Location=(X=-2051.997803,Y=1895.997681,Z=-596.000000)
+    Rotation=(Yaw=-49152)
+    OldLocation=(X=2193.002197,Y=1903.997681,Z=-630.000000)
+    bSelected=True
+    Begin Brush Name=Model122
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388608 Link=0
+             Origin   -00040.000065,-01640.000488,-00008.000031
+             Normal   +00000.447214,+00000.000000,-00000.894427
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00000.894427,+00000.000000,-00000.447214
+             Vertex   -00040.000004,+00003.999999,-00008.000000
+             Vertex   +00040.000004,+00003.999999,+00032.000000
+             Vertex   +00040.000004,-00003.999999,+00032.000000
+             Vertex   -00040.000004,-00003.999999,-00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388608 Link=1
+             Origin   -00067.998535,-01640.000488,+00018.400259
+             Normal   -00000.196116,+00000.000000,+00000.980581
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.961538,+00000.000000,+00000.192308
+             Vertex   -00040.000004,-00003.999999,+00024.000000
+             Vertex   +00040.000004,-00003.999999,+00040.000000
+             Vertex   +00040.000004,+00003.999999,+00040.000000
+             Vertex   -00040.000004,+00003.999999,+00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388608 Link=2
+             Origin   -00040.000004,-00004.000001,-00008.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00040.000004,-00003.999999,+00024.000000
+             Vertex   -00040.000004,-00003.999999,-00008.000000
+             Vertex   +00040.000004,-00003.999999,+00032.000000
+             Vertex   +00040.000004,-00003.999999,+00040.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388608 Link=3
+             Origin   +00039.999996,+00003.999999,-00008.000031
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00040.000004,+00003.999999,+00040.000000
+             Vertex   +00040.000004,+00003.999999,+00032.000000
+             Vertex   -00040.000004,+00003.999999,-00008.000000
+             Vertex   -00040.000004,+00003.999999,+00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388608 Link=4
+             Origin   +00039.999996,-00004.000001,-00008.000031
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00040.000004,-00003.999999,+00040.000000
+             Vertex   +00040.000004,-00003.999999,+00032.000000
+             Vertex   +00040.000004,+00003.999999,+00032.000000
+             Vertex   +00040.000004,+00003.999999,+00040.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388608 Link=5
+             Origin   -00040.000004,+00003.999999,-00008.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00040.000004,+00003.999999,+00024.000000
+             Vertex   -00040.000004,+00003.999999,-00008.000000
+             Vertex   -00040.000004,-00003.999999,-00008.000000
+             Vertex   -00040.000004,-00003.999999,+00024.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model122'
+    PrePivot=(X=-36.001377,Y=3.998778,Z=2.000000)
+    Name=Brush122
+End Actor
+Begin Actor Class=Brush Name=Brush123
+    CsgOper=CSG_Subtract
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    DistanceFromPlayer=2355.559082
+    Level=LevelInfo'MyLevel.LevelInfo2'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo2',iLeaf=-1)
+    Location=(X=-2055.998779,Y=1959.998169,Z=-566.000000)
+    Rotation=(Yaw=-49152)
+    OldLocation=(X=2189.001221,Y=1967.998169,Z=-600.000000)
+    bSelected=True
+    Begin Brush Name=Model123
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388608 Link=0
+             Origin   -00058.177811,-01639.999268,-00015.000031
+             Normal   +00000.382202,+00000.000000,-00000.924079
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV -00000.924079,+00000.000000,-00000.382202
+             Vertex   -00034.000004,+00003.999999,-00005.000000
+             Vertex   +00034.000004,+00003.999999,+00023.125000
+             Vertex   +00034.000004,-00003.999999,+00023.125000
+             Vertex   -00034.000004,-00003.999999,-00005.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388608 Link=1
+             Origin   -00065.997070,-01639.999268,+00008.824118
+             Normal   -00000.189517,+00000.000000,+00000.981878
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.964083,+00000.000000,+00000.186082
+             Vertex   -00034.000004,-00003.999999,+00015.000000
+             Vertex   +00034.000004,-00003.999999,+00028.125000
+             Vertex   +00034.000004,+00003.999999,+00028.125000
+             Vertex   -00034.000004,+00003.999999,+00015.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Link=2
+             Origin   -00034.000004,-00003.999999,+00005.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,+00001.000000
+             Vertex   -00034.000004,-00003.999999,+00015.000000
+             Vertex   -00034.000004,-00003.999999,-00005.000000
+             Vertex   +00034.000004,-00003.999999,+00023.125000
+             Vertex   +00034.000004,-00003.999999,+00028.125000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Link=3
+             Origin   +00034.000004,+00003.999999,+00005.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,+00001.000000
+             Vertex   +00034.000004,+00003.999999,+00028.125000
+             Vertex   +00034.000004,+00003.999999,+00023.125000
+             Vertex   -00034.000004,+00003.999999,-00005.000000
+             Vertex   -00034.000004,+00003.999999,+00015.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388608 Link=4
+             Origin   +00034.000000,-00004.000000,-00015.000031
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00034.000004,-00003.999999,+00028.125000
+             Vertex   +00034.000004,-00003.999999,+00023.125000
+             Vertex   +00034.000004,+00003.999999,+00023.125000
+             Vertex   +00034.000004,+00003.999999,+00028.125000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388608 Link=5
+             Origin   -00034.000000,+00004.000000,-00015.000031
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00034.000004,+00003.999999,+00015.000000
+             Vertex   -00034.000004,+00003.999999,-00005.000000
+             Vertex   -00034.000004,-00003.999999,-00005.000000
+             Vertex   -00034.000004,-00003.999999,+00015.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model123'
+    PrePivot=(X=30.000488,Y=8.000977,Z=25.000000)
+    Name=Brush123
+End Actor
+Begin Actor Class=Brush Name=Brush124
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    PolyFlags=32
+    DistanceFromPlayer=2550.064209
+    Level=LevelInfo'MyLevel.LevelInfo2'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo2',iLeaf=-1)
+    Location=(X=-2048.000000,Y=1888.000000,Z=-960.000000)
+    Rotation=(Yaw=-49152)
+    OldLocation=(X=2193.000977,Y=1872.000000,Z=-1024.000000)
+    bSelected=True
+    Begin Brush Name=Model124
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=DrtyIronWOriv_A Flags=8388640 Link=0
+             Origin   -00024.000000,-01640.000000,+00024.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             Pan      U=170 V=32
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00001.000000,+00000.000000
+             Vertex   -00008.000000,+00008.000000,+00024.000000
+             Vertex   -00008.000000,-00008.000000,+00024.000000
+             Vertex   +00008.000000,-00008.000000,+00024.000000
+             Vertex   +00008.000000,+00008.000000,+00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=DrtyIronWOriv_A Flags=8388640 Link=1
+             Origin   -00024.000000,-01640.000000,-00024.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             Pan      U=170 V=32
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00001.000000,+00000.000000
+             Vertex   +00024.000000,+00024.000000,-00024.000000
+             Vertex   +00024.000000,-00024.000000,-00024.000000
+             Vertex   -00024.000000,-00024.000000,-00024.000000
+             Vertex   -00024.000000,+00024.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=DrtyIronWOriv_A Flags=8388640 Link=2
+             Origin   -00130.666656,-01640.000000,+00440.000000
+             Normal   +00000.948683,+00000.000000,+00000.316228
+             Pan      U=170 V=32
+             TextureU -00000.316228,+00000.000000,+00000.948683
+             TextureV +00000.000000,+00001.000000,+00000.000000
+             Vertex   +00024.000000,+00024.000000,-00024.000000
+             Vertex   +00008.000000,+00008.000000,+00024.000000
+             Vertex   +00008.000000,-00008.000000,+00024.000000
+             Vertex   +00024.000000,-00024.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=DrtyIronWOriv_A Flags=8388640 Link=3
+             Origin   +00130.666672,-01640.000000,+00440.000031
+             Normal   -00000.948683,+00000.000000,+00000.316228
+             Pan      U=170 V=32
+             TextureU +00000.316228,+00000.000000,+00000.948683
+             TextureV +00000.000000,-00001.000000,+00000.000000
+             Vertex   -00024.000000,-00024.000000,-00024.000000
+             Vertex   -00008.000000,-00008.000000,+00024.000000
+             Vertex   -00008.000000,+00008.000000,+00024.000000
+             Vertex   -00024.000000,+00024.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=DrtyIronWOriv_A Flags=8388640 Link=4
+             Origin   -00024.000000,+00130.666870,+00440.000519
+             Normal   +00000.000000,-00000.948683,+00000.316228
+             Pan      U=170 V=32
+             TextureU +00000.000000,+00000.316228,+00000.948683
+             TextureV +00001.000000,+00000.000000,+00000.000000
+             Vertex   +00024.000000,-00024.000000,-00024.000000
+             Vertex   +00008.000000,-00008.000000,+00024.000000
+             Vertex   -00008.000000,-00008.000000,+00024.000000
+             Vertex   -00024.000000,-00024.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=DrtyIronWOriv_A Flags=8388640 Link=5
+             Origin   -00024.000000,-00130.666626,+00439.999939
+             Normal   +00000.000000,+00000.948683,+00000.316228
+             Pan      U=170 V=32
+             TextureU +00000.000000,-00000.316228,+00000.948683
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00024.000000,+00024.000000,-00024.000000
+             Vertex   -00008.000000,+00008.000000,+00024.000000
+             Vertex   +00008.000000,+00008.000000,+00024.000000
+             Vertex   +00024.000000,+00024.000000,-00024.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model124'
+    PrePivot=(Z=5.999969)
+    Name=Brush124
+End Actor
+Begin Actor Class=Brush Name=Brush125
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    PolyFlags=32
+    DistanceFromPlayer=2498.730957
+    Level=LevelInfo'MyLevel.LevelInfo2'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo2',iLeaf=-1)
+    Location=(X=-2047.999023,Y=1888.000000,Z=-862.000000)
+    Rotation=(Yaw=-49152)
+    OldLocation=(X=2197.000977,Y=1896.000000,Z=-896.000000)
+    bSelected=True
+    Begin Brush Name=Model125
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=0
+             Origin   -00023.996948,-01640.000122,+00079.999969
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00001.000000,+00000.000000,+00000.000000
+             Vertex   -00004.000000,+00004.000000,+00080.000000
+             Vertex   -00004.000000,-00004.000000,+00080.000000
+             Vertex   +00004.000000,-00004.000000,+00080.000000
+             Vertex   +00004.000000,+00004.000000,+00080.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Link=1
+             Origin   +00008.000000,+00008.000000,-00080.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00001.000000,+00000.000000
+             Vertex   +00008.000000,+00008.000000,-00080.000000
+             Vertex   +00008.000000,-00008.000000,-00080.000000
+             Vertex   -00008.000000,-00008.000000,-00080.000000
+             Vertex   -00008.000000,+00008.000000,-00080.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=2
+             Origin   -00002.399961,+00007.999268,+00335.999969
+             Normal   +00000.999688,+00000.000000,+00000.024992
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.024992,+00000.000000,-00000.999688
+             Vertex   +00008.000000,+00008.000000,-00080.000000
+             Vertex   +00004.000000,+00004.000000,+00080.000000
+             Vertex   +00004.000000,-00004.000000,+00080.000000
+             Vertex   +00008.000000,-00008.000000,-00080.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=3
+             Origin   +00002.399958,-00008.000732,+00335.999969
+             Normal   -00000.999688,+00000.000000,+00000.024992
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV -00000.024992,+00000.000000,-00000.999688
+             Vertex   -00008.000000,-00008.000000,-00080.000000
+             Vertex   -00004.000000,-00004.000000,+00080.000000
+             Vertex   -00004.000000,+00004.000000,+00080.000000
+             Vertex   -00008.000000,+00008.000000,-00080.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=4
+             Origin   +00008.002930,+00002.399902,+00335.999969
+             Normal   +00000.000000,-00000.999688,+00000.024992
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00000.024992,-00000.999688
+             Vertex   +00008.000000,-00008.000000,-00080.000000
+             Vertex   +00004.000000,-00004.000000,+00080.000000
+             Vertex   -00004.000000,-00004.000000,+00080.000000
+             Vertex   -00008.000000,-00008.000000,-00080.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=5
+             Origin   -00007.997070,-00002.399902,+00335.999969
+             Normal   +00000.000000,+00000.999688,+00000.024992
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.024992,-00000.999688
+             Vertex   -00008.000000,+00008.000000,-00080.000000
+             Vertex   -00004.000000,+00004.000000,+00080.000000
+             Vertex   +00004.000000,+00004.000000,+00080.000000
+             Vertex   +00008.000000,+00008.000000,-00080.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model125'
+    PrePivot=(X=0.002441,Y=-0.001465)
+    Name=Brush125
+End Actor
+Begin Actor Class=Brush Name=Brush126
+    CsgOper=CSG_Add
+    MainScale=(Scale=(Z=0.722429),SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    PolyFlags=32
+    DistanceFromPlayer=2441.033447
+    Level=LevelInfo'MyLevel.LevelInfo2'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo2',iLeaf=-1)
+    Location=(X=-2047.999023,Y=1888.000000,Z=-736.000000)
+    Rotation=(Yaw=-32768)
+    OldLocation=(X=2197.000977,Y=1896.000000,Z=-770.000000)
+    bSelected=True
+    Begin Brush Name=Model126
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=0
+             Origin   -01640.000244,+00023.997437,+00223.999969
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00001.000000,+00000.000000
+             Vertex   +00004.000000,-00004.000000,+00224.000000
+             Vertex   +00004.000000,+00004.000000,+00224.000000
+             Vertex   -00004.000000,+00004.000000,+00224.000000
+             Vertex   -00004.000000,-00004.000000,+00224.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=32 Link=1
+             Origin   +02024.000488,-04632.000488,-00063.999985
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00001.000000,+00000.000000
+             Vertex   -00004.000000,-00004.000000,-00064.000000
+             Vertex   -00004.000000,+00004.000000,-00064.000000
+             Vertex   +00004.000000,+00004.000000,-00064.000000
+             Vertex   +00004.000000,-00004.000000,-00064.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=2
+             Origin   -00003.999756,-00004.001099,+00192.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00004.000000,-00004.000000,-00064.000000
+             Vertex   -00004.000000,-00004.000000,+00224.000000
+             Vertex   -00004.000000,+00004.000000,+00224.000000
+             Vertex   -00004.000000,+00004.000000,-00064.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=3
+             Origin   +00004.000000,+00004.000000,+00191.999969
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00004.000000,+00004.000000,-00064.000000
+             Vertex   +00004.000000,+00004.000000,+00224.000000
+             Vertex   +00004.000000,-00004.000000,+00224.000000
+             Vertex   +00004.000000,-00004.000000,-00064.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=4
+             Origin   -00004.000732,+00004.000000,+00191.999969
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00004.000000,+00004.000000,-00064.000000
+             Vertex   -00004.000000,+00004.000000,+00224.000000
+             Vertex   +00004.000000,+00004.000000,+00224.000000
+             Vertex   +00004.000000,+00004.000000,-00064.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=5
+             Origin   +00004.000244,-00004.001099,+00192.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00004.000000,-00004.000000,-00064.000000
+             Vertex   +00004.000000,-00004.000000,+00224.000000
+             Vertex   -00004.000000,-00004.000000,+00224.000000
+             Vertex   -00004.000000,-00004.000000,-00064.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model126'
+    PrePivot=(X=-0.001404,Y=-0.002289,Z=-0.325993)
+    Name=Brush126
+End Actor
+Begin Actor Class=Brush Name=Brush127
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    PolyFlags=32
+    DistanceFromPlayer=2333.779297
+    Level=LevelInfo'MyLevel.LevelInfo2'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo2',iLeaf=-1)
+    Location=(X=-2055.999023,Y=2024.000732,Z=-558.000000)
+    Rotation=(Yaw=-16384)
+    OldLocation=(X=2189.000977,Y=2032.000732,Z=-592.000000)
+    bSelected=True
+    Begin Brush Name=Model127
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=0
+             Origin   +00155.997269,+01640.000000,+00008.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   +00048.000000,+00004.000000,+00008.000000
+             Vertex   -00020.000000,+00012.000000,+00008.000000
+             Vertex   -00020.000000,-00012.000000,+00008.000000
+             Vertex   +00048.000000,-00004.000000,+00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_light_a Flags=12582944 Link=1
+             Origin   -02548.000732,-05560.000000,-00610.823669
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             Pan      U=-5 V=-32
+             TextureU -00000.058421,+00000.496575,+00000.000000
+             TextureV +00000.496575,+00000.058421,+00000.000000
+             Vertex   +00048.000000,-00004.000000,+00000.000000
+             Vertex   -00020.000000,-00012.000000,+00000.000000
+             Vertex   -00020.000000,+00012.000000,+00000.000000
+             Vertex   +00048.000000,+00004.000000,+00000.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=2
+             Origin   +00047.535820,-00004.054504,-00040.000031
+             Normal   +00000.116841,-00000.993151,+00000.000000
+             TextureU +00000.993151,+00000.116841,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00048.000000,-00004.000000,+00000.000000
+             Vertex   +00048.000000,-00004.000000,+00008.000000
+             Vertex   -00020.000000,-00012.000000,+00008.000000
+             Vertex   -00020.000000,-00012.000000,+00000.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=3
+             Origin   -00047.153610,+00015.194641,-00040.000031
+             Normal   +00000.116841,+00000.993151,+00000.000000
+             TextureU -00000.993151,+00000.116841,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00020.000000,+00012.000000,+00000.000000
+             Vertex   -00020.000000,+00012.000000,+00008.000000
+             Vertex   +00048.000000,+00004.000000,+00008.000000
+             Vertex   +00048.000000,+00004.000000,+00000.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Flags=8388640 Link=4
+             Origin   -00020.000046,-00007.999939,-00040.000031
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00020.000000,-00012.000000,+00000.000000
+             Vertex   -00020.000000,-00012.000000,+00008.000000
+             Vertex   -00020.000000,+00012.000000,+00008.000000
+             Vertex   -00020.000000,+00012.000000,+00000.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=Heli_LiftMetl_A Link=5
+             Origin   +00048.000000,+00008.000000,-00008.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00048.000000,+00004.000000,+00000.000000
+             Vertex   +00048.000000,+00004.000000,+00008.000000
+             Vertex   +00048.000000,-00004.000000,+00008.000000
+             Vertex   +00048.000000,-00004.000000,+00000.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model127'
+    PrePivot=(X=-4.003189,Y=-8.000427,Z=7.999969)
+    Name=Brush127
+End Actor
+End Map

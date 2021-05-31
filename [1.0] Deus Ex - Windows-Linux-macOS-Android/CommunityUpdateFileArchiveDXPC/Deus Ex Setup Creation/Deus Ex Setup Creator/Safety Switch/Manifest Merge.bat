@@ -50,6 +50,10 @@ type "%~dp0\*PostExecGroupHeaderAppend.ini" >> "%~dp0\ManifestHeader-3-Groups.in
 
 type "%~dp0\*PostExecManifestIntAppend.ini" >> "%~dp0\System\Manifest.int"
 
+rem Copy Custom entries into Manifest.int
+
+type "%~dp0\Custom Manifest.int Entries.txt" >> "%~dp0\System\Manifest.int"
+
 rem type "%~dp0\ModsDXTOptional FilesFileListNearFinal.txt" >> "%~dp0\%ValueNoexe%PostExecHeaderAppend.ini"
 
 rem Merge optional files with their own groups into the master groups... group

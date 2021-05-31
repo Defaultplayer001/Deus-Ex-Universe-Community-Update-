@@ -25,11 +25,11 @@ NanoKeyData[0]="(ScriptedPawnTag=AlexJacobson,KeyID=levelone,Description="Ключ к
 
 [ComputerPersonal0]
 specialOptions[0]="(Text="Расшифровать фразу,убивающую А.Наварре",TriggerText="Расшифрована часть 1 из 2 убивающей фразы : 'Flatlander'",TriggerEvent=know1,bTriggerOnceOnly=True)"
-specialOptions[1]="(Text="Расшифровать фразу,убивающую ГХерманна",TriggerText="Убивающая фраза недоступна - - Ожидается инсталляция",userName="demiurge")"
+specialOptions[1]="(Text="Расшифровать фразу,убивающую Г.Германа",TriggerText="Убивающая фраза недоступна - - Ожидается инсталляция",userName="demiurge")"
 
 [ComputerPersonal3]
 specialOptions[0]="(Text="Расшифровать фразу,убивающую А.Наварре",TriggerText="Расшифрована часть 2 из 2 убивающей фразы : 'Woman'",TriggerEvent=know2,bTriggerOnceOnly=True)"
-specialOptions[1]="(Text="Расшифровать фразу,убивающую ГХерманна",TriggerText="Убивающая фраза недоступна - - Ожидается инсталляция")"
+specialOptions[1]="(Text="Расшифровать фразу,убивающую Г.Германа",TriggerText="Убивающая фраза недоступна - - Ожидается инсталляция")"
 specialOptions[2]="(userName="demiurge")"
 
 [AlexJacobson0]
@@ -43,7 +43,7 @@ UnfamiliarName="Шеннон"
 FamiliarName="UN_proteus_cam"
 
 [SpecialEvent0]
-Message="Узор сетчатки не совпал: Агент Дентон - В доступе отказано"
+Message="Узор сетчатки не принят: Агент Дентон - В доступе отказано"
 
 [RetinalScanner0]
 msgUsed="Узор сетчатки не определен: Общее нарушение защиты 0012E9023"

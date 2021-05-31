@@ -1,0 +1,35 @@
+===== Frequently Asked Questions =====
+
+--------------------------------------
+
+Q: I downloaded UCSDK but an error message appears when I run the program. What should I do?
+
+A: You do not have .NET Framework 2.0 installed on your computer. You should download and install it to get the program running.
+You can download .NET Framework 2.0 Redistributable Package here:
+http://msdn2.microsoft.com/en-us/netframework/aa731542.aspx
+
+--------------------------------------
+
+Q: Should I download and install .NET Framework 2.0  if I am running Windows Vista operating system?
+
+A: No. You should not. Windows Vista already has .NET Framework 2.0 installed.
+
+--------------------------------------
+
+Q: Игра после компиляции не запускается.
+
+A: Это ошибка в компиляции вашего пака, и в результате не создался *.u файл. Проверьте скрипты.
+
+--------------------------------------
+
+Q: Я решил перекомпилировать системный пак. Это "Core", "Engine", "Editor", "Fire", "IpDrv", "UWindow", "UBrowser", "Extension", "DeusExUI", "ConSys", "DeusExConversations", "DeusExSounds", "DeusExItems", "DeusExDeco", "DeusExCharacters", "MPCharacters", "DeusExText", "IpServer", "DeusEx".
+
+A: Жопа. Переинсталируйте Деус Екс.
+
+--------------------------------------
+
+Q: ?
+
+A: <Yuri Vydyborets> rambo-gerbert@rambler.ru
+
+--------------------------------------

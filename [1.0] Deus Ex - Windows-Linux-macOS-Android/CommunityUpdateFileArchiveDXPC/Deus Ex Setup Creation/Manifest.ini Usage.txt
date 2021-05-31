@@ -156,6 +156,12 @@ ExtraSpace=
 	I'm assuming this ones just as it seems, a command to add filler space. Used in a file list group.
 	Example: ExtraSpace=68177248
 
+Folder= 
+	?
+	Example (From SDK1112):
+	Folder=ConvEdit
+	Folder=Docs
+
 
 Below is copy / pasted from https://beyondunrealwiki.github.io/pages/umod-reference.html
 

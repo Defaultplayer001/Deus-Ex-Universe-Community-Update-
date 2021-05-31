@@ -59,10 +59,16 @@ Caption=Play Deus Ex Mod
 [DesktopPlayShortcut]
 Caption=Play Deus Ex Mod
 
+[DesktopPlayShortcut]
+Caption=Play Deus Ex Mod
+
 [SafeModeShortcut]
 Caption=Deus Ex Safe Mode
 
 [EditorShortcut]
+Caption=Deus Ex Editor
+
+[DesktopEditorShortcut]
 Caption=Deus Ex Editor
 
 [DocumentationShortcut]
@@ -106,4 +112,14 @@ Caption=Planet Deus Ex Web Page
 
 [UninstallShortcut]
 Caption=Uninstall Deus Ex
+
+[DesktopUninstallShortcut]
+Caption=Uninstall Deus Ex
+
+[ModRequirements]
+LocalProduct=Deus Ex
+ProductURL=https://www.gog.com/game/deus_ex
+VersionURL=https://www.gog.com/game/deus_ex
+Developer=Ion Storm Austin
+DeveloperURL=https://www.gog.com/game/deus_ex
 

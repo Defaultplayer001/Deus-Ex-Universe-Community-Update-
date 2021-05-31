@@ -7,20 +7,20 @@ startupMessage[1]="Недалеко от Парижа"
 Description="Ключ к спальне Бет"
 
 [ComputerPersonal0]
-specialOptions[0]="(Text="Послать МЭверетту сигнал о встрече",TriggerText="Сигнал по защищенному каналу послан МЭверетту ",TriggerEvent=everettsignal,bTriggerOnceOnly=True)"
+specialOptions[0]="(Text="Послать М.Эверетту сигнал о встрече",TriggerText="Сигнал по защищенному каналу послан М.Эверетту ",TriggerEvent=everettsignal,bTriggerOnceOnly=True)"
 
 [NicoletteDuClare0]
 FamiliarName="Николетт"
 UnfamiliarName="Николетт"
 
 [NanoKey4]
-Description="Ключ к спальне Николетт"
+Description="Ключ к спальне Николет"
 
 [NanoKey3]
 Description="Ключ к спальне Бет"
 
 [NanoKey2]
-Description="Ключ к спальне Николетт"
+Description="Ключ к спальне Николет"
 
 [SkillAwardTrigger1]
 awardMessage="Премия за продвижение"

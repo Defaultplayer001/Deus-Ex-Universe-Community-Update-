@@ -51,16 +51,16 @@ FamiliarName="Шеннон"
 UnfamiliarName="Леди UNATCO"
 
 [RetinalScanner1]
-msgUsed="Узор сетчатки не совпал: Агент Дентон - В доступе отказано"
+msgUsed="Узор сетчатки не принят: Агент Дентон - В доступе отказано"
 
 [SecurityCamera6]
 FamiliarName="UN_proteus_cam"
 
 [SpecialEvent0]
-Message="Узор сетчатки не совпал: Агент Дентон - В доступе отказано"
+Message="Узор сетчатки не принят: Агент Дентон - В доступе отказано"
 
 [RetinalScanner0]
-msgUsed="Узор сетчатки совпал: Агент Дентон - Доступ разрешен"
+msgUsed="Узор сетчатки принят: Агент Дентон - Доступ разрешен"
 
 [SpecialEvent1]
 Message="Нет новых сообщений"

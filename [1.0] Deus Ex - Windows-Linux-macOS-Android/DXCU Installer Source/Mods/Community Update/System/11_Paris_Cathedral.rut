@@ -4,7 +4,7 @@ awardMessage="Премия за критическую локацию"
 [DeusExLevelInfo0]
 MissionLocation="Париж - Cобор Рыцарей Тамплиеров"
 startupMessage[0]="Париж"
-startupMessage[1]="Первоочередная цель:"
+startupMessage[1]="Где-то поблизости:"
 startupMessage[2]="Кафедральный собор Рыцарей Тамплиеров"
 
 [NanoKey5]

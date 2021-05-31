@@ -5,7 +5,7 @@ awardMessage="Премия за продвижение"
 awardMessage="Премия за исследование"
 
 [NanoKey0]
-Description="Ключ к люку строения UNATCO"
+Description="Ключ к люку бункера UNATCO"
 
 [SecurityCamera4]
 FamiliarName="SATCOM_cam"
@@ -26,8 +26,8 @@ FamiliarName="UN_lobby01"
 FamiliarName="UN_lobby02"
 
 [DeusExLevelInfo0]
-MissionLocation="Нью-Йорк - Остров Свободы"
-startupMessage[0]="Остров Свободы, Нью-Йорк"
+MissionLocation="Нью-Йорк - Либерти-Айленд"
+startupMessage[0]="Либерти-Айленд, Нью-Йорк"
 startupMessage[1]="Штаб-квартира UNATCO"
 
 [ThugMale5]
@@ -35,7 +35,7 @@ FamiliarName="Наемный головорез"
 UnfamiliarName="Наемный головорез"
 
 [UNATCOTroop0]
-FamiliarName="Тех-Сержант Каплан"
+FamiliarName="Техник-сержант Каплан"
 
 [LevelSummary]
 Title="Untitled"
@@ -60,7 +60,7 @@ FamiliarName="Террорист NSF"
 UnfamiliarName="Террорист NSF"
 
 [ComputerSecurity0]
-Views[0]="(titleString="Строение SATCOM",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[0]="(titleString="Бункер SATCOM",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
 Views[1]="(titleString="Штаб UNATCO снаружи",CameraTag=UN_CamSystem02)"
 Views[2]="(titleString="Штаб UNATCO внутри",CameraTag=UN_CamSystem03)"
 
@@ -116,7 +116,7 @@ NanoKeyData[1]="(ScriptedPawnTag=PaulDenton,KeyID=UN_maindoor,Description="Ключ 
 FamiliarName="Рядовой Ллойд"
 
 [NYPoliceBoat0]
-FamiliarName="Рулевой лодки UNATCO"
+FamiliarName="Рулевой катера UNATCO"
 
 [Terrorist8]
 FamiliarName="Террорист NSF"

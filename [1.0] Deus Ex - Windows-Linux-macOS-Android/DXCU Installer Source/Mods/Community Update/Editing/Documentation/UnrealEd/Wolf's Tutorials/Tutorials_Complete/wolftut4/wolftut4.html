@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Wolf's Tutorial #4</title>
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#0000FF" alink="#0000FF">
+
+<h1>Wolf's Tutorial Part Four - The Floor Lofter</h1><br>
+<h2>The Floor Lofter</h2><br>
+
+<h3>Introduction</h3><br>
+<p>This is the fourth in a series of tutorials from Wolf. If you are a beginner to UnrealEd it is suggested you go back and read a basic tutorial and then the first three in this series.
+This little tutorial will introduce you to the Floor Lofter.
+</p>
+<h2>Part One -  The Floor Lofter</h2>
+<p>
+The Floor Lofter is an experimental program built into UnrealEd that will allow you to quickly and easily allow you to make a natural looking outdoor surface for your Unreal maps.
+It am sure it can be used for other structures as well, but natural looking terrain is it's strong suit. The Floor Lofter can be found in UnrealEd on the menu at the top under Window. Open the Floor Lofter. You should have this screen:</p>
+<img src="fig1.jpg" width=509 height=361 alt="" border="0"><br>
+Now, if you were to just hit Render you would get a brush like this:<br>
+<img src="fig2.jpg" width=308 height=208 alt="" border="0"><br>
+Basically, a cube cut up into 16 sections. If you check out the options across the top <br>
+<img src="fig3.jpg" width=510 height=66 alt="" border="0"><br>
+it looks like there are several. Most, I believe, are not implemented as they seem to have no effect. 
+<p>Here is the option and what it does:<br>
+<img src="button1.jpg" width=64 height=25 alt="" border="0"> Render Button - builds the (red) brush as per the rest of the settings.<br>
+<img src="button2.jpg" width=99 height=32 alt="" border="0"> Level - there are five levels of lofting, they go across the brush from left to right (in the overhead view).<br>
+<img src="button3.jpg" width=128 height=35 alt="" border="0"> Terra Grid - sets how many "blocks" there are across. The default is 4 x 4 and even if you change it, it has no effect. This is not implemented.<br>
+<img src="button4.jpg" width=95 height=36 alt="" border="0"> Cell Size - This sets the size of each block. Again, this is not implemented.<br>
+<img src="button5.jpg" width=101 height=35 alt="" border="0"> Render Scale - default is 1 which make the over all length and width of the brush 256 x 256. As you scale it up it increases the size of the brush accordingly.<br>
+</p>
+<h2>Common Ground</h2><br>
+<p>Lets just show you what the floor lofter does. Start by loading the GenEarth.utx textures. Now, select a rocky one you like. Set your cube to 512 x 1024 x 1024. Subtract this brush, building a "room." Now choose a grassy looking texture for the ground. 
+Think about how "hilly" you want your ground to be. Don't get too carried away yet, this is just a tutorial! Open the Floor Lofter. First of all, see that red line near the bottom of the window, that is going to be the bottom of your brush. The line at the top (with the vertices) will be the top of the brush. You can click and move that run line up and down to set the thickness of the floor brush. You can also click and move the vertices (and thus the lines of the top of the brush) and the top. By doing this you make hills and valleys, or high and low spots. The farther you raise a vertex on the top line, the higher the hill, and the lower you drag it toward the red line, the lower it will be. Do not drag a vertex from the top line below the bottom red line! You'll only crash and burn.</p>
+<p>Now after you set the first screen the way you want it, then click on the "next" button <img src="nextbutton.jpg" width=25 height=25 alt="" border="0"> and go to the next level of lofting. There are five levels to set. Once you have set your terrain in all five levels, click the render button and then close the floor lofter. You should have something like this:</p><br>
+<img src="fig4.jpg" width=193 height=169 alt="" border="0">&nbsp;&nbsp;<img src="fig5.jpg" width=196 height=169 alt="" border="0"><br>
+You can see this brush doesn't come close to filling our area. There are two things we can do. One is click on the "scale" button and stretch the brush till it fits. The second is to go back into the floor lofter and start again, but this time BEFORE we click the render button, we'll set the scale. Since our room is 1024 x 1024 we need to set the render scale to 4 (remember it starts off 256sq and we have a room 1024sq, and if we divide 1024 by 256 we get 4). This should fit our room very well. Now, the hills may be a little tall for this scale. If you think they are, just re-do them, keeping in mind the scale. <br>
+<i>Note: you have to set the render scale each time you open the floor lofter. It doesn't keep that information. </i><br>
+<p>When you get a floor brush that looks good to you then line it up with the bottom of your "room" and add it to your world.
+Now you might note that the scale of the ground texture is a little stretched. That's because UnrealEd "stretches" a texture to fit the surface of the brush. To fix this high light a face of the ground and press SHIFT-T (this will select all the matching textures in your level). Right click and go to Align Selected and align as floor/ceiling. This should reset the texture. 
+If all went well, you should have a ground something like this:</p><br>
+<img src="fig6.jpg" width=308 height=208 alt="" border="0"><br>
+<p>As you fly through your level in the 3D window you can see how big (or how little) your hills are. Keep this in mind when making terrain. It's very simple: the higher you want the hills, the more you move the vertices. 
+</p><br>
+<h3>Experimenting</h3><br>
+<p>You turn to play with the floor lofter! Remember, it's experimental so be careful and always experiment on a new level and not one you intend to keep. If, while you're playing around, you make an absolutely wonderful floor brush you just have to keep, export it like we did the brushes in the previous tutorials. Try new things, like only moving the vertices in one (of the five) levels to see what that does. Play with it and be creative and have fun!
+</p>
+  <div align="center"><hr></div>
+&copy;Copyright 1999 <a href="mailto:The_Wolf@prodigy.net">Tony Garcia</a> (a.k.a. Wolf). No part of this tutorial may be reproduced without my permission.
+
+</body>
+</html>

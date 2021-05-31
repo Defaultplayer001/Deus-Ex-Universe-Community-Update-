@@ -17,7 +17,8 @@ To enable Confix, for English users only:
 1. Navigate to Mods\Community Update
 
 2. Run "Confix Enable.exe". This will paste over an ini with the Confix folder in it's pathlist. Otherwise identical to the current one.
-
+	Note that this will overrite your current default.ini, and won't take effect until you delete your current "Deus Ex Community Update.ini"! 
+	
 
 To change langauge:
 
@@ -44,7 +45,7 @@ Setup creation instructions below
 
 Community Update Manual customization notes:
 
-1. Delete "Confix Enable.exe" and "SystemFilesJPT.exe" from GameGroup in Manifest.ini. 
+1. Delete "Confix Dis/Enable.exe" and "SystemFilesJPT.exe" from GameGroup in Manifest.ini. 
 
 2. Add Selected=False to the Demo group.
 
@@ -62,6 +63,13 @@ Create / update a mod installer:
 3. Copy / paste the .bat into the "Safety Switch" / "Deus Ex Setup Creator Files Backup" folder, overwriting when asked
 
 4. Run "(Run this!) Create DXCU Setup.bat"
+
+If no files were ADDED or REMOVED, the following can also simply be done. 
+Update a mod installer:
+
+1. Navigate to \Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator
+
+2. Run "Setup.exe Creator.bat"
 
 
 

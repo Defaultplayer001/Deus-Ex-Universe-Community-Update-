@@ -29,8 +29,8 @@ FamiliarName="Охранник Тонга"
 UnfamiliarName="Охранник Тонга"
 
 [NanoKey0]
-PickupMessage="Вы нашли ключ к аппартаментам Джока."
-Description="Ключ к аппартаментам Джока на Тонночи Роуд"
+PickupMessage="Вы нашли ключ к апартаментам Джока."
+Description="Ключ к апартаментам Джока на Тонночи Роуд"
 
 [LevelSummary]
 Title="Untitled"
@@ -45,7 +45,7 @@ UnfamiliarName="Охранник Тонга"
 
 [DeusExLevelInfo0]
 MissionLocation="Гонконг - База Тонга"
-startupMessage[0]="Лаборатория Трэйсера Тонга"
+startupMessage[0]="Лаборатория Трейсера Тонга"
 
 [TriadRedArrow3]
 FamiliarName="Охранник Тонга"

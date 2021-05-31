@@ -1,0 +1,70 @@
+Unreal model viewer / exporter
+Usage: umodel [command] [options] <package> [<object> [<class>]]
+
+    <package>       name of package to load, without file extension
+    <object>        name of object to load
+    <class>         class of object to load (useful, when trying to load
+                    object with ambiguous name)
+
+Commands:
+    (default)       visualize object; when <object> not specified, will load
+                    whole package
+    -list           list contents of package
+    -export         export specified object or whole package
+
+Developer commands:
+    -dump           dump object information to console
+    -check          check some assumptions, no other actions performed
+    -pkginfo        load package and display its information
+
+Options:
+    -path=PATH      path to game installation directory; if not specified,
+                    program will search for packages in current directory
+    -meshes         view meshes only
+
+Compatibility options:
+    -nomesh         disable loading of SkeletalMesh classes in a case of
+                    unsupported data format
+    -noanim         disable loading of MeshAnimation classes
+    -nostat         disable loading of StaticMesh class
+    -notex          disable loading of Material classes
+    -noxbox         disable XBox 360 code
+
+Export options:
+    -all            export all linked objects too
+    -uc             create unreal script when possible
+    -md5            use md5mesh/md5anim format for skeletal mesh export
+    -lods           export lower LOD levels as well
+
+Supported resources for export:
+    SkeletalMesh    exported as ActorX psk file or MD5Mesh
+    MeshAnimation   exported as ActorX psa file or MD5Anim
+    VertMesh        exported as Unreal 3d file
+    StaticMesh      exported as ActorX psk file with no skeleton
+    Texture         exported in tga format
+
+List of supported games:
+
+Unreal Engine 1:
+  Unreal 1, Unreal Tournament 1 (UT99), The Wheel of Time, DeusEx, Rune
+
+Unreal Engine 2:
+  Unreal Tournament 2003,2004, Splinter Cell 1,2, Lineage 2, 
+  Land of Chaos Online (LOCO), Battle Territory Online, 
+  Star Wars: Republic Commando, 
+  UE2Runtime, Harry Potter and the Prisoner of Azkaban, Tribes: Vengeance, 
+  Bioshock, Bioshock 2, Ragnarok Online 2, Exteel, Killing Floor
+
+Unreal Engine 2X:
+  Unreal Championship 2: The Liandri Conflict
+
+Unreal Engine 3:
+  Unreal Tournament 3, Gears of War, Gears of War 2, Rainbow 6: Vegas 2, 
+  Mass Effect, Mass Effect 2, BlackSite: Area 51, 
+  Mortal Kombat vs. DC Universe, TNA iMPACT!, Stranglehold, Army of Two, 
+  Huxley, The Last Remnant, Mirror's Edge, X-Men Origins: Wolverine, 
+  Magna Carta 2, Batman: Arkham Asylum, Crime Craft, AVA Online, 
+  Frontlines: Fuel of War, 50 Cent: Blood on the Sand, Borderlands, Dark Void, 
+  Legendary: Pandora's Box, Nurien
+
+For details and updates please visit http://www.gildor.org/en/projects/umodel

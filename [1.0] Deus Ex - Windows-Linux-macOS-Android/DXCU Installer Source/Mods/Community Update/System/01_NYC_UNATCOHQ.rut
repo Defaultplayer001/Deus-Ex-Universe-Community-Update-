@@ -36,7 +36,7 @@ FamiliarName="Скотт"
 UnfamiliarName="Солдат UNATCO"
 
 [AnnaNavarre0]
-UnfamiliarName="Приращенный агент UNATCO"
+UnfamiliarName="Аугментированный агент UNATCO"
 
 [NanoKey1]
 Description="Ключ к двери офиса"
@@ -84,10 +84,11 @@ UnfamiliarName="Администратор"
 FamiliarName="UN_proteus_cam"
 
 [SpecialEvent0]
-msgUsed="Узор сетчатки не совпал: Агент Дентон - В доступе отказано"
+Message="Узор сетчатки не принят: Агент Дентон - В доступе отказано"
+msgUsed="Узор сетчатки не принят: Агент Дентон - В доступе отказано"
 
 [RetinalScanner0]
-msgUsed="Узор сетчатки совпал: Агент Дентон - Доступ разрешен"
+msgUsed="Узор сетчатки принят: Агент Дентон - Доступ разрешен"
 
 [SpecialEvent1]
 Message="Нет новых сообщений"

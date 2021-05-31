@@ -12,7 +12,7 @@ FamiliarName="Бен Ропер"
 UnfamiliarName="Исследователь"
 
 [ComputerPersonal1]
-specialOptions[0]="(Text="Подключиться к Милнет",TriggerText="Милнет подключен",TriggerEvent=Daedalus_linked,bTriggerOnceOnly=True)"
+specialOptions[0]="(Text="Подключиться к военной сети",TriggerText="Связь установлена",TriggerEvent=Daedalus_linked,bTriggerOnceOnly=True)"
 
 [DeusExLevelInfo0]
 MissionLocation="Ванденберг - Компьютер"

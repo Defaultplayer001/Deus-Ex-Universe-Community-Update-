@@ -48,7 +48,7 @@ UnfamiliarName="Член триады 'Красная Стрела'"
 [DeusExLevelInfo0]
 MissionLocation="Гонконг - Канал Роуд"
 startupMessage[0]="Туннель Канал Роуд"
-startupMessage[1]="Терминал ВанЧай"
+startupMessage[1]="Терминал Ван Чай"
 
 [HKMilitary3]
 FamiliarName="Китайский военный полицейский"

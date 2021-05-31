@@ -2,19 +2,19 @@
 specialOptions[0]="(Text="Включить основной маршрутизатор",TriggerEvent=Set_flag_helios,bTriggerOnceOnly=True)"
 
 [DeusExLevelInfo0]
-MissionLocation="Зона 51 - Пейдж"
+MissionLocation="Зона 51 - Сектор 4"
 
 [LevelSummary]
 Title="Untitled"
 
 [ComputerSecurity0]
-Views[0]="(titleString="Маршрутизатор Аквинаса",CameraTag=camera_helios_room,doorTag=door_helios_room)"
+Views[0]="(titleString="Маршрутизатор Аквината",CameraTag=camera_helios_room,doorTag=door_helios_room)"
 
 [ComputerSecurity2]
 specialOptions[0]="(Text="Включить охранный бот",TriggerEvent=lower1,bTriggerOnceOnly=True)"
 
 [ComputerSecurity1]
-Views[0]="(titleString="Комната с радиацией",CameraTag=Gray_camera,doorTag=radiation_exit)"
+Views[0]="(titleString="Радиационная камера",CameraTag=Gray_camera,doorTag=radiation_exit)"
 specialOptions[0]="(Text="Отключить радиацию",UnTriggerEvent=Gray_rad)"
 
 [ComputerSecurity3]

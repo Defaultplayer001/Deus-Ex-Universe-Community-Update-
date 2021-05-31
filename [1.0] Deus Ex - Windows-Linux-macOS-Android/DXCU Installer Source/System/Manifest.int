@@ -115,7 +115,3 @@ Description=Deus Ex modification files. Installation is optional.
 [Custom Icon Splash and LogoGroup]
 Caption=Custom Icon Splash and Logo
 Description=Post Install Executable. Installation is optional.
-
-[Editing PackGroup]
-Caption=Editing Pack
-Description=Post Install Executable. Installation is optional.

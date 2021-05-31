@@ -1,0 +1,51 @@
+===== Frequently Asked Questions =====
+
+--------------------------------------
+
+Q: What does "DEED" stand for?
+
+A: "DEED" is an abreviation of "Deus Ex Extractor and Decompiler".
+
+--------------------------------------
+
+Q: I downloaded DEED but an error message appears when I run the program. What should I do?
+
+A: You do not have .NET Framework 2.0 installed on your computer. You should download and install it to get the program running.
+You can download .NET Framework 2.0 Redistributable Package here:
+http://msdn2.microsoft.com/en-us/netframework/aa731542.aspx
+
+--------------------------------------
+
+Q: Should I download and install .NET Framework 2.0  if I am running Windows Vista operating system?
+
+A: No. You should not. Windows Vista already has .NET Framework 2.0 installed.
+
+--------------------------------------
+
+Q: Does DEED extract animation of 3D models?
+
+A: Yes it does.
+
+--------------------------------------
+
+Q: How can I use a console version of DEED?
+
+A: The syntax of the command is:
+DEEDCUI source [-lpm] [/E:destination] [/D:destination] [/C:classes]
+  source          Specifies the directory to be processed.
+  -lpm            Treat meshes as low precision (for Unreal Tournament packages).
+  /E:destination  Specifies the directory for extracted files.
+  /D:destination  Specifies the directory for decompiled files.
+  /C:classes      Specifies the file name where classes are listed.
+
+--------------------------------------
+
+Q: I use a console version of DEED. How can I specify path to Deus Ex directory that contains spaces?
+
+A: In order to specify path with spaces you should write it in quotes.
+For example:
+Let us assume you have Deus Ex installed to “C:\Games\Deus Ex” and you want to decompile packages to “C:\Games\Decompiled Deus Ex Content” directory. So you should use the following console command:
+DEEDCUI.EXE “C:\Games\Deus Ex” /D:“C:\Games\Decompiled Deus Ex Content”
+Note: You should not quote path specifier /D: as well as /E: or /C:.
+
+--------------------------------------

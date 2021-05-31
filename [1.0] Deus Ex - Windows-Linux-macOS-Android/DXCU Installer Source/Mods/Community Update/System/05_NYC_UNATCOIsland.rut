@@ -10,7 +10,7 @@ FamiliarName="Наемный головорез"
 UnfamiliarName="Наемный головорез"
 
 [ComputerSecurity0]
-Views[0]="(titleString="Строение SATCOM",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[0]="(titleString="Бункер SATCOM",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
 Views[1]="(titleString="Штаб UNATCO снаружи",CameraTag=UN_CamSystem02)"
 Views[2]="(titleString="Штаб UNATCO внутри",CameraTag=UN_CamSystem03)"
 
@@ -18,7 +18,7 @@ Views[2]="(titleString="Штаб UNATCO внутри",CameraTag=UN_CamSystem03)"
 Title="Untitled"
 
 [DeusExLevelInfo0]
-MissionLocation="Нью-Йорк - Остров Свободы"
+MissionLocation="Нью-Йорк - Либерти-Айленд"
 
 [SecurityCamera0]
 FamiliarName="UN_lobby02"

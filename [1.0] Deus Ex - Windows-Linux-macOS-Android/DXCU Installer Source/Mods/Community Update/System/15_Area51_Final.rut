@@ -13,7 +13,7 @@ Title="Untitled"
 [ComputerSecurity0]
 Views[0]="(CameraTag=gen_camera,doorTag=door_generator)"
 Views[1]="(CameraTag=radiation_camera)"
-specialOptions[0]="(Text="Открыть контейнер с приращением",TriggerEvent=Aug_door,bTriggerOnceOnly=True)"
+specialOptions[0]="(Text="Открыть контейнер с аугментацией",TriggerEvent=Aug_door,bTriggerOnceOnly=True)"
 
 [SkillAwardTrigger1]
 awardMessage="Премия за исследование"
@@ -37,7 +37,7 @@ awardMessage="Премия за исследование"
 FamiliarName="Джерри"
 
 [MIB1]
-UnfamiliarName="Человек в черном"
+UnfamiliarName="Мужчина в черном"
 
 [Switch14]
 FamiliarName="Гелиос"
