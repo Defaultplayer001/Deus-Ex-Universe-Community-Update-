@@ -2,9 +2,8 @@
 MissionLocation="NY - Hangar"
 
 [LevelSummary]
-Title="Hangar"
+Title="Sans titre"
 
 [Mechanic0]
 FamiliarName="Harold"
 UnfamiliarName="Mécanicien"
-

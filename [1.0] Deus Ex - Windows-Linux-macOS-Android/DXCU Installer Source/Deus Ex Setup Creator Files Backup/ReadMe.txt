@@ -1,7 +1,7 @@
 IGNORE THE REST OF THIS IF YOU JUST WANT TO MANUALLY INSTALL THE MOD!
 For that simply:
 
-1. Copy the Mods folder into your Deus Ex folder
+1. Copy the Mods folder into your Deus Ex folder = Or any folder, if you want to use the demo / try a portable install (Make sure the redundant paths in default.ini lead to an actual game path on your system! If not add a FULL game path, drive included.)
 	If you don't want to play the demo, delete Mods\Community Update\Optional Files\Demo.
 		Otherwise the mod will end after the second mission is complete.
 
@@ -12,11 +12,11 @@ For that simply:
 4. Optionally, create a shortcut by right clicking the exe. Copying to Desktop / Start Menu if desired
 
 
-To enable Confix, for English users only: 
+To enable Confix, for English / Russian users only: 
 
 1. Navigate to Mods\Community Update
 
-2. Run "Confix Enable.exe". This will paste over an ini with the Confix folder in it's pathlist. Otherwise identical to the current one.
+2. Run "Confix Enable.exe" or "Confix Enable (Russian).exe". This will paste over an ini with the Confix folder in it's pathlist. Otherwise identical to the current one.
 	Note that this will overrite your current default.ini, and won't take effect until you delete your current "Deus Ex Community Update.ini"! 
 	
 
@@ -25,19 +25,17 @@ To change langauge:
 1. Open "Deus Ex Community Update.int". (Default.ini as well if you want to change the default setting.)
 
 2. Change Language=int into the desired language code:
-	czt=Cestina
-	int=English
-	det=Deutsch 
-	est=Espanol
-	frt=Francais
-	itt=Italiano
-	hut=magyar
-	plt=Polskie
-	ptt=Portugues
-	rut=Russian
-	jpt=Japanese
-
-
+;dxcu=English (Use "Confix Enable.exe" to enable Confix. DeusEx.u renamed to .dxcu for HUT compatibility reasons. Other files likewise kept as .int files to not break standard ompatibility.) 
+;czt=Cestina
+;det=Deutsch 
+;est=Espanol
+;frt=Francais
+;itt=Italiano
+;hut=magyar (Use SystemFilesHUT.exe instead, not completely interoperable.)
+;plt=Polskie
+;ptt=Portugues
+;rut=Russian (Use "Confix Enable (Russian).exe" to enable the Confix port.)
+;jpt=Nihongo (Use SystemFilesJPT.exe instead to create a shortcut DeusEx.exe to the custom port, under Mods/Japanese Port)
 
 
 Setup creation instructions below
@@ -45,11 +43,27 @@ Setup creation instructions below
 
 Community Update Manual customization notes:
 
-1. Delete "Confix Dis/Enable.exe" and "SystemFilesJPT.exe" from GameGroup in Manifest.ini. 
 
-2. Add Selected=False to the Demo group.
+Change group list in manifest like so for proper sorting:
+Group=DXCUGameGroup
+Group=ModsCommunity UpdateTranscendedGroup
+Group=TranscendedDefaultThemeFiles
+Group=ConfixGroup
+Group=InstallLanguageFiles
+Group=ModsCommunity UpdateDemoGroup
+Group=Custom LogoGroup
+Group=PlayShortcutGroup
+Group=DesktopPlayShortcutGroup
+PostExec=InstallLanguageFilesINT
+PostExec=InstallLanguageFilesJPT
+PostExec=InstallLanguageFilesRUT
+PostExec=InstallLanguageFilesHUT
+PostExec=InstallLanguageFilesPLT
+PostExec=TranscendedDefaultTheme
+PostExec=Custom Logo
 
 
+Change Selected=True to false for [ModsCommunity UpdateDemoGroup]
 
 
 Note: This ReadMe assumes your mod has already been set up with "DXCU Install Framework"

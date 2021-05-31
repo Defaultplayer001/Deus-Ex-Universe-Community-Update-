@@ -53,7 +53,7 @@ UnfamiliarName="Chercheur"
 awardMessage="Bonus : réussite"
 
 [SkillAwardTrigger3]
-awardMessage="Critical Location Bonus"
+awardMessage="Bonus : identification indispensable"
 
 [SkillAwardTrigger8]
 awardMessage="Bonus : réussite"
@@ -69,10 +69,10 @@ FamiliarName="Mike"
 UnfamiliarName="Technicien"
 
 [NanoKey0]
-Description="Clef de la réserve du labo de recherche biologique"
+Description="Clé de la réserve du labo de recherche biologique"
 
 [LogicTrigger2]
-Message="SYSTEM DECONNECTE"
+Message="SYSTEME DECONNECTE"
 
 [SkillAwardTrigger1]
 awardMessage="Bonus : exploration"
@@ -112,3 +112,5 @@ MissionLocation="Vandenberg - Centre de commandement"
 startupMessage[0]="Centre de commandement"
 startupMessage[1]="Base aérienne de Vandenberg"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=TonyM,KeyID=Tunnel_access1,Description="Accès au tunnel")"

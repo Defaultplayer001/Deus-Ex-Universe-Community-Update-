@@ -50,9 +50,8 @@ UnfamiliarName="Rat d'égout"
 Title="Sans titre"
 
 [DeusExLevelInfo0]
-MissionLocation="NYC - Souterrains des rats d'égout"
+MissionLocation="NY - Souterrains des rats d'égout"
 
 [BumMale2]
 FamiliarName="Rat d'égout"
 UnfamiliarName="Rat d'égout"
-

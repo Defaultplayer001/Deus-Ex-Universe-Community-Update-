@@ -12,7 +12,7 @@ awardMessage="Bonus : avancement"
 awardMessage="Bonus : identification indispensable"
 
 [SkillAwardTrigger1]
-awardMessage="Bonus :identification du sujet"
+awardMessage="Bonus : identification du sujet"
 
 [NanoKey1]
 Description="Code de l'entrée des égouts des catacombes"
@@ -21,7 +21,7 @@ Description="Code de l'entrée des égouts des catacombes"
 awardMessage="Bonus : avancement"
 
 [SkillAwardTrigger5]
-awardMessage="Bonus :identification du sujet"
+awardMessage="Bonus : identification du sujet"
 
 [SDFMale0]
 FamiliarName="Membre de la Silhouette"
@@ -73,3 +73,5 @@ UnfamiliarName="Membre de la Silhouette"
 MissionLocation="Paris - Catacombes"
 startupMessage[0]="Les catacombes de Paris"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Chad,KeyID=catacombs_blastdoor,Description="Clé de la porte coupe-feu")"

@@ -1,8 +1,8 @@
-[RiotFlic0]
+[RiotCop0]
 FamiliarName="Flic"
 UnfamiliarName="Flic"
 
-[RiotFlic1]
+[RiotCop1]
 FamiliarName="Flic"
 UnfamiliarName="Flic"
 
@@ -32,3 +32,5 @@ Title="sans titre"
 MissionLocation="NY - Hell's Kitchen"
 startupMessage[0]="New York, Hell's Kitchen"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=StationaryCop,KeyID=UnderArea,Description="Clé des souterrains",SkinColor=SC_Level3)"

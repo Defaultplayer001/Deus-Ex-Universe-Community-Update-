@@ -3,7 +3,7 @@ FamiliarName="Membre de la Voie Lumineuse"
 UnfamiliarName="Membre de la Voie Lumineuse"
 
 [GordonQuick0]
-UnfamiliarName="Chef de la Traiade"
+UnfamiliarName="Chef de la triade"
 
 [Male0]
 FamiliarName="Boucher"
@@ -155,7 +155,7 @@ Views[1]="(titleString="Allée du marché2",cameraTag=marketcamera2)"
 Views[2]="(titleString="Allée du marché3",cameraTag=marketcamera3,doorTag=Pillboxdoor)"
 
 [ComputerSecurity1]
-Views[0]="(titleString="grille principale",cameraTag=compound1,doorTag=compound_gate)"
+Views[0]="(titleString="Portail principal",cameraTag=compound1,doorTag=compound_gate)"
 Views[1]="(titleString="Cour",cameraTag=compound2)"
 Views[2]="(titleString="Entrée de maître Tong",cameraTag=compound3)"
 
@@ -164,5 +164,7 @@ Title="Sans titre"
 
 [Businessman1]
 FamiliarName="M. Liu"
-UnfamiliarName="Cadre
+UnfamiliarName="Cadre"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=GateGuard,KeyID=CompoundGate,Description="Clé de la porte de l'enceinte de la Voie Lumineuse")"

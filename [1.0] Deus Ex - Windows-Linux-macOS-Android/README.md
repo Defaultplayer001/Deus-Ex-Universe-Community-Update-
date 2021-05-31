@@ -29,10 +29,12 @@ As described by it's creator:
 Built largely for first timer players, Deus Ex: Transcended is a mod focused solely around faithfulness to the original, while bringing an unmatched arsenal of bug fixes, paired with key notes of Quality of Life changes.
 
 Sticklers may still wish to play the game how it was originally made - so the option to easily deselect this is available. 
-
+	
 However as a stickler myself, *it's worth it*.
 
 Also selected by default is "Confix", a conversation typo and logic patch.
+
+***
 
 ### Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
 
@@ -103,13 +105,13 @@ If you install a translation, Confix will not be.
 * German
 * Italian
 * Spanish
-* Japanese - Note: A unique port with special changes, some related to gameplay.*Incompatible with many mods.*
+* Japanese - Note: A unique port with special changes, some related to gameplay. *Incompatible with many mods.*
 
 ####		Unofficial
 * Czech  - "CZ Mod"
 * Hungarian - "HunMOD"		
 * Russian - Has a dub available here - https://drive.google.com/open?id=1KSkre2gwVUHTV5aLAbgMxPfbM29ZyIx-
-	* Note: An unofficial release overdub, new audio dubbed over the original, which can still be heard.
+	* Note: An unofficial release low quality overdub, new audio dubbed over the original, which can still be heard.
 
 ####		Unknown
 * Polish
@@ -128,18 +130,19 @@ If you install a translation, Confix will not be.
 * 1002fm maps / Deus Ex Maps Patch (DXM's maps patch identical except for 3 maps, more info here: https://trello.com/c/NDetDM0v/27-figure-out-the-which-map-files-to-use-for-the-unofficial-map-patch-base-completed-using-the-1002f-files)
 * Engine.dll (Demo Recording Fix + Speedup fix)
 * Confix (Conversation fixes)
-* OTPUIFix (UI Scaling fixes, not applied automatically, see readme)
+* OTPUIFix (UI Scaling fixes, not applied automatically, see readme in Help folder.)
 * RF (Revision Framework)
 * RenderExt (Render Extension from Revision)
 * Nephthys (MP Admin tool)
 * DXMTL (Multiplayer bug fixes)
 
-### Alternate EXEs : (Launch Recommended) 
-* Launch (Used by default, more compatible / stable,  still developed & supported) 
+### Alternate EXEs : (Launch Recommended & Used by Default)
+#### Copy and Rename desired EXE to "Deus Ex Community Update.exe" 
+* Launch (Used by default, more compatible / stable,  still developed & supported)  (Launch.exe)
 	* LCC.exe, a UCC.exe update, is also included with Launch and can be used the same way as UCC. 
-* Deus Exe (More features, less compatible / stable, no longer developed or supported) (In archive, extract the setup exe to access)
-	* Note: Not compatible with XP, older version (5.3) that is included in files.
-* UE1 Launcher (Relatively new, needs testing but promising. Uses borderless windows by default) (In archive extract the setup exe to access)
+* Deus Exe (More features, less compatible / stable, no longer developed or supported) (Kentie's DeusExe.exe)
+	* Note: Not compatible with XP, older version (5.3) that is included. (Kentie's Deus Exe (Old for XP).exe)
+* UE1 Launcher (Relatively new, needs testing but promising. Uses borderless windows by default) (UE1 Launch.exe)
 
 ### Video Renderers;
 * Nglide (3dfx emulator)
@@ -267,7 +270,7 @@ Full credits should be the same as the final game, located in Credits.DX
 
 https://www.dx-revision.com/
 
-Hawk: ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision for fixing inventory bug when the player dies holding a weapon and starts a new game.
+Hawk: Deus Ex: Transcended, ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision for fixing inventory bug when the player dies holding a weapon and starts a new game.
 
 Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2
 

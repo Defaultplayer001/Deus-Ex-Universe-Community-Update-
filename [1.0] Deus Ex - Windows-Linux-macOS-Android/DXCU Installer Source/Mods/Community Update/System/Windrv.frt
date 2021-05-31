@@ -1,11 +1,11 @@
 [Public]
 Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
-Preferences=(Caption="Display",Parent="Advanced Options",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
-Preferences=(Caption="Joystick",Parent="Advanced Options",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="Affichage",Parent="Options avancées",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Joystick",Parent="Options avancées",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
 
 [Errors]
-Failed3D=Echec de l'initialisation du matériel 3d
-DDrawMode=DirectDraw n'a pas pu afficher le mode vidéo requis
+Failed3D=Echec de l'initialisation du matériel 3D.
+DDrawMode=DirectDraw n'a pas pu afficher le mode vidéo requis.
 
 [General]
 ViewPersp=Vue en perspective

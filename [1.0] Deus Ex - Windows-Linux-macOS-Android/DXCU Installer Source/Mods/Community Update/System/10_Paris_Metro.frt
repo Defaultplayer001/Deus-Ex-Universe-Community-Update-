@@ -62,8 +62,8 @@ FamiliarName="Police"
 UnfamiliarName="Police"
 
 [ThugMale0]
-FamiliarName="Guy"
-UnfamiliarName="Guy"
+FamiliarName="Type"
+UnfamiliarName="Type"
 
 [Chef1]
 FamiliarName="Cuisinier du bistrot"
@@ -89,8 +89,8 @@ FamiliarName="Hélicoptère furtif"
 UnfamiliarName="Hélicoptère furtif"
 
 [ComputerPersonal0]
-specialOptions[0]="(Text="Désactiver les robots militaires",TriggerText="Military Bots Deactivated",TriggerEvent=ComputerSpecialOption_shutdown)"
-specialOptions[1]="(Text="Robots militaires désactivés",TriggerText="Robots militaires activés",TriggerEvent=ComputerSpecialOption_wakeup)"
+specialOptions[0]="(Text="Désactiver les robots militaires",TriggerText="Robots militaires désactivés",TriggerEvent=ComputerSpecialOption_shutdown)"
+specialOptions[1]="(Text="Activer les robots militaires",TriggerText="Robots militaires activés",TriggerEvent=ComputerSpecialOption_wakeup)"
 
 [Cop5]
 FamiliarName="Police"
@@ -130,4 +130,3 @@ awardMessage="Bonus : exploration"
 [DeusExLevelInfo0]
 MissionLocation="Paris - non loin des Champs Elysées"
 startupMessage[0]="Paris sous la loi martiale"
-

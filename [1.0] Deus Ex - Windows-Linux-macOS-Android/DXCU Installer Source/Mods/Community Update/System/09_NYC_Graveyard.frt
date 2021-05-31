@@ -25,4 +25,3 @@ Title="Sans titre"
 [DeusExLevelInfo0]
 MissionLocation="NY - Cimetière de l'East Side"
 startupMessage[0]="New York, Cimetière de l'East Side"
-

@@ -42,4 +42,3 @@ awardMessage="Bonus : exploration"
 
 [DeusExLevelInfo0]
 MissionLocation="Zone 51 - Final"
-

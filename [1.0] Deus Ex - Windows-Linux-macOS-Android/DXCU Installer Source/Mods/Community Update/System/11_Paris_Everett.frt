@@ -46,7 +46,7 @@ Title="Sans titre"
 [ComputerSecurity0]
 Views[0]="(titleString="Moniteur de Lucius De Beers",cameraTag=lucius_cam)"
 Views[1]="(titleString="Héliport du toit",cameraTag=chopper_cam)"
-specialOptions[0]="(Text="2teindre le système de soins palliatifs",TriggerText="Soins palliatifs désactivés",TriggerEvent=lucius_dead,bTriggerOnceOnly=True)"
+specialOptions[0]="(Text="Eteindre le système de soins palliatifs",TriggerText="Soins palliatifs désactivés",TriggerEvent=lucius_dead,bTriggerOnceOnly=True)"
 
 [ComputerSecurity1]
 Views[0]="(titleString="Champ d'isolation nanotechnique 001",cameraTag=camerafield001,doorTag=field001)"
@@ -64,3 +64,5 @@ MissionLocation="Paris - Demeure de Morgan Everett"
 startupMessage[0]="Demeure de Morgan Everett"
 startupMessage[1]="Quelque part dans Paris"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MorganEverett,KeyID=morganhelibaydoor,Description="Clé du verrou magnétique de l'héliport")"

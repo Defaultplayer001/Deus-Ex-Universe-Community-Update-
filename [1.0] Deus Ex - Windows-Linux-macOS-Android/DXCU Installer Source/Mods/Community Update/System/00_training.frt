@@ -16,9 +16,11 @@ FamiliarName="UN_obst_rampe"
 [SecurityCamera1]
 FamiliarName="UN_obst_saut"
 
-[SecurityCamera3]
-FamiliarName="UN_obst_nage2"
-
 [SecurityCamera2]
 FamiliarName="UN_obst_nage"
 
+[SecurityCamera3]
+FamiliarName="UN_obst_nage2"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Test_Subject,KeyID=Body_Search_Room,Description="Local médical")"

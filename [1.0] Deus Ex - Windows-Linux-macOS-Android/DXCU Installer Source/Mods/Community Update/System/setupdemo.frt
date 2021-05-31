@@ -26,10 +26,10 @@ Caption=DirectX
 Description=Pilotes Microsoft DirectX 7.0a pour une meilleure gestion des graphismes des sons et des manettes. Si DirectX 7.0a n'est pas encore présent sur votre machine, vous devez retenir cette option.
 
 [PlayShortcut]
-Caption=jouer à la démo de Deus Ex
+Caption=Jouer à la démo de Deus Ex
 
 [SafeModeShortcut]
-Caption=mode sécurisé de Deus Ex
+Caption=Mode sécurisé de Deus Ex
 
 [DocumentationShortcut]
 Caption=Documentation
@@ -38,11 +38,10 @@ Caption=Documentation
 Caption=Page Web de Deus Ex
 
 [DeveloperWebShortcut]
-Caption= Page Web d'Ion Storm
+Caption=Page Web d'Ion Storm
 
 [PublisherWebShortcut]
-Caption= Page Web d'Eidos Interactive
+Caption=Page Web d'Eidos Interactive
 
 [UninstallShortcut]
 Caption=Désinstaller la démo de Deus Ex
-

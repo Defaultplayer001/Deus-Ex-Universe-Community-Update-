@@ -19,7 +19,7 @@ EditLevelCommand=&Éditer ce niveau de Deus Ex
 
 [GameGroup]
 Caption=Moteur de Deus Ex
-Description= Le cœur de Deus Ex. Installation requise.
+Description=Le cœur de Deus Ex. Installation requise.
 
 [DeusExContentGroup]
 Caption=Éléments de Deus Ex
@@ -64,4 +64,3 @@ Caption=Page Web d'Eidos Interactive
 
 [UninstallShortcut]
 Caption=Désinstaller Deus Ex
-

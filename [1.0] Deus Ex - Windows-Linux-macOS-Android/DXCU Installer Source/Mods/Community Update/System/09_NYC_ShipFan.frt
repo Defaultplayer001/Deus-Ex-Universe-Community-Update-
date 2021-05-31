@@ -23,5 +23,4 @@ Title="Sans titre"
 DamageString="Cette zone est extrêmement CHAUDE !"
 
 [DeusExLevelInfo0]
-MissionLocation="NYC - Système de refroidissement du bâtiment d'assemblage naval"
-
+MissionLocation="NY - Système de refroidissement du bÂtiment d'assemblage naval"

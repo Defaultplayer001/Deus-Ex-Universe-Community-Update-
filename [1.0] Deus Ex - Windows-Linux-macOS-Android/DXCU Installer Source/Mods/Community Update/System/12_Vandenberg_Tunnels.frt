@@ -21,4 +21,3 @@ Title="Sans titre"
 
 [DeusExLevelInfo0]
 MissionLocation="Vandenberg - Souterrains"
-

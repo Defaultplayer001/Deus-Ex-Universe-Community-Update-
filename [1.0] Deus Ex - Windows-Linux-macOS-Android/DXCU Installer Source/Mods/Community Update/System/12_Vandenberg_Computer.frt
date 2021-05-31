@@ -29,4 +29,3 @@ UnfamiliarName="Scientifique"
 
 [DeusExLevelInfo0]
 MissionLocation="Vandenberg - Ordinateur"
-

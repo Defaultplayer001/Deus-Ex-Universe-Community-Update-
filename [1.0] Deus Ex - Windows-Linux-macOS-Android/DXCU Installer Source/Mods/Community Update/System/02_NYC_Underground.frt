@@ -18,11 +18,10 @@ Title="Sans titre"
 [ComputerSecurity1]
 Views[0]="(titleString="Entrée est",cameraTag=Camera1,doorTag=DoorA)"
 Views[1]="(titleString="Entrée ouest",cameraTag=Camera2)"
-Views[2]="(titleString="accès par les tunnels",cameraTag=Camera3,turretTag=AutoTurretA)"
+Views[2]="(titleString="Accès par les tunnels",cameraTag=Camera3,turretTag=AutoTurretA)"
 
 [ComputerSecurity0]
 Views[0]="(titleString="Entrée est",cameraTag=Camera1,doorTag=DoorA)"
 Views[1]="(titleString="Entrée ouest",cameraTag=Camera2)"
-Views[2]="(titleString="accès par les tunnels",cameraTag=Camera3,turretTag=AutoTurretA)"
+Views[2]="(titleString="Accès par les tunnels",cameraTag=Camera3,turretTag=AutoTurretA)"
 specialOptions[0]="(Text="Tourner le pont",TriggerText="Pont tournant",TriggerEvent=RotateBridge)"
-

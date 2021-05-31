@@ -7,7 +7,7 @@ FamiliarName="Miguel"
 [ComputerSecurity4]
 Views[0]="(titleString="Bloc opératoire",cameraTag=medcam)"
 Views[1]="(titleString="Labo de nanotechnologie",cameraTag=Nanocam)"
-Views[2]="(titleString="Cell Block A",cameraTag=cellcam,turretTag=cellturret)"
+Views[2]="(titleString="Bloc des cellules A",cameraTag=cellcam,turretTag=cellturret)"
 
 [ComputerSecurity1]
 Views[0]="(titleString="Cellule de détention",cameraTag=beastcam,turretTag=beastTurret,doorTag=Beastdoor)"
@@ -33,7 +33,7 @@ FamiliarName="Dr. Moreau"
 UnfamiliarName="Médecin"
 
 [ComputerPersonal4]
-specialOptions[0]="(Text="Commande de libération des Greasel",TriggerText="Cages Ouvertes",TriggerEvent=nanocage)"
+specialOptions[0]="(Text="Commande de libération des Greasels",TriggerText="Cages Ouvertes",TriggerEvent=nanocage)"
 specialOptions[1]="(Text="Ouvrir le champ d'isolation",TriggerText="Champ d'isolation ouvert",TriggerEvent=field002)"
 
 [SecurityCamera2]
@@ -54,11 +54,11 @@ FamiliarName="Armurerie"
 [ComputerSecurity0]
 Views[0]="(titleString="Mitrailleuse de l'armurerie",cameraTag=armorycam1,turretTag=Turret1)"
 specialOptions[0]="(Text="Désactiver le robot de l'armurerie 1",TriggerText="Robot 1 désactivé",TriggerEvent=ArmoryBot1Off,bTriggerOnceOnly=True)"
-specialOptions[1]="(Text="Désactiver le robot de l'armurer2",TriggerText="Robot 2 désactivé",TriggerEvent=ArmoryBot2Off,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Désactiver le robot de l'armurerie 2",TriggerText="Robot 2 désactivé",TriggerEvent=ArmoryBot2Off,bTriggerOnceOnly=True)"
 
 [ComputerSecurity2]
 Views[0]="(titleString="Armurerie",cameraTag=armorycam)"
-specialOptions[0]="(Text="Modification de l'IA du robot",TriggerText="Ia du robot modifiée",TriggerEvent=botorders2)"
+specialOptions[0]="(Text="Modification de l'IA du robot",TriggerText="IA du robot modifiée",TriggerEvent=botorders2)"
 
 [SecurityCamera4]
 FamiliarName="Labo de nanotechnologie"
@@ -69,8 +69,10 @@ FamiliarName="Labo médical"
 [DeusExLevelInfo0]
 MissionLocation="Complexe secret du MJ12"
 startupMessage[0]="Location : inconnue"
-startupMessage[1]="Heure :  inconnue"
+startupMessage[1]="Heure : inconnue"
 
 [LevelSummary]
 Title="Sans titre"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MIB,KeyID=Cabinet,Description="Clé de cabinet d'agent MIB")"

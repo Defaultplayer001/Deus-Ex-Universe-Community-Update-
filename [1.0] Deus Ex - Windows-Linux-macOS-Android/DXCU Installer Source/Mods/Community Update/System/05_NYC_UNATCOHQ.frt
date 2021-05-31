@@ -61,13 +61,13 @@ UnfamiliarName="Shannon"
 UnfamiliarName="Alex Jacobson"
 
 [ComputerPersonal3]
-specialOptions[0]="(Text="Décrypter le mottueur de l'agent ANavarre",TriggerText="Mottueur partie 2 sur 2 décryptée : 'Woman'",TriggerEvent=know2,bTriggerOnceOnly=True)"
-specialOptions[1]="(Text="Décrypter le mot tueur del'agent GHerman",TriggerText="Killphrase Not Available - - Awaiting Installation")"
+specialOptions[0]="(Text="Décrypter le mot-tueur de A.Navarre",TriggerText="Mot-tueur partie 2 sur 2 décryptée : 'Woman'",TriggerEvent=know2,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Décrypter le mot-tueur de G.Herman",TriggerText="Mot-tueur non disponible - - En attente d'installation")"
 specialOptions[2]="(userName="demiurge")"
 
 [ComputerPersonal0]
-specialOptions[0]="(Text="Décrypter le mottueur de l'agent ANavarre Killphrase",TriggerText="Mottueur Partie 1sur 2 décryptée : 'Flatlander'",TriggerEvent=know1,bTriggerOnceOnly=True)"
-specialOptions[1]="(Text="Décrypter le mottueur de l'agent Gherman",TriggerText="Killphrase Not Available - - Awaiting Installation",userName="demiurge")"
+specialOptions[0]="(Text="Décrypter le mot-tueur de A.Navarre",TriggerText="Mot-tueur Partie 1 sur 2 décryptée : 'Flatlander'",TriggerEvent=know1,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Décrypter le mot-tueur de G.Herman",TriggerText="Mot-tueur non disponible - - En attente d'installation",userName="demiurge")"
 
 [SecurityCamera2]
 FamiliarName="UN_QMcam01"
@@ -91,3 +91,5 @@ awardMessage="Bonus : avancement"
 [LevelSummary]
 Title="Sans titre"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=AlexJacobson,KeyID=levelone,Description="Entrée niveau un")"

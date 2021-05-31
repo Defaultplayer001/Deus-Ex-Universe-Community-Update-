@@ -29,9 +29,8 @@ UnfamiliarName="Patrouille du métro"
 Title="Sans titre"
 
 [SkillAwardTrigger0]
-awardMessage="Bonus exploration"
+awardMessage="Bonus : exploration"
 
 [DeusExLevelInfo0]
 MissionLocation="Paris - Station de métro"
 startupMessage[0]="Station de métro"
-

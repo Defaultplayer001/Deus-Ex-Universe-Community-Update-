@@ -26,4 +26,3 @@ ClassCaption="Réseau TCP/IP"
 
 [UdpBeacon]
 ClassCaption="Serveur LAN dédié"
-

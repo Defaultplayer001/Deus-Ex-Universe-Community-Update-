@@ -6,4 +6,3289 @@ Product=Deus Ex magyarul
 
 [Progress]
 Loading=Betöltés
-Saving=Mentés
+Saving=Mentés
+
+[General]
+RunBang=Futtatás!
+FirstTime=A Deus Ex elsõ beállítása
+SafeMode=Deus Ex (csökkentett mód)
+Video=Deus Ex képbeállítás
+RecoveryMode=Deus Ex (biztonsági mód)
+WebPage=http://www.deusex.com/
+Direct3DWebPage=http://www.deusex.com/Direct3D.htm
+Detecting=3D videoeszközök felderítése, kérem, várjon...
+SoundLow=Alacsony hangminõség
+SoundHigh=Jó hangminõség
+SkinsLow=Közepes minõségû szereplõtextúrák
+SkinsHigh=Jó minõségû szereplõtextúrák
+WorldLow=Közepes minõségû objektumtextúrák
+WorldHigh="Jó minõségû objektumtextúrák"
+ResLow=Alacsony képfelbontás
+ResHigh=Átlagos képfelbontás
+
+[Descriptions]
+SoftDrv.SoftwareRenderDevice=Ez a Deus Ex beépített software-es képmegjelenítõ eljárása, mely minden videokártyával kompatibilis.  Használata csakis saját felelõsségre ajánlott.
+GlideDrv.GlideRenderDevice=Ezzel lehet a 3dfx Glide-támogatást bekapcsolni. A 3dfx-kártya tulajdonosainak ez a beállítás ajánlott.  Használatához 3dfx-kártya szükséges.
+D3DDrv.D3DRenderDevice=Ezzel a Direct3D hardware-es képmegjelenítõ eljárása kapcsolható be. Minden újabb - azaz Riva TNT, ATI Rage 128, Matrox G400, és S3 Savage4 -, modern videokártyával kompatibilis.  A régebbi - azaz ATI Rage Pro, Riva 128, Intel i740, vagy Rendition V2200 - típusú videokártyákhoz a software-es képmegjelenítést ajánljuk.
+OpenGLDrv.OpenGLRenderDevice=Ez a kísérleti OpenGL-támogatás. A HunMOD telepítésekor kicseréltük a kísérleti képmegjelenítõt egy modernebb megoldásra. Az újabb videokártyák szebb képhatást eredményeznek ezzel a megjelenítõvel. További információ a http://cwdohnal.home.mindspring.com/utglr/ oldalon érhetõ el.
+MetalDrv.MetalRenderDevice=Ezt a beállítást S3 Savage4 videokártya-tulajdonosoknak ajánljuk.
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=
+IDC_DetailPrompt=A számítógép képessége alapján a Deus Ex a következõ beállításokkal fog elindulni. A videokártyát, memóriát és processzor-sebességet figyelembe véve optimális teljesítmény érhetõ el ezzel a beállítással.
+IDC_DetailNote=Ezeket a beállításokat késõbb is meg lehet majd változtatni a játék "Beállítások" menüjében. A felbontást a mellékelt otpUIfix-beállító miatt nem szabad a játékon belül megváltoztatni.
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=
+IDC_Prompt=A Deus Ex elõször indul el.  Ha problémába ütközne, olvassa el a Start menüben található Deus Ex elemen belüli "kiadási megjegyzéseket".
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Ez a számítógép a lent mutatott listában felsorolt megjelenítési eljárásokat támogatja.\nA Deus Ex a legmegfelelõbbet választotta ki. Felülbíráláshoz kattintson egy másik elemre.
+IDC_RenderNote=
+IDC_Compatible=Tanúsítottan mûködõ módok
+IDC_All=Minden megjelenítési mód mutatása
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=
+IDC_SafeModePrompt=Legutóbb a Deus Ex nem megfelelõen lépett ki.\nHa úgy gondolja valami hiba történhetett, az alábbi módok a segítségére lehetnek:
+IDC_SafeModePrompt2=Deus Ex csökkentett mód: Ha a játék futtatásakor problémába ütközne, ezek a beállítások segíthetnek a probléma megoldásában.
+IDC_Run=A Deus Ex normál módú futtatása
+IDC_Video=3D-képmegjelenítõ váltása
+IDC_SafeMode=Deus Ex futtatása csökkentett, hibaelhárító módban
+IDC_Web=Látogassa meg honlapunkat hibaelhárítási tanácsokért!
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=
+IDC_SafeOptions=Válassza ki az esetleges probléma azonosításához a megfelelõ beállításokat:
+IDC_NoSound=Hangok kikapcsolása
+IDC_No3DSound=3D hardware-es hang kikapcsolása
+IDC_No3DVideo=3D hardware-es videomegjelenítés kikapcsolása
+IDC_Window=Ablakban futtatás
+IDC_Res=Szabvány, 640x480-as felbontás használata
+IDC_ResetConfig=Minden beállítás alapértelmezettre állítása
+IDC_NoProcessor=Pentium III/3DNow processzor-utasításkészletek letiltása
+IDC_NoJoy=Botkormány-támogatás kikapcsolása
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=
+IDC_DriverText=A Deus Ex a következõ Direct3D-kompatibilis videokártyát észlelte:
+IDC_DriverInfo=A Direct3D-t válaszottta, mint 3D-megjelenítési módot.\n\nMeglehet, bizonyos videokártya-meghajtókat frissíteni kell a játék helyes mûködéséhez. Javasoljuk, lépjen tovább a megadott weboldalra és telepítse fel a videokártyájához szükséges legfrissebb meghajtókat. A videokártya kompatibilitási képességeirõl a fent említett weboldalon talál további információt.\n\nHa a játék során megjelenítési problémába ütközne, lassú lenne a játék, nem színhû és furcsa alakzatok jelennének meg, úgy kérjük, indítsa el a Deus Ex-et csökkentet módban a Start menü megfelelõ menüjébõl és váltson megjelenítõ-meghajtót.
+IDC_Web=További információért és a legfrissebb meghajtókért látogassa meg honlapunkat:
+IDC_WebButton=Inform˜áció a Direct3D-rõl és a meghajtókról
+IDC_Card=Ismeretlen
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Deus Ex telepítõ
+
+[IDDIALOG_ConfigPageResolution]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Your computer supports the following fullscreen resolutions. If you wish to change the current, highlight an option below.
+IDC_RenderNote=
+
+[IDDIALOG_ConfigPageAudioSubsystem]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Your computer supports the following audio subsystem. If you wish to change the current, highlight an option below.
+IDC_RenderNote=
+
+[ScriptedPawn]
+FamiliarName="DEFAULT FAMILIAR NAME - REPORT THIS AS A BUG"
+UnfamiliarName="DEFAULT UNFAMILIAR NAME - REPORT THIS AS A BUG"
+
+[DeusExPlayer]
+InventoryFull="Nem lehet felvenni, nem fér el a %s"
+TooMuchAmmo="Már van elég ebbõl a fajta lõszerbõl"
+TooHeavyToLift="Nehéz felemelni"
+CannotLift="Nem lehet megemelni"
+NoRoomToLift="Nincs hely megemelni"
+CanCarryOnlyOne="Csak egy darab %s hordozható egyszerre"
+CannotDropHere="Ide nem lehet most ledobni"
+HandsFull="Tele van a kezed"
+NoteAdded="Új feljegyzés - további részletek az adatbankban"
+GoalAdded="Új teendõ - további részletek az adatbankban"
+PrimaryGoalCompleted="Elsõdleges küldetés teljesítve"
+SecondaryGoalCompleted="Másodlagos küldetés teljesítve"
+EnergyDepleted="A bioelektromos tartalékok kiürültek"
+AddedNanoKey="%s hozzáadódott a kulcscsomóhoz"
+HealedPointsLabel="%d pontot gyógyított"
+HealedPointLabel="%d pontot gyógyított"
+SkillPointsAward="%d képzettségpont jár"
+QuickSaveGameTitle="Gyorsmentés"
+WeaponUnCloak="Fegyver elõvéve... megjelenés"
+TakenOverString=" már az enyém"
+HeadString="Fej"
+TorsoString="Törzs"
+LegsString="Lábak"
+WithTheString=" with the "
+WithString=" with "
+PoisonString=" halálos méreggel"
+BurnString=" kiterjedt égéssel"
+NoneString="Semmi"
+FamiliarName="JC Denton"
+UnfamiliarName="JC Denton"
+
+[DeusExDecoration]
+ItemArticle="a"
+ItemName="DEFAULT DECORATION NAME - REPORT THIS AS A BUG"
+
+[SkillManager]
+NoToolMessage="Erre van szükséged: %s"
+NoSkillMessage="%s képzettésgi szint nem elegendõ a %s használatához"
+SuccessMessage="Sikerült!"
+YourSkillLevelAt="%s-képzettség %d. szintû lett"
+
+[Skill]
+skillLevelStrings[0]="KÉPZETLEN"
+skillLevelStrings[1]="KÉPZETT"
+skillLevelStrings[2]="HALADÓ"
+skillLevelStrings[3]="MESTER"
+SkillAtMaximum="A képzettséget nem lehet továbbfejleszteni"
+
+[AugmentationManager]
+AugLocationFull="Nem lehet több augmentációt ültetni abba a testrészbe!"
+NoAugInSlot="Nincs augmentáció abban a testrészben"
+
+[Augmentation]
+EnergyRateLabel="Energiafogyasztás: %d egység/perc"
+OccupiesSlotLabel="Ide épül be: %s"
+AugLocsText[0]="Agy"
+AugLocsText[1]="Szem"
+AugLocsText[2]="Törzs"
+AugLocsText[3]="Kar"
+AugLocsText[4]="Láb"
+AugLocsText[5]="Bõr alatt"
+AugLocsText[6]="Alapvetõ"
+AugActivated="%s aktiválva"
+AugDeactivated="%s deaktiválva"
+MPInfo="DEFAULT AUG MP INFO - REPORT THIS AS A BUG"
+AugAlreadyHave=You already have the %s at the maximum level
+AugNowHave="A(z) %s %d. szintre fejlõdött"
+AugNowHaveAtLevel=Augmentation %s at level %d
+AlwaysActiveLabel="[Mindig aktív]"
+CanUpgradeLabel="(Még fejleszthetõ)"
+CurrentLevelLabel="Most a %d. szinten van"
+MaximumLabel="(Maximum)"
+
+[DeusExRootWindow]
+QuickLoadTitle="Gyorsmentés betöltése?"
+QuickLoadMessage="A jelenlegi játék el fog veszni! Biztos vissza akarja tölteni az elõzõ gyorsmentést?"
+
+[DeusExWeapon]
+msgCannotBeReloaded="A fegyver nem tölthetõ újra"
+msgOutOf="%s nincs"
+msgNowHas="%s fegyverbe mostantól %s van betöltve"
+msgAlreadyHas="%s fegyverbe már %s van betöltve"
+msgNone="SEMMI"
+msgLockInvalid="ÉRVÉNYTELEN"
+msgLockRange="TÁV"
+msgLockAcquire="MÉRÉS"
+msgLockLocked="BEMÉRVE"
+msgRangeUnit="LÁB"
+msgTimeUnit="MP"
+msgMassUnit="FONT"
+msgNotWorking="A fegyver víz alatt nem használható"
+msgInfoAmmoLoaded="Tárazott:"
+msgInfoAmmo="Választható:"
+msgInfoDamage="Károkozás:"
+msgInfoClip="Tárméret:"
+msgInfoROF="Tûzgyorsaság:"
+msgInfoReload="Újratöltési idõ:"
+msgInfoRecoil="Visszarúgás:"
+msgInfoAccuracy="Pontosság:"
+msgInfoAccRange="Hatótáv:"
+msgInfoMaxRange="Max. hatótáv:"
+msgInfoMass="Súly:"
+msgInfoLaser="Lézercélzó:"
+msgInfoScope="Távcsõ:"
+msgInfoSilencer="Hangtompító:"
+msgInfoNA="NINCS"
+msgInfoYes="IGEN"
+msgInfoNo="NEM"
+msgInfoAuto="AUTOMATA"
+msgInfoSingle="EGYLÖVETÛ"
+msgInfoRounds="TÖLTÉNY"
+msgInfoRoundsPerSec="TÖLTÉNY/MP"
+msgInfoSkill="Képzettség:"
+msgInfoWeaponStats="Fegyverleírás"
+PickupMessage="Tied lett"
+ItemName="DEFAULT WEAPON NAME - REPORT THIS AS A BUG"
+
+[DeusExCarcass]
+msgSearching="Tied lett"
+msgEmpty="Semmit sem találtál nála"
+msgNotDead="Eszméletlen"
+msgAnimalCarcass="Állattetem"
+msgCannotPickup="Nem lehet felvenni: %s"
+msgRecharged="%d pontot töltött újra"
+ItemName="Holttest"
+
+[MenuUIChoice]
+actionText="Válasszon"
+FalseTrue[0]="Hamis"
+FalseTrue[1]="Igaz"
+
+[DeusExMover]
+msgKeyLocked="A nanokulcs bezárta az ajtót"
+msgKeyUnlocked="A nanokulcs kinyitotta az ajtót"
+msgLockpickSuccess="Feltörted a zárat"
+msgOneWayFail="Errõl az oldalról nem fog kinyílni"
+msgLocked="Zárva van"
+msgPicking="Zár feltörése..."
+msgAlreadyUnlocked="Már nyitva van"
+msgNoNanoKey="A nanokulcscsomón nincs rajta a megfelelõ kulcs"
+
+[DeusExPickup]
+CountLabel="DARAB"
+msgTooMany="Nem lehet már ebbõl többet vinni"
+PickupMessage="Tied lett"
+ItemName="DEFAULT PICKUP NAME - REPORT THIS AS A BUG"
+
+[deusexserverping]
+AdminEmailText="Admin elérhetõsége"
+AdminNameText="Admin neve"
+ChangeLevelsText="Pályaváltás"
+MultiplayerBotsText="Botok a többjátékosban"
+FragLimitText="Öléshatár"
+TimeLimitText="Idõhatár"
+GameModeText="Játékmód"
+GameTypeText="Játéktípus"
+GameVersionText="Játék verziója"
+WorldLogText="ngWorldStats"
+MutatorsText="Módosítók"
+TrueString="Engedélyezve"
+FalseString="Letiltva"
+ServerAddressText="Kiszolgáló címe"
+GoalTeamScoreText="Szükséges csapatpontozás"
+MinPlayersText="Legkisebb szükséges játékosszám a játékindításhoz"
+PlayersText="Játékosok"
+MaxTeamsText="Max. csapatok"
+BalanceTeamsText="A botok kiegyenlítok a csapatokat"
+PlayersBalanceTeamsText="Csapatkiegyenlítés erõltetése"
+FriendlyFireText="Baráti sebzés"
+MinNetVersionText="Legkisebb kompatibilis verzió"
+BotSkillText="Bot tudása"
+TournamentText="Versenymód"
+ServerModeText="Kiszolgálómód"
+DedicatedText="Dedikált"
+NonDedicatedText="Nem dedikált"
+WorldLogWorkingText="ngWorldStats állapota"
+WorldLogWorkingTrue="Állapotfeldolgozás rendben"
+WorldLogWorkingFalse="Hiba az állapotfeldolgozáskor"
+StartingSkillsText="Kezdéskori képzettségpontok"
+SkillsPerKillText="Ölésenkénti képzettségpont"
+StartingAugsText="Kezdéskori augmentációk"
+AugsPerKillText="Ölésenkénti augmentációk"
+AugsAllowedText="Augmentációk"
+TargetKillsText="Öléshatár"
+TargetTimeText="Idõhatár (percben)"
+PasswordText="Jelszóval védve"
+
+[DeusExProjectile]
+ItemName="DEFAULT PROJECTILE NAME - REPORT THIS AS A BUG"
+ItemArticle="Hiba"
+
+[DataVaultImage]
+PickupMessage="A kép hozzáadódott az adatbankhoz"
+beltDescription="KÉP"
+
+[Computers]
+msgLockedOut="A terminál %d másodpercre lezárta magát"
+NodeInfo[0]="(nodeName="az UNATCO",nodeAddress="UN//UNATCO//RESTRICTED//923.128.6430",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoUNATCO')"
+NodeInfo[1]="(nodeName="a VersaLife",nodeDesc="VersaLife",nodeAddress="VERSALIFECORP//GLOBAL//3939.39.8",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoVersaLife')"
+NodeInfo[2]="(nodeName="a Queens Tower",nodeDesc="Queens Tower Luxury Suites",nodeAddress="QT_UTIL//LOCAL//673.9845.09531",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoQueensTower')"
+NodeInfo[3]="(nodeName="az USN",nodeDesc="United States Navy",nodeAddress="USGOV//MIL//USN//GLOBAL//0001",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoUSNavy')"
+NodeInfo[4]="(nodeName="az MJ12Net",nodeDesc="Majestic 12 Net",nodeAddress="MAJESTIC//GLOBAL//12.12.12",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoMJ12')"
+NodeInfo[5]="(nodeName="a Page Industries",nodeDesc="Page Industries",nodeAddress="PAGEIND//USERWEB//NODE.34@778",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoPage')"
+NodeInfo[6]="(nodeName="az X-51 SecureNet",nodeDesc="X-51 SecureNet",nodeAddress="X51//SECURENET//NODE.938@893",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoArea51')"
+NodeInfo[7]="(nodeName="az Everett Enterprises",nodeDesc="Everett Enterprises",nodeAddress="EE//INTSYS.TT//0232.98//TERMINAL",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoEverettEnt')"
+NodeInfo[8]="(nodeName="az NSF",nodeDesc="NSF",nodeAddress="HUB//RESISTANCE.7654//NSFNODES",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoNSF')"
+NodeInfo[9]="(nodeName="az NYComm",nodeDesc="NYC Communications",nodeAddress="USA//DOMESTIC//NYCCOM.USERS.PUB",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoNYComm')"
+NodeInfo[10]="(nodeName="a PRChina",nodeDesc="Peoples Republic of China",nodeAddress="PRC//GOV//RESTRICTED.HK.562",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoPRChina')"
+NodeInfo[11]="(nodeName="a HKNet",nodeDesc="HK Net",nodeAddress="PUB//HKNET//USERS.ACCTS.20435//2",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoHKNet')"
+NodeInfo[12]="(nodeName="a Quick Stop",nodeDesc="Quick Stop",nodeAddress="PUB//HKNET//QUICKSTOPINT//NODE98",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoQuickStop')"
+NodeInfo[13]="(nodeName="a Lucky Money",nodeDesc="Lucky Money Club",nodeAddress="PUB//HKNET//LUCKYMONEY/BUSSYS.294",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoLuckyMoney')"
+NodeInfo[14]="(nodeName="az IIS",nodeDesc="Illuminati Information Systems",nodeAddress="SECURE//IIS.INFTRANS.SYS//UEU",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoIlluminati')"
+CompInUseMsg="A terminált már %s használja"
+
+[ComputerSecurityCameraWindow]
+CameraLabel="Kamera"
+CameraStatusLabel="A kamera"
+DoorStatusLabel="Az ajtó"
+TurretStatusLabel="A lövegtorony"
+OnLabel="be van kapcsolva."
+OffLabel="ki van kapcsolva."
+FriendlyLabel="ellenségeket pásztáz."
+HostileLabel="szövetségeseket pásztáz."
+DisabledLabel="hatástalanítva van."
+AttackingAlliesLabel="barátokat támad."
+AttackingEnemiesLabel="ellenségeket támad."
+AttackingEverythingLabel="mindent támad."
+NoSignalLabel="NINCS JEL"
+OpenLabel="ki van nyitva"
+ClosedLabel="be van csukva"
+LockedLabel="zártan."
+UnlockedLabel="nyitható."
+
+[AutoTurret]
+titleString="Autom. Löveg"
+ItemName="Lövegtorony"
+
+[PersonaInventoryItemButton]
+CountLabel="%d darab"
+RoundLabel="%d darab"
+RoundsLabel="%d darab"
+
+[DeusExMPGame]
+TooManyPlayers="Túl sok a játékos"
+StreakString="Fölény"
+KillsString="Gyilkolás"
+DeathsString="Halál"
+PlayerString="Játékos"
+NewMapSecondsString=" másodperc van a következõ pályáig."
+WonMatchString=" nyerte a játszmát!"
+EscapeString="Nyomj <Escape> gombot a lecsatlakozáshoz!"
+MatchEnd1String="A játszma véget ért "
+MatchEnd2String=" kiütésével "
+TeamNsfString="NSF-csapat"
+TeamUnatcoString="Unatco-csapat"
+TeamDrawString="Egyenlõ az állás!"
+
+[HUDObjectSlot]
+RoundLabel="%d darab"
+RoundsLabel="%d darab"
+CountLabel="DARAB"
+
+[DeusExAmmo]
+msgInfoRounds="%d muníció van még"
+PickupMessage="Tied lett"
+ItemName="DEFAULT AMMO NAME - REPORT THIS AS A BUG"
+ItemArticle=""
+
+[MenuUIWindow]
+btnLabelOK="|&Rendben"
+btnLabelCancel="|&Bezár"
+btnLabelPrevious="|&Elõzõ"
+btnLabelResetToDefaults="|&Visszavon"
+MessageBoxTitle="Biztos benne?"
+ExitMessage="Biztos, hog|&y ki akar lépni a Deus Ex-bõl?"
+TrainingWarningMessage="A jelenlegi játék el fog veszni, ha nem menti el.  Megkezdi a kiképzést?"
+IntroWarningMessage="A jelenlegi játék el fog veszni, ha nem menti el.  Megnézi bevezetõt?"
+AskToTrainTitle="Kiképzés"
+AskToTrainMessage="Új jaték kezdése elõtt azt tanacsoljuk, játssza végig a gyakorlóküldetést. Szeretné ezzel kezdeni?"
+
+[SecurityCamera]
+msgActivated="Kamera bekapcsolva"
+msgDeactivated="Kamera kikapcsolva"
+ItemName="Biztonsági kamera"
+
+[HackableDevices]
+msgMultitoolSuccess="A szerkezetet hatástalanítva lett"
+msgNotHacked="Biztosítva van"
+msgHacking="Szerkezet hatástalanítása..."
+msgAlreadyHacked="Már hatástalanítva van"
+
+[MenuScreenLoadGame]
+strHeaderNameLabel="Név"
+strHeaderDateLabel="Kelt"
+NewSaveGameButtonText="Új mentés"
+DeleteGameButtonText="Mentés törlése"
+LoadGameButtonText="Mentés betöltése"
+OverwriteTitle="Biztos benne?"
+OverwritePrompt="Biztosan felül akarja írni a mentést?"
+DeleteTitle="Biztos benne?"
+DeletePrompt="Biztosan törölni akarja a mentést?"
+LoadGameTitle="Mentés betöltése"
+SaveGameTitle="Játék elmentése"
+SaveInfoMissing_Label="A SAVEINFO.DXS hiányzik!!!"
+TimeAMLabel="DE"
+TimePMLabel="DU"
+LocationLabel="Hely: %s|n"
+SaveCountLabel="%d. mentés|n"
+PlayTimeLabel="Játékidõ: %s|n"
+FileSizeLabel="Állományméret: %dMB"
+FreeSpaceLabel="Szabad hely: %dMB"
+ConfirmDeleteLabel="Mentéstörlés megerõsítése"
+CheatsEnabledLabel="- CSALÓ! -"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Mentés betöltése",Key="LOAD")"
+actionButtons[2]="(Action=AB_Other,Text="Játék tö|&rlése",Key="DELETE")"
+Title="Mentés betöltése"
+
+[DamageHUDDisplay]
+msgAbsorbed="%d%%-a elnyel"
+
+[AugmentationDisplayWindow]
+msgRange="Lotav"
+msgRangeUnits="lab"
+msgHigh="Magas"
+msgMedium="Kozepes"
+msgLow="Alacsony"
+msgHealth="elet"
+msgOverall="Teljes"
+msgPercent="%"
+msgHead="Fej"
+msgTorso="Torzs"
+msgLeftArm="B. kez"
+msgRightArm="J. kez"
+msgLeftLeg="B. lab"
+msgRightLeg="J. lab"
+msgLegs="Labak"
+msgWeapon="Fegyver:"
+msgNone="Nincs"
+msgScanning1="* Nincs celpont *"
+msgScanning2="* Pasztazas *"
+msgADSTracking="* ADS-kovetes *"
+msgADSDetonating="* ADS felrobban *"
+msgBehind="HATUL"
+msgDroneActive="Taviranyitasu kemdroid aktiv"
+msgEnergyLow="Bioelektromos energia alacsony szinten!"
+msgCantLaunch="HIBA! Nincs eleg hely kemdroid osszeszerelesehez!"
+msgLightAmpActive="Fényerõsítes aktív"
+msgIRAmpActive="Infravörös-fényerõsítes aktív"
+msgNoImage="Kep nem elerheto"
+msgDisabled="Kikapcsolva"
+SpottedTeamString="Csapattárs célkeresztben!"
+YouArePoisonedString="Mérgezés!"
+YouAreBurnedString="Tûz észlelve!"
+TurretInvincibleString="A lövegekben csak az EMI tud kárt tenni!"
+CameraInvincibleString="A kamerákban csak az EMI tud kárt tenni!"
+NeutBurnPoisonString="(Elsõsegélycsomaggal azonnal semlegesíthetõ)"
+OnlyString="Már csak "
+KillsToGoString=" trófea, és "
+KillToGoString=" trófea, és "
+LessThanMinuteString="Kevesebb, mint egy perc van hátra, és "
+LessThanXString1="Kevesebb, mint "
+LessThanXString2=" perc van hátra, és "
+LeadsMatchString=" vezeti a játékot!"
+TiedMatchString="szoros a játék!"
+WillWinMatchString=" fogja nyerni a játékot!"
+OutOfRangeString="(Lõtávon kívül)"
+LostLegsString="Elvesztetted a lábaidat!"
+DropItem1String="Nyomj <"
+DropItem2String="> gombot a kezedben lévõ tárgy eldobásához."
+msgTeammateHit="Eltaláltad egy csapattársadat!"
+msgTeamNsf="Az NSF csapatában vagy!"
+msgTeamUnatco="Az UNATCO csapatában vagy!"
+UseString="<"
+TeamTalkString="> megnyomásával csapatüzenetet küldhetsz."
+TalkString="> megnyomásával normális chat-üzenetet küldhetsz."
+YouKilledTeammateString="Megölted egy csapattarsadat!"
+TeamLAMString="Nem veheted fel a csapattársad gránátját!"
+TeamComputerString="Ez a számítógép már a csapatodhoz tartozik!"
+NoCloakWeaponString="Nem tudsz láthatatlanná válni, ha fegyver van a kezedben!"
+TeamHackTurretString="Ez a löveg már a csapatodhoz tartozik!"
+KeyNotBoundString="A gombhoz nincs funkció rendelve"
+OutOfAmmoString="Kifogytál a lõszerbõl!"
+
+[AutoTurretGun]
+ItemName="Önmûködõ védelmi löveg"
+
+[BlackHelicopter]
+ItemName="Fekete helikopter"
+
+[ComputerUIWindow]
+ButtonLabelLogin="B|&ejelentkezés"
+ButtonLabelLogout="|&Kijelentkezés"
+ButtonLabelCancel="|&Bezár"
+ButtonLabelSpecial="Különleges |&beállítások"
+
+[TeamDMGame]
+EnemiesString="Ellenségek"
+AlliesString="Szövetségesek"
+VictoryConString1="Cél: Az elsõ csapat, aki eléri a "
+VictoryConString2=" gyilkolást, nyeri meg a játszmát."
+TimeLimitString1="Cél: Megszerezni a legtöbb pontot, mielõtt letelne az idõ ( "
+TimeLimitString2=" )!"
+TeamScoreString=" Csapatpont:"
+
+[ThrownProjectile]
+ItemName="ERROR ThrownProjectile Default-Report as bug!"
+ItemArticle="a"
+
+[FrobDisplayWindow]
+msgLocked="Zárva"
+msgUnlocked="Nyitva"
+msgLockStr="Zárerõsség: "
+msgDoorStr="Ellenállóképesség: "
+msgHackStr="Védelmi szint: "
+msgInf="N/A"
+msgHacked="kikapcsolva"
+msgPick="álkulcs"
+msgPicks="álkulcs"
+msgTool="multiszer"
+msgTools="multiszer"
+
+[PersonaInventoryInfoWindow]
+AmmoLabel="Választék:"
+AmmoRoundsLabel="muníció"
+ShowAmmoDescriptionsLabel="Lõszerleírások mutatása"
+
+[PersonaScreenHealth]
+HealthPartDesc[0]="A fejsérülések az esetek túlnyomó többségében halálosak. A sérült testrészt azonnal kezelésbe kell venni. Van, amikor a halál nem azonnali, ellenben csökkenhet a látás- és célzóképesség.|n|nKisebb sérülés esetén csak kissé csökken a célzóképesség.|nJelentõs fejsérüléskor látásromlás, öntudatvesztés következhet be.|nA súlyos fejsérülés a legtöbb esetben halállal jár."
+HealthPartDesc[1]="A törzs az emberi test legellenállóbb pontja, bár ez a legkönnyebben sebezhetõ rész is. A testrész fokozatos sérülése a mozgáskoordináció rohamos elvesztésével jár. Súlyosabb esetekben a katona akkor is elvérezhet, ha nem létfontosságú szervet talált el a lövedék.|n|nKisebb sérüléskor kismértékben megnehezül a mozgás.|nJelentõs sérülés esetén jelentõs mozgáskoordinációs problémák lépnek fel.|nA súlyos sérülés általában halállal jár."
+HealthPartDesc[2]="A felsõ végtagok sérülései különbözõ mértékben csökkentik a pontos fegyverhasználatot. Egy kar elvesztése igencsak gyengíti az ügynök képességeit, mindkét kar elvesztése esetén az ügynöknek szinte esélye sincs, hogy felvegye a harcot a legtöbb ellenséggel.|n|nKisebb sérülésekkor csak kissé csökken a célzóképesség.|nJelentõs végtagsérüléskor jelentõsen csökken a célzóképesség.|nA súlyos karsérülések igen nagy mértékben csökkentik a célzóképességet."
+HealthPartDesc[3]="Az alsó végtagok sérülései különbözõ mértékben korlátozhatják a mozgást.|n|nKisebb sérülésekkor csak kissé csökken a mozgásképesség.|nJelentõs sérüléseknél nagymértékben csökken a mozgásképesség.|nSúlyos sérülésekkor mozgásképtelenné válhat az ügynök. Mindkét végtag elvesztése esetén minden ügynök köteles végrehajtani az UNATCO 99009-es számú, bevetésekkor különlegesen alkalmazott önmegsemmisítõ parancsot."
+MedKitUseText="Egy bizonyos testrész gyógyításához elõször a testrészre, majd a Gyógyít gombra kattintson."
+HealthTitleText="Egészségi állapot"
+HealAllButtonLabel="|&Mindet gy."
+HealthLocationHead="Fej"
+HealthLocationTorso="Törzs"
+HealthLocationRightArm="Jobb kar"
+HealthLocationLeftArm="Bal kar"
+HealthLocationRightLeg="Jobb láb"
+HealthLocationLeftLeg="Bal láb"
+PointsHealedLabel="%d pontot gyógyított"
+
+[menuscreenjoingame]
+HeaderIPWindowLabel="IP-cím:"
+HostButtonName="Szerverindítás"
+JoinButtonName="Csatlakozás"
+RefreshButtonName="Frissítés"
+HostButtonHelpText="Többjátékos játék indítása a helyi gépen."
+JoinButtonHelpText="Csatlakozás a kiválasztott játékhoz."
+RefreshButtonHelpText="Szerverlista frissítése."
+strHostNameLabel="Kiszolgálónév"
+strMapNameLabel="Pálya"
+strGameTypeLabel="Játéktípus"
+strNumPlayersLabel="Játékos"
+strPingLabel="Ping"
+GameTypeOneLabel="Öldöklés-meccsek megjelenítése"
+GameTypeTwoLabel="Csapatalapú öldöklés-meccsek megjelenítése"
+ShowAllGameTypesLabel="Összes játék megjelenítése"
+GameHumanNames[0]="Öldöklés"
+GameHumanNames[1]="Csapatos öldöklés"
+GameHumanNames[2]="Nehezített csapatos öldöklés"
+GameHumanNames[3]="Egyszerû csapatos öldöklés"
+FullServerWarningTitle="A szerver megtelt"
+FullServerWarningMessage="A kiválasztott szerver úgy tûnik, megtelt. Frissítsem a listát?"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+Title="Többjátékos játék indítása"
+
+[MultiplayerMessageWin]
+KilledByString="Õ ölt meg: "
+WereKilledString="Neked annyi lett."
+KilledYourselfString="Kipurcantottad magad!"
+FireToContinueMsg="Nyomd meg a tüzelés gombot az újrakezéshez!"
+ActiveAugsString="Aktív augok: "
+WeaponString="Választott fegyver: "
+RelevantSkillString="Kellõ képzettség: "
+LevelString="Képzettségi szint: "
+FinalBlowString="The final blow of "
+ToTheString=" points of damage was delivered to your "
+RemHealthString="Halálodkor "
+RemHealth2String=" az egészégi állapotod: "
+RemEnergyString=" és "
+RemEnergy2String=" pontnyi bioelektromos energiád volt."
+HealthHeadString=" Fej: "
+HealthMidString="  Középtáj: "
+HealthLowString="  Láb: "
+StreakString=" már õfelett áll: "
+Detail1String="Nyomj <"
+Detail2String=">-gombot a részletekhez!"
+KeyNotBoundString="Nem hozzárendelt"
+VSString="VS"
+
+[ComputerScreenSecurity]
+ActiveWindowOptionsHeader="Lehetõségek"
+CameraOptionsHeader="Kamerabeállítás"
+PanZoomSpeedHeader="Pásztáz/Nagyít"
+ClickCameraWindowText="A kiválasztáshoz kattintson a kamera képére."
+Title="Megfigyelés"
+ComputerNodeFunctionLabel="Security"
+
+[AlarmUnit]
+msgActivated="Riasztó bekapcsolva"
+msgDeactivated="Riasztó kikapcsolva"
+ItemName="Riasztópanel"
+
+[PersonaScreenInventory]
+InventoryTitleText="Tárgyak"
+EquipButtonLabel="Kézb|&evesz"
+UnequipButtonLabel="Elt|&esz"
+UseButtonLabel="Ha|&sznál"
+DropButtonLabel="E|&lejt"
+ChangeAmmoButtonLabel="Lõsze|&rt vált"
+NanoKeyRingInfoText="Kattintásra a nanokulcsok listája nyílik meg."
+NanoKeyRingLabel="%s kulcs"
+DroppedLabel="%s elejtve"
+AmmoLoadedLabel="%s betöltve"
+WeaponUpgradedLabel="%s felfejlesztve"
+CannotBeDroppedLabel="%s elejthetetlen"
+AmmoInfoText="Kattintásra a lõszerek listája nyílik meg."
+AmmoTitleLabel="Muníciók"
+NoAmmoLabel="Nincs lõszer kéznél!"
+
+[POVCorpse]
+ItemName="test"
+ItemArticle="egy"
+
+[UNATCOTroop]
+FamiliarName="UNATCO-katona"
+UnfamiliarName="UNATCO-katona"
+
+[ComputerSecurity]
+ItemName="Biztonsági számítógép-terminál"
+
+[MedKit]
+MustBeUsedOn="Kritikusan sérült testrészek kezelésénél hasznos.|nA karakterképernyõn lehet vele egy konkrét testrészt gyógyítani."
+ItemName="Elsõsegélydoboz"
+Description="Ez egy szabványos elsõsegélydoboz.|n|n<JR095-VIOLET-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS> Az augmentált személy nanitjai maguktól elõállítják a regenerálódsához szükséges anyagokat. Így gyorsabban gyógyul a sérült testrész. Az elsõsegélynyújtási vizsgát megszerzett ügynökök még jobban tudják kezelni a sérült részeket. -- Jaime Reyes <MEGJEGYZÉS VÉGE>"
+beltDescription="ELSÕS.DBZ"
+ItemArticle="egy"
+
+[HUDMultiSkills]
+ToExitString=">-t a kilépéshez."
+SkillsAvailableString="Vannak képzettségeid!"
+PressString="Nyomj <"
+PressEndString=">-t"
+SkillPointsString="Képzettségpontok: "
+skillString="Képzettség"
+CostString="Pont"
+NAString="MAX"
+LevelString="Szint"
+KeyNotBoundString="Nem hozzárendelt"
+
+[ATM]
+msgLockedOut="A terminál %d másodpercre lezárta magát"
+ItemName="Nyilvános bankterminál"
+
+[HUDHitDisplay]
+O2Text="O2"
+EnergyText="BE"
+
+[MenuUIChoiceSlider]
+actionText="Slider Choice"
+
+[Terrorist]
+FamiliarName="Terrorista"
+UnfamiliarName="Terrorista"
+
+[MenuScreenRGB_MenuExample]
+ButtonMenuDisabledLabel="Letiltva"
+ButtonMenuNormalLabel="Normál"
+ButtonMenuFocusLabel="Kijelölt"
+ButtonMenuPressedLabel="Lenyomott"
+ButtonSmallPressedLabel="Lenyomott"
+ButtonSmallNormalLabel="Normál"
+ButtonActionDisabledLabel="Letiltva"
+ButtonActionNormalLabel="Normál"
+ButtonActionFocusLabel="Kiemelt"
+ButtonActionPressedLabel="Lenyomott"
+ListNormalLabel="Normál"
+ListFocusLabel="Kiemelt"
+EditLabel="Szerkesztés"
+TitleLabel="Cím"
+
+[menuscreenaugsetup]
+HeaderAugChosenLabel=" Augmentáció-prioritás"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_OK)"
+Title="Többjátékos mód augmentációinak beállítása"
+
+[WaltonSimons]
+FamiliarName="Walton Simons"
+UnfamiliarName="Walton Simons"
+
+[PersonaScreenAugmentations]
+AugmentationsTitleText="Augmentációk"
+UpgradeButtonLabel="|&Fejleszt"
+ActivateButtonLabel="Akti|&vál"
+DeactivateButtonLabel="Deakti|&vál"
+UseCellButtonLabel="|&Cellahaszn."
+AugCanUseText="Az augmentáció fejlesztéséhez elõször kattintson a kívánt augmentációra, majd a Fejleszt gombra."
+BioCellUseText="A bioelektromos energia feltöltéséhez kattintson a Cellahasználat gombra."
+AugLocationDefault="Alapvetõ"
+AugLocationCranial="Agy"
+AugLocationEyes="Szem"
+AugLocationArms="Kar"
+AugLocationLegs="Láb"
+AugLocationTorso="Tõrzs"
+AugLocationSubdermal="Bõr alatt"
+
+[WeaponMod]
+DragToUpgrade="Húzza rá a fegyverre a módosítót. A zöld színnel jelölt fegyverek módosíthatóak."
+
+[ChargedPickup]
+ChargeRemainingLabel="Hátralévõ töltés:"
+
+[PersonaAmmoDetailButton]
+RoundLabel="%d muníció"
+RoundsLabel="%d muníció"
+
+[HUDInfoLinkDisplay]
+strQueued="várakozó üzenet..."
+IncomingTransmission="BEJÖVÕ ADÁS..."
+
+[Keypad]
+ItemName="Biztonsági zár"
+
+[PersonaScreenImages]
+ImagesTitleText="Képek"
+DeleteNoteButtonLabel="Tö|&rlés"
+AddNoteButtonLabel="Írá|&s"
+ShowNotesLabel="|&Jegyzetek megjelenítése"
+
+[ShowerFaucet]
+ItemName="Zuhanycsap"
+
+[DataLinkPlay]
+EndTransmission="ADÁS VÉGE..."
+
+[Faucet]
+ItemName="Csap"
+
+[MenuScreenRGB]
+HUDBackgroundTranslucentLabel="Áttetszõ kezelõfelület-háttér"
+HUDBordersTranclucentLabel="Áttetszõ kezelõfelület-háttér"
+MenusBackgroundTranslucentLabel="Áttetszõ menüháttér"
+RedLabel="V|&örös"
+GreenLabel="|&Zöld"
+BlueLabel="|&Kék"
+TabHUDLabel=|&HUD
+TabMenusLabel="|&Menük"
+ThemeLabel="Színvilág:"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Bezár",Key="CLOSE")"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Betölt",Key="LOAD")"
+actionButtons[2]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Mentés",Key="SAVE")"
+actionButtons[3]="(Action=AB_Reset)"
+Title="Színválasztás"
+
+[MedicalBot]
+FamiliarName="Orvosi robot"
+UnfamiliarName="Orvosi robot"
+
+[AnnaNavarre]
+FamiliarName="Anna Navarre"
+UnfamiliarName="Anna Navarre"
+
+[MenuChoice_OnOff]
+enumText[0]="Ki"
+enumText[1]="Be"
+
+[MenuScreenCustomizeKeys]
+FunctionText[0]="Fegyver elsütése/tárgyhasználat"
+FunctionText[1]="Tárgyhasználat"
+FunctionText[2]="Tárgy eldobása"
+FunctionText[3]="Tárgy elrakása"
+FunctionText[4]="Mozgás elõre"
+FunctionText[5]="Mozgás hátra"
+FunctionText[6]="Fordulás balra"
+FunctionText[7]="Fordulás jobbra"
+FunctionText[8]="Oldalazás balra"
+FunctionText[9]="Oldalazás jobbra"
+FunctionText[10]="Elhajolás jobbra"
+FunctionText[11]="Elhajolás balra"
+FunctionText[12]="Ugrás"
+FunctionText[13]="Guggolás"
+FunctionText[14]="Egérrel nézelõdés"
+FunctionText[15]="Nézés felfele"
+FunctionText[16]="Nézés lefele"
+FunctionText[17]="Elõrefele nézés"
+FunctionText[18]="Futás/sétálás"
+FunctionText[19]="Futás/sétálás közti váltás"
+FunctionText[20]="Oldalazás"
+FunctionText[21]="Következõ tárgy kiválasztása"
+FunctionText[22]="Elõzõ tárgy kiválasztása"
+FunctionText[23]="Fegyver újratöltése"
+FunctionText[24]="Távcsõbe nézés"
+FunctionText[25]="Lézercélzó bekapcsolása"
+FunctionText[26]="Augmentációk bekapcsolása"
+FunctionText[27]="Augmentációk kikapcsolása"
+FunctionText[28]="Lõszerváltás"
+FunctionText[29]="Pillanatkép készítése"
+FunctionText[30]="Tárgyak menü"
+FunctionText[31]="Egészségi állapot menü"
+FunctionText[32]="Augmentációk menü"
+FunctionText[33]="Képzettségek menü"
+FunctionText[34]="Küldetések/Jegyzetek menü"
+FunctionText[35]="Párbeszédek menü"
+FunctionText[36]="Képek menü"
+FunctionText[37]="Naplómenü"
+FunctionText[38]="Gyorsmentés"
+FunctionText[39]="Gyorstöltés"
+FunctionText[40]="Célkeresztkijelzõ gomb"
+FunctionText[41]="Sérüléskijelzõ gomb"
+FunctionText[42]="Iránytûkijelzõ gomb"
+FunctionText[43]="Augmentációkijelzõ gomb"
+FunctionText[44]="Alsó menüsor-kijelzõ gomb"
+FunctionText[45]="Lõszerkijelzõ gomb"
+FunctionText[46]="F3"
+FunctionText[47]="F4"
+FunctionText[48]="F5"
+FunctionText[49]="F6"
+FunctionText[50]="F7"
+FunctionText[51]="F8"
+FunctionText[52]="F9"
+FunctionText[53]="F10"
+FunctionText[54]="F11"
+FunctionText[55]="F12"
+FunctionText[56]="Többjátékos mód-beli eredmények"
+FunctionText[57]="Üzenetküldés a csapatnak"
+FunctionText[58]="Üzenetküldés mindenkinek"
+FunctionText[59]="Többjátékos mód-beli képzettségek"
+FunctionText[60]="Többjátékos mód-beli gyilkolások"
+keyDisplayNames[0]="(inputKey=IK_LeftMouse,displayName="Bal egérgomb")"
+keyDisplayNames[1]="(inputKey=IK_RightMouse,displayName="Jobb egérgomb")"
+keyDisplayNames[2]="(inputKey=IK_MiddleMouse,displayName="Középsõ egérgomb")"
+keyDisplayNames[3]="(inputKey=IK_CapsLock,displayName="Caps Lock")"
+keyDisplayNames[4]="(inputKey=IK_PageUp,displayName="Page Up")"
+keyDisplayNames[5]="(inputKey=IK_PageDown,displayName="Page Down")"
+keyDisplayNames[6]="(inputKey=IK_PrintScrn,displayName="Print Screen")"
+keyDisplayNames[7]="(inputKey=IK_GreyStar,displayName="NumBill csillag")"
+keyDisplayNames[8]="(inputKey=IK_GreyPlus,displayName="NumBill pluszjel")"
+keyDisplayNames[9]="(inputKey=IK_GreyMinus,displayName="NumBill mínuszjel")"
+keyDisplayNames[10]="(inputKey=IK_GreySlash,displayName="NumBill perjel")"
+keyDisplayNames[11]="(inputKey=IK_NumPadPeriod,displayName="NumBill vesszõ")"
+keyDisplayNames[12]="(inputKey=IK_NumLock,displayName="Num Lock")"
+keyDisplayNames[13]="(inputKey=IK_ScrollLock,displayName="Scroll Lock")"
+keyDisplayNames[14]="(inputKey=IK_LShift,displayName="Bal Shift")"
+keyDisplayNames[15]="(inputKey=IK_RShift,displayName="Jobb Shift")"
+keyDisplayNames[16]="(inputKey=IK_LControl,displayName="Bal Control")"
+keyDisplayNames[17]="(inputKey=IK_RControl,displayName="Jobb Control")"
+keyDisplayNames[18]="(inputKey=IK_MouseWheelUp,displayName="Egérgörgõ fel")"
+keyDisplayNames[19]="(inputKey=IK_MouseWheelDown,displayName="Egérgörgõ le")"
+keyDisplayNames[20]="(inputKey=IK_MouseX,displayName="X-irányú egérmozgás")"
+keyDisplayNames[21]="(inputKey=IK_MouseY,displayName="Y-irányú egérmozgás")"
+keyDisplayNames[22]="(inputKey=IK_MouseZ,displayName="Z-irányú egérmozgás")"
+keyDisplayNames[23]="(inputKey=IK_MouseW,displayName="W-irányú egérmozgás")"
+keyDisplayNames[24]="(inputKey=IK_LeftBracket,displayName="Õ")"
+keyDisplayNames[25]="(inputKey=IK_RightBracket,displayName="Ú")"
+keyDisplayNames[26]="(inputKey=IK_SingleQuote,displayName="Á")"
+keyDisplayNames[27]="(inputKey=IK_Joy1,displayName="1-es joystickgomb")"
+keyDisplayNames[28]="(inputKey=IK_Joy2)"
+keyDisplayNames[29]="(inputKey=IK_Joy3,displayName="3-as joystickgomb")"
+keyDisplayNames[30]="(inputKey=IK_Joy4,displayName="4-es joystickgomb")"
+keyDisplayNames[31]="(inputKey=IK_JoyX,displayName="X-irányú joystickmozdulat")"
+keyDisplayNames[32]="(inputKey=IK_JoyY,displayName="Y-irányú joystickmozdulat")"
+keyDisplayNames[33]="(inputKey=IK_JoyZ,displayName="Í")"
+keyDisplayNames[34]="(inputKey=IK_JoyR,displayName="R-irányú joystickmozdulat")"
+keyDisplayNames[35]="(inputKey=IK_JoyU,displayName="U-irányú joystickmozdulat")"
+keyDisplayNames[36]="(inputKey=IK_JoyV,displayName="V-irányú joystickmozdulat")"
+keyDisplayNames[37]="(inputKey=IK_JoyPovUp,displayName="Joystickkar fel")"
+keyDisplayNames[38]="(inputKey=IK_JoyPovDown,displayName="Joystickkar le")"
+keyDisplayNames[39]="(inputKey=IK_JoyPovLeft,displayName="Joystickkar balra")"
+keyDisplayNames[40]="(inputKey=IK_JoyPovRight,displayName="Joystickkar jobbra")"
+keyDisplayNames[41]="(inputKey=IK_Ctrl,displayName="Control")"
+keyDisplayNames[42]="(inputKey=IK_Left,displayName="Balra nyíl")"
+keyDisplayNames[43]="(inputKey=IK_Right,displayName="Jobbra nyíl")"
+keyDisplayNames[44]="(inputKey=IK_Up,displayName="Felfele nyíl")"
+keyDisplayNames[45]="(inputKey=IK_Down,displayName="Lefele nyíl")"
+keyDisplayNames[46]="(inputKey=IK_Insert,displayName="Insert")"
+keyDisplayNames[47]="(inputKey=IK_Home,displayName="Home")"
+keyDisplayNames[48]="(inputKey=IK_Delete,displayName="Delete")"
+keyDisplayNames[49]="(inputKey=IK_End,displayName="End")"
+keyDisplayNames[50]="(inputKey=IK_NumPad0,displayName="NumBill 0")"
+keyDisplayNames[51]="(inputKey=IK_NumPad1,displayName="NumBill 1")"
+keyDisplayNames[52]="(inputKey=IK_NumPad2,displayName="NumBill 2")"
+keyDisplayNames[53]="(inputKey=IK_NumPad3,displayName="NumBill 3")"
+keyDisplayNames[54]="(inputKey=IK_NumPad4,displayName="NumBill 4")"
+keyDisplayNames[55]="(inputKey=IK_NumPad5,displayName="NumBill 5")"
+keyDisplayNames[56]="(inputKey=IK_NumPad6,displayName="NumBill 6")"
+keyDisplayNames[57]="(inputKey=IK_NumPad7,displayName="NumBill 7")"
+keyDisplayNames[58]="(inputKey=IK_NumPad8,displayName="NumBill 8")"
+keyDisplayNames[59]="(inputKey=IK_NumPad9,displayName="NumBill 9")"
+keyDisplayNames[60]="(inputKey=IK_Period,displayName="Pont")"
+keyDisplayNames[61]="(inputKey=IK_Comma,displayName="Vesszõ")"
+keyDisplayNames[62]="(inputKey=IK_Backslash,displayName="Û")"
+keyDisplayNames[63]="(inputKey=IK_Semicolon,displayName="É")"
+keyDisplayNames[64]="(inputKey=IK_Equals,displayName="ó")"
+keyDisplayNames[65]="(inputKey=IK_Slash,displayName="Ü")"
+keyDisplayNames[66]="(inputKey=IK_Enter,displayName="Enter")"
+keyDisplayNames[67]="(inputKey=IK_Alt,displayName="Alt")"
+keyDisplayNames[68]="(inputKey=IK_Backspace,displayName="Backspace")"
+keyDisplayNames[69]="(inputKey=IK_Shift,displayName="Shift")"
+keyDisplayNames[70]="(inputKey=IK_Space,displayName="Szóköz")"
+NoneText="[ide semmi sincs hozzárendelve]"
+strHeaderActionLabel="Funkció"
+strHeaderAssignedLabel="Hozzárendelt gomb"
+WaitingHelpText="Jelölje ki a megváltoztatni kívánt funkciót, majd üssön Entert, vagy duplán kattintson rá.  A gombhivatkozás eltávolításához nyomjon Delete-et."
+InputHelpText="Nyomja meg a gombot, amit a funkcióhoz szeretne rendelni. A visszavonáshoz nyomjon Escape-et."
+ReassignedFromLabel="A(z) '%s' gomb a(z) '%s' cselekvéshez volt hozzárendelve!"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+Title="Billentyûzet- és egérbeállítások"
+
+[MenuScreenAdjustColorsExample]
+TitleBarLabel="Effot a sör."
+TextHeaderLabel="Késõ van."
+TextNormalLabel="Ez nem OK!"
+ButtonPressedLabel="Benyomva"
+ButtonNormalLabel="Simán"
+
+[MJ12Commando]
+FamiliarName="MJ12-kommandós"
+UnfamiliarName="MJ12-kommandós"
+
+[HUDAmmoDisplay]
+NotAvailable="NINCS"
+msgReloading="---"
+AmmoLabel="TLTNY"
+ClipsLabel="TÁR"
+
+[HUDRechargeWindow]
+RechargeButtonLabel="  |&Feltölt  "
+CloseButtonLabel="  |&Bezár  "
+RechargeTitle="SZERVÍZROBOT KEZELÕFELÜLETE"
+RepairBotInfoText="A robot %d egységnyi bioelektromos energiát tud feltölteni %d másodpercenként."
+RepairBotStatusLabel="Gépállapot:"
+ReadyLabel="Kész!"
+SecondsPluralLabel="Újratöltés %d másodperc múlva"
+SecondsSingularLabel="Újratöltés %d másodperc múlva"
+BioStatusLabel="Bioenergia-szint:"
+RepairBotRechargingLabel="|n|nA szervízrobot jelenleg újratöltõdik.  Kérem várjon!"
+RepairBotReadyLabel="|n|nA szervízrobot feltöltésre kész."
+RepairBotYouAreHealed="|n|nA bioelektromos energia a maximumon van."
+
+[MenuScreenNewGame]
+ButtonUpgradeLabel="|&Fejleszt"
+ButtonDowngradeLabel="Vi|&sszaáll."
+HeaderNameLabel="Valódi név"
+HeaderCodeNameLabel="Fedõnév"
+HeaderAppearanceLabel="Külsõ"
+HeaderSkillsLabel="Képzettségek"
+HeaderSkillPointsLabel="Pontszám"
+HeaderSkillLevelLabel="Szint"
+HeaderPointsNeededLabel="Ponthatár"
+NameBlankTitle="A név üres!"
+NameBlankPrompt="A valódi név mezõ nem lehet üres. Kérem, írjon be egy nevet."
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Játék indítása",Key="START")"
+actionButtons[2]="(Action=AB_Reset)"
+Title="Új játék indítása"
+
+[MenuScreenRGB_HUDExample]
+TitleLabel="Cím"
+HeaderLabel="Fejléc"
+TextNormalLabel="Normál"
+GoalCompletedLabel="Teljesített feladatok"
+ListLabel="Listaelem"
+ListHighlightLabel="Kijelölt sor"
+ListFocusLabel="Kiemelt sor"
+EditSelectedLabel="Szerkesztett szöveg"
+ButtonDisabledLabel="Tiltott"
+ButtonNormalLabel="Normál"
+ButtonFocusLabel="Kijelölt"
+ButtonPressedLabel="Lenyomott"
+
+[dxmaplist]
+CycleNames[0]="Pálya ismétlése"
+CycleNames[1]="Véletlenszerû pályák"
+CycleNames[2]="Pályacsomag végtelenítése"
+
+[NanoKeyRing]
+NoKeys="Nincs nanokulcs kéznél!"
+KeysAvailableLabel="Meglévõ nanokulcsok:"
+ItemName="Nanokulcs-tartó"
+ItemArticle=the
+Description="A nanokulcs-tartó különféle nanokulcsok kétdimenziós molekulamintáit tudja beolvasni, eltárolni, majd kérésre ezen mintákat újra elõállítani."
+beltDescription="KULCSTARTÓ"
+
+[SkilledTool]
+CountLabel=Uses:
+
+[DeathMatchGame]
+VictoryConString1="A cél a gyõztesnek elérni  "
+VictoryConString2=" gyilkolást."
+TimeLimitString1="A cél idõ elõtt ( "
+TimeLimitString2=" ) megölni a legtöbb embert!"
+
+[ComputerScreenEmail]
+NoEmailTodayText="Ma nem jött e-mail!"
+EmailFromHeader="Feladó:"
+EmailToHeader="Címzett:"
+EmailCarbonCopyHeader="Titkos másolat:"
+EmailSubjectHeader="Tárgy:"
+HeaderFromLabel="Feladó"
+HeaderSubjectLabel="Tárgy"
+Title="E-mail"
+ComputerNodeFunctionLabel="Email"
+
+[ComputerScreenHack]
+HackButtonLabel="|&Hackelés"
+ReturnButtonLabel="|&Vissza"
+HackReadyLabel="A Jégtörõ készen áll..."
+HackInitializingLabel="Jégtörõ inicializálása..."
+HackSuccessfulLabel="A Jégtörés hack sikeres..."
+HackDetectedLabel="*** FIGYELEM ***|nBEHATOLÓ A RENDSZERBEN!"
+MPHackInitializingLabel="Bejutás... ESC: megszakítás"
+
+[InformationDevices]
+msgNoText="Semmi érdekes olvasnivaló nincs benne"
+ImageLabel="[Kép: %s]"
+AddedToDatavaultLabel="A(z) %s kép hozzáadódott az adatbankodhoz"
+
+[HUDKeypadWindow]
+msgAccessDenied="~~HIBÁS KÓD~~"
+msgAccessGranted="~~BELÉPHET~~"
+
+[HUDReceivedDisplay]
+TextReceivedLabel="Tied lett egy:"
+
+[GuntherHermann]
+FamiliarName="Günther Hermann"
+UnfamiliarName="Günther Hermann"
+
+[HUDMedBotHealthScreen]
+MedbotInterfaceText="ORVOSI ROBOT KEZELÕFELÜLETE"
+HealthInfoTextLabel="Az orvosi robot maximum %d egységet képes gyógyítani, amit egyenletesen eloszt a sérült testrészek között."
+MedBotRechargingLabel="|nAz orvosi robot jelenleg újratöltõdik.  Kérem várjon!"
+MedBotReadyLabel="|nAz orvosi robot gyógyításra kész."
+MedBotYouAreHealed="|nÖn teljesen egészséges."
+SecondsPluralLabel="Újratöltés %d másodperc múlva"
+SecondsSingularLabel="Újratöltés %d másodperc múlva"
+ReadyLabel="Kész!"
+HealAllButtonLabel="  Min|&det gy.  "
+
+[MenuScreenSaveGame]
+DiskSpaceTitle="Kevés a lemezterület!"
+DiskSpaceMessage="Legalább 100MB szabad helynek kell lennie a lemezen a mentéshez.  Töröljön le pár mentést, vagy szabadítson fel helyet."
+actionButtons[1]="(Text="|&Játék mentése",Key="SAVE")"
+Title="Játék elmentése"
+
+[PersonaItemDetailButton]
+CountLabel="%d darab"
+
+[PaulDenton]
+FamiliarName="Paul Denton"
+UnfamiliarName="Paul Denton"
+
+[PersonaNavBarWindow]
+InventoryButtonLabel="|&Tárgy"
+HealthButtonLabel="E|&gészség"
+AugsButtonLabel="|&Aug"
+SkillsButtonLabel="Kép|&zettség"
+GoalsButtonLabel="|&Küldetés/Jegyzet"
+ConsButtonLabel="Pár|&beszéd"
+ImagesButtonLabel="K|&ép"
+LogsButtonLabel="|&Napló"
+
+[PersonaNavBarBaseWindow]
+ExitButtonLabel="K|&ilép"
+
+[RepairBot]
+FamiliarName="Szervízrobot"
+UnfamiliarName="Szervízrobot"
+
+[SpyDrone]
+ItemName="Távirányítású kémdroid"
+
+[AugmentationCannister]
+AugsAvailable="Tartalmazza:"
+MustBeUsedOn="Kizárólag orvosi robot segítségével ültethetõ be."
+ItemName="Augmentáció-tároló"
+ItemArticle="egy"
+Description="Az augmentáció-tárolóban hordozóanyagban felvitt nanoméretû mechanokarbon-összetevõkbõl álló ROM-modulok vannak. Szervezetbe jutás után emberfeletti képességekkel ruházza fel az augmentálódásra képes személyt. Az eljárás megfelelõ véghezviteléhez és programozásához egy orvosi robotnak kell végrehajtania a mûveletet, máskülönben maradandó károsodást szenved az alany. További információkért olvassa el Kelley Chance-tõl az Új ember arca címû könyvet."
+beltDescription="AUG.TÁROLÓ"
+
+[PersonaScreenConversations]
+ConversationsTitleText="Párbeszédek"
+ActorButtonLabel="Beszélõ"
+LocationButtonLabel="Helyszín"
+TypeButtonLabel="Típus"
+
+[Barrel1]
+ItemName="Hordó"
+
+[Flare]
+ExpireMessage="Ez már egyszer el lett használva"
+ItemName="Jelzõfény"
+Description="Egy jelzõfényt kibocsátó rúd."
+beltDescription="JELZÕFÉNY"
+M_Activated=" meggyújtva"
+
+[Ammo762mm]
+ItemName="7.62x51mm-es lõszer"
+ItemArticle="néhány"
+Description="A 7.62x51mm-es NATO-szabványú lõszert elsõsorban terrosistaelhárító csapatok alkalmazták. A  mára széleskörben elterjedt szabványt a fokozott harckészültség miatt a nemzetközi védelmi alakulatok is kötelezõvé tették."
+beltDescription="7.62-ES"
+
+[PersonaSkillButtonWindow]
+NotAvailableLabel="N/A"
+
+[NanoKey]
+ItemName="Nanokulcs"
+Description="NO KEY DESCRIPTION - REPORT THIS AS A BUG!"
+beltDescription="NANOKULCS"
+
+[AugLight]
+AugmentationName="Megvilágítás"
+Description="A retinán belüli biolumineszcens sejtek teljes körû világítást biztosítanak az ügynök látóterében.|n|nNem fejleszthetõ."
+
+[MJ12Troop]
+FamiliarName="MJ12-katona"
+UnfamiliarName="MJ12-katona"
+
+[BobPage]
+FamiliarName="Bob Page"
+UnfamiliarName="Bob Page"
+
+[BioelectricCell]
+msgRecharged="%d pontnyit töltött újra"
+RechargesLabel="%d pontnyit tölt újra."
+ItemName="Bioelektromos cella"
+Description="A bioelektromos cella hatékonyan tárolja az energiát, emellett számos eszközzel kompatibilis.|n|n<JR289-VIOLET-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS> Az augmentált ügynökök egy bizonyos csatoló segítségével át tudják tölteni a bioelektromos energiát a rendszerükbe. -- Jaime Reyes <MEGJEGYZÉS VÉGE>"
+beltDescription="BIOCELLA"
+
+[Credits]
+msgCreditsAdded="%d kredit hozzáadva"
+ItemName="Kreditkártya"
+beltDescription="KREDIT"
+
+[PersonaScreenGoals]
+GoalsTitleText="Küldetések"
+PrimaryGoalsHeader="Elsõdleges küldetések"
+SecondaryGoalsHeader="Másodlagos küldetések"
+DisplayCompletedGoals="Teljesített kü|&ldetések megjelenítése"
+NoGoalsLabel="Nincsenek"
+GoalCompletedText="[Teljesítve]"
+NotesTitleText="Jegyzetek"
+defaultNoteText="Új jegyzet írásához kattintson a szövegdobozba!"
+ClickToEditNote="Jegyzet szerkesztéséhez kattintson rá:"
+DeleteNoteTitle="Töröljük?"
+DeleteNotePrompt="Biztosan törölni akarja a jegyzetet?"
+AddButtonLabel="Írá|&s"
+DeleteButtonLabel="Tö|&rlés"
+ConfirmNoteDeletionLabel="|&Jegyzettörlés megerõsítése"
+
+[TAD]
+ItemName="Üzenetrögzítõ"
+
+[PersonaImageWindow]
+strNoImages="nincsenek képek"
+PressSpace="Nyomjon [ESCAPE]-t, ha befejezte a megjegyzés szerkesztését"
+EscapeToCancel="Megjegyzés létrehozásához kattintson a képre, visszavonáshoz nyomjon [ESCAPE]-t"
+NewNoteLabel="Új jegyzet"
+
+[Ammo10mm]
+ItemName="10mm-es lõszer"
+ItemArticle="néhány"
+Description="A nagy lõerejû és a kis visszarúgással rendelkezõ 10mm-es kaliberû fegyverek lettek a katonai szervezetek elsõrangú maroklõfegyverei."
+beltDescription="10MM-ES"
+
+[HECannister20mm]
+ItemName="20mm-es NE töltény"
+ItemArticle="egy"
+
+[PlasmaBolt]
+ItemName="plazmasugár"
+ItemArticle="egy"
+
+[menuscreenjoininternet]
+Title="Internetes többjátékos játék"
+
+[Rocket]
+ItemName="GEP rakéta"
+ItemArticle="egy"
+
+[AmmoShell]
+ItemName="12-es kaliberû sörétes lõszer"
+ItemArticle="néhány"
+Description="Szabvány 12-es kaliberû sörét. Közelharcban nagyon hatásos a nem fémbõl készült tárgyak ellen."
+beltDescription="SÖRÉT"
+
+[AugmentationUpgradeCannister]
+MustBeUsedOn="Csak az augmentációk képernyõn használható."
+ItemName="Augmentáció-fejlesztõ tároló"
+ItemArticle="egy"
+Description="Az augmentáció-fejlesztõ a már beépített egységek hatékonyságát fejleszti fel, specifikus nanomechanizmusokat tartalmaz. Nem szükséges orvosi robotnak elvégeznie a mûveletet, a betanított ügynökök is kockázatmentesen használhatják."
+beltDescription="AUG.FEJL."
+
+[HKIncenseBurner]
+ItemName="Tömjénégetõ"
+
+[PersonaScreenLogs]
+LogsTitleText="Napló"
+ClearButtonLabel="Naplótö|&rlés"
+
+[FireExtinguisher]
+ItemName="Tûzoltókészülék"
+Description="Egy porral oltó tûzoltókészülék."
+beltDescription="POROLTÓ"
+
+[SkillDemolition]
+SkillName="Robbanószerek"
+Description="Az elhajítható robbanószerek, mint például a könnyû robbanóeszközök, gázgránátok, EMI-gránátok, valamint az elektronikus zavarógránátok használata.|n|nKÉPZETLEN: Az ügynök el tudja hajítani a gránátokat, valamint falra szerelt robbanószereket tud hatástalanítani, élesíteni.|n|nKÉPZETT: Kis mértékben megnõ a gránátok okozta rombolóerõ, a hatástalanító- és célzóképesség.|n|nHALADÓ: Jelentõsen megnõ a gránátok okozta rombolóerõ, a hatástalanító- és célzóképesség.|n|nMESTER: Az ügynök az összes robbanószer szakértõjévé válik."
+
+[Greasel]
+FamiliarName="Greasel"
+UnfamiliarName="Greasel"
+
+[ComputerScreenHackAccounts]
+ChangeAccountButtonLabel="|&Felhasználóváltás"
+AllAccountsHeader="Összes felhasználó"
+CurrentAccountHeader="Jelenlegi felhasználó"
+
+[ComputerScreenATMWithdraw]
+ButtonLabelWithdraw="|&Átutal"
+ButtonLabelClose="|&Bezár"
+BalanceLabel="Egyenleg:"
+WithdrawAmountLabel="Átutalandó összeg:"
+InstructionText="Számlaszám: %d|nKérem, írja be az átutalni|nkívánt összeget!"
+InvalidAmountLabel="ÉRVÉNYTELEN ÖSSZEG"
+InsufficientCreditsLabel="NINCS FEDEZET"
+CreditsWithdrawnLabel="KREDIT ÁTUTALVA"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[wd]"
+HackedText="TERMINÁL FELTÖRVE"
+Title="PageNet Globális Bankrendszer"
+ComputerNodeFunctionLabel="ATMWD"
+
+[AdaptiveArmor]
+ExpireMessage="A termooptikai álcaruha energiatartalékai kimerültek"
+ItemName="Termooptikai álcaruha"
+ItemArticle="egy"
+Description="Egymásba szõtt száloptikák és fejlett vezérlõrendszer segítségével dinamikusan megtörhetõek a fény- és radarhullámok. Ez által a termooptikai álcaruha mind emberek, mind pedig robotok számára láthatatlanná teszi viselõjét. Magas energiafogyasztása miatt csak rövid idejû használatra alkalmas, mivel az áramkörök hamar kiégnek."
+beltDescription="TERMOÁLCA"
+
+[MenuChoice_EnabledDisabled]
+enumText[0]="Van"
+enumText[1]="Nincs"
+
+[HUDMedBotAddAugsScreen]
+AvailableAugsText="Beültethetõ augmentációk"
+MedbotInterfaceText="ORVOSI ROBOT KEZELÕFELÜLETE"
+InstallButtonLabel="|&Beültetés"
+NoCansAvailableText="Nincs kéznél augmentáció-tároló!"
+AlreadyHasItText="Ön már rendelkezik ezzel az|naugmentációval, nem építheti be újból!"
+SlotFullText="Ebbe a testrészbe nem lehet|nmár többaugmentációt ültetni."
+SelectAnotherText="Válasszon egy másik augmentációt!"
+
+[Button1]
+ItemName="Nyomógomb"
+
+[MenuScreenThemesLoad]
+LoadHelpText="Válassza ki a betölteni kívánt színsémát!"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Színséma betöltése",Key="LOAD")"
+Title="Színséma betöltése"
+
+[WeaponPistol]
+ItemName="Pisztoly"
+Description="Egy szabvány 10mm-es kaliberû pisztoly."
+beltDescription="PISZTOLY"
+
+[CleanerBot]
+FamiliarName="Takarító robot"
+UnfamiliarName="Takarító robot"
+
+[WeaponAssaultGun]
+ItemName="Rohampuska"
+ItemArticle="egy"
+Description="A 7.62x51mm-es rohampuskát közelharci bevetésekre tervezték, ezért is bullpup-kialakítású és rövidített csövû a fegyver. A 20mm-es héliumgránát-vetõvel nõ a fegyver hatékonysága a különbözõ célpontok ellen."
+beltDescription="ROHAMPUSKA"
+
+[WeaponFlamethrower]
+ItemName="Lángszóró"
+Description="Ez egy könnyen hordozható lángszóró, amely már nem a régi és szerfelett veszélyes háton hordható kivitelhez tartozik, hanem a jóval mobilizált, túlnyomásos tartály segítségével mûködik. A nem gyakorlott fegyverhasználók még így is nehezen tudnak vele mozogni."
+beltDescription="LÁNGSZÓRÓ"
+
+[RocketWP]
+ItemName="FF rakéta"
+
+[deusexgspylink]
+ResolveFailedError="A mesterkiszolgáló címét nem lehetett feloldani: "
+TimeOutError="Idõtúllépés következett be a mesterkiszolgáló elérésekor"
+CouldNotConnectError="Idõtúllépés következett be a mesterkiszolgálóhoz való csatlakozáskor:"
+
+[Cloud]
+ItemName="Gázfelhõ"
+ItemArticle="egy"
+
+[menuscreenhostgame]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_Other,Text="|&Játék indítása",Key="BEGINHOST")"
+Title="Többjátékos játék indítása"
+
+[ComputerScreenSpecialOptions]
+SecurityButtonLabel="|&Biztonság"
+EmailButtonLabel="|&E-mail"
+Title="Különleges beállítások"
+ComputerNodeFunctionLabel="SpecialOptions"
+
+[LAM]
+ItemName="Könnyûkivitelezésû robbanóeszköz (LAM)"
+
+[AugDefense]
+AugmentationName="Agresszív védekezõrendszer"
+Description="Aeroszol nanorészecskék bocsájtódnak ki a gránátok és a rakéták kilövésekor, melyek idõ elõtt mûködésbe hozzák és felrobbantják az fenti fegyverek elekromágneses mintáival megegyezõ tárgyakat.|n|n1. szint: Majdnem a becsapódás elõtt robbannak fel a közeledõ tárgyak.|n|n2. szint: Nem sokkal nõ meg a rakéták és a gránátok detonációs ideje.|n|n3. szint: Jelentõsen megnõ a becsapódó töltetek idõ elõtti detonációja.|n|n4. szint: A rakéták és a gránátok majdnem kilövésük után felrobbannak."
+MPInfo="Akitváláskor a becsapódó rakéták még hatótávolságuk elérése elõtt felrobbannak. Néhány nagyobb|nméretû rakéta azonban még így is elég közel robbanhat ahhoz, hogy komoly sérülést tudjon okozni.|nAz energiafogyasztása alacsony."
+
+[Lockpick]
+ItemName="Álkulcs"
+Description="Egyszer használatos álkulcs. A feszítõkulcs acélból készült, a nyitótû viszont hõre keményedõ mûanyagból.|n|n<UNATCO AJ006-BLACK-LAJSTROMSZÁMÚ MÛVELETI MEGJEGYZÉS> Van még valami, ami a termékleírásban nincs benne: a legtöbb modern nanozárakat kivéve bármit ki lehet nyitni vele. -- Alex Jacobson <MEGJEGYZÉS VÉGE>"
+beltDescription="ÁLKULCS"
+ItemArticle="az"
+
+[ComputerScreenBulletins]
+NoBulletinsTodayText="Ma nincs új közlemény!"
+BulletinsHeaderText="Válassza ki a megtekinteni kívánt közleményt:"
+Title="Közlemények"
+ComputerNodeFunctionLabel="Bulletins"
+
+[SkillSwimming]
+SkillName="Úszás"
+Description="A tökéletes víz alatti mozgást csak rendkívüli odaadással lehet elérni, amihez az ügynöknek minden erejére szüksége van.|n|nKÉPZETLEN: Az ügynök átlagosan tud úszni.|n|nKÉPZETT: Az úszás sebessége és a vitálkapacitás kis mértékben megnõ.|n|nHALADÓ: Az úszás sebessége és a vitálkapacitás tovább nõ.|n|nMESTER: Az ügynök úgy mozog a víz alatt, akár egy delfin."
+
+[SkillWeaponLowTech]
+SkillName="Egyszerû fegyverek"
+Description="A közelharci fegyverek, úgymint kések, dobótõrök, kardok, paprikaspray-k és sokkolók használata.|n|nKÉPZETLEN: Az ügynök tud bánni a közelharci fegyverekkel.|n|nKÉPZETT: A pontosság, a sebzés, és a támadás gyorsasága kis mértékben megnõ.|n|nHALADÓ:A pontosság, a sebzés, és a támadás gyorsasága tovább nõ.|n|nMESTER: Az ügynök legtöbb ellenfelét egyetlen csapással üti le, vagy öli meg."
+
+[MenuUIMessageBoxWindow]
+btnLabelYes="|&Igen"
+btnLabelNo="|&Nem"
+btnLabelOK="|&Rendben"
+btnLabelCancel="|&Bezár"
+
+[SandraRenton]
+FamiliarName="Sandra Renton"
+UnfamiliarName="Sandra Renton"
+
+[menuchoice_victoryvalue]
+TimeLimitActionText="Idõhatár"
+FragLimitActionText="Ölés-határ"
+TimeLimitHelpText="A játék végéig hátralevõ idõ percben."
+FragLimitHelpText="A gyõzelemhez szükséges ölések száma."
+actionText="Játéklimit"
+configSetting="DeusExMPGame ScoreToWin"
+
+[BumMale]
+FamiliarName="Hajléktalan"
+UnfamiliarName="Hajléktalan"
+
+[PersonaHealthActionButtonWindow]
+HealButtonLabel="Gyógyít"
+
+[Multitool]
+ItemName="Multiszer"
+Description="A multiszer az elektromágneses rezonanciát és frekvenciamodulációt felhasználva folyamatosan vezeti el az áramkörbõl az áramforrást. A jártasabb ügynökök biztonsági zárakat, kamerákat, riasztókat, vagy önmûködõ lövegtornyokat is tudnak manipulálni vele. Egyszer használatos mûszer."
+beltDescription="MULTISZER"
+
+[AugDrone]
+AugmentationName="Kémdroid"
+Description="Ez egy irányítható taktikai egység, melyet nano-gyártósorok hoznak létre. További fejlesztésekkel a kémdroidot erõsebb páncélzattal és hatásosabb EMI-t kibocsátó funkcióval lehet ellátni.|n|n1. szint: Az egység nagyon érzékenyen reagál a külsõ behatásokra és csak jelzésértékû a kibocsátható EMI mértéke.|n|n2. szint: A kémdroid kismértékû sérüléseket is el tud viselni, és egy fokkal nõ a kibocsátható EMI ereje.|n|n3. szint: A kémdroid nagyobb károsodást is képes korrigálni, emellett még tovább nõ a kibocsátott EMI mértéke.|n|n4. szint: Az egység rendkívül ellenálló a külsõ behatásokkal szemben, és nagyerejû EMI-impulzuskibocsátó rendszerrel rendelkezik."
+MPInfo="Aktiválásakor távirányítású kémdroid épül. Az energiaellátás megszüntével mûködésképtelenné válik a gép. Tüzeléskor a droid egy nagyerejû EMI kibocsátásával megsemmisül.|nAz energiafogyasztása közepes."
+
+[MissionEndgame]
+endgameQuote[0]="TEGNAP MÉG KIRÁLYOKNAK ENGEDELMESKEDTÜNK ÉS CSÁSZÁROKNAK HAJTOTTUNK FEJET.  DE MÁTÓL FOGVA CSAKIS AZ IGAZSÁG ELÕTT FOGUNK TÉRDRE BORULNI..."
+endgameQuote[1]="    -- KAHLIL GIBRAN"
+endgameQuote[2]="HA ISTEN NEM LENNE, KI KELLENE TALÁLNI."
+endgameQuote[3]="    -- VOLTAIRE"
+endgameQuote[4]="JOBB A POKOLBAN URALKODNI, MINT A MENNYBEN SZOLGÁLNI."
+endgameQuote[5]="    -- JOHN MILTON: ELVESZETT PARADICSOM"
+
+[AugRadarTrans]
+AugmentationName="Radar-láthatatlanság"
+Description="Mikroprojekciós egységek torzítják el az ügynök vizuális jelét, míg radarelnyelõ gyanta képzõdik a hámszövet fehérjéin. Az így nyert hatékony álcázás automatizált védelmi rendszerek, valamint robotok, kamerák és automata lövegek kijátszására fordítható.|n|n1. szint: Az energiafogyasztás normális.|n|n2. szint: Az energiafogyasztás csak kissé csökken.|n|n3. szint: Az energiafogyasztás mérsékelten csökken.|n|n4. szint: Az energiafogyasztás jelentõsen csökken."
+MPInfo="Aktiváláskor az elektronikus biztonsági berendezések, mint például robotok, kamerák,|nautomata lövegek és mozgásérzékelõ robbanószerek számára a felhasználó láthatatlanná válik.|nAz energiafogyasztása nagyon alacsony."
+
+[PersonaScreenSkills]
+SkillsTitleText="Képzettségek"
+UpgradeButtonLabel="|&Fejleszt"
+PointsNeededHeaderText="Szükséges"
+SkillLevelHeaderText="Szint"
+SkillPointsHeaderText="Pontok"
+SkillUpgradedLevelLabel="%s fejlesztve"
+
+[WeaponRifle]
+ItemName="Mesterlövész puska"
+Description="A katonai mesterlövész puska szolgál rá legjobban a célpontok nagy távolságból történõ semlegesítésére. A 30.06-os kaliberû tölténnyel környezeti adottságoktól függõen egy szögpercnél is pontosabban lehet célra tartani a fegyvert."
+beltDescription="MSTRL.PSK."
+
+[WeaponGEPGun]
+ShortName="GEP-fegyver"
+ItemName="Irányított robbanótöltetû (GEP) fegyver"
+Description="A GEP-fegyver egy újonnan kifejlesztett harceszköz. Vállon hordható, lézercélzóval ellátott rakétaindító, mely milliméter-pontossággal méri be célpontját. Fokozottan veszélyes helyzetekben jól teljesít, a veszélyt könnyûszerrel hárítja el, de a gyakorlatlan ügynököknek lehet, nem áll kézre e fegyver."
+beltDescription="GEP-FEGYV."
+ItemArticle="az"
+
+[menuscreenjoinlan]
+Title="Többjátékos LAN-játék indítása"
+
+[PersonaItemDetailIconWindow]
+CountLabel="%d darab"
+
+[SecurityBot3]
+FamiliarName="Biztonsági robot"
+UnfamiliarName="Biztonsági robot"
+
+[MenuChoice_Resolution]
+HelpText="A képernyõ felbontása.|nA magasabb felbontás szebb képet eredményez."
+actionText="Képernyõ|&felbontás"
+
+[WeaponCombatKnife]
+ItemName="Harci kés"
+Description="Egy, a legmodernebb rozsdamentes szénacélból készült kés."
+beltDescription="KÉS"
+
+[TrashPaper]
+ItemName="Papír"
+
+[VendingMachine]
+msgDispensed="2 kredit lett levonva az egyenlegrõl"
+msgNoCredits="2 kreditbe kerül..."
+msgEmpty="Kiürült"
+ItemName="Automata"
+
+[Switch2]
+ItemName="Kapcsoló"
+
+[menuchoice_gametype]
+gameNames[0]="Öldöklés"
+gameNames[1]="Egyszerû csapatos öldöklés"
+gameNames[2]="Nehezített csapatos öldöklés"
+gameNames[3]="Egyéni csapatos öldöklés"
+HelpText="A játszani kívánt játék típusa."
+actionText="Játéktípus"
+configSetting="MenuScreenHostGame CurrentGameType"
+
+[JaimeReyes]
+FamiliarName="Jaime Reyes"
+UnfamiliarName="Jaime Reyes"
+
+[Karkian]
+FamiliarName="Karkian"
+UnfamiliarName="Karkian"
+
+[AugAqualung]
+AugmentationName="Instant respiráció"
+Description="Az alveolusokba ültetett exostruktúrális képletek szén-monoxidot alakítanak át oxigénné. Így növelhetõ az ügynök víz alatt tartózkodásának ideje.|n|n1 szint: A vitálkapacitás csak kissé nõ meg.|n|n2. szint: A vitálkapacitás mérsékelten megnõ.|n|n3. szint: A vitálkapacitás jelentõsen megnõ.|n|n4. szint: Az ügynök szinte korlátlan ideig képes a víz alatt tartózkodni."
+MPInfo="Aktiváláskor a felhasználó 12-szer hosszabb ideig tud víz alatt tartózkodni,|nés a megszokottnál kétszer gyorsabban tud úszni.|nAz energiafogyasztása alacsony."
+
+[SkillComputer]
+SkillName="Informatika"
+Description="A számítógépek és biztonsági terminálok álcázott módú manipulálása.|n|nKÉPZETLEN: Az ügynök el tudja olvasni az e-maileket és a híreket.|n|nKÉPZETT: Az ügynöknek nem jelent gondot a bankautomaták, számítógépek és a biztonsági terminálok feltörése.|n|nHALADÓ: Amellett, hogy az irányítása alá veheti az automatizált rendszereket, jóval kisebb az esély a rendszerkitiltásra és a lebukásra.|n|nMESTER: Az ügynök a szakma mesterévé válik. Nincs rendszer, amit ne tudna pillanatok alatt kijátszani."
+
+[ShowerHead]
+ItemName="Zuhanyrózsa"
+
+[Gray]
+FamiliarName="Szürke"
+UnfamiliarName="Szürke"
+
+[menuchoice_map]
+HelpText="A játékhoz kiválasztott pálya (a hozzá ajánlott játékosok számával)."
+actionText="Pálya"
+configSetting="DXMapList MapNum"
+
+[RocketLAW]
+ItemName="LAW rakéta"
+
+[RiotCop]
+FamiliarName="Rohamrendõr"
+UnfamiliarName="Rohamrendõr"
+
+[Ammo20mm]
+ItemName="20mm-es brizáns (HE) töltet"
+ItemArticle="néhány"
+Description="A 20mm-es brizáns töltet a hagyományos 7.62x51mm-es gépfegyver képességeit egészíti ki azzal, hogy a beépített gránátvetõvel szûk helyiségek, fedezékek és beláthatatlan kanyarok megtisztítását teszi lehetõvé."
+beltDescription="20MM-ES"
+
+[ComputerScreenLogin]
+UserNameLabel="Felhasználó:"
+PasswordLabel="Jelszó:"
+InvalidLoginMessage="HIBÁS BEJELENTKEZÉS - NEM LÉPHET BE"
+Title="Üdvözli %s!"
+ComputerNodeFunctionLabel="Login"
+
+[SkillEnviro]
+SkillName="Környezeti védekezés"
+Description="Az összfegyvernemi védõruhák, a golyóálló mellények, a termo-optikai álcaruhák és az újralégzõk használatában való veszélyes helyzetek beli jártasság.|n|nKÉPZETLEN: Az ügynök tudja hogyan kell használni a védõruhákat, a golyóálló mellényeket, a termo-optikai álcaruhákat és az újralégzõket.|n|nKÉPZETT: Az ügynök kissé hosszabb ideig és hatékonyabban tudja használni ezeket az eszközöket.|n|nHALADÓ: Az ügynök még hosszabb ideig és még nagyobb hatékonysággal tudja használni a védõruhákat, a golyóálló mellényeket, a termo-optikai álcaruhákat és az újralégzõket.|n|nMESTER: Az ügynök a felszereléseket és a páncélokat mintegy második bõrként viseli."
+
+[SkillWeaponRifle]
+SkillName="Puskák"
+Description="A puskák, úgymint a gépfegyverek, mesterlövész puskák és sörétes puskák használata.|n|nKÉPZETLEN: Az ügynök tud bánni a puskákkal.|n|nKÉPZETT: A pontosság és az okozott sebzés csak kissé nõ meg, míg az újratöltés gyorsabbá válik.|n|nHALADÓ: A pontosság és az okozott sebzés tovább nõ, míg az újratöltés sokkal gyorsabbá válik.|n|nMESTER: Az ügynök egyetlen lövéssel akár egy mérföldrõl is képes leszedni célpontját."
+
+[Fly]
+FamiliarName="Légy"
+UnfamiliarName="Légy"
+
+[CigaretteMachine]
+msgDispensed="8 kredit lett levonva az egyenlegrõl"
+msgNoCredits="8 kreditbe kerül..."
+msgEmpty="Kiürült"
+ItemName="Cigaretta-automata"
+
+[EMPGrenade]
+ItemName="Elektromágneses-impulzus gránát"
+
+[NanoVirusGrenade]
+ItemName="Zavarógránát"
+
+[HUDMedBotAugCanWindow]
+AugContainsText="Tartalmazza:|n"
+
+[WeaponModReload]
+ItemName="Fegyvermódosító (újratárazó)"
+Description="Egy gyorstárazóval jelentõsen le lehet csökkenteni a fegyver újratárazásához igényelt idõt."
+beltDescription="ÚJRATÁR.M."
+
+[Ammo3006]
+ItemName="30.06-os lõszer"
+ItemArticle="pár"
+Description="Ötven éven keresztül az 'egy lövés, egy ember' elv követõi tették le voksukat a hasonló típusú lõszerek mellett. Nincs ez ma másképp e nagysebességû és pontosságú lõszernél sem."
+beltDescription="30.06-OS"
+
+[Fireball]
+ItemName="Fireball"
+ItemArticle="a"
+
+[WeaponModRecoil]
+ItemName="Fegyvermódosító (visszarúgás)"
+Description="A policelluláris rezgéselnyelõ közeg jelentõsen csökkenti a fellépõ visszarúgási erõt."
+beltDescription="VISSZAR.M."
+
+[AugCombat]
+AugmentationName="Közeharci erõnlét"
+Description="A szarkoplazmikus retikulum kalciumion-koncentrációjának növelésével fokozható az izomerõsség és gyorsaság, ami adott rendezõrotorok segítségével fokozottabb közelharci erõnlétet képez.|n|n1. szint: A közelharci fegyverek hatékönysága csak kissé nõ meg.|n|n2. szint: A közelharci fegyverek hatékonysága mérsékelten nõ.|n|n3. szint: A közelharci fegyverek hatékönysága jelentõsen megnõ.|n|n4. szint: Bármely közelharci fegyver azonnali halált okoz."
+MPInfo="Aktiváláskor megkétszerezõdik a közelharci erõnlét.|nAz energiafogyasztása alacsony."
+
+[HUDMedBotNavBarWindow]
+HealthButtonLabel=" E|&gészség   "
+AugsButtonLabel="   |&Augmentációk   "
+
+[MenuScreenBrightness]
+HelpMessage="Úgy állítsa be a fényerõsséget, hogy a színek egyenletesen feketedjenek el."
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+Title="Fényerõsség beállítása"
+
+[BobPageAugmented]
+ItemName="Augmentált Bob Page"
+
+[WeaponModAccuracy]
+ItemName="Fegyvermódosító (pontosság)"
+Description="A fegyver elsütésekor harmonikus kiegyenlítõk gondoskodnak a túlzott hossziránti mozgás lecsillapításában. Ezáltal nõ a célzási pontosság.|n|n<SC108-BLUE-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS> Akármelyik fegyver módosítható ezzel, ami valamennyire is mozgó alkatrészekbõl áll. Tanusíthatom, ezt egy mini-nyílpuskára, vagy akár egy plazmafegyverre is rá lehet ám szerelni. -- Sam Carter <MEGJEGYZÉS VÉGE>"
+beltDescription="PONTOSSÁGM"
+
+[Phone]
+ItemName="Telefon"
+
+[ThugMale]
+FamiliarName="Gengszter"
+UnfamiliarName="Gengszter"
+
+[MenuChoice_Volume]
+VolumeOffText="KI"
+VolumeMaxText="MAX"
+
+[SkillWeaponHeavy]
+SkillName="Nehézfegyverek"
+Description="A nagy rombolóerejû fegyverek, azaz lángszórók, könnyû páncéltörõ fegyverek, illetve kísérleti plazmaágyúk és a GEP-lövegek használata.|n|nKÉPZETLEN: Az ügynök tudja használni a nehézfegyvereket, de a pontosságuk kicsi és a velük való mozgás is nehézkes.|n|nKÉPZETT: A pontosság és az okozott sebzés csak kissé nõ meg, míg az újratöltés és a mozgás némileg gyorsabbá válik.|n|nHALADÓ: A pontosság és az okozott sebzés tovább nõ, míg az újratöltés és a mozgás még gyorsabbá válik.|n|nMESTER: Az ügynök egy két lábon járó tank, nehézfegyverrel a kezében."
+
+[AmmoDart]
+ItemName="Nyíl"
+ItemArticle="egy doboz"
+Description="A mini-nyílpuskába való nyíl az 'egyszerû' feladatok kedvelt fegyvere. Persze a vele való csendes gyilkoláshoz magasfokú képzettség is szükséges."
+beltDescription="NYÍL"
+
+[Binoculars]
+ItemName="Távcsõ"
+ItemArticle="egy"
+Description="Egy katonai távcsõ."
+beltDescription="TÁVCSÕ"
+M_Activated=" kézbe véve"
+M_Deactivated=" letéve"
+
+[menuscreenplayersetup]
+HeaderPlayerNameLabel="Játékosnév"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_OK)"
+Title="Többjátékos mód játékosának beállítása"
+
+[Poolball]
+ItemName="Biliárdgolyó"
+
+[ComputerScreenATMDisabled]
+ButtonLabelClose="|&Bezár"
+LoginInfoText="Sajnáljuk, ez a terminál jelenleg nem mûködik. (06MJ12-ES HIBAKÓD)|n|nElnézését kérjük a kellemetlenségért. Örömmel kiszolgáljuk Önt a világ többi 231 000 PageNet Bankterminál bármelyikénél."
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[dsbld]"
+Title="PageNet Globális Bankrendszer"
+
+[ComputerScreenATM]
+AccountLabel="Számlaszám:"
+PinLabel="PIN-kód:"
+LoginInfoText="Kérjük, írja be számlaszámát és a PIN-kódját!"
+WarningText="FIGYELEM! A jogosulatlan hozzáférés komoly büntetést von maga után!"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[login]"
+InvalidLoginMessage="HIBÁS LOGIN, BELÉPÉS MEGTAGADVA"
+Title="PageNet Globális Bankrendszer"
+
+[PersonaInventoryCreditsWindow]
+CreditsLabel="Kredit"
+
+[MenuMain]
+ButtonNames[0]="Új játék"
+ButtonNames[1]="Játék mentése"
+ButtonNames[2]="Mentés betöltése"
+ButtonNames[3]="Beállítások"
+ButtonNames[4]="Kiképzés"
+ButtonNames[5]="Bevezetõ"
+ButtonNames[6]="Készítõk"
+ButtonNames[7]="Vissza a játékba"
+ButtonNames[8]="Többjátékos mód"
+ButtonNames[9]="Kilépés"
+Title="Köszöntjük a DEUS EX-ben!"
+
+[ammocrate]
+AmmoReceived="Lõszerkészlet feltöltve"
+ItemName="Lõszeres láda"
+
+[Cigarettes]
+ItemName="Cigaretta"
+ItemArticle="egy doboz"
+Description="'KOPORSÓSZÖG -- amikor már majd meghalnál egy szálért.'"
+beltDescription="CIGI"
+M_Activated=" elszívva"
+
+[Dart]
+ItemName="Nyíl"
+ItemArticle="egy"
+
+[AlarmLight]
+ItemName="Riasztólámpa"
+
+[menuchoice_team]
+TeamNames[0]="UNATCO"
+TeamNames[1]="NSF"
+TeamNames[2]="VÉLETLENSZERÛ"
+HelpText="A kiválasztott kezdõcsapat."
+actionText="Csapatmodell"
+
+[AugMuscle]
+AugmentationName="Mikrorostos izom"
+Description="Az izomerõsséget gélállagú ionizált myofibrillumokkal is lehet fokozni. Ennek hatására emberfeletti képességekkel lehet felemelni és cipelni nehéz tárgyakat.|n|n1. szint: Az izomerõ csak kissé nõ meg.|n|n2. szint: Az izomerõ mérsékelten megnõ.|n|n3. szint: Az izomerõ jelentõsen megnõ.|n|n4. szint: Az ügynök emberfeletti erejû."
+MPInfo="Aktiváláskor a felhasználó rendkívül nehéz tárgyakat is meg tud mozgatni.|nAz energiafogyasztása alacsony."
+
+[WeaponSword]
+ItemName="Kard"
+Description="Egy igen morcosan kinézõ kard."
+beltDescription="KARD"
+
+[WeaponSawedOffShotgun]
+ItemName="Lefûrészelt csövû sörétes puska"
+Description="Ez a sörétes puska a lefûrészelt csõ által rövid távon széles szórást biztosít. Páncéltörõ és hagyományos söréttel is használható."
+beltDescription="L. SÖRÉTES"
+
+[AmmoRocket]
+ItemName="Rakéta"
+ItemArticle="néhány"
+Description="Korlátozott célkövetõ rendszerrel ellátott, giroszkópikusan stabilizált rakéta. Kizárólag GEP-fegyverrel történõ használathoz."
+beltDescription="RAKÉTA"
+
+[WeaponLAM]
+ShortName="LAM"
+ItemName="Könnyûkivitelezésû robbanóeszköz"
+Description="A könnyûkivitelezésû robbanóeszköz (LAM) egy elektronikus detonációvezérlõvel ellátott multifunkcionális robbanószer, melyet elhajítva, vagy mozgásérzékelõ módban a falhoz csatlakoztatva lehet alkalmazni.|n|n<SC093-BLUE-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS> Mozgásérzékelõ robbanószereket csakis az erre képzett szakember hatástalaníthat. -- Sam Carter <MEGJEGYZÉS VÉGE>"
+beltDescription="LAM"
+
+[WeaponCrowbar]
+ItemName="Pajszer"
+Description="Egy feszítõvas. Üssön meg vele valakit, vagy valamit. Megint.|n|n<GH010-BLUE-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS> Sok feszítõvast 'gyilkos pajszernek' szokásunk nevezni.  Mindig legyen magánál egy baj esetére. Ha-ha. -- Günther Hermann <MEGJEGYZÉS VÉGE>"
+beltDescription="PAJSZER"
+
+[ComputerSecurityChoice_MPCamera]
+enumText[0]="Kikapcsolva"
+enumText[1]="Ellenségre áll"
+enumText[2]="Barátokra áll"
+actionText="Biztonsági kam|&era"
+
+[menuchoice_class]
+ClassNames[0]="JC Denton"
+ClassNames[1]="NSF-terrorista"
+ClassNames[2]="UNATCO-katona"
+ClassNames[3]="Majestic 12 ügynök"
+HelpText="Csapatjátékon kívül így fog kinézni a karakter."
+actionText="Csapaton kívüli"
+
+[AmmoSabot]
+ItemName="12-es kaliberû páncéltörõ sörét"
+ItemArticle="néhány"
+Description="12-es kaliberû sörétes puskába való töltény, melynek tömör volfrám magja kis távolságról még akár a legvastagabb acélpáncélzatot is képes átütni. Ballisztikai kidolgozása miatt azonban élõ célpontokban csak minimális kárt képes okozni."
+beltDescription="PT. SÖRÉT"
+
+[ComputerSecurityChoice_Turret]
+enumText[0]="Hatástalanítva"
+enumText[1]="Barátokat lõ"
+enumText[2]="Ellenségeket lõ"
+enumText[3]="Mindent lõ"
+actionText="Löveg|&torony"
+
+[WIB]
+FamiliarName="Feketeruhás nõ (WIB)"
+UnfamiliarName="Feketeruhás nõ (WIB)"
+
+[TracerTong]
+FamiliarName="Tracer Tong"
+UnfamiliarName="Tracer Tong"
+
+[SkillWeaponPistol]
+SkillName="Pisztolyok"
+Description="A maroklõfegyverek, úgymint a szabványos 10mm-es kaliberû pisztoly, ennek kémpisztoly-változata, valamint a mini-nyílpuska használata.|n|nKÉPZETLEN: Az ügynök tud bánni a pisztolyokkal.|n|nKÉPZETT: A pontosság és az okozott sebzés csak kissé nõ meg, míg az újratöltés gyorsabbá válik.|n|nHALADÓ: A pontosság és az okozott sebzés tovább nõ, míg az újratöltés még gyorsabbá válik.|n|nMESTER: Az ügynök halálos precizitással bánik a pisztolyokkal."
+
+[menuchoice_augsallowed]
+HelpText="Kapjanak augmentációkat a játékosok a játék kezdésekor vagy öléskor?"
+actionText="Augmentációk"
+configSetting="DeusExMPGame bAugsAllowed"
+
+[MenuChoice_Decals]
+HelpText="Az egyéb képi elemek kikapcsolásával is növelni lehet a régebbi gépeken a játék teljesítményét."
+actionText="Egy|&éb képi elemek"
+configSetting="ini:Engine.Engine.ViewportManager Decals"
+
+[MenuChoice_DetailTextures]
+HelpText="A részletesebb textúrák kikapcsolásával növelni lehet a régebbi gépeken a játék teljesítményét."
+actionText="Rész|&letesebb textúrák"
+configSetting="ini:Engine.Engine.GameRenderDevice DetailTextures"
+
+[menuchoice_multihelp]
+HelpText="Itt lehet megadni, hogy megjelenjenek-e az üzenetek, melyek a többjátékos játék szabályairól adnak felvilágosítást."
+actionText="Játékbeli segítség"
+configSetting="DeusExPlayer bHelpMessages"
+
+[menuchoice_connection]
+ConnectionNames[0]="56K"
+ConnectionNames[1]="Szélessáv"
+HelpText="Az internetkapcsolat típusa."
+actionText="Kapcsolattípus"
+configSetting="Player ConfiguredInternetSpeed"
+
+[menuchoice_cycle]
+HelpText="Itt lehet megadni, hogy a szerver továbblépjen-e a következõ pályára, ha az aktuális pályának vége van."
+actionText="Pályaváltás"
+configSetting="DXMapList CycleType"
+
+[MenuChoice_WorldTextureDetail]
+HelpText="Itt a játékban lévõ képi hatások részletességét lehet beállítani."
+actionText="Képi |&hatások részletessége"
+configSetting="ini:Engine.Engine.ViewportManager TextureDetail"
+
+[MenuChoice_LowMedHigh]
+enumText[0]="Alacsony"
+enumText[1]="Közepes"
+enumText[2]="Magas"
+
+[WaterFountain]
+msgEmpty="Nincs benne több víz"
+ItemName="Ivóvizes csap"
+
+[MenuChoice_ObjectTextureDetail]
+enumText[0]="Tompa"
+enumText[1]="Részletes"
+HelpText="Itt a játékban lévõ tárgyak részletességét lehet beállítani."
+actionText="Tárgya|&k részletessége"
+configSetting="ini:Engine.Engine.ViewportManager SkinDetail"
+
+[MIB]
+FamiliarName="Feketeruhás férfi (MIB)"
+UnfamiliarName="Feketeruhás férfi (MIB)"
+
+[WaterCooler]
+msgEmpty="Nincs benne több víz"
+ItemName="Vízhûtõ ballon"
+
+[menuchoice_servermode]
+ModeNames[0]="Dedikált"
+ModeNames[1]="Nem dedikált"
+HelpText="Itt lehet megadni a játékot futtató szerver típusát.|nA dedikált szervereknek nincsen lokális játékosuk, de gyorsabbak."
+actionText="Szervermód"
+configSetting="MenuScreenHostGame ServerMode"
+
+[menuchoice_skilllevel]
+LevelNames[0]="Képzett(1)"
+LevelNames[1]="Haladó(2)"
+LevelNames[2]="Mester(3)"
+HelpText="Itt adható meg a játékos képzettségeinek kezdeti szintje, ami lehet képzett, haladó, vagy mester is."
+actionText="Kezdeti képzettségi szint"
+configSetting="DeusExMPGame MPSkillStartLevel"
+
+[Cat]
+FamiliarName="Macska"
+UnfamiliarName="Macska"
+
+[menuchoice_victorytype]
+VictoryNames[0]="Ölés-határ"
+VictoryNames[1]="Idõhatár"
+HelpText="Itt lehet megadni, hogy milyen feltétel teljesülése esetén érjen véget a játék."
+actionText="Gyõzelmi feltétel"
+configSetting="DeusEXMPGame VictoryCondition"
+
+[MenuChoice_LogTimeoutValue]
+msgSecond="mp"
+HelpText="Itt lehet beállítani, mennyi ideig maradjanak a naplóüzenetek a képernyõn."
+actionText="Nap|&lóüzenetek idõzítése"
+
+[MenuChoice_MaxLogLines]
+HelpText="Itt lehet megadni, hogy egyszerre hány naplóbejegyzés legyen látható a képernyõn."
+actionText="Látható naplóbejegyzések száma"
+
+[MenuChoice_MouseSensitivity]
+HelpText="Az egér érzékenységét itt lehet beállítani."
+actionText="Egér érzékeny|&sége"
+
+[TechGoggles]
+ExpireMessage="Az éjellátó energiatartalékai kimerültek"
+ItemName="Éjellátó"
+ItemArticle="egy"
+Description="Számos különleges osztag használta már szerte a világon ezt az eszközt. Mindig más márkanévvel volt kiadva, de mindegyik tudta azt, amire használták."
+beltDescription="ÉJELLÁTÓ"
+M_Activated=" felvéve"
+
+[MiniSub]
+ItemName="Mini-tengeralattjáró"
+
+[NicoletteDuClare]
+FamiliarName="Nicolette DuClare"
+UnfamiliarName="Nicolette DuClare"
+
+[Rat]
+FamiliarName="Patkány"
+UnfamiliarName="Patkány"
+
+[HKMilitary]
+FamiliarName="Kínai katona"
+UnfamiliarName="Kínai katona"
+
+[Cart]
+ItemName="Zsúrkocsi"
+
+[MorganEverett]
+FamiliarName="Morgan Everett"
+UnfamiliarName="Morgan Everett"
+
+[Liquor40oz]
+ItemName="Forty sör"
+Description="'Jéghideg, finom negyven unciás malátasör. Vigyázz rá, mint a szemed fényére!'"
+beltDescription="FORTY"
+
+[LiquorBottle]
+ItemName="Pia"
+ItemArticle="egy kis"
+Description="A címkét letépték róla, de jófélének tûnik."
+beltDescription="PIA"
+
+[VialCrack]
+ItemName="Zyme-fiola"
+Description="Egy fiola zyme, amit illegális droglaborokban állítanak elõ."
+beltDescription="ZYME"
+
+[WeaponModClip]
+ItemName="Fegyvermódosító (tölténytár)"
+Description="Egy tölténytár-módosító, mely lehetõvé teszi a gyári tárkapacitáson felüli töltényhasználatot."
+beltDescription="TTÁR M."
+
+[WeaponModRange]
+ItemName="Fegyvermódosító (hatótáv)"
+Description="A fegyver csövét szintetikus kenõanyaggal való kezelés után a kilövellõ lövedékek légellenálása nagyban csökken, így nõ a hatótávolság.|n|n<SC111-BLUE-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS> Ha a lángszóró, vagy a plazmafegyver elsõdleges szeleprendszerét kenõanyaggal vonjuk be, majd túlnyomást gyakorlunk a kivezetõrendszerben, az eredmény itt is a megnövekedett hatótávolság lesz. Ezt a kis trükköt a bevetési próbán sajátítottam el. -- Sam Carter <MEGJEGYZÉS VÉGE>"
+beltDescription="HATÓTÁV M."
+
+[ComputerPublic]
+ItemName="Nyilvános számítógép-terminál"
+
+[WineBottle]
+ItemName="Bor"
+ItemArticle="egy üveg"
+Description="Egy üveg bor, ízléses palackban."
+beltDescription="BOR"
+
+[RetinalScanner]
+msgUsed="Belépés megadva"
+ItemName="Retinaleolvasó"
+
+[AugSpeed]
+AugmentationName="Sebességnövelés"
+Description="A lábizomzatba beépülõ ionos polimerizált, gélállagú myofibrillumok megnövelik az ügynök mozgási sebességét, ugrási magasságát, emellett csökkentik a zuhanás okozta sérülést.|n|n1. szint: A sebesség és az ugrási magasság csak kissé nõ meg, míg a zuhanási sérülés kevésbé csökken.|n|n2. szint: A sebesség és az ugrási magasság mérsékelten megnõ, míg a zuhanási sérülés tovább csökken.|n|n3. szint: A sebesség és az ugrási magasság jelentõsen megnõ, míg a zuhanási sérülés lényegesen csökken.|n|n4. szint: Az ügynök úgy fut, akár a szél és akár a legmagasabb épületrõl is sérülés nélkül le tud szökellni."
+MPInfo="Aktiváláskor a felhasználó a megszokottnál kétszer gyorsabban tud mozogni és magasabbra ugrani.|nAz energiafogyasztása nagyon magas."
+
+[AugCloak]
+AugmentationName="Álca"
+Description="A bõr alá beépülõ pigmentsejtekkel az ügynök bele tud olvadni az õt körülvevõ környezetbe. Így jóformán láthatatlanná válik organikus társai számára.|n|n1. szint: Az energiafogyasztás normális.|n|n2. szint: Az energiafogyasztás csak kissé csökken.|n|n3. szint: Az energiafogyasztás tovább csökken.|n|n4. szint: Az energiafogyasztás jelentõsen csökken."
+MPInfo="Aktiváláskor fegyver nem használható és a felhasználó láthatatlanná válik az ellenséges játékosok számára. Elektronikus biztonsági eszközökre és látás-augmentációval rendelkezõ játékosokra nincs hatással.|nAz energiafogyasztása közepes."
+
+[WeaponStealthPistol]
+ItemName="Kémpisztoly"
+Description="Ez a kémpisztoly a szabvány 10mm-es fegyver egy módosított változata. Megnövelt tárkapacitással és beépített hangtompítóval rendelkezik. Rendkívül közeli és alapos használatra ajánlott."
+beltDescription="KÉMPISZT."
+
+[Shuriken]
+ItemName="Dobókés"
+ItemArticle="a"
+
+[SkillAwardTrigger]
+awardMessage="DEFAULT SKILL AWARD MESSAGE - REPORT THIS AS A BUG"
+
+[WeaponAssaultShotgun]
+ItemName="Rohamsörétes"
+ItemArticle=an
+Description="A rohamsörétesben (néha emlegetik úgy is, mint az 'utcaseprõt') egy hétköznapi sörétes puskának legjobb tulajdonsága és a teljesen automatikus újratöltési mechanizmus párosul, miáltal pillanatok alatt söpri el a kívánt célpontokat az útból. Kiváltképpen eredményes városi ütközeteknél, emellett hagyományos és páncéltörõ sörét is használható hozzá."
+beltDescription="ROHAMSÖRÉT"
+
+[ThugMale2]
+FamiliarName="Gengszter"
+UnfamiliarName="Gengszter"
+
+[AmmoBattery]
+ItemName="Sokkoló-töltõ"
+ItemArticle="egy"
+Description="Egy hordozható töltõegység a sokkolóhoz."
+beltDescription="SOKKOLÓ"
+
+[MenuChoice_Use3DHardware]
+RestartTitle="Hangminõség-változtatás"
+RestartMessage="Ez a változtatás csak a Deus Ex újraindítása után lép életbe."
+HelpText="Itt lehet megadni a hardware-es 3D hanghatás bekapcsolását."
+actionText="|&Hardware-es 3D hang"
+configSetting="ini:Engine.Engine.AudioDevice Use3dHardware"
+
+[MenuChoice_SampleRate]
+RestartTitle="Hangminõség-változtatás"
+RestartMessage="Ezek a változtatások csak a Deus Ex újraindítása után lépnek életbe."
+enumText[0]="11025Hz"
+enumText[1]="22050Hz"
+enumText[2]="44100Hz"
+HelpText="Az kisebb mintavételezési frekvencia leveszi a terhet a processzor válláról, de a hang minõsége ezáltal romlik."
+actionText="Mintavételezési |&frekvencia"
+configSetting="ini:Engine.Engine.AudioDevice OutputRate"
+
+[MenuChoice_SoundQuality]
+RestartTitle="Hangminõség-változtatás"
+RestartMessage="Ez a változtatás csak a Deus Ex újraindítása után lép életbe."
+enumText[0]="8 bites"
+enumText[1]="16 bites"
+HelpText="A 16 bites hang jobb minõségû, de kétszer annyi memóriát használ, mint a 8 bites. Ha kevés memória van a számítógépben, akkor a 8 biteset javallott használni."
+actionText="Han|&gminõség"
+configSetting="ini:Engine.Engine.AudioDevice LowSoundQuality"
+
+[Valve]
+ItemName="Szelep"
+
+[MenuChoice_TextureColorBits]
+RestartTitle="Textúra színmélysége"
+RestartMessage="Ez a változtatás csak a Deus Ex újraindítása után lép életbe."
+enumText[0]="16 bites"
+enumText[1]="32 bites"
+HelpText="Ha számítógépe ezt támogatja, a szebb képhatás érdekében válassza a 32 bites színmélységet."
+actionText="Textúra színmélysé|&ge"
+configSetting="ini:Engine.Engine.ViewportManager FullscreenColorBits"
+
+[Basketball]
+ItemName="Kosárlabda"
+
+[MenuChoice_EffectsChannels]
+HelpText="Itt lehet megadni az egyszerre hallható hanghatások számát."
+actionText="Hanghat|&ások száma"
+configSetting="ini:Engine.Engine.AudioDevice EffectsChannels"
+
+[ShipsWheel]
+ItemName="Hajókormány"
+
+[PersonaImageNewLegendLabel]
+NewLegendLabel=" = új kép"
+
+[CageLight]
+ItemName="Helyzetjelzõ lámpa"
+
+[LowerClassFemale]
+FamiliarName="Alsóbboszályú nõ"
+UnfamiliarName="Alsóbboszályú nõ"
+
+[MilitaryBot]
+FamiliarName="Katonai robot"
+UnfamiliarName="Katonai robot"
+
+[MenuSelectDifficulty]
+ButtonNames[0]="Könnyû"
+ButtonNames[1]="Közepes"
+ButtonNames[2]="Nehéz"
+ButtonNames[3]="Valósághû"
+ButtonNames[4]="Elõzõ menü"
+Title="Válasszon nehézségi szintet"
+
+[SecurityBot2]
+FamiliarName="Biztonsági robot"
+UnfamiliarName="Biztonsági robot"
+
+[Doctor]
+FamiliarName="Orvos"
+UnfamiliarName="Orvos"
+
+[WeaponModSilencer]
+ItemName="Fegyvermódosító (hangtompító)"
+Description="Ez a hangtompító a fegyver elsütésekor kilövellõ gázok által gerjesztett robajt csillapítja el.|n|n<SC108-BLUE-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS> Ha nem lenne nyilvánvaló, a hangtompító csak lõfegyverekkel együtt használható. -- Sam Carter <MEGJEGYZÉS VÉGE>"
+beltDescription="HANGTMPÍTÓ"
+
+[WeaponModScope]
+ItemName="Fegyvermódosító (távcsõ)"
+Description="Ez egy fegyverre csatlakoztatható távcsõ, mely távoli célpontok felnagyítására, s könnyebb célkeresésére szolgál."
+beltDescription="FEGYVRTVCS"
+
+[WeaponModLaser]
+ItemName="Fegyvermódosító (lézercélzó)"
+Description="Egy lézercélzó segítségével nagymértékben ki lehet küszöbölni a pontatlan célratartásból fakadó céltévesztést."
+beltDescription="LÉZERCÉLZÓ"
+
+[VialAmbrosia]
+msgNoEffect="Különös...semmi sem történik..."
+ItemName="Kémcsõnyi Ambrózia"
+ItemArticle="egy"
+Description="A 'Szürke Halál' egyetlen ismert ellenszere. Különös tulajdonsága, hogy rendkívül gyorsan szívódik fel a szervezetben, így hatását rövid távon fejti csak ki."
+beltDescription="AMBROSIA"
+
+[SoyFood]
+ItemName="Szója"
+ItemArticle="egy zacskó"
+Description="A csomagoláson díszes írással ez áll: 'A hozzáadott nanoméretû mechanokémiai ízfokozóknak köszönhetõen a TSP (texturált szója-protein) nem csak jóízû, de ha kibontják a csomagolását, megmelegíti magát.'"
+beltDescription="SZÓJA"
+M_Activated=" elfogyasztva"
+
+[Sodacan]
+ItemName="Üdítõital"
+ItemArticle="egy doboz"
+Description="Az üdítõsdoboz teljesen csupasz, két szótól eltekintve: 'TERMÉKISMERTETÕT IDE'. De hogy ez név-e, avagy felhívás, azt nem tudni."
+beltDescription="ÜDÍTÕITAL"
+M_Activated=" felbontva"
+
+[Candybar]
+ItemName="Csokiszelet"
+Description="'FÕTT CSOKLENT. CSOKOLÁDÉ! EMBERBÕL! MINDENBÕL!(tm) 85% újrahasznosított anyagból készült.'"
+beltDescription="CSOKI"
+
+[FordSchick]
+FamiliarName="Ford Schick"
+UnfamiliarName="Ford Schick"
+
+[Rebreather]
+ExpireMessage="Az újralégzõ energiatartalékai kimerültek"
+ItemName="Újralégzõ"
+Description="Egyszerhasználatos, kémiai elven mûködõ újralégzõ, mely a vízbûl veszi ki a zoxigént."
+beltDescription="ÚJRALÉGZÕ"
+ItemArticle="egy"
+
+[BookOpen]
+ItemName="Könyv"
+
+[WeaponNanoVirusGrenade]
+ItemName="Zavarógránát"
+Description="A Guardian zavarógránát a 2028 óta legyártott robotok vezérlési vivõhullám-frekvenciáját használja ki. Mûködésbe lépéskor adott polimorfikus frekvencia hatására rendellenes módon kezdenek el üzemelni a környezõ eszközök. A hatás a vezérlõfrekvenciára való visszahangolásig tart. A zavarógránát - a LAM-hez hasonlóan - felületre tapaszthatóan is használható."
+beltDescription="ZAVARÓGR."
+
+[WeaponEMPGrenade]
+ItemName="Elektromágneses-impulzus gránát (EMI)"
+ItemArticle="egy"
+Description="Az EMI-gránát a környezõ elektronikus eszközökre zavaró hatást fejt ki. Mûködésbe lépéskor nagyerejû elektromágneses-impulzus bocsátódik ki, mellyel biztonsági kamerákat, robotokat, teljes biztonsági rendszereket lehet ideiglenesen kiiktatni.|n|n<JR134-VIOLET-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS>Megelõzõ kutatások szerint az EMI nincs hatással a legtöbb nanotechnológiai augmentációra, viszont a tárolt bioelektromos energia disszipálódását idézi elõ. -- Jaime Reyes <MEGJEGYZÉS VÉGE>"
+beltDescription="EMI-GRÁNÁT"
+
+[GarySavage]
+FamiliarName="Gary Savage"
+UnfamiliarName="Gary Savage"
+
+[BarrelFire]
+ItemName="Lángoló hordó"
+
+[JCDouble]
+FamiliarName="JC Denton"
+UnfamiliarName="JC Denton"
+
+[AugVision]
+AugmentationName="Fokozott látás"
+Description="A kiválasztott fotoreceptor-pálcikák kifakításával, majd metarodopszin XII-vel való átitatásssal a legtöbb éjszakai állat által birtokolt éjjelátási képesség ki tud alakulni. A késõbbi fejlesztések és módosítások ezen felül infralátást és szonár-rezonanciás leképezést tesznek lehetõvé, melynek segítségével a falakon is át tud látni az ügynök.|n|n1. szint: Éjjellátás.|n|n2. szint: Infralátás.|n|n3. szint: Rövid hatótávú szonár-leképezés.|n|n4. szint: Nagy hatótávú szonár-leképezés."
+MPInfo="Aktiváláskor bármely távolságból a sötétben rejtõzõ ellenséges játékosok láthatóak lesznek.|nRövid távon falakon is keresztül lehet látni, az álcázott ellenségek szintén láthatók.|nAz energiafogyasztása közepes."
+
+[AugEnviro]
+AugmentationName="Környezeti ellenállás"
+Description="A keratintermelõdés felgyorsításával megerõsödik a hámszövet és nõ az ügynök sugárzással, és egyéb mérgezõ anyagokkal szembeni ellenállása.|n|n1. szint: A mérgezõ hatásokkal szembeni ellenállás csak kissé nõ meg.|n|n2. szint: A mérgezõ hatásokkal szembeni ellenállás mérsékelten megnõ.|n|n3. szint: A mérgezõ hatásokkal szembeni ellenállás jelentõsen megnõ.|n|n4. szint: Az ügynök szinte teljesen ellenáll a méreganyagok behatásának."
+MPInfo="Aktiváláskor a gázok és mérgek által okozott sérüléseknek csak a 10%-a hatásos.|nEmellett a gázok és mérgek nem rontják a látást.|nAz energiafogyasztása alacsony."
+
+[WeaponPlasmaRifle]
+ItemName="Plazmaágyú"
+Description="Kísérleti jelleggel legyártott fegyver, mely rendkívüli hõmérsékletre hevít fel mágnesezett mûanyagot. E keletkezõ cseppfolyós-gáz egyveleget sorba állított mágnesek segítségével igen nagy sebességgel röpteti ki a külvilágba. A célt érõ plazma halálos, és romboló erõt fejt ki."
+beltDescription="PLAZMAÁGYÚ"
+
+[AmmoRocketWP]
+ItemName="FF rakéta"
+Description="A fehérfoszforos rakétát a GEP-fegyver képességeinek kiterjesztésére tervezték. Igaz, becsapódáskor csak minimális kárt okoz, viszont a robbanás egy porított fehérfoszforból álló felhõt terjeszt szét, mely levegõvel érintkezve azonnal lángra lobban."
+beltDescription="FF RAKÉTA"
+
+[TobyAtanwe]
+FamiliarName="Toby Atanwe"
+UnfamiliarName="Toby Atanwe"
+
+[Pinball]
+ItemName="Flipper"
+
+[TerroristCommander]
+FamiliarName="Terroristavezér"
+UnfamiliarName="Terroristavezér"
+
+[AttackHelicopter]
+ItemName="Támadó-helikopter"
+
+[AmmoDartPoison]
+ItemName="Bénítónyíl"
+Description="Szukcinilkolin-variánssal bevont hegyû, mini-nyílpuskába való nyíl. A szukcinilkolinról tudni kell, hogy nyugtató hatással van a vázizomzatra. Testbe jutva nem-halálos, átmeneti bénulást okoz."
+beltDescription="B. NYÍL"
+
+[StantonDowd]
+FamiliarName="Stanton Dowd"
+UnfamiliarName="Stanton Dowd"
+
+[SpiderBot]
+FamiliarName="Pókrobot"
+UnfamiliarName="Pókrobot"
+
+[SkillTech]
+MultitoolString="multiszerszámolás"
+SkillName="Elektronika"
+Description="Elektronikai eszközök és multiszerszámok használata során történõ rendszermanipulálás, kiiktatás.|n|nKÉPZETLEN: Az ügynök egyszerû biztonsági rendszereket tud kiiktatni.|n|nKÉPZETT: Az ügynök biztonsági rendszerek kiiktatásában való jártassága csak kissé nõ meg.|n|nHALADÓ: Az ügynök biztonsági rendszerek kiiktatásában való jártassága tovább nõ.|n|nMESTER: Az ügynöknek jóformán egyetlen biztonsági rendszer sem képes gátat szabni."
+
+[SkillLockpicking]
+SkillName="Zárfeltörés"
+Description="A zárfeltörés legalább annyira mûvészet, mint képzettség. Beható tanulmányozással és elegendõ türelemmel tökéletesen elsajátítható.|n|nKÉPZETLEN: Az ügynök fel tudja törni a zárakat.|n|nKÉPZETT: Az ügynök kissé hatékonyabban képes feltörni a zárakat.|n|nHALADÓ: Az ügynök még hatékonyabban töri fel a zárakat.|n|nMESTER: Az ügynök szinte minden mechanikus zárat képes kijátszani."
+
+[ScubaDiver]
+FamiliarName="Búvár"
+UnfamiliarName="Búvár"
+
+[WHPiano]
+ItemName="Nagy zongora"
+
+[Toilet2]
+ItemName="Piszoár"
+
+[Toilet]
+ItemName="WC-kagyló"
+
+[AlexJacobson]
+FamiliarName="Alex Jacobson"
+UnfamiliarName="Hacker"
+
+[Switch1]
+ItemName="Nyomógomb"
+
+[MenuChoice_RenderDevice]
+PromptTitle="Újra legyen indítva a Deus Ex?"
+GamePromptMessage="A 3D-megjelenítõ megváltoztatásához a Deus Ex-et újra kell indítani.  Ha nem lett elmentve az aktuális játék, akkor az el fog veszni. Mehet az újraindítás?"
+RestartPromptMessage="A 3D-megjelenítõ megváltoztatásához a Deus Ex-et újra kell indítani. Mehet?"
+HelpText="Itt lehet kiválasztani a 3D-megjelenítéshez használt meghajtót.|nAz új meghajtó kiválasztásához majd újra kell indulnia a játéknak."
+actionText="3|&D-megjelenítõk"
+
+[LightSwitch]
+ItemName="Villanykapcsoló"
+
+[HKMarketTarp]
+ItemName="Vászonponyva"
+
+[HKHangingPig]
+ItemName="Vágott sertés"
+
+[HangingChicken]
+ItemName="Vágott baromfi"
+
+[DartPoison]
+ItemName="Bénító nyíl"
+
+[JuanLebedev]
+FamiliarName="Juan Lebegyev"
+UnfamiliarName="Juan Lebegyev"
+
+[MenuScreenAdjustColors]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+Title="Színek beállítása"
+
+[Fan1]
+ItemName="Ventillátor"
+
+[MenuChoice_VisibleHidden]
+enumText[0]="Látható"
+enumText[1]="Rejtett"
+
+[GilbertRenton]
+FamiliarName="Gilbert Renton"
+UnfamiliarName="Gilbert Renton"
+
+[AcousticSensor]
+ItemName="Lõfegyverhang-érzékelõ"
+
+[ControlPanel]
+ItemName="Elektronikus vezérlõpanel"
+
+[BallisticArmor]
+ExpireMessage="A golyóálló mellény tápegysége lemerült"
+ItemName="Golyóálló mellény"
+ItemArticle="egy"
+Description="E golyóálló mellény elektromosan érzékeny polimer lemezekbõl készült, melyek egy lövedék, vagy robbanás erõteljes hatására megmerevednek, így nyelik el a sérülést kiváltó erõhatások nagy részét. A fent említett polimer lemezeket mindenképpen fel kell tölteni használat elõtt. A töltés megszûnésével a lemezek elveszítik reakciós képességüket, s így használhatatlanná válnak."
+beltDescription="GOLYÓÁLLÓ"
+M_Activated=" felvéve"
+
+[AugTarget]
+AugmentationName="Célbemérés"
+Description="A látóideg serkentõszerrel bevont poliacetilén 'kvantum-huzalokkal' való kibõvítésével felfokozozott vizuális célbemérés- és felismerés nemcsak a pontosságot növeli, de ezenfelül korlátozott szituációfüggõ információt is nyújt a célpontról.|n|n1. szint: Kismértékû pontosságnövekedés és általános információk érhetõek el a célpontról.|n|n2. szint: Nagyobb célzási pontosság és még több információ érhetõ el a célpontról.|n|n3. szint: Nagyobb célzási pontosság és részletes információ érhetõ el a célpontról.|n|n4. szint: Nagyobb célzási pontosság és teleszkopikus látás válik lehetõvé."
+MPInfo="Aktiváláskor minden fegyverképzettség egy szinttel megnõ. Emellett az ellenfél egészségi|nállapota is láthatóvá válik. Az így megnövelt képzettségek akár a 3. szintet is meghaladhatják.|nAz energiafogyasztása közepes."
+
+[AugStealth]
+AugmentationName="Nesztelen futás"
+Description="A teljesen csendes sétához vagy futáshoz szükséges izommozgásokat beágyazódott nanokomputerek által elõállított reaktív mozgás-kiegyenlítõk határozzák meg, ezáltal biztosítva nesztelen futást a felhasználónak.|n|n1. szint: A mozgás közben keltett zaj csak kissé csökken.|n|n2. szint: A mozgás közben keltett zaj mérsékelten csökken.|n|n3. szint: A mozgás közben keltett zaj jelentõsen csökken.|n|n4. szint: Az ügynök tökéletes csöndben képes mozogni."
+MPInfo="Aktiváláskor a felhasználó nem kelt zajt mozgás közben.|nAz energiafogyasztása alacsony."
+
+[AugShield]
+AugmentationName="Energiapajzs"
+Description="A bõr alatti polianilin-kondenzátorok elnyelik a hõt és az elektromosságot, ezáltal csökkentik a tûz-, elektromos- és plazmatámadások által okozott sérülést.|n|n1. szint: Az energiatámadások okozta sérülés csak kissé csökken.|n|n2. szint: Az energiatámadások okozta sérülés mérsékelten csökken.|n|n3. szint: Az energiatámadások okozta sérülés jelentõsen csökken.|n|n4. szint: Az ügynököt szinte lehetetlen megsebezni energiaelvû fegyverekkel."
+MPInfo="Aktiváláskor a tûz-, elektromos- és plazmatámadások okozta sebzésnek csak a fele hatásos.|nAz energiafogyasztása alacsony."
+
+[AugIFF]
+AugmentationName="BEF"
+Description="A legmodernebb heurisztikus algoritmusok felhasználásával a látható objektumokat adott veszélyességi kategóriákba soroló automatikus barát/ellenség-felismerõ rendszer.|n|nA célkereszt ellenségeken vörössé, szövetségeseken és semlegeseken pedig zölddé színezõdik.|n|nNem fejleszthetõ."
+
+[AugEMP]
+AugmentationName="EMI-pajzs"
+Description="Nanoméretû EMI-generátorokkal részleges védelmet lehet nyújtani az egyes nanitoknak. A beérkezõ impulzusok egyenletes kiegyenlítõdésével csökken a bioelektromos energia hirtelen lemerülése.|n|n1. szint: Az EMI-támadások okozta sérülés csak kissé csökken.|n|n2. szint: Az EMI-támadások okozta sérülés mérsékelten csökken.|n|n3. szint: Az EMI-támadások okozta sérülés jelentõsen csökken.|n|n4. szint: Az EMI-támadások szinte teljesen hatástalanok az ügynökre."
+MPInfo="Aktiváláskor az EMI-támadásoknak csak az 5%-a hatásos.|nAz energiafogyasztása nagyon alacsony."
+
+[AugDatalink]
+AugmentationName="Infolink"
+Description="Ez egy egyirányú mikro-vevõkészülék, mellyel a terepen dolgozó ügynök üzeneteket tud fogadni a Központtól. Késõbbi visszakeresés céljából el lehet tárolni a kapott fontos térképeket, párbeszédeket és jegyzeteket.|n|n<JR133-VIOLET-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS> Jelenleg ez a technológia csúcsa, így további fejlesztés egy ideig nem lesz várható. -- Jaime Reyes <MEGJEGYZÉS VÉGE>|n|nNem feljeszthetõ."
+
+[AugBallistic]
+AugmentationName="Ballisztikus védelem"
+Description="Beépülõ monomolekuláris lemezek erõsítik meg a bõr hámrétegét, csökkentve ezzel a lõ- és közelharci fegyverekkel az ügynöknek okozott sérülést.|n|n1. szint: A lõ- és közelharci fegyverek által okozott sérülés csak kissé csökken.|n|n2. szint: A lõ- és közelharci fegyverek által okozott sérülés mérsékelten csökken.|n|n3. szint: A lõ- és közelharci fegyverek által okozott sérülés jelentõsen csökken.|n|n4. szint: Az ügynök szinte bárminemû fegyverrel szemben sebezhetetlenné válik."
+MPInfo="Aktiváláskor a lõ- és közelharci fegyverek okozta sebzést 40%-al csökkenti.|nAz energiafogyasztása magas."
+
+[WeaponShuriken]
+ItemName="Dobókés"
+ItemArticle="pár"
+Description="A Távol-Keleti orvgyilkosok egyik legkedveltebb fegyvere, mely évszázadok óta a következõ sorokat közvetíti:|n'Hozzáértõ kéz fontos üzenetet ír: A célpont nem él.'"
+beltDescription="DOBÓKÉS"
+
+[WeaponProd]
+ItemName="Sokkoló"
+Description="A sokkoló azon ritka védelmi erõk kedvelt eszköze, melyek nem a feltétlen erõszak hívei. Az áldozatot érõ sokkhatás legjobban meglepetésszerûen hátulról, vagy deréktájt érve teljesedik ki."
+beltDescription="SOKKOLÓ"
+
+[HazMatSuit]
+ExpireMessage="A védõruha energiatartalékai kimerültek"
+ItemName="Összfegyvernemi védõruha"
+Description="Szabvány összfegyvernemi védõruha, mely teljes körû védelmet nyújt radioaktív sugárzás, tûz, biokémiai toxinok, elektromosság és elektromágneses-impulzusok ellen. A beépített baktériumsterilizáló egység idõrõl-idõre elhasználódik, újra felhasználni tilos!"
+beltDescription="VÉDÕRUHA"
+ItemArticle="az"
+M_Activated=" felvéve"
+
+[AmmoPlasma]
+ItemName="Plazmatároló"
+ItemArticle="egy"
+Description="Plazmafegyverhez használandó tömörített, mágnesezett plasztiklövedékeket tartalmazó tár."
+beltDescription="PLAZMATÁR."
+
+[WeaponGasGrenade]
+ItemName="Gázgránát"
+Description="Mûködésbe lépéskor jelentõs mennyiségû CS-gáz (katonai könnygáz-hatóanyag) szóródik szét a levegõbe. A CS erõs nyálkahártya-irritációt okoz, ezzel vált ki rohamszerû köhögést és átmeneti látásképtelenséget. A LAM-hez hasonlóan a gázgránát is hozzáerõsíthetõ bármely felülethez."
+beltDescription="GÁZGRÁNÁT"
+
+[AmmoNapalm]
+ItemName="Napalmtartály"
+ItemArticle="egy"
+Description="Lángszóróhoz használandó gélállagú üzemanyagot tartalmazó túlnyomásos tartály.|n|n<SC080-BLUE-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS> A tartály kettõs falú, remélhetõleg csökkenti majd egy eltévedt lövedék miatti robbanásnak az esélyét. -- Sam Carter <MEGJEGYZÉS VÉGE>"
+beltDescription="NAPALMTART"
+
+[TriadRedArrow]
+FamiliarName="Vörös Nyíl tag"
+UnfamiliarName="Vörös Nyíl tag"
+
+[TriadLumPath]
+FamiliarName="Fényes Ösvény tag"
+UnfamiliarName="Fényes Ösvény tag"
+
+[SpiderBot2]
+FamiliarName="Mini-pókrobot"
+UnfamiliarName="Mini-pókrobot"
+
+[HowardStrong]
+FamiliarName="Howard Strong"
+UnfamiliarName="Howard Strong"
+
+[SkillMedicine]
+SkillName="Orvostan"
+Description="A terepen dolgozó ügynök a gyakorlati anatómiát elsajátítva sokkal hatékonyabban tudja kezelni a vészhelyzeteket.|n|nKÉPZETLEN: Az ügynök tudja hogy kell cselekednie vészhelyzet esetén.|n|nKÉPZETT: Az ügynök kissé több sérülést képes kezelni és a mérgezés idõtartamát kis mértékben csökkenteni.|n|nHALADÓ: Az ügynök még több sérülést képes kezelni és a mérgezés idõtartamát jóval tovább csökkenteni.|n|nMESTER: Az ügynök akár még háztartási eszközök segítségével is képes szívmûtétet végrehajtani."
+
+[AmmoDartFlare]
+ItemName="Világító nyíl"
+Description="A mini-nyílpuskába való világító nyíl egy lassan égõ gyújtószerkezetet tartalmaz, ami becsapódáskor begyulladva megvilágítást biztosít a területen."
+beltDescription="V. NYÍL"
+
+[MenuChoice_HUDColor]
+HelpText="A kezelõfelület színösszeállítása."
+actionText="Kezelõ|&felület színvilága"
+
+[MenuChoice_MenuColor]
+HelpText="A menükben használt színösszeállítás."
+actionText="Menü |&színvilága"
+
+[CeilingFanMotor]
+ItemName="Mennyezeti ventillátor motorja"
+
+[CeilingFan]
+ItemName="Mennyezeti ventillátor lapátjai"
+
+[ClothesRack]
+ItemName="Felakasztott ruhák"
+
+[HKHangingLantern2]
+ItemName="Papír lampion"
+
+[ChairLeather]
+ItemName="Kényelmes fotel"
+
+[CouchLeather]
+ItemName="Bõr dívány"
+
+[OfficeChair]
+ItemName="Irodai forgószék"
+
+[WHChairPink]
+ItemName="Szék"
+
+[CoffeeTable]
+ItemName="Kávézóasztal"
+
+[FlagPole]
+ItemName="Zászlórúd"
+
+[MenuChoice_SpeechVolume]
+HelpText="Itt lehet megadni a beszéd hangerejét."
+actionText="Beszé|&d hangereje"
+configSetting="ini:Engine.Engine.AudioDevice SpeechVolume"
+
+[MenuChoice_SoundVolume]
+HelpText="Itt lehet megadni a hanghatások hangerejét."
+actionText="Hanghatá|&sok ereje"
+configSetting="ini:Engine.Engine.AudioDevice SoundVolume"
+
+[MenuChoice_MusicVolume]
+HelpText="Itt lehet megadni a zene hangerejét."
+actionText="Zene h|&angereje"
+configSetting="ini:Engine.Engine.AudioDevice MusicVolume"
+
+[Pigeon]
+FamiliarName="Galamb"
+UnfamiliarName="Galamb"
+
+[Seagull]
+FamiliarName="Sirály"
+UnfamiliarName="Sirály"
+
+[ComputerSecurityChoice_DoorOpen]
+enumText[0]="Kinyitva"
+enumText[1]="Becsukva"
+actionText="|&Ajtó"
+
+[ComputerSecurityChoice_DoorAccess]
+enumText[0]="Zárva"
+enumText[1]="Nyitva"
+actionText="Ajtózá|&r"
+
+[ComputerSecurityChoice_Camera]
+enumText[0]="Bekapcsolva"
+enumText[1]="Kikapcsolva"
+actionText="Biztonsági kam|&era"
+
+[AmmoEMPGrenade]
+beltDescription="EMI-GRÁNÁT"
+
+[AmmoGasGrenade]
+beltDescription="GÁZGRÁNÁT"
+
+[AmmoLAM]
+beltDescription="LAM"
+
+[AmmoNanoVirusGrenade]
+beltDescription="ZAVARÓGR."
+
+[Tumbleweed]
+ItemName="Ördögszekér"
+
+[AmmoPepper]
+ItemName="Paprikapatron"
+ItemArticle="egy"
+Description="'Az Antigoné paprikaspray két másodpercen belül ártalmatlanná teszi a támadót.|nANTIGONÉ: 'Jobb vakon, mint holtan.'|nFIGYELMEZTETÉS: Gyermekek kezébe nem kerülhet. A flakonban túlnyomás uralkodik. Felnyitni, ütögetni, felszúrni, 50°C feletti hõmérsékletnek napfénynek sugárzó hõhatásnak kitenni, vagy tûzbe dobni még üres állapotban is tilos! Tûzforrástól távol tartandó és használata közben tilos a dohányzás!'"
+beltDescription="PATRON"
+
+[WeaponBaton]
+ItemName="Gumibot"
+Description="Egy vaskos külsejû bot, amit jellemzõen a rendõri és nemzeti rendfenntartó erõk használnak heves civil ellenállások leverésére."
+beltDescription="GUMIBOT"
+
+[WeaponHideAGun]
+ItemName="PS20"
+Description="A PS20 egy eldobható, plazma-alapú fegyver, amit egy ismeretlen rendfenntartó szervezet fejlesztett ki. Eredetileg a lopakodópisztolyok következõ generációjának szánták. A kis méret miatt a fegyver csak egy lövésre alkalmas. Eme korlátozott funkciója ellenére a PS20 kis távolságról akár halálos is lehet."
+beltDescription="PS20"
+
+[WeaponLAW]
+ItemName="Könnyû páncéltörõ (LAW) fegyver"
+Description="A LAW megfizethetõ, egyszerûen használható páncéltörõ megoldást biztosít. Az egyszerûség ára az egylövetû rakétaindító rendszerben és a lézercélzó hiányában mutatkozik meg. A nehézfegyverekhez mérten e fegyver használata is gondot okozat a gyakorlatlan ügynököknek."
+beltDescription="LAW"
+
+[WeaponMiniCrossbow]
+ItemName="Mini-nyílpuska"
+Description="A mini-nyílpuskát kifejezetten kémkedési célokra fejlesztették ki. Alkalomhoz és feladathoz mérten többféle nyíl (bénító, világító, normális) is használható a fegyverrel."
+beltDescription="NYÍLPUSKA"
+
+[WeaponNanoSword]
+ItemName="Sárkányfog"
+ItemArticle=the
+Description="A modern harcos igazi fegyvere. A Sárkányfog nem egy hagyományos fegyver, hanem egy nanotechnológiával készített kard, mely önmagától, nem eutektikus úton kovácsolódik újra. A nanoméretû élezõmechanizmusok biztosítják a kard törhetetlenségét és szerfeletti élességét."
+beltDescription="SÁRKÁNYFOG"
+
+[WeaponPepperGun]
+ItemName="Paprikaspray"
+Description="Kereskedelmi forgalomban kapható, flakonban árusított tömegoszlató oldatokkal alkalmazható eszköz. Az oldatot finom aeroszol formában juttatja ki a külvilágba. Rövid távon vakságot és szemirritációt okoz."
+beltDescription="PAPR.SPRAY"
+
+[AugHealing]
+AugmentationName="Regeneráció"
+Description="Adott programozható polimerázok automatikusan a sérült sejtekbe irányítják a termelõdõ fehérjéket, így idõvel teljes egészében vissza lehet állítani az ügynök egészségi állapotát.|n|n1. szint: A gyógyulási folyamat normális sebességû.|n|n2. szint: A gyógyulási folyamat csak kissé gyorsul fel.|n|n3. szint: A gyógyulási folyamat mérsékelten felgyorsul.|n|n4. szint: A gyógyulási folyamat jelentõsen felgyorsul."
+MPInfo="Aktiváláskor a felhasználó folyamatosan gyógyul.|nHarc közben csökkentett léptékû a gyógyulás.|nAz energiafogyasztása magas."
+
+[AugHeartLung]
+AugmentationName="Szintetikus szív"
+Description="A szintetikus szív nem csak vért keringtet, hanem mechanokémiai energiacellák, intelligens fehérvérsejtek és elõregyártott gyémánt-gépalkatrészeket tartalmazó liposzómák sûrített koncentrátumát is. Ezáltal minden beültetett augmentáció nagyobb teljesítményen mûködik.|n|n<JR133-VIOLET-LAJSTROMSZÁMÚ UNATCO MÛVELETI MEGJEGYZÉS> Ennek ellenére nem fejleszti tovább azon augmentációkat, melyek már a maximális fejlesztési szinten vannak. -- Jaime Reyes <MEGJEGYZÉS VÉGE>|n|nNem fejleszthetõ."
+
+[AugPower]
+AugmentationName="Energiakeringtetõ"
+Description="Az augmentációk energiafogyasztását polianilin-áramkörök csökkentik, melyek közvetlenül a sejthártyákba csatlakoznak. Ezáltal a nanitok a gazdasejt elhagyása nélkül kapcsolódnak össze elektronikusan elektronikusan.|n|n1. szint: Az augmentációk energiafogyasztása csak kissé csökken.|n|n2. szint: Az augmentációk energiafogyasztása mérsékelten csökken.|n|n3. szint: Az augmentációk energiafogyasztása lecsökken.|n|n4. szint: Az augmentációk energiafogyasztása jelentõsen csökken."
+MPInfo="Aktiváláskor csökkenti a többi augmentáció energiafogyasztását. Szükség esetén automatikusan bekapcsolódik.|nNem fogyaszt energiát."
+
+[MenuSettings]
+ButtonNames[0]="Egér és billentyûzet"
+ButtonNames[1]="Irányítás"
+ButtonNames[2]="Játékbeállítások"
+ButtonNames[3]="Képernyõ"
+ButtonNames[4]="Színek"
+ButtonNames[5]="Hanghatás és zene"
+ButtonNames[6]="Vissza a menübe"
+Title="Beállítások"
+
+[TranscendedMenuSettings]
+ButtonNames[0]="Egér és billentyûzet"
+ButtonNames[1]="Irányítás"
+ButtonNames[2]="Játékbeállítások"
+ButtonNames[3]="Képernyõ"
+ButtonNames[4]="Színek"
+ButtonNames[5]="Hanghatás és zene"
+ButtonNames[6]="Transcended Options"
+ButtonNames[7]="Vissza a menübe"
+Title="Beállítások"
+
+[MenuScreenThemesSave]
+LoadHelpText="Válassza ki a menteni kívánt színsémát."
+actionButtons[1]="(Text="Séma mentése",Key="SAVE")"
+Title="Színséma elmentése"
+
+[GasGrenade]
+ItemName="Gázgránát"
+
+[MenuScreenSound]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+Title="Hangbeállítások"
+
+[MenuScreenOptions]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+Title="Játékbeállítások"
+
+[menuscreenhostnet]
+Title="Internetes játék indítása"
+
+[menuscreenhostlan]
+Title="LAN-játék szolgáltatása"
+
+[MenuScreenDisplay]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+Title="Képernyõbeállítások"
+
+[BarrelAmbrosia]
+ItemName="Ambróziatároló tartály"
+
+[MenuScreenControls]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+Title="Irányítás"
+
+[menumpmain]
+ButtonNames[0]="Internetes játék"
+ButtonNames[1]="LAN-játék"
+ButtonNames[2]="Beállítások"
+ButtonNames[3]="Augmentációk"
+ButtonNames[4]="Lecsatlakozás"
+ButtonNames[5]="Elõzõ menü"
+Title="Többjátékos mód"
+
+[MenuChoice_WeaponAutoReload]
+HelpText="Ha engedélyezve van, a fegyverek automatikusan újratöltõdnek, ha a tár kiürül."
+actionText="|&Automata újratöltés"
+
+[MenuChoice_UIBackground]
+enumText[0]="Valósidejû"
+enumText[1]="Pillanatkép"
+enumText[2]="Fekete"
+HelpText="Itt lehet megadni, hogy mi jelenjen meg a menük és a 2D-képek alatt.|nA 3D-s kép csak gyors gépeken javasolt. Gyengébbeknek a pillanatkép, illetve a fekete javallott."
+actionText="Menü/kezelõfelület |&háttere"
+
+[MenuChoice_ToggleCrouch]
+HelpText="Ha be van kapcsolva, felállni csak a guggolás gomb újra megnyomásával lehet."
+actionText="Állan|&dó guggolás"
+
+[Image01_GunFireSensor]
+imageDescription="Lõfegyverhang-érzékelõ"
+
+[Image01_LibertyIsland]
+imageDescription="Szabadság-sziget, mûholdfelvétel"
+
+[MenuChoice_SurroundSound]
+HelpText="Itt lehet megadni a Dolby Surround-támogatást.|nA rendes mûködéshez Dolby Pro-Logic Surround hangprocesszor szükséges."
+actionText="Do|&lby Surround hang"
+configSetting="ini:Engine.Engine.AudioDevice UseSurround"
+
+[MenuChoice_Subtitles]
+HelpText="Ha be van kapcsolva, a párbeszédek feliratozva jelennek meg a képernyõn."
+actionText="|&Feliratozás"
+
+[menuchoice_startingskills]
+HelpText="Itt lehet beállítani a játékosok képzettségpontjainak kezdeti számát."
+actionText="Kezdeti képzettségpont"
+configSetting="DeusExMPGame SkillsAvail"
+
+[Image01_TerroristCommander]
+imageDescription="Terroristavezér"
+
+[Image02_Ambrosia_Flyer]
+imageDescription="Ambróziatároló tartály képe"
+
+[menuchoice_Startingaugs]
+HelpText="Itt lehet beállítani a játék elején kiosztódó augmentációk számát."
+actionText="Kezdeti augmentációk"
+configSetting="DeusExMPGame InitialAugs"
+
+[Image02_BobPage_ManOfYear]
+imageDescription="Millenium magazin"
+
+[menuchoice_skillbonus]
+HelpText="Itt lehet megadni a játékosnak ölésenként adható képzettségpontok számát."
+actionText="Ölésenkénti KP"
+configSetting="DeusExMPGame SkillsPerKill"
+
+[MenuChoice_ReverseStereo]
+HelpText="Ha engedélyezve lesz, a bal és a jobb csatorna felcserélõdik."
+actionText="Csatorná|&k megfordítása"
+configSetting="ini:Engine.Engine.AudioDevice ReverseStereo"
+
+[MenuChoice_ObjectNames]
+HelpText="A kijelölt tárgyak nevének megjelenítése."
+actionText="Objektumnevek megjeleníté|&se"
+
+[MenuChoice_MenuTranslucency]
+HelpText="Ha a menü áttetszése be van kapcsolva, akkor a hátteret lehet majd látni a menükön keresztül."
+actionText="Menü áttetszõsé|&ge"
+
+[menuchoice_maxplayers]
+HelpText="Itt lehet megadni, hogy egy idõben maximum hány játékos legyen a játékban."
+actionText="Játékosok száma"
+configSetting="DeusExMPGame MaxPlayers"
+
+[MenuChoice_InvertMouse]
+HelpText="Ha be van kapcsolva, akkor az egérrel való nézelõdés iránya meg lesz cserélve, vagyis amikor a fõhõs lenézne, akkor felfelé fog nézni."
+actionText="Nézésirány meg|&fordítása"
+
+[Image02_NYC_Warehouse]
+imageDescription="NYC raktárépület"
+
+[MenuChoice_HUDTranslucency]
+HelpText="Ha a kezelõfelület áttetszõsége be van kapcsolva, akkor a hátteret lehet majd látni a menükön és az egyéb ablakokon keresztül."
+actionText="Kezelõfelület-áttetszõs|&ég"
+
+[MenuChoice_HUDBorderTranslucency]
+HelpText="Áttetszõ legyen a játékbeli kezelõfelület szegélye?"
+actionText="Áttetszõ szegé|&ly"
+
+[MenuChoice_HUDBordersVisible]
+HelpText="Legyen a játékbeli kezelõfelületnek szegélye?"
+actionText="Szegély meg|&jelenítése"
+
+[MenuChoice_HUDAugDisplay]
+enumText[0]="Az aktívak"
+enumText[1]="Mindegyik"
+HelpText="Ez azt határozza meg, hogy mely augmentációk jelenjenek a játékbeli kezelõfelületen."
+actionText="Au|&gmentációk megjelenítése"
+
+[MenuChoice_HeadBob]
+HelpText="Ha engedélyezve van, a játékos feje járás közben kissé fel-le mozog."
+actionText="Fe|&jmozgás"
+
+[MenuChoice_GoreLevel]
+enumText[0]="Csökkentett"
+enumText[1]="Normális"
+HelpText="Ha csökkentett módra van állítva, a játékban nem lesz vér."
+actionText="|&Erõszak szintje"
+
+[MenuChoice_FullScreen]
+HelpText="Itt lehet megadni, hogy ablakban, vagy teljes képernyõs módban fusson a játék."
+actionText="Képernyõmód váltá|&sa"
+
+[menuchoice_friendlyfire]
+HelpText="Itt lehet megadni a baráti tûz által okozott sebzés százalékos arányát a teljes sebzéshez mérten."
+actionText="Baráti tûz"
+configSetting="DeusExMPGame fFriendlyFireMult"
+
+[Image03_747Diagram]
+imageDescription="747-es repülõgép alaprajza"
+
+[Image03_NYC_Airfield]
+imageDescription="NYC repülõtér"
+
+[Image03_WaltonSimons]
+imageDescription="Walton Simons"
+
+[Image04_NSFHeadquarters]
+imageDescription="NSF fõhadiszállás"
+
+[Image04_UNATCONotice]
+imageDescription="UNATCO-közlemény"
+
+[Image05_GreaselDisection]
+imageDescription="Greasel boncábra"
+
+[Image05_NYC_MJ12Lab]
+imageDescription="MJ12 laboratóriumi létesítmény"
+
+[MenuChoice_Crosshairs]
+HelpText="A célkereszt be-, illetve kikapcsolása."
+actionText="Cél|&kereszt"
+
+[Image06_HK_Market]
+imageDescription="Hongkongi piac"
+
+[MenuChoice_Brightness]
+actionText="Fényerõ beállítás|&a..."
+
+[Image06_HK_MJ12Helipad]
+imageDescription="MJ12 helikoperleszálló létesítmény"
+
+[menuchoice_augbonus]
+HelpText="Itt az ölésenként megkapható augmentációk számát lehet megadni."
+actionText="Ölésenkénti augmentációk"
+configSetting="DeusExMPGame AugsPerKill"
+
+[MenuChoice_AlwaysRun]
+HelpText="Ha be van kapcsolva, a fõhõs mindig futni fog."
+actionText="Áll|&andó futás"
+
+[DartFlare]
+ItemName="Világító nyíl"
+
+[MenuChoice_AdjustBrightness]
+actionText="|&Fényerõsség"
+configSetting="ini:Engine.Engine.ViewportManager Brightness"
+
+[Image06_HK_MJ12Lab]
+imageDescription="MJ12 laboratóriumi létesítmény"
+
+[Female4]
+FamiliarName="Nõ"
+UnfamiliarName="Nõ"
+
+[Image06_HK_Versalife]
+imageDescription="Versalife épület"
+
+[Image06_HK_WanChai]
+imageDescription="Hongkong, Wan Chai körzet"
+
+[Male4]
+FamiliarName="Férfi"
+UnfamiliarName="Férfi"
+
+[Female3]
+FamiliarName="Nõ"
+UnfamiliarName="Nõ"
+
+[Female2]
+FamiliarName="Nõ"
+UnfamiliarName="Nõ"
+
+[Male3]
+FamiliarName="Férfi"
+UnfamiliarName="Férfi"
+
+[Image08_JoeGreenMIBMJ12]
+imageDescription="Joe Greene MIB MJ12"
+
+[Female1]
+FamiliarName="Nõ"
+UnfamiliarName="Nõ"
+
+[Male2]
+FamiliarName="Férfi"
+UnfamiliarName="Férfi"
+
+[Male1]
+FamiliarName="Férfi"
+UnfamiliarName="Férfi"
+
+[Image09_NYC_Ship_Bottom]
+imageDescription="PRCS Wall Cloud: alsó szint"
+
+[Image15_GrayDisection]
+imageDescription="Szürke boncábra"
+
+[Image15_BlueFusionDevice]
+imageDescription="Kékfúziós berendezés"
+
+[Image15_Area51_Sector4]
+imageDescription="51-es körzet, 4-es szektor"
+
+[Image15_Area51_Sector3]
+imageDescription="51-es körzet, 3-as szektor"
+
+[Image15_Area51Bunker]
+imageDescription="51-es körzeti bunker"
+
+[Image14_Schematic]
+imageDescription="Univerzáilis Konstruktor-részek"
+
+[Image14_OceanLab]
+imageDescription="Óceán labor"
+
+[Image09_NYC_Ship_Top]
+imageDescription="PRCS Wall Cloud: felsõ szint"
+
+[Image12_Vandenberg_Sub]
+imageDescription="Vandenberg tengeralattjáró"
+
+[Image12_Vandenberg_Command]
+imageDescription="Vandenberg, parancsnokság"
+
+[Image12_Tiffany_HostagePic]
+imageDescription="Túszkép Tiffanyról"
+
+[Image11_Paris_CathedralEntrance]
+imageDescription="A katedrális bejárata"
+
+[Image11_Paris_Cathedral]
+imageDescription="Párizsi katedrális"
+
+[Image10_Paris_Metro]
+imageDescription="Párizsi metró térképe"
+
+[Image10_Paris_CatacombsTunnels]
+imageDescription="Párizsi katakombák, csatornarész"
+
+[Image10_Paris_Catacombs]
+imageDescription="Párizsi katakombák"
+
+[CrateBreakableMedCombat]
+ItemName="Harci felszerelés-láda"
+
+[Cop]
+FamiliarName="Rendõr"
+UnfamiliarName="Rendõr"
+
+[CrateBreakableMedGeneral]
+ItemName="Általános felszerelés-láda"
+
+[CrateBreakableMedMedical]
+ItemName="Orvosi felszerelés-láda"
+
+[CrateExplosiveSmall]
+ItemName="TNT-s láda"
+
+[CrateUnbreakableLarge]
+ItemName="Fémláda"
+
+[CrateUnbreakableMed]
+ItemName="Fémláda"
+
+[CrateUnbreakableSmall]
+ItemName="Fémláda"
+
+[Cushion]
+ItemName="Díszpárna"
+
+[DataCube]
+ItemName="Adatlapka"
+
+[Janitor]
+FamiliarName="Gondnok"
+UnfamiliarName="Gondnok"
+
+[Jock]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[DentonClone]
+ItemName="JC Denton klónja"
+
+[JoeGreene]
+FamiliarName="Joe Greene"
+UnfamiliarName="Joe Greene"
+
+[ComputerPersonal]
+ItemName="Személyi számítógép-terminál"
+
+[JoJoFine]
+FamiliarName="JoJo Fine"
+UnfamiliarName="JoJo Fine"
+
+[JordanShea]
+FamiliarName="Jordan Shea"
+UnfamiliarName="Jordan Shea"
+
+[Doberman]
+FamiliarName="Doberman"
+UnfamiliarName="Doberman"
+
+[Mutt]
+FamiliarName="Kutyus!"
+UnfamiliarName="Kutyus!"
+
+[JosephManderley]
+FamiliarName="Joseph Manderley"
+UnfamiliarName="Joseph Manderley"
+
+[JunkieFemale]
+FamiliarName="Drogos"
+UnfamiliarName="Drogos"
+
+[JunkieMale]
+FamiliarName="Drogos"
+UnfamiliarName="Drogos"
+
+[KarkianBaby]
+FamiliarName="Fejletlen Karkian"
+UnfamiliarName="Fejletlen Karkian"
+
+[Lamp1]
+ItemName="Asztali lámpa"
+
+[Lamp2]
+ItemName="Halogénlámpa"
+
+[Lamp3]
+ItemName="Asztali lámpa"
+
+[Lightbulb]
+ItemName="Villanykörte"
+
+[LowerClassMale]
+FamiliarName="Alsóbb oszályú férfi"
+UnfamiliarName="Alsóbb oszályú férfi"
+
+[LowerClassMale2]
+FamiliarName="Alsóbb oszályú férfi"
+UnfamiliarName="Alsóbb oszályú férfi"
+
+[LuciusDeBeers]
+ItemName="Lucius De Beers, egy életbentartó kapszulában"
+
+[MaggieChow]
+FamiliarName="Maggie Chow"
+UnfamiliarName="Maggie Chow"
+
+[Maid]
+FamiliarName="Szobalány"
+UnfamiliarName="Szobalány"
+
+[Mailbox]
+ItemName="Postaláda"
+
+[Fan1Vertical]
+ItemName="Ventillátor"
+
+[Fan2]
+ItemName="Ventillátor"
+
+[MargaretWilliams]
+FamiliarName="Margaret Williams"
+UnfamiliarName="Margaret Williams"
+
+[MaxChen]
+FamiliarName="Max Chen"
+UnfamiliarName="Max Chen"
+
+[ChildMale2]
+FamiliarName="Kölyök"
+UnfamiliarName="Gyerek"
+
+[ChildMale]
+FamiliarName="Kölyök"
+UnfamiliarName="Kölyök"
+
+[Chef]
+FamiliarName="Fõszakács"
+UnfamiliarName="Fõszakács"
+
+[Chandelier]
+ItemName="Csillár"
+
+[Chair1]
+ItemName="Szék"
+
+[Mechanic]
+FamiliarName="Szerelõ"
+UnfamiliarName="Szerelõ"
+
+[Chad]
+FamiliarName="Chad"
+UnfamiliarName="Chad"
+
+[MenuChoice_AdjustColors]
+HelpText="A menü és a kezelõfelület színvilágát itt lehet beállítani."
+actionText="Témaváltás..."
+
+[Butler]
+FamiliarName="Komornyik"
+UnfamiliarName="Komornyik"
+
+[Businesswoman1]
+FamiliarName="Üzletasszony"
+UnfamiliarName="Üzletasszony"
+
+[Businessman3]
+FamiliarName="Üzletember"
+UnfamiliarName="Üzletember"
+
+[Businessman2]
+FamiliarName="Üzletember"
+UnfamiliarName="Üzletember"
+
+[Businessman1]
+FamiliarName="Üzletember"
+UnfamiliarName="Üzletember"
+
+[BumMale3]
+FamiliarName="Hajléktalan"
+UnfamiliarName="Hajléktalan"
+
+[BumMale2]
+FamiliarName="Öreg hajléktalan"
+UnfamiliarName="Öreg hajléktalan"
+
+[BumFemale]
+FamiliarName="Hajléktalan"
+UnfamiliarName="Hajléktalan"
+
+[BoxSmall]
+ItemName="Kartondoboz"
+
+[BoxMedium]
+ItemName="Kartondoboz"
+
+[Flask]
+ItemName="Lombik"
+
+[BoxLarge]
+ItemName="Kartondoboz"
+
+[BookClosed]
+ItemName="Könyv"
+
+[BoneSkull]
+ItemName="Emberi koponya"
+
+[BoneFemur]
+ItemName="Emberi combcsont"
+
+[Flowers]
+ItemName="Virágok"
+
+[BoatPerson]
+FamiliarName="Csónakos"
+UnfamiliarName="Csónakos"
+
+[Basket]
+ItemName="Vesszõkosár"
+
+[Bartender]
+FamiliarName="Csapos"
+UnfamiliarName="Csapos"
+
+[BarrelVirus]
+ItemName="Nanovírustároló tartály"
+
+[WHTableBlue]
+ItemName="Asztal"
+
+[WHRedVase]
+ItemName="Váza"
+
+[WHRedOvalTable]
+ItemName="Asztal"
+
+[WHRedLampTable]
+ItemName="Asztal"
+
+[WHRedEagleTable]
+ItemName="Asztal"
+
+[WHRedCouch]
+ItemName="Dívány"
+
+[WHRedCandleabra]
+ItemName="Gyertyatartó"
+
+[WHPhone]
+ItemName="Telefon"
+
+[WHFireplaceLog]
+ItemName="Napló"
+
+[WHFireplaceGrill]
+ItemName="Kandallórács"
+
+[WHEndtableLibrary]
+ItemName="Asztal"
+
+[WHDeskOvalOffice]
+ItemName="Íróasztal"
+
+[WHDeskLibrarySmall]
+ItemName="Íróasztal"
+
+[WHChairOvalOffice]
+ItemName="Bõrfotel"
+
+[WHChairDining]
+ItemName="Szék"
+
+[WHCabinet]
+ItemName="Fiókos szekrény"
+
+[WHBookstandLibrary]
+ItemName="Könyvtartó"
+
+[WHBenchLibrary]
+ItemName="Pad"
+
+[WHBenchEast]
+ItemName="Pad"
+
+[GordonQuick]
+FamiliarName="Gordon Quick"
+UnfamiliarName="Gordon Quick"
+
+[Vase2]
+ItemName="Váza"
+
+[Vase1]
+ItemName="Váza"
+
+[Van]
+ItemName="Fekete teherautó"
+
+[Trophy]
+ItemName="Trófeakupa"
+
+[TriadLumPath2]
+FamiliarName="Fényes Ösvény bandavezér"
+UnfamiliarName="Fényes Ösvény bandavezér"
+
+[TrashCan4]
+ItemName="Szemeteskuka"
+
+[TrashCan3]
+ItemName="Szemeteskuka"
+
+[Trashcan2]
+ItemName="Szemeteskuka"
+
+[TrashCan1]
+ItemName="Szemeteskuka"
+
+[Trashbag2]
+ItemName="Szemeteszsák"
+
+[Trashbag]
+ItemName="Szemeteszsák"
+
+[TrafficLight]
+ItemName="Közlekedési lámpa"
+
+[HangingShopLight]
+ItemName="Fénycsõ"
+
+[HarleyFilben]
+FamiliarName="Harley Filben"
+UnfamiliarName="Hajléktalan"
+
+[HKBirdcage]
+ItemName="Kalitka"
+
+[HKBuddha]
+ItemName="Buddha-szobor"
+
+[HKChair]
+ItemName="Szék"
+
+[HKCouch]
+ItemName="Pad"
+
+[TiffanySavage]
+FamiliarName="Tiffany Savage"
+UnfamiliarName="Tiffany Savage"
+
+[ThugMale3]
+FamiliarName="Rabló"
+UnfamiliarName="Rabló"
+
+[SubwayControlPanel]
+ItemName="Metró-irányítópanel"
+
+[Soldier]
+FamiliarName="Katona"
+UnfamiliarName="Katona"
+
+[Smuggler]
+FamiliarName="Csempész"
+UnfamiliarName="Csempész"
+
+[HKHangingLantern]
+ItemName="Papír lampion"
+
+[SignFloor]
+ItemName="Figyelmeztetõ tábla"
+
+[ShopLight]
+ItemName="Fénycsõ"
+
+[SecurityBot4]
+FamiliarName="Biztonsági robot"
+UnfamiliarName="Biztonsági robot"
+
+[SecretService]
+FamiliarName="Titkosszolgálati ügynök"
+UnfamiliarName="Titkosszolgálati ügynök"
+
+[Secretary]
+FamiliarName="Titkárnõ"
+UnfamiliarName="Titkárnõ"
+
+[ScientistMale]
+FamiliarName="Tudós"
+UnfamiliarName="Tudós"
+
+[ScientistFemale]
+FamiliarName="Tudós"
+UnfamiliarName="Tudós"
+
+[SarahMead]
+FamiliarName="Sarah Mead"
+UnfamiliarName="Sarah Mead"
+
+[SamCarter]
+FamiliarName="Sam Carter"
+UnfamiliarName="Sam Carter"
+
+[Sailor]
+FamiliarName="Matróz"
+UnfamiliarName="Matróz"
+
+[Hooker2]
+FamiliarName="Örömlány"
+UnfamiliarName="Örömlány"
+
+[RoadBlock]
+ItemName="Betontorlasz"
+
+[RachelMead]
+FamiliarName="Rachel Mead"
+UnfamiliarName="Rachel Mead"
+
+[Pot2]
+ItemName="Agyagedény"
+
+[Pot1]
+ItemName="Agyagedény"
+
+[PoolTableLight]
+ItemName="Lámpa"
+
+[Plant3]
+ItemName="Szobanövény"
+
+[Plant2]
+ItemName="Szobanövény"
+
+[Plant1]
+ItemName="Szobanövény"
+
+[Pillow]
+ItemName="Párna"
+
+[Hooker1]
+FamiliarName="Örömlány"
+UnfamiliarName="Örömlány"
+
+[PhilipMead]
+FamiliarName="Philip Mead"
+UnfamiliarName="Philip Mead"
+
+[HKTukTuk]
+ItemName="TukTuk"
+
+[MichaelHamner]
+FamiliarName="Michael Hamner"
+UnfamiliarName="Michael Hamner"
+
+[Microscope]
+ItemName="Mikroszkóp"
+
+[HKTable]
+ItemName="Asztal"
+
+[HKMarketLight]
+ItemName="Lámpa"
+
+[AIPrototype]
+ItemName="MI-prototípus"
+
+[Pan4]
+ItemName="Fazék"
+
+[Pan3]
+ItemName="Serpenyõ"
+
+[Pan2]
+ItemName="Fazék"
+
+[Pan1]
+ItemName="Serpenyõ"
+
+[NYPoliceBoat]
+ItemName="Rendõrségi motorcsónak"
+UnfamiliarName="UNATCO motorcsónak-vezetõ"
+
+[Nurse]
+FamiliarName="Ápolónõ"
+UnfamiliarName="Ápolónõ"
+
+[NewspaperOpen]
+ItemName="Újság"
+
+[Newspaper]
+ItemName="Újság"
+
+[HKMarketTable]
+ItemName="Asztal"
+
+[NathanMadison]
+FamiliarName="Nathan Madison"
+UnfamiliarName="Nathan Madison"
+
+

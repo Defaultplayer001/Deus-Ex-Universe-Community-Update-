@@ -2051,6 +2051,17 @@ ButtonNames[4]="Colori"
 ButtonNames[5]="Audio"
 ButtonNames[6]="Menu precedente"
 
+[TranscendedMenuSettings]
+Title="Impostazioni"
+ButtonNames[0]="Tastiera/mouse"
+ButtonNames[1]="Controlli"
+ButtonNames[2]="Opzioni di gioco"
+ButtonNames[3]="Video"
+ButtonNames[4]="Colori"
+ButtonNames[5]="Audio"
+ButtonNames[6]="Transcended Options"
+ButtonNames[7]="Menu precedente"
+
 [AmmoEMPGrenade]
 beltDescription="GRAN EMP"
 
@@ -3184,4 +3195,86 @@ configSetting="DeusExMPGame SkillsPerKill"
 HelpText="Percentuale dei danni subiti a causa di un fuoco amico."
 actionText="Fuoco amico"
 configSetting="DeusExMPGame fFriendlyFireMult"
- 
+
+[General]
+RunBang=Esegui!
+FirstTime=Prima configurazione di Deus Ex
+SafeMode=Modalità sicura di Deus Ex
+Video=Configurazione video di Deus Ex
+RecoveryMode=Modalità recupero di Deus Ex
+WebPage=http://www.deusex.com/
+Direct3DWebPage=http:// www.deusex.com/Direct3D.htm
+Detecting=Rilevamento schede video 3D. Attendere...
+SoundLow=Qualità audio ridotta
+SoundHigh=Qualità audio elevata
+SkinsLow=Texture giocatore dettaglio medio
+SkinsHigh=Texture giocatore dettaglio elevato
+WorldLow=Texture mondo dettaglio medio
+WorldHigh="Texture mondo dettaglio elevato"
+ResLow=Bassa risoluzione
+ResHigh=Risoluzione standard
+
+[Descriptions]
+SoftDrv.SoftwareRenderDevice=Rendering interno di Deus Ex. Compatibile con tutte le schede video. Modalità non raccomandata.
+GlideDrv.GlideRenderDevice=Supporto 3Dfx Glide, la scelta ottimale per i possessori di 3Dfx. Necessaria una scheda 3Dfx.
+D3DDrv.D3DRenderDevice=Rendering hardware Direct3D. Compatibile con le schede video più recenti, come Riva TNT, ATI Rage 128, Matrox G400 e S3 Savage4.  Non consigliato per l'uso con schede video vecchie. Usa il rendering software se hai una ATI Rage Pro, Riva 128, Intel i740 o una Rendition V2200.
+OpenGLDrv.OpenGLRenderDevice=Supporto sperimentale OpenGL. Questo supporto è a scopo di test e presenta diversi problemi di compatibilità con alcuni driver. Lo usi a tuo rischio e pericolo.
+MetalDrv.MetalRenderDevice=Per utenti con schede S3 Savage4.
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=
+IDC_DetailPrompt=Analizzando la velocità e la memoria del tuo computer e il modello di scheda video installato, Deus Ex ha selezionato le seguenti opzioni di dettaglio per ottimizzare le prestazioni.
+IDC_DetailNote=Potrai cambiare queste opzioni nel menu 'Prestazioni', se lo vorrai.
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=
+IDC_Prompt=Questo è il primo avvio di Deus Ex. Se riscontri un qualche problema, leggi le note di rilascio che si trovano in Programmi>Deus Ex nel menu Start/Avvio di Windows.
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Il tuo computer supporta le seguenti periferiche 3D.  Deus Ex ha scelto quella migliore. Se vuoi modificare la scelta, usa una delle seguenti opzioni.
+IDC_RenderNote=
+IDC_Compatible=Mostra le periferiche compatibili.
+IDC_All=Mostra tutte le periferiche.
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=
+IDC_SafeModePrompt=Deus Ex non è stato chiuso correttamente alla sua ultima esecuzione. Se l'arresto errato è stato provocato da un problema, puoi usare le opzioni seguenti per risolverlo.
+IDC_SafeModePrompt2=Opzioni di sicurezza di Deus Ex: se riscontri dei problemi, puoi ricorrere a queste opzioni per risolverli.
+IDC_Run=Esegui Deus Ex
+IDC_Video=Cambia la scheda video 3D
+IDC_SafeMode=Esegui Deus Ex nella modalità sicura - risoluzione dei problemi
+IDC_Web=Visita il nostro sito web per informazioni sulla risoluzione dei problemi
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=
+IDC_SafeOptions=Opzioni di sicurezza, per il rilevamento di problemi
+IDC_NoSound=Disattiva il sonoro
+IDC_No3DSound=Disattiva il sonoro hardware 3D
+IDC_No3DVideo=Disattiva il video hardware 3D
+IDC_Window=Esecuzione in finestra (invece che a pieno schermo)
+IDC_Res=Esecuzione nella risoluzione standard 640x480
+IDC_ResetConfig=Ripristina configurazione standard
+IDC_NoProcessor=Disattiva le estensioni Pentium III/3DNow
+IDC_NoJoy=Disattiva il supporto del joystick
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=
+IDC_DriverText=Deus Ex ha rilevato la seguente scheda video compatibile Direct3D:
+IDC_DriverInfo=Dal momento che hai scelto Direct3D, Deus Ex tenterà di usare questa scheda video per il supporto Direct3D.\n\nAlcune schede hanno, però, bisogno di driver aggiornati per poter visualizzare al meglio le caratteristiche grafiche all'avanguardia di Deus Ex. Ti consigliamo di usare il seguente collegamento per ottenere ulteriori informazioni sulla compatibilità della tua scheda video e per ottenere i driver compatibili Direct3D più recenti.\n\nSe riscontri dei problemi di carattere grafico, come colori sbagliati, poligoni lampeggianti, prestazioni scadenti o blocchi di sistema, lancia il gioco nella modalità sicurezza seguendo questo percorso: Start/Avvio>Programmi>Deus Ex. In questo modo, modificherai il driver video.
+IDC_Web=Per trovare i driver più aggiornati, visita la nostra pagina web:
+IDC_WebButton=Pagina delle informazioni e dei driver Direct3D
+IDC_Card=Sconosciuta
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Installazione di Deus Ex
+
+[IDDIALOG_ConfigPageResolution]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Your computer supports the following fullscreen resolutions. If you wish to change the current, highlight an option below.
+IDC_RenderNote=
+
+[IDDIALOG_ConfigPageAudioSubsystem]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Your computer supports the following audio subsystem. If you wish to change the current, highlight an option below.
+IDC_RenderNote=

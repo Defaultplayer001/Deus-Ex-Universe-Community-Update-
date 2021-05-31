@@ -31,4 +31,3 @@ MissionLocation="NY, bar l'Enfer"
 
 [LevelSummary]
 Title="Sans titre"
-

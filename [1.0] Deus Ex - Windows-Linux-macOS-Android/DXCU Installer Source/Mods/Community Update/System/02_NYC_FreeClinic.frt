@@ -25,6 +25,10 @@ UnfamiliarName="Vieux SDF"
 [SkillAwardTrigger6]
 awardMessage="Bonus : objectif atteint"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Doctor,KeyID=Cabinet,Description="Clé du cabinet médical",SkinColor=SC_Level2)"
+NanoKeyData[1]="(ScriptedPawnTag=Nurse,KeyID=Cabinet,Description="Clé du cabinet médical",SkinColor=SC_Level2)"
+
 [BumFemale0]
 FamiliarName="SDF"
 UnfamiliarName="SDF"
@@ -38,4 +42,3 @@ Title="Sans titre"
 
 [DeusExLevelInfo0]
 MissionLocation="NY - Clinique gratuite"
-

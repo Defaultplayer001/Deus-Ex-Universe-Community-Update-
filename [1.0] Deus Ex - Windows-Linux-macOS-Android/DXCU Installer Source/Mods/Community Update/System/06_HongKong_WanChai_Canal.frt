@@ -1,5 +1,5 @@
 [LevelSummary]
-Title="Untitled"
+Title="Sans titre"
 
 [LowerClassMale2]
 FamiliarName="Trafiquant"
@@ -50,4 +50,3 @@ UnfamiliarName="Ivrogne"
 
 [SkillAwardTrigger2]
 awardMessage="Bonus : exploration"
-

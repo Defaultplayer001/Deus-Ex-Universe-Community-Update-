@@ -4,16 +4,16 @@ DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
 ReadMe=subdir\Help\Changelog.html
 SetupWindowTitle=Deus Ex Mod Setup
 AutoplayWindowTitle=Deus Ex Mod Options
-ProductURL=
-VersionURL=
+ProductURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+VersionURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
 Developer=ION Storm Austin
-DeveloperURL=
-PublisherGamesURL=
-PublisherURL=
-PublisherStoreURL=
-PlanetDeusExURL=
-DeusExURL=
-Logo=subdir\Help\LogoSmall.bmp
+DeveloperURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PublisherGamesURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PublisherURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PublisherStoreURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PlanetDeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+DeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+Logo=subdir\Help\LogoSmallCU.bmp
 License=License.int
 
 [General]
@@ -65,6 +65,9 @@ Caption=Deus Ex Safe Mode
 [EditorShortcut]
 Caption=Deus Ex Editor
 
+[DesktopEditorShortcut]
+Caption=Deus Ex Editor
+
 [DocumentationShortcut]
 Caption=Documentation
 
@@ -107,3 +110,20 @@ Caption=Planet Deus Ex Web Page
 [UninstallShortcut]
 Caption=Uninstall Deus Ex
 
+[DesktopUninstallShortcut]
+Caption=Uninstall Deus Ex
+
+[ModRequirements]
+LocalProduct=Deus Ex
+ProductURL=https://www.gog.com/game/deus_ex
+VersionURL=https://www.gog.com/game/deus_ex
+Developer=Ion Storm Austin
+DeveloperURL=https://www.gog.com/game/deus_ex
+
+[ConfixGroup]
+Caption=Confix (English and Russian Only)
+Description=Conversation logic and typo fixes. 
+
+[TranscendedDefaultThemeFiles]
+Caption=Default Theme for Transcended
+Description=By default Transcended uses a blue theme. This switches it back to the default one.

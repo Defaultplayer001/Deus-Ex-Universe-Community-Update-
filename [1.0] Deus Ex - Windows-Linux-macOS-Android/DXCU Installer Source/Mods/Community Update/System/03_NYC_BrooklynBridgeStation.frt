@@ -74,7 +74,6 @@ Title="Sans titre"
 awardMessage="Bonus : réussite"
 
 [DeusExLevelInfo0]
-MissionLocation="NYC - Brooklyn Bridge"
+MissionLocation="NY - Brooklyn Bridge"
 startupMessage[0]="New York,"
-startupMessage[1]="Satation de Brooklyn Bridge"
-
+startupMessage[1]="Station de Brooklyn Bridge"

@@ -8,7 +8,7 @@ startupMessage[0]="New York,"
 startupMessage[1]="Battery Park"
 
 [LevelSummary]
-Title="Untitled"
+Title="Sans titre"
 
 [JunkieMale2]
 FamiliarName="Homme malade"
@@ -24,4 +24,3 @@ UnfamiliarName="Femme malade"
 
 [SkillAwardTrigger2]
 awardMessage="Bonus : réussite"
-

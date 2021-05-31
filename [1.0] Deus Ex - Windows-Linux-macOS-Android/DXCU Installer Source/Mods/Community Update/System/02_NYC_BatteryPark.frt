@@ -3,7 +3,7 @@ specialOptions[0]="(Text="Portes des souterrains",TriggerText="Portes principale
 
 [BumMale3]
 FamiliarName="Ancien otage"
-UnfamiliarName="Ancien otage"
+UnfamiliarName="Otage"
 
 [SkillAwardTrigger5]
 awardMessage="Bonus : réussite"
@@ -38,9 +38,9 @@ FamiliarName="SDF"
 UnfamiliarName="SDF"
 
 [ComputerSecurity2]
-Views[0]="(titleString="Entrepôt ",cameraTag=Warehouse,turretTag=Turret1)"
+Views[0]="(titleString="Entrepôt",cameraTag=Warehouse,turretTag=Turret1)"
 Views[1]="(titleString="Pont du tunnel",cameraTag=Walkway,turretTag=Turret2)"
-Views[2]="(titleString="alentours du hangar à bateau",cameraTag=Boathouse,turretTag=Turret3)"
+Views[2]="(titleString="Alentours du hangar à bateau",cameraTag=Boathouse,turretTag=Turret3)"
 
 [DeusExLevelInfo0]
 MissionLocation="NY - Battery Park"
@@ -61,3 +61,5 @@ awardMessage="Bonus : réussite"
 [LevelSummary]
 Title="Sans titre"
 
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=LeadTerrorist,KeyID=CCSafe,Description="Clé du coffre-fort de Castle Clinton")"

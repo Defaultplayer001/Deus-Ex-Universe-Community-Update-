@@ -50,6 +50,10 @@ type "%~dp0\*PostExecGroupHeaderAppend.ini" >> "%~dp0\ManifestHeader-3-Groups.in
 
 type "%~dp0\*PostExecManifestIntAppend.ini" >> "%~dp0\System\Manifest.int"
 
+rem Copy Custom entries into Manifest.int
+
+type "%~dp0\Custom Manifest.int Entries.txt" >> "%~dp0\System\Manifest.int"
+
 rem type "%~dp0\ModsDXTOptional FilesFileListNearFinal.txt" >> "%~dp0\%ValueNoexe%PostExecHeaderAppend.ini"
 
 rem Merge optional files with their own groups into the master groups... group
@@ -59,6 +63,13 @@ rem type "%~dp0\*Optional Files*FileListFinal.txt" >> "%~dp0\ManifestHeader-2-Gr
 rem Delete so they can't be written again in the next steps
 
 del "%~dp0\*Optional Files*FileListFinal.txt"
+
+;Delete so language files don't get handled twice. (Already manually entered in ManifestHeader-2-Game Group.ini)
+del "%~dp0\ModsCommunity UpdateFileListFinal.txt"
+
+;Ditto for Confix 
+del "%~dp0\ModsCommunity UpdateLanguagesConfixSystemFileListFinal.txt"
+del "%~dp0\ModsCommunity UpdateLanguagesConfix (Russian Port)FileListFinal.txt"
 
 copy "ManifestHeader-1-Setup.ini" + "ManifestHeader-2-Game Group.ini" + "*FileListFinal.txt" + "ManifestHeader-3-Groups.ini" "%~dp0\System\Manifest.ini"
 

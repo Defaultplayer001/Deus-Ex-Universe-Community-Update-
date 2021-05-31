@@ -1,129 +1,129 @@
 [Public]
 ;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
-Preferences=(Caption="Advanced",Parent="Advanced Options")
-Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
-Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
-Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Avancées",Parent="Options avancées")
+Preferences=(Caption="Réglages moteur",Parent="Avancées",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Alias touches",Parent="Avancées",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Touches défaut",Parent="Avancées",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Pilotes",Parent="Options avancées",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Infos serveur public",Parent="Réseau",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Réglages jeu",Parent="Options avancées",Class=Engine.GameInfo,Immediate=True)
 
 [Errors]
-NetOpen=Error opening file
-NetWrite=Error writing to file
-NetRefused=Server refused to send '%s'
-NetClose=Error closing file
-NetSize=File size mismatch
-NetMove=Error moving file
-NetInvalid=Received invalid file request
-NoDownload=Package '%s' is not downloadable
-DownloadFailed=Downloading package '%s' failed: %s
-RequestDenied=Server requested file from pending level: Denied
-ConnectionFailed=Connection failed
-ChAllocate=Couldn't allocate channel
-NetAlready=Already networking
-NetListen=Listen failed: No linker context available
-LoadEntry=Can't load Entry: %s
-InvalidUrl=Invalid URL: %s
-InvalidLink=Invalid Link: %s
-FailedBrowse=Failed to enter %s: %s
-Listen=Listen failed: %s
-AbortToEntry=Failed; returning to Entry
-ServerOpen=Servers can't open network URLs
-ServerListen=Dedicated server can't listen: %s
-Pending=Pending connect to '%s' failed; %s
-LoadPlayerClass=Failed to load player class
-ServerOutdated=Server's version is outdated
+NetOpen=Erreur ouverture de fichier
+NetWrite=Erreur écriture de fichier
+NetRefused=Serveur refuse d'envoyer '%s'
+NetClose=Erreur fermeture de fichier
+NetSize=Taille fichier non conforme
+NetMove=Erreur déplacement fichier
+NetInvalid=Requête incorrecte reçue
+NoDownload=Package '%s' non chargeable
+DownloadFailed=Echec chargement package '%s': %s
+RequestDenied=Demande serveur sur fichier en attente: refus
+ConnectionFailed=Echec connexion
+ChAllocate=Echec allocation canal
+NetAlready=Déjà sur réseau
+NetListen=Echec écoute: aucun linker de contexte disponible
+LoadEntry=Ne peut charger entrée: %s
+InvalidUrl=URL incorrecte: %s
+InvalidLink=Lien incorrect: %s
+FailedBrowse=Impossible d'entrer %s: %s
+Listen=Echec écoute: %s
+AbortToEntry=Echec; retour à l'entrée
+ServerOpen=Echec serveurs ouverture URLs réseau
+ServerListen=Serveur dédié ne peut écouter: %s
+Pending=Echec connexion à '%s' en attente; %s
+LoadPlayerClass=Echec chargement classe joueur
+ServerOutdated=Version serveur périmée
 
 [Progress]
-CancelledConnect=Cancelled Connect Attempt
-RunningNet=%s: %s (%i players)
-NetReceiving=Receiving '%s': %i/%i
-NetReceiveOk=Successfully received '%s'
-NetSend=Sending '%s'
-NetSending=Sending '%s': %i/%i
-Connecting=Connecting...
-Listening=Listening for clients...
-Loading=Loading
-Saving=Saving
-Paused=Paused by %s
-ReceiveFile=Receiving '%s' (F10 Cancels)
-ReceiveSize=Size %iK, Complete %3.1f%%
-ConnectingText=Connecting (F10 Cancels):
+CancelledConnect=Tentative connexion annulée
+RunningNet=%s: %s (%i joueurs)
+NetReceiving=Réception '%s': %i/%i
+NetReceiveOk=Réception achevée '%s'
+NetSend=Envoi '%s'
+NetSending=Envoi '%s': %i/%i
+Connecting=Connexion...
+Listening=Recherche de clients...
+Loading=Chargement
+Saving=Sauvegarde
+Paused=Pause par %s
+ReceiveFile=Réception '%s' (F10 annule)
+ReceiveSize=Taille %iK, Total %3.1f%%
+ConnectingText=Connexion (F10 annule) :
 ConnectingURL=deusex://%s/%s
 
 [Console]
-ClassCaption=Standard Deus Ex Console
-LoadingMessage=LOADING
-SavingMessage=SAVING
-ConnectingMessage=CONNECTING
-PausedMessage=PAUSED
-PrecachingMessage=PRECACHING
-ChatChannel=(CHAT) 
-TeamChannel=(TEAM) 
+ClassCaption=Console Deus Ex standard
+LoadingMessage=CHARGEMENT
+SavingMessage=SAUVEGARDE
+ConnectingMessage=CONNEXION
+PausedMessage=PAUSE
+PrecachingMessage=MISE EN PRECACHE
+ChatChannel=(BLABLA) 
+TeamChannel=(EQUIPE) 
 
 [General]
-Upgrade=To enter this server, you need the latest free update to Deus Ex available from Ion Storm's Web site:
+Upgrade=Pour rejoindre ce serveur, vous avez besoin de la dernière mise à jour de Deus Ex, disponible sur le site d'Ion Storm:
 UpgradeURL=http://www.deusex.com/upgrade
-UpgradeQuestion=Do you want to launch your web browser and go to the upgrade page now?
+UpgradeQuestion=Voulez-vous ouvrir votre navigateur Internet à la page des mises à jour?
 Version=Version %i
 
 [Menu]
 HelpMessage=
 MenuList=
-LeftString=Left
-RightString=Right
-CenterString=Center
-EnabledString=Enabled
-DisabledString=Disabled
-HelpMessage[1]="This menu has not yet been implemented."
-YesString=yes
-NoString=no
+LeftString=Gauche
+RightString=Droite
+CenterString=Centre
+EnabledString=Activé
+DisabledString=Désactivé
+HelpMessage[1]="Ce menu n'est pas encore intégré."
+YesString=oui
+NoString=non
 
 [Inventory]
-PickupMessage=Snagged an item
-M_Activated=" activated"
-M_Selected=" selected"
-M_Deactivated=" deactivated"
-ItemArticle=a
+PickupMessage=Objet accroché
+M_Activated=" activé"
+M_Selected=" sélectionné"
+M_Deactivated=" désactivé"
+ItemArticle=un(e)
 
 [WarpZoneInfo]
 OtherSideURL=
 
 [GameInfo]
-SwitchLevelMessage=Switching Levels
-DefaultPlayerName=Player
-LeftMessage=" left the game."
-FailedSpawnMessage=Failed to spawn player actor
-FailedPlaceMessage=Could not find starting spot (level might need a 'PlayerStart' actor)
-NameChangedMessage=Name changed to 
-EnteredMessage=" entered the game."
-GameName="Game"
-MaxedOutMessage=Server is already at capacity.
-WrongPassword=The password you entered is incorrect.
-NeedPassword=You need to enter a password to join this game.
-FailedTeamMessage=Could not find team for player
+SwitchLevelMessage=Changement de niveau
+DefaultPlayerName=Joueur
+LeftMessage=" a quitté le jeu."
+FailedSpawnMessage=Echec de matérialisation du personnage
+FailedPlaceMessage=Emplacement de départ introuvable (Niveau nécessite emplacement 'PlayerStart')
+NameChangedMessage=Nom changé en  
+EnteredMessage=" a rejoint la partie."
+GameName="Jeu"
+MaxedOutMessage=Le serveur a déjà atteint sa capacité.
+WrongPassword=Ce mot de passe est incorrect.
+NeedPassword=Vous devez taper un mot de passe pour rejoindre cette partie.
+FailedTeamMessage=Pas d'équipe pour le joueur
 
 [LevelInfo]
-Title=Untitled
+Title=Sans titre
 
 [Weapon]
-MessageNoAmmo=" has no ammo."
-PickupMessage=You got a weapon
-DeathMessage=%o was killed by %k's %w.
-ItemName=Weapon
-DeathMessage[0]=%o was killed by %k's %w.
-DeathMessage[1]=%o was killed by %k's %w.
-DeathMessage[2]=%o was killed by %k's %w.
-DeathMessage[3]=%o was killed by %k's %w.
+MessageNoAmmo=" plus de munitions."
+PickupMessage=Vous trouvez une arme
+DeathMessage=%o s'est fait tuer par %k's %w.
+ItemName=Arme
+DeathMessage[0]=%o a été neutralisé par %k's %w.
+DeathMessage[1]=%o s'est fait extraire par %k's %w.
+DeathMessage[2]=%o s'est fait retirer par %k's %w.
+DeathMessage[3]=%o s'est fait supprimer par %k's %w.
 
 [Counter]
-CountMessage=Only %i more to go...
-CompleteMessage=Completed!
+CountMessage=Plus que %i...
+CompleteMessage=Terminé !
 
 [Ammo]
-PickupMessage=You picked up some ammo.
+PickupMessage=Vous trouvez des munitions.
 
 [Pickup]
 ExpireMessage=
@@ -132,30 +132,29 @@ ExpireMessage=
 DamageString=
 
 [DamageType]
-Name=killed
-AltName=killed
+Name=Supprimé
+AltName=Supprimé
 
 [PlayerPawn]
-QuickSaveString=Quick Saving
-NoPauseMessage=Game is not pauseable
-ViewingFrom=Now viewing from 
-OwnCamera=own camera
-FailedView=Failed to change view.
-CantChangeNameMsg=You can't change your name during a global logged game.
+QuickSaveString=Sauvegarde rapide
+NoPauseMessage=Pause indisponible
+ViewingFrom=Vue depuis  
+OwnCamera=Propre caméra
+FailedView=Echec du changement de vue.
+CantChangeNameMsg=Impossible de changer de nom en cours de partie.
 
 [Pawn]
-NameArticle=" a "
+NameArticle=" un(e) "
 
 [Spectator]
-MenuName=Spectator
+MenuName=Spectateur
 
 [ServerCommandlet]
-HelpCmd=server
-HelpOneLiner=Network game server
+HelpCmd=serveur
+HelpOneLiner=Serveur de jeu réseau
 HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
 HelpWebLink=http://www.deusex.com
 HelpParm[0]=Log
-HelpDesc[0]=Specify the log file to generate
-HelpParm[1]=AllAdmin
-HelpDesc[1]=Give all players admin privelages
-
+HelpDesc[0]=Spécifier le fichier log à générer
+HelpParm[1]=TousAdmin
+HelpDesc[1]=Donne à tous les joueurs les droits d'admin

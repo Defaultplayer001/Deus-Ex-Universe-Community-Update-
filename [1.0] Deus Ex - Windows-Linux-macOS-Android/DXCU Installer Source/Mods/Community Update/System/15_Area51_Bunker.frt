@@ -47,4 +47,3 @@ awardMessage="Bonus : exploration"
 MissionLocation="Zone 51 - Bunker"
 startupMessage[0]="Zone 51"
 startupMessage[1]="Rachel, Nevada"
-

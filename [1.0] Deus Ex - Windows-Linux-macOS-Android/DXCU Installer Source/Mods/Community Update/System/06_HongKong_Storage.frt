@@ -2,7 +2,7 @@
 Views[0]="(titleString="Nacelles magnétiques (4)",cameraTag=podcam,doorTag=OpenThePODs)"
 Views[1]="(titleString="Unité de désactivation",cameraTag=PlatformCam,doorTag=PlatformTriggers)"
 Views[2]="(titleString="Isolation des toxines",cameraTag=ToxicCamera)"
-specialOptions[0]="(Text="Ouvrir les nacelles d'isolation nanotechniques",TriggerText="Nacelles magnétiques ouvertes",TriggerEvent=OpenThePODs,bTriggerOnceOnly=True)"
+specialOptions[0]="(Text="Ouvrir les nacelles d'isolation nanotech.",TriggerText="Nacelles magnétiques ouvertes",TriggerEvent=OpenThePODs,bTriggerOnceOnly=True)"
 specialOptions[1]="(Text="Elever la console de désactivation",TriggerText="Console élevée",TriggerEvent=control_platform)"
 
 [ComputerSecurity0]
@@ -30,16 +30,15 @@ awardMessage="Bonus : réussite"
 MissionLocation="Hong Kong - Nanoproduction"
 startupMessage[0]=" Niveau 2 :"
 startupMessage[1]="Complexe d'isolation nanotechnique"
-startupMessage[2]="Sous le bâtiment de VersaLife"
+startupMessage[2]="Sous le bÂtiment de VersaLife"
 
 [SkillAwardTrigger3]
 awardMessage="Bonus : exploration"
 
 [NanoKey0]
-PickupMessage="Vous avez trouvé la clef de la porte d'isolation."
+PickupMessage="Vous avez trouvé la clé de la porte d'isolation."
 Description="Porte d'isolation nanotechnique"
 
 [ComputerPersonal0]
 specialOptions[0]="(Text="Charger le schéma du virus",TriggerText="Schéma du virus chargé",TriggerEvent=VirusUploaded,bTriggerOnceOnly=True)"
 specialOptions[1]="(Text="Ouvrir la salle du C.U.",TriggerText="Porte de la salle du C.U. ouverte",TriggerEvent=UC_Chamber_Door)"
-

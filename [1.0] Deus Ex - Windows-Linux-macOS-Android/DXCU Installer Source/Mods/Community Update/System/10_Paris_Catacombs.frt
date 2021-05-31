@@ -42,3 +42,5 @@ MissionLocation="Paris - Denfert-Rochereau"
 startupMessage[0]="Denfert-Rochereau, Paris"
 startupMessage[1]="Gratte-ciel abandonné"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MJ12Commando_keymaster,KeyID=catdoor,Description="Clé de l'entrée des catacombes")"

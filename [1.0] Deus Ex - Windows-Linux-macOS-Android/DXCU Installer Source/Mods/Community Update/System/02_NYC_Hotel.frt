@@ -1,10 +1,10 @@
 [Male0]
 FamiliarName="Ancien otage"
-UnfamiliarName="Ancien otage"
+UnfamiliarName="Otage"
 
 [Female0]
 FamiliarName="Ancien otage"
-UnfamiliarName="Ancien otage"
+UnfamiliarName="Otage"
 
 [SkillAwardTrigger1]
 awardMessage="Bonus : réussite"
@@ -19,8 +19,7 @@ awardMessage="Bonus : exploration"
 MissionLocation="NY - Hôtel 'Ton "
 
 [NanoKey0]
-Description="Hôtel 'Ton, Code de la chambre du nord"
+Description="Hôtel 'Ton, code de la chambre du nord"
 
 [LevelSummary]
 Title="Sans titre"
-

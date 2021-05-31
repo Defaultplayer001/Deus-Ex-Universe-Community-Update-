@@ -9,4 +9,3 @@ Title="Sans titre"
 
 [DeusExLevelInfo1]
 MissionLocation="NY - Egouts"
-

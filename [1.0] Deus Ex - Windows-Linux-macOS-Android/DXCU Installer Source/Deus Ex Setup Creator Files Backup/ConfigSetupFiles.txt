@@ -1,5 +1,5 @@
 ;!@Install@!UTF-8!
-Title="Deus Ex Mod"
-BeginPrompt="If you have any issues with the installer, you can rename this .exe to a .7z; extract and install manually into your Deus Ex folder. Do you want to continue?"
+Title="DXCU"
+BeginPrompt="If you have any issues with the installer or would like to play the updated demo, you can rename this .exe to a .zip; extract and install manually into your Deus Ex folder - or any folder for the demo. Do you want to continue?"
 RunProgram="System\Setup.exe"
 ;!@InstallEnd@!

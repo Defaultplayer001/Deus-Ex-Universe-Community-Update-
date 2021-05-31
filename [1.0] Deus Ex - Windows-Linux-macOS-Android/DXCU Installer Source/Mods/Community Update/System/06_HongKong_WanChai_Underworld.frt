@@ -27,8 +27,8 @@ FamiliarName="Vladimir"
 UnfamiliarName="Marins russes"
 
 [TriadRedArrow8]
-FamiliarName="Videur de la Triade"
-UnfamiliarName="Videur de la Triade"
+FamiliarName="Videur de la triade"
+UnfamiliarName="Videur de la triade"
 
 [Businessman3]
 FamiliarName="Employé de VersaLife"
@@ -96,7 +96,7 @@ Views[1]="(titleString="Sécurité",cameraTag=SecurityCamera1,doorTag=StoreDoor)"
 
 [ComputerSecurity0]
 Views[0]="(titleString="Moniteur du Club",cameraTag=ClubCam1)"
-Views[1]="(titleStringComptoir et coffre",cameraTag=ClubCam2,doorTag=Strongbox)"
+Views[1]="(titleString="Comptoir et coffre",cameraTag=ClubCam2,doorTag=Strongbox)"
 Views[2]="(titleString="Ascencur de service",cameraTag=ClubCam3)"
 
 [Sailor3]
@@ -145,8 +145,8 @@ FamiliarName="Mamasan"
 UnfamiliarName="Mamasan"
 
 [TriadRedArrow7]
-FamiliarName="Videur de la Triade"
-UnfamiliarName="Videur de la Triade"
+FamiliarName="Videur de la triade"
+UnfamiliarName="Videur de la triade"
 
 [JunkieFemale0]
 FamiliarName="Droguée"
@@ -170,7 +170,7 @@ UnfamiliarName="Danseuse"
 
 [VoyouMale5]
 FamiliarName="Vince"
-UnfamiliarName="ivrogne"
+UnfamiliarName="Ivrogne"
 
 [Hooker4]
 FamiliarName="Mercedes"
@@ -179,4 +179,3 @@ UnfamiliarName="Fille du club"
 [TriadRedArrow3]
 FamiliarName="Membre de la Flèche Rouge"
 UnfamiliarName="Membre de la Flèche Rouge"
-

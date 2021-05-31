@@ -34,7 +34,7 @@ Title="Sans titre"
 [ComputerSecurity2]
 Views[0]="(titleString="Commandes de la salle des pompes",cameraTag=PumpRoomEntry)"
 Views[1]="(titleString="Entrée du pont d'observation",cameraTag=ObsDeckPlatform,doorTag=DeckDoor)"
-Views[2]="(titleString="Pompe inversée",cameraTag=UpperHall)"
+Views[2]="(titleString="Haut des escaliers des cabines",cameraTag=UpperHall)"
 
 [ComputerPersonal0]
 specialOptions[0]="(Text="Inverser les pompes",TriggerText="Pompe inversée",TriggerEvent=PumpTrigger,bTriggerOnceOnly=True)"
@@ -83,3 +83,6 @@ awardMessage="Bonus : secteur identifié"
 [DeusExLevelInfo2]
 MissionLocation="NY - Ponts inférieurs du navire"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Pilot1,KeyID=Locker1,Description="Clé de casier ")"
+NanoKeyData[1]="(ScriptedPawnTag=Pilot2,KeyID=Locker2,Description="Clé de casier")"

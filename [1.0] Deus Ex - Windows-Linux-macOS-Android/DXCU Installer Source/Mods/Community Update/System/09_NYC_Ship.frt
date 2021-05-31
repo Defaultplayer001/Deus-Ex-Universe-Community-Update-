@@ -66,5 +66,4 @@ Description="Code de l'entrepont"
 awardMessage="Bonus : réussite"
 
 [DeusExLevelInfo15]
-MissionLocation="NYC - Assemblage naval et bâtiment"
-
+MissionLocation="NY - Assemblage naval et bÂtiment"

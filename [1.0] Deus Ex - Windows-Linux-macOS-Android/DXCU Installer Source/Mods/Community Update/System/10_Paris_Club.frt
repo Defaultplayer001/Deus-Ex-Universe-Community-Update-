@@ -94,3 +94,5 @@ MissionLocation="Paris - Boîte de nuit La Porte de l'Enfer"
 startupMessage[0]="La Porte de l'Enfer"
 startupMessage[1]="Boîte de nuit parisienne"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Louis,KeyID=club_maindoors,Description="Clé de la boîte de nuit")"

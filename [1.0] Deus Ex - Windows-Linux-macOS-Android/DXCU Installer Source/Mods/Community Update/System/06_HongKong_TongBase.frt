@@ -15,10 +15,10 @@ FamiliarName="Garde de Tong"
 UnfamiliarName="Garde de Tong"
 
 [LevelSummary]
-Title="Sabs titre"
+Title="Sans titre"
 
 [NanoKey0]
-PickupMessage="Vous avez trouvé la clef de l'appartement de Jock."
+PickupMessage="Vous avez trouvé la clé de l'appartement de Jock."
 Description="Appartement de Jock sur Tonnochi Road"
 
 [TriadLumPath1]
@@ -41,7 +41,7 @@ UnfamiliarName="Garde de Tong"
 UnfamiliarName="Alex Jacobson"
 
 [SkillAwardTrigger0]
-awardMessage="Bonus : identification "
+awardMessage="Bonus : identification"
 
 [TriadLumPath2]
 FamiliarName="Garde de Tong"
@@ -50,4 +50,3 @@ UnfamiliarName="Garde de Tong"
 [TriadRedArrow0]
 FamiliarName="Garde de Tong"
 UnfamiliarName="Garde de Tong"
-

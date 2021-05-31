@@ -20,10 +20,10 @@ awardMessage="Bonus : identification indispensable"
 Views[0]="(titleString="Grille des égouts principaux",cameraTag=A_Sector3,doorTag=DrainGrate)"
 Views[1]="(titleString="Système de défense A",cameraTag=B_Sector3,turretTag=AutoTurret1)"
 Views[2]="(titleString="Système de défense B",cameraTag=C_Sector3,turretTag=AutoTurret2)"
-specialOptions[0]="(Text="Robot en attente",TriggerText="robot du périmètre en attente",TriggerEvent=SBTrigger)"
-specialOptions[1]="(Text="Défense du périmètre par robots standards",TriggerText="Robots mode défense",TriggerEvent=SDTrigger)"
-specialOptions[2]="(Text="Robots du périmètre attaque tout non-robot",TriggerText="Danger ! **Robots en mode attaque **",TriggerEvent=AATrigger)"
-specialOptions[3]="(Text="Robots du périmètre : attaque générale",TriggerText="DANGER ! Sécurité désactivée",TriggerEvent=SCTrigger)"
+specialOptions[0]="(Text="Robots (Périmètre) en attente",TriggerText="Robots du périmètre en attente",TriggerEvent=SBTrigger)"
+specialOptions[1]="(Text="Robots (Périmètre) en défense",TriggerText="Robots mode défense",TriggerEvent=SDTrigger)"
+specialOptions[2]="(Text="Robots (Périmètre) attaque organiques",TriggerText="Danger ! **Robots en mode attaque **",TriggerEvent=AATrigger)"
+specialOptions[3]="(Text="Robots (Périmètre) attaque générale",TriggerText="DANGER ! Sécurité désactivée",TriggerEvent=SCTrigger)"
 
 [ComputerSecurity1]
 Views[0]="(titleString="Grille de l'arrière du périmètre",cameraTag=A_Sector2,doorTag=BackGate)"
@@ -57,19 +57,19 @@ Description="Code du bureau du commandant"
 awardMessage="Bonus : secteur identifié"
 
 [NanoKey3]
-Description="Code de la réserve à armes"
+Description="Code de la réserve d'armes"
 
 [SkillAwardTrigger5]
 awardMessage="Bonus : secteur identifié"
 
 [ComputerSecurity4]
-Views[0]="(titleString="Dépôt de munition, Bunkers",cameraTag=A_Sector4)"
+Views[0]="(titleString="Dépôt de munition, bunkers",cameraTag=A_Sector4)"
 Views[1]="(titleString="Réserve de biocombinaisons",cameraTag=B_Sector3)"
 Views[2]="(titleString="Docks",cameraTag=C_Sector3)"
-specialOptions[0]="(Text="Robot en attente",TriggerText="Robots du dépôt en mode attente",TriggerEvent=SB2Trigger)"
-specialOptions[1]="(Text="Robots du dépôt : défense",TriggerText="Robots en mode défense",TriggerEvent=SD2Trigger)"
-specialOptions[2]="(Text="Robots du dépôt :  attaque tout non-robot",TriggerText="Danger ! **Robots en mode attaque **",TriggerEvent=AA2Trigger)"
-specialOptions[3]="(Text="Robots du dépôt : attaque générale",TriggerText="DANGER ! Sécurité désactivée",TriggerEvent=SC2Trigger)"
+specialOptions[0]="(Text="Robots (Dépôt) en attente",TriggerText="Robots du dépôt en mode attente",TriggerEvent=SB2Trigger)"
+specialOptions[1]="(Text="Robots (Dépôt) en défense",TriggerText="Robots en mode défense",TriggerEvent=SD2Trigger)"
+specialOptions[2]="(Text="Robots (Dépôt) attaque organiques",TriggerText="Danger ! **Robots en mode attaque **",TriggerEvent=AA2Trigger)"
+specialOptions[3]="(Text="Robots (Dépôt) attaque générale",TriggerText="DANGER ! Sécurité désactivée",TriggerEvent=SC2Trigger)"
 
 [Mechanic0]
 FamiliarName="Docker"
@@ -95,5 +95,7 @@ Description="Ouvre les remorques du parking"
 [DeusExLevelInfo0]
 MissionLocation="NY - Chantier naval de Brooklyn"
 startupMessage[0]="New York, Chantier naval de Brooklyn"
-startupMessage[1]="Division des sous-marins de guerre "
+startupMessage[1]="Division des sous-marins de guerre"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=FrontGuard,KeyID=MainGate,Description="Clé du portail principal")"

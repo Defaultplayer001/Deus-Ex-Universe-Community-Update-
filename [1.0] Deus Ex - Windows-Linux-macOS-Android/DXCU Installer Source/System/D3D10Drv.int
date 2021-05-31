@@ -1,9 +1,0 @@
-[Public]
-Object=(Name=D3D10Drv.D3D10RenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
-Preferences=(Caption="Rendering",Parent="Advanced Options")
-Preferences=(Caption="Direct3D 10 support",Parent="Rendering",Class=D3D10Drv.D3D10RenderDevice,Immediate=True)
-
-[D3D10RenderDevice]
-ClassCaption="Direct3D10 Support"
-AskInstalled=Do you want to use Direct3D10?
-AskUse=

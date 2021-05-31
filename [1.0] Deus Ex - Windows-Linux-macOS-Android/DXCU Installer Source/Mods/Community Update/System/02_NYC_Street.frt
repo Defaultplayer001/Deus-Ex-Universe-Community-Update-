@@ -7,7 +7,7 @@ awardMessage="Bonus : exploration"
 [Hooker0]
 FamiliarName="Sally"
 
-[RiotFlic0]
+[RiotCop0]
 FamiliarName="Flic"
 UnfamiliarName="Flic"
 
@@ -19,7 +19,7 @@ UnfamiliarName="Interphone"
 FamiliarName="Voyou de la NSF"
 UnfamiliarName="Voyou de la NSF"
 
-[RiotFlic1]
+[RiotCop1]
 FamiliarName="Flic"
 UnfamiliarName="Flic"
 
@@ -32,7 +32,7 @@ FamiliarName="Ancien otage"
 UnfamiliarName="Ancien otage"
 
 [SpecialEvent0]
-Message="Inscris-le chez les Knicks!!!!"
+Message="Inscris-le chez les Knicks !!!"
 
 [LevelSummary]
 Title="Sans titre"
@@ -69,3 +69,7 @@ UnfamiliarName="Clodo"
 [SkillAwardTrigger3]
 awardMessage="Bonus : exploration"
 
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=Apartment,Description="Clé d'appartement")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Clé de la porte avant de chez Osgood and Sons")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Clé de la porte arrière de chez Osgood and Sons"

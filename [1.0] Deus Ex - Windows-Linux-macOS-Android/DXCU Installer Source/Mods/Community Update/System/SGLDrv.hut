@@ -6,4 +6,4 @@
 [SglRenderDevice]
 ClassCaption="PowerVR SGL Windowshoz"
 AskInstalled=Van PowerVR-kártyája telepítve?
-AskUse=Biztosan a PowerVR-képmegjelenítést szeretné használni?
+AskUse==Biztosan a PowerVR-képmegjelenítést szeretné használni?

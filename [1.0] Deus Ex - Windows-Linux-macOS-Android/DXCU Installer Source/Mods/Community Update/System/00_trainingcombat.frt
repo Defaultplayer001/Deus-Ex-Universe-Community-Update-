@@ -13,4 +13,3 @@ msgLocked=""
 msgPicking=""
 msgAlreadyUnlocked=""
 msgNoNanoKey=""
-

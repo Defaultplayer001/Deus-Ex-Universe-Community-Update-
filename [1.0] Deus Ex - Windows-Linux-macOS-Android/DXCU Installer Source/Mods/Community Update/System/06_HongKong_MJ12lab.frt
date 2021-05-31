@@ -3,20 +3,20 @@ FamiliarName="Sécurité spéciale du laboratoire"
 UnfamiliarName="Sécurité spéciale du laboratoire"
 
 [NanoKey0]
-PickupMessage="Vous avez trouvé la clef de cellules d'expérimentation"
+PickupMessage="Vous avez trouvé la clé de cellules d'expérimentation"
 Description="Cellules d'expériementation"
 
 [LevelSummary]
 Title="Sans titre"
 
 [ComputerPersonal0]
-specialOptions[0]="(Text="Cherger la ROM du nanosabre",TriggerText="Rom du sabre chargé",TriggerEvent=TongHasRom,bTriggerOnceOnly=True)"
+specialOptions[0]="(Text="Charger la ROM du nanosabre",TriggerText="Rom du sabre chargé",TriggerEvent=TongHasRom,bTriggerOnceOnly=True)"
 
 [ComputerPersonal1]
-specialOptions[0]="(Text="Couper les radiations de la chambre magnétique",TriggerText="Radiation des générateurs coupée",UnTriggerEvent=AugmentationRadiation,bTriggerOnceOnly=True)"
+specialOptions[0]="(Text="Couper les générateurs de radiations",TriggerText="Radiation des générateurs coupée",UnTriggerEvent=AugmentationRadiation,bTriggerOnceOnly=True)"
 specialOptions[1]="(Text="Ouvrir la nacelle d'isolation 1",TriggerText="Cellule ouverte",TriggerEvent=Pod01)"
 specialOptions[2]="(Text="Ouvrir la nacelle d'isolation 2",TriggerText="Cellule ouverte",TriggerEvent=Pod02)"
-specialOptions[3]="(Text="Ouvrir la porte de la chambre magnétique",TriggerText="Porte de la chambre magnétique ouverte",TriggerEvent=Nano_Chamber_Door)"
+specialOptions[3]="(Text="Déverrouiller la chambre magnétique",TriggerText="Porte de la chambre magnétique ouverte",TriggerEvent=Nano_Chamber_Door)"
 
 [ComputerSecurity1]
 Views[0]="(titleString="Labo de recherche sur les modifications",cameraTag=Camera1,doorTag=SubjectDoors1)"
@@ -166,7 +166,7 @@ Description="Chambre de modification magnétique"
 awardMessage="Bonus : secteur identifié"
 
 [ComputerSecurity2]
-Views[0]="(titleString="Labo de recherche sur laes midifications",cameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[0]="(titleString="Labo de recherche sur les modifications",cameraTag=Camera1,doorTag=SubjectDoors1)"
 Views[1]="(titleString="Ordinateur central",cameraTag=Camera2)"
 Views[2]="(titleString="Grand Hall",cameraTag=Camera3,doorTag=trap_door)"
 
@@ -180,9 +180,8 @@ UnfamiliarName="Informaticien"
 
 [ScientistFemale0]
 FamiliarName="Dr. Vargas"
-UnfamiliarName="Chercheur"
+UnfamiliarName="Psionicienne"
 
 [MJ12Troop3]
 FamiliarName="Sécurité du laboratoire"
 UnfamiliarName="Sécurité du laboratoire"
-

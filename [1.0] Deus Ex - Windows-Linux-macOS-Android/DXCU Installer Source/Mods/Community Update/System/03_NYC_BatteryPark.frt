@@ -36,5 +36,4 @@ FamiliarName="SDF"
 UnfamiliarName="SDF"
 
 [LevelSummary]
-Title="Untitled"
-
+Title="Sans titre"

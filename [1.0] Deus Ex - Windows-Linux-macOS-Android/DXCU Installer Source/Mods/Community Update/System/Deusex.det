@@ -2094,6 +2094,17 @@ ButtonNames[4]="Farben"
 ButtonNames[5]="Sound"
 ButtonNames[6]="Vorheriges Menü"
 
+[TranscendedMenuSettings]
+Title="Einstellungen"
+ButtonNames[0]="Tastatur/Maus"
+ButtonNames[1]="Steuerung"
+ButtonNames[2]="Spieloptionen"
+ButtonNames[3]="Grafik"
+ButtonNames[4]="Farben"
+ButtonNames[5]="Sound"
+ButtonNames[6]="Transcended Options"
+ButtonNames[7]="Vorheriges Menü"
+
 [AmmoEMPGrenade]
 beltDescription="EMP-GRAN"
 
@@ -3233,3 +3244,83 @@ configSetting="DeusExMPGame SkillsPerKill"
 HelpText="Prozentsatz des vollen Schadens, der durch Treffer von Teammitgliedern verursacht wird."
 actionText="Schaden durch Teammitglieder"
 configSetting="DeusExMPGame fFriendlyFireMult"
+
+[General]
+RunBang=Start!
+FirstTime=Deus Ex Erstkonfiguration
+SafeMode=Deus Ex Abgesicherter Modus
+Video=Deus Ex Grafikkonfiguration
+RecoveryMode=Deus Ex Wiederherstellungsmodus
+WebPage=http://www.deusex.com/
+Direct3DWebPage=http://www.deusex.com/Direct3D.htm
+Detecting=Suche 3D-Grafikkarten. Bitte warten ...
+SoundLow=Niedrige Soundqualität
+SoundHigh=Hohe Soundqualität
+SkinsLow=Detailarme Spielertexturen
+SkinsHigh=Detailreiche Spielertexturen
+WorldLow=Detailarme Welttexturen
+WorldHigh="Detailreiche Welttexturen"
+ResLow=Niedrige Grafikauflösung
+ResHigh=Standardauflösung
+
+[Descriptions]
+SoftDrv.SoftwareRenderDevice=Integriertes Software-Rendering von Deus Ex.  Kompatibel mit allen Grafikkarten. Nicht empfohlen.
+GlideDrv.GlideRenderDevice=3dfx-Glide-Unterstützung. Die optimale Entscheidung für Spieler mit 3dfx-Karte.  3dfx Karte erforderlich.
+D3DDrv.D3DRenderDevice=Direct3D-Hardware-Rendering. Kompatibel mit neueren Grafikkarten, wie Riva TNT, ATI Rage 128, Matrox G400, und S3 Savage4.  Nicht zu empfehlen für ältere Grafikkarten. Spielen Sie mit Software-Rendering, wenn Sie eine der folgenden Grafikkarten besitzen: ATI Rage Pro, Riva 128, Intel i740, oder Rendition V2200.
+OpenGLDrv.OpenGLRenderDevice=Experimentelle OpenGL-Unterstützung. Diese Option dient Testzwecken und ist mit einigen Treibern kompatibel.  Verwendung auf eigene Gefahr.
+MetalDrv.MetalRenderDevice=Für Benutzer mit S3 Savage4-Grafikkarten.
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=
+IDC_DetailPrompt=Aufgrund der Geschwindigkeit, des Arbeitsspeichers und der Grafikkarte Ihres Systems hat Deus Ex folgende Detaileinstellungen zur Leistungsoptimierung vorgenommen:
+IDC_DetailNote=Sie können diese Voreinstellungen jederzeit im Spiel im Menü "Einstellungen" ändern.
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=
+IDC_Prompt=Deus Ex wird zum ersten Mal gestartet.  Sollten Probleme auftreten, lesen Sie bitte die Hinweise unter "Programme/Deus Ex" im Startmenü von Windows.
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Ihr Computer unterstützt folgende 3D-Grafikkarten.  Deus Ex hat die optimale Karte gewählt.  Wenn Sie diese Einstellung ändern möchten, markieren Sie eine der unten stehenden Optionen.
+IDC_RenderNote=
+IDC_Compatible=Zertifizierte, kompatible Geräte zeigen.
+IDC_All=Alle Geräte zeigen
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=
+IDC_SafeModePrompt=Deus Ex wurde nicht ordnungsgemäß beendet.  Sollte ein Problem die Ursache gewesen sein, wählen Sie eine der folgenden Optionen, um das Spiel wiederherzustellen.
+IDC_SafeModePrompt2=Deus Ex Abgesicherter Modus: Sollte ein Problem auftreten, wählen Sie bitte folgende Optionen.
+IDC_Run=Deus Ex starten
+IDC_Video=3D-Grafikkarte ändern
+IDC_SafeMode=Deus Ex zur Fehlerbehebung im abgesicherten Modus starten.
+IDC_Web=Auf unserer Webseite finden Sie Tipps zur Fehlerbehebung.
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=
+IDC_SafeOptions=Abgesicherter Modus: Optionen zur Problemdiagnose.
+IDC_NoSound=Soundausgabe deaktivieren
+IDC_No3DSound=3D-Sound-Hardware deaktivieren
+IDC_No3DVideo=3D-Grafikkarte(n) deaktivieren
+IDC_Window=Spiel im Fenstermodus (nicht im Vollbild) starten.
+IDC_Res=Mit Standardauflösung (640x480) starten.
+IDC_ResetConfig=Alle Konfigurationsoptionen auf Standardwerte zurücksetzen.
+IDC_NoProcessor=Pentium III/3DNow-Erweiterungen deaktivieren.
+IDC_NoJoy=Joystick-Unterstützung deaktivieren.
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=
+IDC_DriverText=Deus Ex hat folgende Direct3D-kompatible Grafikkarte entdeckt:
+IDC_DriverInfo=Da Sie Direct3D gewählt haben, versucht Deus Ex, den Grafiktreiber für die Direct3D-Unterstützung zu installieren.\n\nEinige 3D-Treiber müssen jedoch aktualisiert werden, bevor sie mit den modernen Funktionen von Deus Ex reibungslos zusammenarbeiten.  Bitte besuchen Sie die folgende Webseite. Dort erhalten Sie weitere Informationen zur Kompatibilität Ihrer Grafikkarte sowie über aktuelle Direct3D-Treiber.\n\nSollten während des Spiels Grafikprobleme (falsche Farben, flackernde Polygone, langsame Frameraten oder Abstürze) auftreten, starten Sie das Spiel bitte im "Abgesicherten Modus" und ändern Sie den Grafiktreiber.
+IDC_Web=Links zu den aktuellsten Grafiktreibern finden Sie auf unserer Webseite:
+IDC_WebButton=Direct3D-Informations- && Treiberseite
+IDC_Card=Unbekannt
+
+[IDDIALOG_ConfigPageResolution]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Your computer supports the following fullscreen resolutions. If you wish to change the current, highlight an option below.
+IDC_RenderNote=
+
+[IDDIALOG_ConfigPageAudioSubsystem]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Your computer supports the following audio subsystem. If you wish to change the current, highlight an option below.
+IDC_RenderNote=

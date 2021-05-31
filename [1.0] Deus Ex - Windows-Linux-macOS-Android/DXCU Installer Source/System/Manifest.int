@@ -4,16 +4,16 @@ DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
 ReadMe=Mods\Community Update\Help\Changelog.html
 SetupWindowTitle=Deus Ex Community Update Setup
 AutoplayWindowTitle=Deus Ex Community Update Options
-ProductURL=
-VersionURL=
+ProductURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+VersionURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
 Developer=The Deus Ex Community
-DeveloperURL=
-PublisherGamesURL=
-PublisherURL=
-PublisherStoreURL=
-PlanetDeusExURL=
-DeusExURL=
-Logo=Mods\Community Update\Help\LogoSmall.bmp
+DeveloperURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PublisherGamesURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PublisherURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PublisherStoreURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PlanetDeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+DeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+Logo=Mods\Community Update\Help\LogoSmallCU.bmp
 License=License.int
 
 [General]
@@ -65,6 +65,9 @@ Caption=Deus Ex Safe Mode
 [EditorShortcut]
 Caption=Deus Ex Editor
 
+[DesktopEditorShortcut]
+Caption=Deus Ex Editor
+
 [DocumentationShortcut]
 Caption=Documentation
 
@@ -107,11 +110,46 @@ Caption=Planet Deus Ex Web Page
 [UninstallShortcut]
 Caption=Uninstall Deus Ex
 
+[DesktopUninstallShortcut]
+Caption=Uninstall Deus Ex
 
+[ModRequirements]
+LocalProduct=Deus Ex
+ProductURL=https://www.gog.com/game/deus_ex
+VersionURL=https://www.gog.com/game/deus_ex
+Developer=Ion Storm Austin
+DeveloperURL=https://www.gog.com/game/deus_ex
+
+[ConfixGroup]
+Caption=Confix (English and Russian Only)
+Description=Conversation logic and typo fixes. 
+
+[TranscendedDefaultThemeFiles]
+Caption=Default Theme for Transcended
+Description=By default Transcended uses a blue theme. This switches it back to the default one.
 [ModsCommunity UpdateDemoGroup]
 Caption=Demo
 Description=Deus Ex modification files. Installation is optional.
 
-[Custom Icon Splash and LogoGroup]
-Caption=Custom Icon Splash and Logo
+[ModsCommunity UpdateTranscendedGroup]
+Caption=Transcended
+Description=Deus Ex modification files. Installation is optional.
+
+[Custom LogoGroup]
+Caption=Custom Logo
 Description=Post Install Executable. Installation is optional.
+[ModsCommunity UpdateDemoGroup]
+Caption=Demo
+Description=Official Deus Ex Mission 1 & 2 demos combined and updated to 1112fm (GOTY). Uses all fixes the full version does. 
+
+[DXCUGameGroup]
+Caption=Deus Ex Community Update
+Description=Just Deus Ex - ready to play! With all 10 known text translations, along with many extras for editing. Specifically has numerous community made engine level fixes on top of the proper 1112fm (GOTY) patch, without the broken maps shipped on retail versions. Actual gameplay code is identical, warts and all! 
+
+[ModsCommunity UpdateTranscendedGroup]
+Caption=Deus Ex: Transcended
+Description=Built largely for first timer players, Deus Ex: Transcended is a mod focused solely around faithfulness to the original, while bringing an unmatched arsenal of bug fixes, paired with key notes of Quality of Life changes.
+
+[Custom LogoGroup]
+Caption=Custom Logo
+Description=Custom purple hued logo, look above for an example! 

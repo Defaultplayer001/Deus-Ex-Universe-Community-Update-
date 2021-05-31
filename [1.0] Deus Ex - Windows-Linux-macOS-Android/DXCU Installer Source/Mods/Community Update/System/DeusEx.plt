@@ -3216,3 +3216,86 @@ HelpText="Procent dochodzäcych obra¿eñ otrzymywanych od strzaÎów przyjacióÎ."
 actionText="Obra¿enia od przyjacióÎ"
 configSetting="DeusExMPGame fFriendlyFireMult"
 
+[General]
+Run=Uruchom!
+FirstTime=Deus Ex - konfiguracja poczatkowa
+SafeMode=Deus Ex - tryb awaryjny
+Video=Deus Ex - ustawienia karty graficznej
+RecoveryMode=Deus Ex - tryb odzyskiwania
+WebPage=http://www.cenega.pl/pomoc
+Direct3DWebPage=http://www.cenega.pl/pomoc
+Detecting=Wykrywanie kart graficznych, prosze czekac...
+SoundLow=Niska jakosc dzwieku
+SoundHigh=Wysoka jakosc dzwieku
+SkinsLow=Tekstury postaci gracza - srednie 
+SkinsHigh=Tekstury postaci gracza - wysokie
+WorldLow=Tekstury otoczenia - srednie
+WorldHigh=Tekstury otoczenia - wysokie
+ResLow=Niska rozdzielczosc
+ResHigh=Standardowa rozdzielczosc
+
+[Descriptions]
+SoftDrv.SoftwareRenderDevice=Renderowanie programowe gry Deus Ex. Kompatybilne ze wszystkimi kartami graficznymi. Opcja niezalecana - korzystasz z niej na wlasne ryzyko.
+GlideDrv.GlideRenderDevice=Wsparcie 3dfx Glide, optymalny wybór dla posiadaczy kart na chipsecie 3dfx.
+D3DDrv.D3DRenderDevice=Do wyswietlania grafiki korzysta ze sprzetu obslugujacego tryb Direct3D. Kompatybilny z nowszymi kartami graficznymi, np.: Riva TNT, ATI Rage 128, Matrox G400, czy S3 Savage4. Opcja niezalecana dla starszych kart graficznych - jesli posiadasz ATI Rage Pro, Rive 128, Intela i740, czy karte Rendition V2200, skorzystaj z renderowania programowego.
+OpenGLDrv.OpenGLRenderDevice=Eksperymenalne wsparcie dla bibliotek OpenGL. Zaimplemementowane do celów testowych, czesc sterowników ma z nimi problemy. Korzystasz na wlasne ryzyko.
+MetalDrv.MetalRenderDevice=Dla uzytkowników kart S3 Savage4.
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=
+IDC_DetailPrompt=Na podstawie podzespolów zamontowanych w twoim komputerze gra Deus Ex wybrala nastepujace opcje w celu optymalizacji jej dzialania.
+IDC_DetailNote=Mozesz je potem zmienic w zakladce "Preferencje", znajdujacej sie w samej grze.
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=
+IDC_Prompt=Gra Deus Ex uruchamia sie po raz pierwszy. Jesli napotkasz problemy, przeczytaj instrukcje zawarte w pliku, który znajdziesz w katalogu "Programy / Deus Ex", dostepnym spod menu Start.
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Twój komputer obsluguje nastepujace karty graficzne, wyswietlone ponizej. Program Deus Ex wybral najbardziej optymalna z opcji. Jesli chcesz cos zmienic, wybierz jedna z opcji.
+IDC_RenderNote=
+IDC_Compatible=Pokaz kompatybilne urzadzenia
+IDC_All=Pokaz wszystkie urzadzenia
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=
+IDC_SafeModePrompt=Podczas ostatniej sesji gra Deus Ex nie zostala prawidlowo zamknieta. Jesli byl to wynik problemu, mozesz skorzystac z ponizszych opcji, aby go rozwiazac.
+IDC_SafeModePrompt2=Deus Ex - opcje trybu awaryjnego: jesli masz problem z gra, mozesz z nich skorzystac do jego rozwiazania.
+IDC_Run=Uruchom gre Deus Ex
+IDC_Video=Zmien typ uzywanej karty graficznej
+IDC_SafeMode=Uruchom gre Deus Ex w trybie awaryjnym, aby rozwiazac problem z kompatybilnoscia
+IDC_Web=Odwiedz strone pomocy technicznej
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=
+IDC_SafeOptions=Opcje trybu awaryjnego, przydatne podczas testów diagnostycznych
+IDC_NoSound=Wylacz wszystkie dzwieki
+IDC_No3DSound=Wylacz sprzetowa obsluge dzwieku 3D
+IDC_No3DVideo=Wylacz sprzetowe renderowanie 3D 
+IDC_Window=Uruchom gre w oknie
+IDC_Res=Uruchom w standardowej rozdzielczosci 640x480
+IDC_ResetConfig=Przywróc domyslne ustawienia konfiguracji
+IDC_NoProcessor=Wylacz rozszerzone instrukcje Pentium III/3DNow 
+IDC_NoJoy=Wylacz obsluge joysticka
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=
+IDC_DriverText=Program Deus Ex wykryl nastepujace karty graficzne, kompatybilne z trybem Direct3D:
+IDC_DriverInfo=W przypadku wybrania trybu Direct 3D, gra Deus Ex bedzie korzystala ze sterownika Twojej karty graficznej do jego obslugi.\n\nNiektóre karty wymagaja zaktualizowania sterowników, w przeciwnym wypadku gra Deus Ex nie bedzie stabilnie dzialac. Zalecamy odwiedzenie ponizszej strony sieci Web w celu pobrania najnowszych sterowników Direct 3D.\n\nW przypadku wystapienia problemów z wyswietlaniem grafiki, np. niewlasciwego wyswietlania kolorów, migajacych wierzcholków, zwalniania gry lub wychodzenia do systemu Windows, nalezy skorzystac z trybu awaryjnego, dostepnego w menu Start/Programy, który umozliwia zmiane sterownika wyswietlania grafiki.
+
+IDC_Web=Aby znalezc odnosniki do najnowszych sterowników, wejdz na nasza strone:
+IDC_WebButton=Direct3D Informacje && Dzial pobierania sterowników
+IDC_Card=Nieznana
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Konfiguracja gry Deus Ex 
+
+[IDDIALOG_ConfigPageResolution]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Your computer supports the following fullscreen resolutions. If you wish to change the current, highlight an option below.
+IDC_RenderNote=
+
+[IDDIALOG_ConfigPageAudioSubsystem]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Your computer supports the following audio subsystem. If you wish to change the current, highlight an option below.
+IDC_RenderNote=

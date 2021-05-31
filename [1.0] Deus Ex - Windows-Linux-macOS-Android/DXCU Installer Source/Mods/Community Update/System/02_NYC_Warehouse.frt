@@ -30,13 +30,13 @@ awardMessage="Bonus : réussite"
 awardMessage="Bonus : réussite"
 
 [ComputerPersonal5]
-specialOptions[0]="(Text="Eteindre le système de refroidissement du générateur",TriggerText="Système de refroidissement désactivé. Explosion Imminente",TriggerEvent=BlowEvents,bTriggerOnceOnly=True)"
+specialOptions[0]="(Text="Couper le refroidissement du générateur",TriggerText="Système de refroidissement désactivé. Explosion Imminente",TriggerEvent=BlowEvents,bTriggerOnceOnly=True)"
 
 [InterpolateTrigger0]
 Message="Hélicoptère activé"
 
 [DeusExLevelInfo0]
-MissionLocation="NYC - Quartier des entrepôts"
+MissionLocation="NY - Quartier des entrepôts"
 
 [SkillAwardTrigger17]
 awardMessage="Bonus : réussite"
@@ -66,9 +66,12 @@ UnfamiliarName="Hélicoptère furtif"
 [SkillAwardTrigger15]
 awardMessage="Bonus : réussite"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=DoorGuard,KeyID=WarehouseFrontDoor,Description="Clé de la porte avant de l'entrepôt")"
+NanoKeyData[1]="(ScriptedPawnTag=JoJoFine,KeyID=Mirror,Description="Clé de la porte-miroir secrète")"
+
 [NanoKey0]
 Description="Code de la réserve de la cave de l'entrepôt"
 
 [SkillAwardTrigger16]
 awardMessage="Bonus : secteur identifié"
-

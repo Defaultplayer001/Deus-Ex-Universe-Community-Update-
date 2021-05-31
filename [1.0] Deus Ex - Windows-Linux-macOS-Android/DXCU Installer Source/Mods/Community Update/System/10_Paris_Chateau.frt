@@ -36,13 +36,15 @@ FamiliarName="Nicolette"
 UnfamiliarName="Nicolette"
 
 [ComputerPersonal0]
-specialOptions[0]="(Text="Transmettre le signal de rendez-vous à MEverett",TriggerText="Assurer le signal envoyer à MEverett",TriggerEvent=everettsignal,bTriggerOnceOnly=True)"
+specialOptions[0]="(Text="Envoyer le signal de RDV à M.Everett",TriggerText="Signal transmis à Morgan Everett",TriggerEvent=everettsignal,bTriggerOnceOnly=True)"
 
 [NanoKey1]
 Description="Code de la chambre de Beth"
 
 [DeusExLevelInfo0]
-MissionLocation="Paris - Château DuClare"
-startupMessage[0]="Château DuClare"
+MissionLocation="Paris - ChÂteau DuClare"
+startupMessage[0]="ChÂteau DuClare"
 startupMessage[1]="Environs de Paris"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=NicoletteDuClare,KeyID=Crypt_door,Description="Clé de la crypte")"

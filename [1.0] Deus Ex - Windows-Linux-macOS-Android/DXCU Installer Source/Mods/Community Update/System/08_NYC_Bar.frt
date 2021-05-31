@@ -13,4 +13,3 @@ UnfamiliarName="Harley Filben"
 
 [DeusExLevelInfo1]
 MissionLocation="NY - Bar L'Enfer"
-

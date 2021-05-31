@@ -20,7 +20,7 @@ UnfamiliarName="Police militaire chinoise"
 [DeusExLevelInfo0]
 MissionLocation="Hong Kong - Canal Road"
 startupMessage[0]="Tunnel de Canal Road"
-startupMessage[1]="terminal de WanChai"
+startupMessage[1]="Terminal de WanChai"
 
 [TriadRedArrow3]
 FamiliarName="Membre de la Flèche Rouge"
@@ -39,7 +39,7 @@ FamiliarName="Police militaire chinoise"
 UnfamiliarName="Police militaire chinoise"
 
 [LevelSummary]
-Title="Untitled"
+Title="Sans titre"
 
 [TriadLumPath4]
 FamiliarName="Membrede la Voie Lumineuse"
@@ -68,4 +68,3 @@ UnfamiliarName="Membre de la Flèche Rouge"
 [TriadRedArrow0]
 FamiliarName="Membre de la Flèche Rouge"
 UnfamiliarName="Membre de la Flèche Rouge"
-

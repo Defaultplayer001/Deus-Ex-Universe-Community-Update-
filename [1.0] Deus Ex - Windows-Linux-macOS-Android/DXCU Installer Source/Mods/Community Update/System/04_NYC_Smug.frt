@@ -2,8 +2,7 @@
 awardMessage="Bonus : secteur identifié"
 
 [DeusExLevelInfo1]
-MissionLocation="NYC - Repair du passeur"
+MissionLocation="NY - Repair du passeur"
 
 [LevelSummary]
 Title="Sans titre"
-

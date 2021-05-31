@@ -31,4 +31,3 @@ Title="Sans titre"
 Views[0]="(titleString="Complexe SATCOM",cameraTag=UN_CamSystem01,doorTag=satcomhatch)"
 Views[1]="(titleString="Extérieur du QG de l'UNATCO",cameraTag=UN_CamSystem02)"
 Views[2]="(titleString="Intérieur du QG de l'UNATCO",cameraTag=UN_CamSystem03)"
-

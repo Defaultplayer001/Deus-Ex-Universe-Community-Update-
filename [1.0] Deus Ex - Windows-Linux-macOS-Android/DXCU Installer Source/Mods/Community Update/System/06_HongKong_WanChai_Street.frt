@@ -9,7 +9,7 @@ FamiliarName="May Sung"
 [ComputerSecurity3]
 Views[0]="(titleString="Entrée de service",cameraTag=lobbycam1,doorTag=ServiceDoor)"
 Views[1]="(titleString="Entrée des ascenseurs",cameraTag=lobbycam2)"
-Views[2]="(titleString="Entrée du bâtiment",cameraTag=lobbycam3)"
+Views[2]="(titleString="Entrée du bÂtiment",cameraTag=lobbycam3)"
 
 [SkillAwardTrigger6]
 awardMessage="Bonus : exploration"
@@ -26,8 +26,8 @@ FamiliarName="Ecolière"
 UnfamiliarName="Ecolière"
 
 [NanoKey0]
-PickupMessage="Vous avez trouvé la clef de cet appartement."
-Description="Apprtement de Jock"
+PickupMessage="Vous avez trouvé la clé de cet appartement."
+Description="Appartement de Jock"
 
 [TriadLumPath1]
 FamiliarName="Membre de la Voie Lumineuse"
@@ -52,17 +52,16 @@ awardMessage="Bonus : exploration"
 [LevelSummary]
 Title="Sans titre"
 
-[ComputerSecurity1]
-Views[0]="(titleString="Terminal de l'agent Chow",cameraTag=Maggies_apt1,doorTag=vault_door)"
-Views[1]="(titleString="6e étage",cameraTag=Maggies_apt2)"
-Views[2]="(titleString="Poste de sécurité",cameraTag=Maggies_apt3)"
-
 [ComputerSecurity0]
-Views[0]="(titleString="Terminal de l'agent Chow",cameraTag=Maggies_apt1,doorTag=vault_door)"
-Views[1]="(titleString="6e étage",cameraTag=Maggies_apt2)"
-Views[2]="(titleString="Poste de sécurité",cameraTag=Maggies_apt3)"
+Views[0]="(titleString="Terminal de l'agent Chow",CameraTag=Maggies_apt1,doorTag=vault_door)"
+Views[1]="(titleString="7e étage",CameraTag=Maggies_apt2)"
+Views[2]="(titleString="Ascenseurs",CameraTag=lobbycam2)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Terminal de l'agent Chow",CameraTag=Maggies_apt1,doorTag=vault_door)"
+Views[1]="(titleString="7e étage",CameraTag=Maggies_apt2)"
+Views[2]="(titleString="Poste de sécurité",CameraTag=Maggies_apt3)"
 
 [TriadRedArrow0]
 FamiliarName="Membre de la Flèche Rouge"
 UnfamiliarName="Membre de la Flèche Rouge"
-

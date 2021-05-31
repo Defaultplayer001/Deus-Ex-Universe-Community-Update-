@@ -55,3 +55,7 @@ MissionLocation="Nouvelle côte ouest - Labo maritime"
 startupMessage[0]="labo maritime du MJ12"
 startupMessage[1]="Fond océanique"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MJ12glab,KeyID=Glab,Description="Clé du labo des Greasels")"
+NanoKeyData[1]="(ScriptedPawnTag=MJ12access,KeyID=Access,Description="Clé d'accès au corridor")"
+NanoKeyData[2]="(ScriptedPawnTag=MJ12storage,KeyID=storage,Description="Clé de la réserve")"

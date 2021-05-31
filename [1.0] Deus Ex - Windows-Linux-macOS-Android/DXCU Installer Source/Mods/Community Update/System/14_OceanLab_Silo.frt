@@ -15,11 +15,11 @@ awardMessage="Bonus : avancement"
 
 [ComputerSecurity0]
 Views[0]="(titleString="Silo",cameraTag=rocketcam)"
-Views[1]="(titleString="Rockettes",cameraTag=rocketcam2)"
-specialOptions[0]="(Text="Initier un nouveau lancement",TriggerText="Launch Initiated",TriggerEvent=klax,bTriggerOnceOnly=True)"
+Views[1]="(titleString="Propulseurs",cameraTag=rocketcam2)"
+specialOptions[0]="(Text="Initier un nouveau lancement",TriggerText="Lancement initialisé",TriggerEvent=klax,bTriggerOnceOnly=True)"
 
 [SpecialEvent5]
-Message="Lancement des missiles avorté"
+Message="Lancement du missile avorté"
 
 [NanoKey8]
 Description="Code de l'entrée principale"
@@ -28,11 +28,10 @@ Description="Code de l'entrée principale"
 awardMessage="Bonus : objectif atteint"
 
 [NanoKey1]
-Description="portes des camions"
+Description="Portes des camions"
 
 [SecurityCamera3]
 FamiliarName="Silo à missiles"
 
 [DeusExLevelInfo1]
 MissionLocation="Nouvelle côte ouest - Silo à missiles"
-

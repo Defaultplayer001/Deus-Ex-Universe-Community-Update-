@@ -42,7 +42,7 @@ UnfamiliarName="Agent modifié de l'UNATCO"
 Description="Code de la porte du bureau"
 
 [NanoKey3]
-Description="Clef du placard du labo médical"
+Description="Clé du placard du labo médical"
 
 [NanoKey4]
 Description="Code de la porte du bureau"
@@ -78,7 +78,7 @@ UnfamiliarName="Agent de l'UNATCO"
 
 [Female0]
 FamiliarName="Shannon"
-UnfamiliarName="Admin"
+UnfamiliarName="Administratrice"
 
 [SecurityCamera6]
 FamiliarName="UN_proteus_cam"
@@ -87,7 +87,7 @@ FamiliarName="UN_proteus_cam"
 Message="Schéma rétinien non-compatible ; accès refusé à l'agent Denton"
 
 [RetinalScanner0]
-msgUsed="Schéma rétinien compatible ; accès autorisé à l'agent Denton "
+msgUsed="Schéma rétinien compatible ; accès autorisé à l'agent Denton"
 
 [SpecialEvent1]
 Message="Aucun nouveau message"
@@ -102,5 +102,4 @@ UnfamiliarName="Directeur de l'UNATCO"
 FamiliarName="UN_coupe-feu_medcam"
 
 [NanoKey2]
-Description="Clef du placard de l'UNATCO"
-
+Description="Clé du placard de l'UNATCO"

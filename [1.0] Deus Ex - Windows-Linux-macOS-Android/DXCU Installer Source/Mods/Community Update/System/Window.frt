@@ -22,7 +22,7 @@ NoButton=&Non
 AgreeButton=J'&accepte
 LanguagePrompt=Langue :
 LanguageWindow=Sélection de la langue
-LogWindow=%s Fenêtre de connection
+LogWindow=%s Fenêtre de connexion
 PropNone=aucune sélection
 PropSingle=%s Propriétés
 PropMulti=%s Propriétés (%i sélectionnée)
@@ -34,7 +34,7 @@ High=Haut
 
 [FirstRun]
 Caption=Configuration initiale
-LowMemory=Deus Ex a détecté que vous disposez de %i Mo de mémoire disponible. Afin d'améliorer les performances, les options "Textures de faibles quakité" et "Sons de faible qualité" ont été activées.  Vous pouvez modifier ces réglages dans le menu "Réglage des performances".
+LowMemory=Deus Ex a détecté que vous disposez de %i Mo de mémoire disponible. Afin d'améliorer les performances, les options "Textures de faibles qualité" et "Sons de faible qualité" ont été activées.  Vous pouvez modifier ces réglages dans le menu "Réglage des performances".
 NonMMX=Deus Ex a détecté que vous utilisez un PC non-MMX. En conséquence, le calcul sonore a été modifié afin d'utiliser le moins possible le processeur. Vous pouvez modifier ces réglages dans le menu "Options avancées/Audio".
 Starting=Deus Ex démarre avec de nouveaux réglages. En cas de problème, veuillez consulter la section dépannage des notes, accessibles depuis le menu "Démarrer".
 

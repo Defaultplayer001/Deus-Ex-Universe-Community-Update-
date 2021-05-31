@@ -60,7 +60,7 @@ FamiliarName="Caporal Collins"
 UnfamiliarName="Soldat de l'UNATCO"
 
 [DeusExLevelInfo0]
-MissionLocation="NYC - UNATCO HQ"
+MissionLocation="NY - QG de l'UNATCO"
 
 [SecurityCamera0]
 FamiliarName="UN_entréecam01"
@@ -81,7 +81,7 @@ UnfamiliarName="Soldat de l'UNATCO"
 
 [Terrorist0]
 FamiliarName="Terroriste prisionnier"
-UnfamiliarName="Terroristeprisonnier"
+UnfamiliarName="Terroriste prisonnier"
 
 [NanoKey0]
 Description="Code du bureau de Manderley"
@@ -89,3 +89,5 @@ Description="Code du bureau de Manderley"
 [SecurityCamera2]
 FamiliarName="UN_QMcam01"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=WaltonSimons,KeyID=ManderleyOfficeDoor,Description="Clé de la porte du bureau de Manderley")"

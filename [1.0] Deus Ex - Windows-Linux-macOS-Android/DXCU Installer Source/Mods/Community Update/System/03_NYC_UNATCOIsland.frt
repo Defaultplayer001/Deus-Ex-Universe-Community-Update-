@@ -38,4 +38,3 @@ UnfamiliarName="Garde du corps"
 [BlackHelicopter0]
 FamiliarName="Hélicoptère de Jock"
 UnfamiliarName="Hélicoptère de Jock"
-

@@ -108,6 +108,10 @@ UnfamiliarName="Terroriste de la NSF"
 FamiliarName="Terroriste de la NSF"
 UnfamiliarName="Terroriste de la NSF"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=HarleyFilben,KeyID=ruin_key,Description="Clé de la statue en ruines")"
+NanoKeyData[1]="(ScriptedPawnTag=PaulDenton,KeyID=UN_maindoor,Description="Portes coupe-feu du QG de l'UNATCO")"
+
 [UNATCOTroop6]
 FamiliarName="Soldat Lloyd"
 
@@ -143,8 +147,8 @@ FamiliarName="Terroriste de la NSF"
 UnfamiliarName="Terroriste de la NSF"
 
 [TerroristCommander0]
-FamiliarName="Terroriste de la NSF Leader"
-UnfamiliarName="Terroriste de la NSF Leader"
+FamiliarName="Chef terroriste de la NSF"
+UnfamiliarName="Chef terroriste de la NSF"
 
 [SkillAwardTrigger8]
 awardMessage="Bonus : progression"
@@ -209,4 +213,3 @@ UnfamiliarName="Terroriste de la NSF"
 [Terrorist7]
 FamiliarName="Terroriste de la NSF"
 UnfamiliarName="Terroriste de la NSF"
-

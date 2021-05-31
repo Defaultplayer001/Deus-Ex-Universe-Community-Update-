@@ -24,4 +24,3 @@ awardMessage="Bonus : secteur identifié"
 
 [DeusExLevelInfo1]
 MissionLocation="Zone 51 - Entrée"
-

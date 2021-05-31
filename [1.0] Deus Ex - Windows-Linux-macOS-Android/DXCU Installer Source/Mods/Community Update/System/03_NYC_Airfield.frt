@@ -21,6 +21,10 @@ Views[1]="(titleString="Mitrailleuse gauche",cameraTag=sectower4camb,turretTag=s
 Views[0]="(titleString="Mitrailleuse droite",cameraTag=sectower3cama,turretTag=sectower3turreta)"
 Views[1]="(titleString="Mitrailleuse gauche",cameraTag=sectower3camb,turretTag=sectower3turretb)"
 
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=boatguard,KeyID=eastgate,Description="Clé de la porte Est")"
+NanoKeyData[1]="(ScriptedPawnTag=Terrorist,KeyID=securitytower,Description="Clé de la tour de sécurité")"
+
 [SkillAwardTrigger7]
 awardMessage="Bonus : avancement"
 
@@ -45,4 +49,3 @@ MissionLocation="NY - terrain d'aviation"
 
 [LevelSummary]
 Title="Sans titre"
-

@@ -117,9 +117,9 @@ if %PostExecExe%==true goto postexecprocess
 
 rem THIS is the command that ain't workin
 rem if not x"%ValueSafeFileName:Optional Files=%"==x"%ValueSafeFileName%" copy "%~dp0\%ValueSafeFileName%GroupHeaderAppend.ini" + "%~dp0\%ValueSafeFileName%FileListNearFinal.txt" "%~dp0\%ValueSafeFileName%FileListFinal.txt"
-pause
+
 copy "%~dp0\%ValueSafeFileName%GroupHeaderAppend.ini" + "%~dp0\%ValueSafeFileName%FileListNearFinal.txt" "%~dp0\%ValueSafeFileName%FileListFinal.txt"
-pause
+
 type "%~dp0\%ValueSafeFileName%SetupHeaderAppend.ini" >> "%~dp0\ManifestHeader-1-Setup.ini"
 
 type "%ValueSafeFileName%FileListFinal.txt" >> "%~dp0\ManifestHeader-3-Groups.ini"
