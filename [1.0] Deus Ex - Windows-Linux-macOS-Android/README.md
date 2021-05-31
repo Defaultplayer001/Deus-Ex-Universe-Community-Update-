@@ -119,6 +119,7 @@ If you install a translation, Confix will not be.
 
 ### Ini Changes:
 * Masterserver change
+* Minor keybind adjustments / FOV change from 75 to 90(Taken from Transcended)
 
 ### Demos
 * Deus Ex 1002f Demo (Includes the first mission)
@@ -132,6 +133,7 @@ If you install a translation, Confix will not be.
 * Confix (Conversation fixes)
 * OTPUIFix (UI Scaling fixes, not applied automatically, see readme in Help folder.)
 * RF (Revision Framework)
+* WinDrvLite/Ext (WinDrv Rewrite / Extension by Hanfling, disabled by default due to multi-monitor and UnrealEd issues. Enable by changing ViewportManager= to WinDrvLite.WindowsClientLite)
 * RenderExt (Render Extension from Revision)
 * Nephthys (MP Admin tool)
 * DXMTL (Multiplayer bug fixes)
@@ -274,7 +276,7 @@ Hawk: Deus Ex: Transcended, ConFix, Support, pointed out D3D10Drv Int typo, code
 
 Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2
 
-Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, HTK Commandlets, Editor Fix, UCC Fix, Support, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
+Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, WinDrvLite/Ext, HTK Commandlets, Editor Fix, UCC Fix, Support, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 https://www.patreon.com/hanfling/overview
 
