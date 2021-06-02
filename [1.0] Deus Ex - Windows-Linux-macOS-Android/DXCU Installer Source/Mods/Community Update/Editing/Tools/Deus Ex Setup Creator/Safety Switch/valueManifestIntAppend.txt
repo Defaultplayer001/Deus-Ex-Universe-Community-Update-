@@ -1,0 +1,4 @@
+
+[ValueGroup]
+Caption=Value
+Description=Deus Ex modification files. Installation is optional.

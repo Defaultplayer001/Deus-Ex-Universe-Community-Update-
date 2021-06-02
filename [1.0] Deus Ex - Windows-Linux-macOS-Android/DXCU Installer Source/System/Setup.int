@@ -32,7 +32,7 @@ DifferentVersion=This patch uses a different language than the version of %s on 
 
 [General]
 Space=%i Megabytes
-Ready=Setup is ready to install %s.\nThe destination folder is: %s\n\nClick "Install" to begin installation.\nClick "Cancel" to exit without installing %s.
+Ready=Setup is ready to install the %s.\nThe destination folder is: %s\n\nClick "Install" to begin installation.\nClick "Cancel" to exit without installing the %s.
 InstallCancel=Cancel Installation
 CancelPrompt=Warning!  Cancelling the installation now will prevent %s from functioning properly.  Are you sure you want to cancel it?
 DidCancel=You cancelled installation.  The product has not been successfully installed and will not function correctly.
@@ -54,7 +54,7 @@ IDC_Complete=Installation Completed Successfully!
 IDC_CompleteReboot=Installation Completed Successfully!\nBefore playing, you must reboot your computer.
 
 [IDDIALOG_FilerPageWelcome]
-IDC_WelcomePrompt=You are about to install %s on your computer.\n\nClick "Next" to begin Setup, or click "Cancel" at any time to exit.\n\nThe information in the box below contains Web links you can click on to obtain more information.
+IDC_WelcomePrompt=You are about to install the %s on your computer.\n\nClick "Next" to begin Setup, or click "Cancel" at any time to exit.\n\nThe information in the box below contains Web links you can click on to obtain more information.
 IDC_WelcomePromptUpdate=This program will update your copy of %s to version %s.\n\nClick "Next" to begin Setup, or click "Cancel" at any time to exit.\n\nThe information in the box below contains Web links you can click on to obtain more information.
 IDC_LanguagePrompt=&Language
 
@@ -77,7 +77,7 @@ IDC_DependenciesFrame=Dependencies
 IDC_DependenciesText=Proceeding will uninstall the following components: %s
 
 [IDDIALOG_FilerPageFolder]
-IDC_FolderDescription=Setup will install %s in the following folder.\n\nTo install in this folder, click Next.\n\nTo install in a different folder, type the complete name of the new folder including the drive letter, for example: C:\\NewFolder
+IDC_FolderDescription=Setup will install the %s in the following folder.\n\nTo install in this folder, click Next.\n\nTo install in a different folder, type the complete name of the new folder including the drive letter, for example: C:\\NewFolder
 IDC_FolderDescriptionPatch=Setup will update the existing installation of %s in the following folder.\n\nTo proceed, click Next.\n\nIf you have more than one copy installed, type the complete name of the existing folder including the drive letter, for example: C:\\SomeFolder
 IDC_FolderDescriptionMissing=Setup will update an existing installation of %s.\n\nType the complete name of the existing folder including the drive letter, for example: C:\\SomeFolder
 IDC_FolderHolder=Destination Folder

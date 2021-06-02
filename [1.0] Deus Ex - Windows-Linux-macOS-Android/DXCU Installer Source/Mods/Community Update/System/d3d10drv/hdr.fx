@@ -76,16 +76,18 @@ Luminance adaptation
 PS_OUTPUT_SIMPLE_R32 PS_calculateAdaptedLum(PS_INPUT_SIMPLE input)
 {
 	PS_OUTPUT_SIMPLE_R32 output = (PS_OUTPUT_SIMPLE_R32)0;
-	float fAdaptedLum = inputTexture.Sample(samPointClamp, float2(0, 0) ).r;
-	float fCurrentLum = luminanceTex.Sample(samPointClamp, float2(0, 0) ).r;
+//	float fAdaptedLum = inputTexture.Sample(samPointClamp, float2(0, 0) ).r;
+//	float fCurrentLum = luminanceTex.Sample(samPointClamp, float2(0, 0) ).r;
 	
 	// The user's adapted luminance level is simulated by closing the gap between
 	// adapted luminance and current luminance by .5% every frame, based on a
 	// 30 fps rate. This is not an accurate model of human adaptation, which can
 	// take longer than half an hour.
-	float fNewAdaptation = fAdaptedLum + (fCurrentLum - fAdaptedLum) * ( 1 - pow( 0.995f, 30 * elapsedTime ) );
+//	float fNewAdaptation = fAdaptedLum + (fCurrentLum - fAdaptedLum) * ( 1 - pow( 0.995f, 130 * elapsedTime ) );
+	float fNewAdaptation = 0.019f; //0.1 - too dark // 0.03 // 0.04 smaller value = more overbright.
+//	output.color = fNewAdaptation;
 	output.color = fNewAdaptation;
-	
+
 	return output;
 }
 

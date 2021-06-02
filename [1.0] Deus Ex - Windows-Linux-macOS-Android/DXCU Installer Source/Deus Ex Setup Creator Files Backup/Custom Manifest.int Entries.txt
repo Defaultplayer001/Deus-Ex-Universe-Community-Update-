@@ -1,6 +1,6 @@
 [ModsCommunity UpdateDemoGroup]
 Caption=Demo
-Description=Official Deus Ex Mission 1 & 2 demos combined and updated to 1112fm (GOTY). Uses all fixes the full version does. 
+Description=Official Deus Ex Mission 1 and 2 demos combined and updated to 1112fm (GOTY). Uses all fixes the full version does. Note: If installed will skip intro and the game will end after M02. However the resulting install will now be portable and can be moved wherever you like independed of the root Deus Ex folder. Can be used for portable multiplayer / limited editing. 
 
 [DXCUGameGroup]
 Caption=Deus Ex Community Update

@@ -1,8 +1,14 @@
 [PlayShortcut]
 Caption=Jouer ・Deus Ex
 
+[MPPlayShortcut]
+Caption=Jouer ・Deus Ex Multiplayer
+
 [DesktopPlayShortcut]
 Caption=Jouer ・Deus Ex
+
+[MPDesktopPlayShortcut]
+Caption=Jouer ・Deus Ex Multiplayer
 
 [EditorShortcut]
 Caption=ﾉditeur de Deus Ex

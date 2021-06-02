@@ -1,8 +1,14 @@
 [PlayShortcut]
 Caption=Deus Ex Community Update spielen
 
+[MPPlayShortcut]
+Caption=Deus Ex Multiplayer spielen
+
 [DesktopPlayShortcut]
 Caption=Deus Ex Community Update spielen
+
+[MPDesktopPlayShortcut]
+Caption=Deus Ex Multiplayer spielen
 
 [EditorShortcut]
 Caption=Deus-Ex-Community-Update-Editor

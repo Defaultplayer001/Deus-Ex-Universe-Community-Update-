@@ -71,7 +71,10 @@ del "%~dp0\ModsCommunity UpdateFileListFinal.txt"
 del "%~dp0\ModsCommunity UpdateLanguagesConfixSystemFileListFinal.txt"
 del "%~dp0\ModsCommunity UpdateLanguagesConfix (Russian Port)FileListFinal.txt"
 
-copy "ManifestHeader-1-Setup.ini" + "ManifestHeader-2-Game Group.ini" + "*FileListFinal.txt" + "ManifestHeader-3-Groups.ini" "%~dp0\System\Manifest.ini"
+rem Used to override manifest with custom group order. Reverse rem comment to generate a new unorganized group list.
+copy "ManifestHeader-1-Setup (Custom Override).ini" + "ManifestHeader-2-Game Group.ini" + "*FileListFinal.txt" + "ManifestHeader-3-Groups.ini" "%~dp0\System\Manifest.ini"
+rem Original
+rem copy "ManifestHeader-1-Setup.ini" + "ManifestHeader-2-Game Group.ini" + "*FileListFinal.txt" + "ManifestHeader-3-Groups.ini" "%~dp0\System\Manifest.ini"
 
 rem type *FileListFinal.txt >> "%~dp0\System\Manifest.ini"
 

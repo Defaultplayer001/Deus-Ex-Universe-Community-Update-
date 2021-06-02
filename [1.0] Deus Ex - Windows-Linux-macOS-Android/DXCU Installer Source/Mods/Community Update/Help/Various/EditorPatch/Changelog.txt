@@ -1,0 +1,29 @@
+20190628:
+ - Added ACTOR SEARCH command.
+ - Added ACTOR SELECT OFFSUBCLASS/OFTAG/OFEVENT/OFATTACHTAG/OFBINDNAME/OFBARKBINDNAME commands.
+ - Added ROOTOUTSIDE parameter to MAP NEW command.
+ - Added SELECT ALL COMMAND which invokes ACTOR SELECT ALL command to work around the broken
+   command in VisualBasic Editor.
+ - Added SKY LINK/UNLINK/TOGGLELINK commands for SkyZone preview.
+ - Added WARP LINK/UNLINK/TOGGLELINK commands for WarpZone preview.
+ - Fixed crashes and issues related to MAP BRUSH PUT/GET.
+ - Show name of of selected surface texture inside the log if surface properties are open.
+   I know this sucks, but I can't easily modify the VisualBasic part of the UI, so thats is
+   as good as it gets for now.
+ - Flush before lighting rebuild.
+ - Map to open can be passed by commandline (pass it before other options such as ini files)
+ - EditorPatch.EditorPatchEngine will now prefer EditorClient and EditorRender configuration entry 
+   over ViewportManager and Render configuration entry.
+ - Workaround for CAMERA CLOSE FREE command breaking all "non free" viewports.
+ - Added MESHMAP SETPOLYFLAGS command.
+ - Added TaggedPackage commandlet.
+
+Past:
+ - Fixed preferences window crashing when no actor is selected.
+ - Fixed blackout/crash when too many bsp surfaces are lit at once.
+ - Fixed decals not properly showing up in mirrors.
+ - Changed map file selection mask to *.dx
+ - Fixed Fatness getting inverted in mirrors.
+ - Updated Surface Flags.
+ - Set /LARGEADDRESSAWARE flag and increased stack size of UnrealEd.exe.
+ - A few non Editor related fixes in RenderExt.dll/Window.dll.

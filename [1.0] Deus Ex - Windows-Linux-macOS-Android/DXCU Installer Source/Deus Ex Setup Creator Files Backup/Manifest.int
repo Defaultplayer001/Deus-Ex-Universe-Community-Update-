@@ -56,8 +56,14 @@ Description=Create shortcut on the Desktop.
 [PlayShortcut]
 Caption=Play Deus Ex Mod
 
+[MPPlayShortcut]
+Caption=Play Deus Ex Multiplayer
+
 [DesktopPlayShortcut]
 Caption=Play Deus Ex Mod
+
+[MPDesktopPlayShortcut]
+Caption=Play Deus Ex Multiplayer
 
 [SafeModeShortcut]
 Caption=Deus Ex Safe Mode
@@ -108,10 +114,10 @@ Caption=Eidos Interactive Store Web Page
 Caption=Planet Deus Ex Web Page
 
 [UninstallShortcut]
-Caption=Uninstall Deus Ex
+Caption=Uninstall Deus Ex Community Update
 
 [DesktopUninstallShortcut]
-Caption=Uninstall Deus Ex
+Caption=Uninstall Deus Ex Community Update
 
 [ModRequirements]
 LocalProduct=Deus Ex
@@ -127,3 +133,7 @@ Description=Conversation logic and typo fixes.
 [TranscendedDefaultThemeFiles]
 Caption=Default Theme for Transcended
 Description=By default Transcended uses a blue theme. This switches it back to the default one.
+
+[TranscendedDefaultUser.ini(Theme+FOV)Files]
+Caption=Default Transcended User Settings
+Description=By default Transcended uses a blue theme (Cops) and a higher FOV (75 vs 90). The CU automatically sets those values back to their default vanilla ones, this will override that and use the default Transcended settings. Note: RF has a minimum FOV of 80, so this value of 75 will be adjusted to that.

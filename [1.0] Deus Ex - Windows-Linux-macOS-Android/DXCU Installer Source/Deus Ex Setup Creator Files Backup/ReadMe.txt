@@ -43,27 +43,15 @@ Setup creation instructions below
 
 Community Update Manual customization notes:
 
+Everything automated currently! 
 
-Change group list in manifest like so for proper sorting:
-Group=DXCUGameGroup
-Group=ModsCommunity UpdateTranscendedGroup
-Group=TranscendedDefaultThemeFiles
-Group=ConfixGroup
-Group=InstallLanguageFiles
-Group=ModsCommunity UpdateDemoGroup
-Group=Custom LogoGroup
-Group=PlayShortcutGroup
-Group=DesktopPlayShortcutGroup
-PostExec=InstallLanguageFilesINT
-PostExec=InstallLanguageFilesJPT
-PostExec=InstallLanguageFilesRUT
-PostExec=InstallLanguageFilesHUT
-PostExec=InstallLanguageFilesPLT
-PostExec=TranscendedDefaultTheme
-PostExec=Custom Logo
+Don't forget if you wanna generate a new manifest group list you'll need to edit Manifest Merge.bat.
+
+Oh and anything in the optional files with "Demo" in the folder name gets seletected=false! (Could probably automate this and insert it into the main setup creator. Maybe instead of demo, a "false" string or somethin' that gets deleted before writing the name.)
+
+Keeping this section to make those notes and for when it is inevitably needed again.
 
 
-Change Selected=True to false for [ModsCommunity UpdateDemoGroup]
 
 
 Note: This ReadMe assumes your mod has already been set up with "DXCU Install Framework"

@@ -4,4 +4,4 @@ Preferences=(Caption="Audio"",Parent="Advanced Options")
 Preferences=(Caption="ALAudio",Parent="Audio",Class=ALAudio.ALAudioSubsystem,Immediate=True)
 
 [ALAudioSubsystem]
-ClassCaption="ALAudioSubsystem"
+ClassCaption="ALAudioSubsystem (Better audio quality, worse Lip-Sync)"

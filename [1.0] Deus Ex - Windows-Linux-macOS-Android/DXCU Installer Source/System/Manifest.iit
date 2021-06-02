@@ -1,8 +1,14 @@
 [PlayShortcut]
 Caption=Gioca a Deus Ex Community Update
 
+[MPPlayShortcut]
+Caption=Gioca a Deus Ex Multiplayer
+
 [DesktopPlayShortcut]
 Caption=Gioca a Deus Ex Community Update
+
+[MPDesktopPlayShortcut]
+Caption=Gioca a Deus Ex Multiplayer
 
 [EditorShortcut]
 Caption=Editor di Deus Ex Community Update

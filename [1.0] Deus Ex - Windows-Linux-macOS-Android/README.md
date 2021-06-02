@@ -119,7 +119,7 @@ If you install a translation, Confix will not be.
 
 ### Ini Changes:
 * Masterserver change
-* Minor keybind adjustments / FOV change from 75 to 90(Taken from Transcended)
+* Minor keybind adjustments (Taken from Transcended)
 
 ### Demos
 * Deus Ex 1002f Demo (Includes the first mission)
@@ -149,16 +149,16 @@ If you install a translation, Confix will not be.
 ### Video Renderers;
 * Nglide (3dfx emulator)
 	* Note if you use Nglide: Set resolution with nglide_config.exe in \system, set in-game res to a default. 
-* Direct3D 10 
+* Direct3D 10 (With Veronika's HDR Brightness Fix)
 * Direct3D 9
 * Direct3D 8 (outdated, use another unless neccessary)
 * OpenGl (Updated) 
 * Uglide (In archive, extract the setup exe to access)
 	
 ### Audio Renderers:
-* OpenAL (Higher quality playback then the default Galaxy renderer, worse lip synching)
-* SWFMod (No lip-synch)
-* Inidirect Sound (Enables 3D hardware sound. Not functioning?)
+* OpenAL (Higher quality playback then the default Galaxy renderer, worse Lip-Syncing)
+* SWFMod (No Lip-Sync)
+* Cluster (No Lip-Sync)
 	
 ### Editing: 
 * Editing pack based off Deus Ex Editing Pack 2.2
@@ -188,7 +188,8 @@ If you install a translation, Confix will not be.
 * UModel 
 * Tutorials: UED2 manual, Tack's site and Universal Constructor site
 #### Also included:
-* Deus Ex Editor Fix
+* Deus Ex Editor Patch
+* Editor.dll hex-edited to show an increased 1024x1024/2048x2048 resolution of temporary viewport for shadowmap creation.ViewportSize
 * HTK Commandlets 
 * MoreTriggers (A collections of useful triggers)
 
@@ -272,11 +273,11 @@ Full credits should be the same as the final game, located in Credits.DX
 
 https://www.dx-revision.com/
 
-Hawk: Deus Ex: Transcended, ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision for fixing inventory bug when the player dies holding a weapon and starts a new game.
+Hawk: Deus Ex: Transcended, ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision for fixing inventory bug when the player dies holding a weapon and starts a new game, *The* 
 
 Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2
 
-Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, WinDrvLite/Ext, HTK Commandlets, Editor Fix, UCC Fix, Support, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
+Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, WinDrvLite/Ext, HTK Commandlets, Editor Fix / Patch (Patch a superset of Fix), Hex Edited Editor.dll, UCC Fix, Support, Cluster, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 https://www.patreon.com/hanfling/overview
 
@@ -405,7 +406,7 @@ http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
 bird: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly, MoreTriggers (Compiled)
 
-Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, 
+Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, HDR Brightness Fix
 
 Vauclair: German Language install testing, support. 
 

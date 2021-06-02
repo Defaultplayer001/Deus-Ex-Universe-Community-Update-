@@ -36,6 +36,8 @@ Rem Create custom append files
 if not x"%ValueSafeFileName:Optional Files=%"==x"%ValueSafeFileName%" type "%~dp0\Deus Ex Setup Creator Files Backup\valueManifestIntAppend.txt" > "%~dp0\%ValueSafeFileName%ManifestIntAppend.ini"
 if not x"%ValueSafeFileName:Optional Files=%"==x"%ValueSafeFileName%" type "%~dp0\Deus Ex Setup Creator Files Backup\valueSetupHeaderAppend.txt" > "%~dp0\%ValueSafeFileName%SetupHeaderAppend.ini"
 if not x"%ValueSafeFileName:Optional Files=%"==x"%ValueSafeFileName%" type "%~dp0\Deus Ex Setup Creator Files Backup\valueGroupHeaderAppend.txt" > "%~dp0\%ValueSafeFileName%GroupHeaderAppend.ini"
+if not x"%ValueSafeFileName:Demo=%"==x"%ValueSafeFileName%" type "%~dp0\Deus Ex Setup Creator Files Backup\valueGroupHeaderAppend (Selected=False).txt" > "%~dp0\%ValueSafeFileName%GroupHeaderAppend.ini"
+
 
 rem Ah, issue was actually with the empty "Optional Files" root folder being caught impartially. 
 
