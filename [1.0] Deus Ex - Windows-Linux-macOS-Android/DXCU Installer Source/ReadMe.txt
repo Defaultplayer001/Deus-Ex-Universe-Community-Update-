@@ -25,13 +25,13 @@ To change langauge:
 1. Open "Deus Ex Community Update.int". (Default.ini as well if you want to change the default setting.)
 
 2. Change Language=int into the desired language code:
-;dxcu=English (Use "Confix Enable.exe" to enable Confix. DeusEx.u renamed to .dxcu for HUT compatibility reasons. Other files likewise kept as .int files to not break standard ompatibility.) 
+;DXCU=English (Use "Confix Enable.exe" to enable Confix. DeusEx.u renamed to .DXCU for HUT compatibility reasons. Other files likewise kept as .int files to not break standard ompatibility.) 
 ;czt=Cestina
 ;det=Deutsch 
 ;est=Espanol
 ;frt=Francais
 ;itt=Italiano
-;hut=magyar (Use SystemFilesHUT.exe instead, not completely interoperable.)
+;hut=magyar
 ;plt=Polskie
 ;ptt=Portugues
 ;rut=Russian (Use "Confix Enable (Russian).exe" to enable the Confix port.)
@@ -54,17 +54,17 @@ Keeping this section to make those notes and for when it is inevitably needed ag
 
 
 
-Note: This ReadMe assumes your mod has already been set up with "DXCU Install Framework"
+Note: This ReadMe assumes your mod has already been set up with "Deus Ex Mod Install Framework"
 
 Create / update a mod installer:
 
-1. Right click to edit "(Right click to edit this and put in your mod name) Rename DXCU.bat"
+1. Right click to edit "(Right click to edit this and put in your mod name) Rename Deus Ex Mod.bat"
 
 2. Edit values as indicated
 
 3. Copy / paste the .bat into the "Safety Switch" / "Deus Ex Setup Creator Files Backup" folder, overwriting when asked
 
-4. Run "(Run this!) Create DXCU Setup.bat"
+4. Run "(Run this!) Create Deus Ex Mod Setup.bat" (Note: Everything in the root directory will be deleted after manifest creation!)
 
 If no files were ADDED or REMOVED, the following can also simply be done. 
 Update a mod installer:
@@ -81,18 +81,18 @@ Update your mod:
 
 2. Double check that the new package actually runs properly before creaing the setup
 
-3. Run "(Run this!) Create DXCU Setup.bat"
+3. Run "(Run this!) Create Deus Ex Mod Setup.bat" (Note: Everything in the root directory will be deleted after manifest creation!)
 
 
 
 Further customize your mod installer: 
 
 1. Edit ini/int files in the "Safety Switch" / "Deus Ex Setup Creator Files Backup" folder, NOT "System"
-	Note: Any replaced "DXCU" strings will no longer be automatically handled by "-Rename DXCU.bat"
+	Note: Any replaced "Deus Ex Mod" strings will no longer be automatically handled by "-Rename Deus Ex Mod.bat"
 
 2. See "Manifest.ini Usage.txt" for further information
 
-3. Run "(Run this!) Create DXCU Setup.bat"
+3. Run "(Run this!) Create Deus Ex Mod Setup.bat" (Note: Everything in the root directory will be deleted after manifest creation!)
 
 Add custom header / shortcut icon (2 methods):
 

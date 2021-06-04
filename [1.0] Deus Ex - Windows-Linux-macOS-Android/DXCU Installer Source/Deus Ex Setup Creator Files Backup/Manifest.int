@@ -69,10 +69,10 @@ Caption=Play Deus Ex Multiplayer
 Caption=Deus Ex Safe Mode
 
 [EditorShortcut]
-Caption=Deus Ex Editor
+Caption=Deus Ex Community Update Editor
 
 [DesktopEditorShortcut]
-Caption=Deus Ex Editor
+Caption=Deus Ex Community Update Editor
 
 [DocumentationShortcut]
 Caption=Documentation
@@ -137,3 +137,11 @@ Description=By default Transcended uses a blue theme. This switches it back to t
 [TranscendedDefaultUser.ini(Theme+FOV)Files]
 Caption=Default Transcended User Settings
 Description=By default Transcended uses a blue theme (Cops) and a higher FOV (75 vs 90). The CU automatically sets those values back to their default vanilla ones, this will override that and use the default Transcended settings. Note: RF has a minimum FOV of 80, so this value of 75 will be adjusted to that.
+
+[1002fMaps]
+Caption=1002f Maps (Select if not using Transcended)
+Description=1112fm (GOTY) retail copies shipped with bad copies of the maps, these override them with the 1002f maps. (Excluding any maps that were unchanged between versions.) These are the same files as DXM's Map Patch, aside 3 files with currently unknown minor changes.
+
+[EditingExtras]
+Caption=Editing Extras
+Description=Numerous extra tools and documentation for editing, including a UED2 for Deus Ex package. Based on Deus Ex Editing PACK 2.2. Updated standard UED package will still be installed and given a shortcut whether or not this is selected.

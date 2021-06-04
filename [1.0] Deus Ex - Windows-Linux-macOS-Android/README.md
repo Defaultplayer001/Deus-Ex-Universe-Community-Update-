@@ -93,7 +93,36 @@ Everyone has their own vision of how Deus Ex should be, and while we can't promi
 * Both of the above also happen with a vanilla install as well. Not DXCU related. Both also have currently unknown causes. 
 ***
 
-The package Includes the following:
+### Why is this so big? 
+A 700mb installer certainly isn't ideal for a Deus Ex mod. Options such as delta compression have been looked into, but with unsatisfactory results so far.
+If anyone has any suggestions for cutting the file size down, let us know! 
+
+Here's the current breakdown (Sizes approximate):
+
+* Maps: 600mb https://i.imgur.com/CPXYRqt.png (DXT + 1002f)
+* Language files: 650mb https://i.imgur.com/eD7rUgq.png (Russian / English Confix + Demo / Translation .con files + Japanese Port) 
+* Demo: 100mb https://i.imgur.com/vQDgkhi.png
+* Editing resources: 100mb https://i.imgur.com/rBLaszF.png (UED2 + Various Tools / Documentation)
+* System: 150mb https://i.imgur.com/6J2kLN5.png (1112fm patch, numerous community made fixes, Motherlode of Language Files, Alternate EXEs / Renderers / Transcended system files)
+
+#### Total: 690mb* (English / Russian DXT+Confix Install) / 1.6gb (Everything / Source)
+* -330mb if not using Transcended https://i.imgur.com/qtDDGJQ.png
+* -200mb if not using Confix (Russian or English) https://i.imgur.com/r2UNPAg.png
+
+### Can I just use the Transcended standalone installer + Confix if I'm playing in English and want to use DXT?
+Pretty much, yeah!
+
+CU has some specific compatibility patches for using DXT with other translations, but it was developed in English so no issue there ofc.
+
+Using this is arguably more convienent if you don't care so much about file size, since it already includes Confix - 
+But if you don't care about that then yeah, exact same thing aside from the noted minor .ini customizations. 
+They use all the same core engine fixes, same installer too. 
+
+There's also the extra renderers / editing tools / demo and multiplayer, but again if you don't care about those then yeah, using just DXT + Confix will work for you!
+
+https://www.moddb.com/mods/deus-ex-transcended
+
+## The package Includes the following:
 
 
 ### Translations: 
@@ -189,7 +218,7 @@ If you install a translation, Confix will not be.
 * Tutorials: UED2 manual, Tack's site and Universal Constructor site
 #### Also included:
 * Deus Ex Editor Patch
-* Editor.dll hex-edited to show an increased 1024x1024/2048x2048 resolution of temporary viewport for shadowmap creation.ViewportSize
+* Editor.dll hex edited to show an increased 1024x1024/2048x2048 resolution of temporary viewport for shadowmap creation.ViewportSize
 * HTK Commandlets 
 * MoreTriggers (A collections of useful triggers)
 
@@ -375,7 +404,7 @@ D.X.M: Deus Ex Maps Patch, Frech Patch
 
 https://www.dxm.be/navigator.php5?lang=en&content=202
 
-Author Unknown (If you know please let us know!): Engine.dll fix 
+Author Unknown (If you know please let us know!): Engine.dll Demo Recording fix 
 
 http://www.deusexnetwork.com/files/DX1/patches/6083/engine-dll-fix.zip
 
@@ -457,7 +486,7 @@ DDL: MoreTriggers
 Sheep: MoreTriggers
 http://offtopicproductions.com/forum/viewtopic.php?f=36&t=11621 (Latest version taken from TNM 2.0)
 
-Baba O'riley Gaming, Tedder, Boss Baby Gaming: Speedup fix
+Baba O'riley Gaming, Tedder, Boss Baby Gaming: Engine.dll Speedup fix
 https://steamcommunity.com/sharedfiles/filedetails/?id=2048525175
 
 Angus Johnson: Resource Hacker
@@ -491,3 +520,5 @@ https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues
 We also have a Trello (To-do list) here:
 
 https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
+
+\* *nice*

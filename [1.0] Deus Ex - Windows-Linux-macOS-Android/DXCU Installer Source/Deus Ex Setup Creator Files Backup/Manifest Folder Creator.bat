@@ -4,7 +4,7 @@ Rem Here because the source value append text files keep getting merged for some
 
 rem del "%~dp0\value*.*"
 
-del /ah "Desktop.ini" /s /q
+del /ah "Desktop.ini" /s /q /f
 
 rem Ah, issue was actually with the empty "Optional Files" root folder being caught impartially. 
 rem In the wrong place - Gotta set it after it's created in the middle of the script, duh.
@@ -74,23 +74,15 @@ sed -i "s/^/File=(Src=\"%ValueDir%\\/" "%ValueSafeFileName%FileList.txt"
 
 cd "%Value%"
 
-del /ah "Desktop.ini" /s /q
+del /ah "Desktop.ini" /s /q /f
 
-for /F "skip=1 tokens=4" %%a in ('dir /a-h') do echo %%a >> "%~dp0\%ValueSafeFileName%FileSizeList.txt"
+Rem JFC thank you Han for telling me about zI
+
+for %%I in (*.*) do echo %%~zI >> "%~dp0\%ValueSafeFileName%FileSizeList.txt"
 
 cd "%~dp0"
 
-"%~dp0\fart.exe" "%~dp0\%ValueSafeFileName%FileSizeList.txt" --remove "F"
-
-"%~dp0\fart.exe" "%~dp0\%ValueSafeFileName%FileSizeList.txt" --remove "is"
-
-"%~dp0\fart.exe" "%~dp0\%ValueSafeFileName%FileSizeList.txt" --remove "Installer"
-
-"%~dp0\fart.exe" "%~dp0\%ValueSafeFileName%FileSizeList.txt" --remove "<DIR>"
-
-"%~dp0\fart.exe" "%~dp0\%ValueSafeFileName%FileSizeList.txt" --remove "bytes"
-
-"%~dp0\fart.exe" "%~dp0\%ValueSafeFileName%FileSizeList.txt" --remove ","
+Rem Remove spaces
 
 "%~dp0\fart.exe" "%~dp0\%ValueSafeFileName%FileSizeList.txt" --remove " "
 

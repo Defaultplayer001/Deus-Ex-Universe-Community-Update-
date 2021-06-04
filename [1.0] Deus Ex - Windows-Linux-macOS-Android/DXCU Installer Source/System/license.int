@@ -29,7 +29,7 @@ As described by it's creator:
 Built largely for first timer players, Deus Ex: Transcended is a mod focused solely around faithfulness to the original, while bringing an unmatched arsenal of bug fixes, paired with key notes of Quality of Life changes.
 
 Sticklers may still wish to play the game how it was originally made - so the option to easily deselect this is available. 
-
+	
 However as a stickler myself, *it's worth it*.
 
 Also selected by default is "Confix", a conversation typo and logic patch.
@@ -93,7 +93,36 @@ Everyone has their own vision of how Deus Ex should be, and while we can't promi
 * Both of the above also happen with a vanilla install as well. Not DXCU related. Both also have currently unknown causes. 
 ***
 
-The package Includes the following:
+### Why is this so big? 
+A 700mb installer certainly isn't ideal for a Deus Ex mod. Options such as delta compression have been looked into, but with unsatisfactory results so far.
+If anyone has any suggestions for cutting the file size down, let us know! 
+
+Here's the current breakdown (Sizes approximate):
+
+* Maps: 600mb https://i.imgur.com/CPXYRqt.png (DXT + 1002f)
+* Language files: 650mb https://i.imgur.com/eD7rUgq.png (Russian / English Confix + Demo / Translation .con files + Japanese Port) 
+* Demo: 100mb https://i.imgur.com/vQDgkhi.png
+* Editing resources: 100mb https://i.imgur.com/rBLaszF.png (UED2 + Various Tools / Documentation)
+* System: 150mb https://i.imgur.com/6J2kLN5.png (1112fm patch, numerous community made fixes, Motherlode of Language Files, Alternate EXEs / Renderers / Transcended system files)
+
+#### Total: 690mb* (English / Russian DXT+Confix Install) / 1.6gb (Everything / Source)
+* -330mb if not using Transcended https://i.imgur.com/qtDDGJQ.png
+* -200mb if not using Confix (Russian or English) https://i.imgur.com/r2UNPAg.png
+
+### Can I just use the Transcended standalone installer + Confix if I'm playing in English and want to use DXT?
+Pretty much, yeah!
+
+CU has some specific compatibility patches for using DXT with other translations, but it was developed in English so no issue there ofc.
+
+Using this is arguably more convienent if you don't care so much about file size, since it already includes Confix - 
+But if you don't care about that then yeah, exact same thing aside from the noted minor .ini customizations. 
+They use all the same core engine fixes, same installer too. 
+
+There's also the extra renderers / editing tools / demo and multiplayer, but again if you don't care about those then yeah, using just DXT + Confix will work for you!
+
+https://www.moddb.com/mods/deus-ex-transcended
+
+## The package Includes the following:
 
 
 ### Translations: 
@@ -119,6 +148,7 @@ If you install a translation, Confix will not be.
 
 ### Ini Changes:
 * Masterserver change
+* Minor keybind adjustments (Taken from Transcended)
 
 ### Demos
 * Deus Ex 1002f Demo (Includes the first mission)
@@ -130,8 +160,9 @@ If you install a translation, Confix will not be.
 * 1002fm maps / Deus Ex Maps Patch (DXM's maps patch identical except for 3 maps, more info here: https://trello.com/c/NDetDM0v/27-figure-out-the-which-map-files-to-use-for-the-unofficial-map-patch-base-completed-using-the-1002f-files)
 * Engine.dll (Demo Recording Fix + Speedup fix)
 * Confix (Conversation fixes)
-* OTPUIFix (UI Scaling fixes, not applied automatically, see readme)
+* OTPUIFix (UI Scaling fixes, not applied automatically, see readme in Help folder.)
 * RF (Revision Framework)
+* WinDrvLite/Ext (WinDrv Rewrite / Extension by Hanfling, disabled by default due to multi-monitor and UnrealEd issues. Enable by changing ViewportManager= to WinDrvLite.WindowsClientLite)
 * RenderExt (Render Extension from Revision)
 * Nephthys (MP Admin tool)
 * DXMTL (Multiplayer bug fixes)
@@ -147,16 +178,16 @@ If you install a translation, Confix will not be.
 ### Video Renderers;
 * Nglide (3dfx emulator)
 	* Note if you use Nglide: Set resolution with nglide_config.exe in \system, set in-game res to a default. 
-* Direct3D 10 
+* Direct3D 10 (With Veronika's HDR Brightness Fix)
 * Direct3D 9
 * Direct3D 8 (outdated, use another unless neccessary)
 * OpenGl (Updated) 
 * Uglide (In archive, extract the setup exe to access)
 	
 ### Audio Renderers:
-* OpenAL (Higher quality playback then the default Galaxy renderer, worse lip synching)
-* SWFMod (No lip-synch)
-* Inidirect Sound (Enables 3D hardware sound. Not functioning?)
+* OpenAL (Higher quality playback then the default Galaxy renderer, worse Lip-Syncing)
+* SWFMod (No Lip-Sync)
+* Cluster (No Lip-Sync)
 	
 ### Editing: 
 * Editing pack based off Deus Ex Editing Pack 2.2
@@ -186,7 +217,8 @@ If you install a translation, Confix will not be.
 * UModel 
 * Tutorials: UED2 manual, Tack's site and Universal Constructor site
 #### Also included:
-* Deus Ex Editor Fix
+* Deus Ex Editor Patch
+* Editor.dll hex edited to show an increased 1024x1024/2048x2048 resolution of temporary viewport for shadowmap creation.ViewportSize
 * HTK Commandlets 
 * MoreTriggers (A collections of useful triggers)
 
@@ -270,11 +302,11 @@ Full credits should be the same as the final game, located in Credits.DX
 
 https://www.dx-revision.com/
 
-Hawk: ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision for fixing inventory bug when the player dies holding a weapon and starts a new game.
+Hawk: Deus Ex: Transcended, ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision for fixing inventory bug when the player dies holding a weapon and starts a new game, *The* 
 
 Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2
 
-Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, HTK Commandlets, Editor Fix, UCC Fix, Support, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
+Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, WinDrvLite/Ext, HTK Commandlets, Editor Fix / Patch (Patch a superset of Fix), Hex Edited Editor.dll, UCC Fix, Support, Cluster, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 https://www.patreon.com/hanfling/overview
 
@@ -372,7 +404,7 @@ D.X.M: Deus Ex Maps Patch, Frech Patch
 
 https://www.dxm.be/navigator.php5?lang=en&content=202
 
-Author Unknown (If you know please let us know!): Engine.dll fix 
+Author Unknown (If you know please let us know!): Engine.dll Demo Recording fix 
 
 http://www.deusexnetwork.com/files/DX1/patches/6083/engine-dll-fix.zip
 
@@ -403,7 +435,7 @@ http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715
 
 bird: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly, MoreTriggers (Compiled)
 
-Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, 
+Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, HDR Brightness Fix
 
 Vauclair: German Language install testing, support. 
 
@@ -454,7 +486,7 @@ DDL: MoreTriggers
 Sheep: MoreTriggers
 http://offtopicproductions.com/forum/viewtopic.php?f=36&t=11621 (Latest version taken from TNM 2.0)
 
-Baba O'riley Gaming, Tedder, Boss Baby Gaming: Speedup fix
+Baba O'riley Gaming, Tedder, Boss Baby Gaming: Engine.dll Speedup fix
 https://steamcommunity.com/sharedfiles/filedetails/?id=2048525175
 
 Angus Johnson: Resource Hacker
@@ -488,3 +520,5 @@ https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues
 We also have a Trello (To-do list) here:
 
 https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update
+
+\* *nice*

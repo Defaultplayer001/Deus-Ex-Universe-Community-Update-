@@ -56,7 +56,31 @@ Built largely for first timer players, Deus Ex: Transcended is a mod focused sol
 <li>Both of the above also happen with a vanilla install as well. Not DXCU related. Both also have currently unknown causes. </li>
 </ul>
 <hr>
-<p>The package Includes the following:</p>
+<h3 id="why-is-this-so-big-">Why is this so big?</h3>
+<p>A 700mb installer certainly isn&#39;t ideal for a Deus Ex mod. Options such as delta compression have been looked into, but with unsatisfactory results so far.
+If anyone has any suggestions for cutting the file size down, let us know! </p>
+<p>Here&#39;s the current breakdown (Sizes approximate):</p>
+<ul>
+<li>Maps: 600mb <a href="https://i.imgur.com/CPXYRqt.png">https://i.imgur.com/CPXYRqt.png</a> (DXT + 1002f)</li>
+<li>Language files: 650mb <a href="https://i.imgur.com/eD7rUgq.png">https://i.imgur.com/eD7rUgq.png</a> (Russian / English Confix + Demo / Translation .con files + Japanese Port) </li>
+<li>Demo: 100mb <a href="https://i.imgur.com/vQDgkhi.png">https://i.imgur.com/vQDgkhi.png</a></li>
+<li>Editing resources: 100mb <a href="https://i.imgur.com/rBLaszF.png">https://i.imgur.com/rBLaszF.png</a> (UED2 + Various Tools / Documentation)</li>
+<li>System: 150mb <a href="https://i.imgur.com/6J2kLN5.png">https://i.imgur.com/6J2kLN5.png</a> (1112fm patch, numerous community made fixes, Motherlode of Language Files, Alternate EXEs / Renderers / Transcended system files)</li>
+</ul>
+<h4 id="total-690mb-english-russian-dxt-confix-install-1-6gb-everything-source-">Total: 690mb* (English / Russian DXT+Confix Install) / 1.6gb (Everything / Source)</h4>
+<ul>
+<li>-330mb if not using Transcended <a href="https://i.imgur.com/qtDDGJQ.png">https://i.imgur.com/qtDDGJQ.png</a></li>
+<li>-200mb if not using Confix (Russian or English) <a href="https://i.imgur.com/r2UNPAg.png">https://i.imgur.com/r2UNPAg.png</a></li>
+</ul>
+<h3 id="can-i-just-use-the-transcended-standalone-installer-confix-if-i-m-playing-in-english-and-want-to-use-dxt-">Can I just use the Transcended standalone installer + Confix if I&#39;m playing in English and want to use DXT?</h3>
+<p>Pretty much, yeah!</p>
+<p>CU has some specific compatibility patches for using DXT with other translations, but it was developed in English so no issue there ofc.</p>
+<p>Using this is arguably more convienent if you don&#39;t care so much about file size, since it already includes Confix - 
+But if you don&#39;t care about that then yeah, exact same thing aside from the noted minor .ini customizations. 
+They use all the same core engine fixes, same installer too. </p>
+<p>There&#39;s also the extra renderers / editing tools / demo and multiplayer, but again if you don&#39;t care about those then yeah, using just DXT + Confix will work for you!</p>
+<p><a href="https://www.moddb.com/mods/deus-ex-transcended">https://www.moddb.com/mods/deus-ex-transcended</a></p>
+<h2 id="the-package-includes-the-following-">The package Includes the following:</h2>
 <h3 id="translations-">Translations:</h3>
 <p>Note: Translations not compatible with Confix. (Except for Russian, which has it&#39;s own port - which also may cfnot be up to date!)
 If you install a translation, Confix will not be. </p>
@@ -85,6 +109,7 @@ If you install a translation, Confix will not be. </p>
 <h3 id="ini-changes-">Ini Changes:</h3>
 <ul>
 <li>Masterserver change</li>
+<li>Minor keybind adjustments (Taken from Transcended)</li>
 </ul>
 <h3 id="demos">Demos</h3>
 <ul>
@@ -98,8 +123,9 @@ If you install a translation, Confix will not be. </p>
 <li>1002fm maps / Deus Ex Maps Patch (DXM&#39;s maps patch identical except for 3 maps, more info here: <a href="https://trello.com/c/NDetDM0v/27-figure-out-the-which-map-files-to-use-for-the-unofficial-map-patch-base-completed-using-the-1002f-files">https://trello.com/c/NDetDM0v/27-figure-out-the-which-map-files-to-use-for-the-unofficial-map-patch-base-completed-using-the-1002f-files</a>)</li>
 <li>Engine.dll (Demo Recording Fix + Speedup fix)</li>
 <li>Confix (Conversation fixes)</li>
-<li>OTPUIFix (UI Scaling fixes, not applied automatically, see readme)</li>
+<li>OTPUIFix (UI Scaling fixes, not applied automatically, see readme in Help folder.)</li>
 <li>RF (Revision Framework)</li>
+<li>WinDrvLite/Ext (WinDrv Rewrite / Extension by Hanfling, disabled by default due to multi-monitor and UnrealEd issues. Enable by changing ViewportManager= to WinDrvLite.WindowsClientLite)</li>
 <li>RenderExt (Render Extension from Revision)</li>
 <li>Nephthys (MP Admin tool)</li>
 <li>DXMTL (Multiplayer bug fixes)</li>
@@ -123,7 +149,7 @@ If you install a translation, Confix will not be. </p>
 <li>Note if you use Nglide: Set resolution with nglide_config.exe in \system, set in-game res to a default. </li>
 </ul>
 </li>
-<li>Direct3D 10 </li>
+<li>Direct3D 10 (With Veronika&#39;s HDR Brightness Fix)</li>
 <li>Direct3D 9</li>
 <li>Direct3D 8 (outdated, use another unless neccessary)</li>
 <li>OpenGl (Updated) </li>
@@ -131,9 +157,9 @@ If you install a translation, Confix will not be. </p>
 </ul>
 <h3 id="audio-renderers-">Audio Renderers:</h3>
 <ul>
-<li>OpenAL (Higher quality playback then the default Galaxy renderer, worse lip synching)</li>
-<li>SWFMod (No lip-synch)</li>
-<li>Inidirect Sound (Enables 3D hardware sound. Not functioning?)</li>
+<li>OpenAL (Higher quality playback then the default Galaxy renderer, worse Lip-Syncing)</li>
+<li>SWFMod (No Lip-Sync)</li>
+<li>Cluster (No Lip-Sync)</li>
 </ul>
 <h3 id="editing-">Editing:</h3>
 <ul>
@@ -168,7 +194,8 @@ If you install a translation, Confix will not be. </p>
 <li>UModel </li>
 <li>Tutorials: UED2 manual, Tack&#39;s site and Universal Constructor site<h4 id="also-included-">Also included:</h4>
 </li>
-<li>Deus Ex Editor Fix</li>
+<li>Deus Ex Editor Patch</li>
+<li>Editor.dll hex edited to show an increased 1024x1024/2048x2048 resolution of temporary viewport for shadowmap creation.ViewportSize</li>
 <li>HTK Commandlets </li>
 <li>MoreTriggers (A collections of useful triggers)</li>
 </ul>
@@ -225,9 +252,9 @@ If you install a translation, Confix will not be. </p>
 <p>Full credits should be the same as the final game, located in Credits.DX</p>
 <h3 id="caustic-creative-creators-of-revision-">Caustic Creative (Creators of Revision):</h3>
 <p><a href="https://www.dx-revision.com/">https://www.dx-revision.com/</a></p>
-<p>Hawk: ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision for fixing inventory bug when the player dies holding a weapon and starts a new game.</p>
+<p>Hawk: Deus Ex: Transcended, ConFix, Support, pointed out D3D10Drv Int typo, code snippet from Revision for fixing inventory bug when the player dies holding a weapon and starts a new game, <em>The</em> </p>
 <p>Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2</p>
-<p>Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, HTK Commandlets, Editor Fix, UCC Fix, Support, OpenAL Lipsyching &amp; misc, both edited Deusex.u&#39;s were done by Defaultplayer001 following his instructions 
+<p>Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, WinDrvLite/Ext, HTK Commandlets, Editor Fix / Patch (Patch a superset of Fix), Hex Edited Editor.dll, UCC Fix, Support, Cluster, OpenAL Lipsyching &amp; misc, both edited Deusex.u&#39;s were done by Defaultplayer001 following his instructions 
 <a href="http://coding.hanfling.de/launch/">http://coding.hanfling.de/launch/</a>
 <a href="https://www.patreon.com/hanfling/overview">https://www.patreon.com/hanfling/overview</a></p>
 <h3 id="the-nameless-mod-update-team-off-topic-productions-forum-members-">The Nameless Mod Update Team / Off Topic Productions forum members :</h3>
@@ -267,7 +294,7 @@ This wouldn&#39;t be possible without everyone!</p>
 <p>Czech Translation (Fan-made): Warezz.K
 <a href="https://www.moddb.com/mods/deusexczmod-1112fm">https://www.moddb.com/mods/deusexczmod-1112fm</a>
 (License: GNU General Public License v3.0 <a href="https://github.com/WarezzK/DeusExCZMod-1112fm/blob/master/LICENSE">https://github.com/WarezzK/DeusExCZMod-1112fm/blob/master/LICENSE</a>) </p>
-<p>Hungarian (Fan-made) : Deus Ex MagyarúECsapat /  Deus Ex Hungarian Translation Team - Members: Biwdy (If you know others please let us know!)</p>
+<p>Hungarian (Fan-made) : Deus Ex Magyarú‘ECsapat /  Deus Ex Hungarian Translation Team - Members: Biwdy (If you know others please let us know!)</p>
 <p>Russian (Unofficial &amp; Fan-made) : Unknown (If you know please let us know!)</p>
 <h4 id="unknown">Unknown</h4>
 <p>Polish (Fan-made) : Unknown (If you know please let us know!)</p>
@@ -277,7 +304,7 @@ This wouldn&#39;t be possible without everyone!</p>
 <p><a href="http://www.moddb.com/games/deus-ex/downloads/deus-ex-unofficial-patch-v2">http://www.moddb.com/games/deus-ex/downloads/deus-ex-unofficial-patch-v2</a> </p>
 <p>D.X.M: Deus Ex Maps Patch, Frech Patch</p>
 <p><a href="https://www.dxm.be/navigator.php5?lang=en&amp;content=202">https://www.dxm.be/navigator.php5?lang=en&amp;content=202</a></p>
-<p>Author Unknown (If you know please let us know!): Engine.dll fix </p>
+<p>Author Unknown (If you know please let us know!): Engine.dll Demo Recording fix </p>
 <p><a href="http://www.deusexnetwork.com/files/DX1/patches/6083/engine-dll-fix.zip">http://www.deusexnetwork.com/files/DX1/patches/6083/engine-dll-fix.zip</a></p>
 <p>NVShacker(Thanks for providing the authors name bird!): OTPUIFix
 <a href="https://web.archive.org/web/20090225135158/http://thenamelessmod.com/downloads/miscfiles/">https://web.archive.org/web/20090225135158/http://thenamelessmod.com/downloads/miscfiles/</a>
@@ -293,7 +320,7 @@ This wouldn&#39;t be possible without everyone!</p>
 <p>Smirftsch: OpenAL</p>
 <p><a href="http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715">http://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1399614715</a></p>
 <p>bird: Member of Deus Ex Hungarian Translation Team, made Hungarian setup translation, provided sources for Portuguese and Czech translations, support, tester discovered UCS-2 BE BOM encoding displays properly, MoreTriggers (Compiled)</p>
-<p>Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, </p>
+<p>Veronika Afanasyeva: Made Russian setup translation, Deus Ex Editing Pack 2.2, tester, HDR Brightness Fix</p>
 <p>Vauclair: German Language install testing, support. </p>
 <p>PhinSorcery: UPV3 Testing</p>
 <p>JeniSkunk: UPV3 Testing (Maps), tester</p>
@@ -322,7 +349,7 @@ This wouldn&#39;t be possible without everyone!</p>
 DDL: MoreTriggers
 Sheep: MoreTriggers
 <a href="http://offtopicproductions.com/forum/viewtopic.php?f=36&amp;t=11621">http://offtopicproductions.com/forum/viewtopic.php?f=36&amp;t=11621</a> (Latest version taken from TNM 2.0)</p>
-<p>Baba O&#39;riley Gaming, Tedder, Boss Baby Gaming: Speedup fix
+<p>Baba O&#39;riley Gaming, Tedder, Boss Baby Gaming: Engine.dll Speedup fix
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2048525175">https://steamcommunity.com/sharedfiles/filedetails/?id=2048525175</a></p>
 <p>Angus Johnson: Resource Hacker
 <a href="http://www.angusj.com/resourcehacker/">http://www.angusj.com/resourcehacker/</a></p>
@@ -341,4 +368,5 @@ Sheep: MoreTriggers
 <p><a href="https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues">https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/issues</a></p>
 <p>We also have a Trello (To-do list) here:</p>
 <p><a href="https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update">https://trello.com/b/4yvyFbSN/deus-ex-universe-community-update</a></p>
+<p>* <em>nice</em></p>
 </body></html>

@@ -1,10 +1,12 @@
-del "%~dp0\..\*.*"
+del "%~dp0\..\Deus Ex Setup Creator Files Backup\..\*.*"
 
 copy "%~dp0\(R*.*" "%~dp0\.."
 
 copy "%~dp0\ReadMe.txt" "%~dp0\.."
 
 copy "%~dp0\Setup.exe" "%~dp0\.."
+
+copy "%~dp0\DELETED, everything in this folder will be. -Yoda.txt" "%~dp0\.."
 
 rem 7Zip files isolated to make cleanup easier
 

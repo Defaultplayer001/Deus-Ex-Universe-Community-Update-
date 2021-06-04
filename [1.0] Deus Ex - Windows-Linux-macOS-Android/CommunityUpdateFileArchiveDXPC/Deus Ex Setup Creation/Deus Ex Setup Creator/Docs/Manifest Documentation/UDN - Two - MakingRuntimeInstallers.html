@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0066)https://docs.unrealengine.com/udk/Two/MakingRuntimeInstallers.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> UDN - Two - MakingRuntimeInstallers    </title>
+
+<style type="text/css" media="all">@import "rsrc/twiki_webs.css";</style>
+<style type="text/css" media="all">@import "rsrc/udn_new.css";</style>
+<link rel="icon" href="https://docs.unrealengine.com/udk/Two/rsrc/Two/WebPreferences/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://docs.unrealengine.com/udk/Two/rsrc/Two/WebPreferences/favicon.ico" type="image/x-icon">
+
+
+<!-- view.static_udn3.tmpl  -->
+<script type="text/javascript" async="" src="./UDN - Two - MakingRuntimeInstallers_files/ga.js.download"></script><script language="JavaScript" type="text/javascript" src="./UDN - Two - MakingRuntimeInstallers_files/udn.js.download"></script>
+
+
+</head>
+<body id="webbgTwo"><p>
+
+</p><p>
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11251639-6']);
+  _gaq.push(['_setCustomVar', 1, 'Member Type', 'Free', 1]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</p><p>
+</p><div id="webTwo"><div id="head">
+<!--
+<div class="header">
+ -->
+<div style="background: url(/udk/pub/webbg_udn.jpg); background-repeat: no-repeat; height:140px; width: 100%;">
+<!--
+<div style="background: transparent url(/udk/pub/udn_header_bg.jpg); background-repeat: repeat-x; height:140px; width: 100%; margin-left: 991px;">
+ -->
+<p>
+</p><div id="nav">
+<ul class="nav">
+<font color="black">|</font>&nbsp;&nbsp;<li class="nav_Three"><a href="https://docs.unrealengine.com/udk/Main/WebHome.html" class="twikiLink">Main</a></li><font color="black">|</font><li class="nav_Three"><a href="https://docs.unrealengine.com/udk/Two/WebHome.html" class="twikiLink">UnrealEngine2</a></li><font color="black">|</font><li class="nav_Three"><a href="https://docs.unrealengine.com/udk/Three/WebHome.html" class="twikiLink">UnrealEngine3</a></li><font color="black">|</font><li class="nav_Three"><a href="https://docs.unrealengine.com/" class="twikiLink">UnrealEngine4</a></li><font color="black">|</font><li class="nav_Three"><a href="https://docs.unrealengine.com/udk/Main/BusinessAndLegal.html" class="twikiLink">Business &amp; Legal</a></li><font color="black">|</font>
+</ul><br><br><br>
+</div>
+</div>
+</div> <!-- end head -->
+<div id="pagedefault">
+<div id="maincol">
+<div id="tool">
+<div id="tooltop">UDN</div>
+<div id="tooltext" style="padding: 10px 10px 10px 10px;">
+Search public documentation: <br>
+<form action="https://www.unrealengine.com/bing-search" method="GET" name="main" id="main">
+<input type="hidden" name="filter" value="UDK"><input type="text" name="keyword" size="15" style="font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: xx-small;">
+<input type="SUBMIT" value="Search" style="font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: xx-small;"><br>
+</form>
+</div>
+<div id="toolband">MakingRuntimeInstallers  </div>
+<div id="tooltext">
+<p>
+
+<!-- Two/MakingRuntimeInstallers -->
+</p><hr size="1" noshade="noshade">
+Interested in the Unreal Engine? <br>
+Visit the <a href="http://www.unrealtechnology.com/" target="_top">Unreal Technology</a> site.<br>
+<br>
+Looking for jobs and company info? <br>
+Check out the <a href="http://www.epicgames.com/" target="_top">Epic games</a> site.<br>
+<br>
+Questions about support via UDN? <br>
+Contact the <a href="https://docs.unrealengine.com/udk/Main/ContactUDNStaff.html" class="twikiLink">UDN Staff</a> <br>
+<br>
+</div> <!-- end toolbox content -->
+<div id="toolbottom"></div>
+</div> <!-- end tool -->
+<p>
+</p><h1><a name="Making Runtime Installers"></a> Making Runtime Installers </h1>
+<p>
+</p><div class="twikiToc"> <ul>
+<li> <a href="https://docs.unrealengine.com/udk/Two/MakingRuntimeInstallers.html#Making%20Runtime%20Installers"> Making Runtime Installers</a> <ul>
+<li> <a href="https://docs.unrealengine.com/udk/Two/MakingRuntimeInstallers.html#Overview"> Overview</a>
+</li> <li> <a href="https://docs.unrealengine.com/udk/Two/MakingRuntimeInstallers.html#Mastering"> Mastering</a> <ul>
+<li> <a href="https://docs.unrealengine.com/udk/Two/MakingRuntimeInstallers.html#Step%201:%20Setup"> Step 1: Setup</a>
+</li> <li> <a href="https://docs.unrealengine.com/udk/Two/MakingRuntimeInstallers.html#Step%202:%20Making%20Your%20First%20Installer"> Step 2: Making Your First Installer</a>
+</li> <li> <a href="https://docs.unrealengine.com/udk/Two/MakingRuntimeInstallers.html#Step%203:%20Changing%20Essential%20Fields"> Step 3: Changing Essential Fields</a> <ul>
+<li> <a href="https://docs.unrealengine.com/udk/Two/MakingRuntimeInstallers.html#SetupYourProject.INT"> SetupYourProject.INT</a>
+</li> <li> <a href="https://docs.unrealengine.com/udk/Two/MakingRuntimeInstallers.html#SetupYourProject.INI"> SetupYourProject.INI</a>
+</li> <li> <a href="https://docs.unrealengine.com/udk/Two/MakingRuntimeInstallers.html#SetupStrings.INT"> SetupStrings.INT</a>
+</li></ul>
+</li></ul>
+</li></ul>
+</li></ul>
+</div>
+<p>
+<noautolink>
+</noautolink></p><p>
+</p><h2><a name="Overview"></a> Overview </h2>
+<p>
+This document will explain start to finish, how to pack up the runtime with whatever additions you have made for release. The Unreal Engine includes a tool for creating installers which is relatively easy to customize to suit your project's needs. The same tool described in this document was used to create the installer that installed the Runtime on your computer in the first place.
+</p><p>
+Following the instructions contained in here, you ought to be able to make a functional installer in about half an hour.
+</p><p>
+</p><h2><a name="Mastering"></a> Mastering </h2>
+<p>
+Mastering a build is done via the <code>ucc master</code> command, which generates the installer for your project. This tool needs two files, a configuration file (.ini) and a localization file (.int) that specify, among other things, what files need to be installed on the end-user's machine in order to run, as well as the strings used for the setup. They are simple text files but they include lots of information.
+</p><p>
+</p><h3><a name="Step 1: Setup"></a> Step 1: Setup </h3>
+<p>
+First, <strong>back up your Manifest.ini file</strong>!  This gets overwritten during the setup creation process, making it impossible to uninstall the Runtime later. You must back up and restore this file after you're done creating your installers!
+</p><p>
+Copy <a href="https://docs.unrealengine.com/udk/Two/rsrc/Two/MakingRuntimeInstallers/SetupYourProject.ini" target="_top">SetupYourProject.ini</a> and <a href="https://docs.unrealengine.com/udk/Two/rsrc/Two/MakingRuntimeInstallers/SetupYourProject.int" target="_top">SetupYourProject.int</a> into the System folder in your runtime installation. Rename these two files to reflect the name of your project. Throughout this tutorial, however, they will continue to be referred to as SetupYourProject.ini and SetupYourProject.int.
+</p><p>
+You will also need <a href="https://docs.unrealengine.com/udk/Two/rsrc/Two/MakingRuntimeInstallers/SetupStrings.int" target="_top">SetupStrings.int</a>; put it in the System folder of your project.
+</p><p>
+</p><h3><a name="Step 2: Making Your First Installer"></a> Step 2: Making Your First Installer </h3>
+<p>
+Without filling in any of your project's specifics it's possible to generate an installer that will basically install a dummy version of the Unreal Engine 2 Runtime. To do that type the following from the command-line in the System folder of you runtime installation:
+</p><p>
+</p><pre>ucc master SetupYourProject.ini
+</pre>
+<p>
+A bunch of information will scroll by as the installer is generated. The dummy installer will be placed in a newly created folder called <strong>YourProductNameCodeTODO-1</strong> in the directory where the runtime is installed.
+</p><p>
+To test out the installer go into YourProductNameCodeTODO-1/System and run the Setup.exe located there.
+</p><p>
+Please note, in order to uninstall this "YourProductNameCodeTODO-1 " build and executable,
+you need to make sure you have copied the following into the installed and new program file directory,
+by default, C:/YourProductNameCodeTODO-1
+</p><p>
+You need a copy of PixoDrv.dll and pixomatic.dll
+(COPY from UT2004/System or download them)
+</p><p>
+Copy into [runtimedir]/System/
+(1)PixoDrv.dll
+(2)pixomatic.dll
+</p><p>
+</p><p>
+These two files:
+(3) /System/SetupStrings.int
+(4) /Help/InstallerLogo.bmp
+</p><p>
+--++Note:
+This should be a clue, in the steps that follow, that you need to properly include these above two files in your SetupYourProject.ini , in addition to the below tasks.
+</p><p>
+That's it! Obviously there's a bit of work to do to customize the installer to suit your needs. Some of the important stuff is covered next...
+</p><p>
+</p><h3><a name="Step 3: Changing Essential Fields"></a> Step 3: Changing Essential Fields </h3>
+<p>
+The <a href="https://docs.unrealengine.com/udk/Two/rsrc/Two/MakingRuntimeInstallers/SetupYourProject.ini" target="_top">SetupYourProject.ini</a>, <a href="https://docs.unrealengine.com/udk/Two/rsrc/Two/MakingRuntimeInstallers/SetupYourProject.int" target="_top">SetupYourProject.int</a> and <a href="https://docs.unrealengine.com/udk/Two/rsrc/Two/MakingRuntimeInstallers/SetupStrings.int" target="_top">SetupStrings.int</a> files have "TODO" written on every line you'll want to eventually change.
+</p><p>
+</p><h4><a name="SetupYourProject.INT"></a> SetupYourProject.INT </h4>
+<p>
+Update the following lines in <a href="https://docs.unrealengine.com/udk/Two/rsrc/Two/MakingRuntimeInstallers/SetupYourProject.int" target="_top">SetupYourProject.int</a> to reflect your project's name and other information:
+</p><table cellspacing="1" cellpadding="1" class="twikiTable" border="0"><tbody><tr><td bgcolor="#eaeaea" class="twikiFirstCol"> LocalProduct= </td><td bgcolor="#eaeaea"> A nice readable name for your product </td></tr>
+<tr><td bgcolor="#ffffff" class="twikiFirstCol"> DefaultFolder= </td><td bgcolor="#ffffff"> The default folder to install to. If your project is installed to a folder name with a space, end-users will likely have trouble running UnrealEd </td></tr>
+<tr><td bgcolor="#eaeaea" class="twikiFirstCol"> SetupWindowTitle= </td><td bgcolor="#eaeaea"> The text to be displaced in the title bar of the setup window </td></tr>
+<tr><td bgcolor="#ffffff" class="twikiFirstCol"> Developer= </td><td bgcolor="#ffffff"> Your name or your company's name </td></tr>
+<tr><td bgcolor="#eaeaea" class="twikiFirstCol"> DeveloperURL= </td><td bgcolor="#eaeaea"> You or your company's website </td></tr>
+<tr><td bgcolor="#ffffff" class="twikiFirstCol"> Logo= </td><td bgcolor="#ffffff"> A .bmp file to place at the top of the installer. This image should be 343x82 pixels, and 8-bit (256 colors). </td></tr>
+<tr><td bgcolor="#eaeaea" class="twikiFirstCol"> PlayLevelCommand= </td><td bgcolor="#eaeaea"> A string describing a button that starts your product </td></tr>
+<tr><td bgcolor="#ffffff" class="twikiFirstCol"> OpenLinkCommand= </td><td bgcolor="#ffffff"> A string describing a button that opens your product's website </td></tr>
+<tr><td bgcolor="#eaeaea" class="twikiFirstCol"> Caption= </td><td bgcolor="#eaeaea"> There are a number of captions for the icons placed in the start menu. Update all of these according to the supplied .INT file's descriptions </td></tr>
+</tbody></table>
+<p>
+</p><h4><a name="SetupYourProject.INI"></a> SetupYourProject.INI </h4>
+<p>
+<strong>Setup</strong>
+</p><p>
+</p><table cellspacing="1" cellpadding="1" class="twikiTable" border="0"><tbody><tr><td bgcolor="#eaeaea" class="twikiFirstCol"> Product= </td><td bgcolor="#eaeaea"> A code without spaces that describes your project. It will be used as a unique identifier for your project so that installing/uninstalling doesn't interact incorrectly with other Unreal Engine 2 projects. </td></tr>
+</tbody></table>
+<p>
+<strong>HelpGroup</strong>
+</p><p>
+There are a number of <em>File=</em> lines in SetupYourProject.ini. Create the appropriate files and update the lines by changing the names of the files and removing the ";" from the beginning of the line.
+</p><p>
+</p><table cellspacing="1" cellpadding="1" class="twikiTable" border="0"><tbody><tr><td bgcolor="#eaeaea" class="twikiFirstCol"> YourProductReadme.txt </td><td bgcolor="#eaeaea"> This file is the "readme" file for your project. It can be opened from the installer. </td></tr>
+<tr><td bgcolor="#ffffff" class="twikiFirstCol"> YourProductLogo.bmp </td><td bgcolor="#ffffff"> A splash-screen for your project </td></tr>
+<tr><td bgcolor="#eaeaea" class="twikiFirstCol"> YourProductInstallerLogo.bmp </td><td bgcolor="#eaeaea"> A bitmap that will go in the installer. This image should be 343x82 pixels, and 8-bit (256 colors). </td></tr>
+<tr><td bgcolor="#ffffff" class="twikiFirstCol"> YourProduct.url </td><td bgcolor="#ffffff"> A file containing a link to your project. See UDN.url in the runtime distribution for the format of this file </td></tr>
+</tbody></table>
+<p>
+<strong>ProjectGroup</strong>
+</p><p>
+This section contains a list of files that make up the core of your project. Content should not go here, but things that are required to launch the project even without a map, such as fonts belong here. Also include any new .dll's, .u's, or other system files.
+</p><p>
+<strong>ContentGroup</strong>
+</p><p>
+This section contains a list of files that make up your project's content such as maps, static meshes and textures.
+</p><p>
+<strong>Other Sections</strong>
+</p><p>
+There are a few other "TODO"s in the .ini file, they're all self-explanitory.
+</p><p>
+</p><h4><a name="SetupStrings.INT"></a> SetupStrings.INT </h4>
+<p>
+Feel free to alter any of these strings. Not all are used, but there are two mandatory ones:
+</p><p>
+</p><table cellspacing="1" cellpadding="1" class="twikiTable" border="0"><tbody><tr><td bgcolor="#eaeaea" class="twikiFirstCol"> IDC_Play= </td><td bgcolor="#eaeaea"> A string describing a button that launches your project. </td></tr>
+<tr><td bgcolor="#ffffff" class="twikiFirstCol"> IDC_Web= </td><td bgcolor="#ffffff"> A string describing a button that opens your project's website. </td></tr>
+</tbody></table>
+<p>
+
+</p><p>
+</p><p>
+</p><p>
+</p><p>
+</p><p>
+</p><p>
+</p></div></div><div id="footer"><div style="BACKGROUND-COLOR: transparent; margin: 0; padding: 0; width: 100%;"><div>&nbsp;</div><div style="float: left; text-align: left; vertical-align: bottom; width: 50%;"><a href="http://www.videogamevoters.org/"><img src="./UDN - Two - MakingRuntimeInstallers_files/vgvn.jpg" border="0" width="234" height="60" alt="Video Game Voters Network"></a></div><div style="float: right; text-align: right; vertical-align: bottom; width: 50%;">Copyright © 2001-2012 <a href="http://www.epicgames.com/" target="_top">Epic Games, Inc.</a><br><a href="https://docs.unrealengine.com/udk/Main/TermsAndConditions.html" class="twikiLink">Terms and Conditions</a><br><a href="http://epicgames.com/privacynotice" target="_top">Privacy Notice</a></div></div></div></div>
+<p>
+
+</p></body></html>

@@ -1,0 +1,5 @@
+1. Copy the ShowIntro() section from DeusExPlayer.uc.
+
+2. Paste into your custom player class. 
+
+3. Change 00_Intro to your start map. 

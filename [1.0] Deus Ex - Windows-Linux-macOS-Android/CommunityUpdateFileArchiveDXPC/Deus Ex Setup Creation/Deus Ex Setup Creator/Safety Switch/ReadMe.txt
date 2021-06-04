@@ -24,7 +24,7 @@ Create / update a mod installer:
 
 3. Copy / paste the .bat into the "Safety Switch" / "Deus Ex Setup Creator Files Backup" folder, overwriting when asked
 
-4. Run "(Run this!) Create Deus Ex Mod Setup.bat"
+4. Run "(Run this!) Create Deus Ex Mod Setup.bat" (Note: Everything in the root directory will be deleted after manifest creation!)
 
 If no files were ADDED or REMOVED, the following can also simply be done. 
 Update a mod installer:
@@ -41,7 +41,7 @@ Update your mod:
 
 2. Double check that the new package actually runs properly before creaing the setup
 
-3. Run "(Run this!) Create Deus Ex Mod Setup.bat"
+3. Run "(Run this!) Create Deus Ex Mod Setup.bat" (Note: Everything in the root directory will be deleted after manifest creation!)
 
 
 
@@ -52,7 +52,7 @@ Further customize your mod installer:
 
 2. See "Manifest.ini Usage.txt" for further information
 
-3. Run "(Run this!) Create Deus Ex Mod Setup.bat"
+3. Run "(Run this!) Create Deus Ex Mod Setup.bat" (Note: Everything in the root directory will be deleted after manifest creation!)
 
 Add custom header / shortcut icon (2 methods):
 
@@ -66,3 +66,7 @@ Replace setup icon:
 
 1. Use Resource Hacker
 	http://www.angusj.com/resourcehacker/
+
+To-do:
+
+Rewrite with direct generation of filenames/sizes using %~n1 and %z~I.
