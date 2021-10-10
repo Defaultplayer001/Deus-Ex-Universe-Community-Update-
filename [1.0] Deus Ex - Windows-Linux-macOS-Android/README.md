@@ -22,6 +22,8 @@ Actual gameplay code is identical, warts and all!
 
 Also includes a dedicated multiplayer setup, plus the original 2 mission demo updated to the latest version.
 
+Features the new Lay D Denton Projct as an install option, a female JC Denton player mod! 
+
 Selected by default is the fantastic mod: 
 
 #### Deus Ex: Transcended
@@ -38,7 +40,7 @@ Also selected by default is "Confix", a conversation typo and logic patch.
 
 ***
 
-### Latest version download: https://drive.google.com/open?id=1CudArI8GuCOIb7_EcnmyhowMzxlxyU7Y
+### Latest version download: https://drive.google.com/file/d/1DK4DM6iOTj2ni5R8nChxLpGsj49solo-/view?usp=sharing
 
 Simply install and run from the created "Play Deus Ex" shortcut in your Start menu under the Deus Ex Community Update Folder.
 
@@ -237,6 +239,7 @@ If you install a translation, Confix will not be.
 	*	 paste Windows port
 
 ### Misc:
+* Lay D Denton (Female JC Denton player mod) 
 * 1112fm DeusEx.u Edited Render Relaunch (When relaunched to change renderer, launches into -firsttime config instead -changevideo. Let's you change audio renderer as well via the GUI)
 * 1112fm DeusEx.u Demo Version + Edited Render Relaunch (No intro, ends @ m02 completion)
 * SwFMOD Fixed int file (Fixes name display error)
@@ -326,9 +329,20 @@ Maiar Henry: Portuguese-BR Translation.
 
 Bjorn Ehrby, Hawk: Same as Revision credits
 
+### Lay D Denton Project
+
+Lay D Denton: JC Denton and various voice actor, misc art assets
+
+Xriborg: Dialogue editor, vocal director, and various voice actor
+
+Mr.Poke: General coding and mapping
+
+WCCC: Code theory, UI coding, misc
+
+
 ### Deus Ex Community HQ Discord Server Members: 
 
-WCCC: Support
+WCCC: Support, 
 
 Cozmo: Support, MiniHX
 
@@ -341,7 +355,6 @@ Kaiser: Support, Linux Support, Original Install Script Base, Linux tester
 https://github.com/Kaiz0r/
 
 Bogie: Support
-
 
 ### Deus Ex Archive: 
 
