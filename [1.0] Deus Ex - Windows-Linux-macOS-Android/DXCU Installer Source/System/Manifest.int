@@ -130,13 +130,13 @@ DeveloperURL=https://www.gog.com/game/deus_ex
 Caption=Confix (English and Russian Only)
 Description=Conversation logic and typo fixes. 
 
-[TranscendedDefaultThemeFiles]
-Caption=Default Theme for Transcended
-Description=By default Transcended uses a blue theme. This switches it back to the default one.
-
 [TranscendedDefaultUser.ini(Theme+FOV)Files]
 Caption=Default Transcended User Settings
 Description=By default Transcended uses a blue theme (Cops) and a higher FOV (75 vs 90). The CU automatically sets those values back to their default vanilla ones, this will override that and use the default Transcended settings. Note: RF has a minimum FOV of 80, so this value of 75 will be adjusted to that.
+
+[LayDDentonDefaultinisFiles]
+Caption=Lay D Denton (Read - Compatibility issues)
+Description=Fully voiced female JC Denton player mod, with a matching player model and convo edits to match! Not compatible with translations, DXT's maps, RF, or Confix, Transcended *seems* to work aside from the maps and the character creation menu portrait initially not showing properly. CF/RF will be automatically disabled if this is selected, select Transcended and this at your own risk.
 
 [1002fMaps]
 Caption=1002f Maps (Select if not using Transcended)
@@ -150,12 +150,20 @@ Description=Numerous extra tools and documentation for editing, including a UED2
 Caption=Demo
 Description=Deus Ex modification files. Installation is optional.
 
+[ModsCommunity UpdateLay D DentonGroup]
+Caption=Lay D Denton
+Description=Deus Ex modification files. Installation is optional.
+
 [ModsCommunity UpdateTranscendedGroup]
 Caption=Transcended
 Description=Deus Ex modification files. Installation is optional.
 
 [Custom LogoGroup]
 Caption=Custom Logo
+Description=Post Install Executable. Installation is optional.
+
+[testGroup]
+Caption=test
 Description=Post Install Executable. Installation is optional.
 [ModsCommunity UpdateDemoGroup]
 Caption=Demo

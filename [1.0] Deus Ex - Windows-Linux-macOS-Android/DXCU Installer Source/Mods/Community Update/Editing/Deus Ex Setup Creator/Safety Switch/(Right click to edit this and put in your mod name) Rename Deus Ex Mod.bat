@@ -7,7 +7,9 @@ set Fullvalue=ModTitle
 set DevName=YourName
 
 rem Leave empty if using the root / not using a subdir, also make sure to disable the del command for systemfileslist.txt at the top of Manifest Merge.bat
-set Subvalue=ModSubdirectory
+By default setup for mods to be in a Mods\ directory,
+set Subvalue=Mods\ModSubdirectory
+rem .exe not necessary and will actually mess things up, just put the name!
 set EXEvalue=EXEName
 set version=ModVersion
 

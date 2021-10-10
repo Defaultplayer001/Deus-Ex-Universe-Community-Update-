@@ -32,6 +32,8 @@ Sticklers may still wish to play the game how it was originally made - so the op
 	
 However as a stickler myself, *it's worth it*.
 
+Warning: Vanilla and Transcended saves are not compatible with each other!
+
 Also selected by default is "Confix", a conversation typo and logic patch.
 
 ***
@@ -157,6 +159,7 @@ If you install a translation, Confix will not be.
 ### Patches:
 * 1112fm GOTY Patch (Official Multiplayer Patch)
 * Deus Ex Transcended (Map/Code fixes)
+* Unofficial Patch V2 (Code fixes, not used by default anymore since DXT is superior. Can be used to replace DeusEx.u on non-Transcended install. Rename "DeusEx (UPV2 Edited Render Relaunch).u" / "DeusEx (Demo).u" to "DeusEx.u".)
 * 1002fm maps / Deus Ex Maps Patch (DXM's maps patch identical except for 3 maps, more info here: https://trello.com/c/NDetDM0v/27-figure-out-the-which-map-files-to-use-for-the-unofficial-map-patch-base-completed-using-the-1002f-files)
 * Engine.dll (Demo Recording Fix + Speedup fix)
 * Confix (Conversation fixes)
@@ -166,6 +169,7 @@ If you install a translation, Confix will not be.
 * RenderExt (Render Extension from Revision)
 * Nephthys (MP Admin tool)
 * DXMTL (Multiplayer bug fixes)
+* Fixed Consys (Fixes comment distortion on decompiling, other?)
 
 ### Alternate EXEs : (Launch Recommended & Used by Default)
 #### Copy and Rename desired EXE to "Deus Ex Community Update.exe" 
