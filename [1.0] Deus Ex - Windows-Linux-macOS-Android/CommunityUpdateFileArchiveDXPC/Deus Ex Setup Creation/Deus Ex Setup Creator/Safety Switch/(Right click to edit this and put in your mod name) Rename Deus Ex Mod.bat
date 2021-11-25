@@ -61,8 +61,14 @@ Rem Changes EXE name in the manifest
 Rem Changes version number
 "%~dp0\fart.exe" "%~dp0\System\Manifest.ini" "1300u" "%Version%"
 
-rem 7Zip files isolated to make cleanup easier
+Rem 7Zip files isolated to make cleanup easier
 "%~dp0\fart.exe" "%~dp0\Safety Switch\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%Fullvalue%" 
-"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%Fullvalue%" 
+"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%Fullvalue%"
+"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "Version" "%version%" 
 "%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "DeusExModFullName" "%Fullvalue%" 
 "%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "subdir" "%Subvalue%"
+
+Rem Steam Proxy customization
+"%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\7z.exe" a "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.7z" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.bat"
+
+"%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SystemFilesCreatorSteamProxy.bat"

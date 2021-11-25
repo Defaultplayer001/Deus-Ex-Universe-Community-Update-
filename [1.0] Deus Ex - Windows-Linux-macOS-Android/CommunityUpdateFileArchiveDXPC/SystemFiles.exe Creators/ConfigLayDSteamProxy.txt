@@ -1,0 +1,6 @@
+;!@Install@!UTF-8!
+Title="LayD"
+InstallPath="%%S"
+;switch INT with whatever language needed. This shouldn't need to be updated, so doing it this way to prevent clutter 2019/1/7
+RunProgram="LayDSteamProxy.bat"
+;!@InstallEnd@!

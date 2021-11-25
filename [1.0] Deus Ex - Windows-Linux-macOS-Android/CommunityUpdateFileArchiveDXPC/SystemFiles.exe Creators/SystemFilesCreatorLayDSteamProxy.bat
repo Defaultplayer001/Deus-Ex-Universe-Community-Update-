@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + ConfigLayDSteamProxy.txt + LayDSteamProxy.7z LayDSteamProxy.exe

@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + ConfigSteamProxy.txt + SteamProxy.7z SteamProxy.exe
