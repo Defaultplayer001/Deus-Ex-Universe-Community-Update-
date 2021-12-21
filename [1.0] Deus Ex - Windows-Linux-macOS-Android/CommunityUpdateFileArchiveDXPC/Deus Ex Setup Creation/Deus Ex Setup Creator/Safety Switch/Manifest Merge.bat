@@ -69,9 +69,9 @@ del "%~dp0\subdirFileListFinal.txt"
 
 
 rem Used to override manifest with custom group order. Reverse rem comment to generate a new unorganized group list.
-copy "ManifestHeader-1-Setup (Custom Override).ini" + "ManifestHeader-2-Game Group.ini" + "*FileListFinal.txt" + "ManifestHeader-3-Groups.ini" "%~dp0\System\Manifest.ini"
+rem copy "ManifestHeader-1-Setup (Custom Override).ini" + "ManifestHeader-2-Game Group.ini" + "*FileListFinal.txt" + "ManifestHeader-3-Groups.ini" "%~dp0\System\Manifest.ini"
 rem Original
-rem copy "ManifestHeader-1-Setup.ini" + "ManifestHeader-2-Game Group.ini" + "*FileListFinal.txt" + "ManifestHeader-3-Groups.ini" "%~dp0\System\Manifest.ini"
+copy "ManifestHeader-1-Setup.ini" + "ManifestHeader-2-Game Group.ini" + "*FileListFinal.txt" + "ManifestHeader-3-Groups.ini" "%~dp0\System\Manifest.ini"
 
 rem type *FileListFinal.txt >> "%~dp0\System\Manifest.ini"
 

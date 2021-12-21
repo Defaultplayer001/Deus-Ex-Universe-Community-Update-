@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + ConfigLayDDelete.txt + DeleteFemJC.7z LayDDelete.exe

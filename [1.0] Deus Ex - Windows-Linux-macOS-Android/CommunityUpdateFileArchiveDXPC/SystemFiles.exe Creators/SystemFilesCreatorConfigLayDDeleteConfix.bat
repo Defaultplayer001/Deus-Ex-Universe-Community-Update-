@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + ConfigLayDDeleteConfix.txt + DeleteFemJCConfix.7z LayDDeleteConfix.exe

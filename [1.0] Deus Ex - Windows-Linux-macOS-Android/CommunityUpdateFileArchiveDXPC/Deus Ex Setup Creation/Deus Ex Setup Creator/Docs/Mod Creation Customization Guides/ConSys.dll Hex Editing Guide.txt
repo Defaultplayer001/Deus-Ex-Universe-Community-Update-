@@ -22,4 +22,19 @@ you could even use a script + hexed to make it more flexible with custom pc name
 
 Custom Item Package (Allows items to be selected from a package other then DeusEx.u):
 
-Above but the first instance of "DeusEx". 
+Above but the first instance of "DeusEx". Address 1D35E
+
+To workaround nanokeys not being transferable the usual way with the above mentioned hexediting, you can create a subclass of nanokey in your custom package with a defaultproperties containing the desired values
+something like this 
+//=============================================================================
+// NanoKeyF.
+//=============================================================================
+class NanoKeyF expands NanoKey;
+
+defaultproperties
+{
+     KeyId=nico_room
+     Description="Child's Room Key"
+}
+Mildly tedious if you gotta deal with a lotta keys I guess, but functional.
+

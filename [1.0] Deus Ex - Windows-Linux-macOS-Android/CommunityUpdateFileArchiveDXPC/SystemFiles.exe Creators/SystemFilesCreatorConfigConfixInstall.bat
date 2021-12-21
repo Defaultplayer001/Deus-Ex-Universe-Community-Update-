@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + ConfigConfixInstall.txt + System.7z ConfixInstall.exe

@@ -1,0 +1,1 @@
+del "..\FemJC\FemJCInstall.exe" /q

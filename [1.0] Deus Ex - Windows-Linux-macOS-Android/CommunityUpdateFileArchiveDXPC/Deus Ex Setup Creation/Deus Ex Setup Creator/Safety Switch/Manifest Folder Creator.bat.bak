@@ -74,7 +74,7 @@ sed -i "s/^/File=(Src=\"%ValueDir%\\/" "%ValueSafeFileName%FileList.txt"
 
 cd "%Value%"
 
-del /ah "Desktop.ini" /s /q /f
+del /ah "Desktop.ini" /s /q
 
 Rem JFC thank you Han for telling me about zI
 

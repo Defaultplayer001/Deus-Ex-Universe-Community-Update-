@@ -176,7 +176,7 @@ If you install a translation, Confix will not be.
 ### Alternate EXEs : (Launch Recommended & Used by Default)
 #### Copy and Rename desired EXE to "Deus Ex Community Update.exe" 
 * Launch (Used by default, more compatible / stable,  still developed & supported)  (Launch.exe)
-	* LCC.exe, a UCC.exe update, is also included with Launch and can be used the same way as UCC. 
+	* LCC.exe, a UCC.exe update, is also included with Launch and can be used the same way as UCC. (Latest version from editor patch is used and renamed to ucc.exe for convenience. 
 * Deus Exe (More features, less compatible / stable, no longer developed or supported) (Kentie's DeusExe.exe)
 	* Note: Not compatible with XP, older version (5.3) that is included. (Kentie's Deus Exe (Old for XP).exe)
 * UE1 Launcher (Relatively new, needs testing but promising. Uses borderless windows by default) (UE1 Launch.exe)
@@ -313,7 +313,7 @@ Hawk: Deus Ex: Transcended, ConFix, Support, pointed out D3D10Drv Int typo, code
 
 Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2
 
-Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, WinDrvLite/Ext, HTK Commandlets, Editor Fix / Patch (Patch a superset of Fix), Hex Edited Editor.dll, UCC Fix, Support, Cluster, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
+Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, WinDrvLite/Ext, HTK Commandlets, Editor Fix / Patch (Patch a superset of Fix), Hex Edited Editor.dll, UCC Fix (No longer used since no one can remember what it was used for, likely superseded by new LCC versions.), Support, Cluster, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 https://www.patreon.com/hanfling/overview
 
