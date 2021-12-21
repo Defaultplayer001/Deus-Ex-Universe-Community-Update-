@@ -106,3 +106,9 @@ Replace setup icon:
 
 1. Use Resource Hacker
 	http://www.angusj.com/resourcehacker/
+
+To-do:
+
+Rewrite with direct generation of filenames/sizes using %~n1 and %z~I.
+
+Make installer defaults and manual install defaults match.

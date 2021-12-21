@@ -13,7 +13,7 @@ PublisherURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Upda
 PublisherStoreURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
 PlanetDeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
 DeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
-Logo=subdir\Help\LogoSmall.bmp
+Logo=subdir\Help\LogoSmallCU.bmp
 License=License.int
 
 [General]
@@ -145,7 +145,3 @@ Description=1112fm (GOTY) retail copies shipped with bad copies of the maps, the
 [EditingExtras]
 Caption=Editing Extras
 Description=Numerous extra tools and documentation for editing, including a UED2 for Deus Ex package. Based on Deus Ex Editing PACK 2.2. Updated standard UED package will still be installed and given a shortcut whether or not this is selected.
-
-[SteamInstall]
-Caption=Use with Steam
-Description=Replaces the DeusEx.exe in your Deus Ex root with a redirect to the one in subdir/System, so you can use it with Steam. To restore to Vanilla, simply delete it and rename "DeusEx 1112fm (Original EXE).exe" to "DeusEx.exe". Touches NOTHING else in your root! WILL break any mods relying on there being an actual DeusEx.exe in your root.

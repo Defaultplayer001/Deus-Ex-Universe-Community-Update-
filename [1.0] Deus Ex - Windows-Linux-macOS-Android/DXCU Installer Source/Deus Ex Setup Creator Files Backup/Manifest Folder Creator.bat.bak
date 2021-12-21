@@ -107,7 +107,7 @@ goto end
 
 sed -i "s/$/)/" "%ValueSafeFileName%FileListNearFinal.txt"
 
-if "%PostExecExe%"=="true" goto postexecprocess
+if %PostExecExe%==true goto postexecprocess
 
 rem THIS is the command that ain't workin
 rem if not x"%ValueSafeFileName:Optional Files=%"==x"%ValueSafeFileName%" copy "%~dp0\%ValueSafeFileName%GroupHeaderAppend.ini" + "%~dp0\%ValueSafeFileName%FileListNearFinal.txt" "%~dp0\%ValueSafeFileName%FileListFinal.txt"

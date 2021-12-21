@@ -42,7 +42,11 @@ del "%~dp0\Deus Ex Setup Creator Files Backup7zip Self Extracting EXE CreatorFil
 
 Rem Merge text files
 
-rem Merge Post Exec files into master files
+rem Remove custom Logo Stuff so it doesn't get handled twice(Already manually entered in ManifestHeader-2-Game Group.ini)
+rem U here since this is where the post exec stuff is
+del "%~dp0\*Custom Logo*.ini"
+
+rem Merge Post Exec files into master files	
 
 type "%~dp0\*PostExecSetupHeaderAppend.ini" >> "%~dp0\ManifestHeader-1-Setup.ini"
 

@@ -25,4 +25,3 @@ PostExec=TranscendedDefaultUser.ini(Theme+FOV)
 Group=TranscendedDefaultUser.ini(Theme+FOV)Files
 Group=LayDDentonDefaultinisFiles
 PostExec=LayDDentonDefaultinis
-Group=SteamInstall
