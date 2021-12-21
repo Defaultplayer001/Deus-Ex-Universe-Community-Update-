@@ -171,7 +171,7 @@ If you install a translation, Confix will not be.
 * RenderExt (Render Extension from Revision)
 * Nephthys (MP Admin tool)
 * DXMTL (Multiplayer bug fixes)
-* Fixed Consys (Fixes comment distortion on decompiling, other?)
+* Fixed Consys (Fixes comment distortion on decompiling, other? Currently unused by default, causes a crash on boot. Incompatibility likely.)
 
 ### Alternate EXEs : (Launch Recommended & Used by Default)
 #### Copy and Rename desired EXE to "Deus Ex Community Update.exe" 
