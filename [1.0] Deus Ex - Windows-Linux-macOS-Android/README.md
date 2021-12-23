@@ -22,7 +22,7 @@ Actual gameplay code is identical, warts and all!
 
 Also includes a dedicated multiplayer setup, plus the original 2 mission demo updated to the latest version.
 
-Features the new Lay D Denton Projct as an install option, a female JC Denton player mod! 
+Features the new Lay D Denton Project as an install option, a female JC Denton player mod! 
 
 Selected by default is the fantastic mod: 
 
@@ -44,7 +44,7 @@ Also selected by default is "Confix", a conversation typo and logic patch.
 
 Simply install and run from the created "Play Deus Ex" shortcut in your Start menu under the Deus Ex Community Update Folder.
 
-This was tested on the 1112fm disc/Steam/GOG versions, but should work on every copy of Deus Ex available, if it doesn't please let us know! (Make sure however you use fresh copy for guaranteed intended functionality, as many mods like to overwrite core files.)
+This was tested on the 1112fm disc/Steam/GOG versions, but should work on every copy of Deus Ex available, if it doesn't please let us know! (Make sure however you use a fresh copy for guaranteed intended functionality, as many mods like to overwrite core files.)
 
 Note: For some currently unknown reasoon on German copies of Windows past versions of the installer crash, possibly current ones as well. If you encounter any issues rename the .exe to a .7z, extract and follow the instructions in the ReadMe.
 
@@ -95,7 +95,7 @@ Everyone has their own vision of how Deus Ex should be, and while we can't promi
 * You may need to alt-tab out and back into the game on boot. At least with DX9 on some systems it displays only black at first. Likewise, sometimes the initial launch menu doesn't appear up front.
 * On modern systems, it's possible the first line of the intro gets cuts off. If you load into a map (even the intro itself), then play the into the line plays as intended.
 * Both of the above also happen with a vanilla install as well. Not DXCU related. Both also have currently unknown causes. 
-***
+* With Transcended couches / chairs may be different colors from the original "Model T Black" single color aesthetic. Makes some locations such as Paul's apartment look different from their Vanilla designs. Arguably a bug fix but unfortunately the other furniture color textures noticeably look worse and also just throw off the original aesthetic. Also also nostalgia. Will be changed as soon as I figure out the class replacement that Han told me about or how to recompile DXT's DeusEx.u. 
 
 ### Why is this so big? 
 A 700mb installer certainly isn't ideal for a Deus Ex mod. Options such as delta compression have been looked into, but with unsatisfactory results so far.
