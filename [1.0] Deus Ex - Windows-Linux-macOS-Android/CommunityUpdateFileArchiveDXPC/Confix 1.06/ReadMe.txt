@@ -13,14 +13,16 @@ The pathing is strict as well, but can be figured out by auto-generating the fil
 Changelog :
 
 Audio files:
-BOGIE:			Converted all audio to mono
+BOGIE:			Converted all audio to mono DP: Done with Goldwave, literally just 4 lines it looks like? TechSergeantKaplan\MeetKaplan\Choice02f.mp3, HK_Shared\GordonQuick\Gate_Guard2\GordonQuick06.mp3, HK_Shared\Street_Cop\Street_CopBarks\Street_Cop02.mp3&Street_Cop03.mp3. 
 
 General:
 			Triggers and flag sets are moved to be earlier in conversations and infolinks, so they will be activated regardless and to promote fluidity
 			All mentions of "J. C. Denton" are changed to "JC Denton"
-			Made ellipses formatting uniform -- most were either missing a space after them, or had 4 dots instead of 3
-			All Comments removed to prevent any possible issues with DEED (Deus Ex Extract and Decompile)
-			Added Demo detection for Unofficial Patch V3(Now unused thanks to Han's help with DeusEx.u)
+			Made ellipses formatting uniform -- most were either missing a space after them, or had 4 dots instead of 3 	
+			All Comments removed to prevent any possible issues with DEED (Deus Ex Extract and Decompile) (Issue was actually with ConSys, see Fixed ConSys for more info. Comments can be re-added.)
+			Added Demo detection for Unofficial Patch V3(Now unused thanks to Han's help with DeusEx.u)'
+			Added Confix_Engaged flags to M01 DL_StartGame and M08 DL_SmugglerHome to help with Transcended Shick handling.
+
 AIBarks:
 			Added GuntherHermannPissed class, to replace GuntherHermann after Anna has died (AnnaNavarre_Dead == true)
 BOGIE:			Added MJ12Elite class
@@ -49,9 +51,12 @@ HAWK:			MJ12Lab_BioWeapons.MJ12Lab_BioWeapons_Overheard - MJ12Lab_Assistant_BioW
 BOGIE:			TeaHouseRedArrow.CatererConvo - Caterer (cop ingame) will be added credits when bribed
 			(too many to count) - Typo fix ("Versalife" => "VersaLife")
 
-Mission0_Infolink:
-			Many small typos fix (most obvious one - "breech" => "breach")
+Mission0:
 
+Unknown: 		DP: JaimeReyes.JaimeBark - Typo fix ("All Right" => ")
+
+Mission0_Infolink:
+			Many small typos fix (most obvious one - "breech" => "breach") DP: Specifically, in DL_BreachDoor, DL_Lam. Also fixed was DL_Law (Compund => Compound).
 Mission1:
 			AnnaNavarre.AnnaBarks - Typo fix ("wating" => "waiting")
 HAWK:			AnnaNavarre.MeetAnna - Check for MeetCarter_Played before M02Briefing_Played
