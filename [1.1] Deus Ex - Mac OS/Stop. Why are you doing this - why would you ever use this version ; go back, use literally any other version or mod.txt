@@ -6,5 +6,5 @@ Running old Mac OS programs on any modern OS is a relative pain from my minor re
 
 I'd like to eventually work on something for this, but it's a very low priority
 
-If anyone want's to do anything here for some reason, please be my guest! 
+If anyone wants to do anything here for some reason, please be my guest! 
 - DP 
