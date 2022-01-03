@@ -221,12 +221,13 @@ If you install a translation, Confix will not be.
 * Mapper's dream modified for Deus Ex
 * Bright 1.83 
 * UModel 
-* Tutorials: UED2 manual, Tack's site and Universal Constructor site
+* Tutorials: UED2 manual, Tack's site and Universal Constructor site, Wolf's site, Blacksway's UED2 guide, various Unreal reference material, all official documentation from the SDK
 #### Also included:
 * Deus Ex Editor Patch
 * Editor.dll hex edited to show an increased 1024x1024/2048x2048 resolution of temporary viewport for shadowmap creation.ViewportSize
 * HTK Commandlets 
 * MoreTriggers (A collections of useful triggers)
+* MoreMoreTriggers (A custom collection of yet more triggers, mostly taken from "Invisible War: Revised")
 
 ### Deus Ex Setup Creator:
 * Deus Ex 1014f Patch (Used just for uniquely useful setup.exe)
