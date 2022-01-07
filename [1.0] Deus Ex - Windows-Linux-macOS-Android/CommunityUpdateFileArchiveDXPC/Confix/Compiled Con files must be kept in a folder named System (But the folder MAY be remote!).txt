@@ -1,0 +1,42 @@
+GreaselToday at 7:42 AM
+I think conversation files have to be in the same directory as the exe
+nahToday at 7:51 AM
+actually not necessarily, but but rather relative to the exe as ..\System\<thing>
+that is so unnecessary and annoying
+
+It's just the con files that annoyingly have to be in a /system folder relative to the EXE, right?
+At least my brief tests seem to confirm that.
+Launches at least.
+
+
+nah02/05/2021
+yeah
+or actually just the con audio files i think
+
+UPDATE: 
+
+;Confix Path
+Paths=..\..\Confix\System\*.u
+
+Defaultmom001 — Today at 4:39 PM
+This does indeed seem to work fine?
+nah — Today at 4:40 PM
+does confix update the audio packages?
+
+Defaultmom001 — Today at 4:40 PM
+Yup
+I just tested
+If it's named anything but system
+it fails
+get the classic mismatched audio
+but if it's named system, works fine.
+
+nah — Today at 4:41 PM
+ah
+Defaultmom001 — Today at 4:41 PM
+;Confix Path
+Paths=..\..\Confix\Convos\*.u
+=no good
+So at least I'm not going crazy
+happy accident that I found out this works
+

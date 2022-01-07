@@ -1,0 +1,504 @@
+ .postbitlegacy_1 .content, .postbitlegacy_2 .content {
+	font:    100% Verdana;
+	color: rgb(51, 51, 51);
+
+}
+/*postbit legacy*/
+.postbitlegacy_1, .postbitlegacy_2 {
+	margin-bottom: 5px;
+	display:block;
+	width: 100%;
+	clear:both;
+	position: relative;
+	float: left;
+	color: #3e3e3e;
+border:1px solid #0b198c;
+	
+}
+.postbitlegacy_1 hr, .postbitlegacy_2 hr{
+	display: none;
+}
+.postbitlegacy_1 .postdetails, .postbitlegacy_2 .postdetails{
+	float: left;
+	width: 100%;
+	background: #d7d7e9 none   ;
+	_background-image: none;
+}
+.postbitlegacy_2 .postdetails{
+background: #f7f7f7 none   ;
+}
+.postbitlegacy_1 .posthead, .postbitlegacy_2 .posthead{
+	border: 1px solid #0b198c;
+	background: #d7d7e9;
+	_background-image: none;
+	padding: 4px 0;
+	padding-left: 10px;
+	color: #000000;
+	margin: -1px -1px 0;
+	font:   normal 12px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+border-bottom:1px solid #f7f7f7 ;
+}
+
+.postbitlegacy_2 .posthead{
+border-bottom: 1px solid #efefef;
+background: #f7f7f7;
+color: #000000;
+}
+.postbitlegacy_1 .posthead .postdate, .postbitlegacy_2 .posthead .postdate{
+	font:   normal 12px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+	padding-left: 15px;
+	color: #000000;
+}
+
+.postbitlegacy_1 .posthead .postdate.old, .postbitlegacy_2 .posthead .postdate.old {
+	background:transparent url(//www.ttlg.com/forums/images/statusicon/post_old.png) no-repeat center left;
+}
+.postbitlegacy_1 .posthead .postdate.new, .postbitlegacy_2 .posthead .postdate.new {
+	background:transparent url(//www.ttlg.com/forums/images/statusicon/post_new.png) no-repeat center left;
+}
+
+
+.postbitlegacy_1 .posthead .time, .postbitlegacy_2 .posthead .time {
+	font:   normal 12px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+	color: #000000;
+}
+
+.postbitlegacy_1 .posthead .nodecontrols, .postbitlegacy_2 .posthead .nodecontrols {
+	position: absolute;
+	color: #000000;
+	right: 0;
+	top: 0;
+	width: 50% ;
+	padding: 4px 10px 0;
+	text-align: right;
+	font:   normal 12px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+	vertical-align: middle;
+}
+
+.postbitlegacy_1 .posthead .nodecontrols a, .postbitlegacy_2 .posthead .nodecontrols a{
+	color: #000;
+}
+
+.postbitlegacy_1 .posthead .nodecontrols img, .postbitlegacy_2 .posthead .nodecontrols img {
+	position: relative;
+	top: 2px;
+	padding: 0;
+}
+
+.postbitlegacy_1 .posthead .nodecontrols .postimod, .postbitlegacy_2 .posthead .nodecontrols .postimod{
+	top: 0px;
+	position:relative;
+	margin-left: 5px;
+}
+
+.postbitlegacy_1 .postbody, .postbitlegacy_2 .postbody{
+	margin-left: 200px;
+	border-left: 1px solid #efefef;
+	background: #d7d7e9 none   ;
+	_background-image: none;
+	padding-bottom: 1em;
+font-size:60%;
+}
+
+.postbitlegacy_2 .postbody{
+background: #f7f7f7 none   ;
+}
+
+.postbitlegacy_1 .postrow, .postbitlegacy_2 .postrow{
+	padding: 5px 10px 10px;
+	font:   normal 13px Verdana;
+	color: rgb(51, 51, 51);
+}
+.postbitlegacy_1 .userinfo, .postbitlegacy_2 .userinfo {
+	float:left;
+	position: relative;
+	width:180px; 
+	padding: 2px 10px 5px;
+	font-size: 11.5px;
+	display:block;
+        background: #d7d7e9 none   ;
+	clear:both;
+}
+.postbitlegacy_2 .userinfo {
+	background: #f7f7f7 none   ;
+}
+.postbitlegacy_1 .userinfo .rank, .postbitlegacy_2 .userinfo .rank {
+	font-size: 12px;
+	display:block;
+	clear:both;
+}
+.postbitlegacy_1 .userinfo .username_container, .postbitlegacy_2 .userinfo .username_container {
+	margin-bottom: 8px;
+}
+
+
+.postbitlegacy_1 .userinfo .username_container .memberaction, .postbitlegacy_2 .userinfo .username_container .memberaction {
+	display: inline;
+}
+
+.postbitlegacy_1 .userinfo .postuseravatar, .postbitlegacy_2 .userinfo .postuseravatar{
+	display:block;
+	margin:3.3333333333333px auto 0;
+	text-align:left;
+	width: auto;
+}
+
+.postbitlegacy_1 .userinfo .postuseravatar img, .postbitlegacy_2 .userinfo .postuseravatar img{
+	border: 0px solid #f2f6f8;
+ 	outline: 0px dotted #d8d8d8;
+ 	max-width: 180px;
+}
+
+.postbitlegacy_1 .userinfo a.username, .postbitlegacy_2 .userinfo a.username {
+	clear:right;
+	font-size:14px;
+	font-weight:bold;
+	width: auto;
+	max-width:160px;
+	word-wrap:break-word;
+}
+
+.postbitlegacy_1 .userinfo .guest.username, .postbitlegacy_2 .userinfo .guest.username{
+	padding-top: 5px;
+	display:block;
+	font-size: 14px;
+}
+
+.postbitlegacy_1 dl.userinfo_extra, .postbitlegacy_1 dl.user_rep, .postbitlegacy_2 dl.userinfo_extra, .postbitlegacy_1 dl.user_rep {
+	margin: 5px 0;
+	display:block;
+	float: left;
+	width: 80px; 
+}
+.postbitlegacy_1 dl.userinfo_extra dt, .postbitlegacy_1 dl.user_rep dt, .postbitlegacy_2 dl.userinfo_extra dt, .postbitlegacy_1 dl.user_rep dt {
+	float: left;
+	text-align: left;
+	/*color: #777777;*/
+	margin-right: 10px;
+	margin-left: 0;
+	min-width:60px;
+	width:auto !important;
+	width:60px;
+}
+
+.postbitlegacy_1 dl.userinfo_extra dt:after, .postbitlegacy_1 dl.user_rep dot:after, .postbitlegacy_2 dl.userinfo_extra dt:after, .postbitlegacy_2 dl.user_rep dt:after {
+	content: ":";
+}
+
+.postbitlegacy_1 dl.user_rep dt.blank:after, .postbitlegacy_2 dl.user_rep dt.blank:after {
+	content: none;
+}
+
+.postbitlegacy_1 dl.userinfo_extra dd, .postbitlegacy_1 dl.userinfo_extra dd a, .postbitlegacy_1 dl.user_rep dd , .postbitlegacy_2 dl.userinfo_extra dd, .postbitlegacy_2 dl.userinfo_extra dd a, .postbitlegacy_2 dl.user_rep dd {
+	padding-bottom: 3px;
+}
+
+.postbitlegacy_1 dl.user_rep img, .postbitlegacy_2 dl.user_rep img {
+	margin-top: 10px;
+}
+
+.postbitlegacy_1 .imlinks, .postbitlegacy_2 .imlinks {
+	width: 100%;
+	float: left;
+}
+
+.postbitlegacy_1 .imlinks img, .postbitlegacy_2 .imlinks img {
+	display:inline;
+}
+
+.postbitlegacy_1 .title, .eventbit .title, .postbitlegacy_2 .title, .eventbit .title {
+	display:block;
+	padding: 10px;
+	font:   bold 14px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+}
+
+.postbitlegacy_1 .title.icon, .postbitlegacy_2 .title.icon {
+	padding-left:0;
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+
+.postbitlegacy_1 .title.icon1  { background-image:url(//www.ttlg.com/forums/images/icons/icon1.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon2  { background-image:url(//www.ttlg.com/forums/images/icons/icon2.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon3  { background-image:url(//www.ttlg.com/forums/images/icons/icon3.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon4  { background-image:url(//www.ttlg.com/forums/images/icons/icon4.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon5  { background-image:url(//www.ttlg.com/forums/images/icons/icon5.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon6  { background-image:url(//www.ttlg.com/forums/images/icons/icon6.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon7  { background-image:url(//www.ttlg.com/forums/images/icons/icon7.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon8  { background-image:url(//www.ttlg.com/forums/images/icons/icon8.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon9  { background-image:url(//www.ttlg.com/forums/images/icons/icon9.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon10 { background-image:url(//www.ttlg.com/forums/images/icons/icon10.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon11 { background-image:url(//www.ttlg.com/forums/images/icons/icon11.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon12 { background-image:url(//www.ttlg.com/forums/images/icons/icon12.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon13 { background-image:url(//www.ttlg.com/forums/images/icons/icon13.png); padding-left:30px;}
+.postbitlegacy_1 .title.icon14 { background-image:url(//www.ttlg.com/forums/images/icons/icon14.png); padding-left:30px;}
+
+.postbitlegacy_2 .title.icon1  { background-image:url(//www.ttlg.com/forums/images/icons/icon1.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon2  { background-image:url(//www.ttlg.com/forums/images/icons/icon2.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon3  { background-image:url(//www.ttlg.com/forums/images/icons/icon3.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon4  { background-image:url(//www.ttlg.com/forums/images/icons/icon4.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon5  { background-image:url(//www.ttlg.com/forums/images/icons/icon5.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon6  { background-image:url(//www.ttlg.com/forums/images/icons/icon6.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon7  { background-image:url(//www.ttlg.com/forums/images/icons/icon7.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon8  { background-image:url(//www.ttlg.com/forums/images/icons/icon8.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon9  { background-image:url(//www.ttlg.com/forums/images/icons/icon9.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon10 { background-image:url(//www.ttlg.com/forums/images/icons/icon10.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon11 { background-image:url(//www.ttlg.com/forums/images/icons/icon11.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon12 { background-image:url(//www.ttlg.com/forums/images/icons/icon12.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon13 { background-image:url(//www.ttlg.com/forums/images/icons/icon13.png); padding-left:30px;}
+.postbitlegacy_2 .title.icon14 { background-image:url(//www.ttlg.com/forums/images/icons/icon14.png); padding-left:30px;}
+
+.postbitlegacy_1 .postfoot, .postbitlegacy_2 .postfoot{
+	display:block;
+	position: relative;
+	right: 0;
+	float: left;
+	clear:both;
+	vertical-align: bottom;
+	background: transparent;
+	height: 26px;
+	font:   bold 11px Tahoma, Calibri, Verdana, Geneva, sans-serif;
+	width: 100%;
+border-bottom:1px solid #0b198c;
+}
+
+.postbitlegacy_1 .postrow.has_after_content, .postbitlegacy_2 .postrow.has_after_content {
+	padding-bottom: 4em;
+}
+
+.postbitlegacy_1 .after_content, .postbitlegacy_2 .after_content {
+	position: relative;
+	width: 100%;
+	clear:both;
+}
+
+.postbitlegacy_1 .signature, .postbitlegacy_1 .lastedited, .postbitlegacy_2 .signature, .postbitlegacy_2 .lastedited {
+	margin-top: 1em;
+	padding: 1em 10px 0;
+}
+
+.postbitlegacy_1 .postfoot .textcontrols, .postbitlegacy_2 .postfoot .textcontrols {
+	padding: 3px 0 7px;
+	display:block;
+	background: #d7d7e9 none   ;
+	_background-image: none;
+	font:   bold 11px Tahoma, Calibri, Verdana, Geneva, sans-serif;
+	width: 100%;
+	height: 16px;
+	margin-right: 10px;
+border-top: 1px solid #e9e9e9;
+}
+.postbitlegacy_2 .postfoot .textcontrols{
+background: #f7f7f7 none   ;
+border-top: 1px solid #d7d7e9;
+}
+
+.postbitlegacy_1 .postfoot .textcontrols img.inline, .postbit .postfoot .textcontrols img.inline, .postbitlegacy_2 .postfoot .textcontrols img.inline, .postbit .postfoot .textcontrols img.inline {
+	position: absolute;
+	top: 2px;
+	left: -1px;
+	margin-right: 1px;
+}
+.postbitlegacy_1 .postfoot .textcontrols span.seperator, .postbit .postfoot .textcontrols span.seperator, .postbitlegacy_2 .postfoot .textcontrols span.seperator, .postbit .postfoot .textcontrols span.seperator {
+	position: relative;
+	top: 2px;
+	left: 3px;
+	background: #d8d8d8;
+	_background-image: none;
+	display: inline-block;
+	height: 80%;
+	width: 1px;
+	float:left;
+	margin: 0 5px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a, .postbit .postfoot .textcontrols a, .postbitlegacy_2 .postfoot .textcontrols a, .postbit .postfoot .textcontrols a {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	padding: 3px;
+	padding-left: 23px;
+	border: 0px solid #a8a8a8;
+	background: #e9e9e9 url(//www.ttlg.com/forums/images/buttons/newbtn_middle.png) repeat-x  ;
+	_background-image: none;
+	color: #4e4e4e;
+	font:   bold 11px Tahoma, Calibri, Verdana, Geneva, sans-serif;
+	display:inline-block;
+	float: left;
+	margin-left: 5px;
+}
+
+/* Text button hover images */
+.postbitlegacy_1 .postfoot .textcontrols img.spam, .postbit .postfoot .textcontrols img.spam, .postbitlegacy_2 .postfoot .textcontrols img.spam, .postbit .postfoot .textcontrols img.spam  {
+	padding-top: 2px;
+}
+.postbitlegacy_1 .postfoot .textcontrols img.moderated, .postbit .postfoot .textcontrols img.moderated, .postbitlegacy_1 .postfoot .textcontrols img.spam, .postbit .postfoot .textcontrols img.spam, .postbitlegacy_1 .postfoot .textcontrols img.deleted_nolink, .postbit .postfoot .textcontrols img.deleted_nolink, .postbitlegacy_2 .postfoot .textcontrols img.moderated, .postbit .postfoot .textcontrols img.moderated, .postbitlegacy_2 .postfoot .textcontrols img.spam, .postbit .postfoot .textcontrols img.spam, .postbitlegacy_2 .postfoot .textcontrols img.deleted_nolink, .postbit .postfoot .textcontrols img.deleted_nolink  {
+	padding-top: 2px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.editpost, .postbit .postfoot .textcontrols a.editpost, .postbitlegacy_2 .postfoot .textcontrols a.editpost, .postbit .postfoot .textcontrols a.editpost  {
+	background: url(//www.ttlg.com/forums/images/buttons/edit_40b.png) no-repeat transparent left ;
+	padding-left: 20px;
+}
+
+.postbitlegacy_1 .postfoot .textcontrols a.editpost:hover, .postbit .postfoot .textcontrols a.editpost:hover, .postbitlegacy_2 .postfoot .textcontrols a.editpost:hover, .postbit .postfoot .textcontrols a.editpost:hover{
+	background: url(//www.ttlg.com/forums/images/buttons/edit_40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.quickreply, .postbitlegacy_2 .postfoot .textcontrols a.quickreply {
+	background: url(//www.ttlg.com/forums/images/buttons/reply_40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.quickreply:hover, .postbitlegacy_2 .postfoot .textcontrols a.quickreply:hover{
+	background: url(//www.ttlg.com/forums/images/buttons/reply_40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.newreply, .postbitlegacy_2 .postfoot .textcontrols a.newreply{
+	background: url(//www.ttlg.com/forums/images/buttons/quote_40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.newreply:hover, .postbitlegacy_2 .postfoot .textcontrols a.newreply:hover  {
+	background: url(//www.ttlg.com/forums/images/buttons/quote_40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.multiquote, .postbitlegacy_2 .postfoot .textcontrols a.multiquote{
+	background: url(//www.ttlg.com/forums/images/buttons/multiquote-back_40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.multiquote:hover, .postbitlegacy_2 .postfoot .textcontrols a.multiquote:hover{
+	background: url(//www.ttlg.com/forums/images/buttons/multiquote_40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.promotecms, .postbitlegacy_2 .postfoot .textcontrols a.promotecms {
+	background: url(//www.ttlg.com/forums/images/cms/promote_small.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.promotecms:hover, .postbitlegacy_2 .postfoot .textcontrols a.promotecms:hover{
+	background: url(//www.ttlg.com/forums/images/cms/promote_small-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.infraction, .postbitlegacy_2 .postfoot .textcontrols a.infraction{
+	background: url(//www.ttlg.com/forums/images/buttons/add-infraction_sm.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.infraction:hover, .postbitlegacy_2 .postfoot .textcontrols a.infraction:hover {
+	background: url(//www.ttlg.com/forums/images/buttons/add-infraction_sm-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.report, .postbitlegacy_2 .postfoot .textcontrols a.report{
+	background: url(//www.ttlg.com/forums/images/buttons/report-40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.report:hover, .postbitlegacy_2 .postfoot .textcontrols a.report:hover,  {
+	background: url(//www.ttlg.com/forums/images/buttons/report-40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.blog, .postbit .postfoot .textcontrols a.blog, .postbitlegacy_2 .postfoot .textcontrols a.blog, .postbit .postfoot .textcontrols a.blog  {
+	background: url(//www.ttlg.com/forums/images/misc/blog/blogpost_40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.blog:hover, .postbit .postfoot .textcontrols a.blog:hover, .postbitlegacy_2 .postfoot .textcontrols a.blog:hover, .postbit .postfoot .textcontrols a.blog:hover  {
+	background: url(//www.ttlg.com/forums/images/misc/blog/blogpost_40b-hover.png) no-repeat transparent left ;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.reputation, .postbit .postfoot .textcontrols a.reputation, .postbitlegacy_2 .postfoot .textcontrols a.reputation, .postbit .postfoot .textcontrols a.reputation  {
+	background: url(//www.ttlg.com/forums/images/buttons/reputation-40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.reputation:hover, .postbit .postfoot .textcontrols a.reputation:hover, .postbitlegacy_2 .postfoot .textcontrols a.reputation:hover, .postbit .postfoot .textcontrols a.reputation:hover  {
+	background: url(//www.ttlg.com/forums/images/buttons/reputation-40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.ip, .postbit .postfoot .textcontrols a.ip, .postbitlegacy_2 .postfoot .textcontrols a.ip, .postbit .postfoot .textcontrols a.ip  {
+	background: url(//www.ttlg.com/forums/images/buttons/ip-40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.ip:hover, .postbit .postfoot .textcontrols a.ip:hover, .postbitlegacy_2 .postfoot .textcontrols a.ip:hover, .postbit .postfoot .textcontrols a.ip:hover  {
+	background: url(//www.ttlg.com/forums/images/buttons/ip-40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.redcard, .postbit .postfoot .textcontrols a.redcard, .postbitlegacy_2 .postfoot .textcontrols a.redcard, .postbit .postfoot .textcontrols a.redcard  {
+	background: url(//www.ttlg.com/forums/images/buttons/red-card_sm.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.redcard:hover, .postbit .postfoot .textcontrols a.redcard:hover, .postbitlegacy_2 .postfoot .textcontrols a.redcard:hover, .postbit .postfoot .textcontrols a.redcard:hover  {
+	background: url(//www.ttlg.com/forums/images/buttons/red-card_sm-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.yellowcard, .postbit .postfoot .textcontrols a.yellowcard, .postbitlegacy_2 .postfoot .textcontrols a.yellowcard, .postbit .postfoot .textcontrols a.yellowcard  {
+	background: url(//www.ttlg.com/forums/images/buttons/yellow-card_sm.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.yellowcard:hover, .postbit .postfoot .textcontrols a.yellowcard:hover, .postbitlegacy_2 .postfoot .textcontrols a.yellowcard:hover, .postbit .postfoot .textcontrols a.yellowcard:hover  {
+	background: url(//www.ttlg.com/forums/images/buttons/yellow-card_sm-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.deleted, .postbit .postfoot .textcontrols a.deleted, .postbitlegacy_2 .postfoot .textcontrols a.deleted, .postbit .postfoot .textcontrols a.deleted  {
+	background: url(//www.ttlg.com/forums/images/buttons/deleted_sm.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a.deleted:hover, .postbit .postfoot .textcontrols a.deleted:hover, .postbitlegacy_2 .postfoot .textcontrols a.deleted:hover, .postbit .postfoot .textcontrols a.deleted:hover  {
+	background: url(//www.ttlg.com/forums/images/buttons/deleted_sm-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy_1 .postfoot .textcontrols a:hover, .postbitlegacy_2 .postfoot .textcontrols a:hover {
+	color: #417394;
+	background:  url(//www.ttlg.com/forums/images/buttons/newbtn_middle.png) repeat-x  ;
+	_background-image: none;
+}
+
+.postbitlegacy_1 .postfoot .textcontrols a.highlight, .postbitlegacy_2 .postfoot .textcontrols a.highlight {
+	background-color: ;
+}
+
+.postbitlegacy_1 .postfoot .textcontrols a.multiquote, .postbitlegacy_2 .postfoot .textcontrols a.multiquote {
+	border: 0;
+	margin-right: 0;
+	padding-right: 10px;
+}
+
+.postbitlegacy_1 .postfoot .textcontrols a img, .postbitlegacy_2 .postfoot .textcontrols a img {
+	position: absolute;
+	top: 2px;
+	left: 3px;
+}
+
+.postbitlegacy_1 .postfoot .textcontrols a:hover img, .postbitlegacy_2 .postfoot .textcontrols a:hover img {
+	top: 2px;
+}
+
+.postbitlegacy_1 .postfoot  .postcontrols, .postbitlegacy_2 .postfoot  .postcontrols {
+	position: absolute;
+	right: 10px;
+}
+
+.postbitlegacy_1 .postfoot .postlinking, .postbitlegacy_2 .postfoot .postlinking {
+	position: absolute;
+	left: 10px;
+}
+
+.postbitlegacy_1 .userinfo .userinfo_extra, .postbitlegacy_2 .userinfo .userinfo_extra {
+	width:180px;
+	float: left;
+	font-size: 11.5px;
+}
+
+.isuser{
+background-color:#d7d7e9;
+padding:5px;
+-moz-border-radius-bottomleft:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-bottom-right-radius:5px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+}
+.welcomelink{
+color:#000000;
+}
+.ttlg_buttons{
+padding-top:70px;
+float:right;
+}
+.logo-image{
+margin-top:20px;
+}
+
+

@@ -1,0 +1,4 @@
+function ts(sp)
+{
+	sp.className = (sp.className == 'son') ? 'soff' : 'son';
+}

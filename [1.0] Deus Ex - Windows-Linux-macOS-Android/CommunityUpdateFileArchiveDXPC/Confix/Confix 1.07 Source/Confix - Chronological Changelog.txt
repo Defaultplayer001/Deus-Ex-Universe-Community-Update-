@@ -1,0 +1,4 @@
+.LOG
+11:19 PM 5/23/2019
+Chronological changelog created. 
+DEFAULTPLAYER001: JosephManderley.M02Briefing - Fix dialogue mismatch ("talking" => "taking") 

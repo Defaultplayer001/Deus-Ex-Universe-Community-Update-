@@ -1,0 +1,12 @@
+I just found a workaround to accidentally working in stupid copy protected mode, and also easily copying stuff from one .con file to another!
+Finally!
+So simple in hindsight.
+Just copy what you want, open the new .con file, and then paste!
+I bet others knew about this but I sure didn't.
+Hm, annoyingly you can't seem to paste sections from one characters convo into anothers easily.
+That being said aside that limitation the trick still works!
+You can copy a characters convo section, reload the unchanged file, then paste and it will work!
+If the NPC does not exist it seems to create it.
+Unfortunately no way to select multiple convo sections of a character, so no good way to copy entire characters it seems.
+
+Defaultmom001Today at 3:18 PM

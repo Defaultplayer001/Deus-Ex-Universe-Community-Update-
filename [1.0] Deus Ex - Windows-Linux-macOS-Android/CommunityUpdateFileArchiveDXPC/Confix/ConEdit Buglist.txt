@@ -1,0 +1,9 @@
+https://i.imgur.com/Zfk2R7P.png
+"Run-time error '457' This key is already associated with an element of this collection"
+If you try to edit a previously made choice, you get that bug, even it was copied like in my case.
+If you create a new choice though, it works!
+https://i.imgur.com/b2nYLWL.png
+This is apparently actually a DEED bug according to Han! 
+"DConChoice::Import skips over 4 bytes on import" 
+
+Another DEED bug. Sometimes the DEED decompile / recompile process will break convos! As is the case with the NSFTroop convo in the Mission51.con file for Invisible War (Revised)! 

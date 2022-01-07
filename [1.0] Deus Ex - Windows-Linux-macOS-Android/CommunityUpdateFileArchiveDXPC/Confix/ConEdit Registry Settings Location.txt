@@ -1,0 +1,3 @@
+HKEY_CURRENT_USER\SOFTWARE\VB and VBA Program Settings\ConEdit
+
+If your Events windows dissapear on you, delete EventLeft and EventTop.
