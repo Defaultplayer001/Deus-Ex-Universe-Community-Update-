@@ -1,0 +1,66 @@
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger0]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger2]
+awardMessage="Bölge Konum Bonusu"
+
+[SkillAwardTrigger1]
+awardMessage="Kesif Bonusu"
+
+[NanoKey0]
+Description="Kulübe Kapi Anahtari"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Batarya Parki"
+startupMessage[0]="New York Sehri, Batarya Parki"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Depolama Yeri",CameraTag=Warehouse,Turrettag=Turret1)"
+Views[1]="(titleString="Tünel Köprüsü",CameraTag=Walkway,Turrettag=Turret2)"
+Views[2]="(titleString="Kayikhane Yolu",CameraTag=Boathouse,Turrettag=Turret3)"
+
+[BumFemale0]
+FamiliarName="Berdus Kiz"
+UnfamiliarName="Berdus Kiz"
+
+[SkillAwardTrigger6]
+awardMessage="Basari Bonusu"
+
+[ChildMale1]
+FamiliarName="Josh"
+UnfamiliarName="Çocuk"
+
+[SkillAwardTrigger10]
+awardMessage="Bölge Konum Bonusu"
+
+[JunkieMale2]
+FamiliarName="Hasta Erkek"
+UnfamiliarName="Hasta Erkek"
+
+[NanoKey3]
+Description="Kulübe Kapilari Anahtari"
+
+[JunkieFemale0]
+FamiliarName="Hasta Kadin"
+UnfamiliarName="Hasta Kadin"
+
+[ChildMale0]
+FamiliarName="Billy"
+UnfamiliarName="Çocuk"
+
+[SkillAwardTrigger5]
+awardMessage="Basari Bonusu"
+
+[BumMale3]
+FamiliarName="Geçmis Rehine"
+UnfamiliarName="Rehine"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=LeadTerrorist,KeyID=CCSafe,Description="Clinton Kalesi Güvenlik Kapisi")"
+
+[ComputerPersonal1]
+specialOptions[0]="(Text="Tünel Kapilari",TriggerText="Ana Kapilari Döndür",TriggerEvent=MainDoors)"
+

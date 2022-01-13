@@ -1,0 +1,29 @@
+[LevelSummary]
+Title="Untitled"
+
+[Hooker0]
+FamiliarName="Sally"
+
+[Button2]
+FamiliarName="Haberlesme Sistemi"
+UnfamiliarName="Haberlesme Sistemi"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=ApartmentKey,Description="Apartman Anahtari")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Osgood ve Ogullari Ön Kapi Anahtari")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Osgood ve Ogullari Arka Kapi Anahtari")"
+
+[SpecialEvent0]
+Message="Knicks için kontrat imzala!"
+
+[SkillAwardTrigger9]
+awardMessage="Basari Bonusu"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Cehennemin Mutfagi"
+startupMessage[0]="New York Sehri, Cehennemin Mutfagi"
+
+[BlackHelicopter1]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+

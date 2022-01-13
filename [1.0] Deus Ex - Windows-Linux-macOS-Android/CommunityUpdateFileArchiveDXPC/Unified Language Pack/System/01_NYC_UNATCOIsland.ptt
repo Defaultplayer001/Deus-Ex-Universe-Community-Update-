@@ -1,0 +1,217 @@
+[SkillAwardTrigger0]
+awardMessage="Bônus: progresso"
+
+[SkillAwardTrigger1]
+awardMessage="Bônus: exploração"
+
+[NanoKey0]
+Description="Alçapão do complexo da UNATCO"
+
+[SecurityCamera4]
+FamiliarName="SATCOM_cam"
+
+[SecurityCamera2]
+FamiliarName="UN_outside"
+
+[SkillAwardTrigger2]
+awardMessage="Bônus: exploração"
+
+[UNATCOTroop1]
+FamiliarName="Cabo Collins"
+
+[SecurityCamera1]
+FamiliarName="UN_lobby01"
+
+[SecurityCamera0]
+FamiliarName="UN_lobby02"
+
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Liberty Island"
+startupMessage[0]="Liberty Island, Cidade de Nova Iorque"
+startupMessage[1]="QG. UNATCO"
+
+[ThugMale5]
+FamiliarName="Criminoso mercenário"
+UnfamiliarName="Criminoso mercenário"
+
+[UNATCOTroop0]
+FamiliarName="Sargento técnico Kaplan"
+
+[LevelSummary]
+Title="Sem título"
+
+[Terrorist0]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[SkillAwardTrigger3]
+awardMessage="Bônus: exploração"
+
+[Terrorist24]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Trancas Mag. Estátua",CameraTag=NSFCam02,Turrettag=NSFTurret01,doorTag=StatueRuinDoors)"
+Views[1]="(titleString="Segurança Stair",CameraTag=NSFCam03,Turrettag=NSFTurret02)"
+
+[Terrorist2]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Complexo
+SATCOM",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[1]="(titleString="Exterior UNATCO HQ",CameraTag=UN_CamSystem02)"
+Views[2]="(titleString="Interior UNATCO HQ",CameraTag=UN_CamSystem03)"
+
+[Terrorist9]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[ThugMale0]
+FamiliarName="Criminoso mercenário"
+UnfamiliarName="Criminoso mercenário"
+
+[Terrorist36]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist13]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist12]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist6]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist3]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist32]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[ThugMale9]
+FamiliarName="Criminoso mercenário"
+UnfamiliarName="Criminoso mercenário"
+
+[Terrorist21]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist22]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=HarleyFilben,KeyID=ruin_key,Description="Chave das ruínas da estátua")"
+NanoKeyData[1]="(ScriptedPawnTag=PaulDenton,KeyID=UN_maindoor,Description="Portas blindadas da UNATCO")"
+
+[UNATCOTroop6]
+FamiliarName="Soldado Lloyd"
+
+[NYPoliceBoat0]
+FamiliarName="Piloto do barco da UNATCO"
+
+[Terrorist8]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist29]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist27]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist4]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist10]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[BumFemale0]
+FamiliarName="Viajante"
+UnfamiliarName="Viajante"
+
+[Terrorist1]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[TerroristCommander0]
+FamiliarName="Líder terrorista da NSF"
+UnfamiliarName="Líder terrorista da NSF"
+
+[SkillAwardTrigger8]
+awardMessage="Bônus: progresso"
+
+[Terrorist31]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[SkillAwardTrigger7]
+awardMessage="Bônus: exploração"
+
+[SkillAwardTrigger6]
+awardMessage="Bônus: localização crítica"
+
+[Terrorist20]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[ThugMale3]
+FamiliarName="Criminoso mercenário"
+UnfamiliarName="Criminoso mercenário"
+
+[ThugMale7]
+FamiliarName="Criminoso mercenário"
+UnfamiliarName="Criminoso mercenário"
+
+[Terrorist14]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist18]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist16]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist15]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist33]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Cela temporária",CameraTag=NSFCam01,Turrettag=celldoor,doorTag=temp_celldoor)"
+
+[Terrorist30]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist34]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist35]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+
+[Terrorist7]
+FamiliarName="Terrorista da NSF"
+UnfamiliarName="Terrorista da NSF"
+

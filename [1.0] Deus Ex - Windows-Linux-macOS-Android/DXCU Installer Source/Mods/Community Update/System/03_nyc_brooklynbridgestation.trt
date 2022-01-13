@@ -1,0 +1,80 @@
+[DeusExLevelInfo0]
+MissionLocation="New York - Brooklyn Köprü"
+startupMessage[0]="New York Sehri"
+startupMessage[1]="Brooklyn Köprü Istasyonu"
+
+[SkillAwardTrigger0]
+awardMessage="Basari Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+
+[BumMale2]
+FamiliarName="Charlie Fann"
+UnfamiliarName="Köstebek Insan"
+
+[JunkieMale1]
+FamiliarName="Lenny"
+
+[ThugMale11]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[JunkieFemale4]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[JunkieFemale3]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[Hooker1]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[ThugMale3]
+FamiliarName="El Rey"
+UnfamiliarName="Çete Lideri"
+
+[ThugMale9]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[BumMale3]
+FamiliarName="Evsiz"
+UnfamiliarName="Evsiz"
+
+[JunkieFemale1]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[ThugMale13]
+FamiliarName="Uyusturucu Saticisi"
+UnfamiliarName="Uyusturucu Saticisi"
+
+[ThugMale8]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[ThugMale6]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[JunkieMale0]
+FamiliarName="Don"
+
+[ThugMale1]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[SkillAwardTrigger7]
+awardMessage="Ilerleme Bonusu"
+
+[ChildMale0]
+FamiliarName="Çocuk"
+UnfamiliarName="Çocuk"
+
+[ThugMale12]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+

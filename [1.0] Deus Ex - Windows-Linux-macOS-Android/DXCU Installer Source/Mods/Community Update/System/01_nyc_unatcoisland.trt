@@ -1,0 +1,216 @@
+[SkillAwardTrigger0]
+awardMessage="Ilerleme Bonusu"
+
+[SkillAwardTrigger1]
+awardMessage="Kesif Bonusu"
+
+[NanoKey0]
+Description="UNATCO Yerleske Ambari"
+
+[SecurityCamera4]
+FamiliarName="SATCOM_cam"
+
+[SecurityCamera2]
+FamiliarName="UN_outside"
+
+[SkillAwardTrigger2]
+awardMessage="Kesif Bonusu"
+
+[UNATCOTroop1]
+FamiliarName="Onbasi Collins"
+
+[SecurityCamera1]
+FamiliarName="UN_lobby01"
+
+[SecurityCamera0]
+FamiliarName="UN_lobby02"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Özgürlük Adasi"
+startupMessage[0]="Özgürlük Adasi, New York"
+startupMessage[1]="UNATCO Karargahi"
+
+[ThugMale5]
+FamiliarName="Parali Serseri"
+UnfamiliarName="Parali Serseri"
+
+[UNATCOTroop0]
+FamiliarName="Çavus Kaplan"
+
+[LevelSummary]
+Title="Untitled"
+
+[Terrorist0]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[SkillAwardTrigger3]
+awardMessage="Kesif Bonusu"
+
+[Terrorist24]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Anit Har. Depo Kilidi",cameraTag=NSFCam02,turretTag=NSFTurret01,doorTag=StatueRuinDoors)"
+Views[1]="(titleString="Basamak Güvenligi",cameraTag=NSFCam03,turretTag=NSFTurret02)"
+
+[Terrorist2]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[ComputerSecurity0]
+Views[0]="(titleString="SATCOM Yerleskesi",cameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[1]="(titleString="UNATCO Krg Dis Taraf",cameraTag=UN_CamSystem02)"
+Views[2]="(titleString="UNATCO Krg Iç Taraf",cameraTag=UN_CamSystem03)"
+
+[Terrorist9]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[ThugMale0]
+FamiliarName="Parali Serseri"
+UnfamiliarName="Parali Serseri"
+
+[Terrorist36]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist13]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist12]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist6]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist3]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist32]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[ThugMale9]
+FamiliarName="Parali Serseri"
+UnfamiliarName="Parali Serseri"
+
+[Terrorist21]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist22]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=HarleyFilben,KeyID=ruin_key,Description="Anit Harabeleri")"
+NanoKeyData[1]="(ScriptedPawnTag=PaulDenton,KeyID=UN_maindoor,Description="UNATCO Giris Kapisi")"
+
+[UNATCOTroop6]
+FamiliarName="Lloyd"
+
+[NYPoliceBoat0]
+FamiliarName="UNATCO Polis Botu"
+
+[Terrorist8]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist29]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist27]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist4]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist10]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[BumFemale0]
+FamiliarName="Berdus"
+UnfamiliarName="Berdus"
+
+[Terrorist1]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[TerroristCommander0]
+FamiliarName="Terörist Komutan"
+UnfamiliarName="Terörist Komutan"
+
+[SkillAwardTrigger8]
+awardMessage="Ilerleme Bonusu"
+
+[Terrorist31]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[SkillAwardTrigger7]
+awardMessage="Kesif Bonusu"
+
+[SkillAwardTrigger6]
+awardMessage="Kritik Konum Bonusu"
+
+[Terrorist20]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[ThugMale3]
+FamiliarName="Parali Serseri"
+UnfamiliarName="Parali Serseri"
+
+[ThugMale7]
+FamiliarName="Parali Serseri"
+UnfamiliarName="Parali Serseri"
+
+[Terrorist14]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist18]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist16]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist15]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist33]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Geçici Tutma Hücresi",CameraTag=NSFCam01,Turrettag=celldoor,doorTag=temp_celldoor)"
+
+[Terrorist30]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist34]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist35]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+
+[Terrorist7]
+FamiliarName="NSF Terörist"
+UnfamiliarName="NSF Terörist"
+

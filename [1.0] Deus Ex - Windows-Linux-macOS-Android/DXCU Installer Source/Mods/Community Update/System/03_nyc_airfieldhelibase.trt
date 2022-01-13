@@ -1,0 +1,35 @@
+[SkillAwardTrigger9]
+awardMessage="Gelisim Bonusu"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Heli. Üs Kayit Odasi",CameraTag=RecCamera,doorTag=SecretDoor)"
+Views[1]="(titleString="Helikopter Üs Lobisi",CameraTag=Lobbycam)"
+Views[2]="(titleString="Asansör Erisimi",CameraTag=ElevatorTunnel,Turrettag=ElevatorTurret)"
+
+[SkillAwardTrigger8]
+awardMessage="Hedef Basari Bonusu"
+
+[SecurityCamera12]
+FamiliarName="Kamera"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Helikopter Üssü"
+startupMessage[0]="New York Sehri"
+startupMessage[1]="Bilinmeyen Konum"
+
+[SecurityCamera1]
+FamiliarName="SecurityCamera4"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger0]
+awardMessage="Kesif Bonusu"
+
+[SkillAwardTrigger1]
+awardMessage="Kesif Bonusu"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=BathroomTerrorist,KeyID=HeliSecurityRoom,Description="Havaalani Güvenlik Odasi")"
+NanoKeyData[1]="(ScriptedPawnTag=sewerguard,KeyID=Sewerdoor,Description="Kanalizasyon Kapisi")"
+

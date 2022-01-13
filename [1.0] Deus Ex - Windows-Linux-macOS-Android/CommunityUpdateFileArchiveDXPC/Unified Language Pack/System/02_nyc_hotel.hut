@@ -1,0 +1,26 @@
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="'Ton Hotel, északi szoba kulcskódja"
+
+[DeusExLevelInfo0]
+MissionLocation="New York City - 'Ton Hotel"
+
+[SkillAwardTrigger0]
+awardMessage="Felderítési jutalom"
+
+[GilbertRenton0]
+UnfamiliarName="Hotelrecepciós"
+
+[SkillAwardTrigger1]
+awardMessage="Teljesítési jutalom"
+
+[Female0]
+FamiliarName="Volt nõi túsz"
+UnfamiliarName="Nõi túsz"
+
+[Male0]
+FamiliarName="Volt férfi túsz"
+UnfamiliarName="Férfi túsz"
+

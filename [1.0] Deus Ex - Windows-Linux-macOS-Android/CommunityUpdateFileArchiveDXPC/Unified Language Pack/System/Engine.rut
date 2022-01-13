@@ -1,0 +1,161 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Дополнительные",Parent="Дополнительные настройки")
+Preferences=(Caption="Установки в игре",Parent="Дополнительные",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Псевдонимы",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Связывание клавиш",Parent="Дополнительные",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Драйверы",Parent="Дополнительные настройки",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Информация",Parent="Сеть",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Настройки игры",Parent="Дополнительные настройки",Class=Engine.GameInfo,Immediate=True)
+
+[Errors]
+NetOpen=Ошибка при открытии файла
+NetWrite=Ошибка при записи файла
+NetRefused=Сервер отвергнул пересылку '%s'
+NetClose=Ошибка при закрытии файла
+NetSize=Несоответствие размеров файла
+NetMove=Ошибка видео-файла
+NetInvalid=Получен неверный файл
+NoDownload=Пакет '%s' не загружен
+DownloadFailed=Ошибка при загрузке пакета '%s': %s
+RequestDenied=Сервер запрашивает файл из заверш. уровня: Запрещен
+ConnectionFailed=Ошибка соединения
+ChAllocate=Доступ к каналу запрещен
+NetAlready=Уже в сети
+NetListen=Ошибка поиска: Редактор связей недоступен
+LoadEntry=Невозможно загрузить запись: %s
+InvalidUrl=Неверный URL: %s
+InvalidLink=Неверная связь: %s
+FailedBrowse=Ошибка входа %s: %s
+Listen=Ошибка поиска: %s
+AbortToEntry=Ошибка; 
+ServerOpen=Серверы не могут открыть сетевые URL
+ServerListen=Сервер не может найти: %s
+Pending=Ошибка соединения с '%s'; %s
+LoadPlayerClass=Ошибка при загрузке класса игроков
+ServerOutdated=Устаревшая версия сервера
+
+[Progress]
+CancelledConnect=Отмена соединения
+RunningNet=%s: %s (%i игроков)
+NetReceiving=Получение '%s': %i/%i
+NetReceiveOk=Успешное получение '%s'
+NetSend=Отправка '%s'
+NetSending=Отправка '%s': %i/%i
+Connecting=Соединение...
+Listening=Поиск клиентов...
+Loading=Загрузка
+Saving=Сохранение
+Paused=Пауза %s
+ReceiveFile=Получение '%s' (F10 - Отмена)
+ReceiveSize=Размер %iK, Завершено %3.1f%%
+ConnectingText=Соединение (F10 - отмена):
+ConnectingURL=deusex://%s/%s
+
+[Console]
+ClassCaption=Стандартный экран Deus Ex
+LoadingMessage=ЗАГРУЗКА
+SavingMessage=ЗАПИСЬ
+ConnectingMessage=СОЕДИНЕНИЕ
+PausedMessage=ПАУЗА
+PrecachingMessage=КЕШИРОВАНИЕ
+ChatChannel=(CHAT) 
+TeamChannel=(TEAM) 
+
+[General]
+Upgrade=Чтобы зайти на этот сервер, вам необходимо последнее обновление для Deus Ex, доступное на Веб-сайте Ion Storm:
+UpgradeURL=http://www.deusex.com/upgrade
+UpgradeQuestion=Хотите запустить свой веб-браузер и перейти на страницу обновлений?
+Version=Версия %i
+
+[Menu]
+HelpMessage=
+MenuList=
+LeftString=Left
+RightString=Right
+CenterString=Center
+EnabledString=Enabled
+DisabledString=Disabled
+HelpMessage[1]="This menu has not yet been implemented."
+YesString=yes
+NoString=no
+
+[Inventory]
+PickupMessage=Подобрать вещь
+M_Activated=" активизирован"
+M_Selected=" выбран"
+M_Deactivated=" выключен"
+ItemArticle= 
+
+[WarpZoneInfo]
+OtherSideURL=
+
+[GameInfo]
+SwitchLevelMessage=Переключение уровней
+DefaultPlayerName=Игрок
+LeftMessage=" вышел из игры."
+FailedSpawnMessage=Ошибка при вызове игрока
+FailedPlaceMessage=Невозможно найти начальную точку 
+NameChangedMessage=Имя изменено на
+EnteredMessage=" вошел в игру."
+GameName="Игра"
+MaxedOutMessage=Сервер уже загружен
+WrongPassword=Неверный введеный вами пароль.
+NeedPassword=Чтобы присоединиться к игре, вы должны ввести пароль.
+FailedTeamMessage=Невозможно найти игроков для команды
+
+[LevelInfo]
+Title=Untitled
+
+[Weapon]
+MessageNoAmmo=" нет боеприпасов."
+PickupMessage=У вас есть оружие
+DeathMessage=%o убит %k %w.
+ItemName=Оружие
+DeathMessage[0]=%o убит %k %w.
+DeathMessage[1]=%o убит %k %w.
+DeathMessage[2]=%o убит %k %w.
+DeathMessage[3]=%o убит %k %w.
+
+[Counter]
+CountMessage=Только %i двигаться...
+CompleteMessage=Завершен!
+
+[Ammo]
+PickupMessage=Вы нашли боеприпасы.
+
+[Pickup]
+ExpireMessage=
+
+[SpecialEvent]
+DamageString=
+
+[DamageType]
+Name=killed
+AltName=killed
+
+[PlayerPawn]
+QuickSaveString=Быстрое сохранение
+NoPauseMessage=Невозможно вызвать паузу в игре
+ViewingFrom=Нет вида из
+OwnCamera=камера пользователя
+FailedView=Ошибка при изменении вида.
+CantChangeNameMsg=Вы не можете изменить свое имя во время игры по сети.
+
+[Pawn]
+NameArticle=" "
+
+[Spectator]
+MenuName=Зрители
+
+[ServerCommandlet]
+HelpCmd=server
+HelpOneLiner=Network game server
+HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
+HelpWebLink=http://www.deusex.com
+HelpParm[0]=Log
+HelpDesc[0]=Проверить log-файл
+HelpParm[1]=AllAdmin
+HelpDesc[1]=Предоставить всем игрокам привелегии администратора
+

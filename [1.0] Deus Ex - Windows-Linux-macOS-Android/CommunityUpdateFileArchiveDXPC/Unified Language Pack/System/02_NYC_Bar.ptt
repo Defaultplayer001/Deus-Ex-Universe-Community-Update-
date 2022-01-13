@@ -1,0 +1,34 @@
+[LevelSummary]
+Title="Sem título"
+
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Taverna Underworld"
+
+[Female1]
+FamiliarName="Mulher com suéter"
+UnfamiliarName="Mulher com suéter"
+
+[JordanShea0]
+UnfamiliarName="Bartender"
+
+[Male0]
+FamiliarName="Dan"
+UnfamiliarName="Trabalhador"
+
+[JoeGreene0]
+UnfamiliarName="Vendedor de carros usados?"
+
+[Female0]
+FamiliarName="Mulher"
+UnfamiliarName="Senhora"
+
+[SkillAwardTrigger6]
+awardMessage="Bônus: realização"
+
+[Jock0]
+UnfamiliarName="Piloto"
+
+[Hooker0]
+FamiliarName="Janey"
+UnfamiliarName="Garota"
+

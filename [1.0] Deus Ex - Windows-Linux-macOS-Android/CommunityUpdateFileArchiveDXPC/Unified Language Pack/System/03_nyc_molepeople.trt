@@ -1,0 +1,58 @@
+[BumMale2]
+FamiliarName="Köstebek Insan"
+UnfamiliarName="Köstebek Insan"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Köstebek Tünelleri"
+
+[LevelSummary]
+Title="Untitled"
+
+[BumMale1]
+FamiliarName="Köstebek Insan"
+UnfamiliarName="Köstebek Insan"
+
+[ChildMale0]
+FamiliarName="Köstebek Çocuk"
+UnfamiliarName="Köstebek Çocuk"
+
+[SkillAwardTrigger8]
+awardMessage="Basari Bonusu"
+
+[Terrorist33]
+FamiliarName="Terörist"
+UnfamiliarName="Terörist"
+
+[BumFemale3]
+FamiliarName="Köstebek Insan"
+UnfamiliarName="Köstebek Insan"
+
+[BumFemale4]
+FamiliarName="Köstebek Insan"
+UnfamiliarName="Köstebek Insan"
+
+[BumMale0]
+FamiliarName="Kevin Bradley"
+UnfamiliarName="Köstebek Insan"
+
+[ChildMale1]
+FamiliarName="Köstebek Çocuk"
+UnfamiliarName="Köstebek Çocuk"
+
+[ChildMale2]
+FamiliarName="Köstebek Çocuk"
+UnfamiliarName="Köstebek Çocuk"
+
+[SkillAwardTrigger6]
+awardMessage="Ilerleme Bonusu"
+
+[NanoKey0]
+Description="Köstebek Insan Tuvalet Anahtari"
+
+[JunkieMale0]
+FamiliarName="Köstebek Insan"
+UnfamiliarName="Köstebek Insan"
+
+[SkillAwardTrigger7]
+awardMessage="Kesif Bonusu"
+

@@ -4,7 +4,7 @@ Rem Here because the source value append text files keep getting merged for some
 
 rem del "%~dp0\value*.*"
 
-del /ah "Desktop.ini" /s /q
+del /ah "Desktop.ini" /s /q /f
 
 rem Ah, issue was actually with the empty "Optional Files" root folder being caught impartially. 
 rem In the wrong place - Gotta set it after it's created in the middle of the script, duh.
@@ -74,7 +74,7 @@ sed -i "s/^/File=(Src=\"%ValueDir%\\/" "%ValueSafeFileName%FileList.txt"
 
 cd "%Value%"
 
-del /ah "Desktop.ini" /s /q
+del /ah "Desktop.ini" /s /q /f
 
 Rem JFC thank you Han for telling me about zI
 
@@ -107,7 +107,7 @@ goto end
 
 sed -i "s/$/)/" "%ValueSafeFileName%FileListNearFinal.txt"
 
-if %PostExecExe%==true goto postexecprocess
+if "%PostExecExe%"=="true" goto postexecprocess
 
 rem THIS is the command that ain't workin
 rem if not x"%ValueSafeFileName:Optional Files=%"==x"%ValueSafeFileName%" copy "%~dp0\%ValueSafeFileName%GroupHeaderAppend.ini" + "%~dp0\%ValueSafeFileName%FileListNearFinal.txt" "%~dp0\%ValueSafeFileName%FileListFinal.txt"

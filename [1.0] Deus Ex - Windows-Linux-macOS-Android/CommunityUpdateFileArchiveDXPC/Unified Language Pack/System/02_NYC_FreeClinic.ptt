@@ -1,0 +1,45 @@
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Clínica Gratuita"
+
+[LevelSummary]
+Title="Sem título"
+
+[BumMale2]
+FamiliarName="Homem desabrigado"
+UnfamiliarName="Homem desabrigado"
+
+[BumFemale0]
+FamiliarName="Mulher desabrigada"
+UnfamiliarName="Mulher desabrigada"
+
+[SkillAwardTrigger6]
+awardMessage="Bônus: realização de objetivo"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Doctor,KeyID=Cabinet,Description="Chave do armário médico",SkinColor=SC_Level2)"
+NanoKeyData[1]="(ScriptedPawnTag=Nurse,KeyID=Cabinet,Description="Chave do armário médico",SkinColor=SC_Level2)"
+
+[BumMale4]
+FamiliarName="Mendigo ancião"
+UnfamiliarName="Mendigo ancião"
+
+[Female1]
+FamiliarName="Recepcionista"
+UnfamiliarName="Recepcionista"
+
+[BumMale1]
+FamiliarName="Indivíduo enfermo"
+UnfamiliarName="Homem de aspecto doentio"
+
+[BumMale3]
+FamiliarName="Mendigo ancião"
+UnfamiliarName="Mendigo ancião"
+
+[JunkieFemale0]
+FamiliarName="Mulher enferma"
+UnfamiliarName="Mulher de aspecto doentio"
+
+[BumFemale1]
+FamiliarName="Mulher enferma"
+UnfamiliarName="Mulher enferma"
+

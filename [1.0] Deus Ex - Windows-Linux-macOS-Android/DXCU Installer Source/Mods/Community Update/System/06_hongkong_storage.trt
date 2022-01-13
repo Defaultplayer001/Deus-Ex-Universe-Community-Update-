@@ -1,0 +1,45 @@
+[ComputerPersonal0]
+specialOptions[0]="(Text="Virüs Sematigini Karsiya Yükle",TriggerText="Virüs Sematigi Karsiya Yüklendi",TriggerEvent=VirusUploaded,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Evrensel Makine Odasini Aç",TriggerText="Evrensel Makine Erisim Kapisi Açildi",TriggerEvent=UC_Chamber_Door)"
+
+[NanoKey0]
+PickupMessage="Kapatma Kapisi anahtarini buldun"
+Description="Nanotek Kapsama Kapatma Kapisi"
+
+[SkillAwardTrigger3]
+awardMessage="Kesif Bonusu"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Nano Üretim"
+startupMessage[0]="Kat 2:"
+startupMessage[1]="Nanotek Kapsama Tesisi"
+startupMessage[2]="VersaLife Binasi'nin bayagi altinda"
+
+[SkillAwardTrigger4]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger5]
+awardMessage="Ilerleme Bonusu"
+
+[ScientistFemale0]
+FamiliarName="Dr. Harrison"
+UnfamiliarName="Nanoteknoloji Arastirmaci"
+
+[SkillAwardTrigger6]
+awardMessage="Kritik Konum Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Güvenlik Noktasi 1",CameraTag=Level1Cam,doorTag=FloodDoor08)"
+Views[1]="(titleString="AUC Monitör Istasyonu",CameraTag=Level2Cam)"
+Views[2]="(titleString="AUC Odasi",CameraTag=Level3Cam)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Manyetik Podlar",CameraTag=podcam,doorTag=OpenThePODs)"
+Views[1]="(titleString="Çaglayan Sonl. Ünitesi",CameraTag=PlatformCam,doorTag=PlatformTriggers)"
+Views[2]="(titleString="Toksin Kapsama",CameraTag=ToxicCamera)"
+specialOptions[0]="(Text="Nanotek Kap. Kapsüllerini Aç",TriggerText="Manyetik Kapsüller Açildi",TriggerEvent=OpenThePODs,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Çag. Kapatma Konsolunu Yükselt",TriggerText="Çaglayan Konsolu Yükseltildi",TriggerEvent=control_platform)"
+

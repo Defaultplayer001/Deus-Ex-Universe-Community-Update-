@@ -1,0 +1,117 @@
+[NanoKey0]
+Description="Védõruha-raktár kulcsa"
+
+[Mechanic2]
+FamiliarName="Mike"
+UnfamiliarName="Szerelõ"
+
+[SkillAwardTrigger10]
+awardMessage="Felfedezési bónusz"
+
+[SkillAwardTrigger9]
+awardMessage="Helymegtalálási bónusz"
+
+[SkillAwardTrigger8]
+awardMessage="Teljesítési bónusz"
+
+[SkillAwardTrigger3]
+awardMessage="Kritikus hely-megtalálási bónusz"
+
+[SkillAwardTrigger5]
+awardMessage="Teljesítési bónusz"
+
+[ScientistFemale4]
+FamiliarName="Stacy Webber"
+UnfamiliarName="Kutató"
+
+[ScientistFemale5]
+FamiliarName="Carla Brown"
+
+[SkillAwardTrigger14]
+awardMessage="Felfedezési bónusz"
+
+[Mechanic1]
+FamiliarName="Larry"
+UnfamiliarName="Szerelõ"
+
+[SkillAwardTrigger2]
+awardMessage="Felfedezési bónusz"
+
+[ComputerSecurity0]
+Views[0]="(CameraTag=camera_roof,Turrettag=turret_roof)"
+Views[1]="(CameraTag=camera_main)"
+
+[SkillAwardTrigger7]
+awardMessage="Felfedezési bónusz"
+
+[SkillAwardTrigger11]
+awardMessage="Felfedezési bónusz"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[ComputerSecurity2]
+Views[0]="(CameraTag=camera_main)"
+Views[1]="(CameraTag=camera_lobby,Turrettag=turret_main1)"
+Views[2]="(CameraTag=camera_lobby2,Turrettag=turret_main2)"
+
+[DirectionalTrigger2]
+Message="worked"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=TonyM,KeyID=Tunnel_access1,Description="Alagút bejáratának kulcsa")"
+
+[SkillAwardTrigger12]
+awardMessage="Felfedezési bónusz"
+
+[SkillAwardTrigger0]
+awardMessage="Teljesítési bónusz"
+
+[SkillAwardTrigger13]
+awardMessage="Helymegtalálási bónusz"
+
+[DirectionalTrigger0]
+Message="worked"
+
+[LogicTrigger2]
+Message="RENDSZER KIKAPCSOLVA"
+
+[SkillAwardTrigger1]
+awardMessage="Felfedezési bónusz"
+
+[LogicTrigger0]
+Message="logic trig"
+
+[ComputerSecurity1]
+Views[0]="(CameraTag=camera_main)"
+Views[1]="(CameraTag=camera_lobby,Turrettag=turret_main1)"
+Views[2]="(CameraTag=camera_lobby2,Turrettag=turret_main2)"
+
+[ScientistMale1]
+FamiliarName="Tim Baker"
+
+[SkillAwardTrigger6]
+awardMessage="Teljesítési bónusz"
+
+[ScientistFemale2]
+FamiliarName="Stephanie Maxwell"
+UnfamiliarName="Kutató"
+
+[DirectionalTrigger3]
+Message="worked"
+
+[LevelSummary]
+Title="Untitled"
+
+[ScientistMale0]
+FamiliarName="Dr. Tony Mares"
+
+[DeusExLevelInfo1]
+MissionLocation="Vandenberg - Parancsnokság"
+startupMessage[0]="Parancsnoki központ"
+startupMessage[1]="Vandenberg légitámaszpont"
+
+[DirectionalTrigger1]
+Message="worked"
+

@@ -1,0 +1,29 @@
+[BlackHelicopter1]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Hell's Kitchen"
+startupMessage[0]="New York City, Hell's Kitchen"
+
+[SkillAwardTrigger9]
+awardMessage="Durchführungsbonus"
+
+[SpecialEvent0]
+Message="Basketball?!? Du solltest besser Football spielen: Los Cowboys!"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=ApartmentKey,Description="Apartmentschlüssel")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Vordereingang Osgood and Sons'")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Hintereingang Osgood and Sons'")"
+
+[Button2]
+FamiliarName="Intercom"
+UnfamiliarName="Intercom"
+
+[Hooker0]
+FamiliarName="Sally"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+

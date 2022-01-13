@@ -1,0 +1,45 @@
+[SkillAwardTrigger15]
+awardMessage="Kesif Bonusu"
+
+[DeusExLevelInfo0]
+MissionLocation="51.Bölge - Final"
+
+[NanoKey0]
+Description="Merdiven Anahtari"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(CameraTag=gen_camera,doorTag=door_generator)"
+Views[1]="(CameraTag=radiation_camera)"
+specialOptions[0]="(Text="Artirici Kapsama",TriggerEvent=Aug_door,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger1]
+awardMessage="Kesif Bonusu"
+
+[SkillAwardTrigger0]
+awardMessage="Kesif Bonusu"
+
+[SkillAwardTrigger13]
+awardMessage="Kritik Konum Bonusu"
+
+[SkillAwardTrigger12]
+awardMessage="Kritik Konum Bonusu"
+
+[SkillAwardTrigger11]
+awardMessage="Kritik Konum Bonusu"
+
+[SkillAwardTrigger14]
+awardMessage="Kesif Bonusu"
+
+[Mechanic2]
+FamiliarName="Jerri"
+
+[mib1]
+UnfamiliarName="MIB"
+
+[Switch14]
+FamiliarName="Helios"
+UnfamiliarName="Helios"
+

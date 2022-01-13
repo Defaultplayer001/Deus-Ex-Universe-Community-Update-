@@ -1,0 +1,36 @@
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Gas"
+startupMessage[0]="Estación de gas abandonado"
+startupMessage[1]="California Central"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=Guard_Garage,KeyID=garage_entrance,Description="Puerta de garaje")"
+NanoKeyData[1]="(ScriptedPawnTag=mib_garage)"
+NanoKeyData[2]="(KeyID=garage_entrance,Description="Puerta de garaje")"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=bum1,KeyID=pipe,Description="Acceso a alcantarilla")"
+NanoKeyData[1]="(ScriptedPawnTag=bum2,KeyID=pipe,Description="Acceso a alcantarilla")"
+
+[LevelSummary]
+Title="Sin título"
+
+[NanoKey0]
+Description="Puerta del garaje"
+
+[NanoKey1]
+Description="Acceso a las cloacas"
+
+[SkillAwardTrigger0]
+awardMessage="Bono de exploración"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[BumMale0]
+FamiliarName="Fred"
+
+[TiffanySavage0]
+UnfamiliarName="Rehén"
+

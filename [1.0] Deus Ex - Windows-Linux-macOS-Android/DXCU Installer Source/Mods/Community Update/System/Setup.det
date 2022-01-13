@@ -1,0 +1,125 @@
+[Errors]
+MissingProductTitle=%s nicht  %s in diesem Ordner
+MissingProductInstalled=installiert
+MissingProductPatched=aktualisiert
+MissingProductThis=Für dieses Update
+MissingProduct=% muss zunächst  %s in dem Ordner installiert werden. Bitte suchen Sie den Ordner für %s oder installieren Sie diesen jetzt.\n\nKlicken Sie auf unten stehenden Link, um Produktinformationen abzurufen.
+OldVersion=%s benötigt %s Version %i oder höher. Die Version auf Ihrem Computer ist jedoch älter  (Sie haben Version %i). Bitte installieren Sie %s Version %i oder höher und versuchen Sie es erneut. Klicken Sie auf den folgenden Link, um weitere Informationen abzurufen.\n\nSetup wird jetzt beendet.
+FolderTitle=Ordner "%s"
+FolderFormat=Der angegebene Ordner "%s" ist ungültig.  Bitte versuchen Sie es erneut.
+AlreadyRunningTitle=Wird bereits verwendet und kann daher nicht installiert werden.
+AlreadyRunning=Um den Installationsvorgang fortzusetzen, schließen Sie alle anderen Kopien des Spiels und klicken Sie auf OK.  Um die Installation abzubrechen, klicken Sie auf "Beenden".
+WrongCdTitle=Dateien nicht auf CD_ROM gefunden.
+WrongCd=Die erwartete Version der %s-Datei  %s wurde nicht gefunden. \n\nBitte vergewissern Sie sich, dass Sie die korrekte CD eingelegt haben.
+MissingInstallerFile=Installer-Datei nicht gefunden
+MissingReferenceFile=Referenzdatei nicht gefunden
+MissingSourceFile=Quelldatei nicht gefunden
+FailedOpenSource=Öffnen der Quelldatei nicht möglich
+FailedOpenDest=Öffnen der Zieldatei nicht möglich
+FailedReadingSource=Lesen der Quelldatei nicht möglich
+FailedWritingDest=Schreiben der Zieldatei nicht möglich
+FailedLoadingUpdate=Fehler beim Laden der Update-Datei
+FailedReadingReference=Fehler beim Lesen der Referenzdatei
+FailedClosingSource=Fehler beim Schließen der Quelldatei
+FailedClosingDest=Fehler beim Schließen der Zieldatei
+FailedMakeDir=Verzeichnis für die Zieldatei konnte nicht erstellt werden
+AdviseBadMedia=Das Ausgangsmedium ist möglicherweise beschädigt.  Wenn Sie das Spiel von einer CD installieren, säubern Sie die CD, prüfen Sie Ihr CD-ROM-Laufwerk und versuchen Sie es erneut.
+AdviseBadDownload=Möglicherweise sind die heruntergeladenen Update-Dateien beschädigt.
+AdviseBadDest=Möglicherweise ist das Ziellaufwerk voll oder weist beschädigte Sektoren auf.
+PatchCorrupt=Patch-Datei %s ist beschädigt.\n\n%s
+CdFileMismatch=Die Datei %s auf der CD-ROM ist nicht die erwartete Version. Daher kann der Patch für %s nicht installiert werden.
+
+[General]
+Space=%i MB
+Ready=Setup ist bereit zur Installation von  %s.\nZielverzeichnis: %s\n\nKlicken Sie auf "Installieren", um die Installation zu starten.\nKlicken Sie auf "Abbrechen", wenn Sie Setup beenden möchten, ohne %s zu installieren.
+InstallCancel=Installation abbrechen
+CancelPrompt=Warnung!  Wenn Sie die Installation jetzt abbrechen kann %s nicht ordnungsgemäß ausgeführt werden.  Möchten Sie wirklich abbrechen?
+DidCancel=Installation abgebrochen.  Das Produkt wurde nicht ordnungsgemäß installiert und kann nicht korrekt ausgeführt werden.
+CdDescription=Für die Installation des %s-Updates müssen einige Dateien von der %s-CD-ROM geladen werden.\n\nBitte legen Sie die %s-CD-ROM in das Laufwerk ein und klicken Sie auf "Weiter".  Wird nicht der korrekte Laufwerksbuchstabe für Ihr CD-ROM-Laufwerk angezeigt, geben Sie bitte den korrekten Buchstaben ein.
+CdDrive=CD-ROM-Laufwerk
+NotEnoughSpaceTitle=Installation nicht möglich
+NotEnoughSpace=Auf Laufwerk %s ist nicht ausreichend freier Speicherplatz für die Installation von %s verfügbar.  Bitte wählen Sie ein anderes Laufwerk oder beenden Sie Setup, löschen Sie nicht mehr benötigte Dateien, um Speicherplatz zu schaffen, und versuchen Sie es erneut.
+Finish=&Abschließen
+RebootButton=&Neustart
+ExitButton=&Beenden
+
+[IDDIALOG_FilerPageAutoPlay]
+IDC_Play=&Spielen
+IDC_Reinstall=&Erneut installieren
+IDC_Uninstall=&Deinstallieren
+IDC_ReleaseNotes=Hinweise zu dieser Version
+IDC_Web=Deus Ex &Webseite
+IDC_Complete=Installation abgeschlossen!
+IDC_CompleteReboot=Installation abgeschlossen!\nBevor Sie spielen können, müssen Sie den Computer neu starten.
+
+[IDDIALOG_FilerPageWelcome]
+IDC_WelcomePrompt=Sie installieren nun %s auf Ihrem Computer.\n\nKlicken  Sie auf "Weiter", um fortzufahren oder auf "Abbrechen", um Setup zu beenden.\n\nWählen Sie einen der Web-Links am unteren Bildschirmrand, um zusätzliche Informationen abzurufen.
+IDC_WelcomePromptUpdate=Dieses Programm aktualisiert Ihre Kopie von  %s auf Version  %s.\n\nKlicken  Sie auf "Weiter", um fortzufahren oder auf "Abbrechen", um Setup zu beenden.\n\nWählen Sie einen der Web-Links am unteren Bildschirmrand, um zusätzliche Informationen abzurufen.
+IDC_LanguagePrompt=&Sprache
+
+[IDDIALOG_FilerPageLicense]
+IDC_LicenseText=Bitte lesen Sie folgende Endnutzer-Lizenzvereinbarung. Sie müssen dieser Lizenzvereinbarung zustimmen, damit Sie das Programm installieren können.
+IDC_LicenseQuestion=Wenn Sie mit den Bedingungen der Lizenzvereinbarung einverstanden sind, klicken Sie auf "Ja".
+
+[IDDIALOG_FilerPageComponents]
+IDC_ComponentsText=Wählen Sie die Komponenten, die Sie installieren möchten.
+IDC_ComponentsPrompt=&Komponenten:
+IDC_DiskSpaceFrame=Festplattenspeicher
+IDC_DescriptionFrame=Beschreibung
+IDC_SpaceRequiredMessage=Erforderlich:
+IDC_SpaceAvailableMessage=Verfügbar:
+
+[IDDIALOG_FilerPageUninstallComponents]
+IDC_ComponentsText=Wählen Sie die Komponenten, die Sie deinstallieren möchten.
+IDC_ComponentsPrompt=&Komponenten:
+IDC_DependenciesFrame=Abhängigkeiten
+IDC_DependenciesText=Wenn Sie den Vorgang fortsetzen, werden folgende Komponenten deinstalliert: %s
+
+[IDDIALOG_FilerPageFolder]
+IDC_FolderDescription=Setup installiert %s in folgendes Verzeichnis.\n\nKlicken Sie auf "Weiter", um das Spiel in diesen Ordner zu installieren.\n\nUm das Spiel in einen anderen Ordner zu installieren, geben Sie den vollständigen Namen des Ordners (einschließlich des Laufwerksbuchstabens) ein. Beispiel: C:\\Neuer Ordner.
+IDC_FolderDescriptionPatch=Setup aktualisiert die vorhandene Installation von %s im folgenden Ordner.\n\nKlicken Sie auf "Weiter", um fortzufahren.\n\nHaben Sie mehrere Kopien installiert, geben Sie den Namen des gewünschten Ordners (einschließlich des Laufwerksbuchstabens) ein. Beispiel: C:\\Ein Ordner.
+IDC_FolderDescriptionMissing=Setup aktualisiert die vorhandene Installation von %s.\n\nGeben Sie den Namen des gewünschten Ordners (einschließlich des Laufwerksbuchstabens) ein. Beispiel: C:\\Ein Ordner.
+IDC_FolderHolder=Zielordner
+IDC_Browse=&Durchsuchen
+IDC_Default=&Standard
+IDC_SpaceAvailableMessage=Verfügbarer Speicherplatz auf Laufwerk:
+IDC_FullSpaceRequiredMessage=Für Standardinstallation erforderlicher Speicherplatz:
+
+[IDDIALOG_FilerPageInstallProgress]
+IDC_InstallText=Installiere Dateien ...
+IDC_InstallingText=Installiere ...
+IDC_ProgressText=Abgeschlossen (Datei):
+IDC_TotalText=Abgeschlossen (Gesamt):
+Uncompressing=Entpacke Systemdateien...
+
+[IDDIALOG_FilerPageUninstallProgress]
+IDC_InstallText=Deinstalliere Dateien ...
+IDC_InstallingText=Verarbeite:
+IDC_ProgressText=Abgeschlossen (Datei):
+IDC_TotalText=Abgeschlossen (Gesamt):
+
+[IDDIALOG_Restart]
+IDC_Restart=Installation abgeschlossen
+IDC_RestartMessage=Bitte starten Sie nun Windows, um die Installation abzuschließen.
+IDC_RestartText=Schließen Sie vor dem Neustart alle geöffneten Anwendungen, einschließlich aktiver MS-DOS-Sitzungen und speichern Sie alle aktuellen Dokumente. Entfernen Sie alle Disketten aus dem Diskettenlaufwerk. Klicken Sie anschließend auf "Windows neu starten".
+IDC_Complete=Nach dem Neustart von Windows ist die Installation abgeschlossen.
+IDC_Restart=&Windows neu starten
+IDC_Exit=Setup be&enden
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Deus-Ex-Setup
+
+[IDDIALOG_FailedRequirement]
+IDC_FailedRequirement=Produkt kann hier nicht installiert werden.
+IDC_FailedMessage=Für die Installation dieses Produktes muss folgendes Produkt auf Ihrem Computer eingerichtet sein. Bitte suchen Sie den entsprechenden Ordner oder installieren Sie das Produkt jetzt.\n\nKlicken Sie auf unten stehenden Link, um Produktinformationen abzurufen.
+IDC_ProductHolder=Product Required
+
+[IDDIALOG_ProductInfo]
+IDC_ProductHolder=Produkt
+IDC_ProductText=Produkt:
+IDC_VersionText=Version:
+IDC_DeveloperText=Entwickler:
+
+[IDDIALOG_FilerPageUninstall]
+IDC_UninstallPrompt=Folgende Komponenten werden deinstalliert:
+IDC_UninstallQuestion=Möchten Sie diese Komponenten wirklich deinstallieren?

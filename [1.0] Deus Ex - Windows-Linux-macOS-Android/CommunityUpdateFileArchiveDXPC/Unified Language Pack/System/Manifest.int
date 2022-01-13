@@ -1,0 +1,182 @@
+[Setup]
+LocalProduct=Deus Ex Community Update
+DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
+ReadMe=Mods\Community Update\Help\ReadMe.html
+SetupWindowTitle=Deus Ex Community Update Setup
+AutoplayWindowTitle=Deus Ex Community Update Options
+ProductURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+VersionURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+Developer=The Deus Ex Community
+DeveloperURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PublisherGamesURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PublisherURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PublisherStoreURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+PlanetDeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+DeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
+Logo=Mods\Community Update\Help\LogoSmall.bmp
+License=License.int
+
+[General]
+PlayLevelCommand=&Play this Deus Ex level
+OpenLinkCommand=&Open this Deus Ex link
+EditLevelCommand=&Edit this Deus Ex level
+
+[GameGroup]
+Caption=Deus Ex Community Update
+Description=Deus Ex modification files. Installation is required.
+
+[DeusExContentGroup]
+Caption=Deus Ex Game Content
+Description=Deus Ex game content (textures, sound effects, and music) - install these to increase game performance, otherwise, content will be loaded from the CD during gameplay. Installation is optional.
+
+[DeusExMapsGroup]
+Caption=Deus Ex Maps
+Description=Deus Ex maps - install these to increase game performance, otherwise, maps will be loaded from the CD during gameplay. Installation is optional.
+
+[DeusExSpeechGroup]
+Caption=Deus Ex Speech Files
+Description=Deus Ex speech files - install these to increase game performance, otherwise, speech will be loaded from the CD during gameplay. Installation is optional.
+
+[EditorGroup]
+Caption=Deus Ex Editor
+Description=Deus Ex world editor, for creating your own 3D Deus Ex environments. For advanced users. Installation is optional.
+
+[DirectXGroup]
+Caption=DirectX
+Description=Microsoft DirectX 7.0a drivers for enhanced graphics, sound, and joystick support. If you do not currently have DirectX 7.0a installed, you must choose this option.
+
+[PlayShortcutGroup]
+Caption=Start Menu Shortcut
+Description=Create shortcut in the Start Menu.
+
+[DesktopPlayShortcutGroup]
+Caption=Desktop Shortcut
+Description=Create shortcut on the Desktop.
+
+[PlayShortcut]
+Caption=Play Deus Ex Community Update
+
+[MPPlayShortcut]
+Caption=Play Deus Ex Multiplayer
+
+[DesktopPlayShortcut]
+Caption=Play Deus Ex Community Update
+
+[MPDesktopPlayShortcut]
+Caption=Play Deus Ex Multiplayer
+
+[SafeModeShortcut]
+Caption=Deus Ex Safe Mode
+
+[EditorShortcut]
+Caption=Deus Ex Community Update Editor
+
+[DesktopEditorShortcut]
+Caption=Deus Ex Community Update Editor
+
+[DocumentationShortcut]
+Caption=Documentation
+
+[Patch1DocumentationShortcut]
+Caption=Patch 1 Documentation
+
+[MPDocumentationShortcut]
+Caption=Multiplayer Documentation
+
+[MPStrategyGuideShortcut]
+Caption=Multiplayer Strategy Guide
+
+[MPAdminShortcut]
+Caption=Multiplayer Administration
+
+[MPMapShortcut]
+Caption=Multiplayer Map Creation
+
+[PatchFixShortcut]
+Caption=Patch Fixes
+
+[ProductWebShortcut]
+Caption=Deus Ex Web Page
+
+[DeveloperWebShortcut]
+Caption=Ion Storm Web Page
+
+[PublisherWebShortcut]
+Caption=Eidos Interactive Web Page
+
+[PublisherGamesWebShortcut]
+Caption=Eidos Games Web Page
+
+[PublisherWebStoreShortcut]
+Caption=Eidos Interactive Store Web Page
+
+[PlanetDeusExWebShortcut]
+Caption=Planet Deus Ex Web Page
+
+[UninstallShortcut]
+Caption=Uninstall Deus Ex Community Update
+
+[DesktopUninstallShortcut]
+Caption=Uninstall Deus Ex Community Update
+
+[ModRequirements]
+LocalProduct=Deus Ex
+ProductURL=https://www.gog.com/game/deus_ex
+VersionURL=https://www.gog.com/game/deus_ex
+Developer=Ion Storm Austin
+DeveloperURL=https://www.gog.com/game/deus_ex
+
+[ConfixGroup]
+Caption=Confix (English and Russian Only)
+Description=Conversation logic and typo fixes. (If using LayD deselect to save space, will be unused.)
+
+[TranscendedDefaultUser.ini(Theme+FOV)Files]
+Caption=Default Transcended User Settings
+Description=By default Transcended uses a blue theme (Cops) and a higher FOV (75 vs 90). The CU automatically sets those values back to their default vanilla ones, this will override that and use the default Transcended settings. Note: RF has a minimum FOV of 80, so this value of 75 will be adjusted to that if used.
+
+[LayDDentonDefaultinisFiles]
+Caption=Lay D Denton (Read - Compatibility issues)
+Description=Fully voiced female JC Denton player mod, with a matching player model and convo edits to match! Not compatible with translations, DXT's maps, RF, or Confix. Transcended *seems* to work aside from the maps, female hands, and the character creation menu portrait initially not showing properly. Confix/RF will be disabled if this is selected. Select Transcended and this at your own risk.
+
+[1002fMaps]
+Caption=1002f Maps (Select if not using Transcended)
+Description=1112fm (GOTY) retail copies shipped with bad copies of the maps, these override them with the 1002f maps. (Excluding any maps that were unchanged between versions.) These are the same files as DXM's Map Patch, aside 3 files with currently unknown minor changes.
+
+[EditingExtras]
+Caption=Editing Extras
+Description=Numerous extra tools and documentation for editing, including a UED2 for Deus Ex package. Based on Deus Ex Editing PACK 2.2. Updated standard UED package will still be installed and given a shortcut whether or not this is selected.
+
+[SteamInstall]
+Caption=Use with Steam
+Description=Replaces the DeusEx.exe in your Deus Ex root with a redirect to the one in Mods\Community Update/System, so you can use it with Steam. To restore to Vanilla, simply delete it and rename "DeusEx 1112fm (Original EXE).exe" to "DeusEx.exe". Touches NOTHING else in your root! WILL break any mods relying on there being an actual DeusEx.exe in your root. Note: Does not work with overlay due to being a proxy.
+
+[ModsCommunity UpdateDemoGroup]
+Caption=Demo
+Description=Deus Ex modification files. Installation is optional.
+
+[ModsCommunity UpdateLay D DentonGroup]
+Caption=Lay D Denton
+Description=Deus Ex modification files. Installation is optional.
+
+[ModsCommunity UpdateMarkC Mouse Acceleration FixGroup]
+Caption=MarkC Mouse Acceleration Fix
+Description=Deus Ex modification files. Installation is optional.
+
+[ModsCommunity UpdateTranscendedGroup]
+Caption=Transcended
+Description=Deus Ex modification files. Installation is optional.
+[ModsCommunity UpdateDemoGroup]
+Caption=Demo
+Description=Official Deus Ex Mission 1 and 2 demos combined and updated to 1112fm (GOTY). Uses all fixes the full version does. Note: If installed will skip intro and the game will end after M02. However the resulting install will now be portable and can be moved wherever you like independed of the root Deus Ex folder. Can be used for portable multiplayer / limited editing. 
+
+[DXCUGameGroup]
+Caption=Deus Ex Community Update
+Description=Just Deus Ex - ready to play! With all 10 known text translations, along with many extras for editing. Specifically has numerous community made engine level fixes on top of the proper 1112fm (GOTY) patch, without the broken maps shipped on retail versions. Actual gameplay code is identical, warts and all! 
+
+[ModsCommunity UpdateTranscendedGroup]
+Caption=Deus Ex: Transcended
+Description=Built largely for first timer players, Deus Ex: Transcended is a mod focused solely around faithfulness to the original, while bringing an unmatched arsenal of bug fixes, paired with key notes of Quality of Life changes.
+
+[Custom LogoGroup]
+Caption=Custom Logo
+Description=Custom purple hued logo, look above for an example! 

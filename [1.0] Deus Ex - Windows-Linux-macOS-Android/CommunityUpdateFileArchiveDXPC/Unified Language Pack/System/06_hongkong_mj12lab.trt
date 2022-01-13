@@ -1,0 +1,188 @@
+[MJ12Troop3]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[ScientistFemale0]
+FamiliarName="Dr. Vargas"
+UnfamiliarName="Psionik Arastirmaci"
+
+[ScientistFemale2]
+FamiliarName="Dr. Bates"
+UnfamiliarName="Bilgisayar Bilimci"
+
+[MJ12Troop12]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Artirici Arastirma Lab.",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Merkezi Bil. Çekirdegi",CameraTag=Camera2)"
+Views[2]="(titleString="Büyük Salon",CameraTag=Camera3,doorTag=trap_door)"
+
+[SkillAwardTrigger9]
+awardMessage="Bölge Konum Bonusu"
+
+[NanoKey1]
+PickupMessage="Manyetik Artirici Odasi anahtarini buldun"
+Description="Manyetik Artirici Odasi Anahtari"
+
+[DeusExLevelInfo4]
+MissionLocation="Hong Kong - MJ12 Laboratuvari"
+startupMessage[0]="Majestic 12 Gelistirme Programi"
+startupMessage[1]="Kenar Pasifik Arastirma Merkezi"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Artirici Arastirma Lab.",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Merkezi Bil. Çekirdegi",CameraTag=Camera2)"
+Views[2]="(titleString="Büyük Salon",CameraTag=Camera3,doorTag=trap_door)"
+
+[Doctor1]
+FamiliarName="Dr. Kohl"
+
+[MJ12Troop15]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[mib1]
+FamiliarName="Laboratuvar Özel Güvenlik"
+UnfamiliarName="Laboratuvar Özel Güvenlik"
+
+[ScientistMale1]
+FamiliarName="Dr. Donovan"
+UnfamiliarName="Biyoteknoloji Arastirmaci"
+
+[MJ12Troop2]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[MJ12Troop4]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[MJ12Troop0]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[MJ12Troop7]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[MJ12Troop6]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[MJ12Troop1]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[ScientistFemale1]
+FamiliarName="Dr. Lundquist"
+UnfamiliarName="Genetik Arastirmaci"
+
+[Secretary3]
+FamiliarName="Laboratuvar Asistani"
+UnfamiliarName="Laboratuvar Asistani"
+
+[MJ12Troop8]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[SkillAwardTrigger10]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger11]
+awardMessage="Basari Bonusu"
+
+[Businessman2]
+FamiliarName="Amir Harrison"
+UnfamiliarName="Laboratuvar Amiri"
+
+[ScientistMale3]
+FamiliarName="Dr. Michalopolis"
+UnfamiliarName="Nanotek Arastirmaci"
+
+[ScientistFemale3]
+FamiliarName="Dr. Casswell"
+UnfamiliarName="Biyosilah Gelistirici"
+
+[MIB3]
+FamiliarName="Laboratuvar Özel Güvenlik"
+UnfamiliarName="Laboratuvar Özel Güvenlik"
+
+[MJ12Troop11]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[mib2]
+FamiliarName="Laboratuvar Özel Güvenlik"
+UnfamiliarName="Laboratuvar Özel Güvenlik"
+
+[MJ12Troop9]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[ScientistMale0]
+FamiliarName="Dr. Trellaine"
+UnfamiliarName="Fizik Arastirmaci"
+
+[WIB0]
+FamiliarName="Laboratuvar Özel Güvenlik"
+UnfamiliarName="Laboratuvar Özel Güvenlik"
+
+[WIB1]
+FamiliarName="Laboratuvar Özel Güvenlik"
+UnfamiliarName="Laboratuvar Özel Güvenlik"
+
+[Secretary2]
+FamiliarName="Laboratuvar Asistani"
+UnfamiliarName="Laboratuvar Asistani"
+
+[SkillAwardTrigger8]
+awardMessage="Kesif Bonusu"
+
+[Secretary1]
+FamiliarName="Laboratuvar Asistani"
+UnfamiliarName="Laboratuvar Asistani"
+
+[MJ12Troop13]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[MJ12Troop5]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[MJ12Troop10]
+FamiliarName="Laboratuvar Güvenlik"
+UnfamiliarName="Laboratuvar Güvenlik"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Artirici Arastirma Lab.",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Merkezi Bil. Çekirdegi",CameraTag=Camera2)"
+Views[2]="(titleString="Büyük Salon",CameraTag=Camera3,doorTag=trap_door)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Artirici Arastirma Lab.",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Merkezi Bil. Çekirdegi",CameraTag=Camera2)"
+Views[2]="(titleString="Büyük Salon",CameraTag=Camera3,doorTag=trap_door)"
+
+[ComputerPersonal1]
+specialOptions[0]="(Text="Manyetik oda radyasyonu kapat",TriggerText="Radyasyon jeneratörleri kapali",UnTriggerEvent=AugmentationRadiation,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Kapsama kapsülü 1.seti aç",TriggerText="Hücre kapsülü açildi",TriggerEvent=Pod01)"
+specialOptions[2]="(Text="Kapsama kapsülü 2.seti aç",TriggerText="Hücre kapsülü açildi",TriggerEvent=Pod02)"
+specialOptions[3]="(Text="Manyetik oda kapisini aç",TriggerText="Manyetik kapi açildi",TriggerEvent=Nano_Chamber_Door)"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Nanotek Sivriuç ROM'u Karsiya Yükle",TriggerText="Kiliç ROM karsiya yüklendi",TriggerEvent=TongHasRom,bTriggerOnceOnly=True)"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+PickupMessage="Deneysel Özne Hücreleri anahtarini buldun"
+Description="Deneysel Özne Hücreleri"
+
+[MIB0]
+FamiliarName="Laboratuvar Özel Güvenlik"
+UnfamiliarName="Laboratuvar Özel Güvenlik"
+

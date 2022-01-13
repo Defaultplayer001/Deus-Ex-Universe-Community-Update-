@@ -1,0 +1,107 @@
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+
+[NanoKey0]
+Description="Ofis Kapi Anahtari Kodu"
+
+[UNATCOTroop3]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[UNATCOTroop2]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[UNATCOTroop1]
+FamiliarName="Çavus Michael Berry"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - UNATCO Karargahi"
+startupMessage[0]="UNATCO Karargahi"
+startupMessage[1]="Birlesmis Milletler Terörle"
+startupMessage[2]="Mücadele Koalisyonu"
+
+
+[UNATCOTroop0]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[UNATCOTroop4]
+FamiliarName="Scott"
+UnfamiliarName="UNATCO Askeri"
+
+[AnnaNavarre0]
+UnfamiliarName="Artirilmis UNATCO Ajani"
+
+[NanoKey1]
+Description="Ofis Kapi Anahtari Kodu"
+
+[NanoKey3]
+Description="Tibbi Lab. Dolap Anahtari Kodu"
+
+[NanoKey4]
+Description="Ofis Kapi Anahtari Kodu"
+
+[SkillAwardTrigger0]
+awardMessage="Bölge Konum Bonusu"
+Message="UNATCO Muayene Ofisi"
+
+[SkillAwardTrigger2]
+awardMessage="Kritik Konum Bonusu"
+Message="UNATCO Operasyonlar Lideri"
+
+[SkillAwardTrigger1]
+awardMessage="Özne Edinme Bonusu"
+Message="UNATCO Levazimi"
+
+[SkillAwardTrigger3]
+awardMessage="Bölge Konum Bonusu"
+Message="JC Denton'in Ofisi"
+
+[LevelSummary]
+Title="Untitled"
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="UNATCO Sekreteri"
+
+[SamCarter0]
+UnfamiliarName="UNATCO Generali"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="Yönetici"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[SpecialEvent0]
+Message="Retinal Desen Eslesmedi: Ajan Denton Giris Için Yetkilendirilmedi"
+
+[RetinalScanner0]
+msgUsed="Retinal Desen Eslesti: Ajan Denton Giris Için Yetkilendirildi"
+
+[SpecialEvent1]
+Message="Yeni Mesaj Yok"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[JosephManderley0]
+UnfamiliarName="UNATCO Baskani"
+
+[SecurityCamera4]
+FamiliarName="UN_blastdoor_medcam"
+
+[NanoKey2]
+Description="UNATCO Dolap Anahtari Kodu"
+

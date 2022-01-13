@@ -1,0 +1,27 @@
+[SkillAwardTrigger1]
+awardMessage="Entdeckungsbonus"
+
+[DeusExLevelInfo1]
+MissionLocation="NYC - New York Abwasserkanäle"
+
+[SkillAwardTrigger0]
+awardMessage="Durchführungsbonus"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Wasseraufbereitung",cameraTag=CameraA,doorTag=ArmoryDoor)"
+Views[1]="(titleString="Chemie-Labor",cameraTag=CameraB,doorTag=Door1)"
+Views[2]="(titleString="Wachräume",cameraTag=CameraC)"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Ostzugang",cameraTag=Camera1,doorTag=DoorA)"
+Views[1]="(titleString="Westzugang",cameraTag=Camera2)"
+Views[2]="(titleString="Zugang zum Rohr",cameraTag=Camera3,turretTag=AutoTurretA)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Ostzugang",cameraTag=Camera1,doorTag=DoorA)"
+Views[1]="(titleString="Westzugang",cameraTag=Camera2)"
+Views[2]="(titleString="Zugang zum Rohr",cameraTag=Camera3,turretTag=AutoTurretA)"
+specialOptions[0]="(Text="Brücke drehen",TriggerText="Brücke dreht",TriggerEvent=RotateBridge)"

@@ -1,0 +1,171 @@
+[Businessman1]
+FamiliarName="М-р Лью"
+UnfamiliarName="Мужчина в костюме"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Главные ворота",CameraTag=compound1,doorTag=compound_gate)"
+Views[1]="(titleString="Внутренний двор",CameraTag=compound2)"
+Views[2]="(titleString="К Учителю Тонгу",CameraTag=compound3)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Рынок, проход 1",CameraTag=marketcamera1)"
+Views[1]="(titleString="Рынок, проход 2",CameraTag=marketcamera2)"
+Views[2]="(titleString="Рынок, проход 3",CameraTag=marketcamera3,doorTag=Pillboxdoor)"
+
+[TriadRedArrow0]
+FamiliarName="Член триады 'Красная Стрела'"
+UnfamiliarName="Член триады 'Красная Стрела'"
+
+[SkillAwardTrigger2]
+awardMessage="Премия за обнаружение"
+
+[SkillAwardTrigger3]
+awardMessage="Премия за обнаружение"
+
+[LowerClassFemale0]
+FamiliarName="Продавщица газет"
+UnfamiliarName="Продавщица газет"
+
+[BlackHelicopter0]
+FamiliarName="Джок"
+UnfamiliarName="Джок"
+
+[Cat3]
+FamiliarName="Дейзи"
+UnfamiliarName="Дейзи"
+
+[TriadRedArrow1]
+FamiliarName="Член триады 'Красная Стрела'"
+UnfamiliarName="Член триады 'Красная Стрела'"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за обнаружение"
+
+[SkillAwardTrigger4]
+awardMessage="Премия за выполнение"
+
+[TriadLumPath9]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[HKMilitary5]
+FamiliarName="Китайский военный полицейский"
+UnfamiliarName="Китайский военный полицейский"
+
+[HKMilitary3]
+FamiliarName="Китайский военный полицейский"
+UnfamiliarName="Китайский военный полицейский"
+
+[Secretary0]
+FamiliarName="Пегги"
+UnfamiliarName="Любующаяся цветами"
+
+[Female4]
+FamiliarName="Цветочница"
+UnfamiliarName="Цветочница"
+
+[Businesswoman0]
+FamiliarName="Торговка"
+UnfamiliarName="Торговка"
+
+[TriadLumPath14]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[TriadLumPath18]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[TriadLumPath26]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[HKMilitary4]
+FamiliarName="Офицер Тэм"
+UnfamiliarName="Китайский военный полицейский"
+
+[TriadLumPath5]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[HKMilitary2]
+FamiliarName="Китайский военный полицейский"
+UnfamiliarName="Китайский военный полицейский"
+
+[HKMilitary1]
+FamiliarName="Китайский военный полицейский"
+UnfamiliarName="Китайский военный полицейский"
+
+[TriadLumPath24]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[Male2]
+FamiliarName="Монах"
+UnfamiliarName="Монах"
+
+[Male0]
+FamiliarName="Мясник"
+UnfamiliarName="Мясник"
+
+[GordonQuick0]
+UnfamiliarName="Лидер триады"
+
+[TriadLumPath22]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[TriadLumPath6]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[DeusExLevelInfo1]
+MissionLocation="Гонконг - Рынок"
+startupMessage[0]="Рынок Ван Чай"
+startupMessage[1]="Гонконг"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=GateGuard,KeyID=CompoundGate,Description="Ключ к воротам строения Светлого Пути")"
+
+[TriadLumPath7]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за выполнение"
+
+[TriadLumPath4]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[TriadLumPath3]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[TriadLumPath0]
+FamiliarName="Член триады 'Светлый Путь'"
+UnfamiliarName="Член триады 'Светлый Путь'"
+
+[Male1]
+FamiliarName="Монах"
+UnfamiliarName="Монах"
+
+[Butler0]
+FamiliarName="Йан Хилтон"
+UnfamiliarName="Официант чайного дома"
+
+[Female6]
+FamiliarName="Вероника Чин"
+UnfamiliarName="Женщина"
+
+[Female8]
+FamiliarName="Кассандра"
+UnfamiliarName="Женщина легкого поведения"
+
+[ChildMale1]
+FamiliarName="Луи Пен"
+UnfamiliarName="Пацан"
+

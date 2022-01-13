@@ -1,0 +1,51 @@
+[DeusExLevelInfo0]
+MissionLocation="Paris - DuClare Satosu"
+startupMessage[0]="DuClare Satosu"
+startupMessage[1]="Paris Disinda"
+
+[NanoKey1]
+Description="Beth'in Yatak Odasi Anahtari"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="MEverett Bulusma Sinyali Yolla",TriggerText="MEverett'e Güvenli Kanaldan Sinyal Yollandi",TriggerEvent=everettsignal,bTriggerOnceOnly=True)"
+
+[NicoletteDuClare0]
+FamiliarName="Nicolette"
+UnfamiliarName="Nicolette"
+
+[NanoKey4]
+Description="Nicolette'nin Yatak Odasi Anahtari"
+
+[NanoKey3]
+Description="Beth'in Yatak Odasi Anahtari"
+
+[NanoKey2]
+Description="Nicolette'nin Yatak Odasi Anahtari"
+
+[SkillAwardTrigger1]
+awardMessage="Ilerleme Bonusu"
+
+[SkillAwardTrigger0]
+awardMessage="Kritik Konum Bonusu"
+
+[SkillAwardTrigger4]
+awardMessage="Bölge Konum Bonusu"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=NicoletteDuClare,KeyID=Crypt_door,Description="Mezar Odasi Anahtari")"
+
+[NanoKey0]
+Description="DuClare Bodrum Anahtari"
+
+[SkillAwardTrigger2]
+awardMessage="Kritik Konum Bonusu"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Nanotek Kapsama",CameraTag=DuClareSecurityCamera,doorTag=field002)"
+
+[SkillAwardTrigger3]
+awardMessage="Ilerleme Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+

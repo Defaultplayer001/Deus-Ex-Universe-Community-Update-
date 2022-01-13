@@ -1,0 +1,28 @@
+[DeusExLevelInfo0]
+MissionLocation="New York - Asagi Dogu Taraf Mezarligi"
+startupMessage[0]="New York Sehri, Asagi Dogu Taraf Mezarligi"
+
+[LevelSummary]
+Title="Untitled"
+
+[BlackHelicopter1]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[SkillAwardTrigger2]
+awardMessage="Basari Bonusu"
+
+[Switch0]
+FamiliarName="Çagri Dügmesi"
+UnfamiliarName="Çagri Dügmesi"
+
+[Janitor0]
+FamiliarName="Kapici"
+UnfamiliarName="Kapici"
+
+[SkillAwardTrigger0]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger1]
+awardMessage="Bölge Konum Bonusu"
+

@@ -1,0 +1,53 @@
+[SkillAwardTrigger2]
+awardMessage="Kesif Bonusu"
+
+[BoatPerson1]
+FamiliarName="Sarhos"
+UnfamiliarName="Sarhos"
+
+[Female0]
+FamiliarName="Fahise"
+UnfamiliarName="Fahise"
+
+[SkillAwardTrigger0]
+awardMessage="Kesif Bonusu"
+
+[LowerClassMale4]
+FamiliarName="Adam"
+UnfamiliarName="Adam"
+
+[DeusExLevelInfo2]
+MissionLocation="Hong Kong - Su Kanallari"
+
+[LowerClassFemale0]
+FamiliarName="Kiz"
+UnfamiliarName="Kiz"
+
+[BoatPerson0]
+UnfamiliarName="Balikçi"
+
+[LowerClassMale0]
+FamiliarName="Yerli Adam"
+UnfamiliarName="Yerli Adam"
+
+[SkillAwardTrigger3]
+awardMessage="Kesif Bonusu"
+
+[Male2]
+FamiliarName="Torbaci"
+UnfamiliarName="Torbaci"
+
+[SarahMead0]
+FamiliarName="Okul Kizi"
+UnfamiliarName="Okul Kizi"
+
+[SkillAwardTrigger1]
+awardMessage="Kesif Bonusu"
+
+[LowerClassMale2]
+FamiliarName="Torbaci"
+UnfamiliarName="Torbaci"
+
+[LevelSummary]
+Title="Untitled"
+

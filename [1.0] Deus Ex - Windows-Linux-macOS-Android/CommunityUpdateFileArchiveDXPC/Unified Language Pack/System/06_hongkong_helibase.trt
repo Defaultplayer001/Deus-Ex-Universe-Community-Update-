@@ -1,0 +1,51 @@
+[NanoKey0]
+PickupMessage="Uçus Kontrol Güverte'nin Kilidini Açar"
+ItemName="Uçus Kontrol Güverte Kodu"
+Description="Uçus Kontrol Güverte Kodu"
+
+[NanoKey1]
+PickupMessage="Baraka dolaplarinin ana anahtarini buldun"
+Description="Baraka Dolaplari Ana Anahtar"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger0]
+awardMessage="Hedef Basari Bonusu"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Asansör",CameraTag=camera_elevator,Turrettag=eleturret)"
+Views[1]="(titleString="Baraka",CameraTag=camera_barracks)"
+Views[2]="(titleString="Çati",CameraTag=camera_roof,Turrettag=Roof_Defense,doorTag=hangar_door)"
+
+[SkillAwardTrigger1]
+awardMessage="Basari Bonusu"
+Message="Tam isabet!"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Asansör",CameraTag=camera_elevator,Turrettag=eleturret)"
+Views[1]="(titleString="Baraka",CameraTag=camera_barracks)"
+Views[2]="(titleString="Çati",CameraTag=camera_roof,Turrettag=Roof_Defense)"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - MJ12 Helikopter Üssü"
+startupMessage[0]="Hong Kong, Çin Halk Cumhuriyeti"
+startupMessage[1]="Gizli MJ12 helikopter üssü"
+startupMessage[2]="VersaLife binasi en tepede"
+
+[SkillAwardTrigger2]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger3]
+awardMessage="Basari Bonusu"
+
+[NanoKey3]
+PickupMessage="Cephane Odasinin Kapi Kilidi Açildi"
+ItemName="Cephane Odasinin Kilidini Açar"
+Description="Cephane Odasi Anahtari"
+
+[NanoKey2]
+PickupMessage="Cephane Odasinin Kapi Kilidi Açildi"
+ItemName="Cephane Odasinin Kilidini Açar"
+Description="Cephane Odasi Anahtari"
+

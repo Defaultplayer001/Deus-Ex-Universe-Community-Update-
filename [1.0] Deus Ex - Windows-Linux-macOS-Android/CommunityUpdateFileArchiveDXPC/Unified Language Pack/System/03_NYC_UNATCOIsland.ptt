@@ -1,0 +1,41 @@
+[BlackHelicopter0]
+FamiliarName="Helicóptero de Jock"
+UnfamiliarName="Helicóptero de Jock"
+
+[MIB0]
+FamiliarName="Guarda-costas"
+UnfamiliarName="Guarda-costas"
+
+[mib1]
+FamiliarName="Guarda-costas"
+UnfamiliarName="Guarda-costas"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Complexo SATCOM",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[1]="(titleString="Exterior QG. UNATCO",CameraTag=UN_CamSystem02)"
+Views[2]="(titleString="Interior QG. UNATCO",CameraTag=UN_CamSystem03)"
+
+[LevelSummary]
+Title="Sem título"
+
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Liberty Island"
+startupMessage[0]="Cidade de Nova Iorque, "
+startupMessage[1]="Liberty Island"
+startupMessage[2]="QG. UNATCO"
+
+[SecurityCamera0]
+FamiliarName="UN_lobby02"
+
+[SecurityCamera1]
+FamiliarName="UN_lobby01"
+
+[SecurityCamera2]
+FamiliarName="UN_outside"
+
+[SecurityCamera4]
+FamiliarName="SATCOM_cam"
+
+[UNATCOTroop13]
+FamiliarName="Soldado Lloyd"
+

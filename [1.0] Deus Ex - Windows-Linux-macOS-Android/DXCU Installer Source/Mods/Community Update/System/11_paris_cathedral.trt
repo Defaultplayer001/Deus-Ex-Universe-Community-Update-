@@ -1,0 +1,57 @@
+[SkillAwardTrigger3]
+awardMessage="Kritik Konum Bonusu"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Tapinak Sövalyeleri Katedrali"
+startupMessage[0]="Paris"
+startupMessage[1]="Hedef Kompleks Civari:"
+startupMessage[2]="Tapinak Sövalyeleri Katedrali"
+
+[NanoKey5]
+Description="Katedral Ana Kapi Anahtari"
+
+[NanoKey2]
+PickupMessage="Kapicinin Anahtari"
+Description="Kapicinin Anahtari"
+
+[NanoKey3]
+Description="Katedral Ana Kapi Anahtari"
+
+[NanoKey4]
+Description="Katedral Ana Kapi Anahtari"
+
+[SpecialEvent1]
+Message="Yeni Mesaj Yok"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger0]
+awardMessage="Bölge Konum Bonusu"
+
+[SkillAwardTrigger4]
+awardMessage="Bölge Konum Bonusu"
+
+[SkillAwardTrigger5]
+awardMessage="Kesif Bonusu"
+
+[Chef0]
+FamiliarName="Sef"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Sistem Baglantisi Olustur",TriggerText="Veri Kilidi Açik, Sistem Baglanti Transferi Olusturuldu",TriggerEvent=templar_upload,bTriggerOnceOnly=True)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Teknoloji Arsivi",CameraTag=godcompcam001)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Spor Mallari Güvenlik",CameraTag=SportingGoodsCam,Turrettag=SportingGoodsSecurity)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Depo 001",CameraTag=au_cam001,Turrettag=au_turret001)"
+Views[1]="(titleString="Depo 002",CameraTag=au_cam002,Turrettag=au_turret002)"
+Views[2]="(titleString="Depo 003",CameraTag=au_cam003,Turrettag=au_turret003)"
+
+[ComputerSecurity3]
+specialOptions[0]="(Text="AskBot Devriye Ünitesini Kapat",TriggerText="AskBot Devriye Ünitesi Kapatildi",TriggerEvent=CathMilitaryBotTrigger)"
+

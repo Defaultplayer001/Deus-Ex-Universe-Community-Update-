@@ -1,0 +1,78 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Chad,KeyID=catacombs_blastdoor,Description="Patlama Kapisi Anahtari")"
+
+[BumFemale0]
+FamiliarName="Silhouette Üyesi"
+UnfamiliarName="Silhouette Üyesi"
+
+[NanoKey0]
+Description="Patlama Kapisi Anahtari"
+
+[SkillAwardTrigger6]
+awardMessage="Gelisim Bonusu"
+
+[JunkieMale0]
+FamiliarName="Juveau"
+UnfamiliarName="Silhouette Üyesi"
+
+[LowerClassFemale0]
+FamiliarName="Anna"
+UnfamiliarName="Silhouette Üyesi"
+
+[Hooker1]
+FamiliarName="Silhouette Üyesi"
+UnfamiliarName="Silhouette Üyesi"
+
+[DeusExLevelInfo5]
+MissionLocation="Paris - Katakomplar"
+startupMessage[0]="Paris Katakomplari"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Siginak Girisi",CameraTag=mj12catacam01,Turrettag=mj12cataturret01)"
+Views[1]="(titleString="Rehine Tutma Bölgesi",CameraTag=mj12catacam02,Turrettag=mj12cataturret02)"
+
+[SkillAwardTrigger2]
+awardMessage="Basari Bonusu"
+
+[ChildMale0]
+FamiliarName="Pierre"
+
+[WIB0]
+FamiliarName="Ajan Hela"
+
+[Chad0]
+UnfamiliarName="Silhouette Lideri"
+
+[ThugMale1]
+FamiliarName="Silhouette Üyesi"
+UnfamiliarName="Silhouette Üyesi"
+
+[BumMale0]
+FamiliarName="Silhouette Üyesi"
+UnfamiliarName="Silhouette Üyesi"
+
+[SkillAwardTrigger5]
+awardMessage="Özne Edinim Bonusu"
+
+[SkillAwardTrigger3]
+awardMessage="Gelisim Bonusu"
+
+[NanoKey1]
+Description="Katakomp Kanalizasyon Giris Anahtari"
+
+[SkillAwardTrigger1]
+awardMessage="Özne Edinim Bonusu"
+
+[SkillAwardTrigger0]
+awardMessage="Kritik Konum Bonusu"
+
+[SkillAwardTrigger4]
+awardMessage="Gelisim Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+
+[JunkieMale1]
+FamiliarName="Berdus"
+UnfamiliarName="Berdus"
+

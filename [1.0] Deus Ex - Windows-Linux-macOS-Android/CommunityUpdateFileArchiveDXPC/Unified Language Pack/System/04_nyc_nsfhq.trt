@@ -1,0 +1,38 @@
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - NSF Karargahi"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Bölge 1 Kapisi",CameraTag=BasementCamera1,doorTag=SecurityDoor1)"
+Views[1]="(titleString="Bölge 2 Kapisi",CameraTag=BasementCamera2,doorTag=SecurityDoor2)"
+Views[2]="(titleString="Bölge 3 Kapisi",CameraTag=BasementCamera3,doorTag=SecurityDoor3)"
+
+[NanoKey0]
+Description="NSF GM"
+
+[ComputerPersonal4]
+specialOptions[0]="(Text="Mesaji Yayinla",TriggerText="NSF Tahliye Sinyali Gönderiliyor",TriggerEvent=SendingSignal)"
+
+[SkillAwardTrigger7]
+awardMessage="Bölge Konum Bonusu"
+
+[ComputerPersonal3]
+specialOptions[0]="(Text="Güney Çanagi Döndür",TriggerText="Güney çanak güney yönüne dogru döndürülüyor",TriggerEvent=Dish1,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Kuzey Çanagi Döndür",TriggerText="Kuzey çanak kuzey yönüne dogru döndürülüyor",TriggerEvent=Dish2,bTriggerOnceOnly=True)"
+specialOptions[2]="(Text="Bati Çanagi Döndür",TriggerText="Bati çanak bati yönüne dogru döndürülüyor",TriggerEvent=Dish3,bTriggerOnceOnly=True)"
+specialOptions[3]="(Text="Haberlesme Kapisini Aç",TriggerText="Haberlesme Kapisi Açildi",TriggerEvent=SignalComputerDoorOpen,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger2]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger1]
+awardMessage="Bölge Konum Bonusu"
+
+[SkillAwardTrigger0]
+awardMessage="Bölge Konum Bonusu"
+
+[ComputerSecurity5]
+Views[0]="(titleString="Garaj Kamerasi",CameraTag=NSFHQCamera,doorTag=BasementHatch)"
+

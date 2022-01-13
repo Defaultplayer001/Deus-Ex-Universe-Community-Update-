@@ -1,0 +1,86 @@
+[Language]
+Language=Türkçe
+LangId=31
+SubLangId=1
+
+[Public]
+Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
+
+[Errors]
+Unknown=Bilinmeyen Hata
+Aborted=Durduruldu
+ExportOpen=%s disa aktarma hatasi: '%s' dosyasi açilamadi
+ExportWrite=%s disa aktarma hatasi: '%s' dosyasi yazilamadi
+FileNotFound='%s' dosyasi bulunamadi
+ObjectNotFound='%s %s.%s' nesnesini bulma basarisiz
+PackageNotFound='%s' paketi için dosya bulunamadi
+PackageResolveFailed=Paket adi çözümlenemedi
+FilenameToPackage=Paket adi için '%s' dosya adi degistirilemedi
+Sandbox='%s' paketi bu kod koruyucuda erisilebilir degil
+PackageVersion='%s' paket sürümü eslesmedi
+FailedLoad='%s' yükleme basarisiz oldu: %s
+ConfigNotFound=Konfigürasyon dosyasinda '%s' bulunamadi
+LoadClassMismatch=%s, %s.%s'in bir alt sinifi degil
+NotDll='%s' bir DLL paketi degil; '%s' disa aktarma bulunamadi
+NotInDll='%s' '%s.dll' dosyasinda bulunamadi
+FailedLoadPackage=Paket yükleme basarisiz oldu: %s
+FailedLoadObject='%s %s.%s' yükleme basarisiz oldu: %s
+TransientImport=Geçici nesne içe aktarildi: %s
+FailedSavePrivate=%s kaydedilemedi: Grafik %s kisisel nesnesini hariç tutmak için baglandi
+FailedImportPrivate=%s %s kisisel nesnesi içe aktarilamadi
+FailedCreate=%s %s olusturma için bulunamadi
+FailedImport=%s '%s' dosyasinda bulunamadi
+FailedSaveFile='%s' dosyasini kaydetme hatasi: %s
+SaveWarning='%s' kaydetme hatasi
+NotPackaged=Nesne paketlenmedi: %s %s
+NotWithin=%s %s nesnesi %s içinde %s yerine olusturuldu
+Abstract=%s nesnesi olusturulamadi: %s sinifi soyut
+NoReplace=%s, %s ile degistirilemedi
+NoFindImport=Içe aktarma için '%s' dosyasi bulunamadi
+ReadFileFailed=Içe aktarma için '%s' dosyasini yazdirma basarisiz oldu
+SeekFailed=Dosya bulma hatasi
+OpenFailed=Dosya açma hatasi
+WriteFailed=Dosyaya yazma hatasi
+ReadEof=Okuma dosya sonunun ötesinde
+IniReadOnly=%s dosyasi yazma korumalidir; ayarlar kaydedilmis olamaz
+UrlFailed=URL baslatma basarisiz oldu
+Warning=Uyari
+Question=Soru
+OutOfMemory=Sanal bellek asildi. Bu durumu önlemek için, birincil diskinizde daha fazla bos alan açmalisiniz.
+History=Geçmis
+Assert=Dogrulama basarisiz: %s [Dosya:%s] [Satir: %i]
+Debug=Ayiklama dogrulama basarisiz: %s [Dosya:%s] [Satir: %i]
+LinkerExists='%s' için baglanti olusturucu zaten bulunuyor
+BinaryFormat='%s' dosyasi tanimlanamayan veri içeriyor
+SerialSize=%s: Seri boyutu eslesmedi: Alindi %i, Beklendi %i
+ExportIndex=Kötü disa aktarma indeksi %i/%i
+ImportIndex=Kötü içe aktarma indeksi %i/%i
+Password=Parola onaylanmadi
+Exec=Tanimlanmayan komut
+BadProperty='%s': Kötü veya '%s' niteligi eksik
+MisingIni=.ini dosyasi eksik: %s
+
+[Query]
+OldVersion=%s dosyasi bununla geriye dogru uyumlulugu olmayan bir önceki sürüm tarafindan kaydedilmis.  Onu okuma büyük olasilikla basarisiz olacak ve bir bozulmaya neden olabilir. Yine de denemek ister misiniz?
+Name=Ad:
+Password=Parola:
+PassPrompt=Adinizi ve parolanizi girin:
+PassDlg=Kimlik Kontrolü
+Overwrite='%s' dosyasinin güncellenmis olmasi gerekiyor.  Var olan sürümün üzerine yazmak ister misiniz?
+
+[Progress]
+Saving=%s dosyasi kaydediliyor...
+Loading=%s dosyasi yükleniyor...
+Closing=Kapatiliyor
+
+[General]
+Product=Unreal
+Engine=Unreal Engine
+Copyright=Telif Hakki 1999 Epic Games, Inc.
+True=Dogru
+False=Yanlis
+None=Hiç
+Yes=Evet
+No=Hayir

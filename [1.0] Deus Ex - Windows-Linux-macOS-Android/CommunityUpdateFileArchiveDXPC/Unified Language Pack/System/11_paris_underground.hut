@@ -1,0 +1,37 @@
+[SkillAwardTrigger0]
+awardMessage="Felfedezési bónusz"
+
+[DeusExLevelInfo0]
+MissionLocation="Párizs - Metróállomás"
+startupMessage[0]="Metróállomás"
+
+[LevelSummary]
+Title="Untitled"
+
+[Cop5]
+FamiliarName="Metrójárõr"
+UnfamiliarName="Metrójárõr"
+
+[Cop3]
+FamiliarName="Metrójárõr"
+UnfamiliarName="Metrójárõr"
+
+[Cop2]
+FamiliarName="Metrójárõr"
+UnfamiliarName="Metrójárõr"
+
+[Cop0]
+FamiliarName="Metrójárõr"
+UnfamiliarName="Metrójárõr"
+
+[Cop1]
+FamiliarName="Metrójárõr"
+UnfamiliarName="Metrójárõr"
+
+[Mechanic0]
+FamiliarName="Joseph"
+UnfamiliarName="Metrószerelõ"
+
+[SkillAwardTrigger1]
+awardMessage="Fejlõdési jutalom"
+

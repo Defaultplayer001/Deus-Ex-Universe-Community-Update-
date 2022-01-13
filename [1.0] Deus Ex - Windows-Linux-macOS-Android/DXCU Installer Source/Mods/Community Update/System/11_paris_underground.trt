@@ -1,0 +1,37 @@
+[SkillAwardTrigger0]
+awardMessage="Kesif Bonusu"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Metro Istasyonu"
+startupMessage[0]="Metro Istasyonu"
+
+[LevelSummary]
+Title="Untitled"
+
+[Cop5]
+FamiliarName="Metro Devriyesi"
+UnfamiliarName="Metro Devriyesi"
+
+[Cop3]
+FamiliarName="Metro Devriyesi"
+UnfamiliarName="Metro Devriyesi"
+
+[Cop2]
+FamiliarName="Metro Devriyesi"
+UnfamiliarName="Metro Devriyesi"
+
+[Cop0]
+FamiliarName="Metro Devriyesi"
+UnfamiliarName="Metro Devriyesi"
+
+[Cop1]
+FamiliarName="Metro Devriyesi"
+UnfamiliarName="Metro Devriyesi"
+
+[Mechanic0]
+FamiliarName="Joseph"
+UnfamiliarName="Metro Teknisyeni"
+
+[SkillAwardTrigger1]
+awardMessage="Gelisim Bonusu"
+

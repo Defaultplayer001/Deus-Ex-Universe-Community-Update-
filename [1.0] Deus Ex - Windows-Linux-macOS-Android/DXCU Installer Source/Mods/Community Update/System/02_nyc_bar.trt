@@ -1,0 +1,34 @@
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Yeralti Dünyasi Tavernasi"
+
+[Female1]
+FamiliarName="Süveter Giyen Kadin"
+UnfamiliarName="Süveter Giyen Kadin"
+
+[JordanShea0]
+UnfamiliarName="Barmen"
+
+[Male0]
+FamiliarName="Dan"
+UnfamiliarName="Isçi"
+
+[JoeGreene0]
+UnfamiliarName="Galerici?"
+
+[Female0]
+FamiliarName="Kadin"
+UnfamiliarName="Bayan"
+
+[SkillAwardTrigger6]
+awardMessage="Basari Bonusu"
+
+[Jock0]
+UnfamiliarName="Pilot"
+
+[Hooker0]
+FamiliarName="Janey"
+UnfamiliarName="Kiz"
+

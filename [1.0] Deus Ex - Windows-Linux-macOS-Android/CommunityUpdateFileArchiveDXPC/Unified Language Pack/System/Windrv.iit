@@ -1,0 +1,21 @@
+[Public]
+Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
+Preferences=(Caption="Schermo",Parent="Opzioni avanzate",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Joystick",Parent="Opzioni avanzate",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+
+[Errors]
+Failed3D=Inizializzazione hardware 3D fallita
+DDrawMode=DirectDraw non è riuscito a impostare la modalità video
+
+[General]
+ViewPersp=Mappa in prospettiva
+ViewXY=Mappa dall'alto
+ViewXZ=Mappa XZ
+ViewYZ=Mappa YZ
+ViewOther=Punto di vista
+Color16=Colore a &16 bit
+Color32=Colore a &32 bit
+AdvancedOptions=Opzioni avanzate
+
+[WindowsClient]
+ClassCaption="Gestione standard di Windows"

@@ -1,0 +1,76 @@
+[DeusExLevelInfo0]
+MissionLocation="NYC - CG.UNATCO"
+startupMessage[0]="C.G. UNATCO"
+startupMessage[1]="Coalición Antiterrorista"
+startupMessage[2]="Naciones Unidas"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=WaltonSimons,KeyID=ManderleyOfficeDoor,Description="Llave oficina de Manderley")"
+
+[UNATCOTroop3]
+FamiliarName="Soldado de la UNATCO"
+UnfamiliarName="Soldado de la UNATCO"
+
+[UNATCOTroop2]
+FamiliarName="Soldado de la UNATCO"
+UnfamiliarName="Soldado de la UNATCO"
+
+[UNATCOTroop0]
+FamiliarName="Cabo Collins"
+UnfamiliarName="Cabo Collins"
+
+[LevelSummary]
+Title="Sin título"
+
+[UNATCOTroop1]
+FamiliarName="Sargento Michael Berry"
+UnfamiliarName="Sargento Michael Berry"
+
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="Secretaria de la UNATCO"
+
+[SecurityCamera4]
+FamiliarName="UN_blastdoor_medcam"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="Mujer de la UNATCO"
+
+[UNATCOTroop30]
+FamiliarName="Scott"
+UnfamiliarName="Scott"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[SpecialEvent1]
+Message="No hay mensajes"
+
+[RetinalScanner0]
+msgUsed="Patrón retinal correcto: Acceso autorizado al agente Denton"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[JosephManderley0]
+UnfamiliarName="Jefe de la UNATCO"
+
+[SpecialEvent0]
+Message="Patrón retinal erróneo: Acceso denegado al agente Denton"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+

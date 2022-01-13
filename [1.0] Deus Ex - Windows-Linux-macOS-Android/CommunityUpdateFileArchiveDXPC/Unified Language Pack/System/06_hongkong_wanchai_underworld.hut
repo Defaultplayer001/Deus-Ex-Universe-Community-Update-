@@ -1,0 +1,182 @@
+[TriadRedArrow3]
+FamiliarName="Vörös Nyíl triádtag"
+UnfamiliarName="Vörös Nyíl triádtag"
+
+[Hooker4]
+FamiliarName="Mercedes"
+UnfamiliarName="Klubbeli lány"
+
+[ThugMale5]
+FamiliarName="Vince"
+UnfamiliarName="Iszákos fickó"
+
+[Hooker2]
+FamiliarName="Táncoslány"
+UnfamiliarName="Táncoslány"
+
+[TriadRedArrow4]
+FamiliarName="Vörös Nyíl triádtag"
+UnfamiliarName="Vörös Nyíl triádtag"
+
+[LowerClassMale1]
+FamiliarName="Nehézfiú"
+UnfamiliarName="Nehézfiú"
+
+[Sailor0]
+FamiliarName="Borisz"
+UnfamiliarName="Orosz tengerész"
+
+[TriadRedArrow6]
+FamiliarName="Chen testõre"
+UnfamiliarName="Chen testõre"
+
+[HKMilitary0]
+FamiliarName="Eddie Way"
+UnfamiliarName="Kínai katonai rendõr"
+
+[Female2]
+FamiliarName="Bárpillangó"
+UnfamiliarName="Bárpillangó"
+
+[Businessman3]
+FamiliarName="VersaLife alkalmazott"
+
+[TriadRedArrow8]
+FamiliarName="Triád kidobóembere"
+UnfamiliarName="Triád kidobóembere"
+
+[Sailor1]
+FamiliarName="Vlagyimir"
+UnfamiliarName="Orosz tengerész"
+
+[TriadRedArrow2]
+FamiliarName="Vörös Nyíl triádtag"
+UnfamiliarName="Vörös Nyíl triádtag"
+
+[TriadRedArrow1]
+FamiliarName="Vörös Nyíl triádtag"
+UnfamiliarName="Vörös Nyíl triádtag"
+
+[HKMilitary2]
+FamiliarName="Eddie Way"
+UnfamiliarName="Kínai katonai rendõr"
+
+[HKMilitary1]
+FamiliarName="Eddie Way"
+UnfamiliarName="Kínai katonai rendõr"
+
+[Businessman1]
+FamiliarName="Mr. Sing"
+UnfamiliarName="Zabos kedvû öltönyös"
+
+[Female4]
+FamiliarName="Bulizós lány"
+UnfamiliarName="Bulizós lány"
+
+[JunkieFemale0]
+FamiliarName="Narkós lány"
+UnfamiliarName="Narkós lány"
+
+[TriadRedArrow7]
+FamiliarName="Triád kidobóembere"
+UnfamiliarName="Triád kidobóembere"
+
+[Female7]
+FamiliarName="Mamasan"
+UnfamiliarName="Mamasan"
+
+[Female6]
+FamiliarName="Bulizós lány"
+UnfamiliarName="Bulizós lány"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Széf kinyitása",TriggerText="Széf nyitva.",TriggerEvent=Safe_door)"
+
+[Bartender0]
+FamiliarName="Isaac"
+
+[Female5]
+FamiliarName="Bulizós lány"
+UnfamiliarName="Bulizós lány"
+
+[Sailor2]
+FamiliarName="Dmitrij"
+UnfamiliarName="Orosz tengerész"
+
+[TriadRedArrow5]
+FamiliarName="Chen testõre"
+UnfamiliarName="Chen testõre"
+
+[SkillAwardTrigger3]
+awardMessage="Felfedezési bónusz"
+
+[Female1]
+FamiliarName="Ajtóban toporgó lány"
+UnfamiliarName="Ajtóban toporgó lány"
+
+[Sailor3]
+FamiliarName="Iván"
+UnfamiliarName="Orosz tengerész"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Klubkamera",CameraTag=ClubCam1)"
+Views[1]="(titleString="Pult és széf",CameraTag=ClubCam2,doorTag=Strongbox)"
+Views[2]="(titleString="Szervizlift",CameraTag=ClubCam3)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Quick Stop bizt. kamera",CameraTag=SecurityCamera)"
+Views[1]="(titleString="Quick Stop bizt. kamera",CameraTag=SecurityCamera1,doorTag=StoreDoor)"
+
+[Hooker0]
+FamiliarName="Carole"
+UnfamiliarName="Ideges nõ"
+
+[SkillAwardTrigger12]
+awardMessage="Továbbjutási bónusz"
+
+[LowerClassFemale1]
+FamiliarName="Tessa"
+UnfamiliarName="Bulizós lány"
+
+[LowerClassMale0]
+FamiliarName="Lawrence"
+UnfamiliarName="Balek"
+
+[Businesswoman0]
+UnfamiliarName="VersaLife alkalmazott"
+
+[Secretary0]
+FamiliarName="Lisa"
+UnfamiliarName="Vonzó nõ"
+
+[SkillAwardTrigger13]
+awardMessage="Karakter-interakciós bónusz"
+
+[TriadRedArrow0]
+FamiliarName="Vörös Nyíl triádtag"
+UnfamiliarName="Vörös Nyíl triádtag"
+
+[LevelSummary]
+Title="Untitled"
+
+[Female10]
+FamiliarName="Maymay"
+UnfamiliarName="Fiatal hostess"
+
+[SarahMead0]
+FamiliarName="Ling"
+UnfamiliarName="Fiatal hostess"
+
+[Female3]
+FamiliarName="Bulizós lány"
+UnfamiliarName="Bulizós lány"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Lucky Money Klub"
+startupMessage[0]="Wan Chai, földalatti üzleti negyed"
+startupMessage[1]="A Lucky Money Klub otthona"
+
+[HKMilitary3]
+FamiliarName="Eddie Way"
+UnfamiliarName="Kínai katonai rendõr"
+

@@ -1,0 +1,96 @@
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger1]
+awardMessage="Gelisim Bonusu"
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - UNATCO Karargahi"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="Janice Reed"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=AlexJacobson,KeyID=levelone,Description="Kat Bir Girisi")"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Ajan ANavarre Kapatma Anahtari",TriggerText="Kapatma Anahtari 1.Parça: 'Flatlander'",TriggerEvent=know1,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Ajan GHerman Kapatma Anahtari",TriggerText="Kapatma Anahtari Bulunamadi -- Yükleme Bekleniyor",userName="demiurge")"
+
+[ComputerPersonal3]
+specialOptions[0]="(Text="Ajan ANavarre Kapatma Anahtari",TriggerText="Kapatma Anahtari 2.Parça: 'kadini'",TriggerEvent=know2,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Ajan GHerman Kapatma Anahtari",TriggerText="Kapatma Anahtari Bulunamadi -- Yükleme Bekleniyor")"
+specialOptions[2]="(userName="demiurge")"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="Shannon"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[SpecialEvent0]
+Message="Retinal Desen Eslesmedi: Ajan Denton Giris Için Yetkilendirilmedi"
+
+[RetinalScanner0]
+msgUsed="Retinal Desen Düzensiz Çalisiyor: Genel Koruma Hatasi 0012E9023"
+
+[SpecialEvent1]
+Message="Yeni Mesaj Yok"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[SkillAwardTrigger0]
+awardMessage="Ilerleme Bonusu"
+
+[JosephManderley0]
+UnfamiliarName="UNATCO Baskani"
+
+[UNATCOTroop9]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[UNATCOTroop8]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[UNATCOTroop2]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[UNATCOTroop6]
+FamiliarName="Scott"
+UnfamiliarName="UNATCO Askeri"
+
+[UNATCOTroop3]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[UNATCOTroop0]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[Terrorist0]
+FamiliarName="Miguel"
+
+[UNATCOTroop4]
+FamiliarName="Scott"
+UnfamiliarName="UNATCO Askeri"
+

@@ -67,6 +67,8 @@ del "%~dp0\*Optional Files*FileListFinal.txt"
 ;Delete so postexec files don't get handled twice. (Already manually entered in ManifestHeader-2-Game Group.ini)
 del "%~dp0\subdirFileListFinal.txt"
 
+del "%~dp0\*Delta*FileListFinal.txt"
+
 
 rem Used to override manifest with custom group order. Reverse rem comment to generate a new unorganized group list.
 rem copy "ManifestHeader-1-Setup (Custom Override).ini" + "ManifestHeader-2-Game Group.ini" + "*FileListFinal.txt" + "ManifestHeader-3-Groups.ini" "%~dp0\System\Manifest.ini"

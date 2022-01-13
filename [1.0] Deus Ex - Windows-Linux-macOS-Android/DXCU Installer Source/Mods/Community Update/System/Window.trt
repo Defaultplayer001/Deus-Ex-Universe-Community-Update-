@@ -1,0 +1,64 @@
+[Errors]
+Critical=Kritik Hata
+FailedConfigLoad=%s (yükleme basarisiz)
+
+[General]
+BrowseButton=...
+UseButton=Kullan
+ClearButton=Temizle
+OkButton=Tamam
+AddButton=Ekle
+EmptyButton=Bos
+InsertButton=Araya Ekle
+DeleteButton=Sil
+DefaultsButton=Varsayilana Ayarla
+BackButton=< &Geri
+NextButton=&Ileri >
+FinishButton=&Bitir
+CancelButton=Iptal
+InstallButton=&Yükle
+YesButton=&Evet
+NoButton=&Hayir
+AgreeButton=K&abul Et
+LanguagePrompt=Dil:
+LanguageWindow=Dil Seçimi
+LogWindow=%s Kayit Penceresi
+PropNone=Hiç Seçilmedi
+PropSingle=%s Özellikleri
+PropMulti=%s Özellikleri (%i seçildi)
+InsertCdText=Lütfen Deus Ex CD-Rom'u sürücünüze takin ve devam etmek için Tamam'a, ya da çikmak için Iptal'e tiklayin.
+InsertCdTitle=Baslatma Için Cd Gerekir
+AdvancedOptionsTitle=Gelismis Seçenekler
+Low=Düsük
+High=Yüksek
+
+[FirstRun]
+Caption=Ilk Konfigürasyon
+LowMemory=Deus Ex sizin mevcut %i megabayt hafizanizin oldugunu tespit etti. Performansi gelistirmek için, "Düsük Detayli Dokular" ve "Düsük Ses Kalitesi" seçenekleri etkinlestirilmistir.  Bu ayarlari "Performans Ayarlari" menüsünden degistirebilirsiniz.
+NonMMX=Deus Ex sizin MMX olmayan bir PC kullandiginizi tespit etti. Bunu baz alarak, sesi tekrar oynatma orani en az CPU gücü kullanýlacak sekilde ayarlanmistir. Bu ayarlari "Gelismis Seçenekler / Ses" menüsünden degistirebilirsiniz.
+Starting=Deus Ex yeni ayarlarla baslatiliyor. Herhangi bir sorun deneyimlerseniz, lütfen "Baslat" menüsünde bulunan Sürüm Notlari'nin Sorun Giderme kismini okuyun.
+
+[IDDIALOG_Directory]
+IDC_Directory=Yükleme Klasörü
+IDC_ChoosePrompt=Lütfen bir yükleme klasörü seçin.
+IDC_PathTitle=&Yol:
+IDC_DirectoryTitle=&Dizinler:
+IDC_DrivesTitle=Sü&rücüler:
+IDC_NetworkButton=&Ag
+
+[IDDIALOG_Password]
+IDC_Password=Parola Denetimi
+IDC_Prompt=Lütfen adinizi ve parolanizi girin.
+IDC_Name=&Ad:
+IDC_Password=&Parola:
+
+[IDMENU_NotifyIcon]
+ID_NotifyIcon=Menü
+ID_NotifyShowLog=&UnrealServer Konsolu
+ID_NotifyAdvancedOptions=&Gelismis Seçenekler
+ID_NotifyExit=UnrealServer'den &Çik 
+
+[IDMENU_Log]
+ID_LogFile=&Dosya
+ID_LogAdvancedOptions=&Gelismis Seçenekler
+ID_LogFileExit=&Çik

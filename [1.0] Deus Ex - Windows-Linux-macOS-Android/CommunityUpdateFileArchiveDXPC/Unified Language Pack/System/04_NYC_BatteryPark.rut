@@ -1,0 +1,27 @@
+[SkillAwardTrigger2]
+awardMessage="Премия за выполнение"
+
+[JunkieFemale0]
+FamiliarName="Больная женщина"
+UnfamiliarName="Больная женщина"
+
+[JunkieMale2]
+FamiliarName="Больной мужчина"
+UnfamiliarName="Больной мужчина"
+
+[ChildMale0]
+FamiliarName="Билли"
+UnfamiliarName="Ребенок"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Бэттери Парк"
+startupMessage[0]="Нью-Йорк,"
+startupMessage[1]="Бэттери Парк"
+
+[BlackHelicopter0]
+FamiliarName="Джок в вертолете"
+UnfamiliarName="Джок в вертолете"
+

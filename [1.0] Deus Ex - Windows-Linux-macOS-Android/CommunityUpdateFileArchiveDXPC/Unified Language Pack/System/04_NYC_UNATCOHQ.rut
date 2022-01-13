@@ -1,0 +1,73 @@
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+
+[UNATCOTroop3]
+FamiliarName="Солдат UNATCO"
+UnfamiliarName="Солдат UNATCO"
+
+[UNATCOTroop2]
+FamiliarName="Солдат UNATCO"
+UnfamiliarName="Солдат UNATCO"
+
+[UNATCOTroop1]
+FamiliarName="Сержант Майкл Берри"
+UnfamiliarName="Сержант Майкл Берри"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Штаб UNATCO"
+startupMessage[0]="Штаб-квартира UNATCO"
+startupMessage[1]="Антитеррористическая Коалиция"
+startupMessage[2]="Организации Объединенных Наций"
+
+[UNATCOTroop0]
+FamiliarName="Капрал Коллинз"
+UnfamiliarName="Капрал Коллинз"
+
+[AlexJacobson0]
+UnfamiliarName="Алекс Джейкобсон"
+
+[UNATCOTroop30]
+FamiliarName="Скотт"
+UnfamiliarName="Скотт"
+
+[LevelSummary]
+Title="Untitled"
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[Secretary0]
+FamiliarName="Дженис Рид"
+UnfamiliarName="Секретарь UNATCO"
+
+[Female0]
+FamiliarName="Шеннон"
+UnfamiliarName="Администратор UNATCO"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[SpecialEvent0]
+Message="Узор сетчатки не принят: Агент Дентон - В доступе отказано"
+
+[RetinalScanner0]
+msgUsed="Узор сетчатки принят: Агент Дентон - Доступ разрешен"
+
+[SpecialEvent1]
+Message="Нет сообщений"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[JosephManderley0]
+UnfamiliarName="Шеф UNATCO"
+
+[SecurityCamera4]
+FamiliarName="UN_blastdoor_medcam"
+

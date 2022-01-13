@@ -1,0 +1,88 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Editor",Parent="Opzioni avanzate")
+Preferences=(Caption="Avanzate",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colori",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Griglia",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotazione griglia",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+HelpCmd=master
+HelpOneLiner=Crea file d'installazione master
+HelpUsage=master [-opzione...] [parm=valore]...
+HelpParm[0]=MasterPath
+HelpDesc[0]=Cartella da dove copiare i file sorgente
+HelpParm[1]=SrcPath
+HelpDesc[1]=Cartella dove copiare i file sorgente (distribuzione)
+HelpParm[2]=RefPath
+HelpDesc[2]=Percorso per riferimento delta-compresso
+
+[ConformCommandlet]
+HelpCmd=conform
+HelpOneLiner=Genera file binari conformi
+HelpUsage=conform existing_file.ext old_file.ext
+HelpParm[0]=existingfile.ext
+HelpDesc[0]=File binario da caricare, conformare e salvare
+HelpParm[1]=oldfile.ext
+HelpDesc[1]=Vecchio file da rendere compatibile col file sorgente binario
+
+[PackageFlagCommandlet]
+HelpCmd=packageflag
+HelpOneLiner=Imposta gli indicatori in file
+HelpUsage=packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]
+HelpParm[0]=src.ext
+HelpDesc[0]=File di blocco esistente da caricare
+HelpParm[1]=dest.exe
+HelpDesc[1]=Nome del nuovo file di blocco con impostazioni indicatori
+HelpParm[2]=flag
+HelpDesc[2]=+ per impostare un indicatore o - per rimuoverlo, seguito da::
+HelpParm[3]=" "
+HelpDesc[3]="  AllowDownload"
+HelpParm[4]=" "
+HelpDesc[4]="  ClientOptional"
+HelpParm[5]=" "
+HelpDesc[5]="  ServerSideOnly"
+HelpParm[6]=" "
+HelpDesc[6]="  BrokenLinks"
+HelpParm[7]=" "
+HelpDesc[7]="  Unsecure"
+
+[MakeCommandlet]
+HelpCmd=make
+HelpOneLiner=Ricrea i blocchi UnrealScript
+HelpUsage=make [-opzione...] [parm=valore]...
+HelpParm[0]=Silent
+HelpDesc[0]=Nessuna richiesta: "sì" a tutte le domande
+HelpParm[1]=NoBind
+HelpDesc[1]=Non lega le funzioni native alle DLL
+HelpParm[2]=Tutti
+HelpDesc[2]=Ricostruzione libera (altrimenti è incrementale)
+
+[MergeDXTCommandlet]
+HelpCmd=mergedxt
+HelpOneLiner=Unisce le texture DXT con texture standard
+HelpUsage=mergedxt srcpath oldpath destpath
+HelpParm[0]=srcpath
+HelpDesc[0]=Percorso dei file sorgente
+HelpParm[1]=oldpath
+HelpDesc[1]=Percorso dei vecchi file
+HelpParm[2]=destpath
+HelpDesc[2]=Percorso file di destinazione
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpOneLiner=Esporta gli oggetti in massa
+HelpUsage=batchexport package.ext classname export_ext
+HelpParm[0]=package.ext
+HelpDesc[0]=Blocco con gli oggetti da esportare
+HelpParm[1]=classname
+HelpDesc[1]=Classe dell'oggetto da esportare
+HelpParm[2]=export_ext
+HelpDesc[2]=Estensione del file esportato
+HelpParm[3]=path
+HelpDesc[3]=Percorso dei file esportati, come c:\MioPercorso

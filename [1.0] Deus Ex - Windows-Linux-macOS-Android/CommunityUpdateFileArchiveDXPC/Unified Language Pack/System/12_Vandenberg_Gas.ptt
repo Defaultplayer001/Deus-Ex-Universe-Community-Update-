@@ -1,0 +1,36 @@
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=bum1,KeyID=pipe,Description="Acesso ao esgoto")"
+NanoKeyData[1]="(ScriptedPawnTag=Bum2,KeyID=pipe,Description="Acesso ao esgoto")"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: exploração"
+
+[NanoKey1]
+Description="Acesso ao esgoto"
+
+[BumMale0]
+FamiliarName="Fred"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=Guard_Garage,KeyID=garage_entrance,Description="Porta da garagem")"
+NanoKeyData[1]="(ScriptedPawnTag=mib_garage)"
+NanoKeyData[2]="(KeyID=garage_entrance,Description="Porta da garagem")"
+
+[TiffanySavage0]
+UnfamiliarName="Refém"
+
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Gas"
+startupMessage[0]="Posto de gasolina abandonado"
+startupMessage[1]="Califórnia Central"
+
+[LevelSummary]
+Title="Sem título"
+
+[NanoKey0]
+Description="Porta da garagem"
+

@@ -81,6 +81,7 @@ del "%~dp0\ModsCommunity UpdateUed2*FileListFinal.txt"
 del "%~dp0\ModsCommunity UpdateEditing*FileListFinal.txt"
 del "%~dp0\ModsCommunity UpdateLanguages.con Files for Translations and Demo*FileListFinal.txt"
 del "%~dp0\Docs*FileListFinal.txt"
+del "%~dp0\*Lay*FileListFinal.txt"
 
 rem Used to override manifest with custom group order. Reverse rem comment to generate a new unorganized group list.
 copy "ManifestHeader-1-Setup (Custom Override).ini" + "ManifestHeader-2-Game Group.ini" + "*FileListFinal.txt" + "ManifestHeader-3-Groups.ini" "%~dp0\System\Manifest.ini"

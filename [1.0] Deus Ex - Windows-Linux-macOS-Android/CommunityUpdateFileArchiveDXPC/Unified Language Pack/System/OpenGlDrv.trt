@@ -1,0 +1,14 @@
+[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="OpenGL Support",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[OpenGLRenderDevice]
+ClassCaption="OpenGL Destegi"
+AskInstalled=Yuklenmis OpenGL uyumlu bir 3D hizlandiriciniz var mi?
+AskUse=Deus Ex'te OpenGL hizlandiricinizi kullanmak ister misiniz?
+
+[Errors]
+NoFindGL=OpenGL surucusu %s bulunamadi
+MissingFunc=OpenGL fonksiyon %s (%i) eksik
+ResFailed=Cozunurluk ayarlama basarisiz

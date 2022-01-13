@@ -1,0 +1,40 @@
+Custom Player Class (Allows simple custom player class without convos with choices failing.):
+
+hexediting consys.dll would be another option
+[8:19 PM]
+but you prob just can use shorter or equal lenght names
+[8:21 PM]
+at best a few chars more due to padding in the binary
+[8:21 PM]
+and you only need to use the hexedited consys.dll when importing the convo
+[8:21 PM]
+i mean literally, open consys.dll in xvi32
+[8:21 PM]
+search for JCDenton
+[8:21 PM]
+replace it, 0 terminate if name is shorter
+[8:22 PM]
+should be 1-2 occurances i guess
+[8:22 PM]
+probably the easiest solution
+[8:23 PM]
+you could even use a script + hexed to make it more flexible with custom pc name
+
+Custom Item Package (Allows items to be selected from a package other then DeusEx.u):
+
+Above but the first instance of "DeusEx". Address 1D35E
+
+To workaround nanokeys not being transferable the usual way with the above mentioned hexediting, you can create a subclass of nanokey in your custom package with a defaultproperties containing the desired values
+something like this 
+//=============================================================================
+// NanoKeyF.
+//=============================================================================
+class NanoKeyF expands NanoKey;
+
+defaultproperties
+{
+     KeyId=nico_room
+     Description="Child's Room Key"
+}
+Mildly tedious if you gotta deal with a lotta keys I guess, but functional.
+

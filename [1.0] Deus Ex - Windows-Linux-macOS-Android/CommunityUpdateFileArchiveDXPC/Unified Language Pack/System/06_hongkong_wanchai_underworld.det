@@ -1,0 +1,181 @@
+[Female4]
+FamiliarName="Vergnügungssüchtiges Mädchen"
+UnfamiliarName="Vergnügungssüchtiges Mädchen"
+
+[Businessman1]
+FamiliarName="Mr. Sing"
+UnfamiliarName="Steifer Geschäftsmann"
+
+[HKMilitary1]
+FamiliarName="Eddie Way"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[HKMilitary2]
+FamiliarName="Eddie Way"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[TriadRedArrow1]
+FamiliarName="Mitglied der Red Arrow"
+UnfamiliarName="Mitglied der Red Arrow"
+
+[TriadRedArrow2]
+FamiliarName="Mitglied der Red Arrow"
+UnfamiliarName="Mitglied der Red Arrow"
+
+[Sailor1]
+FamiliarName="Vladimir"
+UnfamiliarName="Russische Matrosen"
+
+[TriadRedArrow8]
+FamiliarName="Schläger"
+UnfamiliarName="Schläger"
+
+[Businessman3]
+FamiliarName="VersaLife-Mitarbeiter"
+
+[Female2]
+FamiliarName="Trinkerin"
+UnfamiliarName="Trinkerin"
+
+[HKMilitary3]
+FamiliarName="Eddie Way"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Lucky Money Club"
+startupMessage[0]="Wan Chai Untergrund Mall"
+startupMessage[1]="Heimat des Lucky Money Club"
+
+[Female3]
+FamiliarName="Vergnügungssüchtiges Mädchen"
+UnfamiliarName="Vergnügungssüchtiges Mädchen"
+
+[SarahMead0]
+FamiliarName="Ling"
+UnfamiliarName="Hostess"
+
+[Female10]
+FamiliarName="Maymay"
+UnfamiliarName="Hostess"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[TriadRedArrow0]
+FamiliarName="Mitglied der Red Arrow"
+UnfamiliarName="Mitglied der Red Arrow"
+
+[SkillAwardTrigger13]
+awardMessage="Interaktionsbonus"
+
+[Secretary0]
+FamiliarName="Lisa"
+UnfamiliarName="Verführerische Frau"
+
+[Businesswoman0]
+UnfamiliarName="VersaLife-Mitarbeiter"
+
+[LowerClassMale0]
+FamiliarName="Lawrence"
+UnfamiliarName="Loser"
+
+[LowerClassFemale1]
+FamiliarName="Tessa"
+UnfamiliarName="Vergnügungssüchtiges Mädchen"
+
+[SkillAwardTrigger12]
+awardMessage="Fortschrittsbonus"
+
+[Hooker0]
+FamiliarName="Carole"
+UnfamiliarName="Nervöse Frau"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Quick Stop Sicherheit",cameraTag=SecurityCamera)"
+Views[1]="(titleString="Quick Stop Sicherheit",cameraTag=SecurityCamera1,doorTag=StoreDoor)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Club Überwachung",cameraTag=ClubCam1)"
+Views[1]="(titleString="Theke und Safe",cameraTag=ClubCam2,doorTag=Strongbox)"
+Views[2]="(titleString="Service Lift",cameraTag=ClubCam3)"
+
+[Sailor3]
+FamiliarName="Ivan"
+UnfamiliarName="Russische Matrosen"
+
+[Female1]
+FamiliarName="Türsteherin"
+UnfamiliarName="Türsteherin"
+
+[SkillAwardTrigger3]
+awardMessage="Forschungsbonus"
+
+[TriadRedArrow5]
+FamiliarName="Chens Leibwächter"
+UnfamiliarName="Chens Leibwächter"
+
+[Sailor2]
+FamiliarName="Dimitri"
+UnfamiliarName="Russische Matrosen"
+
+[HKMilitary0]
+FamiliarName="Eddie Way"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[TriadRedArrow6]
+FamiliarName="Chens Leibwächter"
+UnfamiliarName="Chens Leibwächter"
+
+[Female5]
+FamiliarName="Vergnügungssüchtiges Mädchen"
+UnfamiliarName="Vergnügungssüchtiges Mädchen"
+
+[Bartender0]
+FamiliarName="Isaac"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Tresor öffnen",TriggerText="Tresor geöffnet",TriggerEvent=Safe_door)"
+
+[Female6]
+FamiliarName="Vergnügungssüchtiges Mädchen"
+UnfamiliarName="Vergnügungssüchtiges Mädchen"
+
+[Female7]
+FamiliarName="Mamasan"
+UnfamiliarName="Mamasan"
+
+[TriadRedArrow7]
+FamiliarName="Schläger"
+UnfamiliarName="Schläger"
+
+[JunkieFemale0]
+FamiliarName="Betäubtes Vergnügungssüchtiges Mädchen"
+UnfamiliarName="Betäubtes Vergnügungssüchtiges Mädchen"
+
+[Sailor0]
+FamiliarName="Boris"
+UnfamiliarName="Russischer Matrose"
+
+[LowerClassMale1]
+FamiliarName="Schläger"
+UnfamiliarName="Schläger"
+
+[TriadRedArrow4]
+FamiliarName="Mitglied der Red Arrow"
+UnfamiliarName="Mitglied der Red Arrow"
+
+[Hooker2]
+FamiliarName="Tänzerin"
+UnfamiliarName="Tänzerin"
+
+[ThugMale5]
+FamiliarName="Vince"
+UnfamiliarName="Säufer"
+
+[Hooker4]
+FamiliarName="Mercedes"
+UnfamiliarName="Club Babe"
+
+[TriadRedArrow3]
+FamiliarName="Mitglied der Red Arrow"
+UnfamiliarName="Mitglied der Red Arrow"

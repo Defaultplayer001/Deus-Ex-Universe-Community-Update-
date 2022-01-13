@@ -1,0 +1,65 @@
+[LevelSummary]
+Title="Sem título"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: realização"
+
+[SkillAwardTrigger2]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus: exploração"
+
+[NanoKey0]
+Description="Chave da porta do quiosque"
+
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Battery Park"
+startupMessage[0]="Cidade de Nova Iorque, Battery Park"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Armazém",CameraTag=Warehouse,Turrettag=Turret1)"
+Views[1]="(titleString="Ponte do Túnel",CameraTag=Walkway,Turrettag=Turret2)"
+Views[2]="(titleString="Acesso - Galpão",CameraTag=Boathouse,Turrettag=Turret3)"
+
+[BumFemale0]
+FamiliarName="Garota vagabunda"
+UnfamiliarName="Garota vagabunda"
+
+[SkillAwardTrigger6]
+awardMessage="Bônus: realização"
+
+[ChildMale1]
+FamiliarName="Josh"
+UnfamiliarName="Garoto"
+
+[SkillAwardTrigger10]
+awardMessage="Bônus: localização"
+
+[JunkieMale2]
+FamiliarName="Homem enfermo"
+UnfamiliarName="Homem enfermo"
+
+[NanoKey3]
+Description="Chaves para as portas do quiosque"
+
+[JunkieFemale0]
+FamiliarName="Mulher enferma"
+UnfamiliarName="Mulher enferma"
+
+[ChildMale0]
+FamiliarName="Billy"
+UnfamiliarName="Garoto"
+
+[SkillAwardTrigger5]
+awardMessage="Bônus: realização"
+
+[BumMale3]
+FamiliarName="Antigo refém"
+UnfamiliarName="Refém"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=LeadTerrorist,KeyID=CCSafe,Description="Chave do forte Castelo Clinton")"
+
+[ComputerPersonal1]
+specialOptions[0]="(Text="Ciclo - Portas do Túnel",TriggerText="Portas em ciclo",TriggerEvent=MainDoors)"

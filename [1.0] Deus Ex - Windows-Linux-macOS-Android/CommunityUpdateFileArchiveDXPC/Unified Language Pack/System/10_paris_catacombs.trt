@@ -1,0 +1,47 @@
+[ZoneInfo0]
+DamageString="Yüksek Düzeyde Radyasyon Tespit Edildi"
+
+[SkillAwardTrigger2]
+awardMessage="Kritik Konum Bonusu"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MJ12Commando_keymaster,KeyID=catdoor,Description="Katakomp Giris Anahtari")"
+
+[ComputerSecurity1]
+Views[0]="(titleString="ATM Güvenligi",CameraTag=atm_cam,Turrettag=atm_turret02)"
+
+[NanoKey1]
+Description="Depo Anahtar Kodu"
+
+[JunkieFemale0]
+FamiliarName="Aimee"
+UnfamiliarName="Acayip Kadin"
+
+[DeusExLevelInfo1]
+MissionLocation="Paris - Denfert-Rochereau"
+startupMessage[0]="Denfert-Rochereau, Paris"
+startupMessage[1]="Terk Edilmis Gökdelen"
+
+[NanoKey7]
+Description="Ofis Anahtari"
+
+[Male3]
+FamiliarName="Defoe"
+UnfamiliarName="Silah Tüccari"
+
+[SkillAwardTrigger1]
+awardMessage="Bölge Konum Bonusu"
+
+[SkillAwardTrigger0]
+awardMessage="Ilerleme Bonusu"
+
+[SkillAwardTrigger4]
+awardMessage="Kesif Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Depo Güvenlik",CameraTag=warehousecam,Turrettag=warehousecamturret)"
+Views[1]="(titleString="Depo Kapilari",CameraTag=warehousesecuritycam02,doorTag=ug_warehousedoors)"
+

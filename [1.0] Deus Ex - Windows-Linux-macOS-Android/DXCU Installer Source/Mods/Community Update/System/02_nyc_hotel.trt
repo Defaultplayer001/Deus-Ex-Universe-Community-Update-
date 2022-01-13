@@ -1,0 +1,26 @@
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="'Ton Oteli Kuzey Oda Anahtari"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - 'Ton Oteli"
+
+[SkillAwardTrigger0]
+awardMessage="Kesif Bonusu"
+
+[GilbertRenton0]
+UnfamiliarName="Otel Resepsiyonist"
+
+[SkillAwardTrigger1]
+awardMessage="Basari Bonusu"
+
+[Female0]
+FamiliarName="Geçmis Kadin Rehine"
+UnfamiliarName="Kadin Rehine"
+
+[Male0]
+FamiliarName="Geçmis Erkek Rehine"
+UnfamiliarName="Erkek Rehine"
+

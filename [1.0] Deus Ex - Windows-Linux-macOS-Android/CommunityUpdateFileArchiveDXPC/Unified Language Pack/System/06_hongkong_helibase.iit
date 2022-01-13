@@ -1,0 +1,51 @@
+[NanoKey2]
+PickupMessage="Apre la porta del deposito munizioni"
+ItemName="Apre il deposito munizioni"
+Description="Porta del deposito munizioni"
+
+[NanoKey3]
+PickupMessage="Apre la porta del deposito munizioni"
+ItemName="Apre il deposito munizioni"
+Description="Porta del deposito munizioni"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di successo"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Eliporto MJ12"
+startupMessage[0]="Hong Kong, Repubblica Popolare Cinese"
+startupMessage[1]="Eliporto segreto dei MJ12"
+startupMessage[2]="Sommità dell'edificio VersaLife"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Ascensore",cameraTag=camera_elevator,turretTag=eleturret)"
+Views[1]="(titleString="Alloggi",cameraTag=camera_barracks)"
+Views[2]="(titleString="Tetto",cameraTag=camera_roof,turretTag=Roof_Defense)"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di successo"
+Message="Bel tiro!"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Ascensore",cameraTag=camera_elevator,turretTag=eleturret)"
+Views[1]="(titleString="Alloggi",cameraTag=camera_barracks)"
+Views[2]="(titleString="Tetto",cameraTag=camera_roof,turretTag=Roof_Defense,doorTag=hangar_door)"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus obiettivo raggiunto"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[NanoKey1]
+PickupMessage="Hai trovato la chiave universale degli armadietti in caserma"
+Description="Chiave universale armadietti caserma"
+
+[NanoKey0]
+PickupMessage="Sblocca i ponti di controllo del volo"
+ItemName="Codice dei ponti di controllo del volo"
+Description="Codice dei ponti di controllo del volo"
+

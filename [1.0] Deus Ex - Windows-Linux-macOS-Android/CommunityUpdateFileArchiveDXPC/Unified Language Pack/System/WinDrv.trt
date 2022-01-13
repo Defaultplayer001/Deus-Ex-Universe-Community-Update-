@@ -1,0 +1,21 @@
+[Public]
+Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
+Preferences=(Caption="Display",Parent="Advanced Options",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Joystick",Parent="Advanced Options",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+
+[Errors]
+Failed3D=3d donanim baslatmasi basarisiz
+DDrawMode=DirectDraw önerilen video moduna ayarlanamiyor
+
+[General]
+ViewPersp=Perspektif harita
+ViewXY=Bas üstü harita
+ViewXZ=XZ harita
+ViewYZ=YZ harita
+ViewOther=Görüntü alani
+Color16=&16-bit renk
+Color32=&32-bit renk
+AdvancedOptions=Gelismis Seçenekler
+
+[WindowsClient]
+ClassCaption="Standart Windows Yöneticisi"

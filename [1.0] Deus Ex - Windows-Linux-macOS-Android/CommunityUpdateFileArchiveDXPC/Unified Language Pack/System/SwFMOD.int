@@ -1,0 +1,6 @@
+[Public]
+Object=(Name=SwFMOD.SwFMOD,Class=Class,MetaClass=Engine.AudioSubsystem)
+Preferences=(Caption="SwFMOD",Parent="Advanced Options",Class=SwFMOD.SwFMOD,Immediate=True)
+
+[SwFMOD]
+ClassCaption="FMOD 3D Audio (No Lip-Sync)"

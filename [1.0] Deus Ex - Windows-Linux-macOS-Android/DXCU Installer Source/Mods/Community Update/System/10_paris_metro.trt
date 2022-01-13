@@ -1,0 +1,133 @@
+[Cop1]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[Cop0]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[Cop2]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[Cop3]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[Cop5]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[SkillAwardTrigger2]
+awardMessage="Basari Bonusu"
+
+[Janitor0]
+FamiliarName="Leone"
+UnfamiliarName="Leone"
+
+[Maid0]
+FamiliarName="Otel Hizmetçisi"
+UnfamiliarName="Otel Hizmetçisi"
+
+[Butler0]
+FamiliarName="Gece Yöneticisi"
+UnfamiliarName="Gece Yöneticisi"
+
+[Chef1]
+FamiliarName="Kafe Sefi"
+UnfamiliarName="Kafe Sefi"
+
+[ThugMale0]
+FamiliarName="Adam"
+UnfamiliarName="Adam"
+
+[Cop4]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[Cat0]
+FamiliarName="Kedicik"
+UnfamiliarName="Kedicik"
+
+[ChildMale1]
+FamiliarName="Jon"
+UnfamiliarName="Jon"
+
+[Cop8]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[SkillAwardTrigger6]
+awardMessage="Kesif Bonusu"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Sanzelize Civari"
+startupMessage[0]="Paris Sikiyönetim Altinda"
+
+[Female6]
+FamiliarName="O"
+UnfamiliarName="Kadin"
+
+[Cop6]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[Female4]
+FamiliarName="Agathe"
+UnfamiliarName="Anne"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Askeri Devriye Botlari Deaktif",TriggerText="Askeri Botlar Devre Disi Birakildi",TriggerEvent=ComputerSpecialOption_shutdown)"
+specialOptions[1]="(Text="Askeri Devriye Botlari Aktif",TriggerText="Askeri Botlar Etkinlestirildi",TriggerEvent=ComputerSpecialOption_wakeup)"
+
+[BlackHelicopter0]
+FamiliarName="Siyah Helikopter"
+UnfamiliarName="Siyah Helikopter"
+
+[Bartender0]
+FamiliarName="Otel Barmeni"
+UnfamiliarName="Otel Barmeni"
+
+[SkillAwardTrigger0]
+awardMessage="Bölge Konum Bonusu"
+
+[Businessman0]
+FamiliarName="Renault"
+UnfamiliarName="Renault"
+
+[Mutt0]
+FamiliarName="Starr"
+UnfamiliarName="Starr"
+
+[SkillAwardTrigger4]
+awardMessage="123"
+
+[Male3]
+FamiliarName="Joshua"
+UnfamiliarName="Joshua"
+
+[NanoKey0]
+Description="Otel Anahtari"
+
+[Cop7]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[Female2]
+FamiliarName="Kristi"
+UnfamiliarName="Kafe Hostesi"
+
+[Businessman2]
+FamiliarName="Rene"
+UnfamiliarName="Adam"
+
+[SkillAwardTrigger3]
+awardMessage="Kesif Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+
+[Chef0]
+FamiliarName="Raymond"
+UnfamiliarName="Raymond"
+

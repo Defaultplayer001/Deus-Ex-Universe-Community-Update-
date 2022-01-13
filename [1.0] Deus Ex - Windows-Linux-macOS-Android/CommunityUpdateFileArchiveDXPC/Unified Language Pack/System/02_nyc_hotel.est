@@ -1,0 +1,26 @@
+[DeusExLevelInfo0]
+MissionLocation="NYC - Hotel 'Ton"
+
+[GilbertRenton0]
+UnfamiliarName="Recepcionista del hotel"
+
+[Male0]
+FamiliarName="Antiguo rehén varón"
+UnfamiliarName="Rehén varón"
+
+[Female0]
+FamiliarName="Antigua mujer rehén"
+UnfamiliarName="Mujer rehén"
+
+[SkillAwardTrigger0]
+awardMessage="Bono de exploración"
+
+[SkillAwardTrigger1]
+awardMessage="Bono por éxito"
+
+[LevelSummary]
+Title="Sin título"
+
+[NanoKey0]
+Description="Hotel 'Ton, llave de la habitación norte"
+

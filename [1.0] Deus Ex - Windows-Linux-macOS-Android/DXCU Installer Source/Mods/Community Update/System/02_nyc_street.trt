@@ -1,0 +1,76 @@
+[DeusExLevelInfo0]
+MissionLocation="New York - Cehennemin Mutfagi"
+startupMessage[0]="New York Sehri, Cehennemin Mutfagi"
+
+[LevelSummary]
+Title="Untitled"
+
+[SpecialEvent0]
+Message="Knicks için kontrat imzala!!!"
+
+[Button2]
+FamiliarName="Haberlesme Sistemi"
+UnfamiliarName="Haberlesme Sistemi"
+
+[SkillAwardTrigger2]
+awardMessage="Kesif Bonusu"
+
+[SkillAwardTrigger5]
+awardMessage="Kesif Bonusu"
+
+[SkillAwardTrigger3]
+awardMessage="Kesif Bonusu"
+
+[BumMale0]
+FamiliarName="Basibos"
+UnfamiliarName="Basibos"
+
+[SkillAwardTrigger4]
+awardMessage="Kesif Bonusu"
+
+[ThugMale4]
+FamiliarName="NSF Serseri"
+UnfamiliarName="NSF Serseri"
+
+[BumMale4]
+FamiliarName="Evsiz Adam"
+UnfamiliarName="Evsiz Adam"
+
+[BumMale1]
+FamiliarName="Mirildanan Berdus"
+
+[BumMale3]
+FamiliarName="Geçmis Rehine"
+UnfamiliarName="Geçmis Rehine"
+
+[SandraRenton0]
+UnfamiliarName="Sevimli Kiz"
+
+[BumFemale1]
+FamiliarName="Geçmis Rehine"
+UnfamiliarName="Geçmis Rehine"
+
+[ThugMale0]
+FamiliarName="Pezevenk"
+UnfamiliarName="Pezevenk"
+
+[RiotCop1]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[ThugMale3]
+FamiliarName="NSF Serseri"
+UnfamiliarName="NSF Serseri"
+
+[RiotCop0]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[Hooker0]
+FamiliarName="Sally"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=Apartment,Description="Apartman Anahtari")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Osgood ve Ogullari Ön Kapi Anahtari")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Osgood ve Ogullari Arka Kapi Anahtari")"
+

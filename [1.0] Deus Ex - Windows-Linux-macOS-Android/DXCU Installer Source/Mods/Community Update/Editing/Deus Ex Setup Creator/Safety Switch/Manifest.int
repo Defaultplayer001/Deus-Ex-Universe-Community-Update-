@@ -123,3 +123,8 @@ VersionURL=https://www.gog.com/game/deus_ex
 Developer=Ion Storm Austin
 DeveloperURL=https://www.gog.com/game/deus_ex
 
+[SteamInstall]
+Caption=Use with Steam
+Description=Replaces the DeusEx.exe in your Deus Ex root with a redirect to the one in subdir/System, so you can use it with Steam. To restore to Vanilla, simply delete it and rename "DeusEx 1112fm (Original EXE).exe" to "DeusEx.exe". Touches NOTHING else in your root! WILL break any mods relying on there being an actual DeusEx.exe in your root. Note: Does not work with overlay due to being a proxy.
+
+

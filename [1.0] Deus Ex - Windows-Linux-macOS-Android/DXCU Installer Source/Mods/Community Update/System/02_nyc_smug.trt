@@ -1,0 +1,12 @@
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo1]
+MissionLocation="New York - Kaçakçi'nin Yeri"
+
+[SkillAwardTrigger11]
+awardMessage="Bölge Konum Bonusu"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Smuggler,KeyID=SewerKey,Description="Kanalizasyon Rögar Kapaklari Anahtari")"
+

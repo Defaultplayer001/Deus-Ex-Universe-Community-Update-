@@ -1,0 +1,47 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MJ12Commando_keymaster,KeyID=catdoor,Description="Chiave dell'ingresso delle catacombe")"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Sicurezza ATM",cameraTag=atm_cam,turretTag=atm_turret02)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Sicurezza magazzino",cameraTag=warehousecam,turretTag=warehousecamturret)"
+Views[1]="(titleString="Porte sicurezza magazzino",cameraTag=warehousesecuritycam02,doorTag=ug_warehousedoors)"
+
+[DeusExLevelInfo1]
+MissionLocation="Paris - Denfert-Rochereau"
+startupMessage[0]="Denfert-Rochereau, Paris"
+startupMessage[1]="Zona abbandonata"
+
+[NanoKey1]
+Description="Codice del magazzino"
+
+[JunkieFemale0]
+FamiliarName="Aimee"
+UnfamiliarName="Donna impazzita"
+
+[NanoKey7]
+Description="Chiave dell'ufficio"
+
+[Male3]
+FamiliarName="Defoe"
+UnfamiliarName="Trafficante di armi"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus individuazione critica"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di progresso"
+
+[SkillAwardTrigger4]
+awardMessage="Bonus di esplorazione"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[ZoneInfo0]
+DamageString="Rilevato alto livello di radiazioni"
+

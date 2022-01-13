@@ -1,0 +1,15 @@
+[DeusExLevelInfo2]
+MissionLocation="New York - 747 Uçagi"
+
+[SkillAwardTrigger11]
+awardMessage="Hedef Basari Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="Kisisel Yatakhane"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=CommTerrorist,KeyID=LebedevBedroom,Description="Juan Ivanovich Lebedev")"
+

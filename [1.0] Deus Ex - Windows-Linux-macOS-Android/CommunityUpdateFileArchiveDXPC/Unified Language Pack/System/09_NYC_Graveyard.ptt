@@ -1,0 +1,28 @@
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Cemitério do Baixo Leste"
+startupMessage[0]="Cidade de Nova Iorque, Cemitério do Baixo Leste"
+
+[LevelSummary]
+Title="Sem título"
+
+[BlackHelicopter1]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[SkillAwardTrigger2]
+awardMessage="Bônus: êxito"
+
+[Switch0]
+FamiliarName="Botão de chamada"
+UnfamiliarName="Botão de chamada"
+
+[Janitor0]
+FamiliarName="Guarda do portão"
+UnfamiliarName="Guarda do portão"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: êxito"
+
+[SkillAwardTrigger1]
+awardMessage="Bônus: localização"
+

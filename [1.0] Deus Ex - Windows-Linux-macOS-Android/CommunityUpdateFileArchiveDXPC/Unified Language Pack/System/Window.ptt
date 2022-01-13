@@ -1,0 +1,64 @@
+[Errors]
+Critical=Erro crítico
+FailedConfigLoad=%s (falha ao carregar)
+
+[General]
+BrowseButton=...
+UseButton=Usar
+ClearButton=Apagar
+OkButton=Ok
+AddButton=Adicionar
+EmptyButton=Vazio
+InsertButton=Inserir
+DeleteButton=Apagar
+DefaultsButton=Redefinir para valores padrões
+BackButton=< &Voltar
+NextButton=&Próximo >
+FinishButton=&Concluir
+CancelButton=Cancelar
+InstallButton=&Instalar
+YesButton=&Sim
+NoButton=&Não
+AgreeButton=&Aceito
+LanguagePrompt=Idioma:
+LanguageWindow=Seleção de idioma
+LogWindow=%s Janela de registro
+PropNone=Nenhum item selecionado
+PropSingle=%s Propriedades
+PropMulti=%s Propriedades (%i selecionado)
+InsertCdText=Insira o CD de Deus Ex e pressione OK para continuar ou Cancelar para sair.
+InsertCdTitle=CD exigido na inicialização
+AdvancedOptionsTitle=Opções avançadas
+Low=Baixo
+High=Alto
+
+[FirstRun]
+Caption=Configuração inicial
+LowMemory=Deus Ex detectou que você possui %i megabytes de memória disponível. Para melhorar o desempenho, as opções "Detalhe baixo de texturas" e "Baixa qualidade de som" foram habilitadas. Você pode alterar essas configurações no menu "Opções de desempenho" do jogo.
+NonMMX=Deus Ex detectou que seu sistema não é compatível com a tecnologia MMX. A qualidade de som foi alterada para melhor desempenho da CPU. Você pode alterar essas opções no menu "Opções Avançadas / Audio".
+Starting=Deus Ex está iniciando com uma configuração nova. Se presenciar algum problema, por favor leia a seção Solução de problemas das Notas da Versão no menu "Iniciar".
+
+[IDDIALOG_Directory]
+IDC_Directory=Pasta de instalação
+IDC_ChoosePrompt=Selecione a pasta onde o jogo será instalado.
+IDC_PathTitle=&Caminho:
+IDC_DirectoryTitle=&Diretórios:
+IDC_DrivesTitle=&Unidades:
+IDC_NetworkButton=&Rede
+
+[IDDIALOG_Password]
+IDC_Password=Verificação da Senha
+IDC_Prompt=Insira seu nome e senha.
+IDC_Name=&Nome:
+IDC_Password=&Senha:
+
+[IDMENU_NotifyIcon]
+ID_NotifyIcon=Menu
+ID_NotifyShowLog=Console &ServidorUnreal
+ID_NotifyAdvancedOptions=&Opções Avançadas
+ID_NotifyExit=&Sair
+
+[IDMENU_Log]
+ID_LogFile=&Arquivo
+ID_LogAdvancedOptions=&Opções Avançadas
+ID_LogFileExit=&Sair

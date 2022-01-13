@@ -197,5 +197,12 @@ CommonStartupPath
 	The file system directory that contains the programs that appear in the Startup folder for all users.
 	A typical path is C:\Documents and Settings\All Users\Start Menu\Programs\Startup.
 	Valid only for Windows NT systems.
-
-
+UCC commands:
+ucc master 
+	Does minor processing, such as renaming and delta compression - however it's main purpose is disappointingly 			simply copying from a master archive to a working directory. (Vaguely like how I use the root dir as one, albeit 		it in a much different utility. I use mine for processing, theirs is mostly just a safe file dump.)
+	Use with a manifest with the following entries in it's [Setup] group:
+		SrcPath=..\Delta Compile
+		RefPath=..\Delta Reference
+	Then use as following:
+		File=(Src=Maps\12_Vandenberg_Computer.dx,Size=2803943)(Ref=Maps\12_Vandenberg_Computer.dx,Size=2803943)
+	Works better with LCC!

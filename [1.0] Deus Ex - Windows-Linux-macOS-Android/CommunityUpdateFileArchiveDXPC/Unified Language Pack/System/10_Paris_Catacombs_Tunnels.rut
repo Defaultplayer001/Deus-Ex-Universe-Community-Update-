@@ -1,0 +1,78 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Chad,KeyID=catacombs_blastdoor,Description="Ключ к бронированной двери")"
+
+[BumFemale0]
+FamiliarName="Член Силуэт"
+UnfamiliarName="Член Силуэт"
+
+[NanoKey0]
+Description="Ключ к бронированной двери"
+
+[SkillAwardTrigger6]
+awardMessage="Премия за продвижение"
+
+[JunkieMale0]
+FamiliarName="Жюво"
+UnfamiliarName="Член Силуэт"
+
+[LowerClassFemale0]
+FamiliarName="Анна"
+UnfamiliarName="Член Силуэт"
+
+[Hooker1]
+FamiliarName="Член Силуэт"
+UnfamiliarName="Член Силуэт"
+
+[DeusExLevelInfo5]
+MissionLocation="Париж - Катакомбы"
+startupMessage[0]="Les catacombes de Paris"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Вход в бункер",CameraTag=mj12catacam01,Turrettag=mj12cataturret01)"
+Views[1]="(titleString="Камера с пленными",CameraTag=mj12catacam02,Turrettag=mj12cataturret02)"
+
+[SkillAwardTrigger2]
+awardMessage="Премия за выполнение"
+
+[ChildMale0]
+FamiliarName="Пьер"
+
+[WIB0]
+FamiliarName="Агент Хела"
+
+[Chad0]
+UnfamiliarName="Лидер Силуэт"
+
+[ThugMale1]
+FamiliarName="Член Силуэт"
+UnfamiliarName="Член Силуэт"
+
+[BumMale0]
+FamiliarName="Член Силуэт"
+UnfamiliarName="Член Силуэт"
+
+[SkillAwardTrigger5]
+awardMessage="Премия за выполнение задания"
+
+[SkillAwardTrigger3]
+awardMessage="Премия за продвижение"
+
+[NanoKey1]
+Description="Ключ к канализации катакомб"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за выполнение задания"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за критическую локацию"
+
+[SkillAwardTrigger4]
+awardMessage="Премия за продвижение"
+
+[LevelSummary]
+Title="Untitled"
+
+[JunkieMale1]
+FamiliarName="Бродяга"
+UnfamiliarName="Бродяга"
+

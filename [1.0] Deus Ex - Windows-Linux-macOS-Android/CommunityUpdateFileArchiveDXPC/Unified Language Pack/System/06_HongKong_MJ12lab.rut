@@ -1,0 +1,189 @@
+[MJ12Troop3]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[ScientistFemale0]
+FamiliarName="Д-р Варгас"
+UnfamiliarName="Исследователь псионики"
+
+[ScientistFemale2]
+FamiliarName="Д-р Бейтс"
+UnfamiliarName="Ученая-кибернетик"
+
+[MJ12Troop12]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Лаб.иссл.аугментаций",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Главный компьютер",CameraTag=Camera2)"
+Views[2]="(titleString="Холл",CameraTag=Camera3,doorTag=trap_door)"
+
+[SkillAwardTrigger9]
+awardMessage="Премия за обнаружение"
+
+[NanoKey1]
+PickupMessage="Вы нашли ключ к магнитной камере аугментаций"
+Description="Ключ к магнитной камере аугментаций"
+
+[DeusExLevelInfo4]
+MissionLocation="Гонконг - Лаборатория MJ12"
+startupMessage[0]="Программа разработок Маджестик 12"
+startupMessage[1]="Исследовательский комплекс"
+startupMessage[2]="в странах Тихоокеанского бассейна"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Лаб.иссл.аугментаций",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Ядро главного компьютера",CameraTag=Camera2)"
+Views[2]="(titleString="Главный холл",CameraTag=Camera3,doorTag=trap_door)"
+
+[Doctor1]
+FamiliarName="Д-р Коль"
+
+[MJ12Troop15]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[MIB1]
+FamiliarName="Спец-охранник лаборатории"
+UnfamiliarName="Спец-охранник лаборатории"
+
+[ScientistMale1]
+FamiliarName="Д-р Донован"
+UnfamiliarName="Исследователь биотехнологий"
+
+[MJ12Troop2]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[MJ12Troop4]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[MJ12Troop0]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[MJ12Troop7]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[MJ12Troop6]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[MJ12Troop1]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[ScientistFemale1]
+FamiliarName="Д-р Ландквист"
+UnfamiliarName="Ученая-генетик"
+
+[Secretary3]
+FamiliarName="Ассистентка"
+UnfamiliarName="Ассистентка"
+
+[MJ12Troop8]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[SkillAwardTrigger10]
+awardMessage="Премия за выполнение"
+
+[SkillAwardTrigger11]
+awardMessage="Премия за выполнение"
+
+[Businessman2]
+FamiliarName="Смотритель Харрисон"
+UnfamiliarName="Смотритель лаборатории"
+
+[ScientistMale3]
+FamiliarName="Д-р Михалополис"
+UnfamiliarName="Исследователь нанотехнологий"
+
+[ScientistFemale3]
+FamiliarName="Д-р Кассвелл"
+UnfamiliarName="Разработчик биооружия"
+
+[MIB3]
+FamiliarName="Спец-охранник лаборатории"
+UnfamiliarName="Спец-охранник лаборатории"
+
+[MJ12Troop11]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[mib2]
+FamiliarName="Спец-охранник лаборатории"
+UnfamiliarName="Спец-охранник лаборатории"
+
+[MJ12Troop9]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[ScientistMale0]
+FamiliarName="Д-р Трелейн"
+UnfamiliarName="Исследователь физики"
+
+[WIB0]
+FamiliarName="Спец-охранник лаборатории"
+UnfamiliarName="Спец-охранник лаборатории"
+
+[WIB1]
+FamiliarName="Спец-охранник лаборатории"
+UnfamiliarName="Спец-охранник лаборатории"
+
+[Secretary2]
+FamiliarName="Ассистентка"
+UnfamiliarName="Ассистентка"
+
+[SkillAwardTrigger8]
+awardMessage="Премия за исследование"
+
+[Secretary1]
+FamiliarName="Ассистентка"
+UnfamiliarName="Ассистентка"
+
+[MJ12Troop13]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[MJ12Troop5]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[MJ12Troop10]
+FamiliarName="Охранник лаборатории"
+UnfamiliarName="Охранник лаборатории"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Лаб.иссл.аугментаций",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Главный компьютер",CameraTag=Camera2)"
+Views[2]="(titleString="Холл",CameraTag=Camera3,doorTag=trap_door)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Лаб.иссл.аугментаций",CameraTag=Camera1,doorTag=SubjectDoors1)"
+Views[1]="(titleString="Главный компьютер",CameraTag=Camera2)"
+Views[2]="(titleString="Холл",CameraTag=Camera3,doorTag=trap_door)"
+
+[ComputerPersonal1]
+specialOptions[0]="(Text="Отключить радиацию в магнитной камере",TriggerText="Генератор радиации отключен",UnTriggerEvent=AugmentationRadiation,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Открыть отсек 1",TriggerText="Отсек открыт",TriggerEvent=Pod01)"
+specialOptions[2]="(Text="Открыть отсек 2",TriggerText="Отсек открыт",TriggerEvent=Pod02)"
+specialOptions[3]="(Text="Открыть дверь магнитной камеры",TriggerText="Магнитная дверь открыта",TriggerEvent=Nano_Chamber_Door)"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Загрузить ROM лезвия с нанотехнологией",TriggerText="ROM меча загружен",TriggerEvent=TongHasRom,bTriggerOnceOnly=True)"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+PickupMessage="Вы нашли ключ к клеткам с подопытными"
+Description="Ключ к клеткам с подопытными"
+
+[MIB0]
+FamiliarName="Спец-охранник лаборатории"
+UnfamiliarName="Спец-охранник лаборатории"
+

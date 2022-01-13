@@ -1,0 +1,102 @@
+[SkillAwardTrigger6]
+awardMessage="Teljesítési bónusz"
+
+[SkillAwardTrigger2]
+awardMessage="Teljesítési bónusz"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Hátsó kapu",CameraTag=A_Sector2,doorTag=BackGate)"
+Views[1]="(titleString="Lõszerraktár",CameraTag=B_Sector2,doorTag=AmmoStorageDoor)"
+Views[2]="(titleString="Parancsnoki iroda",CameraTag=C_Sector2,doorTag=ArmoryDoor)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Fõ csatornarács",CameraTag=A_Sector3,doorTag=DrainGrate)"
+Views[1]="(titleString="A védelmi rendszer",CameraTag=B_Sector3,Turrettag=AutoTurret1)"
+Views[2]="(titleString="B védelmi rendszer",CameraTag=C_Sector3,Turrettag=AutoTurret2)"
+specialOptions[0]="(Text="Védelmi robotok: Készenléti mód",TriggerText="Védelmi robotok készenléti módban.",TriggerEvent=SBTrigger)"
+specialOptions[1]="(Text="Védelmi robotok: Alap védelmi mód",TriggerText="Robotok alap védelmi módban.",TriggerEvent=SDTrigger)"
+specialOptions[2]="(Text="Védelmi robotok: Nem-robotokat támad",TriggerText="Veszély! **Robotok teljes harci módban vannak **",TriggerEvent=AATrigger)"
+specialOptions[3]="(Text="Védelmi robotok: Mindent támad",TriggerText="VESZÉLY! Biztonsági korlátok feloldva",TriggerEvent=SCTrigger)"
+
+[SkillAwardTrigger1]
+awardMessage="Kritikus hely-megtalálási bónusz"
+
+[SkillAwardTrigger0]
+awardMessage="Teljesítési bónusz"
+
+[NanoKey0]
+Description="Lõszerraktár kulcsa"
+
+[SkillAwardTrigger8]
+awardMessage="Teljesítési bónusz"
+
+[SkillAwardTrigger9]
+awardMessage="Teljesítési bónusz"
+
+[SkillAwardTrigger10]
+awardMessage="Teljesítési bónusz"
+
+[DeusExLevelInfo0]
+MissionLocation="New York City - Brooklyni Hadikikötõ"
+startupMessage[0]="New York City, Brooklyn Hadikikötõ"
+startupMessage[1]="Tengeralattjáró Fegyvernem"
+
+[NanoKey4]
+Description="A pótkocsikat nyitja a parkolóban"
+
+[SkillAwardTrigger7]
+awardMessage="Helymegtalálási bónusz"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Raktárház, iroda",CameraTag=A_Sector1,doorTag=SecurityDoor)"
+Views[1]="(titleString="Raktárház, K",CameraTag=B_Sector1)"
+Views[2]="(titleString="Raktárház, DNY",CameraTag=C_Sector1)"
+
+[SkillAwardTrigger3]
+awardMessage="Teljesítési bónusz"
+
+[Mechanic0]
+FamiliarName="Dokkmunkás"
+UnfamiliarName="Dokkmunkás"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=FrontGuard,KeyID=MainGate,Description="Fõkapu kulcsa")"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Lõszerraktár, Bunkerek",CameraTag=A_Sector4)"
+Views[1]="(titleString="Védõruha-raktár",CameraTag=B_Sector3)"
+Views[2]="(titleString="Dokkmedence",CameraTag=C_Sector3)"
+specialOptions[0]="(Text="Raktár-robotok: Készenléti mód",TriggerText="Raktárbeli robotok készenléti módban.",TriggerEvent=SB2Trigger)"
+specialOptions[1]="(Text="Raktár-robotok: Alap védelmi mód",TriggerText="Robotok alap védelmi módban.",TriggerEvent=SD2Trigger)"
+specialOptions[2]="(Text="Raktár-robotok: Nem-robotokat támad",TriggerText="Veszély! **Robotok teljes harci módban vannak **",TriggerEvent=AA2Trigger)"
+specialOptions[3]="(Text="Raktár-robotok: Mindent támad",TriggerText="VESZÉLY! Biztonsági korlátok feloldva.",TriggerEvent=SC2Trigger)"
+
+[SkillAwardTrigger5]
+awardMessage="Helymegtalálási bónusz"
+
+[NanoKey3]
+Description="Fegyvertároló szekrény kulcsa"
+
+[SkillAwardTrigger11]
+awardMessage="Helymegtalálási bónusz"
+
+[NanoKey2]
+Description="Parancsnoki iroda kulcsa"
+
+[NanoKey1]
+Description="Raktárfülke kulcsa"
+
+[Mechanic1]
+FamiliarName="Dokkmunkás"
+UnfamiliarName="Dokkmunkás"
+
+[Mechanic2]
+FamiliarName="Másik dokkmunkás"
+UnfamiliarName="Másik dokkmunkás"
+
+[SkillAwardTrigger4]
+awardMessage="Teljesítési bónusz"
+

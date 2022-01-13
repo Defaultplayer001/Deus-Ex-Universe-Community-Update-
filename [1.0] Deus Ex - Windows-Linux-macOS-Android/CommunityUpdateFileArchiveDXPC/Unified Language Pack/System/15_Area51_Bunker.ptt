@@ -1,0 +1,50 @@
+[SkillAwardTrigger3]
+awardMessage="Bônus: exploração"
+
+[SkillAwardTrigger5]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger2]
+awardMessage="Bônus: exploração"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Portas blindadas",CameraTag=doors,doorTag=blast_door)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Túneis de manutenção",CameraTag=camera_pipe,Turrettag=turret_pipe)"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger1]
+awardMessage="Bônus: localização"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Entrada - Bunker",CameraTag=hall_camera,Turrettag=hall_turret)"
+
+[SkillAwardTrigger6]
+awardMessage="Bônus: progresso"
+
+[LevelSummary]
+Title="Sem título"
+
+[NanoKey0]
+Description="Chave da torre"
+
+[NanoKey1]
+Description="Chave do depósito"
+
+[DeusExLevelInfo0]
+MissionLocation="Área 51 - Bunker"
+startupMessage[0]="Área 51"
+startupMessage[1]="Rachel Nevada"
+
+[SkillAwardTrigger4]
+awardMessage="Bônus: êxito"
+
+[ComputerSecurity3]
+Views[0]="(CameraTag=shack_camera,Turrettag=shack_turret)"
+
+[Soldier0]
+FamiliarName="Xander"
+

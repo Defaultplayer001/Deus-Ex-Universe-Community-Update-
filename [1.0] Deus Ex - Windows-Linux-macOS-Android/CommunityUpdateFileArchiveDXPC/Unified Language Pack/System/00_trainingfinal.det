@@ -1,0 +1,15 @@
+[DeusExLevelInfo0]
+MissionLocation="UNATCO Ausbildungs-Parcours"
+
+[SpecialEvent0]
+Message="Stealth-Test"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[SecurityCamera4]
+FamiliarName="UN_Obst_Hangar"
+
+[SecurityCamera5]
+FamiliarName="UN_Obst_Hangar2"
+

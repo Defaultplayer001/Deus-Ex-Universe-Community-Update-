@@ -8,10 +8,13 @@ set DevName=YourName
 
 rem Leave empty if using the root / not using a subdir, also make sure to disable the del command for systemfileslist.txt at the top of Manifest Merge.bat
 By default setup for mods to be in a Mods\ directory,
+rem Use a period "." for a root install.
 set Subvalue=Mods\ModSubdirectory
 rem .exe not necessary and will actually mess things up, just put the name!
 set EXEvalue=EXEName
 set version=ModVersion
+rem For changing link urls, manually edit the manifest.int for now.
+
 
 
 
@@ -61,8 +64,20 @@ Rem Changes EXE name in the manifest
 Rem Changes version number
 "%~dp0\fart.exe" "%~dp0\System\Manifest.ini" "1300u" "%Version%"
 
-rem 7Zip files isolated to make cleanup easier
-"%~dp0\fart.exe" "%~dp0\Safety Switch\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%Fullvalue%" 
-"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%Fullvalue%" 
-"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "DeusExModFullName" "%Fullvalue%" 
+Rem Removes any question marks from the name string before writing files, since they aren't allowed filename characters.
+Rem Added specifically for Vanilla? Madders.
+set FullvalueSafe=%Fullvalue:?=%
+set FullvalueSafe=%FullvalueSafe:.=%
+
+Rem 7Zip files isolated to make cleanup easier
+"%~dp0\fart.exe" "%~dp0\Safety Switch\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%FullvalueSafe%" 
+"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "Deus Ex Mod" "%FullvalueSafe%"
+"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "VersionString" "%version%" 
+"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "DeusExModFullName" "%FullvalueSafe%" 
 "%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\*.*" "subdir" "%Subvalue%"
+"%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.bat" "DeusEx" "%EXEvalue%"
+
+Rem Steam Proxy customization
+"%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\7z.exe" a "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.7z" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.bat"
+
+"%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SystemFilesCreatorSteamProxy.bat"

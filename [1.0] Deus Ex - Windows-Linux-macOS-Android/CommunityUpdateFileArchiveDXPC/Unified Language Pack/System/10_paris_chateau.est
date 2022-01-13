@@ -1,0 +1,51 @@
+[DeusExLevelInfo0]
+MissionLocation="Paris - Chateau DuClare"
+startupMessage[0]="Chateau DuClare"
+startupMessage[1]="Afueras de París"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Transmitir señal de reunion",TriggerText="Señal en canal seguro enviado a MEverett ",TriggerEvent=everettsignal,bTriggerOnceOnly=True)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Contención Nanotech",cameraTag=DuClareSecurityCamera,doorTag=field002)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=NicoletteDuClare,KeyID=Crypt_door,Description="Llave de la Cripta")"
+
+[NanoKey0]
+Description="Llave del sótano de los DuClare"
+
+[SkillAwardTrigger3]
+awardMessage="Bono por avances"
+
+[SkillAwardTrigger0]
+awardMessage="Bono por localización trascendental"
+
+[SkillAwardTrigger2]
+awardMessage="Bono por localización trascendental"
+
+[NanoKey1]
+Description="Llave del dormitorio de Beth"
+
+[SkillAwardTrigger1]
+awardMessage="Bono por avances"
+
+[SkillAwardTrigger4]
+awardMessage="Bono por localización de zona"
+
+[NicoletteDuClare0]
+FamiliarName="Nicolette"
+UnfamiliarName="Nicolette"
+
+[LevelSummary]
+Title="Sin título"
+
+[NanoKey4]
+Description="Llave del dormitorio de Nicolette"
+
+[NanoKey3]
+Description="Llave del dormitorio de Beth"
+
+[NanoKey2]
+Description="Llave del dormitorio de Nicolette"
+

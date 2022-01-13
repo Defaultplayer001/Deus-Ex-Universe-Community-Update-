@@ -1,0 +1,128 @@
+[Errors]
+MissingProductTitle=%s bu klasörde %s olamaz
+MissingProductInstalled=yüklenmis
+MissingProductPatched=güncellenmis
+MissingProductThis=Bu güncelleme
+MissingProduct=%s ilk olarak klasörde yüklenmis olmasi için %s gerektirir. Lütfen %s için var olan klasörleri yerlestirin, ya da simdi çikin ve onu yükleyin.\n\nÜrün bilgisi için altindaki web linkine tiklayabilirsiniz.
+OldVersion=%s, %s sürüm %i veya üstü gerektirir, ama makinenizdeki sürüm daha eski (sürümünüz %i). Lütfen %s sürüm %i veya daha sonrasini yükleyin ve tekrar deneyin. Daha fazla bilgi için altindaki web linkine tiklayabilirsiniz.\n\nKurulum simdi sonlandirilacak.
+FolderTitle="%s" Klasörü
+FolderFormat=Girdiginiz "%s" klasörü geçerli degil.  Lütfen tekrar deneyin.
+AlreadyRunningTitle=Kullanimdayken Yüklenemez
+AlreadyRunning=Yükleme islemini devam ettirmek için, lütfen çalisan diger tüm kopyalari kapatin ve Tamam'a basin.  Çikmak için, Iptal'e basin.
+WrongCdTitle=Dosyalar CD-ROM'da Bulunamadi
+WrongCd=Mevcut %s sürümündeki %s dosyasi CD-ROM sürücüsünde bulunamadi.\n\nLütfen uygun CD'nin sürücüde oldugunu dogrulayin.
+MissingInstallerFile=Yükleyici dosyasi bulunamadi
+MissingReferenceFile=Referans dosyasi bulunamadi
+MissingSourceFile=Kaynak dosyasi bulunamadi
+FailedOpenSource=Kaynak dosyasini açma basarisiz oldu
+FailedOpenDest=Hedef dosyasini açma basarisiz oldu
+FailedReadingSource=Kaynak dosyasini okuma basarisiz oldu
+FailedWritingDest=Hedef dosyasini yazdirma basarisiz oldu
+FailedLoadingUpdate=Güncelleme dosyasini yükleme basarisiz oldu
+FailedReadingReference=Referans dosyasini okuma basarisiz oldu
+FailedClosingSource=Kaynak dosyasini kapatma basarisiz oldu
+FailedClosingDest=Hedef dosyayi kapatma basarisiz oldu
+FailedMakeDir=Hedef dosya için dizin olusturma basarisiz oldu
+AdviseBadMedia=Kaynak medya kötü olabilir.  Bir CD'den yüklüyorsaniz, CD'deki tüm kirleri temizleyin, CD sürücünüzü denetleyin ve tekrar deneyin.
+AdviseBadDownload=Indirdiginiz güncelleme dosyalari bozulmus olabilir.
+AdviseBadDest=Hedef sürücü dolu olabilir veya kötü sektörlere sahip olabilir.
+PatchCorrupt=%s yama dosyasi bozuk.\n\n%s
+CdFileMismatch=CD-ROM'daki %s dosyasi mevcut sürümde degil. Bu yüzden, %s yamalanamaz.
+DifferentVersion=Bu yama makinenizdeki %s sürümünden farkli bir dil kullaniyor (%s sürümüne sahipsiniz). Daha fazla bilgi için altindaki web linkine tiklayabilirsiniz.\n\nKurulum simdi sonlandirilacak.
+
+[General]
+Space=%i Megabayt
+Ready=Kurulum %s yüklemek için hazir.\nHedef klasör: %s\n\nYüklemeyi baslatmak için Yükle'ye tiklayin.\n%s yüklemeden çikmak için Iptal'e tiklayin.
+InstallCancel=Yüklemeyi Iptal Et
+CancelPrompt=Uyari!  Yüklemeyi simdi iptal etmek %s adli programi uygun biçimde islemesinden alikoyacak.  Iptal etmek istediginizden emin misiniz?
+DidCancel=Yüklemeyi iptal ettiniz.  Ürün basarili biçimde yüklenmemis ve düzgün biçimde çalismayacak.
+CdDescription=%s güncellemesini yüklemek için, bazi dosyalarin orijinal %s CD-ROM'unda kopyasi olmalidir.\n\nLütfen %s CD-ROM'u sürücünüze yerlestirin ve Ileri'ye tiklayin.  CD sürücünüzün harfi dogru biçimde gösterilmemisse, lütfen asagidakini girin.
+CdDrive=CD-ROM Sürücüsü
+NotEnoughSpaceTitle=Oraya Yüklenemez
+NotEnoughSpace=%s sürücüsünde %s yüklemeye yeterli alan yok.  Lütfen daha fazla alani olan bir sürücü seçin, veya çikip daha fazla alan açin ve tekrar deneyin.
+Finish=&Bitti
+RebootButton=&Yeniden Baslat
+ExitButton=&Çikis
+
+[IDDIALOG_FilerPageAutoPlay]
+IDC_Play=&Oyna
+IDC_Reinstall=&Yeniden Yükle
+IDC_Uninstall=&Kaldir
+IDC_ReleaseNotes=Sürüm &Notlari
+IDC_Web=Deus Ex &Web Sitesi
+IDC_Complete=Yükleme Basariyla Tamamlandi!
+IDC_CompleteReboot=Yükleme Basariyla Tamamlandi!\nOynamadan önce, bilgisayarinizi yeniden baslatmalisiniz.
+
+[IDDIALOG_FilerPageWelcome]
+IDC_WelcomePrompt=Bilgisayarinizda %s yüklemek üzeresiniz.\n\nKurulumu baslatmak için Ileri'ye, istenildigi zaman çikmak için Iptal'e tiklayin.\n\nKutucuk altindaki bilgi, daha fazla bilgi almak için üzerine tiklayabileceginiz web linklerini içerir.
+IDC_WelcomePromptUpdate=Bu program %s sürüm %s kopyanizi güncelleyecek.\n\nKurulumu baslatmak için Ileri'ye, istenildigi zaman çikmak için Iptal'e tiklayin.\n\nKutucuk altindaki bilgi, daha fazla bilgi almak için üzerine tiklayabileceginiz web linklerini içerir.
+IDC_LanguagePrompt=&Dil
+
+[IDDIALOG_FilerPageLicense]
+IDC_LicenseText=Lütfen asagidaki lisans sözlesmesini okuyun.  Bu programi yüklemek, lisanslama sartlarini kabul etmenizi gerektirir.
+IDC_LicenseQuestion=Yukaridaki lisanslama sartlarini kabul ediyor musunuz?  Kabul Et'e ya da Iptal'e tiklayin.
+
+[IDDIALOG_FilerPageComponents]
+IDC_ComponentsText=Yüklemek istediginiz ögeleri seçin.
+IDC_ComponentsPrompt=&Ögeler:
+IDC_DiskSpaceFrame=Disk Alani
+IDC_DescriptionFrame=Açiklama
+IDC_SpaceRequiredMessage=Gerekli:
+IDC_SpaceAvailableMessage=Mevcut:
+
+[IDDIALOG_FilerPageUninstallComponents]
+IDC_ComponentsText=Kaldirmak istediginiz ögeleri seçin.
+IDC_ComponentsPrompt=&Ögeler:
+IDC_DependenciesFrame=Bagimliliklar
+IDC_DependenciesText=Islem asagidaki ögeleri kaldiracak: %s
+
+[IDDIALOG_FilerPageFolder]
+IDC_FolderDescription=Kurulum asagidaki klasörde %s yükleyecek.\n\nBu klasöre yüklemek için, Ileri'ye tiklayin.\n\nFarkli bir klasöre yüklemek için, sürücü harfini içeren yeni bir klasör seçin, örnek: C:\\Yeni Klasör
+IDC_FolderDescriptionPatch=Kurulum asagidaki klasörde mevcut %s yüklemesini güncelleyecek.\n\nIlerlemek için, Ileri'ye tiklayin.\n\nYüklenmis bir kopyadan daha fazlasina sahipseniz, sürücü harfini içeren mevcut dosyayi seçin, örnek: C:\\Birkaç Klasör
+IDC_FolderDescriptionMissing=Kurulum mevcut %s yüklemesini güncelleyecek.\n\nSürücü harfini içeren mevcut dosyayi seçin, örnek: C:\\Birkaç Klasör
+IDC_FolderHolder=Hedef Klasör
+IDC_Browse=&Gözat
+IDC_Default=&Sifirla
+IDC_SpaceAvailableMessage=Sürücüdeki Mevcut Alan:
+IDC_FullSpaceRequiredMessage=Varsayilan Yükleme Için Gerekli Alan:
+
+[IDDIALOG_FilerPageInstallProgress]
+IDC_InstallText=Dosyalar Yükleniyor...
+IDC_InstallingText=Yükleniyor:
+IDC_ProgressText=Dosya Ilerlemesi:
+IDC_TotalText=Toplam Ilerleme:
+Uncompressing=Sistem veri dosyalari çikartiliyor...
+UncompressingTextures=Yapi veri dosyalari çikartiliyor...
+
+[IDDIALOG_FilerPageUninstallProgress]
+IDC_InstallText=Dosyalar Kaldiriliyor...
+IDC_InstallingText=Isleniyor:
+IDC_ProgressText=Dosya Ilerlemesi:
+IDC_TotalText=Toplam Ilerleme:
+
+[IDDIALOG_Restart]
+IDC_Restart=Yükleme Tamamlandi
+IDC_RestartMessage=Yüklemeyi tamamlamak için Windows'u yeniden baslatmalisiniz.
+IDC_RestartText=Yeniden baslatmanizdan önce, tüm açik uygulamalari kapatin ve kaydedilmemis tüm dosyalari kaydedin. Daha önce bir disk sürücüsüne yerlestirilmis tüm floppy diskleri çikartin. Sonra, Windows'u Yeniden Baslat dügmesine tiklayin.
+IDC_Complete=Windows'u yeniden baslattiktan sonra, Kurulum tamamlanmis olacak.
+IDC_Restart=Windows'u &Yeniden Baslat 
+IDC_Exit=Kurulumdan &Çik
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Deus Ex Kurulumu
+
+[IDDIALOG_FailedRequirement]
+IDC_FailedRequirement=Bu ürün buraya yüklenemez
+IDC_FailedMessage=Bu ürün ilk olarak bu klasörde yüklenmis olmasi için asagidaki ürünü gerektirir. Lütfen mevcut klasörü yerlestirin, ya da simdi çikip onu yükleyin.\n\nDaha fazla bilgi için asagidaki web linklerine tiklayabilirsiniz.
+IDC_ProductHolder=Ürün Gerektirir
+
+[IDDIALOG_ProductInfo]
+IDC_ProductHolder=Ürün
+IDC_ProductText=Ürün:
+IDC_VersionText=Sürüm:
+IDC_DeveloperText=Gelistirici:
+
+[IDDIALOG_FilerPageUninstall]
+IDC_UninstallPrompt=Bu, asagidaki ögeleri kaldiracak:
+IDC_UninstallQuestion=Bu ögeleri kaldirmak istediginizden emin misiniz?
+

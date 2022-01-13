@@ -1,0 +1,182 @@
+[TriadRedArrow3]
+FamiliarName="Red Arrow Üyesi"
+UnfamiliarName="Red Arrow Üyesi"
+
+[Hooker4]
+FamiliarName="Mercedes"
+UnfamiliarName="Kulüp Kizi"
+
+[ThugMale5]
+FamiliarName="Vince"
+UnfamiliarName="Agir Içici"
+
+[Hooker2]
+FamiliarName="Dans Eden Kiz"
+UnfamiliarName="Dans Eden Kiz"
+
+[TriadRedArrow4]
+FamiliarName="Red Arrow Üyesi"
+UnfamiliarName="Red Arrow Üyesi"
+
+[LowerClassMale1]
+FamiliarName="Serseri"
+UnfamiliarName="Serseri"
+
+[Sailor0]
+FamiliarName="Boris"
+UnfamiliarName="Rus Denizci"
+
+[TriadRedArrow6]
+FamiliarName="Chen'in Korumasi"
+UnfamiliarName="Chen'in Korumasi"
+
+[HKMilitary0]
+FamiliarName="Eddie Way"
+UnfamiliarName="Çinli Askeri Inzibat"
+
+[Female2]
+FamiliarName="Bar Kusu"
+UnfamiliarName="Bar Kusu"
+
+[Businessman3]
+FamiliarName="VersaLife Çalisani"
+
+[TriadRedArrow8]
+FamiliarName="Triad Koruma"
+UnfamiliarName="Triad Koruma"
+
+[Sailor1]
+FamiliarName="Vladimir"
+UnfamiliarName="Rus Denizci"
+
+[TriadRedArrow2]
+FamiliarName="Red Arrow Üyesi"
+UnfamiliarName="Red Arrow Üyesi"
+
+[TriadRedArrow1]
+FamiliarName="Red Arrow Üyesi"
+UnfamiliarName="Red Arrow Üyesi"
+
+[HKMilitary2]
+FamiliarName="Eddie Way"
+UnfamiliarName="Çinli Askeri Inzibat"
+
+[HKMilitary1]
+FamiliarName="Eddie Way"
+UnfamiliarName="Çinli Askeri Inzibat"
+
+[Businessman1]
+FamiliarName="Bay Sing"
+UnfamiliarName="Resmi Takim Elbiseli Adam"
+
+[Female4]
+FamiliarName="Parti Kizi"
+UnfamiliarName="Parti Kizi"
+
+[JunkieFemale0]
+FamiliarName="Sersemlemis Kiz"
+UnfamiliarName="Sersemlemis Kiz"
+
+[TriadRedArrow7]
+FamiliarName="Triad Koruma"
+UnfamiliarName="Triad Koruma"
+
+[Female7]
+FamiliarName="Mamasan"
+UnfamiliarName="Mamasan"
+
+[Female6]
+FamiliarName="Parti Kizi"
+UnfamiliarName="Parti Kizi"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Kasa Dairesini Aç",TriggerText="Kasa Dairesi Açildi",TriggerEvent=Safe_door)"
+
+[Bartender0]
+FamiliarName="Isaac"
+
+[Female5]
+FamiliarName="Parti Kizi"
+UnfamiliarName="Parti Kizi"
+
+[Sailor2]
+FamiliarName="Dimitri"
+UnfamiliarName="Rus Denizci"
+
+[TriadRedArrow5]
+FamiliarName="Chen'in Korumasi"
+UnfamiliarName="Chen'in Korumasi"
+
+[SkillAwardTrigger3]
+awardMessage="Kesif Bonusu"
+
+[Female1]
+FamiliarName="Kapici Kiz"
+UnfamiliarName="Kapici Kiz"
+
+[Sailor3]
+FamiliarName="Ivan"
+UnfamiliarName="Rus Denizci"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Kulüp Monitörü",CameraTag=ClubCam1)"
+Views[1]="(titleString="Ön Tezgah ve Kasa",CameraTag=ClubCam2,doorTag=Strongbox)"
+Views[2]="(titleString="Hizmet Asansörü",CameraTag=ClubCam3)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Quick Stop Güvenlik",CameraTag=SecurityCamera)"
+Views[1]="(titleString="Quick Stop Güvenlik",CameraTag=SecurityCamera1,doorTag=StoreDoor)"
+
+[Hooker0]
+FamiliarName="Carole"
+UnfamiliarName="Çekingen Kadin"
+
+[SkillAwardTrigger12]
+awardMessage="Ilerleme Bonusu"
+
+[LowerClassFemale1]
+FamiliarName="Tessa"
+UnfamiliarName="Parti Kizi"
+
+[LowerClassMale0]
+FamiliarName="Lawrence"
+UnfamiliarName="Kaybeden"
+
+[Businesswoman0]
+UnfamiliarName="VersaLife Çalisani"
+
+[Secretary0]
+FamiliarName="Lisa"
+UnfamiliarName="Cazibeli Kadin"
+
+[SkillAwardTrigger13]
+awardMessage="Karakter Etkilesim Bonusu"
+
+[TriadRedArrow0]
+FamiliarName="Red Arrow Üyesi"
+UnfamiliarName="Red Arrow Üyesi"
+
+[LevelSummary]
+Title="Untitled"
+
+[Female10]
+FamiliarName="Maymay"
+UnfamiliarName="Genç Eskort"
+
+[SarahMead0]
+FamiliarName="Ling"
+UnfamiliarName="Genç Eskort"
+
+[Female3]
+FamiliarName="Parti Kizi"
+UnfamiliarName="Parti Kizi"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Lucky Money Kulübü"
+startupMessage[0]="Wan Chai Yeralti Alisveris Merkezi"
+startupMessage[1]="Lucky Money Kulübü'nün Evi"
+
+[HKMilitary3]
+FamiliarName="Eddie Way"
+UnfamiliarName="Çinli Askeri Inzibat"
+

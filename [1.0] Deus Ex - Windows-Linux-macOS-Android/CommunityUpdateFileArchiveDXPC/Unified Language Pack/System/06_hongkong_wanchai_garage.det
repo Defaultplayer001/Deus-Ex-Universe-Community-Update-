@@ -1,0 +1,72 @@
+[TriadLumPath0]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[TriadLumPath5]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[SkillAwardTrigger0]
+awardMessage="Entdeckungsbonus"
+
+[HKMilitary5]
+FamiliarName="Chinesischer Militärpolizist"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[HKMilitary3]
+FamiliarName="Chinesischer Militärpolizist"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Canal Road"
+startupMessage[0]="Tunnel bei der Canal Road"
+startupMessage[1]="WanChai Terminal"
+
+[TriadRedArrow3]
+FamiliarName="Mitglied der Red Arrow"
+UnfamiliarName="Mitglied der Red Arrow"
+
+[TriadLumPath2]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[HKMilitary7]
+FamiliarName="Chinesischer Militärpolizist"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[HKMilitary8]
+FamiliarName="Chinesischer Militärpolizistce"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[TriadLumPath4]
+FamiliarName="Mitglied des Luminous Path"
+UnfamiliarName="Mitglied des Luminous Path"
+
+[HKMilitary1]
+FamiliarName="Chinesischer Militärpolizist"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[HKMilitary2]
+FamiliarName="Chinesischer Militärpolizist"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[HKMilitary4]
+FamiliarName="Chinesischer Militärpolizist"
+UnfamiliarName="Chinesischer Militärpolizist"
+
+[TriadRedArrow2]
+FamiliarName="Mitglied der Red-Arrow-Triade"
+UnfamiliarName="Mitglied der Red-Arrow-Triade"
+
+[TriadRedArrow1]
+FamiliarName="Mitglied der Red-Arrow-Triade"
+UnfamiliarName="Mitglied der Red-Arrow-Triade"
+
+[TriadRedArrow0]
+FamiliarName="Mitglied der Red-Arrow-Triade"
+UnfamiliarName="Mitglied der Red-Arrow-Triade"
+
+

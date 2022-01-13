@@ -1,0 +1,32 @@
+[GarySavage0]
+UnfamiliarName="Ученый"
+
+[NanoKey0]
+Description="Ключ к компьютерной на 3-ем этаже"
+
+[LevelSummary]
+Title="Untitled"
+
+[ScientistMale1]
+FamiliarName="Бен Ропер"
+UnfamiliarName="Исследователь"
+
+[ComputerPersonal1]
+specialOptions[0]="(Text="Подключиться к военной сети",TriggerText="Связь установлена",TriggerEvent=Daedalus_linked,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Ванденберг - Компьютер"
+
+[SkillAwardTrigger15]
+awardMessage="Премия за продвижение"
+
+[FlagTrigger0]
+Message="this is working damnit!"
+
+[ScientistFemale1]
+FamiliarName="Латаша Тейлор"
+UnfamiliarName="Исследователь"
+
+[Trigger1]
+Message="test"
+

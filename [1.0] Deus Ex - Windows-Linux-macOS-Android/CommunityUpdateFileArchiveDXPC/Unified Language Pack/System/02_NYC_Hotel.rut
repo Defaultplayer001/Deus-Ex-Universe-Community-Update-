@@ -1,0 +1,26 @@
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="Ключ к северной комнате отеля 'Ton"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Отель 'Ton"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за исследование"
+
+[GilbertRenton0]
+UnfamiliarName="Портье отеля"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за выполнение"
+
+[Female0]
+FamiliarName="Бывшая заложница"
+UnfamiliarName="Заложница"
+
+[Male0]
+FamiliarName="Бывший заложник"
+UnfamiliarName="Заложник"
+

@@ -1,0 +1,50 @@
+[ComputerSecurity3]
+Views[0]="(cameraTag=shack_camera,turretTag=shack_turret)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Ingresso bunker",cameraTag=hall_camera,turretTag=hall_turret)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Tunnel di manutenzione",cameraTag=camera_pipe,turretTag=turret_pipe)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Porte di sicurezza",cameraTag=doors,doorTag=blast_door)"
+
+[DeusExLevelInfo0]
+MissionLocation="Area 51 - Bunker"
+startupMessage[0]="Area 51"
+startupMessage[1]="Rachel, Nevada"
+
+[Soldier0]
+FamiliarName="Xander"
+
+[SkillAwardTrigger4]
+awardMessage="Bonus di successo"
+
+[NanoKey1]
+Description="Chiave del deposito"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di esplorazione"
+
+[SkillAwardTrigger5]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger6]
+awardMessage="Bonus di progresso"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di esplorazione"
+
+[NanoKey0]
+Description="Chiave della torre"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di individuazione"
+
+[LevelSummary]
+Title="Senza titolo"
+

@@ -1,0 +1,27 @@
+[SkillAwardTrigger2]
+awardMessage="Bônus: realização"
+
+[JunkieFemale0]
+FamiliarName="Mulher enferma"
+UnfamiliarName="Mulher enferma"
+
+[JunkieMale2]
+FamiliarName="Homem enfermo"
+UnfamiliarName="Homem enfermo"
+
+[ChildMale0]
+FamiliarName="Billy"
+UnfamiliarName="Garoto"
+
+[LevelSummary]
+Title="Sem título"
+
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Battery Park"
+startupMessage[0]="Cidade de Nova Iorque,"
+startupMessage[1]="Battery Park"
+
+[BlackHelicopter0]
+FamiliarName="Jock no helicóptero"
+UnfamiliarName="Jock no helicóptero"
+

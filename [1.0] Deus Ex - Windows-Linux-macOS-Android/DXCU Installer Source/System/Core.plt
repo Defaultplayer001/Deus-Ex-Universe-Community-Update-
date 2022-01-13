@@ -1,6 +1,6 @@
 [Language]
 Language=Polskie
-LangId=21
+LangId=21b
 SubLangId=1
 
 [Public]

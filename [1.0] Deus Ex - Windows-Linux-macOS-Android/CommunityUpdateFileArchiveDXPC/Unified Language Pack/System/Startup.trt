@@ -1,0 +1,73 @@
+[General]
+Run=Çalistir!
+FirstTime=Deus Ex Ilk Konfigürasyon
+SafeMode=Deus Ex Güven Modu
+Video=Deus Ex Video Konfigürasyonu
+RecoveryMode=Deus Ex Kurtarma Modu
+WebPage=http://www.deusex.com/
+Direct3DWebPage=http://www.deusex.com/Direct3D.htm
+Detecting=3D video aygitlari bulunuyor, lutfen bekleyin...
+SoundLow=Düsük ses kalitesi
+SoundHigh=Yüksek ses kalitesi
+SkinsLow=Orta detayli oyuncu deriler
+SkinsHigh=Yüksek detayli oyuncu deriler
+WorldLow=Oyuncu detayli dünya dokulari
+WorldHigh="Yüksek detayli dokular"
+ResLow=Düsük video çözünürlügü
+ResHigh=Standart video çözünürlügü
+
+[Descriptions]
+SoftDrv.SoftwareRenderDevice=Deus Ex'in tümlesik yazilim renderleyicisi.  Tüm video kartlariyla uyumludur.  Önerilmez - göze aliyorsaniz kullanin.
+GlideDrv.GlideRenderDevice=3dfx Glide destegi, 3dfx sahipleri için optimal seçim.  3dfx karti gerektirir.
+D3DDrv.D3DRenderDevice=Direct3D donanim renderleme kullanin. Riva TNT, ATI Rage 128, Matrox G400 ve S3 Savage4 gibi daha yeni video kartlariyla uyumludur.  Daha eski video kartlariyla kullanilmasi önerilmez--ATI Rage Pro, Riva 128, Intel i740 veya Rendition V2200 kartina sahipseniz Yazilim Renderleyici kullanin.
+OpenGLDrv.OpenGLRenderDevice=Deneysel OpenGL destegi. Bu, test ve deneysellik için saglandi, ama bazi sürücülerle bilinen uyumluluk sorunlari vardir.  Göze aliyorsaniz kullanin.
+MetalDrv.MetalRenderDevice=S3 Savage4 video kartlari olan kullanicilar için.
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=
+IDC_DetailPrompt=Bilgisayarinizin hizi, hafizasi ve video karti baz alinarak, Deus Ex performansi optimize etmek amaciyla asagidaki detay seçeneklerini seçmistir.
+IDC_DetailNote=Arzu ediyorsaniz, daha sonra oyunun "Tercihler" penceresinden bu seçenekleri degistirebilirsiniz.
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=
+IDC_Prompt=Deus Ex ilk sefer için baslatiliyor.  Herhangi bir sorunu deneyimlediyseniz, lütfen Windows "Baslat" menüsünün "Programlar / Deus Ex" bölümündeki sürüm notlarini okuyun.
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Bilgisayariniz asagidaki 3D video aygitlarini destekliyor.  Deus Ex uygun birini seçmistir.  Bunu degistirmeyi arzuluyorsaniz, altindaki bir seçenegi tiklayin.
+IDC_RenderNote=
+IDC_Compatible=Sertifikali, uyumlu aygitlari göster
+IDC_All=Tum aygitlari göster
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=
+IDC_SafeModePrompt=Geçen sefer Deus Ex çalisti, fakat düzgün biçimde kapatilmadi.  Kapatmaya bir sorunun neden oldugu ihtimaline karsi, kurtarma için altindaki seçenekleri kullanabilirsiniz.
+IDC_SafeModePrompt2=Deus Ex güven modu seçenekleri: Sorunlar deneyimlediyseniz, kurtarma için altindaki seçenekleri kullanabilirsiniz.
+IDC_Run=Deus Ex'i çalistir
+IDC_Video=3D video aygitinizi degistirin
+IDC_SafeMode=Deus Ex'i güven modunda çalistir - sorun giderme için
+IDC_Web=Sorun giderme ipuçlari için web sitemizi ziyaret edin 
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=
+IDC_SafeOptions=Sorunlari teshis etmek için güven modu seçenekleri
+IDC_NoSound=Tüm sesleri devre disi birak
+IDC_No3DSound=3D ses donanimini devre disi birak
+IDC_No3DVideo=3D video donanimini devre disi birak
+IDC_Window=Oyunu (tam ekranin yerine) pencerede çalistir
+IDC_Res=Standart 640x480 çözünürlügünde çalistir
+IDC_ResetConfig=Varsayilanlar için tüm konfigürasyon seçeneklerini sifirla
+IDC_NoProcessor=Pentium III/3DNow islemci uzantilari devre disi
+IDC_NoJoy=Oyun kumandasi destegi devre disi
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=
+IDC_DriverText=Deus Ex asagidaki Direct3D uyumlu video kartini tespit etti:
+IDC_DriverInfo=Direct3D'i seçmis oldugunuzdan dolayi, Deus Ex Direct3D destegi için bu video kartinin sürücüsünü kullanmayi deneyecek.\n\nBununla birlikte, bazi 3D kart sürücüleri Deus Ex'in modern 3D özellikleriyle güvenilir biçimde çalismasi amaciyla güncellenmis olmalidir.  Video kartinizin uyumlulugu ve en son Direct3D sürücülerini almak hakkinda daha fazla bilgi için asagidaki web linkini öneririz.\n\nDogru olmayan renkler, parlayan poligonlar, düsük performans veya bozulmalar gibi herhangi bir grafiksel sorunu deneyimlediyseniz, lütfen video sürücüsünü degistirmak için Baslat / Programlar'da "Deus Ex Güven Modu" linkini kullanin.
+IDC_Web=En son sürücülerin linkleri için, web sayfamizi ziyaret edin:
+IDC_WebButton=Direct3D Bilgi && Sürücüler Sayfasi
+IDC_Card=Bilinmeyen
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Deus Ex Kurulumu
+

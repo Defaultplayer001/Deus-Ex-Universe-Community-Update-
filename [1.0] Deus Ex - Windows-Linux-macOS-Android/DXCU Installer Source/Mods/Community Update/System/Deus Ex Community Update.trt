@@ -1,0 +1,3257 @@
+[General]
+Start=Deus Ex (Baslatiliyor)
+Exit=Deus Ex (Cikiliyor)
+Run=Deus Ex (Calistiriliyor)
+Product=Deus Ex
+
+[Progress]
+Loading=Yukleniyor
+Saving=Kaydediliyor
+
+[ScriptedPawn]
+FamiliarName="DEFAULT FAMILIAR NAME - REPORT THIS AS A BUG"
+UnfamiliarName="DEFAULT UNFAMILIAR NAME - REPORT THIS AS A BUG"
+
+[DeusExPlayer]
+InventoryFull="%s almak için envanterinde yeterince yer yok"
+TooMuchAmmo="Sende o tipte yeterince cephane var"
+TooHeavyToLift="Kaldirmak için çok agir"
+CannotLift="Onu tasiyamazsin"
+NoRoomToLift="Onu tasimak için hiç yer yok"
+CanCarryOnlyOne="Yalnizca bir %s tasiyabilirsin"
+CannotDropHere="Onu buraya birakamazsin"
+HandsFull="Ellerin dolu"
+NoteAdded="Not Alindi - Detaylar Için VeriKasa'ya Bak"
+GoalAdded="Hedef Alindi - Detaylar Için VeriKasa'ya Bak"
+PrimaryGoalCompleted="Birincil Görev Tamamlandi"
+SecondaryGoalCompleted="Ikincil Görev Tamamlandi"
+EnergyDepleted="Biyoelektrik enerji rezervi tükendi"
+AddedNanoKey="%s NanoAnahtarlik'a eklendi"
+HealedPointsLabel="%d puan iyilestin"
+HealedPointLabel="%d puan iyilestin"
+SkillPointsAward="%d beceri puani ödüllendirildi"
+QuickSaveGameTitle="Çabuk Kaydet"
+FamiliarName="JC Denton"
+UnfamiliarName="JC Denton"
+WeaponUnCloak="Silah çekilmis... Gizlenemiyor"
+TakenOverString="Ele geçirdin, "
+HeadString="Kafa"
+TorsoString="Gövde"
+LegsString="Bacaklar"
+WithTheString=" ile "
+WithString=" ile "
+PoisonString=" ölümcül zehirle"
+BurnString=" asiri yanmayla"
+NoneString="Hiç"
+
+[DeusExDecoration]
+ItemName="DEFAULT DECORATION NAME - REPORT THIS AS A BUG"
+ItemArticle="bir"
+
+[SkillManager]
+NoToolMessage="Sana %s gerekli"
+NoSkillMessage="%s beceri düzeyi %s kullanmak için yetersiz"
+SuccessMessage="Basari!"
+YourSkillLevelAt="%s beceri düzeyin su an %d"
+
+[Skill]
+skillLevelStrings[0]="ACEMI"
+skillLevelStrings[1]="DENEYIMLI"
+skillLevelStrings[2]="GELISMIS"
+skillLevelStrings[3]="USTA"
+SkillAtMaximum="Beceri Maksimum Düzeyde"
+
+[AugmentationManager]
+AugLocationFull="O konuma daha çok artirici ekleyemezsin!"
+NoAugInSlot="O slotta hiç artirici yok"
+
+[Augmentation]
+EnergyRateLabel="Enerji Orani: %d Ünite/Dk"
+OccupiesSlotLabel="Dolan Slot: %s"
+AugLocsText[0]="Kafatasi"
+AugLocsText[1]="Gözler"
+AugLocsText[2]="Gövde"
+AugLocsText[3]="Kollar"
+AugLocsText[4]="Bacaklar"
+AugLocsText[5]="Derialti"
+AugLocsText[6]="Varsayilan"
+AugActivated="%s etkin"
+AugDeactivated="%s devre disi"
+AugAlreadyHave="%s zaten maksimum düzeyde"
+AugNowHave="%s düzey %d olarak yükseltildi"
+AugNowHaveAtLevel="%s artirici düzey %d durumunda"
+AlwaysActiveLabel="[Daima Aktif]"
+CanUpgradeLabel="(Yükseltilebilir)"
+CurrentLevelLabel="Simdiki Düzey: %d"
+MaximumLabel="(Maksimum)"
+MPInfo="DEFAULT AUG MP INFO - REPORT THIS AS A BUG"
+
+[DeusExRootWindow]
+QuickLoadTitle="Çabuk Yükle?"
+QuickLoadMessage="Simdiki oyun ilerlemeni kaybedeceksin, Çabuk Yüklemeyi istediginden emin misin?"
+
+[DeusExWeapon]
+msgCannotBeReloaded="Bu silah tekrar doldurulamaz"
+msgOutOf="%s bitti"
+msgNowHas="%s simdi %s yüklendi"
+msgAlreadyHas="%s zaten %s yüklendi"
+msgNone="HIÇ"
+msgLockInvalid="GEÇERSIZ"
+msgLockRange="ÇEVRILDI"
+msgLockAcquire="ALINDI"
+msgLockLocked="KILITLI"
+msgRangeUnit="FT"
+msgTimeUnit="SN"
+msgMassUnit="LBS"
+msgNotWorking="Bu silah sualtinda çalismaz"
+msgInfoAmmoLoaded="Cep. doldurma:"
+msgInfoAmmo="Cep. tip(ler)i:"
+msgInfoDamage="Temel hasar:"
+msgInfoClip="Sarjör boyutu:"
+msgInfoROF="Atesleme orani:"
+msgInfoReload="Yeniden doldurma:"
+msgInfoRecoil="Geri tepme:"
+msgInfoAccuracy="Temel dogruluk:"
+msgInfoAccRange="Dog. alani:"
+msgInfoMaxRange="Maks. alan:"
+msgInfoMass="Hacim:"
+msgInfoLaser="Lazer görüsü:"
+msgInfoScope="Dürbün:"
+msgInfoSilencer="Susturucu:"
+msgInfoNA="M/D"
+msgInfoYes="EVET"
+msgInfoNo="HAYIR"
+msgInfoAuto="OTO"
+msgInfoSingle="TEK"
+msgInfoRounds="MRM"
+msgInfoRoundsPerSec="MRM/SN"
+msgInfoSkill="Beceri:"
+msgInfoWeaponStats="Silah Istatistikleri:"
+PickupMessage="Buldun"
+ItemName="DEFAULT WEAPON NAME - REPORT THIS AS A BUG"
+
+[DeusExCarcass]
+msgSearching="Buldun:"
+msgEmpty="Bir sey bulamadin"
+msgNotDead="Baygin"
+msgAnimalCarcass="Hayvan Ölüsü"
+msgCannotPickup="%s alamazsin"
+ItemName="Ölü Vücut"
+msgRecharged="%d puan sarj edildi"
+
+[DeusExMover]
+msgKeyLocked="NanoAnahtarlik'in onu kilitledi"
+msgKeyUnlocked="NanoAnahtarlik'in onun kilidini açti"
+msgLockpickSuccess="Kilidi açtin"
+msgOneWayFail="Bu taraftan açilmaz"
+msgLocked="Kilitli"
+msgPicking="Kilit açiliyor..."
+msgAlreadyUnlocked="Zaten kilidi açik"
+msgNoNanoKey="NanoAnahtarlik'in dogru koda sahip degil"
+
+[DeusExPickup]
+CountLabel="ADET:"
+msgTooMany="Onlardan daha fazla tasiyamazsin"
+PickupMessage="Buldun"
+ItemName="DEFAULT PICKUP NAME - REPORT THIS AS A BUG"
+
+[MenuUIChoice]
+actionText="Choice"
+FalseTrue[0]="False"
+FalseTrue[1]="True"
+
+[DataVaultImage]
+PickupMessage="Resim VeriKasa'ya eklendi"
+beltDescription="RESIM"
+
+[PersonaInventoryItemButton]
+CountLabel="Adet: %d"
+RoundLabel="%d Mrm"
+RoundsLabel="%d Mrm"
+
+[Computers]
+msgLockedOut="Terminal %d saniye daha girilmez"
+NodeInfo[0]="(nodeName="UNATCO",nodeAddress="UN//UNATCO//RESTRICTED//923.128.6430",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoUNATCO')"
+NodeInfo[1]="(nodeName="VersaLife",nodeDesc="VersaLife",nodeAddress="VERSALIFECORP//GLOBAL//3939.39.8",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoVersaLife')"
+NodeInfo[2]="(nodeName="Queens Tower",nodeDesc="Queens Tower Lüks Odalar",nodeAddress="QT_UTIL//LOCAL//673.9845.09531",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoQueensTower')"
+NodeInfo[3]="(nodeName="USN",nodeDesc="Birlesik Devletler Donanmasi",nodeAddress="USGOV//MIL//USN//GLOBAL//0001",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoUSNavy')"
+NodeInfo[4]="(nodeName="MJ12Net",nodeDesc="Majestic 12 Agi",nodeAddress="MAJESTIC//GLOBAL//12.12.12",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoMJ12')"
+NodeInfo[5]="(nodeName="Page Endüstrileri",nodeDesc="Page Endüstrileri",nodeAddress="PAGEIND//USERWEB//NODE.34@778",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoPage')"
+NodeInfo[6]="(nodeName="X-51 Güvenli Ag",nodeDesc="X-51 Güvenli Ag",nodeAddress="X51//SECURENET//NODE.938@893",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoArea51')"
+NodeInfo[7]="(nodeName="Everett Isletmeleri",nodeDesc="Everett Isletmeleri",nodeAddress="EE//INTSYS.TT//0232.98//TERMINAL",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoEverettEnt')"
+NodeInfo[8]="(nodeName="NSF",nodeDesc="NSF",nodeAddress="HUB//RESISTANCE.7654//NSFNODES",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoNSF')"
+NodeInfo[9]="(nodeName="NYComm",nodeDesc="NYC Iletisimleri",nodeAddress="USA//DOMESTIC//NYCCOM.USERS.PUB",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoNYComm')"
+NodeInfo[10]="(nodeName="PRChina",nodeDesc="Çin Halk Cumhuriyeti",nodeAddress="PRC//GOV//RESTRICTED.HK.562",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoPRChina')"
+NodeInfo[11]="(nodeName="HKNet",nodeDesc="HK Agi",nodeAddress="PUB//HKNET//USERS.ACCTS.20435//2",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoHKNet')"
+NodeInfo[12]="(nodeName="Quick Stop",nodeDesc="Quick Stop",nodeAddress="PUB//HKNET//QUICKSTOPINT//NODE98",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoQuickStop')"
+NodeInfo[13]="(nodeName="Lucky Money",nodeDesc="Lucky Money Kulübü",nodeAddress="PUB//HKNET//LUCKYMONEY/BUSSYS.294",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoLuckyMoney')"
+NodeInfo[14]="(nodeName="IIS",nodeDesc="Illuminati Bilgi Sistemleri",nodeAddress="SECURE//IIS.INFTRANS.SYS//UEU",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoIlluminati')"
+CompInUseMsg="Bilgisayari zaten %s kullaniyor."
+
+[HUDObjectSlot]
+RoundLabel="%d Mrm"
+RoundsLabel="%d Mrm"
+CountLabel="ADET:"
+
+[DeusExProjectile]
+ItemName="DEFAULT PROJECTILE NAME - REPORT THIS AS A BUG"
+ItemArticle="Hata"
+
+[DeusExAmmo]
+msgInfoRounds="%d Mermi kaldi"
+PickupMessage="Buldun"
+ItemName="DEFAULT AMMO NAME - REPORT THIS AS A BUG"
+ItemArticle=""
+
+[ComputerSecurityCameraWindow]
+CameraLabel="Kamera"
+CameraStatusLabel="Kamera:"
+DoorStatusLabel="Kapi:"
+TurretStatusLabel="Taret:"
+OnLabel="Açik"
+OffLabel="Kapali"
+DisabledLabel="Etkisiz"
+AttackingAlliesLabel="Müttefikler saldiriyor"
+AttackingEnemiesLabel="Düsmanlar saldiriyor"
+AttackingEverythingLabel="Hersey saldiriyor"
+NoSignalLabel="ISARET YOK"
+OpenLabel="Açik"
+ClosedLabel="Kapali"
+LockedLabel="Kilitli"
+UnlockedLabel="Kilidi açik"
+FriendlyLabel="Düsmanlar görüldü"
+HostileLabel="Müttefikler görüldü"
+
+[MenuScreenLoadGame]
+strHeaderNameLabel="Ad"
+strHeaderDateLabel="Tarih"
+NewSaveGameButtonText="Yeni Kayitli Oyun"
+DeleteGameButtonText="Oyun Sil"
+LoadGameButtonText="Oyun Yükle"
+OverwriteTitle="Kayitli oyunun üzerine yaz?"
+OverwritePrompt="Bu kayitli oyunun üzerine yazmak istediginden emin misin?"
+DeleteTitle="Kayitli oyunu sil?"
+DeletePrompt="Bu kayitli oyunu silmek istediginden emin misin?"
+LoadGameTitle="Oyun Yükle"
+SaveGameTitle="Oyun Kaydet"
+SaveInfoMissing_Label="SAVEINFO.DXS Eksik!!!"
+TimeAMLabel="öö"
+TimePMLabel="ös"
+LocationLabel="Konum: %s|n"
+SaveCountLabel="Kayit Adedi: %d|n"
+FileSizeLabel="Dosya Boyutu: %dMB"
+FreeSpaceLabel="Bos Alan: %dMB"
+Title="Oyun Yükle"
+PlayTimeLabel="Oyun Süresi: %s|n"
+ConfirmDeleteLabel="Kayitli Oyunu Silmeyi Onayla"
+CheatsEnabledLabel="- HILELER ETKIN -"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="Oyun |&Yükle",Key="LOAD")"
+actionButtons[2]="(Action=AB_Other,Text="Oyun |&Sil",Key="DELETE")"
+
+[MenuUIWindow]
+btnLabelOK="|&Tamam"
+btnLabelCancel="|&Iptal"
+btnLabelPrevious="|&Geri"
+btnLabelResetToDefaults="|&Vars. Ayarla"
+MessageBoxTitle="Lütfen Onayla"
+ExitMessage="Deus Ex'ten çikmak|nistediginden emin misin?"
+TrainingWarningMessage="Oynadigin simdiki oyun önceden kaydetmediysen kaybedilecek.  Egitim görevine yine de girmek ister misin?"
+IntroWarningMessage="Oynadigin simdiki oyun önceden kaydetmediysen kaybedilecek.  Introya bakmayi yine de ister misin?"
+AskToTrainTitle="Egitim Görevi"
+AskToTrainMessage="Ilk sefer için yeni bir oyuna baslamadan önce, Egitim Görevi'ne girmenizi öneririz.  Bunu simdi yapmak ister misin?"
+
+[DamageHUDDisplay]
+msgAbsorbed="%d%% Emildi"
+
+[BlackHelicopter]
+ItemName="Siyah Helikopter"
+
+[AugmentationDisplayWindow]
+msgRange="Menzil"
+msgRangeUnits="ft"
+msgHigh="Yüksek"
+msgMedium="Orta"
+msgLow="Düsük"
+msgHealth="saglik"
+msgOverall="Toplam"
+msgPercent="%"
+msgHead="Kafa"
+msgTorso="Gövde"
+msgLeftArm="Sol K"
+msgRightArm="Sag K"
+msgLeftLeg="Sol B"
+msgRightLeg="Sag B"
+msgWeapon="Silah:"
+msgNone="Hiç"
+msgScanning1="* Hedef Yok *"
+msgScanning2="* Taraniyor *"
+msgADSTracking="* ADS Izleniyor *"
+msgADSDetonating="* ADS Patlatiliyor *"
+msgBehind="ARKA"
+msgDroneActive="Uzak SpyDrone Aktif"
+msgEnergyLow="Biyoelektrik enerji düsük!"
+msgCantLaunch="HATA - SpyDrone yapisi için yer yok!"
+msgLightAmpActive="LightAmp Aktif"
+msgIRAmpActive="IRAmp Aktif"
+msgNoImage="Resim Mevcut Degil"
+msgDisabled="Devre Disi"
+msgLegs="Bacaklar"
+SpottedTeamString="Bir takim arkadasi gördün!"
+YouArePoisonedString="Zehirlenmissin!"
+YouAreBurnedString="Yaniyorsun!"
+TurretInvincibleString="Taretler yalnizca EMP'den hasar alir!"
+CameraInvincibleString="Kameralar yalnizca EMP'den hasar alir!"
+NeutBurnPoisonString="(Derhal nötralize olmak için ilkyardim çantasi kullan)"
+OnlyString="Yalnizca "
+KillsToGoString=" daha çok ölüm, ve "
+KillToGoString=" daha çok ölüm, ve "
+LessThanMinuteString="Bitmeye bir dakikadan daha az, ve "
+LessThanXString1="Daha az, "
+LessThanXString2=" dakika gitmeye, ve "
+LeadsMatchString=" maçta önde!"
+TiedMatchString="Berabere!"
+WillWinMatchString=" maçi kazanacak!"
+OutOfRangeString="(Menzil disi)"
+LostLegsString="Bacaklarini kaybettin!"
+DropItem1String="Kullanabilirsin, <"
+DropItem2String="> donanmis bir ögeyi birakmak için."
+msgTeammateHit="Takim arkadasina vurdun!"
+msgTeamNsf="NSF Takimi'ndasin!"
+msgTeamUnatco="Unatco Takimi'ndasin!"
+UseString="Kullan, <"
+TeamTalkString="> takim mesajlari göndermek için."
+TalkString="> düzenli sohbet mesajlari göndermek için."
+YouKilledTeammateString="Bir takim arkadasini öldürdün!"
+TeamLAMString="Takim arkadasinin el bombasini alamazsin!"
+TeamComputerString="O bilgisayar zaten takimina ait!"
+NoCloakWeaponString="Bir silah çekilmisken gizleyemezsin!"
+TeamHackTurretString="O taret zaten takimina ait!"
+KeyNotBoundString="Tus Bagli Degil"
+OutOfAmmoString="Cephane yok!"
+
+[ComputerUIWindow]
+ButtonLabelLogin="|&Oturum Aç"
+ButtonLabelLogout="|&Oturum Kapat"
+ButtonLabelCancel="|&Iptal"
+ButtonLabelSpecial="|&Özel Ayarlar"
+
+[PersonaInventoryInfoWindow]
+AmmoLabel="Cephane:"
+AmmoRoundsLabel="Mermiler:"
+ShowAmmoDescriptionsLabel="Cephane Açiklamasini Göster"
+
+[FrobDisplayWindow]
+msgLocked="Kilitli"
+msgUnlocked="Kilidi açik"
+msgLockStr="Kilit Drm: "
+msgDoorStr="Kapi Drm: "
+msgHackStr="Etkisizlik: "
+msgInf="SIN"
+msgHacked="Etkisiz"
+msgPick="adet"
+msgPicks="adet"
+msgTool="araç"
+msgTools="araç"
+
+[AutoTurretGun]
+ItemName="Özerk Savunma Tareti"
+
+[HackableDevices]
+msgMultitoolSuccess="Aygiti etkisizlestirdin"
+msgNotHacked="Güvenli durumda"
+msgHacking="Aygit etkisizlestiriliyor..."
+msgAlreadyHacked="Zaten etkisizlesmis"
+
+[AutoTurret]
+ItemName="Taret Üssü"
+titleString="OtoTaret"
+
+[MedKit]
+MustBeUsedOn="Kritik durumdaki vücut bölümlerini veya belirli bir vücut bölümünü dogrudan iyilestirmek için karakter ekraninda kullan."
+ItemName="Ilk Yardim Çantasi"
+Description="Bir ilk yardim çantasi.|n|n<UNATCO OPS FILE NOTE JR095-VIOLET> Artirilmis bir ajanin nanomakineleri hasarli bölgeleri verimli biçimde iyilestirmek için bir ilk yardim çantasinin içeriklerini kendiliginden metabolize edecek. Medikal egitimli bir ajan bu islemi harika biçimde hizlandirabilir. -- Jaime Reyes <END NOTE>"
+beltDescription="ILKYRDÇNT"
+
+[UNATCOTroop]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[POVCorpse]
+ItemName="vücut"
+
+[PersonaScreenInventory]
+InventoryTitleText="Envanter"
+EquipButtonLabel="|&Donat"
+UnequipButtonLabel="D|&onatma"
+UseButtonLabel="|&Kullan"
+DropButtonLabel="|&At"
+ChangeAmmoButtonLabel="Cep|&h. Degistir"
+NanoKeyRingInfoText="NanoAnahtar listesi için ikona tikla."
+NanoKeyRingLabel="%s Anahtar"
+DroppedLabel="%s birakildi"
+AmmoLoadedLabel="%s dolduruldu"
+WeaponUpgradedLabel="%s yükseltildi"
+CannotBeDroppedLabel="%s buraya birakilamaz"
+AmmoInfoText="Cephane listesi için ikona tikla."
+AmmoTitleLabel="Cephane"
+NoAmmoLabel="Cephane Mevcut Degil"
+
+[ATM]
+msgLockedOut="Terminal %d saniye daha girilmez"
+ItemName="Kamu Bankacilik Terminali"
+
+[AlarmUnit]
+msgActivated="Alarm aktif"
+msgDeactivated="Alarm kesildi"
+ItemName="Alarm Çalma Paneli"
+
+[ComputerScreenSecurity]
+ActiveWindowOptionsHeader="Aktif Pencere Ayarlari"
+CameraOptionsHeader="Kamera Ayarlari"
+PanZoomSpeedHeader="Kamera Hizi"
+ClickCameraWindowText="O kamerayi seçmek için bir kamera görüs alanina tikla."
+Title="Gözetim"
+ComputerNodeFunctionLabel="Güvenlik"
+
+[Terrorist]
+FamiliarName="Terörist"
+UnfamiliarName="Terörist"
+
+[MenuScreenRGB_MenuExample]
+ButtonMenuDisabledLabel="Devre Disi"
+ButtonMenuNormalLabel="Normal"
+ButtonMenuFocusLabel="Odak"
+ButtonMenuPressedLabel="Basilmis"
+ButtonSmallPressedLabel="Basilmis"
+ButtonSmallNormalLabel="Normal"
+ButtonActionDisabledLabel="Devre Disi"
+ButtonActionNormalLabel="Normal"
+ButtonActionFocusLabel="Odak"
+ButtonActionPressedLabel="Basilmis"
+ListNormalLabel="Normal"
+ListFocusLabel="Odak"
+EditLabel="Düzenle"
+TitleLabel="Baslik"
+
+[PersonaScreenHealth]
+MedKitUseText="Vücudun belirli bir bölgesini iyilestirmek için bölgeye tiklayip, Iyilestir dügmesine basin."
+HealthTitleText="Saglik"
+HealAllButtonLabel="H.|&Iyilestir"
+HealthLocationHead="Kafa"
+HealthLocationTorso="Gövde"
+HealthLocationRightArm="Sag Kol"
+HealthLocationLeftArm="Sol Kol"
+HealthLocationRightLeg="Sag Bacak"
+HealthLocationLeftLeg="Sol Bacak"
+PointsHealedLabel="%d puan iyilesti"
+HealthPartDesc[0]="Kafa yaralanmalari tehdit senaryolarinin engin çogunlugunda öldürücüdür; bununla birlikte, ölüm durumlari bir anda olmaz, ajanlar siklikla bas yaralanmalarinin görüsü ve nisan almayi zayiflattigini kesfedecekler. Yardim olabildigince çabuk biçimde böyle yaralanmalari iyilestirmek için alinmis olmalidir yoksa ölümle neticelenebilir.|n|nHafif Yaralar: Dogrulugu az miktarda azaltir.|nOrta Yaralar: Görmede titreme.|nCiddi Yaralar: Ölüm."
+HealthPartDesc[1]="Gövde çogu hasari emebilen insan anatomisinin büyük bir parçasi olsa da, yakin muharebelerde hedef almasi en kolay yerdir. Asama asama olarak daha fazla hasar gövde için agri vericidir, ajanlar hareketlerinin zayifladigini kesfedebilir ve sonunda canli bir organ için ölümlü bir darbe aci çekmemis olsa bile öldürücüdür.|n|nHafif Yaralar: Hareketi az miktarda azaltir.|nOrta Yaralar: Hareketi önemli miktarda azaltir.|nCiddi Yaralar: Ölüm."
+HealthPartDesc[2]="Açikçasi kol hasari bir ajanin çesitli silahlardan yararlanma kabiliyetine dogrudan bir etkiye sahip olmasi gibi herhangi bir çarpisma durumunda önemlidir. Bir kolu kullanmayi kaybetmek bir ajanin çarpisma verimliligini kesinlikle daha düsük yapacak, iki kol kaybedildiginde düsmanin sözde bir tehdidine bile hazir olmasi bir ajan için neredeyse imkansiz olmasini saglayacak.|n|nHafif Yaralar: Dogrulugu az miktarda azaltir.|nOrta Yaralar: Dogrulugu orta derecede azaltir.|nCiddi Yaralar: Dogrulugu önemli miktarda azaltir."
+HealthPartDesc[3]="Bacak yaralanmalari hareketliligin siddetli biçimde düsmesiyle sonuçlanacak. Bir ajan düsman bölgesinde iki bacagini kaybetmek için yeterince talihsiz ama hala hayatta kalmissa, UNATCO Özel Operasyonlar Emir 99009'u (Kendini Imha Etme) yürürlüge koymasini emrederler.|n|nHafif Yaralar: Hareketliligi az miktarda azaltir.|nOrta Yaralar: Hareketliligi orta miktarda azaltir.|nCiddi Yaralar: Hareketliligi önemli miktarda azaltir."
+
+[WaltonSimons]
+FamiliarName="Walton Simons"
+UnfamiliarName="Walton Simons"
+
+[SecurityCamera]
+msgActivated="Kamera etkin"
+msgDeactivated="Kamera devre disi"
+ItemName="Güvenlik Kamerasi"
+
+[HUDHitDisplay]
+O2Text="O2"
+EnergyText="BE"
+
+[PersonaAmmoDetailButton]
+RoundLabel="%d Mermi"
+RoundsLabel="%d Mermi"
+
+[PersonaScreenImages]
+ImagesTitleText="Resimler"
+DeleteNoteButtonLabel="Not Si|&l"
+AddNoteButtonLabel="|&Not Ekle"
+ShowNotesLabel="N|&otlar Göster"
+
+[PersonaScreenAugmentations]
+AugmentationsTitleText="Artiricilar"
+UpgradeButtonLabel="|&Yükselt"
+ActivateButtonLabel="Et|&kinlestir"
+DeactivateButtonLabel="De|&vre Disi Birak"
+UseCellButtonLabel="Pil K|&ullan"
+AugCanUseText="Bir artiriciyi yükseltmek için, yükseltmek istediginiz artiriciya tiklayin, sonra Yükselt dügmesine tiklayin."
+BioCellUseText="Artiricilariniza Biyoelektrik Enerji'yi ikmal etmek için, Pil dügmesine tiklayin."
+AugLocationDefault="Varsayilan"
+AugLocationCranial="Kafatasi"
+AugLocationEyes="Gözler"
+AugLocationArms="Kollar"
+AugLocationLegs="Bacaklar"
+AugLocationTorso="Gövde"
+AugLocationSubdermal="Derialti"
+
+[WeaponMod]
+DragToUpgrade="Yükseltmek için silahin üzerine sürükle. Yesil renkte gösterilen silahlar bu modla yükseltilmis olabilir."
+
+[Faucet]
+ItemName="Musluk"
+
+[MenuScreenRGB]
+HUDBackgroundTranslucentLabel="HUD Yari Seffaf Arka|&plan"
+HUDBordersTranclucentLabel="HUD Yari Seffaf Kenar|&lar"
+MenusBackgroundTranslucentLabel="Menu Yari Seffaf Arka|&plan"
+RedLabel="Kirmi|&zi"
+GreenLabel="Ye|&sil"
+BlueLabel="Ma|&vi"
+TabHUDLabel="|&HUD"
+TabMenusLabel="|&Menüler"
+ThemeLabel="Tema:"
+Title="Renk Seçimi"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Other,Text="Ka|&pat",Key="CLOSE")"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Yükle",Key="LOAD")"
+actionButtons[2]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Kaydet",Key="SAVE")"
+actionButtons[3]="(Action=AB_Reset)"
+
+[ShowerFaucet]
+ItemName="Dus Muslugu"
+
+[HUDInfoLinkDisplay]
+strQueued="mesaj bekliyor..."
+IncomingTransmission="GELEN AKTARIM..."
+
+[Keypad]
+ItemName="Güvenlik Tus Takimi"
+
+[MedicalBot]
+FamiliarName="Medikal Bot"
+UnfamiliarName="Medikal Bot"
+
+[MenuScreenAdjustColorsExample]
+TitleBarLabel="Baslik Bari"
+TextHeaderLabel="Örnek Metin"
+TextNormalLabel="Örnek Metin"
+ButtonPressedLabel="Basilmis"
+ButtonNormalLabel="Normal"
+
+[HUDAmmoDisplay]
+NotAvailable="M/D"
+msgReloading="---"
+AmmoLabel="CPHN"
+ClipsLabel="SRJR"
+
+[MJ12Commando]
+FamiliarName="MJ12 Komando"
+UnfamiliarName="MJ12 Komando"
+
+[DataLinkPlay]
+EndTransmission="AKTARIM SONU..."
+
+[HUDRechargeWindow]
+RechargeButtonLabel="  |&Sarj Et  "
+CloseButtonLabel="  |&Kapat  "
+RechargeTitle="TAMIRBOT ARAYÜZÜ"
+RepairBotInfoText="TamirBot biyoelektrik enerjiyi %d puana kadar her %d saniyede bir yeniler."
+RepairBotStatusLabel="TamirBot Durumu:"
+ReadyLabel="Hazir!"
+SecondsPluralLabel="Sarj olma: %d saniye"
+SecondsSingularLabel="Sarj olma: %d saniye"
+BioStatusLabel="Biyoenerji:"
+RepairBotRechargingLabel="|n|nTamirBot su an sarj oluyor. Lütfen bekleyin."
+RepairBotReadyLabel="|n|nTamirBot hazir, simdi sarj edebilirsin."
+RepairBotYouAreHealed="|n|nBiyoElektrik enerjiniz maksimumda."
+
+[MenuUIChoiceSlider]
+actionText="Seçim Kaydirici"
+
+[MenuScreenNewGame]
+ButtonUpgradeLabel="Yükse|&lt"
+ButtonDowngradeLabel="|&Düsür"
+HeaderNameLabel="Gerçek Ad"
+HeaderCodeNameLabel="Kod Adi"
+HeaderAppearanceLabel="Görünüs"
+HeaderSkillsLabel="Beceriler"
+HeaderSkillPointsLabel="Beceri Puan"
+HeaderSkillLevelLabel="Beceri Düzeyi"
+HeaderPointsNeededLabel="Gereken Puan"
+NameBlankTitle="Ad Bos Birakildi!"
+NameBlankPrompt="Gerçek Ad bos birakilamaz, lütfen bir ad gir."
+Title="Yeni Oyuna Basla"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Oyuna Basla",Key="START")"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenRGB_HUDExample]
+TitleLabel="Baslik"
+HeaderLabel="Metin"
+TextNormalLabel="Normal"
+GoalCompletedLabel="Tamamlanan Hedef"
+ListLabel="Öge Listesi"
+ListHighlightLabel="Öne Çikan Liste"
+ListFocusLabel="Odak Listesi"
+EditSelectedLabel="Metin Düzenle"
+ButtonDisabledLabel="Devre Disi"
+ButtonNormalLabel="Normal"
+ButtonFocusLabel="Odak"
+ButtonPressedLabel="Basilmis"
+
+[HUDKeypadWindow]
+msgAccessDenied="~~YANLIS~~"
+msgAccessGranted="~~DOGRU~~"
+
+[HUDReceivedDisplay]
+TextReceivedLabel="Alindi:"
+
+[InformationDevices]
+msgNoText="Okumak için ilginç hiçbir sey yok"
+ImageLabel="[Resim: %s]"
+AddedToDatavaultLabel="%s resmi VeriKasa'ya eklendi"
+
+[GuntherHermann]
+FamiliarName="Gunther Hermann"
+UnfamiliarName="Gunther Hermann"
+
+[SpyDrone]
+ItemName="Uzak Casus Dron"
+
+[HUDMedBotHealthScreen]
+MedbotInterfaceText="MEDBOT ARAYÜZÜ"
+HealthInfoTextLabel="MedBot hasarli vücut bölgenizin arasina esit biçimde dagitarak %d üniteye kadar iyilestirecek."
+MedBotRechargingLabel="|nMedBot su an sarj oluyor. Lütfen bekleyin."
+MedBotReadyLabel="|nMedBot hazir, simdi iyilesebilirsin."
+MedBotYouAreHealed="|nSu an sagligin tam."
+SecondsPluralLabel="Sarj olma: %d saniye"
+SecondsSingularLabel="Sarj olma: %d saniye"
+ReadyLabel="Hazir!"
+HealAllButtonLabel="  H.|&Iyilestir  "
+
+[PersonaItemDetailButton]
+CountLabel="Adet: %d"
+
+[MenuScreenSaveGame]
+Title="Oyunu Kaydet"
+DiskSpaceTitle="Disk Alani Az"
+DiskSpaceMessage="Kaydedebilmeniz için en az 100MB bos disk alaniniz olmalidir. Lütfen birkaç kayitli oyun silin veya Windows'ta bos yer açin."
+actionButtons[1]="(Text="Oyun Kay|&det",Key="SAVE")"
+
+[RepairBot]
+FamiliarName="Tamir Botu"
+UnfamiliarName="Tamir Botu"
+
+[PersonaNavBarWindow]
+InventoryButtonLabel="|&Envanter"
+HealthButtonLabel="|&Saglik"
+AugsButtonLabel="|&Artirici"
+SkillsButtonLabel="|&Beceri"
+GoalsButtonLabel="|&Hedef/Not"
+ConsButtonLabel="Soh|&bet"
+ImagesButtonLabel="Res|&im"
+LogsButtonLabel="Ka|&yit"
+
+[PersonaNavBarBaseWindow]
+ExitButtonLabel="|&Çikis"
+
+[PersonaScreenConversations]
+ConversationsTitleText="Sohbetler"
+ActorButtonLabel="Baglanti"
+LocationButtonLabel="Konum"
+TypeButtonLabel="Tip"
+
+[MenuScreenCustomizeKeys]
+strHeaderActionLabel="Eylem"
+strHeaderAssignedLabel="Atanmis Tus/Dügme"
+WaitingHelpText="Yeniden atamak istedigin islevi seç ve sonra [Enter] bas veya Çift-Tikla.  Tus atamalarini kaldirmak için [Delete] bas."
+InputHelpText="Lütfen bu isleve atamak istedigin tusa veya dügmeye bas.  Iptal etmek için [ESC] bas."
+ReassignedFromLabel="'%s'  '%s' den tekrar atanmis"
+Title="Klavye/Fare Ayarlari"
+FunctionText[0]="Silah atesleme/Elde nesne kullanma"
+FunctionText[1]="Dünyada nesne kullanma"
+FunctionText[2]="Öge Firlatma/Atma"
+FunctionText[3]="Ögeyi Yere Birakma"
+FunctionText[4]="Ileri Git"
+FunctionText[5]="Geri Git"
+FunctionText[6]="Sola Dön"
+FunctionText[7]="Saga Dön"
+FunctionText[8]="Sol Yana Kaç"
+FunctionText[9]="Sag Yana Kaç"
+FunctionText[10]="Sola Egil"
+FunctionText[11]="Saga Egil"
+FunctionText[12]="Zipla"
+FunctionText[13]="Çömel"
+FunctionText[14]="Fare Bakisi"
+FunctionText[15]="Yukari Bak"
+FunctionText[16]="Asagi Bak"
+FunctionText[17]="Merkez Görünüm"
+FunctionText[18]="Yürü/Kos"
+FunctionText[19]="Yürü/Kos Geçisi"
+FunctionText[20]="Yana Kaç"
+FunctionText[21]="Sonraki Ögeyi Seç"
+FunctionText[22]="Önceki Ögeyi Seç"
+FunctionText[23]="Silahi Tekrar Yükle"
+FunctionText[24]="Dürbün Geçisi"
+FunctionText[25]="Lazer Görüsü Geçisi"
+FunctionText[26]="Tüm Artiricilar Etkin"
+FunctionText[27]="Tüm Artiricilar Devre Disi"
+FunctionText[28]="Cephane Degistir"
+FunctionText[29]="Ekran Görüntüsü Al"
+FunctionText[30]="Envanter Ekrani Etkin"
+FunctionText[31]="Saglik Ekrani Etkin"
+FunctionText[32]="Artirici Ekrani Etkin"
+FunctionText[33]="Beceri Ekrani Etkin"
+FunctionText[34]="Hedef/Not Ekrani Etkin"
+FunctionText[35]="Sohbet Ekrani Etkin"
+FunctionText[36]="Resim Ekrani Etkin"
+FunctionText[37]="Kayit Ekrani Etkin"
+FunctionText[38]="Çabuk Kaydet"
+FunctionText[39]="Çabuk Yükle"
+FunctionText[40]="Hedef Noktasi Geçisi"
+FunctionText[41]="Vurma Görüntüleme Geçisi"
+FunctionText[42]="Pusula Geçisi"
+FunctionText[43]="Artirici Görüntüleme Geçisi"
+FunctionText[44]="Nesne Geçisi"
+FunctionText[45]="Cephane Görüntüleme Geçisi"
+keyDisplayNames[0]="(inputKey=IK_LeftMouse,displayName="Sol Fare Dügmesi")"
+keyDisplayNames[1]="(inputKey=IK_RightMouse,displayName="Sag Fare Dügmesi")"
+keyDisplayNames[2]="(inputKey=IK_MiddleMouse,displayName="Orta Fare Dügmesi")"
+keyDisplayNames[3]="(inputKey=IK_CapsLock,displayName="CAPS Lock")"
+keyDisplayNames[4]="(inputKey=IK_PageUp,displayName="Page Up")"
+keyDisplayNames[5]="(inputKey=IK_PageDown,displayName="Page Down")"
+keyDisplayNames[6]="(inputKey=IK_PrintScrn,displayName="Print Screen")"
+keyDisplayNames[7]="(inputKey=IK_GreyStar,displayName="NumPad Asterisk")"
+keyDisplayNames[8]="(inputKey=IK_GreyPlus,displayName="NumPad Plus")"
+keyDisplayNames[9]="(inputKey=IK_GreyMinus,displayName="NumPad Minus")"
+keyDisplayNames[10]="(inputKey=IK_GreySlash,displayName="NumPad Slash")"
+keyDisplayNames[11]="(inputKey=IK_NumPadPeriod,displayName="NumPad Period")"
+keyDisplayNames[12]="(inputKey=IK_NumLock,displayName="Num Lock")"
+keyDisplayNames[13]="(inputKey=IK_ScrollLock,displayName="Scroll Lock")"
+keyDisplayNames[14]="(inputKey=IK_LShift,displayName="Sol Shift")"
+keyDisplayNames[15]="(inputKey=IK_RShift,displayName="Sol Shift")"
+keyDisplayNames[16]="(inputKey=IK_LControl,displayName="Sol Ctrl")"
+keyDisplayNames[17]="(inputKey=IK_RControl,displayName="Sag Ctrl")"
+keyDisplayNames[18]="(inputKey=IK_MouseWheelUp,displayName="Fare Tekerlegi Yukari")"
+keyDisplayNames[19]="(inputKey=IK_MouseWheelDown,displayName="Fare Tekerlegi Asagi")"
+keyDisplayNames[20]="(inputKey=IK_MouseX,displayName="Mouse X")"
+keyDisplayNames[21]="(inputKey=IK_MouseY,displayName="Mouse Y")"
+keyDisplayNames[22]="(inputKey=IK_MouseZ,displayName="Mouse Z")"
+keyDisplayNames[23]="(inputKey=IK_MouseW,displayName="Mouse W")"
+keyDisplayNames[24]="(inputKey=IK_LeftBracket,displayName="Left Bracket")"
+keyDisplayNames[25]="(inputKey=IK_RightBracket,displayName="Right Bracket")"
+keyDisplayNames[26]="(inputKey=IK_SingleQuote,displayName="Single Quote")"
+keyDisplayNames[27]="(inputKey=IK_Joy1,displayName="Joystick Button 1")"
+keyDisplayNames[28]="(inputKey=IK_Joy2,displayName="Joystick Button 2")"
+keyDisplayNames[29]="(inputKey=IK_Joy3,displayName="Joystick Button 3")"
+keyDisplayNames[30]="(inputKey=IK_Joy4,displayName="Joystick Button 4")"
+keyDisplayNames[31]="(inputKey=IK_JoyX,displayName="Joystick X")"
+keyDisplayNames[32]="(inputKey=IK_JoyY,displayName="Joystick Y")"
+keyDisplayNames[33]="(inputKey=IK_JoyZ,displayName="Joystick Z")"
+keyDisplayNames[34]="(inputKey=IK_JoyR,displayName="Joystick R")"
+keyDisplayNames[35]="(inputKey=IK_JoyU,displayName="Joystick U")"
+keyDisplayNames[36]="(inputKey=IK_JoyV,displayName="Joystick V")"
+keyDisplayNames[37]="(inputKey=IK_JoyPovUp,displayName="Joystick Pov Up")"
+keyDisplayNames[38]="(inputKey=IK_JoyPovDown,displayName="Joystick Pov Down")"
+keyDisplayNames[39]="(inputKey=IK_JoyPovLeft,displayName="Joystick Pov Left")"
+keyDisplayNames[40]="(inputKey=IK_JoyPovRight,displayName="Joystick Pov Right")"
+keyDisplayNames[41]="(inputKey=IK_Ctrl,displayName="Ctrl")"
+keyDisplayNames[42]="(inputKey=IK_Left,displayName="Sol Ok")"
+keyDisplayNames[43]="(inputKey=IK_Right,displayName="Sag Ok")"
+keyDisplayNames[44]="(inputKey=IK_Up,displayName="Yukari Ok")"
+keyDisplayNames[45]="(inputKey=IK_Down,displayName="Asagi Ok")"
+keyDisplayNames[46]="(inputKey=IK_Insert,displayName="Insert")"
+keyDisplayNames[47]="(inputKey=IK_Home,displayName="Home")"
+keyDisplayNames[48]="(inputKey=IK_Delete,displayName="Delete")"
+keyDisplayNames[49]="(inputKey=IK_End,displayName="End")"
+keyDisplayNames[50]="(inputKey=IK_NumPad0,displayName="NumPad 0")"
+keyDisplayNames[51]="(inputKey=IK_NumPad1,displayName="NumPad 1")"
+keyDisplayNames[52]="(inputKey=IK_NumPad2,displayName="NumPad 2")"
+keyDisplayNames[53]="(inputKey=IK_NumPad3,displayName="NumPad 3")"
+keyDisplayNames[54]="(inputKey=IK_NumPad4,displayName="NumPad 4")"
+keyDisplayNames[55]="(inputKey=IK_NumPad5,displayName="NumPad 5")"
+keyDisplayNames[56]="(inputKey=IK_NumPad6,displayName="NumPad 6")"
+keyDisplayNames[57]="(inputKey=IK_NumPad7,displayName="NumPad 7")"
+keyDisplayNames[58]="(inputKey=IK_NumPad8,displayName="NumPad 8")"
+keyDisplayNames[59]="(inputKey=IK_NumPad9,displayName="NumPad 9")"
+keyDisplayNames[60]="(inputKey=IK_Period,displayName="Period")"
+keyDisplayNames[61]="(inputKey=IK_Comma,displayName="Comma")"
+keyDisplayNames[62]="(inputKey=IK_Backslash,displayName="Backslash")"
+keyDisplayNames[63]="(inputKey=IK_Semicolon,displayName="Semicolon")"
+keyDisplayNames[64]="(inputKey=IK_Equals,displayName="Equals")"
+keyDisplayNames[65]="(inputKey=IK_Slash,displayName="Slash")"
+keyDisplayNames[66]="(inputKey=IK_Enter,displayName="Enter")"
+keyDisplayNames[67]="(inputKey=IK_Alt,displayName="Alt")"
+keyDisplayNames[68]="(inputKey=IK_Backspace,displayName="Backspace")"
+keyDisplayNames[69]="(inputKey=IK_Shift,displayName="Shift")"
+keyDisplayNames[70]="(inputKey=IK_Space,displayName="Bosluk")"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+NoneText="[None]"
+FunctionText[46]="F3"
+FunctionText[47]="F4"
+FunctionText[48]="F5"
+FunctionText[49]="F6"
+FunctionText[50]="F7"
+FunctionText[51]="F8"
+FunctionText[52]="F9"
+FunctionText[53]="F10"
+FunctionText[54]="F11"
+FunctionText[55]="F12"
+FunctionText[56]="Çokoyunculu Skorlari Göster"
+FunctionText[57]="Takima Mesaj Gönder"
+FunctionText[58]="Hepsine Mesaj Gönder"
+FunctionText[59]="Çokoyun. Beceri Menüsü Etkin"
+FunctionText[60]="Çokoyun. Öldürme Detaylarini Göster"
+
+[NanoKeyRing]
+NoKeys="NanoAnahtar Mevcut Degil!"
+KeysAvailableLabel="NanoAnahtarlar Mevcut:"
+ItemName="NanoAnahtarlik"
+ItemArticle="bir"
+Description="Bir nanoanahtarlik farkli nanoanahtarlardan iki boyutlu moleküler örnekler depolayabilir ve okuyabilir, ve sonra ihtiyaçtaki o örnekleri tekrar olusturabilir."
+beltDescription="ANHTRLIK"
+
+[SkilledTool]
+CountLabel="Kullan:"
+
+[ComputerScreenEmail]
+NoEmailTodayText="Bugün Eposta yok!"
+EmailFromHeader="Kmdn:"
+EmailToHeader="Kime:"
+EmailCarbonCopyHeader="KK:"
+EmailSubjectHeader="Konu:"
+HeaderFromLabel="Kmdn"
+HeaderSubjectLabel="Konu"
+Title="Eposta"
+ComputerNodeFunctionLabel="Eposta"
+
+[Ammo762mm]
+ItemName="7.62x51mm Cephane"
+ItemArticle="bir"
+Description="7.62x51mm (NATO) mermisi her yerde hazir yapan gelismis çatisma karsiligi verebilme gerektiren ulusal güvenlik güçleri arasinda onun yaygin kullanimina dek yakin muharebeler için saldiri tüfekleriyle donatilmis terörle mücadele birimleri tarafindan baslica kullanilmistir."
+beltDescription="7.62 CPHN"
+
+[Flare]
+ExpireMessage="Zaten kullanilmis"
+ItemName="Isaret Fisegi"
+Description="Bir isaret fisegi."
+beltDescription="ISRT FSGI"
+
+[ComputerScreenHack]
+HackButtonLabel="|&Hackle"
+ReturnButtonLabel="|&Geri Dön"
+HackReadyLabel="BUZ Kirici Hazir..."
+HackInitializingLabel="BUZ Kirici Baslatiliyor..."
+HackSuccessfulLabel="BUZ Kirici Hacki Basarili..."
+HackDetectedLabel="*** UYARI ***|nIZINSIZ GIRIS TESPIT EDILDI!"
+MPHackInitializingLabel="Hackleniyor... Durdurmak için ESC'ye bas"
+
+[Barrel1]
+ItemName="Varil"
+
+[BioelectricCell]
+msgRecharged="%d puan sarj edildi"
+RechargesLabel="%d Enerji Ünitesi Sarj Eder"
+ItemName="Biyoelektrik Pil"
+Description="Bir biyoelektrik pil birçok farkli aygit tarafindan yararlanabilen bir formda verimli enerji deposu saglar.|n|n<UNATCO OPS FILE NOTE JR289-VIOLET> Artirilmis ajanlar biyoelektrik pillerden enerjiyi seffaf biçimde emebilmek için onlara izin veren bir arayüzle donatilmistir. -- Jaime Reyes <END NOTE>"
+beltDescription="BIYOPIL"
+
+[AugmentationCannister]
+AugsAvailable="Eklenebilir:"
+MustBeUsedOn="Yalnizca bir Medikal Bot yardimiyla yüklenebilir."
+ItemName="Artirici Kap"
+ItemArticle="bir"
+Description="Bir artirici kap, tasiyici bir serumda asili duran nanoölçek mekanokarbon ROM modülleriyle doludur. Uyumlu bir sahip kisinin içine enjekte edildiginde, bu modüller ekstra-akil kabiliyetleriyle farkli bir artirmadir. Bununla birlikte, artiricilarin uygun programlamasi medikal bir robot tarafindan yürütülmelidir, aksi takdirde terminal hasar meydana gelebilir. Daha fazla bilgi için, lütfen Kelley Chance'in 'Yeni Adam Yüzü' adli kitabina bakin."
+beltDescription="ART KAP"
+
+[PersonaSkillButtonWindow]
+NotAvailableLabel="M/D"
+
+[PaulDenton]
+FamiliarName="Paul Denton"
+UnfamiliarName="Paul Denton"
+
+[BobPage]
+FamiliarName="Bob Page"
+UnfamiliarName="Bob Page"
+
+[MJ12Troop]
+FamiliarName="MJ12 Askeri"
+UnfamiliarName="MJ12 Askeri"
+
+[NanoKey]
+ItemName="NanoAnahtar"
+Description="NO KEY DESCRIPTION - REPORT THIS AS A BUG!"
+beltDescription="NANO"
+
+[TAD]
+ItemName="Telesekreter"
+
+[Credits]
+msgCreditsAdded="%d kredi eklendi"
+ItemName="Kredi"
+beltDescription="KREDILER"
+
+[PersonaScreenGoals]
+GoalsTitleText="Hedefler"
+PrimaryGoalsHeader="Birincil Hedefler"
+SecondaryGoalsHeader="Ikincil Hedefler"
+DisplayCompletedGoals="Tamamlanmis Hede|&fleri Göster"
+NoGoalsLabel="Hiç"
+GoalCompletedText="[Tamamlandi]"
+NotesTitleText="Notlar"
+defaultNoteText="Yeni Not"
+ClickToEditNote="Onu düzenlemek için bir nota tikla:"
+DeleteNoteTitle="Notu Sil?"
+DeleteNotePrompt="Bu notu silmek istediginden emin misin?"
+AddButtonLabel="|&Not Ekle"
+DeleteButtonLabel="N|&ot Sil"
+ConfirmNoteDeletionLabel="Not Silmeyi Onayla"
+
+[Greasel]
+FamiliarName="Greasel"
+UnfamiliarName="Greasel"
+
+[PersonaScreenLogs]
+LogsTitleText="Kayit"
+ClearButtonLabel="T|&emizle"
+
+[AugmentationUpgradeCannister]
+MustBeUsedOn="Artirici Ekrani'nda kullanilmis olmalidir."
+ItemName="Artirici Yükseltme Kabi"
+ItemArticle="bir"
+Description="Bir artirici yükseltme kabi yüksek derecede spesifik nanomekanizmalar içerir, önceki bir programlanmis modülle kombine edildiginde, yüklü bir artiricinin verimliligini artirabilir. Çünkü programlama gerekmez, yükseltme kaplari en düsük riskle alanda deneyimli ajanlar tarafindan kullanilmis olabilir."
+beltDescription="ART YÜK"
+
+[HKIncenseBurner]
+ItemName="Tütsü Kabi"
+
+[PersonaImageWindow]
+strNoImages="Resim Mevcut Degil"
+PressSpace="Not düzenleme bittiginde [ESCAPE] bas"
+EscapeToCancel="Not olusturmak için resme tikla, iptal etmek için [ESCAPE] bas"
+NewNoteLabel="Yeni Not"
+
+[FireExtinguisher]
+ItemName="Yangin Söndürücü"
+Description="Bir kimyasal yangin söndürücü."
+beltDescription="YAN SÖN"
+
+[AugLight]
+AugmentationName="Isik"
+Description="Retina içindeki biyoisima pilleri bir ajanin görüs alaninin uygun aydinlatimini saglar.|n|nYÜKSELTME YOK"
+
+[ComputerScreenHackAccounts]
+ChangeAccountButtonLabel="|&Hesap Degistir"
+AllAccountsHeader="Tüm Kull. Hesaplari"
+CurrentAccountHeader="Simdiki Kullanici"
+
+[AmmoShell]
+ItemName="12 Ölçek Saçma Kovani"
+ItemArticle="bir"
+Description="Standart 12 ölçek pompali kovan; yakin muharebelerde yumusak hedeflerde çok efektiftir, ama çelik yelege karsi ise yaramaz."
+beltDescription="SAÇMA"
+
+[AnnaNavarre]
+FamiliarName="Anna Navarre"
+UnfamiliarName="Anna Navarre"
+
+[HUDMedBotAddAugsScreen]
+AvailableAugsText="Mevcut Artiricilar"
+MedbotInterfaceText="MEDBOT ARAYÜZÜ"
+InstallButtonLabel="|&Yükle"
+NoCansAvailableText="Artirici Kaplari Mevcut Degil!"
+AlreadyHasItText="Bu artiriciya zaten sahipsin, bu yüzden onu bir daha yükleyemezsin."
+SlotFullText="Bu artiricinin slotlari zaten dolu, bu yüzden onu yükleyemezsin."
+SelectAnotherText="Lütfen yüklemek için baska bir artirici seç."
+
+[CleanerBot]
+FamiliarName="Temizleyici Bot"
+UnfamiliarName="Temizleyici Bot"
+
+[Button1]
+ItemName="Dügme"
+
+[MenuScreenThemesLoad]
+LoadHelpText="Yüklemek için bir renk temasi seç"
+Title="Tema Yükle"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Tema Yükle",Key="LOAD")"
+
+[ComputerScreenATMWithdraw]
+ButtonLabelWithdraw="|&Çek"
+ButtonLabelClose="|&Kapat"
+BalanceLabel="Simdiki Bakiye:"
+WithdrawAmountLabel="Çekme Miktari:"
+InstructionText="Hesap #: %d|nLütfen çekmek istediginiz|nkredi miktarini girin."
+InvalidAmountLabel="GEÇERSIZ MIKTAR GIRILDI"
+InsufficientCreditsLabel="YETERSIZ KREDI"
+CreditsWithdrawnLabel="KREDI ÇEKILDI"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[wd]"
+HackedText="TERMINAL HACKLENDI"
+Title="PageNet Küresel Bankacilik Sistemi"
+ComputerNodeFunctionLabel="ATMWD"
+
+[Ammo10mm]
+ItemName="10mm Cephane"
+ItemArticle="bir"
+Description="Yüksek durdurma gücü ve düsük geri tepmenin birlesimiyle, 10mm mermi hazneli tabancalar dünya çapinda paramiliter güçler için seçkin belde tasimalik silahlardir."
+beltDescription="10MM CPHN"
+
+[ComputerScreenSpecialOptions]
+SecurityButtonLabel="|&Güvenlik"
+EmailButtonLabel="|&Eposta"
+Title="Özel Ayarlar"
+ComputerNodeFunctionLabel="SpecialOptions"
+
+[BumMale]
+FamiliarName="Berdus"
+UnfamiliarName="Berdus"
+
+[Lockpick]
+ItemName="Maymuncuk"
+Description="Elden çikarilabilir bir maymuncuk. Gergin bükümler çelikten yapilma, ama uygun igneler hizli donan polimerlerden biçimlendirilmistir.|n|n<UNATCO OPS FILE NOTE AJ006-BLACK> Iste sana söylemedikleri sey: ürün literatüründen dolayi, neredeyse çogu yüksek-sinif nanokilidini etkisizlestirmek için standart bir maymuncuk kullanabilirsin. -- Alex Jacobson <END NOTE>"
+beltDescription="MAYMUNCUK"
+
+[ComputerScreenBulletins]
+NoBulletinsTodayText="Bugün Bülten Yok!"
+BulletinsHeaderText="Lütfen bakmak için bir bülten seç:"
+Title="Bültenler"
+ComputerNodeFunctionLabel="Bulletins"
+
+[PersonaHealthActionButtonWindow]
+HealButtonLabel="Iyilestir"
+
+[MenuUIMessageBoxWindow]
+btnLabelYes="|&Evet"
+btnLabelNo="|&Hayir"
+btnLabelOK="|&Tamam"
+btnLabelCancel="|&Iptal"
+
+[WeaponPistol]
+ItemName="Tabanca"
+Description="Standart bir 10mm tabanca."
+beltDescription="TABANCA"
+
+[Multitool]
+ItemName="Çokluaraç"
+Description="Elden çikarilabilir bir elektronik araç. Bir devre vasitasiyla akimi dinamik olarak degistirmek için elektromanyetik rezonans algilama ve frekans modülasyonu kullanarak, becerikli ajanlar kod kilitlerini, kameralari, otosilah taretleri, alarmlari veya diger güvenlik sistemlerini manipüle etmek için çokluaraç kullanabilir."
+beltDescription="ÇOKLUARAÇ"
+
+[SecurityBot3]
+FamiliarName="Güvenlik Botu"
+UnfamiliarName="Güvenlik Botu"
+
+[MenuChoice_Resolution]
+helpText="Video çözünürlügünü degistir"
+actionText="|&Ekran Çözünürlügü"
+
+[PersonaItemDetailIconWindow]
+CountLabel="Adet: %d"
+
+[VendingMachine]
+msgDispensed="Hesabinizdan 2 kredi çikarildi"
+msgNoCredits="Fiyati 2 kredi..."
+msgEmpty="Içi bos"
+ItemName="Otomat"
+
+[PersonaScreenSkills]
+SkillsTitleText="Beceriler"
+UpgradeButtonLabel="|&Yükselt"
+PointsNeededHeaderText="Gereken Puan"
+SkillLevelHeaderText="Beceri Düzeyi"
+SkillPointsHeaderText="Beceri Puani"
+SkillUpgradedLevelLabel="%s yükseltildi"
+
+[JaimeReyes]
+FamiliarName="Jaime Reyes"
+UnfamiliarName="Jaime Reyes"
+
+[WeaponCombatKnife]
+ItemName="Savas Biçagi"
+Description="Bir asiri-yüksek karbon paslanmaz çelik biçak."
+beltDescription="BIÇAK"
+
+[Switch2]
+ItemName="Dügme"
+
+[ShowerHead]
+ItemName="Dus Basligi"
+
+[ComputerSecurity]
+ItemName="Güvenlik Bilgisayar Terminali"
+
+[TrashPaper]
+ItemName="Kagit"
+
+[HUDMedBotAugCanWindow]
+AugContainsText="Içerik:|n"
+
+[AugDefense]
+AugmentationName="Agresif Savunma Sistemi"
+Description="Aerosol nanopartiküller, kursunlarin ve el bombalarinin elektromanyetik tehdit profiline uyan nesneler bulma üzerinde çikarildi; bu nanopartiküller ajana ulasmadan önce bu tip nesneleri vaktinden önce patlatacaktir.|n|nTEKNO 1: Gelen roketlerin ve el bombalarinin patlatilma menzili kisadir.|n|nTEKNO 2: Meydana gelen patlamalarin menzili biraz artmistir.|n|nTEKNO 3: Meydana gelen patlamalarin menzili orta derecede artmistir.|n|nTEKNO 4: Roketler ve el bombalari neredeyse ateslenmeden önce patlatilir."
+MPInfo="Aktifken, düsman roketleri onlar yakinken patlatilir, bunu yapmak hasar azaltir.  Bazi büyük roketler hala patlarken hasar verecek yakinlikta olabilir.  Enerji Azaltma: Düsük"
+
+[CigaretteMachine]
+msgDispensed="Hesabinizdan 8 kredi çikarildi"
+msgNoCredits="Fiyati 8 kredi..."
+msgEmpty="Içi bos"
+ItemName="Sigara Otomati"
+
+[RiotCop]
+FamiliarName="Çevik Kuvvet"
+UnfamiliarName="Çevik Kuvvet"
+
+[Fly]
+FamiliarName="Fly"
+UnfamiliarName="Fly"
+
+[Gray]
+FamiliarName="Gri"
+UnfamiliarName="Gri"
+
+[ComputerScreenLogin]
+UserNameLabel="Kullanici Adi"
+PasswordLabel="Parola"
+InvalidLoginMessage="OTURUM AÇMA HATASI - ERISIM ENGELLENDI"
+Title="%s'e Hosgeldiniz"
+ComputerNodeFunctionLabel="Oturum Aç"
+
+[Poolball]
+ItemName="Bilardo Topu"
+
+[HUDMedBotNavBarWindow]
+HealthButtonLabel=" |&Saglik   "
+AugsButtonLabel="   |&Artiricilar   "
+
+[SandraRenton]
+FamiliarName="Sandra Renton"
+UnfamiliarName="Sandra Renton"
+
+[AmmoDart]
+ItemName="Dart"
+ItemArticle="bir"
+Description="Mini-arbalet dart çogu 'islak' operasyonlar için destekleyici bir silahtir; bununla birlikte, sessiz öldürme yüksek derecede bir beceri gerektirir."
+beltDescription="DART"
+
+[ComputerScreenATM]
+AccountLabel="Hesap #:"
+PinLabel="PIN #:"
+LoginInfoText="Lütfen Hesap # ve Pin girin"
+WarningText="UYARI: Yetkisiz erisim asiri güçle karsilanacak!"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[login]"
+InvalidLoginMessage="OTURUM AÇMA HATASI, ERISIM ENGELLENDI"
+Title="PageNet Küresel Bankacilik Sistemi"
+
+[WeaponAssaultGun]
+ItemName="Saldiri Tüfegi"
+ItemArticle="bir"
+Description="7.62x51mm saldiri tüfegi yakin muharebeler için tasarlandi, manevra yapabilmeyi artirmak için kisaltilmis bir namlu ve 'bullpup tüfegi' tasarimindan yararlanildi. Eklenmis el altindaki 20mm HE Firlatici çesitli hedeflere karsi tüfegin efektifligini artirir."
+beltDescription="SALDIRI T"
+
+[ComputerScreenATMDisabled]
+ButtonLabelClose="Kapat"
+LoginInfoText="Üzgünüz, bu terminal hizmet disi (ERR 06MJ12)|n|nSorun için sizden özür dileriz ancak küresel çaptaki diger 231,000 PageNet Bankacilik Terminali'nin herhangi birinde size memnuniyetle hizmet veririz."
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[dsbld]"
+Title="PageNet Küresel Bankacilik Sistemi"
+
+[MenuChoice_Volume]
+VolumeOffText="KPL"
+VolumeMaxText="MAKS"
+
+[PersonaInventoryCreditsWindow]
+CreditsLabel="Kredi"
+
+[ThugMale]
+FamiliarName="Serseri"
+UnfamiliarName="Serseri"
+
+[MenuScreenBrightness]
+HelpMessage="Barlarin altindaki saf siyahi pürüzsüzce soldurmak için kaydiriciyi ayarla."
+Title="Parlakligi Ayarla"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuMain]
+Title="DEUS EX'e Hosgeldiniz"
+ButtonNames[0]="Yeni Oyun"
+ButtonNames[1]="Oyun Kaydet"
+ButtonNames[2]="Oyun Yükle"
+ButtonNames[3]="Ayarlar"
+ButtonNames[4]="Egitim"
+ButtonNames[5]="Intro Oynat"
+ButtonNames[6]="Yapimcilar"
+ButtonNames[7]="Oyuna Dön"
+ButtonNames[8]="Çokoyunculu"
+ButtonNames[9]="Çikis"
+
+[LAM]
+ItemName="Hafif Saldiri Araci (LAM)"
+
+[Cigarettes]
+ItemName="Sigara"
+ItemArticle="birkaç"
+Description="'ÖKSÜRÜK TUTAR -- hemen bir sigara içtiginizde.'"
+beltDescription="SIGARA"
+
+[WeaponModAccuracy]
+ItemName="Silah Modifikasyonu (Dogruluk)"
+Description="Çogu fisekli silahlarin çatisina kenetlendiginde, harmonik bir dengeleyici dogrulugu artirmasindan dolayi bir fisek ateslemeden dogan dikey hareketi azaltacak.|n|n<UNATCO OPS FILE NOTE SC108-BLUE> Önemli miktarda titresimi olan hemen her silah bir dengeleyici ile modifiye edilebilir; Ben mini-arbalet ve bir prototip plazma silahiyla bile çalistigini görmüstüm. -- Sam Carter <END NOTE>"
+beltDescription="MOD DGRLK"
+
+[WeaponModRecoil]
+ItemName="Silah Modifikasyonu (Geri Tepme)"
+Description="Materyal emen çok hücreli sokla hafifletilmis bir kundak, kavranan geri tepmeyi önemli ölçüde düsürecek."
+beltDescription="MOD GRTPM"
+
+[WeaponModReload]
+ItemName="Silah Modifikasyonu (Doldurma)"
+Description="Bir hiz yükleyici bir silahi tekrar doldurmayi gereken süreyi harika biçimde azaltir."
+beltDescription="MOD DLDRM"
+
+[EMPGrenade]
+ItemName="Elektromanyetik Nabiz El Bombasi (EMP)"
+
+[NanoVirusGrenade]
+ItemName="Sinyal Karistirici El Bombasi"
+
+[WeaponSword]
+ItemName="Kiliç"
+Description="Oldukça igrenç gözüken bir kiliç."
+beltDescription="KILIÇ"
+
+[WeaponCrowbar]
+ItemName="Levye"
+Description="Bir levye. Birine ya da bir seye onunla vur ve tekrar et.|n|n<UNATCO OPS FILE NOTE GH010-BLUE> Çogu levyeye 'levyeler cinayeti' deriz.  Hep çarpisma için bir tane vardir. Hah. -- Gunther Hermann <END NOTE>"
+beltDescription="LEVYE"
+
+[TracerTong]
+FamiliarName="Tracer Tong"
+UnfamiliarName="Tracer Tong"
+
+[WIB]
+FamiliarName="Siyah Giyen Kadin"
+UnfamiliarName="Siyah Giyen Kadin"
+
+[MIB]
+FamiliarName="Siyah Giyen Adam"
+UnfamiliarName="Siyah Giyen Adam"
+
+[AugMuscle]
+AugmentationName="Mikrofibral Kas"
+Description="Kas gücü, bir ajanin olaganüstü agir nesneleri kaldirmasina izin veren iyonik polimerik jel miyofibrillerle büyütülmüstür.|n|nTEKNO 1: Güç azicik artmistir.|n|nTEKNO 2: Güç orta düzeyde artmistir.|n|nTEKNO 3: Güç önemli ölçüde artmistir.|n|nTEKNO 4: Bir ajan zalim derecede güçlüdür."
+MPInfo="Aktifken, büyük sandiklari alabileceksin.  Enerji Azalma: Düsük"
+
+[DeathMatchGame]
+TooManyPlayers=Çok fazla oyuncu
+VictoryConString1="Amaç: Maçi kazanmak için "
+VictoryConString2=" öldürmeye ilk ulasan kisi ol."
+TimeLimitString1="Amaç: Daha fazla öldürme sayisi kazan, ( "
+TimeLimitString2=" ) süre dolmadan önce!"
+
+[Rat]
+FamiliarName="Siçan"
+UnfamiliarName="Siçan"
+
+[Karkian]
+FamiliarName="Karkian"
+UnfamiliarName="Karkian"
+
+[AlarmLight]
+ItemName="Alarm Isigi"
+
+[Cat]
+FamiliarName="Kedi"
+UnfamiliarName="Kedi"
+
+[Cart]
+ItemName="Itmelik El Arabasi"
+
+[WaterCooler]
+msgEmpty="Su bitti"
+ItemName="Su Sogutucu"
+
+[WaterFountain]
+msgEmpty="Su bitti"
+ItemName="Su Çesmesi"
+
+[MiniSub]
+ItemName="Mini-Denizalti"
+
+[Dart]
+ItemName="Dart"
+ItemArticle="bir"
+
+[Ammo3006]
+ItemName="30.06 Cephane"
+ItemArticle="bir"
+Description="Yüksek hiz ve dogrulugu 30.06 mermi kullanan keskin nisanci silahlari 50 yili askindir 'tek atista öldürme' gerektiren durumlarda tercih edilen alet yapmistir."
+beltDescription="3006 CPHN"
+
+[TechGoggles]
+ExpireMessage="TeknoGözlük'ün mevcut gücü kullanildi"
+ItemName="TeknoGözlük"
+ItemArticle="bir"
+Description="Tekno gözlükler birçok degisik marka adi altinda dünyanin her yerinde çogu özel operasyon güçleri tarafindan kullanilmislardir, ama hepsi çikarilabilir bir pakette tasinabilir isik detaylarinin bazi formlarini verirler."
+beltDescription="GÖZLÜK"
+
+[MorganEverett]
+FamiliarName="Morgan Everett"
+UnfamiliarName="Morgan Everett"
+
+[MenuChoice_ObjectTextureDetail]
+helpText="Nesnelerdeki doku detayi miktarini degistir"
+actionText="Nesne D|&oku Detayi"
+configSetting="ini:Engine.Engine.ViewportManager SkinDetail"
+enumText[0]="Düsük"
+enumText[1]="Yüksek"
+
+[MenuChoice_WorldTextureDetail]
+helpText="Yerin doku detayi miktarini degistir"
+actionText="|&Yer Doku Detayi"
+configSetting="ini:Engine.Engine.ViewportManager TextureDetail"
+
+[MenuChoice_DetailTextures]
+helpText="Doku detayini devre disi birakmak daha yavas makinelerde performansi gelistirebilir"
+actionText="Doku D|&etayi"
+configSetting="ini:Engine.Engine.GameRenderDevice DetailTextures"
+
+[MenuChoice_Decals]
+helpText="Çikartmalari devre disi birakmak daha yavas makinelerde performansi gelistirebilir"
+actionText="Çika|&rtmalar"
+configSetting="ini:Engine.Engine.ViewportManager Decals"
+
+[MenuChoice_MouseSensitivity]
+helpText="Fare hassasiyetini ayarlar"
+actionText="Fare Has|&sasiyeti"
+
+[MenuChoice_MaxLogLines]
+helpText="Belirli bir zamanda ekranda görünür maksimum kayit satiri sayisi"
+actionText="Maks. Kayit Satiri"
+
+[MenuChoice_LogTimeoutValue]
+msgSecond="s"
+helpText="Kayit mesajlarinin ekranda görünür kalma süresini seç"
+actionText="|&Kayit Görüntüleme Süresi"
+
+[HKMilitary]
+FamiliarName="Çin Ordusu"
+UnfamiliarName="Çin Ordusu"
+
+[NicoletteDuClare]
+FamiliarName="Nicolette DuClare"
+UnfamiliarName="Nicolette DuClare"
+
+[ThugMale2]
+FamiliarName="Serseri"
+UnfamiliarName="Serseri"
+
+[AdaptiveArmor]
+ExpireMessage="Termoptik kamuflajin mevcut gücü kullanildi"
+ItemName="Termoptik Kamuflaj"
+ItemArticle="bir"
+Description="Dokuma fiberoptikler ve gelismis bir bilgisayar sisteminin entegre edilmesiyle, termoptik kamuflaj dinamik olarak kirilan isik ve radar dalgalari tarafindan bir ajanin insanlara ve botlara karsi görünmez olmasini saglayabilir; bununla birlikte, yüksek güç azalmasi kisa süreli kullanimdan daha fazlasi için onu elverissiz yapar, devre bir yerden sonra erir ve ise yaramaz hale gelir."
+beltDescription="TERM KMFL"
+
+[AugRadarTrans]
+AugmentationName="Radar Saydamligi"
+Description="Radar-emici reçine epitel proteinler ekler; mikroprojeksiyon üniteler ajanin görsel imzasini çarpitir. Otomatik tespit sistemlerinden (botlar, kameralar, taretler) yüksek derecede efektif gizleme saglar.|n|nTEKNO 1: Güç azalmasi normal.|n|nTEKNO 2: Güç azalmasi biraz düser.|n|nTEKNO 3: Güç azalmasi orta derecede düser.|n|nTEKNO 4: Güç azalmasi önemli derecede düser."
+MPInfo="Aktifken, kameralar, taretler ve yakinlik mayinlar gibi elektronik aygitlara karsi görünmezsin.  Enerji Azalma: Çok Düsük"
+
+[MenuChoice_SoundQuality]
+RestartTitle="Ses Kalitesi"
+RestartMessage="Bu degisiklik Deus Ex yeniden baslatilana dek etkin olmayacak."
+helpText="16-bit ses yüksek kalitelidir ama 8-bit sese göre iki kat kadar hafiza kullanir, bu yüzden hafizaniz düsükse, 8-bit kullanin."
+actionText="Ses Ka|&litesi"
+configSetting="ini:Engine.Engine.AudioDevice LowSoundQuality"
+enumText[0]="8-bit"
+enumText[1]="16-bit"
+
+[AmmoSabot]
+ItemName="12 Ölçek Sabot Kovani"
+ItemArticle="bir"
+Description="Kati bir çekirdegini çevreleyen bir 12 ölçek pompali kovan yakin menzilde neredeyse en kalin sertlikte çelik yelegi bile zimbalayabilir; bununla birlikte, balistik profili yumusak hedeflere karsi minimal hasarla neticelenecektir."
+beltDescription="SABOT"
+
+[MenuChoice_TextureColorBits]
+RestartTitle="Renk Derinligi"
+RestartMessage="Bu degisiklik Deus Ex yeniden baslatilana dek etkin olmayacak."
+helpText="Dokunun renk derinligini belirler.  32-bit dokular donaniminiz destekliyorsa daha iyi görünür."
+actionText="|&Renk Derinligi"
+configSetting="ini:Engine.Engine.ViewportManager FullscreenColorBits"
+enumText[0]="16-bit"
+enumText[1]="32-bit"
+
+[Binoculars]
+ItemName="Dürbün"
+ItemArticle="bir"
+Description="Askeri dürbünden bir çift."
+beltDescription="DÜRBÜN"
+
+[Liquor40oz]
+ItemName="Içki"
+Description="'SOGUK TERLI içki 30 gr. malt likör içerir. SOGUK TERLI'ni hiç görmeyelim.'"
+beltDescription="IÇKI"
+
+[LiquorBottle]
+ItemName="Likör"
+ItemArticle="bir"
+Description="Etiket yirtilmis, ama biraz iyi bir sey gibi görünüyor."
+beltDescription="LIKÖR"
+
+[ComputerPublic]
+ItemName="Kamu Bilgisayar Terminali"
+
+[WeaponModClip]
+ItemName="Silah Modifikasyonu (Sarjör)"
+Description="Fabrika çikisi altinda sarjör kapasitesini artiran genisletilmis bir sarjör."
+beltDescription="MOD SRJR"
+
+[VialCrack]
+ItemName="Zim Sisesi"
+Description="Bir zim sisesi, birkaç bodrum laboratuvarinda demlenmis."
+beltDescription="ZIM"
+
+[HazMatSuit]
+ExpireMessage="Radyasyon koruyucu elbisenin mevcut gücü kullanildi"
+ItemName="Radyasyon Koruyucu Elbise"
+Description="Radyasyon, ates, biyokimyasal toksinler, elektrik ve EMP gibi çevresel tehlikelere karsi koruyan standart bir tehlikeli materyaller elbisesi. Radyasyon koruyucu elbiseler zehirli maddeleri ayristiran entegre bir bakteriyel oksijen yikayici içerir bu yüzden tekrar kullanilmamalidir."
+beltDescription="RADKOR"
+
+[WeaponModRange]
+ItemName="Silah Modifikasyonu (Menzil)"
+Description="Sentetik sinoviyal akiskanla atesleme yolunu yaglayarak, ateslenmis fiseklerde sürüklenmeyi menzilde önemli bir artisla harika biçimde düsürür.|n|n<UNATCO OPS FILE NOTE SC111-BLUE> Sinoviyal yaglayicida bir alevli silahin veya plazma silahinin birincil vana sistemini örtmek ve sonra dagitma sistemine asiri baski uygulamak menzilde bir artisla sonuçlanacaktir. Ufak numarayi saha deneyi boyunca ögrendim. -- Sam Carter <END NOTE>"
+beltDescription="MOD MNZL"
+
+[PersonaImageNewLegendLabel]
+NewLegendLabel=" = Yeni Resim"
+
+[BallisticArmor]
+ExpireMessage="Balistik yelegin mevcut gücü kullanildi"
+ItemName="Balistik Yelek"
+ItemArticle="bir"
+Description="Hasar çogunlugunu emerek ve sonuçta 'katilasarak' bir mermi veya bir patlamanin siddetli etkisine dogasi geregi tepki veren balistik yelek elektriksel biçimde hassas polimer tabakalardan üretildi.  Bu polimer tabakalar kullanimdan önce sarj edilmelidir; sarjdan sonra tepkisel özelliklerini kaybederek yok olur ve atilmalidir."
+beltDescription="BAL YELEK"
+
+[MenuChoice_EffectsChannels]
+helpText="Ses Efektleri Kanal Sayisi"
+actionText="E|&fekt Kanal Sayisi"
+configSetting="ini:Engine.Engine.AudioDevice EffectsChannels"
+
+[SkillAwardTrigger]
+awardMessage="DEFAULT SKILL AWARD MESSAGE - REPORT THIS AS A BUG"
+
+[Shuriken]
+ItemName="Firlatma Biçagi"
+ItemArticle="bir"
+
+[ShipsWheel]
+ItemName="Geminin Dümeni"
+
+[AmmoRocket]
+ItemName="Roket"
+ItemArticle="bir"
+Description="Uçus içi rota düzeltme için limitli tümlesik rehberlik sistemleriyle jiroskopik olarak stabilize bir roket. GEP silahiyla kullanim için yapildi."
+beltDescription="ROKET"
+
+[CageLight]
+ItemName="Isik Donatisi"
+
+[AmmoBattery]
+ItemName="Dürtme Sarj Aleti"
+ItemArticle="bir"
+Description="Kargasa dürtüsü için tasinabilir sarj ünitesi."
+beltDescription="DÜRT SARJ"
+
+[AugDrone]
+AugmentationName="Casus Dron"
+Description="Gelismis nanofabrikalar ihtiyaç üstüne bir casus dronu monte edilebilir, kurtarilana veya yok edene kadar ajan tarafindan uzaktan kontrol edilebilir. Daha iyi yükseltmeler, daha iyi yelek ve tek-atisli bir EMP saldiriyla casus dronlarinin donatilmasini saglar.|n|nTEKNO 1: Drone azicik hasar alabilir ve çok hafif EMP saldirisi vardir.|n|nTEKNO 2: Drone ufak hasar alabilir ve hafif EMP saldirisi vardir.|n|nTEKNO 3: Drone orta derecede hasar alabilir ve orta düzeyde EMP saldirisi vardir.|n|nTEKNO 4: Drone agir hasar alabilir ve güçlü EMP saldirisi vardir."
+MPInfo="Aktivasyon uzaktan kumandali bir casus dron olusturur.  Deaktivasyon dronda devre disidir.  Ates edilirken saglam bir EMP patlamasinda dronun havaya uçmasini aktiflestirir.  Enerji Azalma: Orta"
+
+[Basketball]
+ItemName="Basket Topu"
+
+[AugCombat]
+AugmentationName="Çarpisma Kuvveti"
+Description="Sarkoplazmik retikulumda kalsiyum iyon yogunlasmasini hizlandiran rotorlari siniflandirmak, bir ajanin kas hizini birkaç kat artirir ve yakin dövüs silahinda yüklenmis hasari çogaltir.|n|nTEKNO 1: Yakin dövüs silahlarinin efektifligi biraz artmistir.|n|nTEKNO 2: Yakin dövüs silahlarinin efektifligi orta derecede artmistir.|n|nTEKNO 3: Yakin dövüs silahlarinin efektifligi önemli derecede artmistir.|n|nTEKNO 4: Yakin dövüs silahlari hemen hemen aninda öldürücüdür."
+MPInfo="Aktifken, yakin dövüs silahlariyla iki kat hasar verirsin.  Enerji Azalma: Düsük"
+
+[AugAqualung]
+AugmentationName="Suakciger"
+Description="CO2 - O2 dönüsümünde akcigerlerin alveoli kisminda gömülmüs kalsiyum oksit ekzoyapilarla, bir ajan daha fazla süre sualtinda kalabilir.|n|nTEKNO 1: Akciger kapasitesi biraz genislemistir.|n|nTEKNO 2: Akciger kapasitesi orta derecede genislemistir.|n|nTEKNO 3: Akciger kapasitesi önemli derecede genislemistir.|n|nTEKNO 4: Bir ajan süresiz olarak sualtinda kalabilir."
+MPInfo="Aktifken, 12 kat uzun süre su altinda kalabilir ve iki kat hizli yüzebilirsin.  Enerji Azalma: Düsük"
+
+[RetinalScanner]
+msgUsed="Izin onaylandi"
+ItemName="Retinal Tarayici"
+
+[WineBottle]
+ItemName="Sarap"
+ItemArticle="bir"
+Description="Iyi bir sise sarap."
+beltDescription="SARAP"
+
+[Valve]
+ItemName="Vana"
+
+[LowerClassFemale]
+FamiliarName="Alt Tabaka"
+UnfamiliarName="Alt Tabaka"
+
+[TerroristCommander]
+FamiliarName="Terörist Komutan"
+UnfamiliarName="Terörist Komutan"
+
+[GarySavage]
+FamiliarName="Gary Savage"
+UnfamiliarName="Gary Savage"
+
+[SpiderBot]
+FamiliarName="ÖrümcekBot"
+UnfamiliarName="ÖrümcekBot"
+
+[StantonDowd]
+FamiliarName="Stanton Dowd"
+UnfamiliarName="Stanton Dowd"
+
+[FordSchick]
+FamiliarName="Ford Schick"
+UnfamiliarName="Ford Schick"
+
+[MenuChoice_RenderDevice]
+PromptTitle="Deus Ex'i Yeniden Baslat?"
+GamePromptMessage="Bir render aygiti seçmek amaciyla, Deus Ex yeniden baslatilmis olmalidir. Oynadiginiz simdiki oyun daha önceden kaydedilmediyse kaybedilmis olacak. Yeniden baslatmayi hala istiyor musunuz?"
+RestartPromptMessage="Bir render aygiti seçmek amaciyla, Deus Ex yeniden baslatilmis olmalidir. Ilerlemek ister misiniz?"
+helpText="3B renderleme kullanmak için bir aygit seçin. Bir 3B donanim aygiti seçmenize izin vermek için Deus Ex'ten çikilmalidir."
+actionText="Ren|&derleme Aygiti..."
+
+[WeaponModSilencer]
+ItemName="Silah Modifikasyonu (Susturucu)"
+Description="Bir susturucu silah namlusundan çikan bir merminin uyanmasindan kalan çabuk genisleyen gazlar tarafindan neden olan namlu agzinin yarigini saracak.|n|n<UNATCO OPS FILE NOTE SC108-BLUE> Açiktir ki, bir susturucu tabancalarla birlikte ancak etkilidir. -- Sam Carter <END NOTE>"
+beltDescription="MOD SUSTR"
+
+[WeaponModScope]
+ItemName="Silah Modifikasyonu (Dürbün)"
+Description="Teleskopik bir dürbün tutturma hedefi yakinlastirma yetenegi kazandirir ve mesafeli hedeflere karsi dogrulugu artirir."
+beltDescription="MOD DÜRBN"
+
+[ScubaDiver]
+FamiliarName="Dalis Yüzücüsü"
+UnfamiliarName="Dalis Yüzücüsü"
+
+[WeaponModLaser]
+ItemName="Silah Modifikasyonu (Lazer)"
+Description="Bir lazer hedefleme noktasi bir fisegin etki noktasini görsel olarak ölçmek için yetersizlikle sonuçlanan herhangi bir hatayi yok eder."
+beltDescription="MOD LAZER"
+
+[VialAmbrosia]
+msgNoEffect="Tuhaf...hiçbir sey olmadi..."
+ItemName="Ambrosia Sisesi"
+ItemArticle="bir"
+Description="Gri Ölüm'e karsi bilinen tek asi. Maalesef, en fazla onun etkilerini geçici yapan vücut tarafindan çabucak metabolize edilir."
+beltDescription="AMBROSIA"
+
+[SoyFood]
+ItemName="Soya Yiyecegi"
+ItemArticle="bir"
+Description="Parmak izi: 'Nanoölçek mekanokimyasal jeneratörle çesnilendirilmis, bu dokulu soya proteini sadece iyi degildir ayni zamanda paket açildiginda kendi basina sicaktir.'"
+beltDescription="SOYA"
+
+[Sodacan]
+ItemName="Soda"
+ItemArticle="bir"
+Description="Bu kutu 'ÜRÜNÜ BURAYA YERLESTIR' ibaresi haricinde bos. Bu bir ad mi yoksa bir davet mi orasi muamma."
+beltDescription="SODA"
+
+[BookOpen]
+ItemName="Kitap"
+
+[Candybar]
+ItemName="Çikolata"
+Description="'ÇI-KO-LA-TA RÜYASI. BU ÇIKOLATA! BU INSANLAR! BU IKISI!(tm) %85 Geri Dönüstürülmüs Materyal.'"
+beltDescription="ÇIKOLATA"
+
+[Rebreather]
+ExpireMessage="Nefeslik'in mevcut gücü kullanildi"
+ItemName="Nefeslik"
+Description="Kisa batma operasyonlari süresince sudan oksijen çikartabilen atilabilir bir kimyasal yikayici."
+beltDescription="NEFESLIK"
+
+[MenuChoice_SampleRate]
+helpText="Daha düsük örnekleme orani, daha az CPU kullanimi ve daha düsük ses kalitesi demektir."
+actionText="Örnekleme Or|&ani"
+configSetting="ini:Engine.Engine.AudioDevice OutputRate"
+enumText[0]="11025Hz"
+enumText[1]="22050Hz"
+enumText[2]="44100Hz"
+RestartTitle="Ses Kalitesi"
+RestartMessage="Bu degisiklik Deus Ex yeniden baslatilana dek etkin olmayacak."
+
+[SecurityBot2]
+FamiliarName="Güvenlik Botu"
+UnfamiliarName="Güvenlik Botu"
+
+[AugSpeed]
+AugmentationName="Hiz Gelistirici"
+Description="Iyonik polimerik jel miyofibriller bacak kaslarini dokur, bir ajanin kosabilme ve tirmanabilme hizini bir de ziplayabilecekleri yüksekligi artirir ve düsmelerinden kaynaklanan hasari düsürür.|n|nTEKNO 1: Hiz ve ziplama biraz artmis, düsme hasari azalmistir.|n|nTEKNO 2: Hiz ve ziplama orta derecede artmis, düsme hasari biraz daha azalmistir.|n|nTEKNO 3: Hiz ve ziplama önemli derecede artmis, düsme hasari büyük bir oranda azalmistir.|n|nTEKNO 4: Bir ajan rüzgar gibi kosabilir ve en uzun binadan atlayabilir."
+MPInfo="Aktifken, iki kat hizli hareket eder ve iki kat yüksege ziplarsin.  Enerji Azalma: Çok Yüksek"
+
+[WeaponNanoVirusGrenade]
+ItemName="Sinyal Karistirici El Bombasi"
+Description="MUHAFIZ bir sinyal karistirici el bombasi patlamasi kisa bir menzilde yayin yapar, neredeyse tüm botlar tarafindan kullanilan komut frekanslarinda polimorfik genisbant saldirisi 2028'den beri üretilmektedir. Elektronik firtinadan sonra olmak, yeniden kurulabilen komut kontrolü altindaki diger botlarin ayrim yapmayacak biçimde saldirmasi için etki alanlari içinde botlara yol açar. Bir LAM gibi, sinyal karistirici el bombalari herhangi bir yüzeye tutturulabilir."
+beltDescription="SIN BOMBA"
+
+[WeaponEMPGrenade]
+ItemName="Elektromanyetik Nabiz El Bombasi"
+ItemArticle="bir"
+Description="EMP el bombalari kameralari ve güvenlik kafeslerini kapsayan etki alani içindeki tüm elektronikleri geçici olarak devre disi birakacak sinirli bir nabiz olusturur.|n|n<UNATCO OPS FILE NOTE JR134-VIOLET> Nanoteknolojik artiricilar EMP tarafindan çok etkilenmemisken, deneyler göstermistir ki bu, depolanmis biyoelektrik enerjinin kendiliginden bosa gitmesine NEDEN OLACAK. -- Jaime Reyes <END NOTE>"
+beltDescription="EMP BOMBA"
+
+[MenuSelectDifficulty]
+Title="Çarpisma Zorlugu Seç"
+ButtonNames[0]="Kolay"
+ButtonNames[1]="Orta"
+ButtonNames[2]="Zor"
+ButtonNames[3]="Gerçekçi"
+ButtonNames[4]="Önceki Menü"
+
+[AttackHelicopter]
+ItemName="Saldiri Helikopteri"
+
+[MilitaryBot]
+FamiliarName="Askeri Bot"
+UnfamiliarName="Askeri Bot"
+
+[AmmoDartPoison]
+ItemName="Sakinlestirici Dart"
+Description="Bir mini-arbalet dart öldürücü olmayan bir yolda bir hedefi efektif biçimde aciz birakan tam bir iskelet gibi kas gevsemesine yol açan bir süksamentonyum klorür-varyantla yan yatirir."
+beltDescription="SKN DART"
+
+[AlexJacobson]
+FamiliarName="Alex Jacobson"
+UnfamiliarName="Bilgisayar Korsani"
+
+[Phone]
+ItemName="Telefon"
+
+[Toilet2]
+ItemName="Pisuvar"
+
+[Toilet]
+ItemName="Tuvalet"
+
+[Switch1]
+ItemName="Dügme"
+
+[LightSwitch]
+ItemName="Dügme"
+
+[HKMarketTarp]
+ItemName="Tablo Branda"
+
+[HKHangingPig]
+ItemName="Kesilmis Domuz"
+
+[HangingChicken]
+ItemName="Kesilmis Tavuk"
+
+[BarrelFire]
+ItemName="Yanan Varil"
+
+[Doctor]
+FamiliarName="Doktor"
+UnfamiliarName="Doktor"
+
+[TobyAtanwe]
+FamiliarName="Toby Atanwe"
+UnfamiliarName="Toby Atanwe"
+
+[WeaponStealthPistol]
+ItemName="Gizlilik Tabancasi"
+Description="Gizlilik tabancasi çok yakin menzilde islak is için tasarlanmis entegre susturucu ve daha büyük sarjörle bir çesit standart 10mm tabanca."
+beltDescription="GZL TBNC"
+
+[WeaponShuriken]
+ItemName="Firlatma Biçagi"
+ItemArticle="bir"
+Description="Yüzyillarca Uzak Dogu'da suikastçilerin gözde silahi olan firlatma biçaklari bir usta tarafindan kullanilirken öldürücü olabilir ama daha genel olarak bir mesaj göndermeye arzulanabilir oldugunda kullanilir. Mesaj genellikle 'Ölümün hizli adimlarda geliyor.' olur."
+beltDescription="FIR BIÇAK"
+
+[WeaponSawedOffShotgun]
+ItemName="Kisa Namlulu Pompali Tüfek"
+Description="Kisa namlulu pompali tüfek yakin menzilde genis bir yayilmayla sonuçlanan budanmis bir namlu özelligi tasir ve saçma veya sabot kovanlarini da kabul edecektir."
+beltDescription="KISA PMP"
+
+[MenuScreenAdjustColors]
+Title="Renkleri Ayarla"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[WeaponProd]
+ItemName="Elektrikli Dürtme"
+Description="Elektrikli dürtme asayisi korumak isteyen güvenlik güçleri tarafindan yaygin biçimde kullanilmistir ve degerli bir alet olacak dürtmeye sahiptir. Kisa mesafedeki firlatma etkisi gövdeye uygulandiginda veya özneye sürpriz yaparken çok etkilidir."
+beltDescription="DÜRTME"
+
+[WeaponPlasmaRifle]
+ItemName="Plazma Tüfek"
+Description="Su an tek bir prototip serisi gibi üretilmis olan deneysel bir silah, plazma silah miknatisli-uyusturma mermilerini asiri isitir ve lineer miknatislarin bir düzenini kullanarak ortaya çikan sivi-gaz karisimini hizlandirir. Ortaya çikan plazma akintisi yavas hareket eden hedeflere karsi kullanildiginda ölümcüldür."
+beltDescription="PLAZMA"
+
+[SpiderBot2]
+FamiliarName="Mini-ÖrümcekBot"
+UnfamiliarName="Mini-ÖrümcekBot"
+
+[HowardStrong]
+FamiliarName="Howard Strong"
+UnfamiliarName="Howard Strong"
+
+[WeaponAssaultShotgun]
+ItemName="Saldiri Pompali Tüfegi"
+ItemArticle="bir"
+Description="Saldiri pompali tüfek (bazen bir 'sokak süpürücü' olarak söz edilir) birkaç saniyede bir düsman bölgesini temizleyebilen tam otomatik bir beslemeyle normal bir pompali tüfegin en iyi özelliklerini birlestirir. Sokak muharebesinde bilhassa efektif olan saldiri pompali tüfek hem kisa namlulu pompali tüfek kovanlarini hem de sabot kovanlarini kabul eder."
+beltDescription="POMPALI"
+
+[WeaponFlamethrower]
+ItemName="Alev Silahi"
+Description="Napalm kaplarinda basinçli destekte eski ve yüksek düzeyde tehlikeli sirt çantali benzin dagitma sisteminde alev çikartan tasinabilir bir alev silahi. Bununla birlikte, deneyimsiz ajanlar bir alev silahiyla manevra yapmanin zor olabilecegini kesfedecektir."
+beltDescription="ALEVSLH"
+
+[WeaponGasGrenade]
+ItemName="Gaz Bombasi"
+Description="Infilak üzerinde, gaz bombasi etki alani üzerinde (bir askeri-kalitede 'göz yasartici bomba' ajani) gazin büyük bir kismini serbest birakir. Gaz bombasi geçici körlük ve kontrolsüz öksürme basta olmak üzere tüm korunmasiz mukus zarlarinin tahris olmasina neden olacak. Bir LAM gibi, gaz bombalari herhangi bir yüzeye tutturulmus olabilir."
+beltDescription="GAZ BOMBA"
+
+[TriadLumPath]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[WeaponLAM]
+ItemName="Hafif Saldiri Cephanesi (LAM)"
+Description="Onun polihesif destegi ve bir yakinlik mayin gibi kullanilmasi ile herhangi bir yüzeye tutturulmus veya firlatilmis olabilen elektronik donatimli sistemle çok islevli bir patlayici.|n|n<UNATCO OPS FILE NOTE SC093-BLUE> Bir yakinlik aygitini etkisiz hale getirmek yalnizca uygun tahrip egitimleriyle tesebbüs edilebilir. Bunun için bana güven. -- Sam Carter <END NOTE>"
+beltDescription="LAM"
+ShortName="LAM"
+
+[TriadRedArrow]
+FamiliarName="Çete Üyesi"
+UnfamiliarName="Çete Üyesi"
+
+[ControlPanel]
+ItemName="Elektronik Kontrol Paneli"
+
+[DartPoison]
+ItemName="Sakinlestirici Dart"
+
+[AmmoDartFlare]
+ItemName="Isik Dart"
+Description="Mini-arbalet isik dartlari hedeflenmis bir bölgenin aydinlatimini saglamak için çarpmayla tutusan, az-yanan yangin çikarici bir aygit olarak kullanilir."
+beltDescription="ISIK DART"
+
+[MenuChoice_MenuColor]
+helpText="Tüm menülerde kullanilan renk semasi."
+actionText="|&Menü Renk Semasi"
+
+[MenuChoice_HUDColor]
+helpText="Tüm oyun içi ekranlarda kullanilan renk semasi."
+actionText="|&HUD Renk Semasi"
+
+[AmmoNapalm]
+ItemName="Napalm Kabi"
+ItemArticle="bir"
+Description="Alev silahlariyla kullanmak için jöleli benzinin içinde oldugu basinçli bir kap.|n|n<UNATCO OPS FILE NOTE SC080-BLUE> Kap bir yangin süresince etrafa saçilan mermilerin neden oldugu istem disi patlamalari en aza indirmek için çift-kaplama olarak yapilmistir. -- Sam Carter <END NOTE>"
+beltDescription="NAPALM"
+
+[AmmoPlasma]
+ItemName="Plazma Sarjör"
+ItemArticle="bir"
+Description="Dar çikimli bir sarjör, plazma silahi kullanarak sok edici etkiyle isinmis ve dagitmis olabilen manyetik olarak sersemlemis plastik saçmalar."
+beltDescription="PMA SRJR"
+
+[AugBallistic]
+AugmentationName="Balistik Koruma"
+Description="Monomoleküler plakalar derinin epiteliyal zarina destek verir, bir ajanin kursunlardan ve delici silahlardan aldigi hasari azaltir.|n|nTEKNO 1: Kursunlardan ve delici silahlardan aldigi hasar biraz azalmistir.|n|nTEKNO 2: Kursunlardan ve delici silahlardan aldigi hasar orta derecede azalmistir.|n|nTEKNO 3: Kursunlardan ve delici silahlardan aldigi hasar önemli ölçüde azalmistir.|n|nTEKNO 4: Bir ajan kursunlardan ve delici silahlardan neredeyse hiç hasar almaz."
+MPInfo="Aktifken, biçaktan ve kursunlardan alinan hasar %40 azalir.  Enerji Azalma: Yüksek"
+
+[AugCloak]
+AugmentationName="Pelerin"
+Description="Derialti pigment yapici hücreler, organik düsmanlarin gözetlemesine karsi onlari efektif biçimde görünmez hale getiren ajani onlari kusatan çevreyle karismasina izin verir.|n|nTEKNO 1: Güç azalmasi normal.|n|nTEKNO 2: Güç azalmasi biraz düser.|n|nTEKNO 3: Güç azalmasi orta düzeyde düser.|n|nTEKNO 4: Güç azalmasi önemli ölçüde düser."
+MPInfo="Aktifken, düsman oyunculara karsi görünmezsin.  Görüs Artirici ile elektronik aygitlar ve oyuncular seni hala tespit edebilir.  Bir silahla kullanilamaz.  Enerji Azalma: Orta"
+
+[AugDatalink]
+AugmentationName="Bilgi Baglantilari"
+Description="Tek-yol mikro-alici-verici dizi Kontrol'den mesajlar almak ve ilgili haritalar, sohbetler ve notlari depolamak ve daha sonra tekrar getirmek için bölgede ajanlara izin verir.|n|n<UNATCO OPS FILE NOTE JR133-VIOLET> Bu tamamen üstün kalite, bu yüzden hiç yükseltme bekleme. -- Jaime Reyes <END NOTE>|n|nYÜKSELTME YOK"
+
+[AugEMP]
+AugmentationName="EMP Kalkani"
+Description="Nanoölçek EMP jeneratörleri birey robot böceklerden kismen korur ve gelen nabizlari iptal ederek biyoelektriksel azalmayi düsürür.|n|nTEKNO 1: EMP saldirisindan hasar biraz azalmistir.|n|nTEKNO 2: EMP saldirisindan hasar orta derecede azalmistir.|n|nTEKNO 3: EMP saldirisindan hasar önemli derecede azalmistir.|n|nTEKNO 4: Bir ajan EMP saldirisindan neredeyse hiç hasar almaz."
+MPInfo="Aktifken, EMP saldirilarindan yalnizca %5 hasar alirsin.  Enerji Azalma: Çok Düsük"
+
+[Fan1]
+ItemName="Pervane"
+
+[AugEnviro]
+AugmentationName="Çevresel Direnç"
+Description="Endüklenmis keratin koruma tüm epiteliyal dokularla güçlendirilmistir ve radyasyon ve diger toksinlere karsi ajanin zedelenmesini azaltir.|n|nTEKNO 1: Toksik direnç biraz artmistir.|n|nTEKNO 2: Toksik direnç orta derecede artmistir.|n|nTEKNO 3: Toksik direnç önemli ölçüde artmistir.|n|nTEKNO 4: Bir ajan toksinden neredeyse hiç hasar almaz."
+MPInfo="Aktifken, zehir ve gazdan yalnizca %10 hasar alirsin, zehir ve gaz görüsüne etki etmeyecek.  Enerji Azalma: Düsük"
+
+[AugIFF]
+AugmentationName="Dost-Düsman Tanimlayici"
+Description="Otomatik dost ve düsman tanimlayici bilinen tehdit kategorilerle görünür nesneleri iliskilendirmek için ileri kesifsel algoritmalar kullanir.|n|nHedefleme retikülü düsmanlar üzerinde KIRMIZI, müttefikler ve tarafsizlar üzerinde YESIL renkte gösterir.|n|nYÜKSELTME YOK"
+
+[AugShield]
+AugmentationName="Enerji Kalkani"
+Description="Deri altindaki polianilen kapasitörler isiyi ve elektrigi emer, alevden, elektirkten ve plazma saldirilarindan alinan hasari düsürür.|n|nTEKNO 1: Enerji saldirilarindan hasar biraz azalmistir.|n|nTEKNO 2: Enerji saldirilarindan hasar orta düzeyde azalmistir.|n|nTEKNO 3: Enerji saldirilarindan hasar önemli ölçüde azalmistir.|n|nTEKNO 4: Bir ajan enerji saldirilarindan neredeyse hiç hasar almaz."
+MPInfo="Aktifken, alevden ve plazma saldirilarindan yalnizca %50 hasar alirsin.  Enerji Azalma: Düsük"
+
+[AugStealth]
+AugmentationName="Sessiz Kosma"
+Description="Yürürken ve kosarken tamamen sessizlik için zaruri kas hareketlerini gömülü nanobilgisayarlardan üretilmis reaktif kinematik denklemlerle devamli tespit eder.|n|nTEKNO 1: Hareketten çikan ses biraz azalmistir.|n|nTEKNO 2: Hareketten çikan ses orta düzeyde azalmistir.|n|nTEKNO 3: Hareketten çikan ses önemli ölçüde azalmistir.|n|nTEKNO 4: Bir ajan tamamen sessizdir."
+MPInfo="Aktifken, adim sesleri yapmazsin.  Enerji Azalma: Düsük"
+
+[AugTarget]
+AugmentationName="Hedefleme"
+Description="Poliasetilen 'kuantum kablolar' ile çoklu optik sinir tarafindan saglanmis resim-ölçekleme ve tanima yalnizca dogrulugu artirmaz, ayni zamanda bir hedefle ilgili limitlenmis durumsal bilgiyi de alir.|n|nTEKNO 1: Dogruluk ve genel hedef bilgisi biraz artar.|n|nTEKNO 2: Dogruluk biraz daha artar ve hedef bilgisi daha çoktur.|n|nTEKNO 3: Dogruluk biraz daha artar ve hedef bilgisi özeldir.|n|nTEKNO 4: Dogruluk biraz daha artar ve teleskopik görüs vardir."
+MPInfo="Aktifken, tüm silah becerileri bir düzeyden efektif olarak artmistir, ve bir düsmanin sagligini görebilirsin.  Beceri artislari beceri düzey 3'te efektif biçimde geçmesi için size izin verir.  Enerji Azalma: Orta"
+
+[AcousticSensor]
+ItemName="Atesleme Akustik Sensörü"
+
+[CeilingFan]
+ItemName="Tavan Pervane Kanatlari"
+
+[CeilingFanMotor]
+ItemName="Tavan Pervane Motoru"
+
+[Female4]
+FamiliarName="Kadin"
+UnfamiliarName="Kadin"
+
+[ClothesRack]
+ItemName="Asili Elbiseler"
+
+[HKHangingLantern2]
+ItemName="Kagit Fener"
+
+[ChairLeather]
+ItemName="Konforlu Koltuk"
+
+[CouchLeather]
+ItemName="Deri Kanepe"
+
+[OfficeChair]
+ItemName="Ofis Koltugu"
+
+[WHChairPink]
+ItemName="Sandalye"
+
+[CoffeeTable]
+ItemName="Kahve Masasi"
+
+[FlagPole]
+ItemName="Bayrak Diregi"
+
+[Female1]
+FamiliarName="Kadin"
+UnfamiliarName="Kadin"
+
+[Female3]
+FamiliarName="Kadin"
+UnfamiliarName="Kadin"
+
+[Female2]
+FamiliarName="Kadin"
+UnfamiliarName="Kadin"
+
+[Male4]
+FamiliarName="Erkek"
+UnfamiliarName="Erkek"
+
+[MenuChoice_Crosshairs]
+helpText="Hedef noktasinin görüntülenip görüntülenmeyecegini belirler."
+actionText="|&Hedef Noktasi"
+
+[DartFlare]
+ItemName="Isik Dart"
+
+[MenuChoice_ObjectNames]
+helpText="Etkinse, dünyada seçilen nesnelerin adi görüntülenecek."
+actionText="Nesne A|&dlari"
+
+[MenuChoice_ReverseStereo]
+helpText="Etkinse, sol ve sag stereo kanallar ters çevrilir."
+actionText="Stereoyu Ters Çevi|&r"
+configSetting="ini:Engine.Engine.AudioDevice ReverseStereo"
+
+[MenuChoice_SoundVolume]
+helpText="Ses efektlerinin sesini ayarlar."
+actionText="Ses |&Efektlerinin Sesi"
+configSetting="ini:Engine.Engine.AudioDevice SoundVolume"
+
+[MenuChoice_Subtitles]
+helpText="Altyazilar açiksa, sohbet diyalogu ekran altinda görüntülenecek."
+actionText="Altya|&zilar"
+
+[MenuChoice_ToggleCrouch]
+helpText="Etkin'e ayarlanirsa, çömelme tusu bir geçis gibi hareket edecek."
+actionText="|&Çömelme Geçisi"
+
+[MenuScreenControls]
+Title="Kontroller"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenDisplay]
+Title="Görüntü Ayarlari"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenSound]
+Title="Ses Ayarlari"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenThemesSave]
+LoadHelpText="Kaydetmek için renk temasi seç"
+Title="Tema Kaydet"
+actionButtons[1]="(Text="Tema Kaydet",Key="SAVE")"
+
+[ComputerSecurityChoice_Turret]
+actionText="|&Taret Durumu"
+enumText[0]="Etkisiz"
+enumText[1]="Müttefikler"
+enumText[2]="Düsmanlar"
+enumText[3]="Hersey"
+
+[ComputerSecurityChoice_DoorOpen]
+actionText="|&Kapi Durumu"
+enumText[0]="Açik"
+enumText[1]="Kapali"
+
+[ComputerSecurityChoice_DoorAccess]
+actionText="K|&api Erisimi"
+enumText[0]="Kilitli"
+enumText[1]="Kilidi Açik"
+
+[ComputerSecurityChoice_Camera]
+actionText="Kame|&ra Durumu"
+enumText[0]="Açik"
+enumText[1]="Kapali"
+
+[AmmoLAM]
+beltDescription="LAM"
+
+[WeaponMiniCrossbow]
+ItemName="Mini-Arbalet"
+Description="Mini-arbalet casusluk isi için spesifik olarak gelistirildi, ve görev gereksinimlerine göre degisebilen dart tiplerinin bir dizisini kabul eder (normal, sakinlestirici veya isik)."
+beltDescription="ARBALET"
+
+[MenuChoice_SpeechVolume]
+helpText="Konusma sesini ayarlar."
+actionText="Konu|&sma Sesi"
+configSetting="ini:Engine.Engine.AudioDevice SpeechVolume"
+
+[AmmoPepper]
+ItemName="Biber Fisegi"
+ItemArticle="bir"
+Description="'ANTIGONE biber spreyi 2 SANIYE IÇINDE saldirganinizi aciz birakacak. ANTIGONE -- ÖLMEK, KÖR OLMAKTAN DAHA IYIDIR. NOT: 5 yasin altindaki çocuklardan uzak tutunuz. Içerigi baski altinda.'"
+beltDescription="BBR FSK"
+
+[MenuChoice_HUDAugDisplay]
+helpText="Bu ayar HUD'da gösterilmis artiricilari belirler."
+actionText="HUD |&Artirici Görüntüleme"
+enumText[0]="Aktif"
+enumText[1]="Tüm Art."
+
+[GasGrenade]
+ItemName="Gaz Bombasi"
+
+[Male2]
+FamiliarName="Erkek"
+UnfamiliarName="Erkek"
+
+[Male3]
+FamiliarName="Erkek"
+UnfamiliarName="Erkek"
+
+[MenuChoice_AdjustBrightness]
+actionText="Par|&laklik"
+configSetting="ini:Engine.Engine.ViewportManager Brightness"
+
+[MenuChoice_AlwaysRun]
+helpText="Etkin'e ayarlanmissa, oyuncu daima kosacak."
+actionText="|&Daima Kos"
+
+[MenuChoice_Brightness]
+actionText="Parlakligi A|&yarla..."
+
+[MenuChoice_HUDBordersVisible]
+helpText="HUD kenarlarinin görüntülenip görüntülenmeyecegini belirler."
+actionText="HUD G|&örünür Kenarlar"
+
+[MenuChoice_HUDBorderTranslucency]
+helpText="Seffaflik etkinse, HUD kenarlari seffaf olacak."
+actionText="HUD |&Kenarlar Seffafligi"
+
+[MenuChoice_InvertMouse]
+helpText="Farenin dikey eksenini ters çevirir bu sayede fareyi yukari hareket ettirirken asagiya bakarsiniz(ya da tam tersi)."
+actionText="|&Fareyi Ters Çevir"
+
+[MenuChoice_HUDTranslucency]
+helpText="Seffaflik etkinse, arkaplan oyun içi HUD ve kullanici arayüzü ekranlari vasitasiyla görünür olacak."
+actionText="HUD Arkaplan Seff|&afligi"
+
+[MenuChoice_MenuTranslucency]
+helpText="Seffaflik etkinse, arkaplan menüler vasitasiyla görünür olacak."
+actionText="Menü Seffafli|&gi"
+
+[MenuChoice_MusicVolume]
+helpText="Müzik sesini ayarlar."
+actionText="|&Müzik Sesi"
+configSetting="ini:Engine.Engine.AudioDevice MusicVolume"
+
+[MenuChoice_SurroundSound]
+helpText="Dolby Çevresel Ses destegini etkinlestirir. Bir Dolby Pro-Logic Çevresel Ses Islemci gerektirir."
+actionText="|&Dolby Çevresel Ses"
+configSetting="ini:Engine.Engine.AudioDevice UseSurround"
+
+[MenuChoice_GoreLevel]
+helpText="Düsük'e ayarlamak kani oyundan kaldiracaktir."
+actionText="Ka|&n Düzeyi"
+enumText[0]="Düsük"
+enumText[1]="Normal"
+
+[MenuChoice_FullScreen]
+helpText="Oyunda tam ekran ve pencere arasinda geçis yapar"
+actionText="Tam-Ekran M|&oduna Geçis"
+
+[MenuChoice_Use3DHardware]
+helpText="Donanim 3B ses destegini etkinlestirir."
+actionText="Donanim 3|&B Destegi"
+configSetting="ini:Engine.Engine.AudioDevice Use3dHardware"
+RestartTitle="Ses Kalitesi"
+RestartMessage="Bu degisiklik Deus Ex yeniden baslatilana dek etkin olmayacak."
+
+[MenuChoice_WeaponAutoReload]
+helpText="Etkinse, silahlarda cephane bittiginde otomatik olarak doldurulacak."
+actionText="Sila|&hi Otomatik Doldurma"
+
+[MenuScreenOptions]
+Title="Ayarlar"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuSettings]
+Title="Ayarlar"
+ButtonNames[0]="Klavye/Fare"
+ButtonNames[1]="Kontroller"
+ButtonNames[2]="Oyun Ayarlari"
+ButtonNames[3]="Görüntü"
+ButtonNames[4]="Renkler"
+ButtonNames[5]="Ses"
+ButtonNames[6]="Önceki Menü"
+
+[AmmoEMPGrenade]
+beltDescription="EMP BOMBA"
+
+[AmmoGasGrenade]
+beltDescription="GAZ BOMBA"
+
+[AmmoNanoVirusGrenade]
+beltDescription="HVL BOMBA"
+
+[Pigeon]
+FamiliarName="Güvercin"
+UnfamiliarName="Güvercin"
+
+[AugHeartLung]
+AugmentationName="Sentetik Kalp"
+Description="Bu sentetik kalp yalnizca kan pompalamaz ayni zamanda prefabrik elmasoid makine parçalarini içeren mekanokimyasal güç pilleri, akilli fagositozlar ve lipozomlarin saglam bir konsantrasyonunu da pompalar, yüklenmis tüm artiricilar için yükseltilmis performansla sonuçlanir.|n|n<UNATCO OPS FILE NOTE JR133-VIOLET> Bununla birlikte, bu, maksimum yükseltme seviyesini geçen herhangi bir artiriciyi gelistirmeyecek. -- Jaime Reyes <END NOTE>|n|nYÜKSELTME YOK"
+
+[Seagull]
+FamiliarName="Marti"
+UnfamiliarName="Marti"
+
+[AugPower]
+AugmentationName="Güç Döndürücü"
+Description="Tüm artiricilar için güç tüketimi polianilin devreler tarafindan azaltilmistir, hücre zarlarina dogrudan tipalanmistir, konak hücrelerin çikmasi haricinde elektroniksel olarak baglanti arasi için robotböcek zerrelerine izin verir.|n|nTEKNO 1: Artiricilarin güç azalmasi düser.|n|nTEKNO 2: Artiricilarin güç azalmasi biraz düser.|n|nTEKNO 3: Artiricilarin güç azalmasi orta derecede düser.|n|nTEKNO 4: Artiricilarin güç azalmasi önemli derecede düser."
+MPInfo="Diger artiricilarin harcamasini düsürür.  Gerektiginde otomatik olarak kullanilir.  Enerji Azalma: Hiç"
+
+[BarrelAmbrosia]
+ItemName="Ambrosia Depolama Konteyneri"
+
+[Tumbleweed]
+ItemName="Çali"
+
+[WeaponGEPGun]
+ItemName="Yönlendirilmis Pat. Fisek (GEP) Silahi"
+Description="GEP silahi silahlanma alaninda göreceli olarak yeni bir icattir: tasinabilir, omuza tutturulmus roket atabilen atesleyici ve yerini saptama dogruluguyla hedefleri için onun lazer yönlendiricisi vardir. yüksek-tehdit çarpisma durumlari için uygunken, onlarla samimi olmamis ajanlara iri görünebilir."
+beltDescription="GEP SILAH"
+ShortName="GEP Silahi"
+
+[WeaponLAW]
+ItemName="Isik Anti-Tank Silahi (LAW)"
+Description="LAW bir lazer rehberliginin harcamasinda entegre olmus tek atis roketi ve dagitma sisteminin formunda ucuz, güvenilebilir yelek karsiti yetenegi saglar. Diger agir silahlar gibi, LAW kapsamli biçimde egitilmemis ajanlari yavaslatabilir."
+beltDescription="LAW"
+
+[WeaponPepperGun]
+ItemName="Biber Silahi"
+Description="Biber silahi kisa menzilde körlüge veya deride su toplamaya neden olabilen saf bir aerosol sis gibi onlari dagitmakta ve fisek formunda çevik kontrol ajanlari ticari olarak temin edilmesini kabul edecektir."
+beltDescription="BIBER"
+
+[WeaponNanoSword]
+ItemName="Ejderhanin Disi Kilici"
+ItemArticle="bir"
+Description="Modern bir savasçinin gerçek silahi, Ejderhanin Disi geleneksel anlamda bir kiliç degildir, ama nanoteknolojik olarak yapilmis sivri ucu mükemmel biçimde düzenlenmemis bir cisim içine dinamik olarak 'islenmistir'. Nanoölçekle bilenen aygitlar sivri ucunun kirilamaz ve ölümcül biçimde sivri olmasini garanti eder."
+beltDescription="EJDERHA"
+
+[MenuChoice_UIBackground]
+helpText="Menüler ve 2B ekranlar altinda ne gösterildigini belirler. 3B Render hizli makineler için iyidir, bunlari Fotograf ve sonra Siyah takip eder."
+actionText="KA Menü |&Arkaplani"
+enumText[0]="3B Render"
+enumText[1]="Fotograf"
+enumText[2]="Siyah"
+
+[MenuChoice_HeadBob]
+helpText="Etkinse, oyuncu yürürken bir asagi bir yukari sallanacak."
+actionText="Oyun|&cu Yürüme Hareketi"
+
+[Male1]
+FamiliarName="Erkek"
+UnfamiliarName="Erkek"
+
+[Ammo20mm]
+ItemName="20mm HE Cephane"
+ItemArticle="bir"
+Description="20mm yüksek patlayici mermi elin altinda bir baslatici kullanarak küçük odalar, hendekleri ve kör kuytulari temizleme yetenegi ekleyerek standart 7.62x51mm saldiri tüfegini tamamliyor."
+beltDescription="20MM CPHN"
+
+[AmmoRocketWP]
+ItemName="BF Roketi"
+Description="Beyaz-fosfor roket, GEP silahinin görev profilini büyütmek için tasarlanmistir. Patlatma üstünde minimal hasar verirken, patlamada havayla temasta hemen tutusan beyaz fosforun bulutu yayilacaktir."
+beltDescription="BF ROKET"
+
+[AugHealing]
+AugmentationName="Vücut Onarimi"
+Description="Zedelenmis hücrelerde proteinlerin yapisini kendiliginden yöneten programlanabilir polimerazla, zamanla bir ajani tamamen saglikli olmasi için onarir.|n|nTEKNO 1: Iyilesme normal bir oranda meydana gelir.|n|nTEKNO 2: Iyilesme biraz daha hizli bir oranda meydana gelir.|n|nTEKNO 3: Iyilesme orta derecede hizli bir oranda meydana gelir.|n|nTEKNO 4: Iyilesme önemli derecede hizli bir oranda meydana gelir."
+MPInfo="Aktifken, iyilesirsin, ama çarpismada iyilesme yetersiz bir oranda olur.  Enerji Azalma: Yüksek"
+
+[AugVision]
+AugmentationName="Görüs Gelistirme"
+Description="Seçilmis çubuk fotoreseptörlerle beyazlatarak ve metarodopsin 12 ile onlari doyurarak, çogu gece hayvanlarinda bulunan 'gece görüsü' kopyalanabilir. Sonraki yükseltmeler ve modifikasyonlar bir ajanin duvar ötesini görmesine efektif biçimde izin veren sonar-rezonans tasviri ve ötegörüs ekler.|n|nTEKNO 1: Gecegörüsü.|n|nTEKNO 2: Ötegörüs.|n|nTEKNO 3: Yakin menzilli sonar tasviri.|n|nTEKNO 4: Uzun menzilli sonar tasviri."
+MPInfo="Aktifken, karanlikta herhangi bir mesafeden düsmanlarini görebilir ve kisa mesafeler için duvarlarin arkasini görebilir ve saklanmis düsmanlarini görebilirsin.  Enerji Azalma: Ilimli"
+
+[WeaponBaton]
+ItemName="Cop"
+Description="Iri yari gözüken bir cop, sivil direnise engel olmak için tipik olarak çevik kuvvet ve ulusal güvenlik güçleri tarafindan kullanilmistir."
+beltDescription="COP"
+
+[WeaponHideAGun]
+ItemName="PS20"
+Description="PS20 sonraki nesil gizli bir silah gibi, bilinmeyen bir güvenlik organizasyonu tarafindan gelistirilmis atilabilir, plazma-bazli bir silahtir. Maalesef, küçük bir fiziksel profili sürdürme zorunlulugu silahi tek bir atisla kisitliyor. Onun limitli fonskiyonelliginden ötürü, PS20 yakin menzilde öldürücü olabilir."
+beltDescription="PS20"
+
+[WeaponRifle]
+ItemName="Keskin Nisanci Tüfegi"
+Description="Askeri keskin nisanci tüfegi uzun menzilli hedefler için üstün bir alettir. Kanitlanmis 30.06 mermiyle birlesince, bir keskin nisanci çevresel kosullarda karar vermede 1 açi dakikasindan daha iyi dar gruplasmalar elde edebilir."
+beltDescription="K.NISANCI"
+
+[HangingShopLight]
+ItemName="Floresan Lamba"
+
+[GordonQuick]
+FamiliarName="Gordon Quick"
+UnfamiliarName="Gordon Quick"
+
+[ChildMale]
+FamiliarName="Çocuk"
+UnfamiliarName="Çocuk"
+
+[HKBuddha]
+ItemName="Buda Heykeli"
+
+[HKBirdcage]
+ItemName="Kus Kafesi"
+
+[Cop]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[CrateBreakableMedGeneral]
+ItemName="Genel Erzak Sandigi"
+
+[Chef]
+FamiliarName="Sef"
+UnfamiliarName="Sef"
+
+[CrateBreakableMedMedical]
+ItemName="Ilaç Erzak Sandigi"
+
+[HKCouch]
+ItemName="Bank"
+
+[Chandelier]
+ItemName="Avize"
+
+[Flowers]
+ItemName="Çiçekler"
+
+[CrateExplosiveSmall]
+ItemName="TNT Sandigi"
+
+[CrateUnbreakableLarge]
+ItemName="Metal Sandik"
+
+[CrateUnbreakableMed]
+ItemName="Metal Sandik"
+
+[Flask]
+ItemName="Laboratuvar Sisesi"
+
+[HKHangingLantern]
+ItemName="Kagit Fener"
+
+[Chair1]
+ItemName="Sandalye"
+
+[Chad]
+FamiliarName="Chad"
+UnfamiliarName="Chad"
+
+[ChildMale2]
+FamiliarName="Çocuk"
+UnfamiliarName="Çocuk"
+
+[CrateUnbreakableSmall]
+ItemName="Metal Sandik"
+
+[HKMarketLight]
+ItemName="Asili Lamba"
+
+[HKMarketTable]
+ItemName="Masa"
+
+[Doberman]
+FamiliarName="Doberman"
+UnfamiliarName="Doberman"
+
+[Cushion]
+ItemName="Oda Minderi"
+
+[GilbertRenton]
+FamiliarName="Gilbert Renton"
+UnfamiliarName="Gilbert Renton"
+
+[ComputerPersonal]
+ItemName="Kisisel Bilgisayar Terminali"
+
+[HKChair]
+ItemName="Sandalye"
+
+[Butler]
+FamiliarName="Kahya"
+UnfamiliarName="Kahya"
+
+[Businesswoman1]
+FamiliarName="Is Kadini"
+UnfamiliarName="Is Kadini"
+
+[Businessman3]
+FamiliarName="Is Adami"
+UnfamiliarName="Is Adami"
+
+[DataCube]
+ItemName="VeriKüp"
+
+[Businessman2]
+FamiliarName="Is Adami"
+UnfamiliarName="Is Adami"
+
+[HKTable]
+ItemName="Masa"
+
+[HKTukTuk]
+ItemName="TukTuk"
+
+[BobPageAugmented]
+ItemName="Artirilmis Bob Page"
+
+[Businessman1]
+FamiliarName="Is Adami"
+UnfamiliarName="Is Adami"
+
+[Hooker1]
+FamiliarName="Fahise"
+UnfamiliarName="Fahise"
+
+[CrateBreakableMedCombat]
+ItemName="Savas Erzak Sandigi"
+
+[BumMale3]
+FamiliarName="Berdus"
+UnfamiliarName="Berdus"
+
+[Hooker2]
+FamiliarName="Fahise"
+UnfamiliarName="Fahise"
+
+[BumMale2]
+FamiliarName="Yasli Berdus"
+UnfamiliarName="Yasli Berdus"
+
+[BumFemale]
+FamiliarName="Berdus"
+UnfamiliarName="Berdus"
+
+[BoxSmall]
+ItemName="Karton Kutu"
+
+[DentonClone]
+ItemName="JC Denton Klonu"
+
+[BoxMedium]
+ItemName="Karton Kutu"
+
+[BoxLarge]
+ItemName="Karton Kutu"
+
+[BookClosed]
+ItemName="Kitap"
+
+[BoneSkull]
+ItemName="Insan Kafatasi"
+
+[BoneFemur]
+ItemName="Insan Uyluk Kemigi"
+
+[HarleyFilben]
+FamiliarName="Harley Filben"
+UnfamiliarName="Berdus"
+
+[WHTableBlue]
+ItemName="Masa"
+
+[WHRedVase]
+ItemName="Vazo"
+
+[WHRedOvalTable]
+ItemName="Masa"
+
+[WHRedLampTable]
+ItemName="Masa"
+
+[WHRedEagleTable]
+ItemName="Masa"
+
+[WHRedCouch]
+ItemName="Kanepe"
+
+[WHRedCandleabra]
+ItemName="Samdan"
+
+[WHPiano]
+ItemName="Büyük Piyano"
+
+[WHPhone]
+ItemName="Telefon"
+
+[WHFireplaceLog]
+ItemName="Kütük"
+
+[WHFireplaceGrill]
+ItemName="Sömine Izgarasi"
+
+[WHEndtableLibrary]
+ItemName="Masa"
+
+[WHDeskOvalOffice]
+ItemName="Çalisma Masasi"
+
+[BoatPerson]
+FamiliarName="Bot Insani"
+UnfamiliarName="Bot Insani"
+
+[WHDeskLibrarySmall]
+ItemName="Çalisma Masasi"
+
+[WHChairOvalOffice]
+ItemName="Deri Koltuk"
+
+[WHChairDining]
+ItemName="Sandalye"
+
+[WHCabinet]
+ItemName="Büfe"
+
+[WHBookstandLibrary]
+ItemName="Kitap Okuma Standi"
+
+[WHBenchLibrary]
+ItemName="Bank"
+
+[WHBenchEast]
+ItemName="Bank"
+
+[Basket]
+ItemName="Hasir Sepet"
+
+[Vase2]
+ItemName="Vazo"
+
+[Vase1]
+ItemName="Vazo"
+
+[Van]
+ItemName="Siyah Araç"
+
+[Bartender]
+FamiliarName="Barmen"
+UnfamiliarName="Barmen"
+
+[Trophy]
+ItemName="Zafer Kupasi"
+
+[TriadLumPath2]
+FamiliarName="Çete Lideri"
+UnfamiliarName="Çete Lideri"
+
+[BarrelVirus]
+ItemName="NanoVirüs Depolama Konteyneri"
+
+[TrashCan4]
+ItemName="Çöp Kutusu"
+
+[TrashCan3]
+ItemName="Çöp Kutusu"
+
+[Trashcan2]
+ItemName="Çöp Kutusu"
+
+[TrashCan1]
+ItemName="Çöp Kutusu"
+
+[Trashbag2]
+ItemName="Çöp Poseti"
+
+[Trashbag]
+ItemName="Çöp Poseti"
+
+[TrafficLight]
+ItemName="Trafik Isigi"
+
+[TiffanySavage]
+FamiliarName="Tiffany Savage"
+UnfamiliarName="Tiffany Savage"
+
+[ThugMale3]
+FamiliarName="Serseri"
+UnfamiliarName="Serseri"
+
+[SubwayControlPanel]
+ItemName="Metro Kontrol Paneli"
+
+[Soldier]
+FamiliarName="Asker"
+UnfamiliarName="Asker"
+
+[Smuggler]
+FamiliarName="Kaçakçi"
+UnfamiliarName="Kaçakçi"
+
+[SignFloor]
+ItemName="Uyari Isareti"
+
+[ShopLight]
+ItemName="Floresan Lamba"
+
+[SecurityBot4]
+FamiliarName="Güvenlik Botu"
+UnfamiliarName="Güvenlik Botu"
+
+[SecretService]
+FamiliarName="Gizli Servis Ajani"
+UnfamiliarName="Gizli Servis Ajani"
+
+[Secretary]
+FamiliarName="Sekreter"
+UnfamiliarName="Sekreter"
+
+[ScientistMale]
+FamiliarName="Bilimci"
+UnfamiliarName="Bilimci"
+
+[ScientistFemale]
+FamiliarName="Bilimci"
+UnfamiliarName="Bilimci"
+
+[SarahMead]
+FamiliarName="Sarah Mead"
+UnfamiliarName="Sarah Mead"
+
+[SamCarter]
+FamiliarName="Sam Carter"
+UnfamiliarName="Sam Carter"
+
+[Sailor]
+FamiliarName="Denizci"
+UnfamiliarName="Denizci"
+
+[RoadBlock]
+ItemName="Beton Barikat"
+
+[RachelMead]
+FamiliarName="Rachel Mead"
+UnfamiliarName="Rachel Mead"
+
+[Pot2]
+ItemName="Çömlek"
+
+[Pot1]
+ItemName="Çömlek"
+
+[PoolTableLight]
+ItemName="Asili Lamba"
+
+[Plant3]
+ItemName="Ev Bitkisi"
+
+[Plant2]
+ItemName="Ev Bitkisi"
+
+[Plant1]
+ItemName="Ev Bitkisi"
+
+[Pinball]
+ItemName="Pinball Makinesi"
+
+[Pillow]
+ItemName="Yastik"
+
+[PhilipMead]
+FamiliarName="Philip Mead"
+UnfamiliarName="Philip Mead"
+
+[Mutt]
+FamiliarName="Köpek"
+UnfamiliarName="Köpek"
+
+[Fan1Vertical]
+ItemName="Pervane"
+
+[Fan2]
+ItemName="Pervane"
+
+[Pan4]
+ItemName="Tencere"
+
+[Pan3]
+ItemName="Kizartma Tavasi"
+
+[Pan2]
+ItemName="Tencere"
+
+[Pan1]
+ItemName="Kizartma Tavasi"
+
+[NYPoliceBoat]
+ItemName="Polis Botu"
+UnfamiliarName="UNATCO Bot Pilotu"
+
+[Nurse]
+FamiliarName="Hemsire"
+UnfamiliarName="Hemsire"
+
+[NewspaperOpen]
+ItemName="Gazete"
+
+[Newspaper]
+ItemName="Gazete"
+
+[NathanMadison]
+FamiliarName="Nathan Madison"
+UnfamiliarName="Nathan Madison"
+
+[Microscope]
+ItemName="Mikroskop"
+
+[MichaelHamner]
+FamiliarName="Michael Hamner"
+UnfamiliarName="Michael Hamner"
+
+[Janitor]
+FamiliarName="Hademe"
+UnfamiliarName="Hademe"
+
+[Jock]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[JoeGreene]
+FamiliarName="Joe Greene"
+UnfamiliarName="Joe Greene"
+
+[JoJoFine]
+FamiliarName="JoJo Fine"
+UnfamiliarName="JoJo Fine"
+
+[JordanShea]
+FamiliarName="Jordan Shea"
+UnfamiliarName="Jordan Shea"
+
+[MenuChoice_AdjustColors]
+helpText="MENÜ ve oyun içi HUD ekranlarinin renklerini ayarlamana izin verir."
+actionText="Renkleri Ayarla..."
+
+[JosephManderley]
+FamiliarName="Joseph Manderley"
+UnfamiliarName="Joseph Manderley"
+
+[Mechanic]
+FamiliarName="Teknisyen"
+UnfamiliarName="Teknisyen"
+
+[MaxChen]
+FamiliarName="Max Chen"
+UnfamiliarName="Max Chen"
+
+[MargaretWilliams]
+FamiliarName="Margaret Williams"
+UnfamiliarName="Margaret Williams"
+
+[AIPrototype]
+ItemName="YZ Prototipi"
+
+[Mailbox]
+ItemName="Posta Kutusu"
+
+[Maid]
+FamiliarName="Hizmetçi"
+UnfamiliarName="Hizmetçi"
+
+[MaggieChow]
+FamiliarName="Maggie Chow"
+UnfamiliarName="Maggie Chow"
+
+[LuciusDeBeers]
+ItemName="Lucius De Beers bir yasam destek tüpünde"
+
+[LowerClassMale2]
+FamiliarName="Alt Tabaka"
+UnfamiliarName="Alt Tabaka"
+
+[LowerClassMale]
+FamiliarName="Alt Tabaka"
+UnfamiliarName="Alt Tabaka"
+
+[Lightbulb]
+ItemName="Ampul"
+
+[Lamp3]
+ItemName="Çalisma Masasi Lambasi"
+
+[Lamp2]
+ItemName="Halojen Lamba"
+
+[Lamp1]
+ItemName="Masa Lambasi"
+
+[JuanLebedev]
+FamiliarName="Juan Lebedev"
+UnfamiliarName="Juan Lebedev"
+
+[KarkianBaby]
+FamiliarName="Bebek Karkian"
+UnfamiliarName="Bebek Karkian"
+
+[JunkieMale]
+FamiliarName="Esrarkes"
+UnfamiliarName="Esrarkes"
+
+[JunkieFemale]
+FamiliarName="Esrarkes"
+UnfamiliarName="Esrarkes"
+
+[JCDouble]
+FamiliarName="JC Denton"
+UnfamiliarName="JC Denton"
+
+[SkillWeaponLowTech]
+SkillName="Silahlar: Düsük-Tek"
+Description="Biçaklar, firlatma biçaklari, kiliçlar, biber silahlari ve dürtme silahlari gibi sivri uçlu silah kullanimi.|n|nACEMI: Bir ajan yakin dövüs silahi kullanabilir.|n|nDENEYIMLI: Dogruluk, hasar ve saldiri oraninin tümü biraz artar.|n|nGELISMIS: Dogruluk, hasar ve saldiri oraninin tümü orta derecede artar.|n|nUSTA: Bir ajan tek bir darbeyle çogu rakibini bayiltabilir veya öldürebilir."
+
+[SkillEnviro]
+SkillName="Çevresel Talim"
+Description="Birçok tehlikeli durumda radyasyon koruyucu elbise, balistik yelek, termoptik kamuflaj ve nefeslik kullanma deneyimi.|n|nACEMI: Bir ajan radyasyon koruyucu elbise, balistik yelek, termoptik kamuflaj ve nefeslik kullanabilir.|n|nDENEYIMLI: Radyasyon koruyucu elbise, balistik yelek, termoptik kamuflaj ve nefeslik biraz daha uzun ve daha verimli kullanilabilir.|n|nGELISMIS: Radyasyon koruyucu elbise, balistik yelek, termoptik kamuflaj ve nefeslik daha orta derecede uzun ve verimli kullanilabilir.|n|nUSTA: Bir ajanin giydigi elbise ve yelek ikinci bir deri gibidir."
+
+[SkillWeaponRifle]
+SkillName="Silahlar: Tüfek"
+Description="Içinde saldiri tüfekleri, keskin nisanci tüfekler ve pompali tüfekleri barindiran tüfek kullanimi.|n|nACEMI: Bir ajan tüfek kullanabilir.|n|nDENEYIMLI: Dogruluk ve hasar biraz artar, yeniden doldurma daha hizlidir.|n|nGELISMIS: Dogruluk ve hasar orta derecede artar, yeniden doldurma daha da çabuktur.|n|nUSTA: Bir ajan tek atisla bir mil uzaktaki bir hedefi indirebilir."
+
+[SkillDemolition]
+SkillName="Silahlar: Patlayici"
+Description="Içinde LAMlar, gaz bombalari, EMP bombasi ve elektronik havalanma bombalarini da barindiran firlatmalik patlayici aygitlarin kullanimi.|n|nACEMI: Bir ajan el bombasi atabilir, yakinlik aygiti gibi onlari bir yüzeye tutturabilir, veya önceden silahli yakinlik aygitini etkisiz hale getirmeye veya kaldirmaya tesebbüs edebilir.|n|nDENEYIMLI: El bombasinin dogruluk ve hasari biraz artar, yakinlik aygitlarini etkisiz hale getirmek için gereken güvenlik siniri gibi.|n|nGELISMIS: El bombasinin dogrulugu ve hasari orta derecede artar, yakinlik aygitlarini etkisiz hale getirmek için gereken güvenlik siniri gibi.|n|nUSTA: Bir ajan tüm patlayici formlarinda bir uzmandir."
+
+[SkillWeaponPistol]
+SkillName="Silahlar: Tabanca"
+Description="Içinde standart 10mm tabanca, onun gizli varyantlari ve mini-arbaleti barindiran elle tutulan silah kullanimi.|n|nACEMI: Bir ajan tabanca kullanabilir.|n|nDENEYIMLI: Dogruluk ve hasar biraz artar, yeniden doldurma daha hizlidir.|n|nGELISMIS: Dogruluk ve hasar orta derecede artar, yeniden doldurma daha da çabuktur.|n|nUSTA: Bir ajan tabancalarla öldürücü biçimde hassastir."
+
+[SkillWeaponHeavy]
+SkillName="Silahlar: Agir"
+Description="Içinde alev silahlari, LAWlar, deneysel plazma ve GEP silahlarini barindiran agir silah kullanimi.|n|nACEMI: Bir ajan agir silah kullanabilir ama dogruluklari düsük ve hareketliligi zordur.|n|nDENEYIMLI: Dogruluk ve hasar biraz artar, yeniden doldurma ve hareketlilik bir dereceye kadar hizlidir.|n|nGELISMIS: Dogruluk ve hasar orta derecede artar, yeniden doldurma ve hareketlilik daha da çabuktur.|n|nUSTA: Bir ajan agir silahla kusanmisken yürüyen bir tanktir."
+
+[SkillSwimming]
+SkillName="Yüzme"
+Description="Sualti operasyonlari bir ajanin ekstrem fiziksel adanmislikla gelistirmesi gereken kendine has beceri setlerine ihtiyaç duyar.|n|nACEMI: Bir ajan normal biçimde yüzebilir.|n|nDENEYIMLI: Bir ajanin yüzme hizi ve akciger kapasitesi biraz artar.|n|nGELISMIS: Bir ajanin yüzme hizi ve akciger kapasitesi orta derecede artar.|n|nUSTA: Bir ajan sualtinda bir yunus gibi hareket edebilir."
+
+[SkillComputer]
+SkillName="Bilgisayar"
+Description="Güvenlik konsollari ve bilgisayarlarin örtülü manipülasyonu.|n|nACEMI: Bir ajan bildirileri ve haberleri okumak için terminalleri kullanabilir.|n|nDENEYIMLI: Bir ajan ATMleri, bilgisayarlari ve güvenlik konsollarini hackleyebilir.|n|nGELISMIS: Bir ajan tespit geriye saymalarda önemli bir artis ve kilitlenme süresinde orta düzeyde bir azalis elde eder, ayrica otomatik silah taretlerini kontrol etme kabiliyeti kazanir.|n|nUSTA: Bir ajan birçok sisteme direnebilen elit bir bilgisayar korsanidir."
+
+[SkillTech]
+SkillName="Elektronik"
+Description="Elektronik çalisarak ve pratiksel uygulamayla, ajanlar çokluaraçlar kullanarak birkaç güvenlik sistemini daha verimli biçimde etkisizlestirebilir.|n|nACEMI: Bir ajan güvenlik sistemlerini etkisizlestirebilir.|n|nDENEYIMLI: Bir ajanin güvenlik sistemlerini etkisizlestirme verimliligi biraz artar.|n|nGELISMIS: Bir ajanin güvenlik sistemlerini etkisizlestirme verimliligi orta derecede artar.|n|nUSTA: Bir ajan neredeyse her güvenlik sisteminin hakkindan gelebilir."
+MultitoolString="Çokluaraç"
+
+[SkillLockpicking]
+SkillName="Kilit Açma"
+Description="Kilit açma beceriden çok sanattir, ama hararetli çalismaya ragmen, bir ajan bir set maymuncuk ve sabirla ustalasabilir.|n|nACEMI: Bir ajan kilitleri açabilir.|n|nDENEYIMLI: Bir ajanin kilit açma verimliligi biraz artar.|n|nGELISMIS: Bir ajanin kilit açma verimliligi orta derecede artar.|n|nUSTA: Bir ajan neredeyse her mekanik kilidi halledebilir."
+
+[SkillMedicine]
+SkillName="Ilaç"
+Description="Insan psikolojisinin pratiksel bilgisi, ilk yardim çantalarinin daha verimli olmasina izin verme alaninda bir ajan tarafindan uygulanabilir.|n|nACEMI: Bir ajan ilk yardim çantalari kullanabilir.|n|nDENEYIMLI: Bir ajan azicik daha hasari iyilestirebilir ve toksik zehirlenme periyodunu düsürebilir.|n|nGELISMIS: Bir ajan orta derecede hasari iyilestirebilir ve toksik zehirlenme periyodunu daha çok düsürebilir.|n|nUSTA: Bir ajan ev içindeki materyallerle bir kalp baypasi yapabilir."
+
+[Image12_Tiffany_HostagePic]
+imageDescription="Rehine Tiffany'nin Resmi"
+
+[Image15_Area51_Sector4]
+imageDescription="51.Bölge Sektör 4"
+
+[Image15_BlueFusionDevice]
+imageDescription="Mavi Füzyon Aygiti"
+
+[Image15_Area51_Sector3]
+imageDescription="51.Bölge Sektör 3"
+
+[Image03_WaltonSimons]
+imageDescription="Walton Simons"
+
+[Image02_BobPage_ManOfYear]
+imageDescription="Millenium Dergisi"
+
+[Image15_GrayDisection]
+imageDescription="Gri Tahlili"
+
+[Image15_Area51Bunker]
+imageDescription="51.Bölge Siginagi"
+
+[Image14_Schematic]
+imageDescription="Evrensel Makine Unsuru"
+
+[Image14_OceanLab]
+imageDescription="Okyanus Laboratuvari"
+
+[Image12_Vandenberg_Sub]
+imageDescription="Vandenberg Alti"
+
+[Image12_Vandenberg_Command]
+imageDescription="Vandenberg Komuta Merkezi"
+
+[Image11_Paris_CathedralEntrance]
+imageDescription="Katedral Girisi"
+
+[Image11_Paris_Cathedral]
+imageDescription="Paris Katedrali"
+
+[Image10_Paris_Metro]
+imageDescription="Paris Metro Haritasi"
+
+[Image10_Paris_CatacombsTunnels]
+imageDescription="Paris Katakompu, Tüneller"
+
+[Image10_Paris_Catacombs]
+imageDescription="Paris Katakompu"
+
+[Image09_NYC_Ship_Top]
+imageDescription="PCRS: Üst Güverte"
+
+[Image09_NYC_Ship_Bottom]
+imageDescription="PCRS: Alt Güverte"
+
+[Image08_JoeGreenMIBMJ12]
+imageDescription="Joe Greene MIB MJ12"
+
+[Image06_HK_WanChai]
+imageDescription="Hong Kong, Wan Chai Bölgesi"
+
+[Image06_HK_Versalife]
+imageDescription="Versalife Binasi"
+
+[Image06_HK_MJ12Lab]
+imageDescription="MJ12 Laboratuvari"
+
+[Image06_HK_MJ12Helipad]
+imageDescription="MJ12 Helikopter Pisti"
+
+[Image06_HK_Market]
+imageDescription="Hong Kong Pazari"
+
+[Image05_NYC_MJ12Lab]
+imageDescription="MJ12 Laboratuvari"
+
+[Image05_GreaselDisection]
+imageDescription="Greasel Tahlili"
+
+[Image04_UNATCONotice]
+imageDescription="UNATCO Bildirisi"
+
+[Image04_NSFHeadquarters]
+imageDescription="NSF Karargahi"
+
+[Image03_NYC_Airfield]
+imageDescription="NYC Hava Sahasi"
+
+[Image03_747Diagram]
+imageDescription="747 Diyagram"
+
+[Image02_NYC_Warehouse]
+imageDescription="NYC Depo"
+
+[Image02_Ambrosia_Flyer]
+imageDescription="Ambrosia El Ilani"
+
+[Image01_TerroristCommander]
+imageDescription="Terörist Komutan"
+
+[Image01_LibertyIsland]
+imageDescription="Özgürlük Adasi Uydu Fotografi"
+
+[Image01_GunFireSensor]
+imageDescription="Silah Atesleme Sensörü"
+
+[ChargedPickup]
+ChargeRemainingLabel="Kalan Sarj:"
+
+[MenuChoice_OnOff]
+enumText[0]="Kapali"
+enumText[1]="Açik"
+
+[MenuChoice_EnabledDisabled]
+enumText[0]="Etkin"
+enumText[1]="Devre Disi"
+
+[MenuChoice_LowMedHigh]
+enumText[0]="Düsük"
+enumText[1]="Orta"
+enumText[2]="Yüksek"
+
+[MenuChoice_VisibleHidden]
+enumText[0]="Görünür"
+enumText[1]="Gizli"
+
+[MissionEndgame]
+endgameQuote[0]="DÜN KRALLARA ITAAT ETTIK VE IMPARATORLARDAN ÖNCE BOYNUMUZU EGDIK. AMA BUGÜN YALNIZCA HAKIKATE DIZ ÇÖKERIZ..."
+endgameQuote[1]="    -- KAHLIL GIBRAN"
+endgameQuote[2]="TANRI OLMASAYDI, ONU ICAT ETMEK ZORUNDA KALIRDIK."
+endgameQuote[3]="    -- VOLTAIRE"
+endgameQuote[4]="CEHENNEMDE HÜKÜM SÜRMEK, CENNNETTE HIZMET ETMEKTEN DAHA IYIDIR."
+endgameQuote[5]="    -- KAYIP CENNET, JOHN MILTON"
+
+[deusexserverping]
+AdminEmailText="Kullanici Eposta"
+AdminNameText="Kullanici Adi"
+ChangeLevelsText="Düzeyleri Degistir"
+MultiplayerBotsText="Çokoyunculudaki Botlar"
+FragLimitText="Öldürme Limiti"
+TimeLimitText="Zaman Limiti"
+GameModeText="Oyun Modu"
+GameTypeText="Oyun Tipi"
+GameVersionText="Oyun Sürümü"
+WorldLogText="ngWorldStats"
+MutatorsText="Mutasyon Kaynaklari"
+TrueString="Etkin"
+FalseString="Devre Disi"
+ServerAddressText="Sunucu Adresi"
+GoalTeamScoreText="Gereken Takim Skoru"
+MinPlayersText="Min. Oyuncu Sayisi"
+PlayersText="Oyuncular"
+MaxTeamsText="Maks. Takim"
+BalanceTeamsText="Botlar Takimlari Dengelesin"
+PlayersBalanceTeamsText="Takimi Dengeye Zorla"
+FriendlyFireText="Takim Arkadasina Vurma Hasari"
+MinNetVersionText="Min. Uyumlu Sürüm"
+BotSkillText="Bot Becerisi"
+TournamentText="Turnuva Modu"
+ServerModeText="Sunucu Modu"
+DedicatedText="Paylasimsiz"
+NonDedicatedText="Paylasimli"
+WorldLogWorkingText="ngWorldStats Durumu"
+WorldLogWorkingTrue="Istatistikler Dogru Isleniyor"
+WorldLogWorkingFalse="Istatistikler Dogru Islenmiyor"
+StartingSkillsText="Baslangiçtaki beceri puani"
+SkillsPerKillText="Öldürme basina beceri p."
+StartingAugsText="Baslangiçtaki artiricilar"
+AugsPerKillText="Öldürme basina artiricilar"
+AugsAllowedText="Artiricilar"
+TargetKillsText="Öldürme limiti"
+TargetTimeText="Zaman limiti(dakika)"
+
+[DeusExMPGame]
+TooManyPlayers="Çok fazla oyuncu"
+StreakString="Simdiki Çizgi"
+KillsString="Öldürme"
+DeathsString="Ölüm"
+PlayerString="Oyuncu"
+NewMapSecondsString=" saniyede yeni harita gelecek."
+WonMatchString=" maci kazandi!"
+PingString="Ping"
+EscapeString="Baglanti kesmek için <Escape> bas."
+MatchEnd1String="Maç sonuçlandi, "
+MatchEnd2String=" alt etti "
+TeamNsfString="NSF Takimi"
+TeamUnatcoString="Unatco Takimi"
+TeamDrawString="Mac berabere!"
+
+[teamdmgame]
+EnemiesString="Düsmanlar"
+AlliesString="Müttefikler"
+VictoryConString1="Amaç: Maçi kazanmak için "
+VictoryConString2=" öldürmeye ilk ulasan takim ol."
+TimeLimitString1="Amaç: Daha fazla öldürme sayisi kazan, ( "
+TimeLimitString2=" ) süre dolmadan önce!"
+TeamScoreString=" Takim Skoru:"
+
+[ThrownProjectile]
+ItemName="ERROR ThrownProjectile Default-Report as bug!"
+ItemArticle="bir"
+
+[MultiplayerMessageWin]
+KilledByString="Seni biri gebertti: "
+WereKilledString="Geberdin."
+KilledYourselfString="Kendini geberttin!"
+FireToContinueMsg="Yeniden baslamak için <Fire> bas."
+ActiveAugsString="Aktif Artrc.: "
+WeaponString="Simdiki Silah: "
+RelevantSkillString="Uygun Beceri: "
+LevelString="Beceri Düzeyi: "
+FinalBlowString="Son darbe "
+ToTheString=" puanlik hasar birakti, senin "
+RemHealthString="Ölümünün bu aninda, "
+RemHealth2String=" sagligi vardi: "
+RemEnergyString=" ve "
+RemEnergy2String=" puan biyoenerji kaldi."
+HealthHeadString=" Kafa: "
+HealthMidString="  Orta Bölge: "
+HealthLowString="  Bacaklar: "
+StreakString=" geçerli bir çizgisi var, "
+Detail1String="Detaylar için <"
+Detail2String="> bas."
+KeyNotBoundString="Tus Bagli Degil"
+VSString="-"
+
+[menuscreenjoingame]
+HeaderIPWindowLabel="IP Adresi"
+HostButtonName="Oyun Kur"
+JoinButtonName="Oyuna Katil"
+RefreshButtonName="Yenile"
+HostButtonHelpText="Çokoyunculu bir oyun kur"
+JoinButtonHelpText="Su anda seçilmis oyuna katil"
+RefreshButtonHelpText="Sunucu listesini yenile"
+strHostNameLabel="Sunucu Adi"
+strMapNameLabel="Harita"
+strGameTypeLabel="Oyun Tipi"
+strNumPlayersLabel="Oyuncular"
+strPingLabel="Ping"
+GameTypeOneLabel="Ölüm Maçi Oyunlari Göster"
+GameTypeTwoLabel="Takim Ölüm Maçi Oyunlari Göster"
+ShowAllGameTypesLabel="Tüm Oyunlari Göster"
+GameHumanNames[0]="Ölüm Maçi"
+GameHumanNames[1]="Takim Ölüm Maçi"
+GameHumanNames[2]="Gel. Takim ÖM"
+GameHumanNames[3]="Temel Takim ÖM"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+Title="Çokoyunculu Oyuna Basla"
+
+[HUDMultiSkills]
+ToExitString="> çikis yapmak için."
+SkillsAvailableString="Beceriler mevcut!"
+PressString="Basin <"
+PressEndString=">"
+SkillPointsString="Beceri Puani: "
+skillString="Beceri"
+CostString="Fiyat"
+NAString="MAKS"
+LevelString="Düzey"
+KeyNotBoundString="Tus Bagli Degil"
+
+[menuscreenaugsetup]
+HeaderAugChosenLabel="Artirici Üstünlükler"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_OK)"
+Title="Çokoyunculu Artirici Kurulumu"
+
+[dxmaplist]
+CycleNames[0]="Haritayi Tekrarla"
+CycleNames[1]="Rastgele Harita"
+CycleNames[2]="Harita Döngüsü"
+
+[HECannister20mm]
+ItemName="HE 20mm Kovan"
+ItemArticle="bir"
+
+[PlasmaBolt]
+ItemName="Plazma Sürgü"
+ItemArticle="bir"
+
+[Rocket]
+ItemName="GEP Roketi"
+ItemArticle="bir"
+
+[menuscreenjoininternet]
+Title="Çokoyunculu Internet Oyunu Baslat"
+
+[menuscreenhostgame]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_Other,Text="Oyuna Basla",Key="BEGINHOST")"
+Title="Çokoyunculu Oyun Kur"
+
+[Cloud]
+ItemName="Gaz Bulutu"
+ItemArticle="bir"
+
+[deusexgspylink]
+ResolveFailedError="Ana sunucu sorunu çözülemedi: "
+TimeOutError="Ana sunucuyla görüsme zaman asimina ugradi"
+CouldNotConnectError="Ana sununcuya baglanma zaman asimina ugradi: "
+
+[RocketWP]
+ItemName="WP Roketi"
+
+[menuchoice_victoryvalue]
+TimeLimitActionText="Zaman Limiti(dk)"
+FragLimitActionText="Öldürme Limiti"
+TimeLimitHelpText="Oyun bitene kadarki dakika limiti"
+FragLimitHelpText="Kazanmak için gereken öldürme sayisi"
+actionText=""
+configSetting="DeusExMPGame ScoreToWin"
+
+[menuscreenjoinlan]
+Title="Çokoyunculu LAN Oyunu Baslat"
+
+[menuchoice_gametype]
+gameNames[0]="Ölüm Maçi"
+gameNames[1]="Temel Takim Ölüm Maçi"
+gameNames[2]="Gelismis Takim Ölüm Maçi"
+gameNames[3]="Özel Takim Ölüm Maçi"
+HelpText="Oynanacak oyun tipi"
+actionText="Oyun Tipi"
+configSetting="MenuScreenHostGame CurrentGameType"
+
+[RocketLAW]
+ItemName="LAW Roketi"
+
+[menuchoice_map]
+HelpText="Oyuna baslanacak harita(o harita için önerilen oyuncu sayisi dahildir)"
+actionText="Harita"
+configSetting="DXMapList MapNum"
+
+[ammocrate]
+AmmoReceived="Cephane yeniden dolduruldu"
+ItemName="Cephane Sandigi"
+
+[menuscreenplayersetup]
+HeaderPlayerNameLabel="Oyuncu Adi"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_OK)"
+Title="Çokoyunculu Oyuncu Kurulumu"
+
+[Fireball]
+ItemName="Atestopu"
+ItemArticle="bir"
+
+[menuchoice_victorytype]
+VictoryNames[0]="Öldürme Limiti"
+VictoryNames[1]="Zaman Limiti"
+HelpText="Oyun bitimi durumunun ne altinda olacagini belirler."
+actionText="Zafer Durumu"
+configSetting="DeusEXMPGame VictoryCondition"
+
+[menuchoice_cycle]
+HelpText="Simdiki harita bittiginde sunucunun sonraki haritaya nasil alacagini belirler"
+actionText="Harita Döndürme"
+configSetting="DXMapList CycleType"
+
+[menuchoice_team]
+TeamNames[0]="UNATCO"
+TeamNames[1]="NSF"
+TeamNames[2]="OTO"
+HelpText="Oynamak istediginiz takimi seçin."
+actionText="Takim Modeli"
+
+[menuchoice_skilllevel]
+LevelNames[0]="Deneyimli(1)"
+LevelNames[1]="Gelismis(2)"
+LevelNames[2]="Usta(3)"
+HelpText="Deneyimli, Gelismis veya Usta oyuncu becerileri için baslangiç düzeyi."
+actionText="Baslangiç Beceri Düzeyi"
+configSetting="DeusExMPGame MPSkillStartLevel"
+
+[menuchoice_servermode]
+ModeNames[0]="Paylasimsiz"
+ModeNames[1]="Paylasimli"
+HelpText="Sunucunun çalisma tipi.  Paylasimsiz sunucular yerel bir oyuncuya sahip olmaz, ama daha hizli çalisir."
+actionText="Sunucu Modu"
+configSetting="MenuScreenHostGame ServerMode"
+
+[menuchoice_class]
+ClassNames[0]="JC Denton"
+ClassNames[1]="NSF Teröristi"
+ClassNames[2]="UNATCO Askeri"
+ClassNames[3]="Majestic-12 Ajani"
+HelpText="Takimsiz oyunlarda karakteriniz için model."
+actionText="Takimsiz Model"
+
+[menuchoice_connection]
+ConnectionNames[0]="Modem"
+ConnectionNames[1]="DSL veya iyisi"
+HelpText="Internet Baglantisi Tipi"
+actionText="Baglanti Tipi"
+configSetting="Player ConfiguredInternetSpeed"
+
+[ComputerSecurityChoice_MPCamera]
+enumText[0]="Kapali"
+enumText[1]="Düsmanlar"
+enumText[2]="Müttefikler"
+actionText="|&Kamera Durumu"
+
+[menuchoice_multihelp]
+HelpText="Oynanis kurallariyla ilgili size bilgi vermek için çokoyunculu oyunlar süresince mesaj gösterilip gösterilmeyecegini ayarlar."
+actionText="Yardim Mesajlari"
+configSetting="DeusExPlayer bHelpMessages"
+
+[menuchoice_augsallowed]
+HelpText="Öldürmeler için artiricilari ve oyuncularin aldigi baslangiçtaki artiricilari ayarlar."
+actionText="Artiricilar"
+configSetting="DeusExMPGame bAugsAllowed"
+
+[menumpmain]
+ButtonNames[0]="Internet Oyunu"
+ButtonNames[1]="LAN Oyunu"
+ButtonNames[2]="Oyuncu Kurulumu"
+ButtonNames[3]="Artiricilar"
+ButtonNames[4]="Baglantiyi Kes"
+ButtonNames[5]="Önceki Menü"
+Title="Çokoyunculu Ana Menü"
+
+[menuscreenhostlan]
+Title="LAN Oyunu Kur"
+
+[menuchoice_maxplayers]
+HelpText="Oyunda izin verilen maksimum oyuncu sayisini ayarlar."
+actionText="Maksimum Oyuncu # "
+configSetting="DeusExMPGame MaxPlayers"
+
+[menuchoice_augbonus]
+HelpText="Bir öldürme için bir oyuncunun eristigi ek artiricilarin sayisini ayarlar."
+actionText="Öldürme Basina Artiricilar"
+configSetting="DeusExMPGame AugsPerKill"
+
+[menuchoice_Startingaugs]
+HelpText="Bir oyuncuda var olan bastaki artiricilarin sayisini ayarlar."
+actionText="Bastaki Artiricilar"
+configSetting="DeusExMPGame InitialAugs"
+
+[menuscreenhostnet]
+Title="Internet Oyunu Kur"
+
+[menuchoice_startingskills]
+HelpText="Bir oyuncuda var olan bastaki beceri puanini ayarlar."
+actionText="Bastaki Beceri Puani"
+configSetting="DeusExMPGame SkillsAvail"
+
+[menuchoice_skillbonus]
+HelpText="Bir öldürme için bir oyuncunun eristigi ek beceri puanini ayarlar."
+actionText="Öld. Basina Beceri Puani"
+configSetting="DeusExMPGame SkillsPerKill"
+
+[menuchoice_friendlyfire]
+HelpText="Takim arkadasina vurmadan alinan tüm hasarin yüzdesi."
+actionText="Takim Arkadasina Vurma"
+configSetting="DeusExMPGame fFriendlyFireMult"
+
+[General]
+Run=Çalistir!
+FirstTime=Deus Ex Ilk Konfigürasyon
+SafeMode=Deus Ex Güven Modu
+Video=Deus Ex Video Konfigürasyonu
+RecoveryMode=Deus Ex Kurtarma Modu
+WebPage=http://www.deusex.com/
+Direct3DWebPage=http://www.deusex.com/Direct3D.htm
+Detecting=3D video aygitlari bulunuyor, lutfen bekleyin...
+SoundLow=Düsük ses kalitesi
+SoundHigh=Yüksek ses kalitesi
+SkinsLow=Orta detayli oyuncu deriler
+SkinsHigh=Yüksek detayli oyuncu deriler
+WorldLow=Oyuncu detayli dünya dokulari
+WorldHigh="Yüksek detayli dokular"
+ResLow=Düsük video çözünürlügü
+ResHigh=Standart video çözünürlügü
+
+[Descriptions]
+SoftDrv.SoftwareRenderDevice=Deus Ex'in tümlesik yazilim renderleyicisi.  Tüm video kartlariyla uyumludur.  Önerilmez - göze aliyorsaniz kullanin.
+GlideDrv.GlideRenderDevice=3dfx Glide destegi, 3dfx sahipleri için optimal seçim.  3dfx karti gerektirir.
+D3DDrv.D3DRenderDevice=Direct3D donanim renderleme kullanin. Riva TNT, ATI Rage 128, Matrox G400 ve S3 Savage4 gibi daha yeni video kartlariyla uyumludur.  Daha eski video kartlariyla kullanilmasi önerilmez--ATI Rage Pro, Riva 128, Intel i740 veya Rendition V2200 kartina sahipseniz Yazilim Renderleyici kullanin.
+OpenGLDrv.OpenGLRenderDevice=Deneysel OpenGL destegi. Bu, test ve deneysellik için saglandi, ama bazi sürücülerle bilinen uyumluluk sorunlari vardir.  Göze aliyorsaniz kullanin.
+MetalDrv.MetalRenderDevice=S3 Savage4 video kartlari olan kullanicilar için.
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=
+IDC_DetailPrompt=Bilgisayarinizin hizi, hafizasi ve video karti baz alinarak, Deus Ex performansi optimize etmek amaciyla asagidaki detay seçeneklerini seçmistir.
+IDC_DetailNote=Arzu ediyorsaniz, daha sonra oyunun "Tercihler" penceresinden bu seçenekleri degistirebilirsiniz.
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=
+IDC_Prompt=Deus Ex ilk sefer için baslatiliyor.  Herhangi bir sorunu deneyimlediyseniz, lütfen Windows "Baslat" menüsünün "Programlar / Deus Ex" bölümündeki sürüm notlarini okuyun.
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Bilgisayariniz asagidaki 3D video aygitlarini destekliyor.  Deus Ex uygun birini seçmistir.  Bunu degistirmeyi arzuluyorsaniz, altindaki bir seçenegi tiklayin.
+IDC_RenderNote=
+IDC_Compatible=Sertifikali, uyumlu aygitlari göster
+IDC_All=Tum aygitlari göster
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=
+IDC_SafeModePrompt=Geçen sefer Deus Ex çalisti, fakat düzgün biçimde kapatilmadi.  Kapatmaya bir sorunun neden oldugu ihtimaline karsi, kurtarma için altindaki seçenekleri kullanabilirsiniz.
+IDC_SafeModePrompt2=Deus Ex güven modu seçenekleri: Sorunlar deneyimlediyseniz, kurtarma için altindaki seçenekleri kullanabilirsiniz.
+IDC_Run=Deus Ex'i çalistir
+IDC_Video=3D video aygitinizi degistirin
+IDC_SafeMode=Deus Ex'i güven modunda çalistir - sorun giderme için
+IDC_Web=Sorun giderme ipuçlari için web sitemizi ziyaret edin 
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=
+IDC_SafeOptions=Sorunlari teshis etmek için güven modu seçenekleri
+IDC_NoSound=Tüm sesleri devre disi birak
+IDC_No3DSound=3D ses donanimini devre disi birak
+IDC_No3DVideo=3D video donanimini devre disi birak
+IDC_Window=Oyunu (tam ekranin yerine) pencerede çalistir
+IDC_Res=Standart 640x480 çözünürlügünde çalistir
+IDC_ResetConfig=Varsayilanlar için tüm konfigürasyon seçeneklerini sifirla
+IDC_NoProcessor=Pentium III/3DNow islemci uzantilari devre disi
+IDC_NoJoy=Oyun kumandasi destegi devre disi
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=
+IDC_DriverText=Deus Ex asagidaki Direct3D uyumlu video kartini tespit etti:
+IDC_DriverInfo=Direct3D'i seçmis oldugunuzdan dolayi, Deus Ex Direct3D destegi için bu video kartinin sürücüsünü kullanmayi deneyecek.\n\nBununla birlikte, bazi 3D kart sürücüleri Deus Ex'in modern 3D özellikleriyle güvenilir biçimde çalismasi amaciyla güncellenmis olmalidir.  Video kartinizin uyumlulugu ve en son Direct3D sürücülerini almak hakkinda daha fazla bilgi için asagidaki web linkini öneririz.\n\nDogru olmayan renkler, parlayan poligonlar, düsük performans veya bozulmalar gibi herhangi bir grafiksel sorunu deneyimlediyseniz, lütfen video sürücüsünü degistirmak için Baslat / Programlar'da "Deus Ex Güven Modu" linkini kullanin.
+IDC_Web=En son sürücülerin linkleri için, web sayfamizi ziyaret edin:
+IDC_WebButton=Direct3D Bilgi && Sürücüler Sayfasi
+IDC_Card=Bilinmeyen
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Deus Ex Kurulumu
+
+

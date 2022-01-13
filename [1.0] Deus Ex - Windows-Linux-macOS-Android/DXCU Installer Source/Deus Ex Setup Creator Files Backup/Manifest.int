@@ -127,7 +127,7 @@ Developer=Ion Storm Austin
 DeveloperURL=https://www.gog.com/game/deus_ex
 
 [ConfixGroup]
-Caption=Confix (English and Russian Only)
+Caption=Confix (English, Russian and Turkish Only)
 Description=Conversation logic and typo fixes. (If using LayD deselect to save space, will be unused.)
 
 [TranscendedDefaultUser.ini(Theme+FOV)Files]

@@ -1,0 +1,76 @@
+[DeusExLevelInfo0]
+MissionLocation="New York City - Pokol Konyhája"
+startupMessage[0]="New York City, a Pokol Konyhája"
+
+[LevelSummary]
+Title="Untitled"
+
+[SpecialEvent0]
+Message="Szerzõdj le a New York Knicks-hez!!!"
+
+[Button2]
+FamiliarName="Kaputelefon"
+UnfamiliarName="Kaputelefon"
+
+[SkillAwardTrigger2]
+awardMessage="Felderítési jutalom"
+
+[SkillAwardTrigger5]
+awardMessage="Felderítési jutalom"
+
+[SkillAwardTrigger3]
+awardMessage="Felderítési jutalom"
+
+[BumMale0]
+FamiliarName="Hobó"
+UnfamiliarName="Hobó"
+
+[SkillAwardTrigger4]
+awardMessage="Felderítési jutalom"
+
+[ThugMale4]
+FamiliarName="NSF-es verõlegény"
+UnfamiliarName="NSF-es verõlegény"
+
+[BumMale4]
+FamiliarName="Hajléktalan ember"
+UnfamiliarName="Hajléktalan ember"
+
+[BumMale1]
+FamiliarName="Magában motyogó hajléktalan"
+
+[BumMale3]
+FamiliarName="Volt túsz"
+UnfamiliarName="Volt túsz"
+
+[SandraRenton0]
+UnfamiliarName="Csinos lány"
+
+[BumFemale1]
+FamiliarName="Volt túsz"
+UnfamiliarName="Volt túsz"
+
+[ThugMale0]
+FamiliarName="Strici"
+UnfamiliarName="Strici"
+
+[RiotCop1]
+FamiliarName="Rohamrendõr"
+UnfamiliarName="Rohamrendõr"
+
+[ThugMale3]
+FamiliarName="NSF-es verõlegény"
+UnfamiliarName="NSF-es verõlegény"
+
+[RiotCop0]
+FamiliarName="Rohamrendõr"
+UnfamiliarName="Rohamrendõr"
+
+[Hooker0]
+FamiliarName="Sally"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=Apartment,Description="A kulcs Paul lakásához")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="A kulcs az Osgood és Fia raktárházhoz")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="A kulcs az Osgood és Fia raktárház hátsó bejáratához")"
+

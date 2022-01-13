@@ -1,0 +1,12 @@
+[LevelSummary]
+Title="Sem título"
+
+[SkillAwardTrigger1]
+awardMessage="Bônus: localização"
+
+[DeusExLevelInfo1]
+MissionLocation="Nova Iorque - Túneis de esgoto"
+
+[ComputerSecurity0]
+specialOptions[0]="(Text="Girar ponte",TriggerText="Girando ponte",TriggerEvent=RotateBridge)"
+

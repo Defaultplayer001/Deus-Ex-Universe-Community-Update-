@@ -1,0 +1,22 @@
+[DeusExLevelInfo0]
+MissionLocation="Área 51 - Page"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Conectar roteador primário",TriggerEvent=Set_flag_helios,bTriggerOnceOnly=True)"
+
+[ComputerSecurity3]
+specialOptions[0]="(Text="Ativar robô de segurança",TriggerEvent=upper1_release,bTriggerOnceOnly=True)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Contenção ambiental",cameraTag=Gray_camera,doorTag=radiation_exit)"
+specialOptions[0]="(Text="Geradores ambientais",UnTriggerEvent=Gray_rad)"
+
+[ComputerSecurity2]
+specialOptions[0]="(Text="Ativar robô de segurança",TriggerEvent=lower1,bTriggerOnceOnly=True)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Roteador de Aquinas",cameraTag=camera_helios_room,doorTag=door_helios_room)"
+
+[LevelSummary]
+Title="Sem título"
+

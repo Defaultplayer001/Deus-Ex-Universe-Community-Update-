@@ -1,0 +1,53 @@
+[TriadRedArrow0]
+FamiliarName="Tong'un Korumasi"
+UnfamiliarName="Tong'un Korumasi"
+
+[TriadLumPath2]
+FamiliarName="Tong'un Korumasi"
+UnfamiliarName="Tong'un Korumasi"
+
+[SkillAwardTrigger0]
+awardMessage="Özne Edinim Bonusu"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[TriadLumPath4]
+FamiliarName="Tong'un Korumasi"
+UnfamiliarName="Tong'un Korumasi"
+
+[TriadLumPath3]
+FamiliarName="Tong'un Korumasi"
+UnfamiliarName="Tong'un Korumasi"
+
+[TriadLumPath0]
+FamiliarName="Tong'un Korumasi"
+UnfamiliarName="Tong'un Korumasi"
+
+[TriadLumPath1]
+FamiliarName="Tong'un Korumasi"
+UnfamiliarName="Tong'un Korumasi"
+
+[NanoKey0]
+PickupMessage="Jock'un apartman anahtarini buldun"
+Description="Jock'un Tonnochi Yolu Apartmani"
+
+[LevelSummary]
+Title="Untitled"
+
+[TriadRedArrow1]
+FamiliarName="Tong'un Korumasi"
+UnfamiliarName="Tong'un Korumasi"
+
+[TriadRedArrow4]
+FamiliarName="Tong'un Korumasi"
+UnfamiliarName="Tong'un Korumasi"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Tong'un Üssü"
+startupMessage[0]="Tracer Tong'un Laboratuvari"
+
+[TriadRedArrow3]
+FamiliarName="Tong'un Korumasi"
+UnfamiliarName="Tong'un Korumasi"
+

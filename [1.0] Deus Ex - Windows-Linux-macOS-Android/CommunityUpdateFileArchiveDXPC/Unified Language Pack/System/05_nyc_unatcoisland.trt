@@ -1,0 +1,37 @@
+[Terrorist2]
+FamiliarName="Miguel"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[ThugMale9]
+FamiliarName="Parali Serseri"
+UnfamiliarName="Parali Serseri"
+
+[ComputerSecurity0]
+Views[0]="(titleString="SATCOM Yerleskesi",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[1]="(titleString="UNATCO Krg Dis Taraf",CameraTag=UN_CamSystem02)"
+Views[2]="(titleString="UNATCO Krg Iç Taraf",CameraTag=UN_CamSystem03)"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Özgürlük Adasi"
+
+[SecurityCamera0]
+FamiliarName="UN_lobby02"
+
+[SecurityCamera1]
+FamiliarName="UN_lobby01"
+
+[SecurityCamera2]
+FamiliarName="UN_outside"
+
+[SecurityCamera4]
+FamiliarName="SATCOM_cam"
+
+[UNATCOTroop6]
+FamiliarName="Lloyd"
+
