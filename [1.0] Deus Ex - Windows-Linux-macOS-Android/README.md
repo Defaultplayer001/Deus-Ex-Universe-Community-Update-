@@ -15,7 +15,7 @@ Thanks everyone!
 
 Just Deus Ex - ready to play! 
 
-With all 10 known text translations, along with many extras for editing. 
+With all 11 known text translations, along with many extras for editing. 
 
 Specifically has numerous community made engine level fixes on top of the proper 1112fm (GOTY) patch, without the broken maps shipped on retail versions. 
 Actual gameplay code is identical, warts and all! 
@@ -393,6 +393,8 @@ Japanese (Official) : Unknown (If you know please let us know!)
 
 Spanish (Official) : Unknown (If you know please let us know!)
 
+Polish (Cenega) (Official): Unknown (If you know please let us know!)
+
 (Licences: Same as game)
 
 ####		Unofficial
@@ -403,8 +405,9 @@ https://www.moddb.com/mods/deusexczmod-1112fm
 
 Hungarian (Fan-made) : Deus Ex Magyar˙ëÅECsapat /  Deus Ex Hungarian Translation Team - Members: Biwdy (If you know others please let us know!)
 
-Russian (Unofficial & Fan-made) : Unknown (If you know please let us know!)
+Russian (Unofficial & Fan-made): Unknown (If you know please let us know!)
 
+Turkish (Fan-made) : https://www.moddb.com/mods/deus-ex-turkish-translation-patch
 
 ####		Unknown
 

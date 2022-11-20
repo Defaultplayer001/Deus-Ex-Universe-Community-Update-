@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0059)https://beyondunrealwiki.github.io/pages/umod-creating.html -->
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>UnrealWiki: UMOD/Creating</title>
+	
+	<link rel="stylesheet" type="text/css" media="screen, print" href="./UnrealWiki_ UMOD_Creating_files/stylebase.structural.css">	
+	<link rel="stylesheet" type="text/css" media="screen" href="./UnrealWiki_ UMOD_Creating_files/template-default.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="./UnrealWiki_ UMOD_Creating_files/styles.chblue.css">
+	<link rel="stylesheet" type="text/css" media="print" href="./UnrealWiki_ UMOD_Creating_files/template-default-print.css">
+	<!--[if IE 6]>
+			<style>
+			/* dirty hack for IE6. */
+			#quickbar {
+				position: absolute;
+				}
+			</style>
+	<![endif]-->
+  <link rel="start" href="http://wiki.beyondunreal.com/">
+  <link rel="glossary" href="http://wiki.beyondunreal.com/wiki/Terminology">
+  <link rel="help" href="http://wiki.beyondunreal.com/wiki/Using_The_Wiki">
+<script type="text/javascript" src="./UnrealWiki_ UMOD_Creating_files/dhtml.js.download"></script>
+<script type="text/javascript" src="./UnrealWiki_ UMOD_Creating_files/dhtml-menu.js.download"></script>
+<style type="text/css">#dhtml-menu    { background: #eee; padding: 5px 0px; margin-right: -20px; border: 1px solid #888; border-left: 1px solid #ccc; border-top: 1px solid #ccc;  border-right: 1px solid #888; border-bottom: 1px solid #888 }
+#dhtml-menu td { color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 9pt; line-height: 13pt; padding: 1px 10px; cursor: default }
+#dhtml-menu a  { color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 9pt; line-height: 13pt; text-decoration: none }
+#dhtml-menu tt { font-family: monospace; font-size: 9pt }
+#dhtml-menu-separator { height: 1px; background: red }
+#dhtml-menu-anchor { cursor: default }
+</style>
+<script type="text/javascript" src="./UnrealWiki_ UMOD_Creating_files/expandable.js.download"></script>
+</head>
+<body onload="menuInit(); document.cookie=&#39;page=UMOD/Creating; path=/&#39;" class="default">
+<div id="scrolling"><!-- contains all except the fixed sidebar -->
+<div id="topbar" class="bar">
+	<div class="righthalf">
+		<input type="text" name="search" size="14"> <input type="button" onclick="location.href=&#39;../search-error/index.html&#39;;" value="search">
+	</div>
+	<div class="lefthalf">
+		<script type="text/javascript"><!--
+			menuAlignRight = false;
+		//--></script>
+		<span><script type="text/javascript"><!--
+ menuWriteAnchor("Quick Navigation") //--></script><span style="position: relative" id="dhtml-menu-anchor">Quick Navigation</span></span> | <a href="https://beyondunrealwiki.github.io/index.html">Home Page</a> | <a href="https://beyondunrealwiki.github.io/pages/recent-changes.html">Recent Changes</a>
+	</div>
+</div>
+
+<div id="content"><!-- contains the title and article -->
+	<h1 class="pagetitle"><a href="https://beyondunrealwiki.github.io/pages/umod.html">UMOD</a>/<a href="http://wiki.beyondunreal.com/wiki?back=UMOD/Creating">Creating</a></h1>
+	<div class="wiki"><p>Until somebody writes a detailed technical description of the process, here's a link to an old <a href="http://www.vsl.gifu-u.ac.jp/unreal/www.planetunreal.com-chimeric/scripts/tut41.htm">[Chimeric tutorial]</a>.</p>
+<p>Be sure to backup your existing <tt>Manifest.ini</tt> before compiling the <a href="https://beyondunrealwiki.github.io/pages/umod.html">UMOD</a> file or you might no longer be able to install some <a href="https://beyondunrealwiki.github.io/pages/umod.html">UMOD</a> files that check if UT is installed in the specified directory.</p>
+<h2><a name="0.1"></a>Automating UMOD Creation</h2>
+<p>When you're developing a mod or a mutator it's always a good idea to automate as much of the creation process as possible; that includes the creation of distribution packages.</p>
+<p>There are a couple of very pragmatic reasons for that:  Firstly, it's more convenient for you on the long run; secondly, once you have automated and validated the process you don't have to bother with whether the created files are complete and working in future; thirdly, last-minute changes and fixes are much more easily and conveniently applied if all you have to do to pack your distribution packages is a single double-click on a batch file.</p>
+<p>You can use <a href="https://beyondunrealwiki.github.io/pages/umod-wizard.html">umod Wizard</a> to have the .ini and .int files created necessary for making an <a href="https://beyondunrealwiki.github.io/pages/umod.html">UMOD</a> installer.  Then use the following batch file (for Windows):</p>
+<pre>:: UCCMaster.bat 
+
+@echo off
+if "%1" == "" goto end
+
+copy Manifest.* OldManifest.*
+ucc.exe master %1
+del Manifest.*
+copy OldManifest.* Manifest.*
+del OldManifest.*
+
+:end</pre><p>Place this file in Unreal Tournament's System directory and simply drop your custom .ini file for <a href="https://beyondunrealwiki.github.io/pages/umod.html">UMOD</a> creation on it.  To automatize even this step, create another small batch file that calls <tt>UCCMaster.bat</tt> with the .ini file being its first command line argument.</p>
+<h2><a name="0.2"></a>UMOD files for UT2003: UT2MOD</h2>
+<p>Creating UT2MOD files is basically the same as creating a UMOD file. Actually the only difference is the file's extension and UT2003 as requirement instead of Unreal Tournament.</p>
+<p><em class="em2">Note:</em> You should not only create YourMod.ini and YourMod.int for creating your UT2MOD file, but also YourMod.det, .est, .frt, .itt, .kot, .smt and .tmt (just copy YourMod.int for that). Otherwise localized versions of UT2003 will display your mod as "Unreal Tournament 2003" complete with Epic Games as developer and the UT2003 website. This problem is caused by a Manifest.det, .frt, etc. in the UT2003\System directory which doesn't really belong there. It'll override the settings in YourMod.int unless you override them yourself with the corresponding YourMod localization file.</p>
+<p>Instead of creating physical copies of YourMod.int (for the .det, .frt etc. versions), you can use the following statements in your UT2MOD file's Manifest.ini to have "ucc master" create them for you automatically when packing the UT2MOD file:</p>
+<pre class="paraverbatim">  Copy=(Src=System\Manifest.ini,Flags=3)
+  Copy=(Src=System\Manifest.int,Master=System\Manifest.int,Flags=3)
+  Copy=(Src=System\Manifest.det,Master=System\Manifest.int,Flags=3)
+  Copy=(Src=System\Manifest.est,Master=System\Manifest.int,Flags=3)
+  Copy=(Src=System\Manifest.frt,Master=System\Manifest.int,Flags=3)
+  Copy=(Src=System\Manifest.itt,Master=System\Manifest.int,Flags=3)
+  Copy=(Src=System\Manifest.kot,Master=System\Manifest.int,Flags=3)
+  Copy=(Src=System\Manifest.smt,Master=System\Manifest.int,Flags=3)
+  Copy=(Src=System\Manifest.tmt,Master=System\Manifest.int,Flags=3)</pre><h2><a name="0.3"></a>Avoiding filename problems</h2>
+<p>If you include filenames over 31 characters you'll prevent Mac users from using your mod.</p>
+<p>If you include filenames with spaces ("My New Mod Readme.txt") you'll make it more difficult for Linux users to use your mod (the text-mode installer can cope with filenames like that, but the GUI one can't).</p>
+<p>Please don't call your readme "Readme.txt" when you could make it clear what it applies to by calling it something like "CTF-Whatsitsname][.txt".</p>
+<h2><a name="0.4"></a>Related Topics</h2>
+<ul><li><a href="https://beyondunrealwiki.github.io/pages/umod-problems.html">/Problems</a> with UMOD files</li>
+<li><a href="https://beyondunrealwiki.github.io/pages/umod-source.html">/Source</a> – neccessary files for creating UMODs</li>
+</ul>
+<hr class="thin"><p><em class="em2">Mychaeel:</em> In my personal opinion I think people not reading readme files or bothering to check don't deserve any better.  I value the convenience of users that know how to use their tools and bother to read readme files much higher.</p>
+<hr class="thin"><p><em class="em2">Mychaeel:</em>  I have a custom Perl script here that automatizes the creation of both a .umod and a .zip distribution, given an .ini file.  The script can also optionally skip sections from the .ini file during creation of the UMOD installer or selectively merge different .ini files; I used that to automatize the creation of the three different Jailbreak distribution packages.  If anybody is interested in that script, <a href="mailto:mychaeel@planetjailbreak.com">[send me an email]</a>.</p>
+<hr class="thin"><p><em class="em2">Wormbo:</em> One thing we need to cover here is how to compress packages for the installer. I tried using UCC Compress, but the installer didn't decompress them afterwards.</p>
+<p><em class="em2">Mychaeel:</em>  I doubt that is possible in a way that's automatically decompressed by the installer.  I've never seen it done – by nobody – anywhere.</p>
+<p><em class="em2">Wormbo:</em> The UT installer (also GOTYE CD2) itself decompresses a lot maps. Maybe that feature only works with maps.</p>
+<p><em class="em2">Mychaeel:</em>  Interesting!  That'd be indeed a neat thing to know.  Maybe it's indeed what <code>ucc compress</code> produces, but requires some particular file flag in the UMOD's file directory (see <a href="https://beyondunrealwiki.github.io/pages/umod-file-format.html">UMOD/File Format</a>).  I've lost my G.O.T.Y.E. CD unfortunately <img alt=":-(" src="./UnrealWiki_ UMOD_Creating_files/sad.gif" align="middle"> or I'd have a look at that at once.</p>
+<p><em class="em2">Wormbo:</em> The GOTYE CD2 doesn't use a UMOD file, but there's a Manifest.ini similar to the one on CD1 and in any UMOD file and the Setup.exe there is the same as in UT's System directory.</p>
+<p><em class="em2">Mychaeel:</em>  What <code>Flags</code> does this Manifest.ini specify for the compressed files in question?</p>
+<p><em class="em2">Wormbo:</em> Hmm, nothing? There's only a line like this:<br><code>File=(Src=maps\RA-Akuma.unr.uz,Dest=maps\RA-Akuma.unr,Master=maps\RA-Akuma.unr.uz,Size=1721543)</code><br>However this didn't work when I tried with a compressed package and a similar line.</p>
+<p><em class="em2">MythOpus:</em> A response to wormbos earlier comment... textures sounds etc... can be compressed to.  Look at the way Deus Ex installs itself <img alt=":)" src="./UnrealWiki_ UMOD_Creating_files/smile.gif" align="middle"></p>
+<p><em class="em2">Gengar003:</em> I had the same problem as wormbo... and I noticed something.</p>
+<p>The .unr.uz maps that came with my GOTY CD are uncompressed into .unr maps by the main setup.exe installer with no problems.</p>
+<p>When I run ucc compress on the uncompressed versions of those maps, the resulting .unr.uz maps are NOT the same file size (they're slightly larger) than the originals. It would seem that the installer requires a different means of compression than UCC.exe provides. Unless someone can figure out what was used to compress the original maps, it doesn't look like we'll be able to have compressed content installed automatically...</p>
+<script type="text/javascript"><!--
+ menuItemAdd("Automating UMOD Creation", "#0.1");
+menuItemAdd("UMOD files for UT2003: UT2MOD", "#0.2");
+menuItemAdd("Avoiding filename problems", "#0.3");
+menuItemAdd("Related Topics", "#0.4");
+ menuWrite() //--></script><div style="position: absolute; left: 10px; top: 10px; visibility: hidden;" id="dhtml-menu"><table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td onmouseover="menuItemOver(this)" onmouseout="menuItemOut(this)" onmouseup="menuItemSelect(0)">Automating UMOD Creation</td></tr><tr><td onmouseover="menuItemOver(this)" onmouseout="menuItemOut(this)" onmouseup="menuItemSelect(1)">UMOD files for UT2003: UT2MOD</td></tr><tr><td onmouseover="menuItemOver(this)" onmouseout="menuItemOut(this)" onmouseup="menuItemSelect(2)">Avoiding filename problems</td></tr><tr><td onmouseover="menuItemOver(this)" onmouseout="menuItemOut(this)" onmouseup="menuItemSelect(3)">Related Topics</td></tr></tbody></table></div></div>
+</div>
+
+<div id="footer" class="bar">
+	<p>
+<a href="https://beyondunrealwiki.github.io/index.html">Home Page</a> | <a href="https://beyondunrealwiki.github.io/pages/umod.html">UMOD</a> | <a href="https://beyondunrealwiki.github.io/pages/recent-changes.html">Recent Changes</a><br>
+Last edited October 7, 2006 9:12 <a href="http://wiki.beyondunreal.com/wiki?action=browse&amp;diff=1&amp;id=UMOD/Creating">(diff)</a><br>Search: <input type="text" name="search" size="14"><input type="button" onclick="location.href=&#39;../search-error/index.html&#39;;" value="search"><br><br><small><a href="http://wiki.beyondunreal.com/wiki/UMOD/Creating">Original page</a> – copy created Sat, Jun 23, 2007</small></p><div></div>
+
+	<p></p>
+	<p>I'm a doctor, not a mechanic
+</p>
+</div>
+</div><!-- close of "scrolling" div -->
+
+<div id="quickbar">
+	<div id="logo"><a href="https://beyondunrealwiki.github.io/index.html"><img src="./UnrealWiki_ UMOD_Creating_files/wikilogo.jpg" width="143" height="100" border="0"></a>
+		</div>
+	<div class="qbsitename">
+		<p>The Unreal Engine Documentation Site</p>
+	</div>
+	<div class="qbsection">
+<p><a href="https://beyondunrealwiki.github.io/pages/metatopics.html">Wiki Community</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/category-category.html">Topic Categories</a>
+</p>
+
+
+<p><a href="https://beyondunrealwiki.github.io/pages/recent-changes.html">Recent Changes</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/offline-wiki.html">Offline Wiki</a>
+</p>
+</div><div class="qbsection">
+<p><a href="https://beyondunrealwiki.github.io/pages/unreal-engine.html">Unreal Engine</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/console-commands.html">Console Commands</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/terminology.html">Terminology</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/category-faq.html">FAQs</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/help-desk.html">Help Desk</a>
+</p>
+</div><div class="qbsection">
+<p><a href="https://beyondunrealwiki.github.io/pages/topics-on-mapping.html">Mapping Topics</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/mapping-lessons.html">Mapping Lessons</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/unrealed-3.html">UnrealEd Interface</a>
+</p>
+</div><div class="qbsection">
+<p><a href="https://beyondunrealwiki.github.io/pages/unrealscript.html">UnrealScript Topics</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/unrealscript-lessons.html">UnrealScript Lessons</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/making-mods.html">Making Mods</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/class-tree.html">Class Tree</a>
+</p>
+</div><div class="qbsection">
+<p><a href="https://beyondunrealwiki.github.io/pages/topics-on-modeling.html">Modeling Topics</a>
+</p>
+</div><div class="qbsection">
+<p><a href="https://beyondunrealwiki.github.io/pages/chongqing-page.html">Chongqing Page</a>
+</p>
+<p><a href="https://beyondunrealwiki.github.io/pages/log-in.html">Log In</a></p></div>
+</div>
+
+
+</body></html>

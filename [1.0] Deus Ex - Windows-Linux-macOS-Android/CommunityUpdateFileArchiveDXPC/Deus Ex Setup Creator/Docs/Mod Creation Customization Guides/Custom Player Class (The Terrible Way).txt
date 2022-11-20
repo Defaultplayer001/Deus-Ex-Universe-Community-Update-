@@ -1,0 +1,15 @@
+This is an alternate step to "Custom Player Class (The Harder Way).txt"
+
+1. Go to DeusExGameInfo.uc, under ApproveClass()
+
+2. Change return false to return true.
+
+3. Go fuck yourself, you just made your mod incompatible with any other DeusEx.u modification. 
+
+This at least a catch all solution?
+
+Should disable Multiplayer menu button, probably cause issues. 
+
+Tutorial too, for neatness. 
+
+Or better yet, DON'T DO THIS. 

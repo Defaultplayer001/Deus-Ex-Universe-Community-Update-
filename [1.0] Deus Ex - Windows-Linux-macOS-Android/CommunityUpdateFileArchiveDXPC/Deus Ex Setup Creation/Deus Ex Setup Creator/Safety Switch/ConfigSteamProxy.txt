@@ -1,5 +1,0 @@
-;!@Install@!UTF-8!
-Title="LayD"
-InstallPath="%%S"
-RunProgram="SteamProxy.bat"
-;!@InstallEnd@!

@@ -1,0 +1,4 @@
+;!@Install@!UTF-8!
+Title="Deus Ex Video Proxy"
+InstallPath="C:\Program Files (x86)\Deus Ex Video Proxy"
+;!@InstallEnd@!

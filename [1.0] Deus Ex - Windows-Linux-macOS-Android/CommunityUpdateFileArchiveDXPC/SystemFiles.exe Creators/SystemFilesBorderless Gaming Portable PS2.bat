@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + "ConfigBorderless Gaming Portable PS2.txt" + "Borderless Gaming Portable PS2.7z" "Borderless Gaming Portable PS2.exe"

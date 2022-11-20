@@ -1,4 +1,0 @@
-
-[ValueGroup]
-Optional=True
-Visible=True

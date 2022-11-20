@@ -1,0 +1,4 @@
+;!@Install@!UTF-8!
+Title="Borderless Gaming Portable PS2"
+InstallPath="..\..\System"
+;!@InstallEnd@!

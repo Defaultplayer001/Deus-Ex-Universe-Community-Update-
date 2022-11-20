@@ -1,5 +1,0 @@
-
-[ValueGroup]
-Optional=True
-Visible=True
-Selected=False

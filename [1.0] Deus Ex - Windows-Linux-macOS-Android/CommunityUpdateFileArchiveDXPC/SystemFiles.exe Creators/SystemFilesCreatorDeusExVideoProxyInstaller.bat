@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + ConfigDeusExVideoProxyInstaller.txt + "Deus Ex Video Proxy.7z" "Deus Ex Video Proxy.exe"

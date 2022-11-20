@@ -1,0 +1,5 @@
+;!@Install@!UTF-8!
+Title="HDTP"
+InstallPath="%%S"
+RunProgram="AddHDTPtoLocalInis.bat"
+;!@InstallEnd@!

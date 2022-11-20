@@ -1,0 +1,139 @@
+How to add animations to conversations in Deus Ex AKA My dance moves are augmented - A loser's guide to doing things in Unreal Engine 1.5 you *could* do but probably *shouldn't* - Part 1
+
+I usually just make simple text guides for future reference when I discover "useful" Deus Ex 1 modding tricks, but I've always thought it'd be fun to have some kinda Deus Ex related blog or something. Figured some of the silly / stupid stuff I've figured out in trying to get from A to B would make for amusing content :P
+
+Much of it is from my upcoming mini-mod, Deus Ex: The Exorcism: https://old.reddit.com/r/Deusex/comments/yia98f/deus_ex_the_exorcism_halloween_minimod_teaser/ 
+
+Thanks again for the warm reception to just the simple teaser pic ya'll <3 
+
+--------------------------------------------------------------------------------------------------------
+
+#Description:
+
+If you've ever used ConEdit, you may have noticed a "Play Animation" event: https://i.imgur.com/OBzHmu5.png (Fig 1)  
+
+You may have tried to use it, only to find it unusable for much but gestures.
+The documentation isn't particularly helpful, not even mentioning the limited functionality; just that it was never implemented at all. https://i.imgur.com/9crgex8.png (Fig 1.5)
+
+Luckily, as they often do modders of the past saved the day! 
+Unluckily, the information was a bit obscure and hard to find. It also doesn't seem to be widely known / utilized. At least, I sure had a pain figuring it out :P
+So I thought I'd make a quick guide as to how to get it implemented and pre-built examples.
+
+Followed the info here:  
+First I found this: https://www.youtube.com/watch?v=EhXZ4Qphl6c  
+Which led to this: https://www.ttlg.com/forums/showthread.php?t=91499 (Copied at the bottom of this text for posterity)
+
+Got it to work on vanilla via recompiling both DeusEx.u and Consys.u, and RF / DXT by modifying RFConplay and calling it the same way RFJCDentonmale does / recompiling ConSys. I've no idea why but I couldn't get it working on a regular JCDentonmale class.  
+
+ I have no idea what I'm doing: https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fphotos%2Fimages%2Fnewsfeed%2F000%2F234%2F765%2Fb7e.jpg
+
+Hence the title of this still being applicable despite this first example being rather innocuous. (Don't worry, I'll show ya'll how to do way more janky and stupid stuff later)
+
+# Download: https://drive.google.com/file/d/1HuXzm_EUBMAOkiZbqAhwFG4-QxKs7wdq/view?usp=sharing
+
+_________________________________________________
+
+##How to use:
+Simply replace your ConSys.u and DeusEx.u in "DeusEx\System" with the ones in the "1112f" folder. (Note: this assumes you are using the GOTY version of the game)
+
+##How to use with RF / Deus Ex: Transcended:
+Replace your ConSys.u as above, and also copy EX.u from the "RF & DXT" folder into "\System".  Also set Class=EX.RFJCDentonMaleF in your DeusEx.ini and User.ini, in the "System" folder too. Transfer EXTex.utx into your "Textures" folder as well.
+
+Edit: I forgot, but the DXT version also has an edit to remove the credits display during convos, just a personal preference. To re-enable just diff with the original, brew your own, or bug me to do it for you :P
+
+Then simply package with your mod to have conversations with animation events!  It's a bit finicky, so experiment with it for best results.
+
+##How to safety dance:
+
+Unfortunately, for my purpose of making JC dance this wasn't enough. The GM_Trench mesh he uses is sadly lacking the "dance" animation most other npcs have. 
+So I came up with this gloriously crappy hack of combining other animations into a makeshift dance: https://i.imgur.com/jhctOHr.png (Fig 2)  
+It works(TM)
+
+Like father, like son: https://www.youtube.com/watch?v=Y414Q7vVgYU
+
+##Final tip: 
+Extract DeusExCharacters.u with DEED (https://tcrf.net/Notes:Deus_Ex) to get import scripts, which contain a list of animation names that meshes contain. (Probably a better way, if you know please mention! This is just something I happened to discover while stumbling in the dark tryin' to figure out the right names)
+
+------------------------------------------------------------------------------------------------------
+
+#Implementation guide for people who want to implement their own version / just wanna know how it was done (and hopefully tell me things that could be done better):
+
+The linked forum post explained it all pretty well for the vanilla version, but I'll go over it again JIC. Breakin' it down real simple for the beginners. (AKA probably me in a few months when I forget the steps I took.)
+
+1. Open UnrealEd and "Export all" from the lower right window. (Get from either the SDK: https://www.moddb.com/games/deus-ex/downloads/sdk-v1112fm or Community Update (Which is what I'm using ofc): https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/releases/tag/2.3.4
+
+2. Go to your root folder, and find the "ConSys" folder. Go in there, into the "Classes" subfolder; then finally find ConEventAnimation.uc and open with a text editor.
+
+3. Add the following lines below "Animation Sequence", so it looks like this: https://i.imgur.com/kvdqe4x.png (Fig 3) (Pre-modifed ConEventAnimation.uc included in both the 1112f and RF & DXT folders)  
+
+	var byte playMode;  // Erkki: 1 = no looping, 0 = looping 
+	var int playLength;  // Erkki: play time of animation in seconds
+
+4. Navigate back to root, and go to your "DeusEx" class folder. (So for some, "DeusEx/DeusEx") Go into the "Classes" subfolder and find ConPlay.uc. 
+
+5. Ctrl+F for "State ConPlayAnim", add the following lines until it looks like this: https://i.imgur.com/2saNh0z.png (Fig 4)  (If viewing on Reddit please just click source to copy properly, or view the pre-modified ConPlay.uc, love of god it's 2:54 AM and I don't have the patience to learn Reddit's code formatting.)  
+
+//After Begin: I added this
+	ConEventAnimation(currentEvent).bLoopAnim = (ConEventAnimation(currentEvent).playMode == 0);
+
+// For debugging
+    log( "ANIM.Name : " $ ConEventAnimation(currentEvent).sequence);
+    log( "ANIM.Mode : " $ ConEventAnimation(currentEvent).playMode);
+    log( "ANIM.Length : " $ ConEventAnimation(currentEvent).playLength);
+    log( "ANIM.Finish : " $ ConEventAnimation(currentEvent).bFinishAnim);
+    log( "ANIM.Loop : " $ ConEventAnimation(currentEvent).bLoopAnim);
+
+// This near the end of the state, the part after else was already there...
+	if ((ConEventAnimation(currentEvent).playLength > 0))
+		Sleep(ConEventAnimation(currentEvent).playLength);
+	else if (( !ConEventAnimation(currentEvent).bLoopAnim ) && ( ConEventAnimation(currentEvent).bFinishAnim ))
+		ConEventAnimation(currentEvent).eventOwner.FinishAnim();
+
+That's it! 
+
+For RF / DXT, instead of modifying DeusEx.u in steps 4+, instead modifiy a clone of RFJCDentonMale.uc to be your custom player class, then modify the line "conPlay = Spawn(class'RFConPlay');" to "conPlay = Spawn(class'RFConPlayEX');"
+
+"RFConPlayEx" being just "RFConPlay" modified the same as vanilla DX's Conplay. (I think this might need to be in the same class file as your custom player class, so either recompile it into EX.u or make sure all the files are in your own custom .u. Not 100% sure though)
+
+#Thanks Erkki / WCCC / Bjorn / Han / probably other people I forgot!
+
+
+
+
+#Copy of source text for posterity: 
+
+Fixed a bug in DeusEx ConSys
+Hey guys. Are you still working on Cassandra?
+
+I started working on my mod again and since I needed to play an animation during a conversation, I discovered it wasn't working properly. I fiddled with the settings of the event, and finally it crashed the compiler. I thought maybe you guys need to do something like this too...
+
+Now I have never written "native" code for any Unreal engine game and I don't know how exactly the UnrealScript / C++ binding works, but I discovered that the ConEventAnimation.uc file had different variables than the C++ header file.
+
+I think I fixed this by modifying the .uc file like this (I added the lines where my name is in the comment):
+Code:
+var Actor eventOwner;				// Pawn who owns this event
+var String eventOwnerName;			// NPC who owns event
+var Name sequence;					// Animation Sequence
+var byte playMode;  // Erkki: 1 = no looping, 0 = looping
+var int playLength;  // Erkki: play time of animation in seconds
+var Bool bFinishAnim;				// Wait until animation finishes
+var bool bLoopAnim;					// Loop Animation
+Now changing this probably fixes the crashes, but it doesn't add any functionality yet. I think they didn't use/implement this properly in Deus Ex, forgot about it and left a bug in there... bLoopAnim isn't even present in the C++ header and looping depends on playMode == 0 (no looping playMode == 1). So you'd need to derive a new class from DeusEx.ConPlay and override the ConPlayAnim state. And add some functionality yourself. I only used a sort of hack and added Sleep(playLength) because I needed some timing unrelated to the actual animation. playLength is an INT though, I should divide it to get more precision
+Code:
+//After Begin: I added this
+	ConEventAnimation(currentEvent).bLoopAnim = (ConEventAnimation(currentEvent).playMode == 0);
+
+// For debugging
+    log( "ANIM.Name : " $ ConEventAnimation(currentEvent).sequence);
+    log( "ANIM.Mode : " $ ConEventAnimation(currentEvent).playMode);
+    log( "ANIM.Length : " $ ConEventAnimation(currentEvent).playLength);
+    log( "ANIM.Finish : " $ ConEventAnimation(currentEvent).bFinishAnim);
+    log( "ANIM.Loop : " $ ConEventAnimation(currentEvent).bLoopAnim);
+
+// This near the end of the state, the part after else was already there...
+	if ((ConEventAnimation(currentEvent).playLength > 0))
+		Sleep(ConEventAnimation(currentEvent).playLength);
+	else if (( !ConEventAnimation(currentEvent).bLoopAnim ) && ( ConEventAnimation(currentEvent).bFinishAnim ))
+		ConEventAnimation(currentEvent).eventOwner.FinishAnim();
+
+

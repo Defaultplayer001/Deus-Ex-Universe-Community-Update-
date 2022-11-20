@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + ConfigHDTPLocal.txt + HDTPLocal.7z HDTPLocal.exe

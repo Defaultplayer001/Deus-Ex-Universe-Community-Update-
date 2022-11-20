@@ -1,0 +1,1 @@
+copy /b 7zS.sfx + ConfigInstaller.txt + Installer.7z Installer.exe

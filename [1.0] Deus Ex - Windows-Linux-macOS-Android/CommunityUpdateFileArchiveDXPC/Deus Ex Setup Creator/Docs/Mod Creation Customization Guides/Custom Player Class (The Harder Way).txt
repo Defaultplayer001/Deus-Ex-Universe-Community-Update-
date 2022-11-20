@@ -1,0 +1,50 @@
+Actual Custom Player Class:
+
+	1. Hex Edit ConSys.dll:
+
+		1. Open up ConSys.dll in XVI32.
+
+		2. Search for text string "JCDenton", without quotes. Unicode enabled.
+
+		3. Replace with custom player name, no spaces and has to be shorter then 8 characters! 
+			Make sure to zero out blank spaces, not just replace them with 0s!
+
+	2. Create Custom Player Class:
+		
+		1. Create an extension of Human.uc into your mod's custom package.
+			Can use JCDentonMale as a base, deleting everything but defprops. 
+
+		2. Copy any desired defprops from a chosen NPC / JC. 
+
+		3. Set any names to be your characters name, instead of JC's.
+			
+			Alt (Better) version in Tack's Guide (Too long to copy here.) 
+			
+
+	3. Create custom DeusExGameInfo.
+
+		1. Copy DeusExGameInfo.uc into your mod's custom package.
+			As typical, give the edited .uc a custom name.
+
+		2. Find "Class'JCDentonMale'", without double quotes. 
+
+		3. Replace with "Class'YOURCUSTOMCLASSNAME'", without double quotes.
+			
+		Alt (Better) from Tack's Guide: 
+			Create another .uc file in your Classes folder.  Call it MyGameInfo.uc and put this in it:
+
+class MyGameInfo extends DeusExGameInfo;
+
+function bool ApproveClass( class<playerpawn> SpawnClass)
+{
+    return true;
+
+
+
+
+
+
+
+i mean literally, open consys.dll in xvi32
+search for JCDenton
+replace it, 0 terminate if name is shorter
