@@ -187,7 +187,7 @@ If you install a translation, Confix will not be.
 * Direct3D 10 (With Veronika's HDR Brightness Fix)
 * Direct3D 9
 * Direct3D 8 (outdated, use another unless neccessary)
-* OpenGl (Updated) 
+* OpenGl (New Version by Han! Features better VSync, colors and more.) 
 * Uglide (In archive, extract the setup exe to access)
 	
 ### Audio Renderers:
@@ -222,6 +222,7 @@ If you install a translation, Confix will not be.
 * Bright 1.83 
 * UModel 
 * Tutorials: UED2 manual, Tack's site and Universal Constructor site, Wolf's site, Blacksway's UED2 guide, various Unreal reference material, all official documentation from the SDK
+* UnrealEdFix 4 - Required dependencies
 #### Also included:
 * Deus Ex Editor Patch
 * Editor.dll hex edited to show an increased 1024x1024/2048x2048 resolution of temporary viewport for shadowmap creation.ViewportSize
@@ -314,7 +315,7 @@ Hawk: Deus Ex: Transcended, ConFix, Support, pointed out D3D10Drv Int typo, code
 
 Bjorn Ehrby: RF (Revision Framework), Support, New UnrealEd 2
 
-Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, WinDrvLite/Ext, HTK Commandlets, Editor Fix / Patch (Patch a superset of Fix), Hex Edited Editor.dll, UCC Fix (No longer used since no one can remember what it was used for, likely superseded by new LCC versions.), Support, Cluster, OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
+Hanfling: Launch, LCC, RF (Revision Framework), RenderExt, WinDrvLite/Ext, HTK Commandlets, Editor Fix / Patch (Patch a superset of Fix), Hex Edited Editor.dll, UCC Fix (No longer used since no one can remember what it was used for, likely superseded by new LCC versions.), Support, Cluster, New OpenGL OpenAL Lipsyching & misc, both edited Deusex.u's were done by Defaultplayer001 following his instructions 
 http://coding.hanfling.de/launch/
 https://www.patreon.com/hanfling/overview
 
@@ -517,6 +518,8 @@ Karl M. Syring: UnixUtils (Paste, SED)
 https://en.wikipedia.org/wiki/UnxUtils
 
 KillerBeer: HunMOD Deusex.u int in fix suggestion, ConEditExport
+
+Epic: UnrealEdFix4
 
 ### If anyone has been forgotten, please let us know! 
 

@@ -20,7 +20,7 @@ ResHigh=Standard video resolution
 SoftDrv.SoftwareRenderDevice=Deus Ex's built-in software renderer.  Compatible with all video cards.  Not recommended - use at your own risk.
 GlideDrv.GlideRenderDevice=3dfx Glide support, the optimal choice for 3dfx owners.  3dfx card required.
 D3DDrv.D3DRenderDevice=Use Direct3D hardware rendering. Compatible with newer video cards like the Riva TNT, ATI Rage 128, Matrox G400, and S3 Savage4.  Not recommended for use with earlier video cards--use the Software Renderer if you have an ATI Rage Pro, Riva 128, Intel i740, or Rendition V2200.
-OpenGLDrv.OpenGLRenderDevice=Experimental OpenGL support. This is provided for testing and experimentation, but has known compatibility issues with some drivers.  Use at your own risk.
+OpenGLDrv.OpenGLRenderDevice=OpenGL support. New updated version by Han. Has tweaked visuals that many consider superior, as well as an optional color tweak option. Missing some driver workarounds so may not work on all cards. Nvidia and new AMD cards should work. Intel very unlikely to work.
 MetalDrv.MetalRenderDevice=For users with S3 Savage4 video cards.
 
 [IDDIALOG_ConfigPageDetail]

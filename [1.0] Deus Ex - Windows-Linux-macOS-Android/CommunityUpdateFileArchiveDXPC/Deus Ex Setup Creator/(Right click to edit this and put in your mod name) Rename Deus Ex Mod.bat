@@ -1,24 +1,22 @@
-rem Renaming THIS file to anything but "(Right click to edit this and put in your mod name) Rename Deus Ex Mod.bat" will cause things to break. Hindsight 20/20, I realize those instructions are kinda confusing; will eventually be not lazy and change "name" to "details". That probably works better.
+rem 1. Renaming THIS file to anything but "(Right click to edit this and put in your mod name) Rename Deus Ex Mod.bat" will cause things to break. Hindsight 20/20, I realize those instructions are kinda confusing; will eventually be not lazy and change "name" to "details". That probably works better.
+
+rem 2. Customize the following with your mod's details:
+set Fullvalue=ModTitle
+set DevName=YourName
+set version=ModVersion
+set EXEvalue=EXEName
+rem 	.exe not necessary and will actually mess things up, just put the name!
+set Subvalue=Mods\ModSubdirectory
+rem 	Leave empty if using the root / not using a subdir, also make sure to disable the del command for systemfileslist.txt at the top of Manifest Merge.bat as well as delete redundant "Use with Steam" files, otherwise they'll be force installed no matter what the user chooses.
+rem 	By default setup for mods to be in a Mods\ directory,re
+rem 	Use a period "." for a root install.
+
+rem 3. General Notes:
 rem Don't use parentheses, breaks things, I don't know why. Probably missing something obvious, let me know if you see it.
 rem Special characters either
 rem Spaces should be fine. 
 rem Replace everything after "="
-
-set Fullvalue=ModTitle
-set DevName=YourName
-
-rem Leave empty if using the root / not using a subdir, also make sure to disable the del command for systemfileslist.txt at the top of Manifest Merge.bat
-By default setup for mods to be in a Mods\ directory,
-rem Use a period "." for a root install.
-set Subvalue=Mods\ModSubdirectory
-rem .exe not necessary and will actually mess things up, just put the name!
-set EXEvalue=EXEName
-set version=ModVersion
 rem For changing link urls, manually edit the manifest.int for now.
-
-
-
-
 rem For further customizations, edit ini/int files in Safety Switch / Deus Ex Setup Creator Files Backup
 rem See "Manifest.ini Usage.txt" for further information.
 
@@ -30,7 +28,7 @@ rem See "Manifest.ini Usage.txt" for further information.
 
 
 
-rem Don't change any of the following unless you know what you're doing!
+rem 4. Don't change any of the following unless you know what you're doing!
 
 rem Changes developer name
 "%~dp0\fart.exe" "%~dp0\system\Manifest.*" "ION Storm Austin" "%DevName%"

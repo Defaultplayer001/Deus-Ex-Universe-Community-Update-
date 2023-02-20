@@ -1,7 +1,7 @@
 [Setup]
 LocalProduct=Deus Ex Mod
 DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
-ReadMe=subdir\Help\Changelog.html
+ReadMe=subdir\Help\ReadMe.html
 SetupWindowTitle=Deus Ex Mod Setup
 AutoplayWindowTitle=Deus Ex Mod Options
 ProductURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
@@ -13,7 +13,7 @@ PublisherURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Upda
 PublisherStoreURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
 PlanetDeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
 DeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
-Logo=subdir\Help\LogoSmallCU.bmp
+Logo=subdir\Help\LogoSmall.bmp
 License=License.int
 
 [General]
@@ -127,7 +127,7 @@ Developer=Ion Storm Austin
 DeveloperURL=https://www.gog.com/game/deus_ex
 
 [ConfixGroup]
-Caption=Confix (English and Russian Only)
+Caption=Confix (English, Russian and Turkish Only)
 Description=Conversation logic and typo fixes. (If using LayD deselect to save space, will be unused.)
 
 [TranscendedDefaultUser.ini(Theme+FOV)Files]
@@ -145,3 +145,7 @@ Description=1112fm (GOTY) retail copies shipped with bad copies of the maps, the
 [EditingExtras]
 Caption=Editing Extras
 Description=Numerous extra tools and documentation for editing, including a UED2 for Deus Ex package. Based on Deus Ex Editing PACK 2.2. Updated standard UED package will still be installed and given a shortcut whether or not this is selected.
+
+[SteamInstall]
+Caption=Use with Steam
+Description=Replaces the DeusEx.exe in your Deus Ex root with a redirect to the one in subdir/System, so you can use it with Steam. To restore to Vanilla, simply delete it and rename "DeusEx 1112fm (Original EXE).exe" to "DeusEx.exe". Touches NOTHING else in your root! WILL break any mods relying on there being an actual DeusEx.exe in your root. Note: Does not work with overlay due to being a proxy.

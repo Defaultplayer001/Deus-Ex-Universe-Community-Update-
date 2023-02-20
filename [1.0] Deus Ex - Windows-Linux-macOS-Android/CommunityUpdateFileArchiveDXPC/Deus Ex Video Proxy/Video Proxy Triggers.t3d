@@ -1,0 +1,59 @@
+Begin Map
+Begin Actor Class=ExecTrigger Name=ExecTrigger0
+    Command="open file:///C:/Program Files (x86)/Deus Ex Video Proxy/PlayTongEndgameHidden.lnk"
+    LastRenderTime=23659.931641
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=destroy_generatorV
+    Event=PlayCreditsCountdown
+    Region=(Zone=ZoneInfo'MyLevel.ZoneInfo1',iLeaf=7673,ZoneNumber=3)
+    Location=(X=-3169.698975,Y=-5000.855469,Z=-1599.891479)
+    OldLocation=(X=-3169.698975,Y=-5000.855469,Z=-1599.891479)
+    bSelected=True
+    bCollideActors=False
+    Name=ExecTrigger0
+End Actor
+Begin Actor Class=Dispatcher Name=Dispatcher9
+    OutEvents(0)=EndCreditsTrigger
+    OutDelays(0)=75.000000
+    LastRenderTime=23659.931641
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=destroy_generatorV
+    Region=(Zone=ZoneInfo'MyLevel.ZoneInfo1',iLeaf=7675,ZoneNumber=3)
+    Location=(X=-3269.799805,Y=-4957.709473,Z=-1599.896484)
+    OldLocation=(X=-3269.799805,Y=-4957.709473,Z=-1599.896484)
+    bCollideActors=False
+    Name=Dispatcher9
+End Actor
+Begin Actor Class=EndCreditsTrigger Name=EndCreditsTrigger1
+    LastRenderTime=23659.931641
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=EndCreditsTrigger
+    Region=(Zone=ZoneInfo'MyLevel.ZoneInfo1',iLeaf=7675,ZoneNumber=3)
+    Location=(X=-3279.671387,Y=-4959.483887,Z=-1599.897217)
+    OldLocation=(X=-3279.671387,Y=-4959.483887,Z=-1599.897217)
+    bCollideActors=False
+    Name=EndCreditsTrigger1
+End Actor
+Begin Actor Class=CheckFlagTrigger Name=CheckFlagTrigger0
+    CheckFlag=Destroy_GeneratorVTriggered
+    LastRenderTime=23659.931641
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=CheckFlagTrigger
+    Event=EndCreditsTrigger
+    Region=(Zone=ZoneInfo'MyLevel.ZoneInfo1',iLeaf=7673,ZoneNumber=3)
+    Location=(X=-3167.050049,Y=-5002.251953,Z=-1599.897705)
+    OldLocation=(X=-3167.050049,Y=-5002.251953,Z=-1599.897705)
+    Name=CheckFlagTrigger0
+End Actor
+Begin Actor Class=FlagTrigger Name=FlagTrigger16
+    FlagName=Destroy_GeneratorVTriggered
+    LastRenderTime=23659.931641
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=destroy_generatorV
+    Region=(Zone=ZoneInfo'MyLevel.ZoneInfo1',iLeaf=7675,ZoneNumber=3)
+    Location=(X=-3262.836426,Y=-4965.048340,Z=-1599.893921)
+    OldLocation=(X=-3262.836426,Y=-4965.048340,Z=-1599.893921)
+    bCollideActors=False
+    Name=FlagTrigger16
+End Actor
+End Map

@@ -1,1 +1,0 @@
-copy /b "%~dp07zS.sfx" + "%~dp0\ConfigSteamProxy.txt" + "%~dp0\SteamProxy.7z" "%~dp0\..\..\System\DeusEx.exe"

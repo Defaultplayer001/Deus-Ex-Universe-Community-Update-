@@ -6,7 +6,7 @@ copy "%~dp0\ReadMe.txt" "%~dp0\.."
 
 copy "%~dp0\Setup.exe" "%~dp0\.."
 
-copy "%~dp0\DELETED, everything in this folder will be. -Yoda.txt" "%~dp0\.."
+copy "%~dp0\DELETED, everything in this folder will be. Place anything here you care about, you should not. -Yoda.txt" "%~dp0\.."
 
 rem 7Zip files isolated to make cleanup easier
 

@@ -1,0 +1,10 @@
+Updated OpenGLDrv for UnrealEngine 1 games.
+
+12/2022 by Sebastian Kaufel
+
+http://coding.hanfling.de/opengldrv/
+
+--------------
+
+https://www.patreon.com/hanfling
+https://www.paypal.me/hanfling

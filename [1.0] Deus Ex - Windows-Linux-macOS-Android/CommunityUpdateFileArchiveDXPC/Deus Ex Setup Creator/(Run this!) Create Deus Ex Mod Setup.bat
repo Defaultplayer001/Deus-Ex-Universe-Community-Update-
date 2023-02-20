@@ -1,8 +1,10 @@
 @echo Safety Switch
+@echo Open this file and delete the "exit" after this line to get it to run!
 
 Pause
 
 exit
+copy "%~dp0\(R*.*" "%~dp0\Deus Ex Setup Creator Files Backup\" /y
 
 copy "%~dp0\Safety Switch\*.*" "%~dp0\" /y
 

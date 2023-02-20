@@ -116,6 +116,9 @@ copy "%~dp0\%ValueSafeFileName%GroupHeaderAppend.ini" + "%~dp0\%ValueSafeFileNam
 
 type "%~dp0\%ValueSafeFileName%SetupHeaderAppend.ini" >> "%~dp0\ManifestHeader-1-Setup.ini"
 
+rem Customizing Transcended to be deselected by default for Translation reasons
+del "%~dp0\*Transcended*FileListFinal.txt"
+
 type "%ValueSafeFileName%FileListFinal.txt" >> "%~dp0\ManifestHeader-3-Groups.ini"
 
 rem if "%ValueSafeFileName%"=="%ValueOptionalFileHeaderName%Optional Files" type "%~dp0\*PostExecSetupHeaderAppend.ini" >> "%~dp0\ManifestHeader-1-Setup.ini"
