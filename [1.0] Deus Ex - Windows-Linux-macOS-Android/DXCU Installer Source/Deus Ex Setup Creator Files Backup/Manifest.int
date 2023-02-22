@@ -13,7 +13,7 @@ PublisherURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Upda
 PublisherStoreURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
 PlanetDeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
 DeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
-Logo=subdir\Help\LogoSmall.bmp
+Logo=subdir\Help\LogoSmallCU.bmp
 License=License.int
 
 [General]
