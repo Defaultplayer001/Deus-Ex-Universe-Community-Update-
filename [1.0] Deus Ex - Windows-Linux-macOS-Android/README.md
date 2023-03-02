@@ -68,7 +68,7 @@ Please report any bugs!
 
 We have a discord here:
 
-DXCHQ Discord (DXA / DXCU channels): https://discord.gg/75UpZhy
+DXCHQ Discord (DXA / DXCU channels): https://discord.gg/jCFJ3A6
 
 Feel free to stop by with any bugs, questions, suggestions, comments or criticisms.
 
@@ -87,7 +87,7 @@ This is an unofficial patch package assembled by the Deus Ex community and Xen's
 
 https://www.reddit.com/r/dxarchive/
 
-DXCHQ Discord (DXA / DXCU channels): https://discord.gg/75UpZhy
+DXCHQ Discord (DXA / DXCU channels): https://discord.gg/jCFJ3A6
 
 Everyone has their own vision of how Deus Ex should be, and while we can't promise to fulfill everyone, we hope to cover as many user scenarios as possible! 
 

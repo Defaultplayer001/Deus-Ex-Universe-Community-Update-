@@ -3224,7 +3224,7 @@ FailedResDetect=Failed to detect supported resolutions.
 SoftDrv.SoftwareRenderDevice=Software renderer.  Compatible with all video cards.  Not recommended - use at your own risk.
 GlideDrv.GlideRenderDevice=3dfx renderer emulator. Recommended for the most accurate appearance. 
 D3DDrv.D3DRenderDevice=Direct3D hardware rendering. Not recommended - Outdated
-OpenGLDrv.OpenGLRenderDevice=OpenGL support.
+OpenGLDrv.OpenGLRenderDevice=OpenGL support. New updated version by Hanfling. Has tweaked visuals and better VSync that many consider superior. (VSync waits for CPU for consistent input, SoftDrv used as a reference for visuals) As well as an optional color tweak option. (Convert the texture data from adobergb to srgb for mostly more accurate colors) Missing some driver workarounds so may not work on all cards. Nvidia and new AMD cards should work. Intel very unlikely to work.
 MetalDrv.MetalRenderDevice=For users with S3 Savage4 video cards. Not recommended - Outdated
 Galaxy.GalaxyAudioSubsystem=Default UnrealEngine Audio Subsystem.
 ALAudio.ALAudioSubsystem=Experimental OpenAL Support. Recommended for the best audio.
@@ -3232,6 +3232,7 @@ D3D8Drv.D3D8RenderDevice=Direct3D8 renderer. Not recommended - Outdated
 D3D9Drv.D3D9RenderDevice=Direct3D9 renderer.
 D3D10Drv.D3D10RenderDevice=Direct3D10 renderer.
 SwFMOD.SwFMOD=Experimental FMOD Support
+;I was trying to get multiple renderers of the same type to work, it didn't.
 OpenGLDrvU.OpenGLRenderDevice=Updated OpenGL support.
 
 	

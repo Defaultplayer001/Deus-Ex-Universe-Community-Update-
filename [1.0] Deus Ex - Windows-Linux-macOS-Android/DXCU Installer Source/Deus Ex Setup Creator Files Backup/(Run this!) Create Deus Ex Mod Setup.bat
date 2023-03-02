@@ -9,7 +9,7 @@ copy "%~dp0\Deus Ex Setup Creator Files Backup\*.*" "%~dp0\" /y
 
 copy "%~dp0\Deus Ex Setup Creator Files Backup\ConfigSetupFiles.txt" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator" /y
 
-copy "%~dp0\Deus Ex Setup Creator Files Backup\Setup.exe Creator.bat" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator" /y
+copy "%~dp0\Deus Ex Setup Creator Files Backup\Setup.exe Creator*.bat" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator" /y
 
 copy "%~dp0\Deus Ex Setup Creator Files Backup\SteamProxy.bat" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator" /y
 

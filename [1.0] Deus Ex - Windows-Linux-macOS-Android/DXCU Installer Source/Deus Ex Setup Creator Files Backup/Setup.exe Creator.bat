@@ -1,20 +1,19 @@
-del "%~dp0\Deus Ex Mod.7z"
+del "%~dp0\A.zip"
 
-del "%~dp0\Deus Ex Mod.temp"
+del "%~dp0\A.temp"
 
-"%~dp0\7z.exe" a "%~dp0\Deus Ex Mod.7z" "%~dp0\..\.."
-
-"%~dp0..\ResourceHacker.exe" -open "%~dp0\7zSD.sfx" -save "%~dp0\7zSDCustomIcon.sfx" -action addskip -res "%~dp0..\..\subdir\Help\DeusExCU.ico" -mask ICONGROUP,MAINICON,
+"%~dp0\7z.exe" a "%~dp0\A.zip" "%~dp0\..\.."
 
 for /f %%x in ('wmic path win32_localtime get /format:list ^| findstr "="') do set %%x
 set today=%Year%-%Month%-%Day%
 
-copy /b "%~dp0\7zSDCustomIcon.sfx" + "%~dp0\ConfigSetupFiles.txt" + "%~dp0Deus Ex Mod.7z" "%~dp0..\..\DeusExModFullName Version 2.4 Installer %Year%-%Month%-%Day% %Hour%%Minute%.exe"
+"%~dp0\WZIPSE32.exe" "%~dp0\A.zip" -y -win32 -c setup
 
+ren "%~dp0\A.exe" "DeusExModFullName Version 2.4 Installer %Year%-%Month%-%Day% %Hour%%Minute%.zip"
 pause
 
 rem Final Setup EXE creation complete!
 
-del "%~dp0\Deus Ex Mod.7z"
+del "%~dp0\A.zip"
 
-del "%~dp0\Deus Ex Mod.temp"
+del "%~dp0\A.temp"
