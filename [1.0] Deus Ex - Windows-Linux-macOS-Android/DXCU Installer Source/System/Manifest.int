@@ -162,9 +162,9 @@ Description=Deus Ex modification files. Installation is optional.
 Caption=MarkC Mouse Acceleration Fix
 Description=Deus Ex modification files. Installation is optional.
 
-[ModsCommunity UpdateTranscendedGroup]
+[TranscendedGroup]
 Caption=Transcended
-Description=Deus Ex modification files. Installation is optional.
+Description=Post Install Executable. Installation is optional.
 
 [Use Kentie'sGroup]
 Caption=Use Kentie's
