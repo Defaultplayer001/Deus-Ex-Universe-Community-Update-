@@ -1,0 +1,48 @@
+[Setup]
+LocalProduct=デウスエクス体験版
+DefaultFolder=C:\デウスエクス体験版
+ReadMe=Help\ReadMe.htm
+SetupWindowTitle=デウスエクス体験版セットアップ
+AutoplayWindowTitle=Deus EX Demo Options
+ProductURL=http://www.eidos.co.jp/
+VersionURL=http://www.deusex.com/versions.htm
+Developer=ION Storm Austin
+DeveloperURL=http://www.ionstorm.com/
+PublisherURL=http://www.eidos.com/
+Logo=Help\LogoSmall.bmp
+License=License.int
+
+[General]
+PlayLevelCommand=&Play this Deus Ex level
+OpenLinkCommand=&Open this Deus Ex link
+EditLevelCommand=&Edit this Deus Ex level
+
+[GameGroup]
+Caption=Deus Ex System
+Description=デウスエクス システム・ファイル。インストールが必要です
+
+[DirectXGroup]
+Caption=DirectX
+Description=Microsoft DirectX 7.0a ドライバはグラフィック、サウンド、ジョイスティック・サポートを向上されるためのものです。現在DirectX 7.0aがインストールされていないならば、これを選択してください.
+
+[PlayShortcut]
+Caption=デウスエクス体験版をプレイする
+
+[SafeModeShortcut]
+Caption=デウスエクス体験版セーフモード
+
+[DocumentationShortcut]
+Caption=デウスエクス体験版ReadMe
+
+[ProductWebShortcut]
+Caption=Eidos　ホームページ
+
+[DeveloperWebShortcut]
+Caption=Ion Storm Web Page
+
+[PublisherWebShortcut]
+Caption=Eidos Interactive Web Page
+
+[UninstallShortcut]
+Caption=デウスエクス体験版をアンインストールする
+

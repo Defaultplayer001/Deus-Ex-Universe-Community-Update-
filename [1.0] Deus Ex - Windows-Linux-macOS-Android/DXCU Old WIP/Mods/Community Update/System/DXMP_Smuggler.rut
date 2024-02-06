@@ -1,0 +1,12 @@
+[LevelSummary]
+Title="Untitled"
+
+[AutoTurret0]
+titleString="Турель Контрабандиста"
+
+[DeusExLevelInfo2]
+MissionLocation="Нью-Йорк - Берлога Контрабандиста"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Помещение Контрабандиста",CameraTag=garagecam,Turrettag=garageturret)"
+

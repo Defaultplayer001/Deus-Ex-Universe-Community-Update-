@@ -1,0 +1,1 @@
+File=(Src="Docs\Manifest Collection for study\1109f SDK\Manifest.ini",Size

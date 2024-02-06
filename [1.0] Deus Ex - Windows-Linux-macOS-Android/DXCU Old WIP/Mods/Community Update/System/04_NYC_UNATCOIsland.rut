@@ -1,0 +1,34 @@
+[ComputerSecurity0]
+Views[0]="(titleString="Бункер SATCOM",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[1]="(titleString="Штаб UNATCO снаружи",CameraTag=UN_CamSystem02)"
+Views[2]="(titleString="Штаб UNATCO внутри",CameraTag=UN_CamSystem03)"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Либерти-Айленд"
+startupMessage[0]="Нью-Йорк, "
+startupMessage[1]="Либерти-Айленд"
+startupMessage[2]="Штаб-квартира UNATCO"
+
+[SecurityCamera0]
+FamiliarName="UN_lobby02"
+
+[SecurityCamera1]
+FamiliarName="UN_lobby01"
+
+[SecurityCamera2]
+FamiliarName="UN_outside"
+
+[SecurityCamera4]
+FamiliarName="SATCOM_cam"
+
+[BlackHelicopter0]
+FamiliarName="Вертолет Джока"
+UnfamiliarName="Вертолет Джока"
+
+[UNATCOTroop13]
+FamiliarName="Рядовой Ллойд"
+UnfamiliarName="Рядовой Ллойд"
+

@@ -1,0 +1,37 @@
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Hell's Kitchen"
+startupMessage[0]="Cidade de Nova Iorque, Hell's Kitchen"
+
+[LevelSummary]
+Title="Sem título"
+
+[BumMale0]
+FamiliarName="Vagabundo"
+UnfamiliarName="Vagabundo"
+
+[Button2]
+FamiliarName="Interfone"
+UnfamiliarName="Interfone"
+
+[SpecialEvent0]
+Message="Acerte aqui para mísseis!!!!"
+
+[BlackHelicopter1]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=StationaryCop,KeyID=UnderArea,Description="Chave para área subterrÂnea",SkinColor=SC_Level3)"
+
+[RiotCop1]
+FamiliarName="Policial"
+UnfamiliarName="Policial"
+
+[RiotCop0]
+FamiliarName="Policial"
+UnfamiliarName="Policial"
+

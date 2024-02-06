@@ -1,0 +1,1 @@
+File=(Src="Docs\Setup EXE's\1014f\System\Setup.exe",Size

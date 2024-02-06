@@ -1,0 +1,14 @@
+[ComputerSecurity0]
+specialOptions[0]="(Text="Rotate Bridge",TriggerText="Rotating Bridge",TriggerEvent=RotateBridge)"
+
+[DeusExLevelInfo1]
+MissionLocation="NYC - Sewers"
+startupMessage[0]="NYC - New York Sewers"
+startupMessageJ[0]="ニューヨーク地下 地下下水道"
+
+[SkillAwardTrigger1]
+awardMessage="Area Location Bonus"
+
+[LevelSummary]
+Title="Untitled"
+

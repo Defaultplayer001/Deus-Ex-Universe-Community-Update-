@@ -1,0 +1,3187 @@
+[General]
+Start="Deus Ex (Starting)"
+Exit="Deus Ex (Exiting)"
+Run="Deus Ex (Running)"
+Product="Deus Ex"
+
+[Progress]
+Loading="Loading"
+Saving="Saving"
+
+[ScriptedPawn]
+FamiliarName="DEFAULT FAMILIAR NAME - REPORT THIS AS A BUG"
+UnfamiliarName="DEFAULT UNFAMILIAR NAME - REPORT THIS AS A BUG"
+
+[DeusExPlayer]
+InventoryFull="インベントリには、%sを拾うだけのスペースがありません"
+TooMuchAmmo="この弾薬はもう持てません"
+TooHeavyToLift="重すぎて持ち上がりません"
+CannotLift="持ち上げることができません"
+NoRoomToLift="持ち上げるだけのスペースがありません"
+CanCarryOnlyOne="%sは1つしか持つことができません"
+CannotDropHere="ここで降ろすことはできません"
+HandsFull="両手がふさがっています"
+NoteAdded="メモ確認――詳細をデータベースに記録"
+GoalAdded="ミッション内容確認――詳細をデータベースに記録"
+PrimaryGoalCompleted="プライマリーゴール達成"
+SecondaryGoalCompleted="セカンドゴール達成"
+EnergyDepleted="バイオエレクトリック・エネルギーがエンプティです"
+AddedNanoKey="Nano Key Ringに%s をセット"
+HealedPointsLabel="%d ポイント回復"
+HealedPointLabel="%d ポイント回復"
+SkillPointsAward="スキル・ポイント%d 獲得"
+QuickSaveGameTitle="Quick Save Data"
+FamiliarName="JC Denton"
+UnfamiliarName="JC Denton"
+WeaponUnCloak="武器が現れた..."
+TakenOverString="取得 "
+HeadString="Head"
+TorsoString="Torso"
+LegsString="Legs"
+WithTheString="  "
+WithString="  "
+PoisonString=" 致死毒"
+BurnString=" 火炎"
+NoneString="None"
+
+[DeusExDecoration]
+ItemName="デコレーション・ネームをデフォルトされました――バグとして報告します"
+
+[SkillManager]
+NoToolMessage="%s必要です"
+NoSkillMessage="スキル・レベルが%sで、 %sを使うには不十分です"
+SuccessMessage="成功しました！"
+YourSkillLevelAt="%sあったあなたのスキル・レベルは、現在 %dです"
+
+[Skill]
+skillLevelStrings[0]="UNTRAINED"
+skillLevelStrings[1]="TRAINED"
+skillLevelStrings[2]="ADVANCED"
+skillLevelStrings[3]="MASTER"
+SkillAtMaximum="SKILLがMAXです"
+
+[AugmentationManager]
+AugLocationFull="AugmentationがMAXです！"
+NoAugInSlot="そのスロットにはAugmentationが設定されていません"
+
+[Augmentation]
+EnergyRateLabel="Energy Rate: %d Units/Minute"
+OccupiesSlotLabel="Occupies Slot: %s"
+AugLocsText[0]="Cranial"
+AugLocsText[1]="Eyes"
+AugLocsText[2]="Torso"
+AugLocsText[3]="Arms"
+AugLocsText[4]="Legs"
+AugLocsText[5]="Subdermal"
+AugLocsText[6]="Default"
+AugActivated="%s 起動"
+AugDeactivated="%s 解除"
+AugAlreadyHave="%s はMAXです"
+AugNowHave="%s レベル%d"
+AugNowHaveAtLevel="Augmentation　 %s　レベル%d"
+AlwaysActiveLabel="[常時起動]"
+CanUpgradeLabel="(アップグレード可能)"
+CurrentLevelLabel="現在のレベル： %d"
+MaximumLabel="(MAX)"
+MPInfo="情報がデフォルトされました――バグとして報告します"
+
+[DeusExRootWindow]
+QuickLoadTitle="Quick Load?"
+QuickLoadMessage="今プレイ中のゲーム・データが失われます　クイック・ロードをしますか？"
+
+[DeusExWeapon]
+msgCannotBeReloaded="この武器はリロードできません"
+msgOutOf="%sがありません"
+msgNowHas="%s 現在、%sがロードされました"
+msgAlreadyHas="%s すでに %sのロードが完了しました"
+msgNone="NONE"
+msgLockInvalid="INVALID"
+msgLockRange="RANGE"
+msgLockAcquire="ACQUIRE"
+msgLockLocked="LOCKED"
+msgRangeUnit="FT"
+msgTimeUnit="SEC"
+msgMassUnit="LBS"
+msgNotWorking="この武器は水の中で使用できません"
+msgInfoAmmoLoaded="弾薬ロード:"
+msgInfoAmmo="弾薬タイプ:"
+msgInfoDamage="ダメージ:"
+msgInfoClip="クリップ数:"
+msgInfoROF="発射速度:"
+msgInfoReload="再装填速度:"
+msgInfoRecoil="反動:"
+msgInfoAccuracy="精度:"
+msgInfoAccRange="照準誤差:"
+msgInfoMaxRange="最大誤差:"
+msgInfoMass="重量:"
+msgInfoLaser="レーザー:"
+msgInfoScope="スコープ:"
+msgInfoSilencer="消音装置:"
+msgInfoNA="N/A"
+msgInfoYes="YES"
+msgInfoNo="NO"
+msgInfoAuto="AUTO"
+msgInfoSingle="SINGLE"
+msgInfoRounds="RDS"
+msgInfoRoundsPerSec="RDS/SEC"
+msgInfoSkill="スキル:"
+msgInfoWeaponStats="Weapon Stats:"
+PickupMessage="確認"
+ItemName="武器名がデフォルトされました――バグとして報告します"
+
+[DeusExCarcass]
+msgSearching="検索:"
+msgEmpty="何も見つけられません"
+msgNotDead="気絶"
+msgAnimalCarcass="動物の死骸"
+msgCannotPickup="%sを拾い上げることはできません"
+ItemName="死体"
+msgRecharged="%d ポイントチャージ"
+
+[DeusExMover]
+msgKeyLocked="NanoKey Ring により鍵がかけられました"
+msgKeyUnlocked="NanoKey Ringにより鍵がはずされました"
+msgLockpickSuccess="鍵を開けました"
+msgOneWayFail="こちら側からは開きません"
+msgLocked="鍵がかかっています"
+msgPicking="ピッキング中……"
+msgAlreadyUnlocked="すでに鍵は開いています"
+msgNoNanoKey="NanoKey Ring は正しいコードではありません"
+
+[DeusExPickup]
+CountLabel="COUNT:"
+msgTooMany="これ以上持つことはできません"
+PickupMessage="発見"
+ItemName="ピックアップ・ネームがデフォルトされました――バグとして報告します"
+
+[MenuUIChoice]
+actionText="Choice"
+FalseTrue[0]="False"
+FalseTrue[1]="True"
+
+[DataVaultImage]
+PickupMessage="イメージデータをデータベースに記録"
+beltDescription="IMAGE"
+
+[PersonaInventoryItemButton]
+CountLabel="Count: %d"
+RoundLabel="%d Rd"
+RoundsLabel="%d Rds"
+
+[Computers]
+msgLockedOut="端末は %d 秒以上操作できません"
+NodeInfo[0]="(nodeName="UNATCO",nodeAddress="UN//UNATCO//RESTRICTED//923.128.6430",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoUNATCO')"
+NodeInfo[1]="(nodeName="VersaLife",nodeDesc="VersaLife",nodeAddress="VERSALIFECORP//GLOBAL//3939.39.8",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoVersaLife')"
+NodeInfo[2]="(nodeName="Queens Tower",nodeDesc="Queens Tower Luxury Suites",nodeAddress="QT_UTIL//LOCAL//673.9845.09531",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoQueensTower')"
+NodeInfo[3]="(nodeName="USN",nodeDesc="United States Navy",nodeAddress="USGOV//MIL//USN//GLOBAL//0001",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoUSNavy')"
+NodeInfo[4]="(nodeName="MJ12Net",nodeDesc="Majestic 12 Net",nodeAddress="MAJESTIC//GLOBAL//12.12.12",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoMJ12')"
+NodeInfo[5]="(nodeName="Page Industries",nodeDesc="Page Industries",nodeAddress="PAGEIND//USERWEB//NODE.34@778",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoPage')"
+NodeInfo[6]="(nodeName="X-51 SecureNet",nodeDesc="X-51 SecureNet",nodeAddress="X51//SECURENET//NODE.938@893",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoArea51')"
+NodeInfo[7]="(nodeName="Everett Enterprises",nodeDesc="Everett Enterprises",nodeAddress="EE//INTSYS.TT//0232.98//TERMINAL",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoEverettEnt')"
+NodeInfo[8]="(nodeName="NSF",nodeDesc="NSF",nodeAddress="HUB//RESISTANCE.7654//NSFNODES",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoNSF')"
+NodeInfo[9]="(nodeName="NYComm",nodeDesc="NYC Communications",nodeAddress="USA//DOMESTIC//NYCCOM.USERS.PUB",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoNYComm')"
+NodeInfo[10]="(nodeName="PRChina",nodeDesc="Peoples Republic of China",nodeAddress="PRC//GOV//RESTRICTED.HK.562",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoPRChina')"
+NodeInfo[11]="(nodeName="HKNet",nodeDesc="HK Net",nodeAddress="PUB//HKNET//USERS.ACCTS.20435//2",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoHKNet')"
+NodeInfo[12]="(nodeName="Quick Stop",nodeDesc="Quick Stop",nodeAddress="PUB//HKNET//QUICKSTOPINT//NODE98",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoQuickStop')"
+NodeInfo[13]="(nodeName="Lucky Money",nodeDesc="Lucky Money Club",nodeAddress="PUB//HKNET//LUCKYMONEY/BUSSYS.294",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoLuckyMoney')"
+NodeInfo[14]="(nodeName="IIS",nodeDesc="Illuminati Information Systems",nodeAddress="SECURE//IIS.INFTRANS.SYS//UEU",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoIlluminati')"
+
+[HUDObjectSlot]
+RoundLabel="%d Rd"
+RoundsLabel="%d Rds"
+CountLabel="COUNT:"
+
+[DeusExProjectile]
+ItemName="弾薬名がデフォルトされました――バグとして報告します"
+ItemArticle="エラー"
+
+[DeusExAmmo]
+msgInfoRounds="%d発残っています"
+PickupMessage="取得"
+ItemName="弾薬名がデフォルトされました――バグとして報告します"
+ItemArticle=""
+
+[ComputerSecurityCameraWindow]
+CameraLabel="カメラ"
+CameraStatusLabel="監視カメラ:"
+DoorStatusLabel="ドア:"
+TurretStatusLabel="迎撃システム:"
+OnLabel="作動中"
+OffLabel="停止中"
+DisabledLabel="バイパス回路接続中"
+AttackingAlliesLabel="味方を攻撃"
+AttackingEnemiesLabel="敵を攻撃"
+AttackingEverythingLabel="すべてを攻撃"
+NoSignalLabel="信号がありません"
+OpenLabel="開放中"
+ClosedLabel="閉鎖中"
+LockedLabel="ドアロック・オン"
+UnlockedLabel="ドアロック・オフ"
+
+[MenuScreenLoadGame]
+strHeaderNameLabel="Name"
+strHeaderDateLabel="Date"
+NewSaveGameButtonText="New Save Game"
+DeleteGameButtonText="Delete Game"
+LoadGameButtonText="Load Game"
+OverwriteTitle="Overwrite Savegame?"
+OverwritePrompt="このデータに上書きしていいですか？"
+DeleteTitle="Delete Savegame?"
+DeletePrompt="このデータを削除していいですか？"
+LoadGameTitle="Load Game"
+SaveGameTitle="Save Game"
+SaveInfoMissing_Label="セーブINFO.DXSがありません"
+TimeAMLabel="am"
+TimePMLabel="pm"
+LocationLabel="Location: %s|n"
+SaveCountLabel="Save Count: %d|n"
+FileSizeLabel="File Size: %dMB"
+FreeSpaceLabel="Free Space: %dMB"
+Title="Load Game"
+PlayTimeLabel="Play Time: %s|n"
+ConfirmDeleteLabel="セーブデータ上書き確認"
+CheatsEnabledLabel="- CHEATS ENABLED -"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_Other,Text="|&Load Game",Key="LOAD")"
+actionButtons[2]="(Action=AB_Other,Text="|&Delete Game",Key="DELETE")"
+
+[MenuUIWindow]
+btnLabelOK="|&OK"
+btnLabelCancel="|&Cancel"
+btnLabelPrevious="|&Previous"
+btnLabelResetToDefaults="|&Undo Changes"
+MessageBoxTitle="Please Confirm"
+ExitMessage="Deus Exを終了しますか？"
+TrainingWarningMessage="セーブしてないゲームデータは失われます　トレーニングを始めますか？"
+IntroWarningMessage="セーブしてないゲームデータは失われます　イントロの画面を見ますか？"
+AskToTrainTitle="Training Mission"
+AskToTrainMessage="初めてゲームをする前に、まずトレーニングゲームでプレイすることをお勧めします　はじめますか？"
+
+[DamageHUDDisplay]
+msgAbsorbed="%d%% Absorb"
+
+[BlackHelicopter]
+ItemName="Black Chopper"
+
+[AugmentationDisplayWindow]
+msgRange="Range"
+msgRangeUnits="ft"
+msgHigh="High"
+msgMedium="Medium"
+msgLow="Low"
+msgHealth="health"
+msgOverall="Overall"
+msgPercent="%"
+msgHead="Head"
+msgTorso="Torso"
+msgLeftArm="L Arm"
+msgRightArm="R Arm"
+msgLeftLeg="L Leg"
+msgRightLeg="R Leg"
+msgWeapon="Weapon:"
+msgNone="None"
+msgScanning1="* No Target *"
+msgScanning2="* Scaning *"
+msgADSTracking="* ADS Tracking *"
+msgADSDetonating="* ADS Detonating *"
+msgBehind="BEHIND"
+msgDroneActive="Spy Drone発射"
+msgEnergyLow="バイオエレクトリック・エネルギー不足!
+msgCantLaunch="エラー - Spy Drone製造のスペースがありません!"
+msgLightAmpActive="ライト　オン"
+msgIRAmpActive="IRAmp Active"
+msgNoImage="Image Not Available"
+msgDisabled="Disabled"
+msgLegs="Legs"
+SpottedTeamString="You have spotted a teammate!"
+YouArePoisonedString="You have been poisoned!"
+YouAreBurnedString="You are burning!"
+TurretInvincibleString="Turrets are only affected by EMP damage!"
+CameraInvincibleString="Cameras are only affected by EMP damage!"
+NeutBurnPoisonString="(Use medkits to instantly neutralize)"
+OnlyString="Only "
+KillsToGoString=" more kills, and "
+KillToGoString=" more kill, and "
+LessThanMinuteString="Less than a minute to go, and "
+LessThanXString1="Less than "
+LessThanXString2=" minutes to go, and "
+LeadsMatchString=" leads the match!"
+TiedMatchString="it's a tied match!"
+WillWinMatchString=" will win the match!"
+OutOfRangeString="(Out of range)"
+LostLegsString="You've lost your legs!"
+DropItem1String="You can use <"
+DropItem2String="> to drop an equipped item."
+msgTeammateHit="You hit your teammate!"
+msgTeamNsf="You're on Team NSF!"
+msgTeamUnatco="You're on Team Unatco!"
+UseString="Use <"
+TeamTalkString="> to send team messages."
+TalkString="> to send regular chat messages."
+YouKilledTeammateString="You killed a teammate!"
+TeamLAMString="You cannot pickup your teammate's grenade!"
+TeamComputerString="That computer already belongs to your team!"
+NoCloakWeaponString="You cannot cloak while a weapon is drawn!"
+TeamHackTurretString="That turret already belongs to your team!"
+KeyNotBoundString="Key Not Bound"
+OutOfAmmoString="Out of Ammo!"
+
+[ComputerUIWindow]
+ButtonLabelLogin="|&Login"
+ButtonLabelLogout="|&Logout"
+ButtonLabelCancel="|&Cancel"
+ButtonLabelSpecial="|&Special Options"
+
+[PersonaInventoryInfoWindow]
+AmmoLabel="Ammo:"
+AmmoRoundsLabel="Rounds:"
+ShowAmmoDescriptionsLabel="Ammo詳細表示"
+
+[FrobDisplayWindow]
+msgLocked="Locked"
+msgUnlocked="Unlocked"
+msgLockStr="Lock Str: "
+msgDoorStr="Door Str: "
+msgHackStr="Bypass Str: "
+msgInf="INF"
+msgHacked="Bypassed"
+msgPick="pick"
+msgPicks="picks"
+msgTool="tool"
+msgTools="tools"
+
+[AutoTurretGun]
+ItemName="Autonomous Defense Turret"
+
+[HackableDevices]
+msgMultitoolSuccess="バイパス回路接続完了"
+msgNotHacked="稼動中"
+msgHacking="バイパス回路接続中..."
+msgAlreadyHacked="バイパス回路接続中"
+
+[AutoTurret]
+ItemName="Turret Base"
+titleString="AutoTurret"
+
+[MedKit]
+MustBeUsedOn="ダメージ個所の治療―キャラクター・スクリーン上で身体の特定個所を直接治療することが可能"
+ItemName="MedKit"
+Description="応急の治療キット。|n|n<UNATCO作戦ファイルメモJR095-バイオレット>|n|n強化されたエージェントのナノ・マシンは、ダメージを受けた部位に効果的に治療キットの自動的に中身を新陳代謝していく　医療に関して訓練を受けたエージェントはこのプロセスをきわめて早く行える　――Jaime Reyes"
+beltDescription="MEDKIT"
+
+[UNATCOTroop]
+FamiliarName="UNATCO Troop"
+UnfamiliarName="UNATCO Troop"
+
+[POVCorpse]
+ItemName="body"
+
+[PersonaScreenInventory]
+InventoryTitleText="Inventory"
+EquipButtonLabel="|&Equip"
+UnequipButtonLabel="Un|&equip"
+UseButtonLabel="|&Use"
+DropButtonLabel="|&Drop"
+ChangeAmmoButtonLabel="Change Amm|&o"
+NanoKeyRingInfoText="NanoKey Code"
+NanoKeyRingLabel="Key Ring"
+DroppedLabel="アイテムを捨てました"
+AmmoLoadedLabel="弾薬を交換しました"
+WeaponUpgradedLabel="この武器を強化しました"
+CannotBeDroppedLabel="ここではアイテムを捨てられません"
+AmmoInfoText="弾薬リスト"
+AmmoTitleLabel="Ammunition"
+NoAmmoLabel="弾薬はありません"
+
+[ATM]
+msgLockedOut="端末は %d 秒以上操作できません"
+ItemName="ATM"
+
+[AlarmUnit]
+msgActivated="アラーム作動"
+msgDeactivated="アラーム作動解除"
+ItemName="Alarm Sounder Panel"
+
+[ComputerScreenSecurity]
+ActiveWindowOptionsHeader="Active Window Options"
+CameraOptionsHeader="Camera Options"
+PanZoomSpeedHeader="Pan/Zoom Speed"
+ClickCameraWindowText="画面をクリックしカメラを選択"
+Title="Surveillance"
+ComputerNodeFunctionLabel="Security"
+
+[Terrorist]
+FamiliarName="Terrorist"
+UnfamiliarName="Terrorist"
+
+[MenuScreenRGB_MenuExample]
+ButtonMenuDisabledLabel="Disabled"
+ButtonMenuNormalLabel="Normal"
+ButtonMenuFocusLabel="Focus"
+ButtonMenuPressedLabel="Pressed"
+ButtonSmallPressedLabel="Pressed"
+ButtonSmallNormalLabel="Normal"
+ButtonActionDisabledLabel="Disabled"
+ButtonActionNormalLabel="Normal"
+ButtonActionFocusLabel="Focus"
+ButtonActionPressedLabel="Pressed"
+ListNormalLabel="Normal"
+ListFocusLabel="Focus"
+EditLabel="Edit"
+TitleLabel="Title"
+
+[PersonaScreenHealth]
+MedKitUseText="身体の特定個所を治療するには、その個所をクリックしたのちに、[Heal]ボタンをクリック"
+HealthTitleText="Health"
+HealAllButtonLabel="H|&eal All"
+HealthLocationHead="Head"
+HealthLocationTorso="Torso"
+HealthLocationRightArm="Right Arm"
+HealthLocationLeftArm="Left Arm"
+HealthLocationRightLeg="Right Leg"
+HealthLocationLeftLeg="Left Leg"
+PointsHealedLabel="%d ポイント　回復しました"
+HealthPartDesc[0]=" 頭部へのダメージは死を意味する。しかし、即死ということは少なく、まず視力や照準を定める能力が損なわれる。頭部の怪我はできるかぎりすみやかに手当がなされなければならず、さもないと命の保証はない。|n|n|n|n負傷程度・軽：攻撃の精度がわずかに低下する。|n|n|n|n負傷程度・中：視力が低下して行動に支障をきたす恐れあり。|n|n|n|n負傷程度・重：致死"
+HealthPartDesc[1]=" 人間の身体で胴体の占める割合は断然に多く、ほとんどの攻撃は胴体が受けることになる。接近戦ではもっとも狙われやすい標的と言える。胴体にダメージを負えば負うほど動きは悪くなり、たとえそれが致命的な一撃でないとしても、放っておけば出血多量により死ぬこともある。|n|n|n|n負傷程度・軽：精度がわずかに低下する。|n|n|n|n負傷程度・中：動きが著しく鈍る。|n|n|n|n負傷程度・重：致死"
+HealthPartDesc[2]=" 腕を負傷したとき、武器を使う能力に直接影響する。片腕が使えなくなれば、戦闘能力は一定レベル低下し、両腕が使えなくなれば、あとはその場から逃げ出すか、敵の良心に訴えるしかない。|n|n|n|n負傷程度・軽：攻撃の精度がわずかに低下する。|n|n|n|n負傷程度・中：攻撃の精度がかなり低下する。|n|n|n|n負傷程度・重：攻撃の精度が著しく低下する。"
+HealthPartDesc[3]="足を負傷したときは機動性が著しく低下する。もしも、エージェントが敵地で、両足を失い動けなくなった場合、キル・スイッチ(自爆装置)が起動させなければならない。|n|n<UNATCO特別作戦命令 99009>|n|n|n|n負傷程度・軽：動きがわずかに鈍くなる。|n|n|n|n負傷程度・中：動きがかなり鈍くなる。|n|n|n|n負傷程度・重：動きが著しく鈍くなる。"
+
+[WaltonSimons]
+FamiliarName="Walton Simons"
+UnfamiliarName="Walton Simons"
+
+[SecurityCamera]
+msgActivated="監視カメラ作動中"
+msgDeactivated="監視カメラ解除"
+ItemName="Surveillance Camera"
+
+[HUDHitDisplay]
+O2Text="O2"
+EnergyText="BE"
+
+[PersonaAmmoDetailButton]
+RoundLabel="%d Round"
+RoundsLabel="%d Rounds"
+
+[PersonaScreenImages]
+ImagesTitleText="Images"
+DeleteNoteButtonLabel="|&Delete Note"
+AddNoteButtonLabel="Add |&Note"
+ShowNotesLabel="Show N|&otes"
+
+[PersonaScreenAugmentations]
+AugmentationsTitleText="Augmentation"
+UpgradeButtonLabel="|&Upgrade"
+ActivateButtonLabel="Acti|&vate"
+DeactivateButtonLabel="Deac|&tivate"
+UseCellButtonLabel="Us|&e Cell"
+AugCanUseText="Augsをアップグレードするには、アップグレードしたいAugをクリックし、[Upgrade]ボタンをクリック"
+BioCellUseText="Augsのバイオエレクトリック・エネルギーを再補充するには、[Cell]ボタンをクリック"
+AugLocationDefault="Default"
+AugLocationCranial="Cranial"
+AugLocationEyes="Eyes"
+AugLocationArms="Arms"
+AugLocationLegs="Legs"
+AugLocationTorso="Torso"
+AugLocationSubdermal="Subdermal"
+
+[WeaponMod]
+DragToUpgrade="Inventryスクリーン上でMODでアップグレードしたい武器の上にドラッグする。MODがアップグレードできる武器の場合、武器の入っているスロットが緑色に表示される"
+
+[Faucet]
+ItemName="Faucet"
+
+[MenuScreenRGB]
+HUDBackgroundTranslucentLabel="HUD Back|&grounds Translucent"
+HUDBordersTranclucentLabel="HUD Bor|&ders Translucent"
+MenusBackgroundTranslucentLabel="Menu Back|&grounds Translucent"
+RedLabel="R|&ed"
+GreenLabel="|&Green"
+BlueLabel="|&Blue"
+TabHUDLabel="|&HUD"
+TabMenusLabel="|&Menus"
+ThemeLabel="Theme:"
+Title="Color Selection"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Other,Text="|&Close",Key="CLOSE")"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_Other,Text="|&Load",Key="LOAD")"
+actionButtons[2]="(align=HALIGN_Right,Action=AB_Other,Text="|&Save",Key="SAVE")"
+actionButtons[3]="(Action=AB_Reset)"
+
+[ShowerFaucet]
+ItemName="Shower Faucet"
+
+[HUDInfoLinkDisplay]
+strQueued="待機中..."
+IncomingTransmission="トランスミッション受信..."
+
+[Keypad]
+ItemName="KEY PAD"
+
+[MedicalBot]
+FamiliarName="Medical Bot"
+UnfamiliarName="Medical Bot"
+
+[MenuScreenAdjustColorsExample]
+TitleBarLabel="Title Bar"
+TextHeaderLabel="Sample Text"
+TextNormalLabel="Sample Text"
+ButtonPressedLabel="Pressed"
+ButtonNormalLabel="Normal"
+
+[HUDAmmoDisplay]
+NotAvailable="N/A"
+msgReloading="---"
+AmmoLabel="AMMO"
+ClipsLabel="CLIPS"
+
+[MJ12Commando]
+FamiliarName="MJ12 Commando"
+UnfamiliarName="MJ12 Commando"
+
+[DataLinkPlay]
+EndTransmission="トランスミッション終了..."
+
+[HUDRechargeWindow]
+RechargeButtonLabel="  |&Recharge  "
+CloseButtonLabel="  |&Close  "
+RechargeTitle="REPAIRBOT INTERFACE"
+RepairBotInfoText="RepairBotは、%dパーセントのバイオエレクトリック・エネルギー回復後に%d秒のリチャージが必要"
+RepairBotStatusLabel="Bot Status:"
+ReadyLabel="Ready!"
+SecondsPluralLabel="Recharging: %d seconds"
+SecondsSingularLabel="Recharging: %d second"
+BioStatusLabel="Bio Energy:"
+RepairBotRechargingLabel="|n|nRepairBotリチャージ中　 待機"
+RepairBotReadyLabel="|n|nRepairBot準備完了　リチャージＯＫ"
+RepairBotYouAreHealed="|n|nバイオエレクトリック・エネルギーはMAXです"
+
+[MenuUIChoiceSlider]
+actionText="Slider Choice"
+
+[MenuScreenNewGame]
+ButtonUpgradeLabel="Upg|&rade"
+ButtonDowngradeLabel="|&Downgrade"
+HeaderNameLabel="Real Name"
+HeaderCodeNameLabel="Code Name"
+HeaderAppearanceLabel="Appearance"
+HeaderSkillsLabel="Skills"
+HeaderSkillPointsLabel="Skill Points"
+HeaderSkillLevelLabel="Skill Level"
+HeaderPointsNeededLabel="Points Needed"
+NameBlankTitle="Name Blank!"
+NameBlankPrompt="リアルネームが未記入です　名前を記入してください"
+Title="Start New Game"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_Other,Text="|&Start Game",Key="START")"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenRGB_HUDExample]
+TitleLabel="Title"
+HeaderLabel="Header"
+TextNormalLabel="Normal"
+GoalCompletedLabel="ミッション完了"
+ListLabel="List Item"
+ListHighlightLabel="List Highlight"
+ListFocusLabel="List Focus"
+EditSelectedLabel="Edit Text"
+ButtonDisabledLabel="Disabled"
+ButtonNormalLabel="Normal"
+ButtonFocusLabel="Focus"
+ButtonPressedLabel="Pressed"
+
+[HUDKeypadWindow]
+msgAccessDenied="~~DENIED~~"
+msgAccessGranted="~~GRANTED~~"
+
+[HUDReceivedDisplay]
+TextReceivedLabel="Received:"
+
+[InformationDevices]
+msgNoText="何もありません"
+ImageLabel="[Image: %s]"
+AddedToDatavaultLabel="Image %s をData Vaultに追加しました"
+
+[GuntherHermann]
+FamiliarName="Gunther Hermann"
+UnfamiliarName="Gunther Hermann"
+
+[SpyDrone]
+ItemName="Remote Spy Drone"
+
+[HUDMedBotHealthScreen]
+MedbotInterfaceText="MEDBOT INTERFACE"
+HealthInfoTextLabel="MedBotはダメージを受けた身体の各個所を %dユニット治療する"
+MedBotRechargingLabel="|nMedBot リチャージ中　 待機"
+MedBotReadyLabel="|nMedBot 準備完了　治療開始OK"
+MedBotYouAreHealed="|n現在治療の必要はありません"
+SecondsPluralLabel="Recharging: %d seconds"
+SecondsSingularLabel="Recharging: %d second"
+ReadyLabel="Ready!"
+HealAllButtonLabel="  H|&eal All  "
+
+[PersonaItemDetailButton]
+CountLabel="Count: %d"
+
+[MenuScreenSaveGame]
+Title="Save Game"
+DiskSpaceTitle="ディスクの空き容量が足りません"
+DiskSpaceMessage="セーブするには、ハードディスクに最低100MBの空き容量が必要です　セーブしてあるゲームを削除するか、空き容量を作ってください"
+actionButtons[1]="(Text="|&Save Game",Key="SAVE")"
+
+[RepairBot]
+FamiliarName="Repair Bot"
+UnfamiliarName="Repair Bot"
+
+[PersonaNavBarWindow]
+InventoryButtonLabel="|&Inventory"
+HealthButtonLabel="|&Health"
+AugsButtonLabel="|&Augs"
+SkillsButtonLabel="|&Skills"
+GoalsButtonLabel="|&Goals/Notes"
+ConsButtonLabel="|&Conversations"
+ImagesButtonLabel="I|&mages"
+LogsButtonLabel="|&Logs"
+
+[PersonaNavBarBaseWindow]
+ExitButtonLabel="E|&xit"
+
+[PersonaScreenConversations]
+ConversationsTitleText="Conversations"
+ActorButtonLabel="Contact"
+LocationButtonLabel="Location"
+TypeButtonLabel="Type"
+
+[MenuScreenCustomizeKeys]
+strHeaderActionLabel="Action"
+strHeaderAssignedLabel="Assigned Key/Button"
+WaitingHelpText="キー割り当ての変更はファンクションを選び、[Enter]キーを押すか、ダブルクリックをしてください。解除するときには [Delete]キーを押してください"
+InputHelpText="割り当てたいキーを押してください。キャンセルしたいときには [ESC]キーを押してください。"
+
+ReassignedFromLabel="'%s' reassigned from '%s'"
+Title="Keyboard/Mouse Settings"
+FunctionText[0]="攻撃/手持アイテム使用"
+FunctionText[1]="マップ上のアイテムを操作"
+FunctionText[2]="アイテムを捨てる"
+FunctionText[3]="アイテムを置く"
+FunctionText[4]="前進"
+FunctionText[5]="後退"
+FunctionText[6]="左を向く"
+FunctionText[7]="右を向く"
+FunctionText[8]="左側へ平行移動"
+FunctionText[9]="右側へ平行移動"
+FunctionText[10]="左に傾く"
+FunctionText[11]="右に傾く"
+FunctionText[12]="ジャンプ"
+FunctionText[13]="しゃがむ"
+FunctionText[14]="ルック"
+FunctionText[15]="見上げる"
+FunctionText[16]="見下ろす"
+FunctionText[17]="センタービュー"
+FunctionText[18]="歩く/走る"
+FunctionText[19]="歩き続ける/走り続ける"
+FunctionText[20]="マウスでの移動"
+FunctionText[21]="次のスロットのアイテム選択"
+FunctionText[22]="前のスロットのアイテム選択"
+FunctionText[23]="武器のリロード"
+FunctionText[24]="スコープ連続作動"
+FunctionText[25]="レーザーサイト連続作動"
+FunctionText[26]="全てのAugmentation作動"
+FunctionText[27]="全てのAugmentation解除"
+FunctionText[28]="弾薬の変更"
+FunctionText[29]="スクリーンショットを撮る"
+FunctionText[30]="Inventry表示"
+FunctionText[31]="Healthスクリーン表示"
+FunctionText[32]="Augsスクリーン表示"
+FunctionText[33]="Skillsスクリーン表示"
+FunctionText[34]="Goal/Notes表示"
+FunctionText[35]="Conversations表示"
+FunctionText[36]="Imagesスクリーン表示"
+FunctionText[37]="Logsスクリーン表示"
+FunctionText[38]="クイック・セーブ"
+FunctionText[39]="クイック・ロード"
+FunctionText[40]="照準表示"
+FunctionText[41]="ダメージモニター表示"
+FunctionText[42]="コンパス表示"
+FunctionText[43]="Augs表示"
+FunctionText[44]="アイテムベルト表示"
+FunctionText[45]="弾薬表示"
+keyDisplayNames[0]="(inputKey=IK_LeftMouse,displayName="左マウスクリック")"
+keyDisplayNames[1]="(inputKey=IK_RightMouse,displayName="右マウスクリック")"
+keyDisplayNames[2]="(inputKey=IK_MiddleMouse,displayName="ホイールクリック")"
+keyDisplayNames[3]="(inputKey=IK_CapsLock,displayName="CAPS Lock")"
+keyDisplayNames[4]="(inputKey=IK_PageUp,displayName="Page Up")"
+keyDisplayNames[5]="(inputKey=IK_PageDown,displayName="Page Down")"
+keyDisplayNames[6]="(inputKey=IK_PrintScrn,displayName="Print Screen")"
+keyDisplayNames[7]="(inputKey=IK_GreyStar,displayName="NumPad　*キー")"
+keyDisplayNames[8]="(inputKey=IK_GreyPlus,displayName="NumPad +キー")"
+keyDisplayNames[9]="(inputKey=IK_GreyMinus,displayName="NumPad　-キー")"
+keyDisplayNames[10]="(inputKey=IK_GreySlash,displayName="NumPad /キー")"
+keyDisplayNames[11]="(inputKey=IK_NumPadPeriod,displayName="NumPad .キー")"
+keyDisplayNames[12]="(inputKey=IK_NumLock,displayName="Num Lock")"
+keyDisplayNames[13]="(inputKey=IK_ScrollLock,displayName="Scroll Lock")"
+keyDisplayNames[14]="(inputKey=IK_LShift,displayName="左 Shift")"
+keyDisplayNames[15]="(inputKey=IK_RShift,displayName="右 Shift")"
+keyDisplayNames[16]="(inputKey=IK_LControl,displayName="左 Control")"
+keyDisplayNames[17]="(inputKey=IK_RControl,displayName="右 Control")"
+keyDisplayNames[18]="(inputKey=IK_MouseWheelUp,displayName="マウス・ホイール・アップ")"
+keyDisplayNames[19]="(inputKey=IK_MouseWheelDown,displayName="マウス・ホイール・ダウン")"
+keyDisplayNames[20]="(inputKey=IK_MouseX,displayName="Mouse X軸")"
+keyDisplayNames[21]="(inputKey=IK_MouseY,displayName="Mouse Y軸")"
+keyDisplayNames[22]="(inputKey=IK_MouseZ,displayName="Mouse Z")"
+keyDisplayNames[23]="(inputKey=IK_MouseW,displayName="Mouse W")"
+keyDisplayNames[24]="(inputKey=IK_LeftBracket,displayName="Left Bracket")"
+keyDisplayNames[25]="(inputKey=IK_RightBracket,displayName="Right Bracket")"
+keyDisplayNames[26]="(inputKey=IK_SingleQuote,displayName="Single Quote")"
+keyDisplayNames[27]="(inputKey=IK_Joy1,displayName="Joystick Button 1")"
+keyDisplayNames[28]="(inputKey=IK_Joy2,displayName="Joystick Button 2")"
+keyDisplayNames[29]="(inputKey=IK_Joy3,displayName="Joystick Button 3")"
+keyDisplayNames[30]="(inputKey=IK_Joy4,displayName="Joystick Button 4")"
+keyDisplayNames[31]="(inputKey=IK_JoyX,displayName="Joystick X")"
+keyDisplayNames[32]="(inputKey=IK_JoyY,displayName="Joystick Y")"
+keyDisplayNames[33]="(inputKey=IK_JoyZ,displayName="Joystick Z")"
+keyDisplayNames[34]="(inputKey=IK_JoyR,displayName="Joystick R")"
+keyDisplayNames[35]="(inputKey=IK_JoyU,displayName="Joystick U")"
+keyDisplayNames[36]="(inputKey=IK_JoyV,displayName="Joystick V")"
+keyDisplayNames[37]="(inputKey=IK_JoyPovUp,displayName="Joystick Pov Up")"
+keyDisplayNames[38]="(inputKey=IK_JoyPovDown,displayName="Joystick Pov Down")"
+keyDisplayNames[39]="(inputKey=IK_JoyPovLeft,displayName="Joystick Pov Left")"
+keyDisplayNames[40]="(inputKey=IK_JoyPovRight,displayName="Joystick Pov Right")"
+keyDisplayNames[41]="(inputKey=IK_Ctrl,displayName="Control")"
+keyDisplayNames[42]="(inputKey=IK_Left,displayName="←")"
+keyDisplayNames[43]="(inputKey=IK_Right,displayName="→")"
+keyDisplayNames[44]="(inputKey=IK_Up,displayName="↑")"
+keyDisplayNames[45]="(inputKey=IK_Down,displayName="↓")"
+keyDisplayNames[46]="(inputKey=IK_Insert,displayName="Insert")"
+keyDisplayNames[47]="(inputKey=IK_Home,displayName="Home")"
+keyDisplayNames[48]="(inputKey=IK_Delete,displayName="Delete")"
+keyDisplayNames[49]="(inputKey=IK_End,displayName="End")"
+keyDisplayNames[50]="(inputKey=IK_NumPad0,displayName="NumPad 0")"
+keyDisplayNames[51]="(inputKey=IK_NumPad1,displayName="NumPad 1")"
+keyDisplayNames[52]="(inputKey=IK_NumPad2,displayName="NumPad 2")"
+keyDisplayNames[53]="(inputKey=IK_NumPad3,displayName="NumPad 3")"
+keyDisplayNames[54]="(inputKey=IK_NumPad4,displayName="NumPad 4")"
+keyDisplayNames[55]="(inputKey=IK_NumPad5,displayName="NumPad 5")"
+keyDisplayNames[56]="(inputKey=IK_NumPad6,displayName="NumPad 6")"
+keyDisplayNames[57]="(inputKey=IK_NumPad7,displayName="NumPad 7")"
+keyDisplayNames[58]="(inputKey=IK_NumPad8,displayName="NumPad 8")"
+keyDisplayNames[59]="(inputKey=IK_NumPad9,displayName="NumPad 9")"
+keyDisplayNames[60]="(inputKey=IK_Period,displayName=".キー")"
+keyDisplayNames[61]="(inputKey=IK_Comma,displayName=",キー")"
+keyDisplayNames[62]="(inputKey=IK_Backslash,displayName="＿キー")"
+keyDisplayNames[63]="(inputKey=IK_Semicolon,displayName="；キー")"
+keyDisplayNames[64]="(inputKey=IK_Equals,displayName="＝キー")"
+keyDisplayNames[65]="(inputKey=IK_Slash,displayName="/キー")"
+keyDisplayNames[66]="(inputKey=IK_Enter,displayName="Enter")"
+keyDisplayNames[67]="(inputKey=IK_Alt,displayName="Alt")"
+keyDisplayNames[68]="(inputKey=IK_Backspace,displayName="Backspace")"
+keyDisplayNames[69]="(inputKey=IK_Shift,displayName="Shift")"
+keyDisplayNames[70]="(inputKey=IK_Space,displayName="Space")"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+NoneText="[None]"
+FunctionText[46]="F3"
+FunctionText[47]="F4"
+FunctionText[48]="F5"
+FunctionText[49]="F6"
+FunctionText[50]="F7"
+FunctionText[51]="F8"
+FunctionText[52]="F9"
+FunctionText[53]="F10"
+FunctionText[54]="F11"
+FunctionText[55]="F12"
+FunctionText[56]="マルチプレイスコア確認"
+FunctionText[57]="チーム内メッセージ"
+FunctionText[58]="メッセージ"
+FunctionText[59]="スキルメニュー"
+FunctionText[60]="キル数確認"
+
+[NanoKeyRing]
+NoKeys="Nano Keyは使用できません"
+KeysAvailableLabel="使用可能　Nano Key:"
+ItemName="Nanokey Ring"
+ItemArticle=""
+Description="Nanokey Ring は異なる Nanokeyから二次元の分子構造を読みとり、記憶し、必要に応じてその構造を再生することができる"
+beltDescription="KEY RING"
+
+[SkilledTool]
+CountLabel="Count:"
+
+[ComputerScreenEmail]
+NoEmailTodayText="受信メールはありません"
+EmailFromHeader="From:"
+EmailToHeader="To:"
+EmailCarbonCopyHeader="CC:"
+EmailSubjectHeader="Subj:"
+HeaderFromLabel="From"
+HeaderSubjectLabel="Subject"
+Title="Email"
+ComputerNodeFunctionLabel="Email"
+
+[Ammo762mm]
+ItemName="7.62x51mm Ammo"
+ItemArticle=""
+Description="この7.62x51ミリ (NATO) 弾は、かつて対テロ部隊が接近戦用にアサルト・ライフルで使用していたが、のちにNSF（NationalSecurityForces)に採用され、普及した。"
+beltDescription="7.62 AMMO"
+
+[Flare]
+ExpireMessage="既に使用しています"
+ItemName="Flare"
+Description="説明欄にはこう書かれている。|n|n「これは使い捨ての緊急用照明です。煙を出しながら激しく発光しますが、熱くありませんし、火事にもなりません。安心してください」"
+beltDescription="FLARE"
+
+[ComputerScreenHack]
+HackButtonLabel="|&Hack"
+ReturnButtonLabel="|&Return"
+HackReadyLabel="Ice Breaker 作動中……"
+HackInitializingLabel="ICE Breaker初期化中……"
+HackSuccessfulLabel="ハッキング成功……"
+HackDetectedLabel="*** WARNING ***|n*** 警告！***　侵入者確認"
+MPHackInitializingLabel="ハッキング中... 中止する場合は ESC キーを押してください"
+
+[Barrel1]
+ItemName="Barrel"
+
+[BioelectricCell]
+msgRecharged="%d ポイント　チャージしました"
+RechargesLabel="%d ポイント　チャージ可能"
+ItemName="Bioelectric Cell"
+Description="Bioelectric Cellは、さまざまなデバイスに利用できる形で、エネルギーを効率的に備蓄。|n|n<UNATCO 作戦ファイルメモ JR289-バイオレット>|n|nナノ・マシンによって強化されたエージェントは、Bioelectric Cellからエネルギーを吸収するインターフェイスを装備。――Jaime　Reyes"
+beltDescription="BIOCELL"
+
+[AugmentationCannister]
+AugsAvailable="Can Add:"
+MustBeUsedOn="Can only be installed with the help of a MedBot."
+ItemName="Augmentation Canister"
+ItemArticle=""
+Description="Augmentation Canisterには、ナノスケール・人工カーボンROMモジュールで満ちている。これを改造を施されたエージェントのナノ・マシンに注入することで、これらのモジュールは身体能力を増大させる。しかし、Augmentationプログラミングは常にMedBot(治療ロボット)によって行なわれる必要がある。それ以外のケースでは本来の性能を引き出せないばかりでなく、使用者を死に至らしめる可能性が大きい。詳しくはKelley Chanceの『新人類の顔』を参照。"
+beltDescription="AUG CAN"
+
+[PersonaSkillButtonWindow]
+NotAvailableLabel="N/A"
+
+[PaulDenton]
+FamiliarName="Paul Denton"
+UnfamiliarName="Paul Denton"
+
+[BobPage]
+FamiliarName="Bob Page"
+UnfamiliarName="Bob Page"
+
+[MJ12Troop]
+FamiliarName="MJ12 Troop"
+UnfamiliarName="MJ12 Troop"
+
+[NanoKey]
+ItemName="NanoKey"
+Description="キー未確認――バグとして報告　"
+beltDescription="NANO"
+
+[TAD]
+ItemName="Telephone Answering Machine"
+
+[Credits]
+msgCreditsAdded="%d credits added"
+ItemName="Credit Chit"
+beltDescription="CREDITS"
+
+[PersonaScreenGoals]
+GoalsTitleText="Goals"
+PrimaryGoalsHeader="Primary Goals"
+SecondaryGoalsHeader="Secondary Goals"
+DisplayCompletedGoals="Display C|&ompleted Goals"
+NoGoalsLabel="None"
+GoalCompletedText="[Completed]"
+NotesTitleText="Notes"
+defaultNoteText="New Note"
+ClickToEditNote="エディットしたいメモをクリック:"
+DeleteNoteTitle="メモを削除しますか？"
+DeleteNotePrompt="メモを削除してよろしいですか？"
+AddButtonLabel="Add |&Note"
+DeleteButtonLabel="|&Delete Note"
+ConfirmNoteDeletionLabel="Confirm Note Deletion"
+
+[Greasel]
+FamiliarName="Greasel"
+UnfamiliarName="Greasel"
+
+[PersonaScreenLogs]
+LogsTitleText="Logs"
+ClearButtonLabel="Cl|&ear Log"
+
+[AugmentationUpgradeCannister]
+MustBeUsedOn="Augmentations スクリーンを使用してください"
+ItemName="Augmentation Upgrade Canister"
+ItemArticle=""
+Description="Augmentation Upgrade Canister(アップグレード・キャニスター)はきわめて得意なナノ・メカニズムを有しており、あらかじめプログラムされたモジュールと組合わされば、インストールされたAugsはその効果を増す。さらに、Augmentation Upgrade Canisterは特殊なプログラムなどが必要なく、訓練を受けたエージェントならば戦場で最小限のリスクでこれを使用することが可能である。"
+beltDescription="AUG UPG"
+
+[HKIncenseBurner]
+ItemName="Incense Burner"
+
+[PersonaImageWindow]
+strNoImages="No Images Available"
+PressSpace="メモの編集を終えるときには [ESCAPE] キーを押してください"
+EscapeToCancel="メモを作成するときはイメージをクリックし、キャンセルするときは [ESCAPE] キーを押してください"
+NewNoteLabel="New Note"
+
+[FireExtinguisher]
+ItemName="Fire Extinguisher"
+Description="説明欄にはこう書かれている。|n|n化学薬剤消火器――使用には慌てず、冷静に使用してください。"
+beltDescription="FIRE EXT"
+
+[AugLight]
+AugmentationName="Light"
+Description="網膜内にあるバイオ発光細胞は、エージェントの視野に凝集性の照明をもたらす。|n|nこれはアップグレードできない。"
+
+[ComputerScreenHackAccounts]
+ChangeAccountButtonLabel="|&Change Account"
+AllAccountsHeader="All User Accounts"
+CurrentAccountHeader="Current User"
+
+[AmmoShell]
+ItemName="12 Gauge Buckshot Shells"
+ItemArticle="some"
+Description="堅いタングステンの芯を持つ12口径ショットガン弾は、至近距離では、きわめて厚い強化スチール以外を貫通する力を持つ。しかし、その弾道特性のため柔らかい目標物に対して最小限のダメージしか与えられない。"
+beltDescription="BUCKSHOT"
+
+[AnnaNavarre]
+FamiliarName="Anna Navarre"
+UnfamiliarName="Anna Navarre"
+
+[HUDMedBotAddAugsScreen]
+AvailableAugsText="Augmentations"
+MedbotInterfaceText="MEDBOT INTERFACE"
+InstallButtonLabel="|&Install"
+NoCansAvailableText="使用できるAugmentation Canisterがありません"
+AlreadyHasItText="このAugはインストールされています。"
+SlotFullText="このAugがセットされているスロットは使用済です。インストールできません。"
+SelectAnotherText="インストールする他のAugmentationを選んでください"
+
+[CleanerBot]
+FamiliarName="Cleaner Bot"
+UnfamiliarName="Cleaner Bot"
+
+[Button1]
+ItemName="Button"
+
+[MenuScreenThemesLoad]
+LoadHelpText="メニュースクリーンの色を選んでください"
+Title="Load Theme"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_Other,Text="|&Load Theme",Key="LOAD")"
+
+[ComputerScreenATMWithdraw]
+ButtonLabelWithdraw="|&Withdraw"
+ButtonLabelClose="|&Close"
+BalanceLabel="Current Balance:"
+WithdrawAmountLabel="Amount to Withdraw:"
+InstructionText="Account #: %d|n引き出したい|nクレジットを入力"
+InvalidAmountLabel="無効な額が入力されました"
+InsufficientCreditsLabel="クレジットが不足しています"
+CreditsWithdrawnLabel="クレジットが引き出されました"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[wd]"
+HackedText="ハッキング中"
+Title="PageNet Global Banking System"
+ComputerNodeFunctionLabel="ATMWD"
+
+[Ammo10mm]
+ItemName="10mm Ammo"
+ItemArticle="some"
+Description="10ミリ弾は、阻止能力が高い上に反動が小さいために、世界中の警察機構に採用されている。"
+beltDescription="10MM AMMO"
+
+[ComputerScreenSpecialOptions]
+SecurityButtonLabel="|&Security"
+EmailButtonLabel="|&Email"
+Title="Special Options"
+ComputerNodeFunctionLabel="SpecialOptions"
+
+[BumMale]
+FamiliarName="Bum"
+UnfamiliarName="Bum"
+
+[Lockpick]
+ItemName="Lockpick"
+Description="使い捨ての開錠ツール。テンション・レンチの部分はスチール製だが、ピッキングに使用する部分は凝固性のポリマーでできている。|n|n<UNATCO 作戦ファイルメモ AJ006-ブラック>ドア個々の鍵をみつけなくても、このツールで鍵をはずすことが可能。ただし、非常に高度で、しかも特殊形状を持つNanokeyは例外。――Alex Jacobson"
+beltDescription="LOCKPICK"
+
+[ComputerScreenBulletins]
+NoBulletinsTodayText="本日の連絡事項無し"
+BulletinsHeaderText="連絡事項を選択:"
+Title="Bulletins"
+ComputerNodeFunctionLabel="Bulletins"
+
+[PersonaHealthActionButtonWindow]
+HealButtonLabel="Heal"
+
+[MenuUIMessageBoxWindow]
+btnLabelYes="|&Yes"
+btnLabelNo="|&No"
+btnLabelOK="|&OK"
+btnLabelCancel="|&Cancel"
+
+[WeaponPistol]
+ItemName="PIS MSK4600-A "
+Description="PIS MSK4600-Aは、ページ・インダストリー・スターム社が開発したオートマチック・ピストル。安定した能力と、操作性のしやすさから各国の軍事組織などで制式採用されている。　PISはページ・インダストリー・スターム社の略。"
+beltDescription="PISTOL"
+
+[Multitool]
+ItemName="Multitool"
+Description=" Multitoolは、使い捨ての電子ツールであり、電磁共鳴検知と周波数変調を利用することによって、回路中の電流の方向を力学的に変えるものである。熟練したエージェントはこのMultitoolをコードロック式の鍵、カメラ、自動迎撃システム、アラームやその他のセキュリティ・システムを操作可能にする。"
+beltDescription="MULTITOOL"
+
+[SecurityBot3]
+FamiliarName="Security Bot"
+UnfamiliarName="Security Bot"
+
+[MenuChoice_Resolution]
+helpText="ビデオの解像度を変更します"
+actionText="|&Screen Resolution"
+
+[PersonaItemDetailIconWindow]
+CountLabel="Count: %d"
+
+[VendingMachine]
+msgDispensed="あなたの口座から2 クレジット引き落としました"
+msgNoCredits="2 クレジットかかります……"
+msgEmpty="何も入っていません"
+ItemName="Vending Machine"
+
+[PersonaScreenSkills]
+SkillsTitleText="Skills"
+UpgradeButtonLabel="|&Upgrade"
+PointsNeededHeaderText="Points Needed"
+SkillLevelHeaderText="Skill Level"
+SkillPointsHeaderText="Skill Points"
+SkillUpgradedLevelLabel="%s アップグレード"
+
+[JaimeReyes]
+FamiliarName="Jaime Reyes"
+UnfamiliarName="Jaime Reyes"
+
+[WeaponCombatKnife]
+ItemName=" Neomaxter Combat Knife "
+Description=" Neomaxter Combat Knifeは、ナイフ・メーカー Neomaxter社のロングラン・モデルで、刃の材質はカーボン・ステンレススチールで出来ており、その鋭い切れ味には定評がある。ナイフは、使い手次第で近接戦闘において銃を上回る脅威となる。"
+beltDescription="KNIFE"
+
+[Switch2]
+ItemName="Switch"
+
+[ShowerHead]
+ItemName="Shower Head"
+
+[ComputerSecurity]
+ItemName="Security Computer Terminal"
+
+[TrashPaper]
+ItemName="Paper"
+
+[HUDMedBotAugCanWindow]
+AugContainsText="Contains:|n"
+
+[AugDefense]
+AugmentationName="Aggressive Defense System"
+Description=" Aggressive Defense Systemの原理は、霧状のナノ・マシンを電磁スレット・プロファイルをそなえた検知目標の上に散布し、これらのナノ・マシンが、エージェント到着前に目標物を誤作動、誘爆させる物である。|n|nレベル１：接近するロケット弾やGrenadeを誘爆させることができるが、その効果範囲は狭い。|n|nレベル２：接近するロケット弾やGrenadeを誘爆させる効果範囲がわずかながら広がる。|n|nレベル３：接近するロケット弾やGrenadeを誘爆させる効果範囲が大幅に広がる。|n|nレベル４：接近するロケット弾やGrenadeのほとんど全てを誘爆させ、ダメージを受けることはほとんど無い。"
+MPInfo="霧状のナノ・マシンを電磁スレット・プロファイルをそなえた検知目標の上に散布し、これらのナノ・マシンが、接近するロケット弾やGrenadeを誤作動、誘爆させる。エネルギー消費量：低"
+
+[CigaretteMachine]
+msgDispensed="あなたの口座から8 クレジット引き落としました"
+msgNoCredits="8 クレジットかかります……"
+msgEmpty="何も入っていません"
+ItemName="Cigarette Machine"
+
+[RiotCop]
+FamiliarName="Riot Cop"
+UnfamiliarName="Riot Cop"
+
+[Fly]
+FamiliarName="Fly"
+UnfamiliarName="Fly"
+
+[Gray]
+FamiliarName="Gray"
+UnfamiliarName="Gray"
+
+[ComputerScreenLogin]
+UserNameLabel="User Name"
+PasswordLabel="Password"
+InvalidLoginMessage="ログイン・エラー - アクセスは拒否されました"
+Title="Welcome to %s"
+ComputerNodeFunctionLabel="Login"
+
+[Poolball]
+ItemName="Poolball"
+
+[HUDMedBotNavBarWindow]
+HealthButtonLabel=" |&Health   "
+AugsButtonLabel="   |&Augmentations   "
+
+[SandraRenton]
+FamiliarName="Sandra Renton"
+UnfamiliarName="Sandra Renton"
+
+[AmmoDart]
+ItemName="Darts"
+ItemArticle=""
+Description=" Mini-Crossbow "Night Sleeper "に使用する Dartsは暗殺任務の多くに向いている。だが、相手に悲鳴をあげさせないで静かに殺すには、高度なスキルが必要である。"
+beltDescription="DART"
+
+[ComputerScreenATM]
+AccountLabel="Account #:"
+PinLabel="PIN #:"
+LoginInfoText="Please enter your Account # and Pin"
+WarningText="警告：未許可のアクセスに対しては強行手段を行使する"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[login]"
+InvalidLoginMessage="ログイン・エラー　アクセスは拒否されました"
+Title="PageNet Global Banking System"
+
+[WeaponAssaultGun]
+ItemName=" PIS XMS214 Assault Rifle "
+ItemArticle=""
+Description="ページ・インダストリー・スターム社のPIS XMS214 Assault Rifleは、接近戦用に開発され、操作性を高めるために銃身を詰めて、ブルパップ式にしてある。20mm HE Launcher(20ミリ HEランチャー)をとりつければ、さまざまな攻撃対象に対するこのライフルの有効性を高めることが可能となる。"
+beltDescription="ASSAULT"
+
+[ComputerScreenATMDisabled]
+ButtonLabelClose="Close"
+LoginInfoText="申し訳ありませんが、現在この端末は使われておりません (ERR 06MJ12)。|n|nご不便をおかけしていますが、PageNet バンキングシステムは世界に231,000台の端末を設置しています。 お手数ですが、他のPageNet バンキング端末をご利用下さい。"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[dsbld]"
+Title="PageNet Global Banking System"
+
+[MenuChoice_Volume]
+VolumeOffText="OFF"
+VolumeMaxText="MAX"
+
+[PersonaInventoryCreditsWindow]
+CreditsLabel="Credits"
+
+[ThugMale]
+FamiliarName="Thug"
+UnfamiliarName="Thug"
+
+[MenuScreenBrightness]
+HelpMessage="カラーバーで、明るさを調整してください"
+Title="Adjust Brightness"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuMain]
+Title="Welcome to DEUS EX"
+ButtonNames[0]="New Game"
+ButtonNames[1]="Save Game"
+ButtonNames[2]="Load Game"
+ButtonNames[3]="Setting"
+ButtonNames[4]="Training"
+ButtonNames[5]="Intro Movie"
+ButtonNames[6]="Credits"
+ButtonNames[7]="Back to Game"
+ButtonNames[8]="Multiplayer"
+ButtonNames[9]="Exit"
+
+[LAM]
+ItemName="Lightweight Attack Munition (LAM)"
+
+[Cigarettes]
+ItemName="Cigarettes"
+ItemArticle=""
+Description="'COUGHING NAILS（商品名：コフィング・ネイルズ）――タバコを吸うならこれしかない'"
+beltDescription="CIGS"
+
+[WeaponModAccuracy]
+ItemName="Weapon Modification (Accuracy)"
+Description="ほとんどの発射型武器はフレームを締めることによって、調和のとれたバランサーが発射によって生じる垂直方向の動きを小さくし、その結果、精度が向上する。|n|n<UNATCO 作戦ファイルメモSC108-ブルー>|n|n現在の反動の強い武器はこのバランサーを装着することによって改善する事が可能である。それはMini-Crossbow [Night Sleeper]や、テスト・タイプのPIS MJT-P4 Plasma Rifleも同様である。――Sam Carter"
+beltDescription="MOD ACCRY"
+
+[WeaponModRecoil]
+ItemName="Weapon Modification (Recoil)"
+Description="ポリセリュラー製の緩衝剤でおおわれた銃床により、反動が著しく減少する"
+beltDescription="MOD RECOL"
+
+[WeaponModReload]
+ItemName="Weapon Modification (Reload)"
+Description="スピード・ローダーは武器の再装填時間を大幅に短縮する事を可能にする。"
+beltDescription="MOD RELOD"
+
+[EMPGrenade]
+ItemName="Electromagnetic Pulse (EMP) Grenade"
+
+[NanoVirusGrenade]
+ItemName="Gurdian Scramble Grenade"
+
+[WeaponSword]
+ItemName=" Sey-ryu- Sword "
+Description="古の時代から使われている武器で、材質、鍛造技術などは特殊なものを使っていないにもかかわらず、接近戦ではかなりの殺傷力を持つ。「青龍刀」"
+beltDescription="SWORD"
+
+[WeaponCrowbar]
+ItemName="Crowbar"
+Description="バール。人や物を叩いて破壊する。|n|n<UNATCO 作戦ファイルメモGH010-ブルー>|n|nバールの多くを、我々は「殺人バール」と呼ぶ。常に戦闘用に一つは携帯している。・・・Kidding!――Gunther Hermann"
+beltDescription="CROWBAR"
+
+[TracerTong]
+FamiliarName="Tracer Tong"
+UnfamiliarName="Tracer Tong"
+
+[WIB]
+FamiliarName="Woman In Black"
+UnfamiliarName="Woman In Black"
+
+[MIB]
+FamiliarName="Man In Black"
+UnfamiliarName="Man In Black"
+
+[AugMuscle]
+AugmentationName="Microfibral Muscle"
+Description=" Microfibral Muscleは、イオン重合ゲル筋原繊維によって強化された筋力で、エージェントはきわめて重い物を押したり、持ち上げることができる。|n|nレベル１：エージェントの筋力がわずかにアップする。|n|nレベル２：エージェントの筋力がかなりアップする。|n|nレベル３：エージェントの筋力が大幅にアップする。|n|nレベル４：エージェントは超人的なパワーを得る。"
+MPInfo="きわめて重い物を押したり、持ち上げることができるようになる。エネルギー消費量：低"
+
+[DeathMatchGame]
+TooManyPlayers=Too many players
+VictoryConString1="Objective: First player that reaches "
+VictoryConString2=" kills wins the match."
+TimeLimitString1="Objective: Score the most kills before the clock ( "
+TimeLimitString2=" ) runs out!"
+
+[Rat]
+FamiliarName="Rat"
+UnfamiliarName="Rat"
+
+[Karkian]
+FamiliarName="Karkian"
+UnfamiliarName="Karkian"
+
+[AlarmLight]
+ItemName="Alarm Light"
+
+[Cat]
+FamiliarName="Cat"
+UnfamiliarName="Cat"
+
+[Cart]
+ItemName="Utility Push-Cart"
+
+[WaterCooler]
+msgEmpty="水が無い"
+ItemName="Water Cooler"
+
+[WaterFountain]
+msgEmpty="水が無い"
+ItemName="Water Fountain"
+
+[MiniSub]
+ItemName="Mini-Submarine"
+
+[Dart]
+ItemName="Dart"
+ItemArticle=""
+
+[Ammo3006]
+ItemName="30.06 Ammo"
+ItemArticle=""
+Description="スナイパー・ライフル用に作られたこの30口径弾は、高速で着弾地点の正確精度が高く、開発から50年以上たった今でも使用されている。"
+beltDescription="3006 AMMO"
+
+[TechGoggles]
+ExpireMessage=" Light Amplification Goggles(LAG)のパワーが切れました"
+ItemName=" Light Amplification Goggles(LAG) "
+ItemArticle=""
+Description=" Light Amplification Goggles(LAG)は、世界中で多くの特殊工作部隊に使われている。ブランドは多数あるが、共通して携帯用の光増幅器を備えている。"
+beltDescription="GOGGLES"
+
+[MorganEverett]
+FamiliarName="Morgan Everett"
+UnfamiliarName="Morgan Everett"
+
+[MenuChoice_ObjectTextureDetail]
+helpText="物体のテクスチャーの解像度を変更します"
+actionText="|&Object Texture Detail"
+configSetting="ini:Engine.Engine.ViewportManager SkinDetail"
+enumText[0]="Low"
+enumText[1]="High"
+
+[MenuChoice_WorldTextureDetail]
+helpText="背景のテクスチャーの解像度を変更します"
+actionText="|&World Texture Detail"
+configSetting="ini:Engine.Engine.ViewportManager TextureDetail"
+
+[MenuChoice_DetailTextures]
+helpText="テクスチャーの解像度を落とすことにより、マシンのパフォーマンスを上げられる場合があります"
+actionText="Detail T|&extures"
+configSetting="ini:Engine.Engine.GameRenderDevice DetailTextures"
+
+[MenuChoice_Decals]
+helpText="Decalsを使用しないことにより、マシンのパフォーマンスを上げられる場合があります"
+actionText="D|&ecals"
+configSetting="ini:Engine.Engine.ViewportManager Decals"
+
+[MenuChoice_MouseSensitivity]
+helpText="マウス感度を調整します"
+actionText="Mouse |&Sensitivity"
+
+[MenuChoice_MaxLogLines]
+helpText="スクリーンに表示するログラインの最大行数を決定します"
+actionText="Max. Log Lines"
+
+[MenuChoice_LogTimeoutValue]
+msgSecond="s"
+helpText="ログメッセージをスクリーンに表示する時間を決定します"
+actionText="|&Log Timeout Value"
+
+[HKMilitary]
+FamiliarName="Chinese Military"
+UnfamiliarName="Chinese Military"
+
+[NicoletteDuClare]
+FamiliarName="Nicolette DuClare"
+UnfamiliarName="Nicolette DuClare"
+
+[ThugMale2]
+FamiliarName="Thug"
+UnfamiliarName="Thug"
+
+[AdaptiveArmor]
+ExpireMessage="OCAのパワーが切れました"
+ItemName="OCA"
+ItemArticle=""
+Description="光ファイバーと最新のコンピュータ・システムを統合したOCA（Optical Camouflaged Armor：光学迷彩アーマー）は、光とレーダー波を力学的に屈折させることにより、エージェントの姿を人間からもBotsからも見えなくする。だが、これはエネルギーの消費が激しいので、短時間しか使用できない。もし、限界を超えてしまうようなことがあれば、ナノテクノロジーによって改造された人体に多大な影響を及ぼすことになる。"
+beltDescription="OCA"
+
+[AugRadarTrans]
+AugmentationName="Radar Transparency"
+Description=" Rader Transparencyは、上皮のタンパク質にレーダー吸収樹脂が増加し、マイクロ発射ユニットによってエージェントの視覚的特性がゆがめられる。その結果、ロボット、カメラ、自動迎撃システムなどの自動探知システムからきわめて効果的に逃れることが可能になる。|n|nレベル１：パワーの消耗率はかなり激しい。|n|nレベル２：パワーの消耗率がわずかに低下する。|n|nレベル３：パワーの消耗率がかなり低下する。|n|nレベル４：パワーの消耗率が著しく低下する。"
+MPInfo="このAugが稼動中、ロボット、カメラ、自動迎撃システムなどの自動探知システムからきわめて効果的に逃れることが可能になる。エネルギー消費量: 低"
+
+[MenuChoice_SoundQuality]
+RestartTitle="Sound Quality"
+RestartMessage="Deus Exを再起動後に変更になります"
+helpText="16ビットは高品質のサウンドを再現できますが、８ビットに比べて２倍のメモリーが必要になります。メモリーの空き容量が少ないときには８ビットを使ってください"
+actionText="Sound |&Quality"
+configSetting="ini:Engine.Engine.AudioDevice LowSoundQuality"
+enumText[0]="8-bit"
+enumText[1]="16-bit"
+
+[AmmoSabot]
+ItemName="12 Gauge Sabot Shells"
+ItemArticle=""
+Description="堅いタングステンの芯を持つ12口径ショットガン弾は、至近距離では、きわめて厚い強化スチール以外を貫通する力を持つ。しかし、その弾道特性のため柔らかい目標物に対して最小限のダメージしか与えられない。"
+beltDescription="SABOT"
+
+[MenuChoice_TextureColorBits]
+RestartTitle="Texture Color Depth"
+RestartMessage=" Deus Exを再起動後に変更になります"
+helpText="テクスチャーの色の濃度を決定します。PC環境を確認し問題なければ、32ビットを使用することをお奨めします"
+actionText="|&Texture Color Depth"
+configSetting="ini:Engine.Engine.ViewportManager FullscreenColorBits"
+enumText[0]="16-bit"
+enumText[1]="32-bit"
+
+[Binoculars]
+ItemName=" D.Clouds Military Binoculars "
+ItemArticle=""
+Description=" D.Clouds Military Binocularsは、D.Clouds社が開発した軍用双眼鏡で、その耐久性と扱いやすさで多くの国に普及している。"
+beltDescription="BINOCS"
+
+[Liquor40oz]
+ItemName="Forty"
+Description="ラベルにはこう書かれている。|n|n「40オンスのモルトウイスキー・COLD SWEAT。誰にも教えたくない　この旨さ」"
+beltDescription="FORTY"
+
+[LiquorBottle]
+ItemName="Liquor"
+ItemArticle=""
+Description="ラベルははがれているが、高級なアルコールのようだ。"
+beltDescription="LIQUOR"
+
+[ComputerPublic]
+ItemName="Public Computer Terminal"
+
+[WeaponModClip]
+ItemName="Weapon Modification (Clip)"
+Description="この拡張マガジンを使用することによって、クリップに装填できる弾の数を増やすことが可能にする。"
+beltDescription="MOD CLIP"
+
+[VialCrack]
+ItemName="Zyme Vial"
+Description="化学培養によって生み出された最新ドラッグ"
+beltDescription="ZYME"
+
+[HazMatSuit]
+ExpireMessage=" CTS Survival Armorのパワーが切れました"
+ItemName=" CTS Survival Armor "
+Description=" CTS（Counter Toxic Substance）Survival Armorは、放射能や火、生化学上の毒、電気、EMPなど広範囲の環境的危険から身を守る。このスーツには統合型細菌性酸素スクラバーが含まれており、これは時間と共に劣化していくので、繰り返し使用することは不可能である。"
+beltDescription="CTS"
+
+[WeaponModRange]
+ItemName="Weapon Modification (Range)"
+Description="これを使用することにより、人工潤滑液が銃身内の抵抗を無くし、射程距離を伸ばすことができる。|n|n<UNATCO 作戦ファイルメモ SC111-ブルー>|n|n Flamethlower CT-01及びPIS MJT-P4 Plasma Rifleの基本バルブシステムをシノビアル潤滑液でコーティングし、さらに発射システムを加圧することで射程距離を伸ばすことが出来る。この理論は、今までの実戦データが正しいと裏付けている。――Sam Carter"
+beltDescription="MOD RANGE"
+
+[PersonaImageNewLegendLabel]
+NewLegendLabel=" = New Image"
+
+[BallisticArmor]
+ExpireMessage=" Ballistic Absorb Armorのパワーが切れました"
+ItemName=" Ballistic Absorb Armor"
+ItemArticle=""
+Description=" Ballistic Absorb Armorは、電気感知特性を有するポリマーシートで形成されている。このシートは、銃弾や爆発の強烈な衝撃に反応して、「堅く」なり、ダメージの大部分を吸収する特性を持つ。このポリマーシートは使用前に充電を要し、もしそれを怠ればポリマーシートの反射性は消滅し、使用者は自らの死を招くことになる。"
+beltDescription="BAL ARMOR"
+
+[MenuChoice_EffectsChannels]
+helpText="サウンド・エフェクトのチャンネル数を調整します"
+actionText="E|&ffects Channels"
+configSetting="ini:Engine.Engine.AudioDevice EffectsChannels"
+
+[SkillAwardTrigger]
+awardMessage="DEFAULT SKILL AWARD MESSAGE - REPORT THIS AS A BUG"
+
+[Shuriken]
+ItemName="Throwing Knife"
+
+[ShipsWheel]
+ItemName="Ship's Wheel"
+
+[AmmoRocket]
+ItemName="Rockets"
+ItemArticle=""
+Description="ジャイロスコープ力学により安定飛行するロケットで、飛行軌道修正のための搭載誘導システムには制限がある。GEP Gunと一緒に使うように設計された。"
+beltDescription="ROCKET"
+
+[CageLight]
+ItemName="Light Fixture"
+
+[AmmoBattery]
+ItemName="Prod Charger"
+ItemArticle=""
+Description="SIS RSW20 Riot Prod専用の携帯型充電ユニット。"
+beltDescription="CHARGER"
+
+[AugDrone]
+AugmentationName="Spy Drone"
+Description="Spy Droneのシステムは、エージェント達を強化するナノ・マシン内で、無人スパイ機を製造することができるようになる。これはエージェントによって遠隔操作され、操作を放棄するか、敵に破壊されたときは、新たなSpy Droneを製造できる。さらに、アップグレードによってSpy Droneは装甲強化、一度のみだがEMP（電磁パルス）による攻撃が可能となる。|n|nレベル１：Spy Droneは、ダメージに対する耐久性が全くと言っていいほどない。また、装備しているEMP弾の威力もきわめて小さい。|n|nレベル２：Spy Droneは、軽いダメージまでなら耐えることができ、装備しているEMP弾の攻撃力も少しだが増加している。|n|nレベル３：Spy Droneは、かなりのダメージに対して耐えることができる。また、装備しているEMP弾も、かなりの威力を有するようになる。|n|nレベル４：Spy Droneは、強力な攻撃にも耐えうる装甲を備え、装備しているEMP弾の威力は強力な物になる。"
+MPInfo="無人スパイ機を製造、遠隔操作することができるようになる。さらに、アップグレードによってSpy Droneは装甲強化、一度のみだがEMP（電磁パルス）による攻撃が可能となる。エネルギー消費量：中"
+
+[Basketball]
+ItemName="Basketball"
+
+[AugCombat]
+AugmentationName="Combat Strength"
+Description=" Combat Strebgthは、筋小胞体にある濃縮カルシウムイオンをソーティング・ローターで加速することで、筋肉のスピードが数倍になり、近接戦闘において相手に与えるダメージが増加する。|n|nレベル１：近接戦闘時の武器の威力がわずかに増加する。|n|nレベル２：近接戦闘時の武器の威力がかなり増加する。|n|nレベル３：近接戦闘時の武器の威力が大幅に増加する。|n|nレベル４：近接戦闘時、扱う武器は、ほとんどの相手を即死させるだけの威力を持つ。"
+MPInfo="このAugが稼動中、近接戦闘において相手に与えるダメージが増加する。エネルギー消費量: 低"
+
+[AugAqualung]
+AugmentationName="Aqualung"
+Description=" Aqualungは、肺の肺胞に埋め込まれた外構造ソーダ石灰がCO2と結びつきO2を生成し、水中での活動時間をのばすことができる。|n|nレベル１：肺の容量がわずかに増加する。|n|nレベル２：肺の容量がかなり増加する。|n|nレベル３：肺の容量が大幅に増加する。|n|nレベル４：空気を吸うことを必要とせず、永久に水中での行動が可能になる。"
+MPInfo="このAugが稼動中、水中での活動時間を通常の12倍伸ばすことができ、泳ぐ速度も約2倍程度早くなる。エネルギー消費量: 低"
+
+[RetinalScanner]
+msgUsed="Clearance granted"
+ItemName="Retinal Scanner"
+
+[WineBottle]
+ItemName="Wine"
+ItemArticle=""
+Description="年代物の高級ワインのようだ。"
+beltDescription="WINE"
+
+[Valve]
+ItemName="Valve"
+
+[LowerClassFemale]
+FamiliarName="Lower Class"
+UnfamiliarName="Lower Class"
+
+[TerroristCommander]
+FamiliarName="Terrorist Commander"
+UnfamiliarName="Terrorist Commander"
+
+[GarySavage]
+FamiliarName="Gary Savage"
+UnfamiliarName="Gary Savage"
+
+[SpiderBot]
+FamiliarName="SpiderBot"
+UnfamiliarName="SpiderBot"
+
+[StantonDowd]
+FamiliarName="Stanton Dowd"
+UnfamiliarName="Stanton Dowd"
+
+[FordSchick]
+FamiliarName="Ford Schick"
+UnfamiliarName="Ford Schick"
+
+[MenuChoice_RenderDevice]
+PromptTitle="Deus Exを再起動しますか?"
+GamePromptMessage="レンダデバイスを選択するためには、Deus Exを再起動しなければなりません。セーブしていない場合には、現在プレイ中のゲームデータは失われます。再起動しますか？"
+RestartPromptMessage="レンダデバイスを選択するためには、Deus Exを再起動しなければなりません。作業を続けますか？"
+helpText="3Dレンダプログラムで使用するデバイスを選択してください。3Dハードウェア・デバイスを選ぶためには、一度Deus Exを終了させなければなりません"
+actionText="Rendering |&Device..."
+
+[WeaponModSilencer]
+ItemName="Weapon Modification (Silencer)"
+Description="サイレンサーは、銃弾が銃身から飛び出す際に、急速に膨張したガスによって引き起こされる銃口の破裂音を消すものである。|n|n<UNATCO 作戦ファイルメモ SC108-ブルー>サイレンサーが有効なのは小火器に限られる。――Sam Carter"
+beltDescription="MOD SLNCR"
+
+[WeaponModScope]
+ItemName="Weapon Modification (Scope)"
+Description="このスコープを取り付けて使用することによって、ズームが可能になり、遠距離の攻撃目標に対する正確性が増加する。"
+beltDescription="MOD SCOPE"
+
+[ScubaDiver]
+FamiliarName="Scuba Diver"
+UnfamiliarName="Scuba Diver"
+
+[WeaponModLaser]
+ItemName="Weapon Modification (Laser)"
+Description="レーザーサイトの使用は、銃弾の着弾地点を視測可能にし、正確性を格段に高める事が可能である。"
+beltDescription="MOD LASER"
+
+[VialAmbrosia]
+msgNoEffect="おかしい……何も起こらない……"
+ItemName="Ambrosia Vial"
+ItemArticle=""
+Description=" Gray Deathの唯一のワクチンとして知られている。しかし、これは体内ですぐに新陳代謝されてしまうので、効果は一時的なものに過ぎない。"
+beltDescription="AMBROSIA"
+
+[SoyFood]
+ItemName="Soy Food"
+ItemArticle=""
+Description="パッケージにこう書かれている。「ナノスケールの人口ケミカル発生器によって味付けしたこのTSP (大豆性タンパク質)は美味なだけでなく、パッケージを開けたときに自然に温まるようになっています」"
+beltDescription="SOY FOOD"
+
+[Sodacan]
+ItemName="Soda"
+ItemArticle=""
+Description="この缶には「製品製造場所」という文章以外に何も書かれていない。それが商品名なのか、宣伝文句なのかはっきりしない。"
+beltDescription="SODA"
+
+[BookOpen]
+ItemName="Book"
+
+[Candybar]
+ItemName="Chocolate bar "
+Description="ラベルにはこう書かれている。|n|n「チョコっと夢を与えてくれる。それがチョコレートだ！　それが人間だ！　それがチョコレートと人間だ！?」 |n|n”このチョコレートは、原料の85%がリサイクルです。”"
+beltDescription="CHOCOLATE"
+
+[Rebreather]
+ExpireMessage=" Blue Mermaidのパワーが切れました"
+ItemName="Rebreather "Blue Mermaid""
+Description=" Rebreather コードネーム：Blue Mermaid（青い人魚) は、水から酸素を取り出すことのできる簡易の酸素マスクで、短時間の潜水任務に使用する。"	
+beltDescription="REBREATHR"
+
+[MenuChoice_SampleRate]
+helpText="サンプリングのレートを下げることにより、CPUのオーバーヘッドを軽減することもできますが、同時に音質も落ちます"
+actionText="S|&ample Rate"
+configSetting="ini:Engine.Engine.AudioDevice OutputRate"
+enumText[0]="11025Hz"
+enumText[1]="22050Hz"
+enumText[2]="44100Hz"
+RestartTitle="音質"
+RestartMessage="ゲームを再起動後に、変更は有効になります"
+
+[SecurityBot2]
+FamiliarName="Security Bot"
+UnfamiliarName="Security Bot"
+
+[AugSpeed]
+AugmentationName="Speed Enhancement"
+Description=" Speed Enhancementは、イオン重合ジェル筋原繊維を足の筋肉に織り込むことによって、エージェントが走ったり、登ったりする移動スピード及びジャンプの高さが増す。また、落ちたときのダメージも減少する。|n|nレベル１：移動スピードとジャンプの高さがわずかに増加する。また、着地時のダメージも同じように減少する。|n|nレベル２：移動スピードとジャンプの高さがかなり増加する。また、着地時のダメージも同じように減少する。|n|nレベル３：移動スピードとジャンプの高さが大幅に増加する。また、着地時のダメージも同じように減少する。|n|nレベル４：走りは疾風（かぜ）のようになり、どんな高いビルから飛び降りてもダメージをほとんど受けない。"
+MPInfo="このAugが稼動中、通常の2倍の速度で移動、ジャンプが可能になる。エネルギー消費量: 高"
+
+[WeaponNanoVirusGrenade]
+ItemName=" Guardian Scramble Grenade "
+Description=" Guardian Scramble Grenadeの爆発は、狭い範囲ながら、2028年以降に作られたほとんどすべてのBots（Guardian）に使用されている命令周波数に対して、広帯域で多様な形で攻撃をかける。その結果発生する電気嵐はBotsのコントロール回路を一時的に混乱させ、有効半径内のほかのロボットを攻撃するよう仕向けることが可能。また、LAMと同じくあらゆる物に取り付けることができる。"
+beltDescription="SCRM GREN"
+
+[WeaponEMPGrenade]
+ItemName="EMP Grenade"
+ItemArticle=""
+Description=" EMP Grenade(電磁パルス・グレネード)は集中パルスを発生し、有効範囲における、カメラや高圧電流網を含むあらゆる電子機器を一時的に無力化する。|n|n<UNATCO 作戦ファイルメモ JR134-バイオレット>ナノテクノロジーのAugmentationの多くは、電磁パルスの影響を受けないが、実験により体内のバイオエレクトリック・エネルギーを自然消滅させることが判明している。――Jaime Reyes"
+beltDescription="EMP GREN"
+
+[MenuSelectDifficulty]
+Title="Select Combat Difficulty"
+ButtonNames[0]="Easy"
+ButtonNames[1]="Medium"
+ButtonNames[2]="Hard"
+ButtonNames[3]="Realistic"
+ButtonNames[4]="Previous Menu"
+
+[AttackHelicopter]
+ItemName="Attack Helicopter"
+
+[MilitaryBot]
+FamiliarName="Military Bot"
+UnfamiliarName="Military Bot"
+
+[AmmoDartPoison]
+ItemName="Tranquilizer Darts"
+Description="矢の先にスクシニルコリンの変異体を塗ったこの矢は、骨格筋肉を完全に弛緩させ、目標を殺さずに効果的に無力化させる事ができる。"
+beltDescription="TRQ DART"
+
+[AlexJacobson]
+FamiliarName="Alex Jacobson"
+UnfamiliarName="Hacker"
+
+[Phone]
+ItemName="Telephone"
+
+[Toilet2]
+ItemName="Urinal"
+
+[Toilet]
+ItemName="Toilet"
+
+[Switch1]
+ItemName="Switch"
+
+[LightSwitch]
+ItemName="Switch"
+
+[HKMarketTarp]
+ItemName="Canvas Tarp"
+
+[HKHangingPig]
+ItemName="Pork"
+
+[HangingChicken]
+ItemName="Chicken"
+
+[BarrelFire]
+ItemName="Burning Barrel"
+
+[Doctor]
+FamiliarName="Doctor"
+UnfamiliarName="Doctor"
+
+[TobyAtanwe]
+FamiliarName="Toby Atanwe"
+UnfamiliarName="Toby Atanwe"
+
+[WeaponStealthPistol]
+ItemName=" PIS MSK4600-B Stealth Type"
+Description=" PIS MSK4600-B Stealth Typeは、ページ・インダストリー・スターム社が開発したPIS MSK4600-Aを改造した特殊タイプ。クリップを拡張し、至近距離における暗殺任務用にサイレンサーが取り付けられている。"
+beltDescription="STEALTH"
+
+[WeaponShuriken]
+ItemName="Throwing Knife"
+ItemArticle=""
+Description=" Throwing knife――何世紀もの間、極東の暗殺者が好んで使った武器。ナイフ使いの達人の手からこれが放れれば、必殺の一撃となり、また敵を恐怖させるのに十分な効果がある。「おまえの死が足早に近づいている」というメッセージ、それが、この武器の真の力である。"
+beltDescription="THW KNIFE"
+
+[WeaponSawedOffShotgun]
+ItemName="PIS CAW112 Sawed-off Shotgun"
+Description=" PIS CAW112 Sawed-off Shotgunは、ページ・インダストリー・スターム社のCAW(クロース・アサルト・ウェポン)シリーズで、銃身を詰めたポンプ・アクション式を採用しており、短距離で広範囲に弾が飛ぶ。また、バックショットやサボット弾を使うこともできる。"
+beltDescription="SAWED-OFF"
+
+[MenuScreenAdjustColors]
+Title="Adjust Colors"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[WeaponProd]
+ItemName="SIS RSW20 Riot Prod"
+Description="SIS RSW20 Riot Prodは、暴動鎮圧用に開発され、相手を殺さずに沈黙させるために治安部隊に広く使われており、その実戦データから有効な武器であることが証明されている。もっとも効果的な使用法は、至近距離で使用し、相手を麻痺させる事である。"
+beltDescription="PROD"
+
+[WeaponPlasmaRifle]
+ItemName=" PIS MJT-P4 Plasma Rifle "
+Description="このPIS MJT-P4 Plasma Rifleは、次世代兵器として作られたテスト・タイプである。この武器の原理は、磁性を帯びたプラスチック散弾を加熱し、その結果生じた汽液混合物を、リニアマグネットの配列を使って加速する物である。その結果、発生するプラズマ流は従来の携帯兵器をはるかに超えた威力を持つ。"
+beltDescription="PLASMA"
+
+[SpiderBot2]
+FamiliarName="Mini-SpiderBot"
+UnfamiliarName="Mini-SpiderBot"
+
+[HowardStrong]
+FamiliarName="Howard Strong"
+UnfamiliarName="Howard Strong"
+
+[WeaponAssaultShotgun]
+ItemName=" PIS CAW204 Assault Shotgun "
+ItemArticle=""
+Description=" ページ・インダストリー・スターム社のPIS CAW204 Assault Shotgunは、別名「ストリート・スイーパー（町の掃除屋）」と呼ばれ、通常のショットガンのもっともすぐれた特性に全自動装填を組み合わせており、数秒のうちに敵地を掃討することができる。とくに市街戦で有効で、バックショットやサボット弾を使うこともできる。"
+beltDescription="SHOTGUN"
+
+[WeaponFlamethrower]
+ItemName="Flamethlower CT-01"
+Description=" Flamethlower CT-01は、旧式のきわめて危険な、バックパック式の燃料放出システムを捨て、ナパームの加圧キャニスターとなった。しかし、未熟なエージェントには操作はむずかしい。"
+beltDescription="FLAMETHWR"
+
+[WeaponGasGrenade]
+ItemName=" CS Gas Grenade"
+Description=" CS Gas Grenadeは爆発すると、膨大な量の CS(軍事用催涙ガス)を有効範囲に散布する。CS は、露出しているすべての粘膜を刺激するために、一時的に目が見えなくなったり、はげしく咳き込む症状を引き起こす。LAMと同じようにガス手榴弾はどんな物の表面にも取り付けることが可能である。"
+beltDescription="GAS GREN"
+
+[TriadLumPath]
+FamiliarName="Gang Member"
+UnfamiliarName="Gang Member"
+
+[WeaponLAM]
+ItemName="Lightweight Attack Munitions (LAM)"
+Description=" LAMは、電気点火装置を備えた多機能爆薬である。手榴弾として使用することも可能であるが、吸着性の裏地を持っているためにあらゆる物の表面に取り付けて、地雷として使うこともできる。|n|n<UNATCO 作戦ファイルメモ SC093-ブルー>近接デバイスを無力化するためには、爆発物に関する正しい訓練が必要である。――Sam Carter"
+beltDescription="LAM"
+ShortName="LAM"
+
+[TriadRedArrow]
+FamiliarName="Gang Member"
+UnfamiliarName="Gang Member"
+
+[ControlPanel]
+ItemName="Electronic Control Panel"
+
+[DartPoison]
+ItemName="Tranquilizer Dart"
+
+[AmmoDartFlare]
+ItemName="Flare Darts"
+Description=" 特殊発火剤がついているこの火矢は、着弾地点で発火し照明となる。"
+beltDescription="FLR DART"
+
+[MenuChoice_MenuColor]
+helpText="メニュー画面のヘッドアップ・ディスプレイの色を変更できます"
+actionText="|&Menu Color Scheme"
+
+[MenuChoice_HUDColor]
+helpText="メインゲーム中のヘッドアップ・ディスプレイの色を変更できます"
+actionText="|&HUD Color Scheme"
+
+[AmmoNapalm]
+ItemName="Napalm Canister"
+ItemArticle=""
+Description=" Flamethlower CT-01で使用するゼリー状のガソリンを詰めた加圧缶。|n|n<UNATCO 作戦ファイルメモ SC080-ブルー>　ナパーム弾は、銃撃戦における流れ弾による爆発事故を最小限にするために、二重の壁を持つ構造になっている。―― Sam Carter"
+beltDescription="NAPALM"
+
+[AmmoPlasma]
+ItemName="Plasma Clip"
+ItemArticle=""
+Description="押し出し成型されたクリップでプラスチック散弾は加熱され、専用のライフルで使われることによって驚異的な威力を発揮する。"
+beltDescription="PMA CLIP"
+
+[AugBallistic]
+AugmentationName="Ballistic Protection"
+Description="単分子プレートが皮膚の上皮膜を強化するために、銃弾や刃物によってエージェントが受けるダメージが減る。|n|nレベル１：銃弾や刃物によるダメージがわずかに減る。|n|nレベル２：銃弾や刃物によるダメージがかなり減る。|n|nレベル３：銃弾や刃物によるダメージが大幅に減る。|n|nレベル４：銃弾や刃物による攻撃は、そのほとんどが無効化される。"
+MPInfo="このAugが稼動中、銃弾や刃物によってエージェントが受けるダメージが40%減少する。エネルギー消費量: 高"
+
+
+[AugCloak]
+AugmentationName="Cloak"
+Description=" Cloakは、皮下の色素細胞によりエージェントを周囲の環境に肌の色を合わせることができる。そのため有機体の敵による監視の目から効果的に逃れることができる。|n|nレベル１：パワーの消耗率は通常で、かなり激しい。|n|nレベル２：パワーの消耗率がわずかに低下する。|n|nレベル３：パワーの消耗率がかなり低下する。|n|nレベル４：パワーの消耗率が著しく低下する。"
+MPInfo="このAugが稼動中、皮下の色素細胞によりエージェントを周囲の環境に肌の色を合わせることができる。そのため有機体の敵による監視の目から効果的に逃れることができる。持っている武器には作用しない。エネルギー消費量: 中"
+
+[AugDatalink]
+AugmentationName="Infolink"
+Description=" Infolinkを用いることで、戦場でのエージェントはワンウェイのマイクロトランシーバー・アレーによって、本部から情報を受け取ることができる。また、関連地図や会話、メモを記憶し、あとで再生することができる。|n|n<UNATCO作戦ファイルメモ JR133-バイオレット> Infolinkは最新のシステムであり、アップグレードはできない。――Jaime Reyes"
+
+[AugEMP]
+AugmentationName="EMP Shield"
+Description=" EMP Shieldは、ナノスケールのEMP（電磁パルス）発生器で、部分的に入ってくるパルスを中和することでナノ・マシンを守り、バイオエレクトリック・エネルギーの消耗を遅らせる。|n|nレベル１：EMP（電磁パルス）攻撃によるダメージをわずかに減らす。|n|nレベル２：EMP（電磁パルス）攻撃によるダメージをかなり減らす。|n|nレベル３：EMP（電磁パルス）攻撃によるダメージを大幅に減らす。|n|nレベル４：EMP（電磁パルス）攻撃は、ほとんど無効化される。"
+MPInfo="このAugが稼動中、EMPの消費を従来の5%程度にとどめることができる。エネルギー消費量: 低"
+
+[Fan1]
+ItemName="Fan"
+
+[AugEnviro]
+AugmentationName="Environmental Resistance"
+Description=" 角質生成を促すことにより、あらゆる上皮組織を強化し、放射能や他の毒物に対する耐性を高める。|n|nレベル１：毒への抵抗力がやや向上する。|n|nレベル２：毒への抵抗力（対毒性）がかなり向上する。|n|nレベル３：毒への抵抗力が著しく向上する。|n|nレベル４：毒による攻撃はほとんど無効になる。"
+MPInfo="このAugが稼動中、放射能や他の毒物からのダメージを従来の10%程度にとどめることができる。エネルギー消費量: 低"
+
+[AugIFF]
+AugmentationName="IFF"
+Description=" IFF（敵識別装置）は、自己学習型アルゴリズムを使って、視認できる対象と既知の敵を結びつけるものである。物標の十字線は、敵ならば赤く表示され、味方あるいは中立のものは緑で表示される。|n|nこれはアップグレードできない。"
+
+[AugShield]
+AugmentationName="Energy Shield"
+Description=" Energy Shieldは、皮膚の下にあるポリアニレン・コンデンサが熱や電気を吸収することで、火炎や電気、プラズマによる攻撃を受けたときのダメージを減少できる。|n|nレベル１：エネルギー攻撃のダメージがわずかに減少する。|n|nレベル２：エネルギー攻撃のダメージがかなり減少する。|n|nレベル３：エネルギー攻撃のダメージが大幅に減少する。|n|nレベル４：エネルギー攻撃はほとんど無効化される。"
+MPInfo="このAugが稼動中、火炎や電気、プラズマによる攻撃を受けたときのダメージを従来の50%程度にとどめることができる。エネルギー消費量: 低"
+
+[AugStealth]
+AugmentationName="Run Silent"
+Description=" Run Silentは、運動力学的に歩行時、または走行時に動かす筋肉に対して、インストールされたナノ・マシンが機能を補助、強化することによって、移動の際に出る音を完全にシャット・アウトする。|n|nレベル１：移動時の音がわずかに減少する。|n|nレベル２：移動時の音が大幅に減少する。|n|nレベル３：移動時の音が著しく減少する。|n|nレベル４：移動時の音はほとんどしなくなる。"
+MPInfo="このAugが稼動中、移動の際に出る音を完全にシャット・アウトする。エネルギー消費量: 低"
+
+[AugTarget]
+AugmentationName="Targeting"
+Description=" Targetingは、ポリアセチレン量子ワイヤーを添加された視神経が多重送信を行うことによって、像の評価と認識を行う。それは正確性を増すだけにとどまらず、目標に対する一定の状況情報を伝えてくれる。|n|nレベル１：目標に関する正確な状況情報がわずかだが増加する。|n|nレベル２：目標に対する正確な状況情報の項目がさらに追加される。|n|nレベル３：目標に対する正確な状況情報に、さらに特殊な情報が追加される。|n|nレベル４：正確な望遠視野機能が追加される。"
+MPInfo="このAugが稼動中、全ての武器のスキルが１レベル上昇し、目標に対する一定の状況情報を伝えてくれる。エネルギー消費量: 中"
+
+[AcousticSensor]
+ItemName="Gunfire Acoustic Sensor"
+
+[CeilingFan]
+ItemName="Ceiling Fan Blades"
+
+[CeilingFanMotor]
+ItemName="Ceiling Fan Motor"
+
+[Female4]
+FamiliarName="Female"
+UnfamiliarName="Female"
+
+[ClothesRack]
+ItemName="Hanging Clothes"
+
+[HKHangingLantern2]
+ItemName="Paper Lantern"
+
+[ChairLeather]
+ItemName="Comfy Chair"
+
+[CouchLeather]
+ItemName="Leather Couch"
+
+[OfficeChair]
+ItemName="Swivel Chair"
+
+[WHChairPink]
+ItemName="Chair"
+
+[CoffeeTable]
+ItemName="Coffee Table"
+
+[FlagPole]
+ItemName="Flag Pole"
+
+[Female1]
+FamiliarName="Female"
+UnfamiliarName="Female"
+
+[Female3]
+FamiliarName="Female"
+UnfamiliarName="Female"
+
+[Female2]
+FamiliarName="Female"
+UnfamiliarName="Female"
+
+[Male4]
+FamiliarName="Male"
+UnfamiliarName="Male"
+
+[MenuChoice_Crosshairs]
+helpText="照準の表示（Visible）、非表示（Hidden）を変更します"
+actionText="Cross|&hairs"
+
+[DartFlare]
+ItemName="Flare Dart"
+
+[MenuChoice_ObjectNames]
+helpText="Enabledの状態では、オブジェクトにカーソルを合わせた時、そのオブジェクトの名前を表示します"
+actionText="|&Object Names"
+
+[MenuChoice_ReverseStereo]
+helpText="Onの状態では、左右のステレオチャンネルを入れ替えることができます"
+actionText="|&Reverse Stereo"
+configSetting="ini:Engine.Engine.AudioDevice ReverseStereo"
+
+[MenuChoice_SoundVolume]
+helpText="サウンド・エフェクトのボリュームを調整します"
+actionText="Sound |&Effects Volume"
+configSetting="ini:Engine.Engine.AudioDevice SoundVolume"
+
+[MenuChoice_Subtitles]
+helpText="Subtitles(字幕)がONに設定されていれば、会話の文章がスクリーンに表示されます"
+actionText="|&Subtitles"
+
+[MenuChoice_ToggleCrouch]
+helpText="Enabledの状態では、しゃがむ動作キーを1回押すとしゃがみ、2回押すと立ち上がるように設定します"
+actionText="|&Toggle Crouch"
+
+[MenuScreenControls]
+Title="Controls"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenDisplay]
+Title="Display Settings"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenSound]
+Title="Sound Settings"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenThemesSave]
+LoadHelpText="セーブするメニュースクリーンの色を選んでください"
+Title="Save Theme"
+actionButtons[1]="(Text="Save Theme",Key="SAVE")"
+
+[ComputerSecurityChoice_Turret]
+actionText="|&Turret Status"
+enumText[0]="バイパス回路接続"
+enumText[1]="味方"
+enumText[2]="敵"
+enumText[3]="すべて"
+
+[ComputerSecurityChoice_DoorOpen]
+actionText="|&Door Status"
+enumText[0]="Open"
+enumText[1]="Closed"
+
+[ComputerSecurityChoice_DoorAccess]
+actionText="Door |&Access"
+enumText[0]="Locked"
+enumText[1]="Unlocked"
+
+[ComputerSecurityChoice_Camera]
+actionText="|&Camera Status"
+enumText[0]="On"
+enumText[1]="Off"
+
+[AmmoLAM]
+beltDescription="LAM"
+
+[WeaponMiniCrossbow]
+ItemName="Mini-Crossbow Night Sleeper"
+Description=" プロジェクト「Moonlight」で開発された、SKW（サイレント・キリング・ウェポン）の１つ。このMini-Crossbow（コードネーム：Night Sleeper）は、諜報活動を目的に開発され、任務の必要性に応じて矢の種類（通常の矢、トランキライザー、照明用）を変えることができる。"
+beltDescription="CROSSBOW"
+
+[MenuChoice_SpeechVolume]
+helpText="会話の音量を調節します"
+actionText="|&Speech Volume"
+configSetting="ini:Engine.Engine.AudioDevice SpeechVolume"
+
+[AmmoPepper]
+ItemName="Pepper Cartridge"
+ItemArticle=""
+Description=" ANTIGONE Pepper Sprayは、襲撃者を２秒間行動不能にする。|n|n注意：５歳以下の子どもの手の届かないところに置いてください。高圧ガスを使用しています。"
+beltDescription="PPR CART"
+
+[MenuChoice_HUDAugDisplay]
+helpText="ヘッドアップ・ディスプレイのAugmentations表示方法を変更します"
+actionText="HUD |&Augmentation Display"
+enumText[0]="Active"
+enumText[1]="All Augs"
+
+[GasGrenade]
+ItemName="CS Gas Grenade"
+
+[Male2]
+FamiliarName="Male"
+UnfamiliarName="Male"
+
+[Male3]
+FamiliarName="Male"
+UnfamiliarName="Male"
+
+[MenuChoice_AdjustBrightness]
+actionText="|&Brightness"
+configSetting="ini:Engine.Engine.ViewportManager Brightness"
+
+[MenuChoice_AlwaysRun]
+helpText="Enabledの状態では常に走って移動します"
+actionText="|&Always Run"
+
+[MenuChoice_Brightness]
+actionText="Adjust |&Brightness..."
+helpText="画面の明るさを調整します"
+
+[MenuChoice_HUDBordersVisible]
+helpText="ヘッドアップ・ディスプレイの枠表示の選択できます"
+actionText="HUD Borders |&Visible"
+
+[MenuChoice_HUDBorderTranslucency]
+helpText="Translucency(透明)を選択すると、ヘッドアップ・ディスプレイの枠は表示されません"
+actionText="HUD |&Borders Translucency"
+
+[MenuChoice_InvertMouse]
+helpText="マウスの上下の動作を逆にします。Enabledではマウスをあげると下を向き、下げると上を向くようになります"
+actionText="Invert |&Mouse"
+
+[MenuChoice_HUDTranslucency]
+helpText="半透明にすることによって、ゲーム中にヘッドアップ・ディスプレイとユーザー・インターフェース（UI）・スクリーンを通して背後の景色を見ることができます"
+actionText="HUD Background Tr|&anslucency"
+
+[MenuChoice_MenuTranslucency]
+helpText="半透明にすることによって、ゲーム中にヘッドアップ・ディスプレイとユーザー・インターフェース（UI）・スクリーンを通して背後の景色を見ることができます"
+actionText="Menu |&Translucency"
+
+[MenuChoice_MusicVolume]
+helpText="ミュージックボリュームを調整します"
+actionText="|&Music Volume"
+configSetting="ini:Engine.Engine.AudioDevice MusicVolume"
+
+[MenuChoice_SurroundSound]
+helpText="ドルビー・サラウンド・サウンドにすることができます。その際は、ドルビー・プロロジック・サラウンド・サウンド・プロセッサーが必要です"
+actionText="|&Dolby Surround Sound"
+configSetting="ini:Engine.Engine.AudioDevice UseSurround"
+
+[MenuChoice_GoreLevel]
+helpText="Lowレベルに設定すると、ゲーム上で血は表示されません"
+actionText="|&Gore Level"
+enumText[0]="Low"
+enumText[1]="Normal"
+
+[MenuChoice_FullScreen]
+helpText="ゲーム画面をフルスクリーンで表示するかウィンドウで表示するかを選択できます"
+actionText="Toggle |&Full-Screen Mode"
+
+[MenuChoice_Use3DHardware]
+helpText="ハードウェア3D サウンド・サポートでプレイします"
+actionText="|&Hardware 3D Support"
+configSetting="ini:Engine.Engine.AudioDevice Use3dHardware"
+RestartTitle="音質"
+RestartMessage=" Deus Exを再起動後に変更になります"
+
+[MenuChoice_WeaponAutoReload]
+helpText="Enabledの状態では、武器に弾薬がなくなった時に自動的に装填します"
+actionText="|&Weapon Auto-Reload"
+
+[MenuScreenOptions]
+Title="Options"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuSettings]
+Title="Settings"
+ButtonNames[0]="Keyboard/Mouse"
+ButtonNames[1]="Control"
+ButtonNames[2]="Game Option"
+ButtonNames[3]="Display"
+ButtonNames[4]="Color"
+ButtonNames[5]="Sound"
+ButtonNames[6]="Previous Menu"
+
+[AmmoEMPGrenade]
+beltDescription="EMP GREN"
+
+[AmmoGasGrenade]
+beltDescription="GAS GREN"
+
+[AmmoNanoVirusGrenade]
+beltDescription="SCRM GREN"
+
+[Pigeon]
+FamiliarName="Pigeon"
+UnfamiliarName="Pigeon"
+
+[AugHeartLung]
+AugmentationName="Synthetic Heart"
+Description=" Synthetic Heart（人工心臓）は、血液を循環させるだけでなく、人口化学細胞と食細胞、ダイアモンド型のマシン・パートを含んだリポソームをつねに集中させる。これにより、ナノ・オーグメンテーションをインストールする肉体を作り上げている。|n|n <UNATCO作戦ファイルメモ JR133-バイオレット-2> |n|nSynthetic Heartは、アップグレードすることはできない。この事に例外は存在しない。――Jaime Reyes"
+
+[Seagull]
+FamiliarName="Seagull"
+UnfamiliarName="Seagull"
+
+[AugPower]
+AugmentationName="Power Recirculator"
+Description=" Power Recirculaterは、あらゆるAugmentationに伴うパワーの消費量をポリアニリン回路により減少させることができる。それは細胞膜に直接接続することで、ナノ・マシンを宿主である細胞から引き離すことなく、電気的に相互に連結させるものである。|n|nレベル１：Augmentationによるパワーの消耗がわずかに減少する。|n|nレベル２：Augmentationによるパワーの消耗がかなり減少する。|n|nレベル３：Augmentationによるパワーの消耗が大幅に減少する。|n|nレベル４：Augmentationによるパワーの消耗が著しく減少する。"
+MPInfo="他のAugで消費されるエネルギー量を軽減することができる。エネルギー消費量: 無"
+
+[BarrelAmbrosia]
+ItemName="Ambrosia Storage Container"
+
+[Tumbleweed]
+ItemName="Tumbleweed"
+
+[WeaponGEPGun]
+ItemName="Guided Explosive Projectile (GEP) Gun"
+Description=" GEP Gunは、比較的最近開発された武器で、携帯でき、肩にかつぐランチャーからロケットを発射でき、レーザー誘導により目標をピンポイント攻撃できる。重装甲を相手にした危険度の高い戦闘状況においてその能力を発揮するが、その代わり使用にはかなりの熟練を要する。"
+beltDescription="GEP GUN"
+ShortName="GEP Gun"
+
+[WeaponLAW]
+ItemName=" PIS Light Anti-Tank Weapon(LAW)"
+Description=" PIS Light Anti-Tank Weaponは、ページ・インダストリー・スターム社が開発した対装甲用の兵器で、レーザー誘導装置を犠牲にして、一発のロケットを発射するシステムに統合した。しかし、他の重火器と同様に、訓練を受けていないエージェントの動きを鈍くしてしまう危険性もある。"
+beltDescription="LAW"
+
+[WeaponPepperGun]
+ItemName="Pepper Gun"
+Description=" Pepper Gunは大量に市販されており、暴動鎮圧を任務とするエージェントが好んで使用している。カートリッジ形状の弾は、ごく狭い範囲であるが細かい霧を散布し、人間の視界を奪い、軽い火傷をおわせる。"
+beltDescription="PEPPER"
+
+[WeaponNanoSword]
+ItemName="Dragon's Tooth Sword"
+ItemArticle=""
+Description=" 古代において、真の戦士の武器はドラゴンの牙だったが、現代の戦士の真の武器は、ナノテクノロジーによって非共析固体にまで力学的に鍛造された剣である。ナノスケールで研磨されたデバイスによって、光の刃が折れることはなく、その鋭い輝きは立ち向かう相手に必殺の一撃を与える。｢龍牙剣｣"
+beltDescription="DRAGON"
+
+[MenuChoice_UIBackground]
+helpText="メニューと2Dスクリーンの下に何を表示するか決定してください。スナップショットと3Dレンダーは高速PC向きです"
+actionText="UI/Menu |&Background"
+enumText[0]="Render 3D"
+enumText[1]="Snapshot"
+enumText[2]="Black"
+
+[MenuChoice_HeadBob]
+helpText="Enabledの状態では、プレイヤーは歩くときに頭をわずかに上下させます"
+actionText="|&Player Bob"
+
+[Male1]
+FamiliarName="Male"
+UnfamiliarName="Male"
+
+[Ammo20mm]
+ItemName="20mm HE Ammo"
+ItemArticle=""
+Description=" 20ミリ高性能弾をランチャーに装填することで、PIS XMS214 Assault Rifleを補完し、重火器として攻撃地点の敵を掃討することができる。"
+beltDescription="20MM AMMO"
+
+[AmmoRocketWP]
+ItemName="WP Rockets"
+Description=" 黄燐ロケット、別名「Wooly Peter」は、GEP Gunの能力を高める目的で開発された。爆発による損傷は最低限だが、特殊な黄燐の雲を広げる事でこの名前がついた。"
+beltDescription="WP ROCKET"
+
+[AugHealing]
+AugmentationName="Regeneration"
+Description=" Regenerationは、プログラム可能なポリメラーゼで、自動的に負傷した細胞部分でタンパク質を作るように指示を出し、時間をかけてエージェントを完全に健康な状態に回復させる。|n|nレベル１：Regenerationで回復するが、その速度は遅い。|n|nレベル２：Regenerationの回復率がわずかに増加する。|n|nレベル３：Regenerationの回復率がかなり増加する。|n|nレベル４：Regenerationの回復率が著しく増加する。"
+MPInfo="このAugが稼動中、自動的に負傷した細胞部分でタンパク質を作るように指示を出し、時間をかけてエージェントを完全に健康な状態に回復させる。エネルギー消費量: 高"
+
+[AugVision]
+AugmentationName="Vision Enhancement"
+Description=" Vision Enhancementは、網膜内の棹状光受容体を選別して漂白したのちに、メタロドプシンXIIをしみこませる。その結果、夜行性の動物に匹敵する夜眼を持つことができる。それをアップグレードし改良すれば、赤外線インフラビジョンと、壁さえ透き通すソナー共鳴画像を使用することが可能となる。|n|nレベル１：Vision Enhancementの夜行ビジョン機能が装備される。|n|nレベル２：Vision Enhancementの赤外線ビジョン機能が追加される。|n|nレベル３：Vision Enhancementの近距離ソナー画像機能が追加される。|n|nレベル４：Vision Enhancementの遠距離ソナー画像機能が追加される。"
+MPInfo="このAugが稼動中、夜行性の動物に匹敵する夜眼を持つことができる。それをアップグレードし改良すれば、赤外線インフラビジョンと、壁さえ透き通すソナー共鳴画像を使用することが可能となる。エネルギー消費量: 中"
+
+[WeaponBaton]
+ItemName="Baton"
+Description=" 一般的には、機動隊や警備隊が市民の抵抗をそぐために使われる。"
+beltDescription="BATON"
+
+[WeaponHideAGun]
+ItemName="MIB X-PS20 Plasma Gun"
+Description=" このMIB X-PS20 Plasma Gun については、形式番号以外よく判っておらず、未知の保安機関によって開発されたといわれている。弾丸の代わりにプラズマを用いているが、残念なことに小さな形状を保つために、この銃は弾丸を一発しか装填できないうえ、予備のカードリッチを交換することも出来ないので、一回きりの使い捨てとなっている。"
+beltDescription="X-PS20"
+
+[WeaponRifle]
+ItemName="PIS LRW350 Sniper Rifle"
+Description=" このPIS LRW350 Sniper Rifleは、軍用としてページ・インダストリー・スターム社が開発した高性能スナイパー・ライフルで、30口径の弾を装填する事によって、環境にも左右されるが、射手は誤差なく狙撃することが可能である。"
+beltDescription="SNIPER"
+
+[HangingShopLight]
+ItemName="Flourescent Light"
+
+[GordonQuick]
+FamiliarName="Gordon Quick"
+UnfamiliarName="Gordon Quick"
+
+[ChildMale]
+FamiliarName="Child"
+UnfamiliarName="Child"
+
+[HKBuddha]
+ItemName="Buddha Statue"
+
+[HKBirdcage]
+ItemName="Birdcage"
+
+[Cop]
+FamiliarName="Cop"
+UnfamiliarName="Cop"
+
+[CrateBreakableMedGeneral]
+ItemName="General Supply Crate"
+
+[Chef]
+FamiliarName="Chef"
+UnfamiliarName="Chef"
+
+[CrateBreakableMedMedical]
+ItemName="Medical Supply Crate"
+
+[HKCouch]
+ItemName="Bench"
+
+[Chandelier]
+ItemName="Chandelier"
+
+[Flowers]
+ItemName="Flowers"
+
+[CrateExplosiveSmall]
+ItemName="TNT Crate"
+
+[CrateUnbreakableLarge]
+ItemName="Metal Crate"
+
+[CrateUnbreakableMed]
+ItemName="Metal Crate"
+
+[Flask]
+ItemName="Lab Flask"
+
+[HKHangingLantern]
+ItemName="Paper Lantern"
+
+[Chair1]
+ItemName="Chair"
+
+[Chad]
+FamiliarName="Chad"
+UnfamiliarName="Chad"
+
+[ChildMale2]
+FamiliarName="Child"
+UnfamiliarName="Child"
+
+[CrateUnbreakableSmall]
+ItemName="Metal Crate"
+
+[HKMarketLight]
+ItemName="Hanging Light"
+
+[HKMarketTable]
+ItemName="Table"
+
+[Doberman]
+FamiliarName="Doberman"
+UnfamiliarName="Doberman"
+
+[Cushion]
+ItemName="Floor Cushion"
+
+[GilbertRenton]
+FamiliarName="Gilbert Renton"
+UnfamiliarName="Gilbert Renton"
+
+[ComputerPersonal]
+ItemName="Personal Computer Terminal"
+
+[HKChair]
+ItemName="Chair"
+
+[Butler]
+FamiliarName="Butler"
+UnfamiliarName="Butler"
+
+[Businesswoman1]
+FamiliarName="Businesswoman"
+UnfamiliarName="Businesswoman"
+
+[Businessman3]
+FamiliarName="Businessman"
+UnfamiliarName="Businessman"
+
+[DataCube]
+ItemName="DataCube"
+
+[Businessman2]
+FamiliarName="Businessman"
+UnfamiliarName="Businessman"
+
+[HKTable]
+ItemName="Table"
+
+[HKTukTuk]
+ItemName="TukTuk"
+
+[BobPageAugmented]
+ItemName="Augmented Bob Page"
+
+[Businessman1]
+FamiliarName="Businessman"
+UnfamiliarName="Businessman"
+
+[Hooker1]
+FamiliarName="Hooker"
+UnfamiliarName="Hooker"
+
+[CrateBreakableMedCombat]
+ItemName="Combat Supply Crate"
+
+[BumMale3]
+FamiliarName="Bum"
+UnfamiliarName="Bum"
+
+[Hooker2]
+FamiliarName="Hooker"
+UnfamiliarName="Hooker"
+
+[BumMale2]
+FamiliarName="Older Bum"
+UnfamiliarName="Older Bum"
+
+[BumFemale]
+FamiliarName="Bum"
+UnfamiliarName="Bum"
+
+[BoxSmall]
+ItemName="Cardboard Box"
+
+[DentonClone]
+ItemName="JC Denton Clone"
+
+[BoxMedium]
+ItemName="Cardboard Box"
+
+[BoxLarge]
+ItemName="Cardboard Box"
+
+[BookClosed]
+ItemName="Book"
+
+[BoneSkull]
+ItemName="Human Skull"
+
+[BoneFemur]
+ItemName="Human Femur"
+
+[HarleyFilben]
+FamiliarName="Harley Filben"
+UnfamiliarName="Bum"
+
+[WHTableBlue]
+ItemName="Table"
+
+[WHRedVase]
+ItemName="Vase"
+
+[WHRedOvalTable]
+ItemName="Table"
+
+[WHRedLampTable]
+ItemName="Table"
+
+[WHRedEagleTable]
+ItemName="Table"
+
+[WHRedCouch]
+ItemName="Couch"
+
+[WHRedCandleabra]
+ItemName="Candelabra"
+
+[WHPiano]
+ItemName="Grand Piano"
+
+[WHPhone]
+ItemName="Telephone"
+
+[WHFireplaceLog]
+ItemName="Log"
+
+[WHFireplaceGrill]
+ItemName="Fireplace Grating"
+
+[WHEndtableLibrary]
+ItemName="Table"
+
+[WHDeskOvalOffice]
+ItemName="Desk"
+
+[BoatPerson]
+FamiliarName="Boat Person"
+UnfamiliarName="Boat Person"
+
+[WHDeskLibrarySmall]
+ItemName="Desk"
+
+[WHChairOvalOffice]
+ItemName="Leather Chair"
+
+[WHChairDining]
+ItemName="Chair"
+
+[WHCabinet]
+ItemName="Cabinet"
+
+[WHBookstandLibrary]
+ItemName="Bookstand"
+
+[WHBenchLibrary]
+ItemName="Bench"
+
+[WHBenchEast]
+ItemName="Bench"
+
+[Basket]
+ItemName="Wicker Basket"
+
+[Vase2]
+ItemName="Vase"
+
+[Vase1]
+ItemName="Vase"
+
+[Van]
+ItemName="Black Van"
+
+[Bartender]
+FamiliarName="Bartender"
+UnfamiliarName="Bartender"
+
+[Trophy]
+ItemName="Trophy Cup"
+
+[TriadLumPath2]
+FamiliarName="Gang Leader"
+UnfamiliarName="Gang Leader"
+
+[BarrelVirus]
+ItemName="NanoVirus Storage Container"
+
+[TrashCan4]
+ItemName="Trashcan"
+
+[TrashCan3]
+ItemName="Trashcan"
+
+[Trashcan2]
+ItemName="Trashcan"
+
+[TrashCan1]
+ItemName="Trashcan"
+
+[Trashbag2]
+ItemName="Trashbag"
+
+[Trashbag]
+ItemName="Trashbag"
+
+[TrafficLight]
+ItemName="Traffic Light"
+
+[TiffanySavage]
+FamiliarName="Tiffany Savage"
+UnfamiliarName="Tiffany Savage"
+
+[ThugMale3]
+FamiliarName="Thug"
+UnfamiliarName="Thug"
+
+[SubwayControlPanel]
+ItemName="Subway Control Panel"
+
+[Soldier]
+FamiliarName="Soldier"
+UnfamiliarName="Soldier"
+
+[Smuggler]
+FamiliarName="Smuggler"
+UnfamiliarName="Smuggler"
+
+[SignFloor]
+ItemName="Caution Sign"
+
+[ShopLight]
+ItemName="Flourescent Light"
+
+[SecurityBot4]
+FamiliarName="Security Bot"
+UnfamiliarName="Security Bot"
+
+[SecretService]
+FamiliarName="Secret Service Agent"
+UnfamiliarName="Secret Service Agent"
+
+[Secretary]
+FamiliarName="Secretary"
+UnfamiliarName="Secretary"
+
+[ScientistMale]
+FamiliarName="Scientist"
+UnfamiliarName="Scientist"
+
+[ScientistFemale]
+FamiliarName="Scientist"
+UnfamiliarName="Scientist"
+
+[SarahMead]
+FamiliarName="Sarah Mead"
+UnfamiliarName="Sarah Mead"
+
+[SamCarter]
+FamiliarName="Sam Carter"
+UnfamiliarName="Sam Carter"
+
+[Sailor]
+FamiliarName="Sailor"
+UnfamiliarName="Sailor"
+
+[RoadBlock]
+ItemName="Concrete Barricade"
+
+[RachelMead]
+FamiliarName="Rachel Mead"
+UnfamiliarName="Rachel Mead"
+
+[Pot2]
+ItemName="Clay Pot"
+
+[Pot1]
+ItemName="Clay Pot"
+
+[PoolTableLight]
+ItemName="Hanging Light"
+
+[Plant3]
+ItemName="Houseplant"
+
+[Plant2]
+ItemName="Houseplant"
+
+[Plant1]
+ItemName="Houseplant"
+
+[Pinball]
+ItemName="Pinball Machine"
+
+[Pillow]
+ItemName="Pillow"
+
+[PhilipMead]
+FamiliarName="Philip Mead"
+UnfamiliarName="Philip Mead"
+
+[Mutt]
+FamiliarName="Dog"
+UnfamiliarName="Dog"
+
+[Fan1Vertical]
+ItemName="Fan"
+
+[Fan2]
+ItemName="Fan"
+
+[Pan4]
+ItemName="Pot"
+
+[Pan3]
+ItemName="Frying Pan"
+
+[Pan2]
+ItemName="Pot"
+
+[Pan1]
+ItemName="Frying Pan"
+
+[NYPoliceBoat]
+ItemName="Police Boat"
+UnfamiliarName="UNATCO Boat Pilot"
+
+[Nurse]
+FamiliarName="Nurse"
+UnfamiliarName="Nurse"
+
+[NewspaperOpen]
+ItemName="Newspaper"
+
+[Newspaper]
+ItemName="Newspaper"
+
+[NathanMadison]
+FamiliarName="Nathan Madison"
+UnfamiliarName="Nathan Madison"
+
+[Microscope]
+ItemName="Microscope"
+
+[MichaelHamner]
+FamiliarName="Michael Hamner"
+UnfamiliarName="Michael Hamner"
+
+[Janitor]
+FamiliarName="Janitor"
+UnfamiliarName="Janitor"
+
+[Jock]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[JoeGreene]
+FamiliarName="Joe Greene"
+UnfamiliarName="Joe Greene"
+
+[JoJoFine]
+FamiliarName="JoJo Fine"
+UnfamiliarName="JoJo Fine"
+
+[JordanShea]
+FamiliarName="Jordan Shea"
+UnfamiliarName="Jordan Shea"
+
+[MenuChoice_AdjustColors]
+helpText="メニュー及びゲーム中のヘッドアップ・ディスプレイのスクリーンの色を調整することができます"
+actionText="Adjust Colors..."
+
+[JosephManderley]
+FamiliarName="Joseph Manderley"
+UnfamiliarName="Joseph Manderley"
+
+[Mechanic]
+FamiliarName="Mechanic"
+UnfamiliarName="Mechanic"
+
+[MaxChen]
+FamiliarName="Max Chen"
+UnfamiliarName="Max Chen"
+
+[MargaretWilliams]
+FamiliarName="Margaret Williams"
+UnfamiliarName="Margaret Williams"
+
+[AIPrototype]
+ItemName="AI Prototype"
+
+[Mailbox]
+ItemName="Mailbox"
+
+[Maid]
+FamiliarName="Maid"
+UnfamiliarName="Maid"
+
+[MaggieChow]
+FamiliarName="Maggie Chow"
+UnfamiliarName="Maggie Chow"
+
+[LuciusDeBeers]
+ItemName="Lucius De Beers in a life support tube"
+
+[LowerClassMale2]
+FamiliarName="Lower Class"
+UnfamiliarName="Lower Class"
+
+[LowerClassMale]
+FamiliarName="Lower Class"
+UnfamiliarName="Lower Class"
+
+[Lightbulb]
+ItemName="Light Bulb"
+
+[Lamp3]
+ItemName="Desk Lamp"
+
+[Lamp2]
+ItemName="Halogen Lamp"
+
+[Lamp1]
+ItemName="Table Lamp"
+
+[JuanLebedev]
+FamiliarName="Juan Lebedev"
+UnfamiliarName="Juan Lebedev"
+
+[KarkianBaby]
+FamiliarName="Baby Karkian"
+UnfamiliarName="Baby Karkian"
+
+[JunkieMale]
+FamiliarName="Junkie"
+UnfamiliarName="Junkie"
+
+[JunkieFemale]
+FamiliarName="Junkie"
+UnfamiliarName="Junkie"
+
+[JCDouble]
+FamiliarName="JC Denton"
+UnfamiliarName="JC Denton"
+
+[SkillWeaponLowTech]
+SkillName="Weapons: Low-Tech"
+Description="Neomaxter Combat Knife, Throwing knife,Sey-ryu- Sword, Pepper guns, そしてSIS RSW20 Riot Protという近接戦用の武器を使用するスキル。|n|nUNTRAINED：近接戦用の武器を使うことができる。|n|nTRAINED：正確性、殺傷度、攻撃力がわずかに向上する。|n|nADVANCED：正確性、殺傷度、攻撃力が大幅に向上する。|n|nMASTER: 大抵の目標を一回の攻撃で無力化（意識不明）、もしくは殺傷することが可能となる。"
+
+[SkillEnviro]
+SkillName="Environmental Training"
+Description="数々の危険な状況において、アーマーなどの防御装備を使用する能力。|n|n UNTRAINED：防御装備を使うことができる。|n|nTRAINED: 防御装備をより効率的に使うことが可能となり、使用時間が延長される。|n|nADVANCED: 防御装備をさらに効率的に使えるようになり、使用時間がかなり延長される。|n|nMASTER: 防御装備を第二の皮膚のように装着することが出来るようになる。"
+
+[SkillWeaponRifle]
+SkillName="Weapons: Rifle"
+Description=PIS XMS214 Assault Rifleや、PIS CAW112 Sawed-off Shotgunなど、ライフル系、ショットガン系を扱うスキル。|n|nUNTRAINED: ライフルを使うことができる。|n|nTRAINED：正確性と殺傷度がわずかに向上し、装填スピードが速くなる。|n|nADVANCED：正確性と殺傷度が大幅に向上し、装填速度がさらに速くなる。|n|nMASTER: 1マイル（1.6Km）先の標的を一発で打ち抜くことが可能になる。
+
+[SkillDemolition]
+SkillName="Weapons: Demolition"
+Description="LAM、CS Gas Grenade、EMP GrenadeさらにはGurdian Scramble Grenadeなどの投擲用爆発物を使用するスキル。|n|nUNTRAINED: Grenadeを投げることができる。また、それらを近接デバイスとして物の表面に取り付けるか、あるいは、安全化し取り外すことができる。|n|nTRAINED: Grenadeの攻撃精度とダメージがわずかに増加する。さらに、余裕を持って接近デバイスを安全化できるようになる。|n|nADVANCED: Grenadeの攻撃精度とダメージが大幅に増加する。さらに、かなりの余裕を持って接近デバイスを安全化できるようになる。|n|nMASTER: あらゆる爆発物に精通し、それらを使いこなすことが可能になる。"
+
+[SkillWeaponPistol]
+SkillName="Weapons: Pistol"
+Description="PIS MSK4600-A、PIS MSK4600-B Stealth Type、Mini-Crossbow "Night Sleeper "などの手に持つ小火器を扱うスキル。|n|nUNTRAINED: エージェントは小火器を使うことができる。|n|nTRAINED: 正確性と殺傷力がわずかに向上し、装填速度が速くなる。|n|nADVANCED: 正確性と殺傷力が大幅に向上し、装填速度がさらに速くなる。|n|nMASTER:手に持つ小火器の攻撃は正確無比であり、目標を速やかに排除することが可能となる。"
+
+[SkillWeaponHeavy]
+SkillName="Weapons: Heavy"
+Description="Flamethlower CT-01、PIS Light Anti-Tank Weapon、開発中のPIS MJT-P4 Plasma Rifle及びGEP Gunなどの重火器を使うスキル。|n|nUNTRAINED: エージェントは重火器を使うことができるが、その攻撃精度は低く、また移動は困難である。|n|nTRAINED: 攻撃精度と殺傷力、さらに弾薬の再装填と移動速度がわずかだが向上する。|n|nADVANCED: 攻撃精度と殺傷力、さらに弾薬の再装填と移動速度が大幅に向上する。|n|nMASTER: まさに歩く重戦車となり、手足のように重火器を扱うことが可能になる。"
+
+[SkillSwimming]
+SkillName="Swimming"
+Description="水中での作戦には、特別な一連のスキルが要求される。そのスキルは、強靭な肉体と不屈の精神を持つエージェントのみが身につけることができる。|n|nUNTRAINED: 普通に泳ぐことができる。|n|nTRAINED: エージェントの泳ぐ速度と水中活動限界がわずかに向上する。|n|nADVANCED: 泳ぐ速度と水中活動限界が大幅に向上する。|n|nMASTER: まるでイルカのように泳ぐことができる。"
+
+[SkillComputer]
+SkillName="Computer"
+Description="コンピュータ及びセキュリティ・コンソールを秘密裡に操作するスキル。|n|nUNTRAINED: 掲示板やニュースを読むために端末を操作することができる。|n|nTRAINED: ATM及び コンピュータ、保安コンソールにハッキングが可能になる。|n|nADVANCED: ハッキング行為が発見されるまでの時間が延び、ロックアウト時間も大きく短縮される。また、自動迎撃システムを制御することが可能になる。|n|nMASTER: すぐれたハッカーとなり、もはや破れないセキュリティ・システムは存在しなくなる。"
+
+[SkillTech]
+SkillName="Electronics"
+Description="エレクトロニクスとその実践的応用を学ぶことにより、Multitoolを使って、いくつものセキュリティ・システムをより効率的に回避（Bypass）することができる。|n|nUNTRAINED: セキュリティ・システムを回避することができる。|n|nTRAINED: セキュリティ・システムを回避する効率がわずかに向上する。|n|nADVANCED: セキュリティ・システムを回避する効率がかなり向上する。|n|nMASTER: 現存するほとんどのセキュリティ・システムを回避することが可能になる"
+MultitoolString="Multitooling"
+
+[SkillLockpicking]
+SkillName="Lockpicking"
+Description="Lockpickingは芸術と呼ぶべきスキルである。だが、忍耐力とLockpickを持つエージェントが熱心に学べば、誰でもそのスキルを習得できる。|n|nUNTRAINED：鍵を開けることができる。|n|nTRAINED：鍵を開ける効率がわずかに向上する。|n|nADVANCED：鍵を開ける効率が大幅に向上する。|n|nMASTER: 機械錠ならば、ほとんど開けることが可能となる。"
+
+[SkillMedicine]
+SkillName="Medicine"
+Description="Description="エージェントの人間生理学に関する実践的知識は、生と死が交錯する戦場においてMedkitの有効性を高める。|n|nUNTRAINED: Medkitsを使うことができる。|n|nTRAINED: 毒によるダメージと中毒期間をわずかに多く減らすことができる。|n|nADVANCED: 毒によるダメージと中毒期間をかなり大幅に減らすことができる。|n|nMASTER: 身近な道具で心臓バイパス処置くらいなら行なうことが可能となる。"
+
+[Image12_Tiffany_HostagePic]
+imageDescription="Tiffany Hostage Picture"
+
+[Image15_Area51_Sector4]
+imageDescription="Area 51 Sector 4"
+
+[Image15_BlueFusionDevice]
+imageDescription="Blue Fusion Device"
+
+[Image15_Area51_Sector3]
+imageDescription="Area 51 Sector 3"
+
+[Image03_WaltonSimons]
+imageDescription="Walton Simons"
+
+[Image02_BobPage_ManOfYear]
+imageDescription="Millenium Magazine"
+
+[Image15_GrayDisection]
+imageDescription="Gray Disection"
+
+[Image15_Area51Bunker]
+imageDescription="Area 51 Bunker"
+
+[Image14_Schematic]
+imageDescription="Universal Constructor Component"
+
+[Image14_OceanLab]
+imageDescription="Ocean Lab"
+
+[Image12_Vandenberg_Sub]
+imageDescription="Vandenberg Sub"
+
+[Image12_Vandenberg_Command]
+imageDescription="Vandenberg Command Complex"
+
+[Image11_Paris_CathedralEntrance]
+imageDescription="Cathedral Entrance"
+
+[Image11_Paris_Cathedral]
+imageDescription="Paris Cathedral"
+
+[Image10_Paris_Metro]
+imageDescription="Paris Metro Map"
+
+[Image10_Paris_CatacombsTunnels]
+imageDescription="Paris Catacombs - Tunnels"
+
+[Image10_Paris_Catacombs]
+imageDescription="Paris Catacombs"
+
+[Image09_NYC_Ship_Top]
+imageDescription="PCRS Wall Cloud: Upper Decks"
+
+[Image09_NYC_Ship_Bottom]
+imageDescription="PCRS Wall Cloud: Lower Decks"
+
+[Image08_JoeGreenMIBMJ12]
+imageDescription="Joe Greene MIB MJ12"
+
+[Image06_HK_WanChai]
+imageDescription="Hong Kong, Wan Chai District"
+
+[Image06_HK_Versalife]
+imageDescription="Versalife Building"
+
+[Image06_HK_MJ12Lab]
+imageDescription="MJ12 Lab Facility"
+
+[Image06_HK_MJ12Helipad]
+imageDescription="MJ12 Helipad Facility"
+
+[Image06_HK_Market]
+imageDescription="Hong Kong Market"
+
+[Image05_NYC_MJ12Lab]
+imageDescription="MJ12 Lab Facility"
+
+[Image05_GreaselDisection]
+imageDescription="Greasel Disection"
+
+[Image04_UNATCONotice]
+imageDescription="UNATCO Notice"
+
+[Image04_NSFHeadquarters]
+imageDescription="NSF Headquarters"
+
+[Image03_NYC_Airfield]
+imageDescription="NYC Airfield"
+
+[Image03_747Diagram]
+imageDescription="747 Diagram"
+
+[Image02_NYC_Warehouse]
+imageDescription="NYC Warehouse"
+
+[Image02_Ambrosia_Flyer]
+imageDescription="Ambrosia Flyer"
+
+[Image01_TerroristCommander]
+imageDescription="Terrorist Commander"
+
+[Image01_LibertyIsland]
+imageDescription="Liberty Island Satellite Photo"
+
+[Image01_GunFireSensor]
+imageDescription="Gun Fire Sensor"
+
+[ChargedPickup]
+ChargeRemainingLabel="エネルギー残量:"
+
+[MenuChoice_OnOff]
+enumText[0]="Off"
+enumText[1]="On"
+
+[MenuChoice_EnabledDisabled]
+enumText[0]="Enabled"
+enumText[1]="Disabled"
+
+[MenuChoice_LowMedHigh]
+enumText[0]="Low"
+enumText[1]="Medium"
+enumText[2]="High"
+
+[MenuChoice_VisibleHidden]
+enumText[0]="Visible"
+enumText[1]="Hidden"
+
+[MissionEndgame]
+endgameQuote[0]="YESTERDAY WE OBEYED KINGS AND BENT OUR NECKS BEFORE EMPERORS.  BUT TODAY WE KNEEL ONLY TO TRUTH..."
+endgameQuote[1]="    -- KAHLIL GIBRAN"
+endgameQuote[2]="IF THERE WERE NO GOD, IT WOULD BE NECESSARY TO INVENT HIM."
+endgameQuote[3]="    -- VOLTAIRE"
+endgameQuote[4]="BETTER TO REIGN IN HELL, THAN SERVE IN HEAVEN."
+endgameQuote[5]="    -- PARADISE LOST, JOHN MILTON"
+endgameQuoteJ[0]="かつて、我々は王に従い、皇帝に頭（こうべ）を垂れた　だが、今は、真実の前にだけひざまづこう・・・"
+endgameQuoteJ[1]="    -- ジブラーン"
+endgameQuoteJ[2]="もし、この世に神がいないのなら、神を作り出す必要がある"
+endgameQuoteJ[3]="    -- ヴォルテール"
+endgameQuoteJ[4]="天国に仕えるくらいなら地獄に支配されるほうがましだ"
+endgameQuoteJ[5]="    -- 失楽園,　ミルトン"
+
+[deusexserverping]
+AdminEmailText="Admin Email"
+AdminNameText="Admin Name"
+ChangeLevelsText="レベルの変更"
+MultiplayerBotsText="Bots の有無"
+FragLimitText="フラグ　リミット"
+TimeLimitText="タイム　リミット"
+GameModeText="ゲームモード"
+GameTypeText="タイプ"
+GameVersionText="バージョン"
+WorldLogText="ngWorldStats"
+MutatorsText="Mutators"
+TrueString="Enabled"
+FalseString="Disabled"
+ServerAddressText="サーバーアドレス"
+GoalTeamScoreText="チームスコア確認"
+MinPlayersText="Bots参加　"
+PlayersText="プレイヤー人数"
+MaxTeamsText="最大チーム数"
+BalanceTeamsText="各チームへのBots 割り当て"
+PlayersBalanceTeamsText="チームバランス"
+FriendlyFireText="ダメージ設定"
+MinNetVersionText="バージョン確認"
+BotSkillText="Botスキル"
+TournamentText="トーナメントモード"
+ServerModeText="サーバーモード"
+DedicatedText="Dedicated"
+NonDedicatedText="Non-Dedicated"
+WorldLogWorkingText="ngWorldStats Status"
+WorldLogWorkingTrue="Processing Stats Correctly"
+WorldLogWorkingFalse="Not Processing Stats Correctly"
+StartingSkillsText="スタート時のスキルポイント"
+SkillsPerKillText="キル数あたりのスキルポイント"
+StartingAugsText="スタート時のAug"
+AugsPerKillText="キル数あたりのAug"
+AugsAllowedText="Aug"
+TargetKillsText="フラグリミット"
+TargetTimeText="タイムリミット(分)"
+
+[DeusExMPGame]
+TooManyPlayers="Too many players"
+StreakString="Current Streak"
+KillsString="Kills"
+DeathsString="Deaths"
+PlayerString="Player"
+NewMapSecondsString=" seconds to new map."
+WonMatchString=" has won the match!"
+PingString="Ping"
+EscapeString="Press <Escape> to disconnect."
+MatchEnd1String="The match ended with "
+MatchEnd2String=" taking out "
+TeamNsfString="Team NSF"
+TeamUnatcoString="Team Unatco"
+TeamDrawString="The match is a draw!"
+
+[teamdmgame]
+EnemiesString="Enemies"
+AlliesString="Allies"
+VictoryConString1="Objective: First team that reaches "
+VictoryConString2=" kills wins the match."
+TimeLimitString1="Objective: Score the most kills before the clock ( "
+TimeLimitString2=" ) runs out!"
+TeamScoreString=" Team Score:"
+
+[ThrownProjectile]
+ItemName="ERROR ThrownProjectile Default-Report as bug!"
+ItemArticle=""
+
+[MultiplayerMessageWin]
+KilledByString="You have been killed by "
+WereKilledString="You have been killed."
+KilledYourselfString="You killed yourself!"
+FireToContinueMsg="Press <Fire> to restart."
+ActiveAugsString="Active Augs: "
+WeaponString="Current Weapon: "
+RelevantSkillString="Relevant Skill: "
+LevelString="Skill Level: "
+FinalBlowString="The final blow of "
+ToTheString=" points of damage was delivered to your "
+RemHealthString="At the time of your death, "
+RemHealth2String=" had health: "
+RemEnergyString=" and "
+RemEnergy2String=" points of bio-energy left."
+HealthHeadString=" Head: "
+HealthMidString="  Mid-Section: "
+HealthLowString="  Legs: "
+StreakString=" now has a current streak of "
+Detail1String="Press <"
+Detail2String="> for details."
+KeyNotBoundString="Key Not Bound"
+VSString="VS"
+
+[menuscreenjoingame]
+HeaderIPWindowLabel="IP Address"
+HostButtonName="Host Game"
+JoinButtonName="Join Game"
+RefreshButtonName="Refresh"
+HostButtonHelpText="ゲーム作成"
+JoinButtonHelpText="選択したゲームに参加"
+RefreshButtonHelpText="サーバーリストを再表示"
+strHostNameLabel="HostName"
+strMapNameLabel="Map"
+strGameTypeLabel="Game Type"
+strNumPlayersLabel="Players"
+strPingLabel="Ping"
+GameTypeOneLabel="デスマッチ"
+GameTypeTwoLabel="チームデスマッチ"
+ShowAllGameTypesLabel="全てのゲーム"
+GameHumanNames[0]="デスマッチ"
+GameHumanNames[1]="チームデスマッチ"
+GameHumanNames[2]="Adv. Team DM"
+GameHumanNames[3]="Basic Team DM"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+Title="Start Multiplayer Game"
+
+[HUDMultiSkills]
+ToExitString="> to exit."
+SkillsAvailableString="Skills available!"
+PressString="Press <"
+PressEndString=">"
+SkillPointsString="Skill Points: "
+skillString="Skill"
+CostString="Cost"
+NAString="MAX"
+LevelString="Level"
+KeyNotBoundString="Key Not Bound"
+
+[menuscreenaugsetup]
+HeaderAugChosenLabel="Augmentation Priorities"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_OK)"
+Title="Multiplayer Augmentation Setup"
+
+[dxmaplist]
+CycleNames[0]="同じマップを選択"
+CycleNames[1]="ランダム選択"
+CycleNames[2]="設定された次のマップを選択"
+
+[HECannister20mm]
+ItemName="HE 20mm Shell"
+ItemArticle=""
+
+[PlasmaBolt]
+ItemName="プラズマショック"
+ItemArticle=""
+
+[Rocket]
+ItemName="GEP Rocket"
+ItemArticle=""
+
+[menuscreenjoininternet]
+Title="Start Internet Game"
+
+[menuscreenhostgame]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_Other,Text="Start Game",Key="BEGINHOST")"
+Title="Host Multiplayer Game"
+
+[Cloud]
+ItemName="Gas Cloud"
+ItemArticle=""
+
+[deusexgspylink]
+ResolveFailedError="マスターサーバーが見つかりません: "
+TimeOutError="タイムアウト"
+CouldNotConnectError="マスターサーバー接続のタイムアウト: "
+
+[RocketWP]
+ItemName="WP Rocket"
+
+[menuchoice_victoryvalue]
+TimeLimitActionText="Time Limit(minutes)"
+FragLimitActionText="Kill Limit"
+TimeLimitHelpText="ゲーム終了までの時間(分)"
+FragLimitHelpText="ゲーム終了までのキル数"
+actionText=""
+configSetting="DeusExMPGame ScoreToWin"
+
+[menuscreenjoinlan]
+Title="Start LAN Game"
+
+[menuchoice_gametype]
+gameNames[0]="デスマッチ"
+gameNames[1]="通常チームデスマッチ"
+gameNames[2]="高度なチームデスマッチ"
+gameNames[3]="チームデスマッチのカスタム設定"
+HelpText="プレイするゲームの種類"
+actionText="Game Type"
+configSetting="MenuScreenHostGame CurrentGameType"
+
+[RocketLAW]
+ItemName="LAW Rocket"
+
+[menuchoice_map]
+HelpText="プレイするマップ(プレイ人数)"
+actionText="Play Map"
+configSetting="DXMapList MapNum"
+
+[ammocrate]
+AmmoReceived="Ammoが補充された"
+ItemName="Ammo Crate"
+
+[menuscreenplayersetup]
+HeaderPlayerNameLabel="Player Name"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_OK)"
+Title="Multiplayer Player Setup"
+
+[Fireball]
+ItemName="火だるま"
+ItemArticle=""
+
+[menuchoice_victorytype]
+VictoryNames[0]="キル数リミット"
+VictoryNames[1]="タイムリミット"
+HelpText="ゲーム終了の要件"
+actionText="Victory Condition"
+configSetting="DeusEXMPGame VictoryCondition"
+
+[menuchoice_cycle]
+HelpText="ゲーム終了後の次にスタートさせるマップの設定"
+actionText="Map Choice"
+configSetting="DXMapList CycleType"
+
+[menuchoice_team]
+TeamNames[0]="UNATCO"
+TeamNames[1]="NSF"
+TeamNames[2]="AUTO"
+HelpText="プレイするチームを選択"
+actionText="Team Model"
+
+[menuchoice_skilllevel]
+LevelNames[0]="Trained(1)"
+LevelNames[1]="Advanced(2)"
+LevelNames[2]="Master(3)"
+HelpText="スタート時のプレイヤースキルを設定する"
+actionText="Starting Skill Level"
+configSetting="DeusExMPGame MPSkillStartLevel"
+
+[menuchoice_servermode]
+ModeNames[0]="Dedicated"
+ModeNames[1]="Non-Dedicated"
+HelpText="サーバーの指定。Dedicatedは公開されているサーバーで、プレイにストレスが少ない"
+actionText="Server Mode"
+configSetting="MenuScreenHostGame ServerMode"
+
+[menuchoice_class]
+ClassNames[0]="JC Denton"
+ClassNames[1]="NSF Terrorist"
+ClassNames[2]="UNATCO Trooper"
+ClassNames[3]="Majestic-12 Agent"
+HelpText="チーム編成をしない場合のキャラクター設定"
+actionText="Non-Team Model"
+
+[menuchoice_connection]
+ConnectionNames[0]="Modem"
+ConnectionNames[1]="DSL or better"
+HelpText="インターネット接続の種類"
+actionText="Connection Type"
+configSetting="Player ConfiguredInternetSpeed"
+
+[ComputerSecurityChoice_MPCamera]
+enumText[0]="Off"
+enumText[1]="Enemies"
+enumText[2]="Allies"
+actionText="|&Camera Status"
+
+[menuchoice_multihelp]
+HelpText="メッセージ表示の設定"
+actionText="Help Message"
+configSetting="DeusExPlayer bHelpMessages"
+
+[menuchoice_augsallowed]
+HelpText="スタート時のAugの設定とキル数によるAug獲得の設定"
+actionText="Aug"
+configSetting="DeusExMPGame bAugsAllowed"
+
+[menumpmain]
+ButtonNames[0]="Internet Game"
+ButtonNames[1]="LAN Game"
+ButtonNames[2]="Player Setup"
+ButtonNames[3]="Aug Setup"
+ButtonNames[4]="Disconnect"
+ButtonNames[5]="Previous Menu"
+Title="Multiplayer Main Menu"
+
+[menuscreenhostlan]
+Title="Host LAN Game"
+
+[menuchoice_maxplayers]
+HelpText="ゲームの参加人数"
+actionText="Players"
+configSetting="DeusExMPGame MaxPlayers"
+
+[menuchoice_augbonus]
+HelpText="キル数により追加されるAugの数を設定"
+actionText="Augs Per Kill"
+configSetting="DeusExMPGame AugsPerKill"
+
+[menuchoice_Startingaugs]
+HelpText="スタート時のAugの数"
+actionText="Initial Augs"
+configSetting="DeusExMPGame InitialAugs"
+
+[menuscreenhostnet]
+Title="Host Internet Game"
+
+[menuchoice_startingskills]
+HelpText="スタート時のスキルポイント数の設定"
+actionText="Initial Skill Point"
+configSetting="DeusExMPGame SkillsAvail"
+
+[menuchoice_skillbonus]
+HelpText="キル数により獲得できるスキルポイント数の設定"
+actionText="Skill Point Per Kill"
+configSetting="DeusExMPGame SkillsPerKill"
+
+[menuchoice_friendlyfire]
+HelpText="同士討ちの場合のダメージ設定"
+actionText="Friendly Fire"
+configSetting="DeusExMPGame fFriendlyFireMult"
+

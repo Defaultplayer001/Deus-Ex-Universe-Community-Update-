@@ -1,0 +1,62 @@
+[NanoKey2]
+Description="Ekip Modül Erisimi"
+
+[SecurityCamera0]
+FamiliarName="Denizalti Bölümü"
+
+[SkillAwardTrigger2]
+awardMessage="Kesif Bonusu"
+
+[SecurityCamera2]
+FamiliarName="Komuta Merkezi"
+
+[ComputerSecurity1]
+Views[0]="(titleString="URV Bölümü",CameraTag=subcam,doorTag=subdoor)"
+Views[1]="(titleString="Ekip Modülü",CameraTag=liftcam,Turrettag=crewturret)"
+Views[2]="(titleString="Greasel Lab.",CameraTag=Greaselcam)"
+
+[DeusExLevelInfo0]
+MissionLocation="Yeni Bati Sahili - Okyanus Lab."
+startupMessage[0]="MJ12 Okyanus Laboratuvari"
+startupMessage[1]="Okyanusluk Yer"
+
+[SecurityCamera4]
+FamiliarName="Ekip Modülü"
+
+[SecurityCamera1]
+FamiliarName="Köpek Baligi Tanki"
+
+[AutoTurret1]
+FamiliarName="Komuta Taretleri"
+
+[NanoKey1]
+Description="Depo Erisim Anahtari"
+
+[DeusExMover10]
+FamiliarName="Denizalti havuz kapisi"
+
+[SkillAwardTrigger0]
+awardMessage="Gelisim Bonusu"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MJ12glab,KeyID=Glab,Description="Greasel Laboratuvar Anahtari")"
+NanoKeyData[1]="(ScriptedPawnTag=MJ12access,KeyID=Access,Description="Erisim Koridor Anahtari")"
+NanoKeyData[2]="(ScriptedPawnTag=MJ12storage,KeyID=storage,Description="Depo Odasi Anahtari")"
+
+[SecurityCamera3]
+FamiliarName="Greasel Laboratuvari"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Carcharodon Lab.",CameraTag=sharkcam)"
+Views[1]="(titleString="Greasel Lab.",CameraTag=Greaselcam)"
+Views[2]="(titleString="Komuta Merkezi",CameraTag=commandcam,Turrettag=comturret)"
+
+[SkillAwardTrigger1]
+awardMessage="Gelisim Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="Greasel Laboratuvar Anahtari"
+

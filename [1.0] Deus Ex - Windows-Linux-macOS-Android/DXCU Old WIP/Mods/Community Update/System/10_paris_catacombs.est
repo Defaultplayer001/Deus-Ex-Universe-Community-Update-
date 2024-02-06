@@ -1,0 +1,47 @@
+[DeusExLevelInfo1]
+MissionLocation="Paris - Denfert-Rochereau"
+startupMessage[0]="Denfert-Rochereau, Paris"
+startupMessage[1]="Skyrise abandonado"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Seguridad - cajero ",cameraTag=atm_cam,turretTag=atm_turret02)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MJ12Commando_keymaster,KeyID=catdoor,Description="Llave de la entrada a las Catacumbas")"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Seguridad - almacén",cameraTag=warehousecam,turretTag=warehousecamturret)"
+Views[1]="(titleString="Puerta blindada - almacén",cameraTag=warehousesecuritycam02,doorTag=ug_warehousedoors)"
+
+[NanoKey1]
+Description="Código de la llave del almacén"
+
+[JunkieFemale0]
+FamiliarName="Aimee"
+UnfamiliarName="Mujer extraña"
+
+[NanoKey7]
+Description="Llave de la oficina"
+
+[Male3]
+FamiliarName="Defoe"
+UnfamiliarName="Tratante de armas"
+
+[SkillAwardTrigger1]
+awardMessage="Bono por localización de zona"
+
+[SkillAwardTrigger2]
+awardMessage="Bono por localización trascendental"
+
+[SkillAwardTrigger0]
+awardMessage="Bono por avances"
+
+[SkillAwardTrigger4]
+awardMessage="Bono por exploración"
+
+[LevelSummary]
+Title="Sin título"
+
+[ZoneInfo0]
+DamageString="Se detecta un alto nivel de radiación"
+

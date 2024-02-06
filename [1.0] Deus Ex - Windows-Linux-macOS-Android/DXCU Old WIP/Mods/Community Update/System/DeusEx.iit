@@ -1,0 +1,3280 @@
+[General]
+Start="Deus Ex (avvio)"
+Exit="Deus Ex (uscita)"
+Run="Deus Ex (esecuzione)"
+Product="Deus Ex"
+
+[Progress]
+Loading="Caricamento"
+Saving="Salvataggio"
+
+[ScriptedPawn]
+FamiliarName="NOME STANDARD FAMILIARE - SEGNALARE COME BUG"
+UnfamiliarName="NOME STANDARD NON FAMILIARE - SEGNALARE COME BUG"
+
+[DeusExPlayer]
+InventoryFull="Non hai spazio sufficiente nell'inventario per raccogliere "
+TooMuchAmmo="Hai tutte le munizioni di questo tipo che ti servono"
+TooHeavyToLift="È troppo pesante"
+CannotLift="Non puoi sollevarlo"
+NoRoomToLift="Non c'è spazio per sollevarlo"
+CanCarryOnlyOne="Puoi averne soltanto uno"
+CannotDropHere="Non puoi lasciarlo qui"
+HandsFull="Le tue mani sono piene"
+NoteAdded="Nota ricevuta: controlla l'archivio per i dettagli"
+GoalAdded="Obiettivo ricevuto: controlla l'archivio per i dettagli"
+PrimaryGoalCompleted="Obiettivo primario completato"
+SecondaryGoalCompleted="Obiettivo secondario completato"
+EnergyDepleted="Riserve di energia bio-elettrica esaurite"
+AddedNanoKey="%s aggiunto alla nano-chiave"
+HealedPointsLabel="Curati %d punti"
+HealedPointLabel="Curato %d punto"
+SkillPointsAward="%d punti abilità guad."
+QuickSaveGameTitle="Salvataggio rapido"
+FamiliarName="JC Denton"
+UnfamiliarName="JC Denton"
+WeaponUnCloak="Arma estratta... visibile"
+TakenOverString="Ho preso il controllo di "
+HeadString="Testa"
+TorsoString="Tronco"
+LegsString="Gambe"
+WithTheString=" con "
+WithString=" con "
+PoisonString=" con il veleno letale"
+BurnString=" con una deflagrazione"
+NoneString="Niente"
+
+[DeusExDecoration]
+ItemName="NOME STANDARD DECORATIVO - SEGNALARE COME BUG"
+ItemArticle="una"
+
+[SkillManager]
+NoToolMessage="Ti serve il %s"
+NoSkillMessage="%s livello di abilità insufficiente per usare il %s"
+SuccessMessage="Successo!"
+YourSkillLevelAt="Il tuo livello d'abilità in %s è ora %d"
+
+[Skill]
+skillLevelStrings[0]="IMPREP."
+skillLevelStrings[1]="ADDESTR."
+skillLevelStrings[2]="AVANZATO"
+skillLevelStrings[3]="ESPERTO"
+SkillAtMaximum="Abilità al livello massimo"
+
+[AugmentationManager]
+AugLocationFull="Non puoi aggiungere altri potenziamenti in questa posizione!"
+NoAugInSlot="Non c'è alcun potenziamento in questa posizione"
+MPInfo="DEFAULT AUG MP INFO - REPORT THIS AS A BUG"
+
+[Augmentation]
+EnergyRateLabel="Grado energetico: %d unità/minuto"
+OccupiesSlotLabel="Spazio occupato: %s"
+AugLocsText[0]="Cranio"
+AugLocsText[1]="Occhi"
+AugLocsText[2]="Torso"
+AugLocsText[3]="Braccia"
+AugLocsText[4]="Gambe"
+AugLocsText[5]="Sub-epid."
+AugLocsText[6]="Standard"
+AugActivated="%s Attivo"
+AugDeactivated="%s Disattivo"
+AugAlreadyHave="Hai già %s al livello massimo"
+AugNowHave="%s aggiornato al livello %d"
+AlwaysActiveLabel="[Sempre attivo]"
+CanUpgradeLabel="(Aggiornabile)"
+CurrentLevelLabel="Livello attuale: %d"
+MaximumLabel="(Massimo)"
+
+[DeusExRootWindow]
+QuickLoadTitle="Caricamento rapido?"
+QuickLoadMessage="Perderai la partita in corso, sei sicuro di voler procedere?"
+
+[DeusExWeapon]
+msgCannotBeReloaded="Quest'arma non si può ricaricare"
+msgOutOf="Su un totale di %s"
+msgNowHas="%s ora ha %s"
+msgAlreadyHas="%s ha già %s"
+msgNone="NESSUNA"
+msgLockInvalid="NON VALIDE"
+msgLockRange="PORTATA"
+msgLockAcquire="ACQUISIZIONE"
+msgLockLocked="BLOCCO"
+msgRangeUnit="FT"
+msgTimeUnit="SEC"
+msgMassUnit="LB"
+msgNotWorking="Quest'arma non funziona sott'acqua"
+msgInfoAmmoLoaded="Munizione caricata:"
+msgInfoAmmo="Tipo munizione:"
+msgInfoDamage="Danno base:"
+msgInfoClip="Dimensione caricatore:"
+msgInfoROF="Velocità di fuoco:"
+msgInfoReload="Tempo di ricarica:"
+msgInfoRecoil="Rinculo:"
+msgInfoAccuracy="Precisione base:"
+msgInfoAccRange="Portata. prec.:"
+msgInfoMaxRange="Portata max:"
+msgInfoMass="Massa:"
+msgInfoLaser="Mirino laser:"
+msgInfoScope="Telescopico:"
+msgInfoSilencer="Silenziatore:"
+msgInfoNA="N/D"
+msgInfoYes="SÌ"
+msgInfoNo="NO"
+msgInfoAuto="AUTO"
+msgInfoSingle="SINGOLO"
+msgInfoRounds="CLP"
+msgInfoRoundsPerSec="CLP/SEC"
+msgInfoSkill="Abilità:"
+msgInfoWeaponStats="Statistiche dell'arma:"
+PickupMessage="Hai trovato:"
+ItemName="DEFAULT WEAPON NAME - REPORT THIS AS A BUG"
+
+[DeusExCarcass]
+msgSearching="Hai trovato:"
+msgEmpty="Non hai trovato niente"
+msgNotDead="Privo di conoscenza"
+msgAnimalCarcass="Carcassa animale"
+msgCannotPickup="Non puoi prendere il %s"
+ItemName="Cadavere"
+msgRecharged="Ricaricati %d punti"
+
+[DeusExMover]
+msgKeyLocked="La tua nano-chiave ha chiuso"
+msgKeyUnlocked="La tua nano-chiave ha aperto"
+msgLockpickSuccess="Hai scassinato la serratura"
+msgOneWayFail="Non si apre da questo lato"
+msgLocked="È chiusa"
+msgPicking="Stai scassinando..."
+msgAlreadyUnlocked="È già aperta"
+msgNoNanoKey="La tua nano-chiave non ha il codice giusto"
+
+[DeusExPickup]
+CountLabel="CONTO:"
+msgTooMany="Non puoi portarne altri con te"
+PickupMessage="Hai trovato:"
+ItemName="NOME STANDARD OGGETTO RACCOLTO - SEGNALARE COME BUG"
+
+[MenuUIChoice]
+actionText="Scelta"
+FalseTrue[0]="Falso"
+FalseTrue[1]="Vero"
+
+[DataVaultImage]
+PickupMessage="Immagine aggiunta all'archivio"
+beltDescription="IMMAGINE"
+
+[PersonaInventoryItemButton]
+CountLabel="Conto: %d"
+RoundLabel="%d clp"
+RoundsLabel="%d clp"
+
+[Computers]
+msgLockedOut="Terminale bloccato per altri %d secondi"
+NodeInfo[0]="(nodeName="UNATCO",nodeAddress="UN//UNATCO//RESTRICTED//923.128.6430",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoUNATCO')"
+NodeInfo[1]="(nodeName="VersaLife",nodeDesc="VersaLife",nodeAddress="VERSALIFECORP//GLOBAL//3939.39.8",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoVersaLife')"
+NodeInfo[2]="(nodeName="Torre della Regina",nodeDesc="Appartamenti di Lusso Torre della Regina",nodeAddress="QT_UTIL//LOCAL//673.9845.09531",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoQueensTower')"
+NodeInfo[3]="(nodeName="USN",nodeDesc="Marina degli Stati Uniti",nodeAddress="USGOV//MIL//USN//GLOBAL//0001",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoUSNavy')"
+NodeInfo[4]="(nodeName="MJ12Net",nodeDesc="Rete dei Majestic 12",nodeAddress="MAJESTIC//GLOBAL//12.12.12",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoMJ12')"
+NodeInfo[5]="(nodeName="Industrie Page",nodeDesc="Industrie Page",nodeAddress="PAGEIND//USERWEB//NODE.34@778",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoPage')"
+NodeInfo[6]="(nodeName="X-51 SecureNet",nodeDesc="X-51 SecureNet",nodeAddress="X51//SECURENET//NODE.938@893",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoArea51')"
+NodeInfo[7]="(nodeName="Imprese Everett",nodeDesc="Imprese Everett",nodeAddress="EE//INTSYS.TT//0232.98//TERMINAL",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoEverettEnt')"
+NodeInfo[8]="(nodeName="FSN",nodeDesc="FSN",nodeAddress="HUB//RESISTANCE.7654//NFSNODES",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoNSF')"
+NodeInfo[9]="(nodeName="NYComm",nodeDesc="NYC comunicazioni",nodeAddress="USA//DOMESTIC//NYCCOM.USERS.PUB",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoNYComm')"
+NodeInfo[10]="(nodeName="RPCina",nodeDesc="Repubblica Popolare Cinese",nodeAddress="PRC//GOV//RESTRICTED.HK.562",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoPRChina')"
+NodeInfo[11]="(nodeName="HKNet",nodeDesc="HK Net",nodeAddress="PUB//HKNET//USERS.ACCTS.20435//2",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoHKNet')"
+NodeInfo[12]="(nodeName="Arresto rapido",nodeDesc="Arresto rapido",nodeAddress="PUB//HKNET//QUICKSTOPINT//NODE98",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoQuickStop')"
+NodeInfo[13]="(nodeName="Lucky Money",nodeDesc="Lucky Money Club",nodeAddress="PUB//HKNET//LUCKYMONEY/BUSSYS.294",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoLuckyMoney')"
+NodeInfo[14]="(nodeName="SII",nodeDesc="Sistema Informativo Illuminati",nodeAddress="SECURE//IIS.INFTRANS.SYS//UEU",nodeTexture=Texture'DeusExUI.UserInterface.ComputerLogonLogoIlluminati')"
+CompInUseMsg="Il computer è già utilizzato da %s."
+
+[HUDObjectSlot]
+RoundLabel="%d clp"
+RoundsLabel="%d clp"
+CountLabel="CONTO:"
+
+[DeusExProjectile]
+ItemName="NOME PROIETTILE STANDARD - SEGNALARE COME BUG"
+
+[DeusExAmmo]
+msgInfoRounds="%d colpi rimasti"
+PickupMessage="Hai trovato:"
+ItemName="NOME PROIETTILE STANDARD - SEGNALARE COME BUG"
+ItemArticle=" "
+
+[ComputerSecurityCameraWindow]
+CameraLabel="Telecamera"
+CameraStatusLabel="Telecamera:"
+DoorStatusLabel="Porta:"
+TurretStatusLabel="Torretta:"
+OnLabel="Si"
+OffLabel="No"
+DisabledLabel="Disattiva"
+AttackingAlliesLabel="Attacco alleati"
+AttackingEnemiesLabel="Attacco nemici"
+AttackingEverythingLabel="Attacco generale"
+NoSignalLabel="SEGNALE ASSENTE"
+OpenLabel="Aperta"
+ClosedLabel="Chiusa"
+LockedLabel="Chiusa a chiave"
+UnlockedLabel="Sbloccata"
+FriendlyLabel="Rilevamento nemici"
+HostileLabel="Rilevamento alleati"
+
+[MenuScreenLoadGame]
+strHeaderNameLabel="Nome"
+strHeaderDateLabel="Data"
+NewSaveGameButtonText="Nuova partita salvata"
+DeleteGameButtonText="Elimina partita"
+LoadGameButtonText="Carica partita"
+OverwriteTitle="Sovrascrivi partita salvata?"
+OverwritePrompt="Sei sicuro di voler sovrascrivere questa partita salvata?"
+DeleteTitle="Eliminare la partita salvata?"
+DeletePrompt="Sei sicuro di voler eliminare questa partita salvata?"
+LoadGameTitle="Carica partita"
+SaveGameTitle="Salva partita"
+SaveInfoMissing_Label="SAVEINFO.DXS mancante!!!"
+TimeAMLabel="am"
+TimePMLabel="pm"
+LocationLabel="Luogo: %s|n"
+SaveCountLabel="Conteggio: %d|n"
+FileSizeLabel="Dim. file: %d MB"
+FreeSpaceLabel="Spazio libero: %d MB"
+Title="Carica partita"
+PlayTimeLabel="Tempo di gioco: %s|n"
+ConfirmDeleteLabel="Conferma l'eliminazione"
+CheatsEnabledLabel="- TRUCCHI ATTIVATI -"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_Other,Text="|&Carica partita",Key="LOAD")"
+actionButtons[2]="(Action=AB_Other,Text="|&Elimina partita",Key="DELETE")"
+
+[MenuUIWindow]
+btnLabelOK="|&OK"
+btnLabelCancel="|&Annulla"
+btnLabelPrevious="|&Precedente"
+btnLabelResetToDefaults="A|&nnulla modifiche"
+MessageBoxTitle="Conferma"
+ExitMessage="Sei sicuro di voler|nuscire da Deus Ex?"
+TrainingWarningMessage="La partita in corso andrà persa se ancora non l'hai salvata. Vuoi ancora lanciare la missione d'addestramento?"
+IntroWarningMessage=" La partita in corso andrà persa se ancora non l'hai salvata. Vuoi ancora vedere l'introduzione?"
+AskToTrainTitle="Missione d'addestramento"
+AskToTrainMessage="Prima di cominciare una nuova partita, ti suggeriamo di affrontare l'addestramento. Vuoi farlo ora?"
+
+[DamageHUDDisplay]
+msgAbsorbed="%d%% assorb"
+
+[BlackHelicopter]
+ItemName="Elicottero nero"
+
+[AugmentationDisplayWindow]
+msgRange="Portata"
+msgRangeUnits="ft"
+msgHigh="Alta"
+msgMedium="Media"
+msgLow="Bassa"
+msgHealth="energia"
+msgOverall="Generale"
+msgPercent="%"
+msgHead="Testa"
+msgTorso="Torso"
+msgLeftArm="Braccio S"
+msgRightArm="Braccio D"
+msgLeftLeg="Gamba S"
+msgRightLeg="Gamba D"
+msgWeapon="Arma:"
+msgNone="Nessuna"
+msgScanning1="* Nessun bersaglio *"
+msgScanning2="* Scansione *"
+msgADSTracking="* Tracciamento ADS *"
+msgADSDetonating="* Detonazione ADS *"
+msgBehind="DIETRO"
+msgDroneActive="Drone-spia remoto attivo"
+msgEnergyLow="Energia BioElettrica scarsa!"
+msgCantLaunch="ERRORE - spazio insufficiente per costruzione drone-spia!"
+msgLightAmpActive="Amplificazione della luce attiva"
+msgIRAmpActive="Amplificazione infrarosso attiva"
+msgNoImage="Immagine non disponibile"
+msgDisabled="Disattivo"
+msgLegs="Gambe"
+SpottedTeamString="Hai avvistato un compagno di squadra!"
+YouArePoisonedString="Sei stato avvelenato!"
+YouAreBurnedString="Stai bruciando!"
+TurretInvincibleString="Le torrette sono vulnerabili solo alle armi EMP!"
+CameraInvincibleString="Le telecamere sono vulnerabili solo alle armi EMP!"
+NeutBurnPoisonString="(Neutralizza subito con medikit)"
+OnlyString="Solo "
+KillsToGoString=" vittime ancora e "
+KillToGoString=" vittima ancora e "
+LessThanMinuteString="Manca meno di un minuto alla fine e "
+LessThanXString1="Mancano meno di "
+LessThanXString2=" minuti alla fine e "
+LeadsMatchString=" è in testa!"
+TiedMatchString="c'è un bel testa a testa!"
+WillWinMatchString=" vincerà la partita!"
+OutOfRangeString="(Fuori tiro)"
+LostLegsString="Hai perso le gambe!"
+DropItem1String="Puoi usare <"
+DropItem2String="> per deporre un oggetto in uso."
+msgTeammateHit="Hai colpito un tuo compagno di squadra!"
+msgTeamNsf="Sei nella squadra NSF!"
+msgTeamUnatco="Sei nella squadra Unatco!"
+UseString="Usa <"
+TeamTalkString="> per inviare messaggi alla squadra."
+TalkString="> per inviare messaggi e conversare."
+YouKilledTeammateString="Hai ucciso un tuo compagno di squadra!"
+TeamLAMString="Non puoi raccogliere la granata di un tuo compagno di squadra!"
+TeamComputerString="Quel computer appartiene già alla tua squadra!"
+NoCloakWeaponString="Non puoi indossare la maschera quando è estratta un'arma!"
+TeamHackTurretString="Quella torretta appartiene già alla tua squadra!"
+KeyNotBoundString="Tasto non associato"
+OutOfAmmoString="Munizioni esaurite!"
+
+[ComputerUIWindow]
+ButtonLabelLogin="Lo|&gin"
+ButtonLabelLogout="|&Logout"
+ButtonLabelCancel="|&Annulla"
+ButtonLabelSpecial="|&Opzioni speciali"
+
+[PersonaInventoryInfoWindow]
+AmmoLabel="Munizioni:"
+AmmoRoundsLabel="Colpi:"
+ShowAmmoDescriptionsLabel="Mostra descrizioni munizioni"
+
+[FrobDisplayWindow]
+msgLocked="Chiusa"
+msgUnlocked="Aperta"
+msgLockStr="F.za lucchetto: "
+msgDoorStr="F.za porta: "
+msgHackStr="F.za bypass: "
+msgInf="INF"
+msgHacked="Bypassato"
+msgPick="grimald."
+msgPicks="grimald."
+msgTool="strumento"
+msgTools="strumenti"
+
+[AutoTurretGun]
+ItemName="Torretta difensiva automatica"
+
+[HackableDevices]
+msgMultitoolSuccess="Hai bypassato il dispositivo"
+msgNotHacked="È sicuro"
+msgHacking="Bypass del dispositivo..."
+msgAlreadyHacked="È già stato bypassato"
+
+[AutoTurret]
+ItemName="Torretta base"
+titleString="Torretta automatica"
+
+[MedKit]
+MustBeUsedOn="Usare per curare le ferite più gravi, oppure nella schermata del personaggio per curare una ferita specifica."
+ItemName="Medkit"
+Description="Kit di pronto soccorso.|n|n<FILE OPERATIVO UNATCO NOTA JR095-VIOLA> Le nano-macchine di un agente potenziato metabolizzano immediatamente il contenuto del medkit per guarire le zone danneggiate. Un agente con preparazione medica può ottimizzare ulteriormente questo processo. -- Jaime Reyes <FINE NOTA>"
+beltDescription="MEDKIT"
+
+[UNATCOTroop]
+FamiliarName="Soldato UNATCO"
+UnfamiliarName="Soldato UNATCO"
+
+[POVCorpse]
+ItemName="cadavere"
+
+[PersonaScreenInventory]
+InventoryTitleText="Inventario"
+EquipButtonLabel="|&Utilizza"
+UnequipButtonLabel="|&Riponi"
+UseButtonLabel="U|&sa"
+DropButtonLabel="|&Lascia"
+ChangeAmmoButtonLabel="|&Cambia munizioni"
+NanoKeyRingInfoText="Clicca sull'icona per vedere delle nano-chiavi."
+NanoKeyRingLabel="Chiavi: %s"
+DroppedLabel="%s lasciate"
+AmmoLoadedLabel="%s caricate"
+WeaponUpgradedLabel="%s aggiornate"
+CannotBeDroppedLabel="%s non puoi lasciare qua"
+AmmoInfoText="Clicca sull'icona per vedere l'elenco delle munizioni."
+AmmoTitleLabel="Munizione"
+NoAmmoLabel="Nessuna munizione disponibile"
+
+[ATM]
+msgLockedOut="Terminale bloccato per altri %d secondi"
+ItemName="Terminale bancario pubblico"
+
+[AlarmUnit]
+msgActivated="Allarme attivato"
+msgDeactivated="Allarme disattivato"
+ItemName="Pannello di controllo allarme"
+
+[ComputerScreenSecurity]
+ActiveWindowOptionsHeader="Opzioni finestra attiva"
+CameraOptionsHeader="Opzioni telecamera"
+PanZoomSpeedHeader="velocità panoram./zoom"
+ClickCameraWindowText="Clicca su una visuale per selezionare quella telecamera."
+Title="Sorveglianza"
+ComputerNodeFunctionLabel="Sicurezza"
+
+[Terrorist]
+FamiliarName="Terrorista"
+UnfamiliarName="Terrorista"
+
+[MenuScreenRGB_MenuExample]
+ButtonMenuDisabledLabel="Disattivo"
+ButtonMenuNormalLabel="Normale"
+ButtonMenuFocusLabel="Attivo"
+ButtonMenuPressedLabel="Premuto"
+ButtonSmallPressedLabel=" Premuto "
+ButtonSmallNormalLabel="Normale"
+ButtonActionDisabledLabel="Disattivo"
+ButtonActionNormalLabel="Normale"
+ButtonActionFocusLabel="Attivo"
+ButtonActionPressedLabel="Premuto"
+ListNormalLabel="Normale"
+ListFocusLabel="Attivo"
+EditLabel="Modifica"
+TitleLabel="Titolo"
+
+[PersonaScreenHealth]
+MedKitUseText="Per curare una specifica parte del corpo, clicca su di essa e quindi sul pulsante Cura."
+HealthTitleText="Salute"
+HealAllButtonLabel="|&Cura tutto"
+HealthLocationHead="Testa"
+HealthLocationTorso="Torso"
+HealthLocationRightArm="Braccio dx"
+HealthLocationLeftArm="Braccio sx"
+HealthLocationRightLeg="Gamba dx"
+HealthLocationLeftLeg="Gamba sx"
+PointsHealedLabel="%d punti curati"
+HealthPartDesc[0]="Le ferite alla testa sono fatali nella maggioranza dei casi: comunque, quando la morte non è istantanea, gli agenti scopriranno che le ferite di questo tipo provocano problemi alla vista e alla capacità di prendere la mira. Gli effetti dei colpi alla testa vanno trattati il prima possibile, pena il rischio di morte.|n|nFerite leggere: precisione moderatamente diminuita.|nFerite di media entità: problemi alla vista.|nFerite gravi: morte."
+HealthPartDesc[1]="Il torso è la zona del corpo umano che è in grado di sopportare i danni più gravi, ma è anche la più facile da colpire in un combattimento ravvicinato. Quando le ferite al torso vanno facendosi più gravi, l'agente incontra difficoltà nei movimenti e può perdere considerevoli quantità di sangue, tanto da arrivare alla morte anche senza subire colpi ad organi vitali.|n|nFerite leggere: moderata difficoltà di movimento.|nFerite di media entità: grave difficoltà di movimento.|nFerite gravi: morte."
+HealthPartDesc[2]="Ovviamente le ferite a un braccio sono molto penalizzanti in un combattimento, in quanto influenzano direttamente la capacità dell'agente di utilizzare le armi. Perdendo l'uso di un braccio l'efficacia in battaglia scema, mentre se entrambe le braccia restano colpite l'agente non rappresenta più alcuna minaccia per i suoi avversari.|n|nFerite leggere: precisione leggermente diminuita.|nFerite di media entità: precisione moderatamente diminuita.|nFerite gravi: precisione significativamente diminuita."
+HealthPartDesc[3]="Le ferite alla gamba portano a una drastica riduzione della mobilità. Se un agente infiltrato in territorio ostile è così sfortunato da perdere l'uso di entrambe le gambe, ma è ancora cosciente, deve eseguire immediatamente l'Ordine Speciale Operativo UNATCO 99009 (auto-eliminazione).|n|nFerite leggere: movimenti leggermente impediti.|nFerite di media entità: movimenti moderatamente impediti.|nFerite gravi: movimenti significativamente impediti."
+
+[WaltonSimons]
+FamiliarName="Walton Simons"
+UnfamiliarName="Walton Simons"
+
+[SecurityCamera]
+msgActivated="Telecamera attiva"
+msgDeactivated="Telecamera disattiva"
+ItemName="Telecamera di sorveglianza"
+
+[HUDHitDisplay]
+O2Text="O2"
+EnergyText="BE"
+
+[PersonaAmmoDetailButton]
+RoundLabel="%d colpo"
+RoundsLabel="%d colpi"
+
+[PersonaScreenImages]
+ImagesTitleText="Immagini"
+DeleteNoteButtonLabel="|&Elimina nota"
+AddNoteButtonLabel="|&Aggiungi nota"
+ShowNotesLabel="|&Mostra note"
+
+[PersonaScreenAugmentations]
+AugmentationsTitleText="Potenziamenti"
+UpgradeButtonLabel="|&Aggiorna"
+ActivateButtonLabel="A|&ttiva"
+DeactivateButtonLabel="|&Disattiva"
+UseCellButtonLabel="|&Usa cellula"
+AugCanUseText="Per aggiornare potenziamento, clicca su quello che ti interessa e quindi sul pulsante Aggiorna."
+BioCellUseText="Per ricaricare di bio-energia i potenziamenti, clicca sul pulsante Usa cellula."
+AugLocationDefault="Standard"
+AugLocationCranial="Cranio"
+AugLocationEyes="Occhi"
+AugLocationArms="Braccia"
+AugLocationLegs="Gambe"
+AugLocationTorso="Torso"
+AugLocationSubdermal="Sub-epid"
+
+[WeaponMod]
+DragToUpgrade="Porta sopra un'arma per aggiornare. Le armi in VERDE si possono potenziare con questo modulo."
+
+[Faucet]
+ItemName="Rubinetto"
+
+[MenuScreenRGB]
+HUDBackgroundTranslucentLabel="|&Trasparenza sfondo HUD"
+HUDBordersTranclucentLabel="Trasparenza |&bordi HUD"
+MenusBackgroundTranslucentLabel="Trasparenza |&menu"
+RedLabel="|&Rosso"
+GreenLabel="|&Verde"
+BlueLabel="B|&lu"
+TabHUDLabel="|&HUD"
+TabMenusLabel="M|&enu"
+ThemeLabel="Tema:"
+Title="Scelta colore"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Other,Text="C|&hiudi",Key="CLOSE")"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_Other,Text="|&Carica",Key="LOAD")"
+actionButtons[2]="(align=HALIGN_Right,Action=AB_Other,Text="|&Salva",Key="SAVE")"
+actionButtons[3]="(Action=AB_Reset)"
+
+[ShowerFaucet]
+ItemName="Rubinetto della doccia"
+
+[HUDInfoLinkDisplay]
+strQueued="messaggio in attesa..."
+IncomingTransmission="TRASMISSIONE IN ARRIVO..."
+
+[Keypad]
+ItemName="Tastiera di sicurezza"
+
+[MedicalBot]
+FamiliarName="Medbot"
+UnfamiliarName="Medbot"
+
+[MenuScreenAdjustColorsExample]
+TitleBarLabel="Barra del titolo"
+TextHeaderLabel="Testo di esempio"
+TextNormalLabel="Testo di esempio"
+ButtonPressedLabel="Premuto"
+ButtonNormalLabel="Normale"
+
+[HUDAmmoDisplay]
+NotAvailable="N/D"
+msgReloading="---"
+AmmoLabel="MUNIZ."
+ClipsLabel="CARICATORI"
+
+[MJ12Commando]
+FamiliarName="Commando MJ12"
+UnfamiliarName="Commando MJ12"
+
+[DataLinkPlay]
+EndTransmission="FINE TRASMISSIONE..."
+
+[HUDRechargeWindow]
+RechargeButtonLabel="  |&Ricarica  "
+CloseButtonLabel="  |&Chiudi  "
+RechargeTitle="INTERFACCIA ROBOT RIPARATORE"
+RepairBotInfoText="Il robot riparatore può ripristinare fino a %d punti di energia bio-elettrica ogni %d secondi."
+RepairBotStatusLabel="Stato robot:"
+ReadyLabel="Pronto!"
+SecondsPluralLabel="Ricarica: %d secondi"
+SecondsSingularLabel="Ricarida: %d secondo"
+BioStatusLabel="Bio-energia:"
+RepairBotRechargingLabel="|n|nIl robot riparatore si sta ricaricando.  Attendi."
+RepairBotReadyLabel="|n|nIl robot riparatore è pronto, ora ti puoi ricaricare."
+RepairBotYouAreHealed="|n|La tua energia bio-elettrica è al massimo."
+
+[MenuUIChoiceSlider]
+actionText="Indicatore di scelta"
+
+[MenuScreenNewGame]
+ButtonUpgradeLabel="|&Aumenta"
+ButtonDowngradeLabel="|&Riduci"
+HeaderNameLabel="Nome reale"
+HeaderCodeNameLabel="Nome in codice"
+HeaderAppearanceLabel="Aspetto"
+HeaderSkillsLabel="Abilità"
+HeaderSkillPointsLabel="Punti abilità"
+HeaderSkillLevelLabel="Livello abilità"
+HeaderPointsNeededLabel="Punti necessari"
+NameBlankTitle="Nessun nome!"
+NameBlankPrompt="Devi obbligatoriamente inserire il nome reale."
+Title="Inizia nuova partita"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_Other,Text="|&Inizia partita",Key="START")"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenRGB_HUDExample]
+TitleLabel="Titolo"
+HeaderLabel="Intestazione"
+TextNormalLabel="Normale"
+GoalCompletedLabel="Obiettivo raggiungo"
+ListLabel="Elenco oggetti"
+ListHighlightLabel="Elenco evidenziati"
+ListFocusLabel="Elenco argomenti"
+EditSelectedLabel="Modifica testo"
+ButtonDisabledLabel="Disattivo"
+ButtonNormalLabel="Normale"
+ButtonFocusLabel="Attivo"
+ButtonPressedLabel="Premuto"
+
+[HUDKeypadWindow]
+msgAccessDenied="~~NEGATO~~"
+msgAccessGranted="~~CONCESSO~~"
+
+[HUDReceivedDisplay]
+TextReceivedLabel="Ricevuto:"
+
+[InformationDevices]
+msgNoText="Non c'è niente di interessante da leggere"
+ImageLabel="[Immagine: %s]"
+AddedToDatavaultLabel="Immagine %s aggiunta all'archivio"
+
+[GuntherHermann]
+FamiliarName="Gunther Hermann"
+UnfamiliarName="Gunther Hermann"
+
+[SpyDrone]
+ItemName="Drone-spia remoto"
+
+[HUDMedBotHealthScreen]
+MedbotInterfaceText="INTERFACCIA MEDBOT"
+HealthInfoTextLabel="Il MedBot curerà fino a %d unità, che sono distribuite fra tutte le zone danneggiate del corpo."
+MedBotRechargingLabel="|nIl MedBot si sta ricaricando. Attendi."
+MedBotReadyLabel="|nIl MedBot è pronto, ora ti puoi curare."
+MedBotYouAreHealed="|nNon hai bisogno di cure."
+SecondsPluralLabel="Ricarica: %d secondi"
+SecondsSingularLabel="Ricarica: %d secondo"
+ReadyLabel="Pronto!"
+HealAllButtonLabel="  |&Cura tutto  "
+
+[PersonaItemDetailButton]
+CountLabel="Conto: %d"
+
+[MenuScreenSaveGame]
+Title="Salva partita"
+DiskSpaceTitle="Spazio su disco scarso"
+DiskSpaceMessage="Selvono almeno 100 MB di spazio su disco per salvare. Elimina qualche salvataggio o libera dello spazio tramite Windows."
+actionButtons[1]="(Text="|&Salva partita",Key="SAVE")"
+
+[RepairBot]
+FamiliarName="Robot riparatore"
+UnfamiliarName="Robot riparatore"
+
+[PersonaNavBarWindow]
+InventoryButtonLabel="|&Inventario"
+HealthButtonLabel="|&Salute"
+AugsButtonLabel="|&Potenziamenti"
+SkillsButtonLabel="|&Abilità"
+GoalsButtonLabel="|&Obiettivi/note"
+ConsButtonLabel="|&Conversazioni"
+ImagesButtonLabel="|&Immagini"
+LogsButtonLabel="|&Registri"
+
+[PersonaNavBarBaseWindow]
+ExitButtonLabel="|&Esci"
+
+[PersonaScreenConversations]
+ConversationsTitleText="Conversazioni"
+ActorButtonLabel="Contatto"
+LocationButtonLabel="Luogo"
+TypeButtonLabel="Tipo"
+
+[MenuScreenCustomizeKeys]
+strHeaderActionLabel="Azione"
+strHeaderAssignedLabel="Tasto/pulsante assegnato"
+WaitingHelpText="Scegli la funzione che vuoi modificare e premi [INVIO] o esegui un doppio clic. Premi [Canc] per annullare un'assegnazione."
+InputHelpText="Premi il tasto o il pulsante che vuoi assegnare a questa funzione. Premi [ESC] per annullare."
+ReassignedFromLabel="'%s' riassegnato da '%s'"
+Title="Impostazioni tastiera/mouse"
+FunctionText[0]="Sparare/usare un oggetto "
+FunctionText[1]="Usare l'oggetto sullo sfondo"
+FunctionText[2]="Lasciare/lanciare un oggetto"
+FunctionText[3]="Mettere via un oggetto"
+FunctionText[4]="Movimento in avanti"
+FunctionText[5]="Movimento indietro"
+FunctionText[6]="Svoltare a sinistra"
+FunctionText[7]="Svoltare a destra"
+FunctionText[8]="Spostamento laterale a sinistra"
+FunctionText[9]="Spostamento laterale a destra"
+FunctionText[10]="Inclinazione a sinistra"
+FunctionText[11]="Inclinazione a destra"
+FunctionText[12]="Saltare"
+FunctionText[13]="Accucciarsi"
+FunctionText[14]="Guardare col mouse"
+FunctionText[15]="Guardare su"
+FunctionText[16]="Guardare giù"
+FunctionText[17]="Centrare la visuale"
+FunctionText[18]="Camminare/correre"
+FunctionText[19]="Scelta corsa/camminata"
+FunctionText[20]="Spostamento laterale"
+FunctionText[21]="Selezione prossimo oggetto cintura"
+FunctionText[22]="Selezione oggetto precedente "
+FunctionText[23]="Ricaricare l'arma"
+FunctionText[24]="Attivare il mirino telescopico"
+FunctionText[25]="Attivare il mirino laser"
+FunctionText[26]="Attivare tutti i potenziamenti"
+FunctionText[27]="Disattivare tutti i potenziamenti"
+FunctionText[28]="Cambiare tipo di munizioni"
+FunctionText[29]="Catturare un'immagine del gioco"
+FunctionText[30]="Aprire la schermata dell'inventario"
+FunctionText[31]="Aprire la schermata dell'energia"
+FunctionText[32]="Aprire la schermata dei potenziam."
+FunctionText[33]="Aprire la schermata delle abilità"
+FunctionText[34]="Aprire la schermata di note e ob."
+FunctionText[35]="Aprire la schermata delle convers."
+FunctionText[36]="Aprire la schermata delle immagini"
+FunctionText[37]="Aprire la schermata dei registri"
+FunctionText[38]="Salvataggio rapido"
+FunctionText[39]="Caricamento rapido"
+FunctionText[40]="Attivare i mirini"
+FunctionText[41]="Attivare visualizzazione bersaglio"
+FunctionText[42]="Attivare la bussola"
+FunctionText[43]="Attivare il visore dei potenziamenti"
+FunctionText[44]="Attivare la cintura degli oggetti"
+FunctionText[45]="Attivare il visore delle munizioni"
+FunctionText[46]="F3"
+FunctionText[47]="F4"
+FunctionText[48]="F5"
+FunctionText[49]="F6"
+FunctionText[50]="F7"
+FunctionText[51]="F8"
+FunctionText[52]="F9"
+FunctionText[53]="F10"
+FunctionText[54]="F11"
+FunctionText[55]="F12"
+FunctionText[56]="Mostra i punteggi MP"
+FunctionText[57]="Invia il messaggio alla squadra"
+FunctionText[58]="Invia il messaggio a tutti"
+FunctionText[59]="Attiva il menu delle abilità MP"
+FunctionText[60]="Mostra i dettagli delle vittime MP"
+keyDisplayNames[0]="(inputKey=IK_LeftMouse,displayName="Pulsante sinistro del mouse")"
+keyDisplayNames[1]="(inputKey=IK_RightMouse,displayName="Pulsante destro del mouse")"
+keyDisplayNames[2]="(inputKey=IK_MiddleMouse,displayName="Pulsante mediano del mouse")"
+keyDisplayNames[3]="(inputKey=IK_CapsLock,displayName="Bloc Maiusc")"
+keyDisplayNames[4]="(inputKey=IK_PageUp,displayName="PagSu")"
+keyDisplayNames[5]="(inputKey=IK_PageDown,displayName="PagGiù")"
+keyDisplayNames[6]="(inputKey=IK_PrintScrn,displayName="Stampa")"
+keyDisplayNames[7]="(inputKey=IK_GreyStar,displayName="Asterisco tastierino")"
+keyDisplayNames[8]="(inputKey=IK_GreyPlus,displayName="Più tastierino")"
+keyDisplayNames[9]="(inputKey=IK_GreyMinus,displayName="Meno tastierino")"
+keyDisplayNames[10]="(inputKey=IK_GreySlash,displayName="Barra tastierino")"
+keyDisplayNames[11]="(inputKey=IK_NumPadPeriod,displayName="Virgola tastierino")"
+keyDisplayNames[12]="(inputKey=IK_NumLock,displayName="Bloc Num")"
+keyDisplayNames[13]="(inputKey=IK_ScrollLock,displayName="Bloc Scorr")"
+keyDisplayNames[14]="(inputKey=IK_LShift,displayName="Maiusc sinistro")"
+keyDisplayNames[15]="(inputKey=IK_RShift,displayName="Maiusc destro")"
+keyDisplayNames[16]="(inputKey=IK_LControl,displayName="Ctrl sinistro")"
+keyDisplayNames[17]="(inputKey=IK_RControl,displayName="Ctrl destro")"
+keyDisplayNames[18]="(inputKey=IK_MouseWheelUp,displayName="Rotella mouse su")"
+keyDisplayNames[19]="(inputKey=IK_MouseWheelDown,displayName="Rotella mouse giù")"
+keyDisplayNames[20]="(inputKey=IK_MouseX,displayName="Mouse X")"
+keyDisplayNames[21]="(inputKey=IK_MouseY,displayName="Mouse Y")"
+keyDisplayNames[22]="(inputKey=IK_MouseZ,displayName="Mouse Z")"
+keyDisplayNames[23]="(inputKey=IK_MouseW,displayName="Mouse W")"
+keyDisplayNames[24]="(inputKey=IK_LeftBracket,displayName="'")"
+keyDisplayNames[25]="(inputKey=IK_RightBracket,displayName="ì")"
+keyDisplayNames[26]="(inputKey=IK_SingleQuote,displayName="à")"
+keyDisplayNames[27]="(inputKey=IK_Joy1,displayName="Pulsante joystick 1")"
+keyDisplayNames[28]="(inputKey=IK_Joy2,displayName="Pulsante joystick 2")"
+keyDisplayNames[29]="(inputKey=IK_Joy3,displayName="Pulsante joystick 3")"
+keyDisplayNames[30]="(inputKey=IK_Joy4,displayName="Pulsante joystick 4")"
+keyDisplayNames[31]="(inputKey=IK_JoyX,displayName="Joystick X")"
+keyDisplayNames[32]="(inputKey=IK_JoyY,displayName="Joystick Y")"
+keyDisplayNames[33]="(inputKey=IK_JoyZ,displayName="Joystick Z")"
+keyDisplayNames[34]="(inputKey=IK_JoyR,displayName="Joystick R")"
+keyDisplayNames[35]="(inputKey=IK_JoyU,displayName="Joystick U")"
+keyDisplayNames[36]="(inputKey=IK_JoyV,displayName="Joystick V")"
+keyDisplayNames[37]="(inputKey=IK_JoyPovUp,displayName="Cappello joystick su")"
+keyDisplayNames[38]="(inputKey=IK_JoyPovDown,displayName="Cappello joystick giù")"
+keyDisplayNames[39]="(inputKey=IK_JoyPovLeft,displayName="Cappello joystick sinistra")"
+keyDisplayNames[40]="(inputKey=IK_JoyPovRight,displayName="Cappello joystick destra")"
+keyDisplayNames[41]="(inputKey=IK_Ctrl,displayName="CTRL")"
+keyDisplayNames[42]="(inputKey=IK_Left,displayName="Freccia sinistra")"
+keyDisplayNames[43]="(inputKey=IK_Right,displayName="Freccia destra")"
+keyDisplayNames[44]="(inputKey=IK_Up,displayName="Freccia su")"
+keyDisplayNames[45]="(inputKey=IK_Down,displayName="Freccia giù")"
+keyDisplayNames[46]="(inputKey=IK_Insert,displayName="Ins")"
+keyDisplayNames[47]="(inputKey=IK_Home,displayName="Home")"
+keyDisplayNames[48]="(inputKey=IK_Delete,displayName="Canc")"
+keyDisplayNames[49]="(inputKey=IK_End,displayName="Fine")"
+keyDisplayNames[50]="(inputKey=IK_NumPad0,displayName="0 tastierino")"
+keyDisplayNames[51]="(inputKey=IK_NumPad1,displayName="1 tastierino")"
+keyDisplayNames[52]="(inputKey=IK_NumPad2,displayName="2 tastierino")"
+keyDisplayNames[53]="(inputKey=IK_NumPad3,displayName="3 tastierino")"
+keyDisplayNames[54]="(inputKey=IK_NumPad4,displayName="4 tastierino")"
+keyDisplayNames[55]="(inputKey=IK_NumPad5,displayName="5 tastierino")"
+keyDisplayNames[56]="(inputKey=IK_NumPad6,displayName="6 tastierino")"
+keyDisplayNames[57]="(inputKey=IK_NumPad7,displayName="7 tastierino")"
+keyDisplayNames[58]="(inputKey=IK_NumPad8,displayName="8 tastierino")"
+keyDisplayNames[59]="(inputKey=IK_NumPad9,displayName="9 tastierino")"
+keyDisplayNames[60]="(inputKey=IK_Period,displayName="Punto")"
+keyDisplayNames[61]="(inputKey=IK_Comma,displayName="Virgola")"
+keyDisplayNames[62]="(inputKey=IK_Backslash,displayName="Indietro")"
+keyDisplayNames[63]="(inputKey=IK_Semicolon,displayName="è")"
+keyDisplayNames[64]="(inputKey=IK_Equals,displayName="+")"
+keyDisplayNames[65]="(inputKey=IK_Slash,displayName="ù")"
+keyDisplayNames[66]="(inputKey=IK_Enter,displayName="Invio")"
+keyDisplayNames[67]="(inputKey=IK_Alt,displayName="Alt GR")"
+keyDisplayNames[68]="(inputKey=IK_Backspace,displayName="Backspace")"
+keyDisplayNames[69]="(inputKey=IK_Shift,displayName="Maiuscolo")"
+keyDisplayNames[70]="(inputKey=IK_Space,displayName="Spazio")"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+NoneText="[Niente]"
+
+[NanoKeyRing]
+NoKeys="Nessuna nano-chiave disponibile!"
+KeysAvailableLabel="Nanochiavi disponibili:"
+ItemName="Nanochiave"
+ItemArticle=" "
+Description="Una nano-chiave può leggere e memorizzare i percorsi molecolari a due dimensioni di diverse chiavi, ricreandoli poi al momento della necessità."
+beltDescription="NANOCHIAVE"
+
+[SkilledTool]
+CountLabel="Utilizza:"
+
+[ComputerScreenEmail]
+NoEmailTodayText="Nessuna E-mail oggi!"
+EmailFromHeader="Da:"
+EmailToHeader="A:"
+EmailCarbonCopyHeader="CC:"
+EmailSubjectHeader="Sogg:"
+HeaderFromLabel="Da"
+HeaderSubjectLabel="Soggetto"
+Title="E-mail"
+ComputerNodeFunctionLabel="E-mail"
+
+[Ammo762mm]
+ItemName="Proiettile 7.62x51mm"
+ItemArticle=" "
+Description="Le munizioni 7.62x51mm (NATO) sono largamente usate dalle unità anti-terrorismo dotate di fucili d'assalto per il combattimento ravvicinato e, col passare del tempo, sono state adottate da tutte le forze di sicurezza nazionali che utilizzano armi di pronto impiego."
+beltDescription="MUN. 7.62"
+
+[Flare]
+ExpireMessage="È già stato usato"
+ItemName="Razzo"
+Description="Un razzo."
+beltDescription="RAZZO"
+
+[ComputerScreenHack]
+HackButtonLabel="|&Violare"
+ReturnButtonLabel="|&Invio"
+HackReadyLabel="ICE Breaker pronto..."
+HackInitializingLabel="Inizializzazione ICE Breaker..."
+HackSuccessfulLabel="Violazione ICE Breaker riuscita..."
+HackDetectedLabel="***ATTENZIONE***|nVIOLAZIONE RILEVATA!"
+MPHackInitializingLabel="Violazione della sicurezza... Premi ESC per interrompere l'operazione"
+
+[Barrel1]
+ItemName="Barile"
+
+[BioelectricCell]
+msgRecharged="Ricaricati %d punti"
+RechargesLabel="Ricarica %d unità di energia"
+ItemName="Cellula bio-elettrica"
+Description="Una cellula bio-elettrica fornisce una scorta di energia pronta per essere utilizzata da diversi dispositivi.|n|n<FILE OPERATIVO UNATCO NOTA JR289-VIOLA> Gli agenti potenziati sono dotati di un'interfaccia che gli permette di assorbire energia direttamente dalle cellule bio-elettriche.  -- Jaime Reyes <FINE NOTA>"
+beltDescription="BIO-CELLULA"
+
+[AugmentationCannister]
+AugsAvailable="Aggiungi contenitore:"
+MustBeUsedOn="Può essere installato solo con l'aiuto di un MedBot."
+ItemName="Contenitore di potenziamento"
+ItemArticle=" "
+Description="Un contenitore di potenziamento contiene dei moduli ROM in meccano-carbonio sospesi in un apposito siero. Quando sono iniettati in un agente compatibile, questi moduli potenziano l'individuo con delle capacità sovrumane.  La programmazione di questi potenziamenti deve essere condotta da un MedBot, oppure potrebbero verificarsi ferite letali. Per ulteriori informazioni, leggi "Il volto dell'Uomo Nuovo", di Kelley Chance."
+beltDescription="CON POT"
+
+[PersonaSkillButtonWindow]
+NotAvailableLabel="N/D"
+
+[PaulDenton]
+FamiliarName="Paul Denton"
+UnfamiliarName="Paul Denton"
+
+[BobPage]
+FamiliarName="Bob Page"
+UnfamiliarName="Bob Page"
+
+[MJ12Troop]
+FamiliarName="Soldato MJ12"
+UnfamiliarName="Soldato MJ12"
+
+[NanoKey]
+ItemName="Nanochiave"
+Description="DESCRIZIONE CHIAVE ASSENTE - SEGNALARE COME BUG!"
+beltDescription="NANO"
+
+[TAD]
+ItemName="Segreteria telefonica"
+
+[Credits]
+msgCreditsAdded="%d crediti aggiunti"
+ItemName="Nota di credito"
+beltDescription="CREDITI"
+
+[PersonaScreenGoals]
+GoalsTitleText="Obiettivi"
+PrimaryGoalsHeader="Obiettivi primari"
+SecondaryGoalsHeader="Obiettivi secondari"
+DisplayCompletedGoals="Mostra obiettivi |&completati"
+NoGoalsLabel="Nessuno"
+GoalCompletedText="[Completato]"
+NotesTitleText="Note"
+defaultNoteText="Nuova nota"
+ClickToEditNote="Clicca su una nota per modificarla:"
+DeleteNoteTitle="Elimina nota?"
+DeleteNotePrompt="Sei sicuro di voler eliminare questa nota?"
+AddButtonLabel="Aggiungi |&nota"
+DeleteButtonLabel="|&Elimina nota"
+ConfirmNoteDeletionLabel="Conferma eliminazione nota"
+
+[Greasel]
+FamiliarName="Greasel"
+UnfamiliarName="Greasel"
+
+[PersonaScreenLogs]
+LogsTitleText="Registri"
+ClearButtonLabel="|&Svuota"
+
+[AugmentationUpgradeCannister]
+MustBeUsedOn="Dev'essere usato nella schermata dei potenziamenti."
+ItemName="Contenitore di aggiornamento"
+ItemArticle=" "
+Description="Un contenitore di aggiornamento contiene dei nano-meccanismi specializzati che, combinati con un modulo pre-programmato, possono migliorare l'efficienza di un dato potenziamento. Dal momento che non è necessaria alcuna programmazione, questi contenitori possono essere usati direttamente dagli agenti addestrati con un rischio minimo."
+beltDescription="CON AGG"
+
+[HKIncenseBurner]
+ItemName="Incensiere"
+
+[PersonaImageWindow]
+strNoImages="Nessun'immagine disponibile"
+PressSpace="Premi [ESC] quando hai finito di modificare la nota"
+EscapeToCancel="Clicca sull'immagine per creare una nota, premi [ESC] per annullare."
+NewNoteLabel="Nuova nota"
+
+[FireExtinguisher]
+ItemName="Estintore"
+Description="Un estintore chimico."
+beltDescription="ESTINT."
+
+[AugLight]
+AugmentationName="Luce"
+Description="Delle cellule bio-luminescenti nella retina forniscono un'illuminazione ottimale del campo visivo dell'agente.|n|nNESSUN POTENZIAMENTO."
+
+[ComputerScreenHackAccounts]
+ChangeAccountButtonLabel="|&Cambia conto"
+AllAccountsHeader="Conti di tutti gli utenti"
+CurrentAccountHeader="Utente attuale"
+
+[AmmoShell]
+ItemName="Proiettili calibro 12 a pallettoni"
+ItemArticle=" "
+Description="Proiettile calibro 12 standard per fucile: molto efficace nel combattimento ravvicinato, ma inutile contro una corazza protettiva."
+beltDescription="PALLETTONI"
+
+[AnnaNavarre]
+FamiliarName="Anna Navarre"
+UnfamiliarName="Anna Navarre"
+
+[HUDMedBotAddAugsScreen]
+AvailableAugsText="Potenziamenti disponibili"
+MedbotInterfaceText="INTERFACCIA DEL MEDBOT"
+InstallButtonLabel="|&Installa"
+NoCansAvailableText="Nessun contentitore di potenziamento disponibile!"
+AlreadyHasItText="Hai già questo potenziamento, non puoi installarlo di nuovo."
+SlotFullText="Lo spazio destinato a questo potenziamento è già occupato, non puoi installarlo."
+SelectAnotherText="Seleziona un altro potenziamento da installare."
+
+[CleanerBot]
+FamiliarName="Bot delle pulizie"
+UnfamiliarName="Bot delle pulizie"
+
+[Button1]
+ItemName="Pulsante"
+
+[MenuScreenThemesLoad]
+LoadHelpText="Scegli il tema di colore da caricare"
+Title="Carica tema"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_Other,Text="|&Carica tema",Key="LOAD")"
+
+[ComputerScreenATMWithdraw]
+ButtonLabelWithdraw="|&Prelievo"
+ButtonLabelClose="|&Chiudi"
+BalanceLabel="Saldo attuale:"
+WithdrawAmountLabel="Cifra da prelevare:"
+InstructionText="Conto #: %d|nInserisci la cifra in|ncrediti che vuoi prelevare."
+InvalidAmountLabel="CIFRA INSERITA NON VALIDA"
+InsufficientCreditsLabel="CREDITI INSUFFICIENTI"
+CreditsWithdrawnLabel="CREDITI PRELEVATI"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[wd]"
+HackedText="TERMINALE VIOLATO"
+Title="PageNet - Sistema Bancario Globale"
+ComputerNodeFunctionLabel="ATMWD"
+
+[Ammo10mm]
+ItemName="Proiettile da 10 mm"
+ItemArticle=" "
+Description="Grazie al loro elevato potere di arresto e al limitato rinculo, le pistole che utilizzano i proiettili da 10 mm sono di uso comune nelle forze paramilitari di tutto il mondo."
+beltDescription="MUN. 10 MM"
+
+[ComputerScreenSpecialOptions]
+SecurityButtonLabel="|&Sicurezza"
+EmailButtonLabel="|&E-mail"
+Title="Opzioni speciali"
+ComputerNodeFunctionLabel="Opzioni speciali"
+
+[BumMale]
+FamiliarName="Vagabondo"
+UnfamiliarName="Vagabondo"
+
+[Lockpick]
+ItemName="Grimaldello"
+Description="Un grimaldello per scassinare. La base è in acciaio, ma le sporgenze necessarie sono create con polimeri a congelamento rapido.|n|n<FILE OPERATIVO UNATCO NOTA AJ006-NERO> Nonostante tutto quello che si dice in giro, un grimaldello è in grado di scassinare qualsiasi porta, con l'eccezione di quelle con le più sofisticate nano-serrature.  -- Alex Jacobson <FINE NOTA>"
+beltDescription="GRIMALDELLO"
+
+[ComputerScreenBulletins]
+NoBulletinsTodayText="Nessuna novità oggi!"
+BulletinsHeaderText="Scegli il notiziario da esaminare:"
+Title="Notiziari"
+ComputerNodeFunctionLabel="Notiziari"
+
+[PersonaHealthActionButtonWindow]
+HealButtonLabel="Cura"
+
+[MenuUIMessageBoxWindow]
+btnLabelYes="|&Sì"
+btnLabelNo="|&No"
+btnLabelOK="|&OK"
+btnLabelCancel="|&Annulla"
+
+[WeaponPistol]
+ItemName="Pistola"
+Description="Una normale pistola 10 mm."
+beltDescription="PISTOLA"
+
+[Multitool]
+ItemName="m-strumento"
+Description="Strumento elettronico multiuso. Utilizzando il rilevamento della risonanza elettro-magnetica e la modulazione di frequenza per alterare il flusso della corrente in un circuito, gli agenti più abili possono usare i multi-strumenti per manipolare serrature, telecamere, torrette automatiche, allarmi e altri sistemi di sicurezza."
+beltDescription="M-STRUM"
+
+[SecurityBot3]
+FamiliarName="Bot di sicurezza"
+UnfamiliarName="Bot di sicurezza"
+
+[MenuChoice_Resolution]
+helpText="Cambia la risoluzione video"
+actionText="|&Risoluzione"
+
+[PersonaItemDetailIconWindow]
+CountLabel="Conto: %d"
+
+[VendingMachine]
+msgDispensed="2 crediti sottratti dal tuo conto"
+msgNoCredits="Costo: 2 crediti..."
+msgEmpty="Vuoto"
+ItemName="Distributore"
+
+[PersonaScreenSkills]
+SkillsTitleText="Abilità"
+UpgradeButtonLabel="|&Aumenta"
+PointsNeededHeaderText="Punti necessari"
+SkillLevelHeaderText="Livello abilità"
+SkillPointsHeaderText="Punti abilità"
+SkillUpgradedLevelLabel="%s - aumento"
+
+[JaimeReyes]
+FamiliarName="Jaime Reyes"
+UnfamiliarName="Jaime Reyes"
+
+[WeaponCombatKnife]
+ItemName="Coltello da guerra"
+Description="Un coltello in acciaio al carbonio."
+beltDescription="COLTELLO"
+
+[Switch2]
+ItemName="Interruttore"
+
+[ShowerHead]
+ItemName="Fondo della doccia"
+
+[ComputerSecurity]
+ItemName="Terminale di sicurezza"
+
+[TrashPaper]
+ItemName="Carta"
+
+[HUDMedBotAugCanWindow]
+AugContainsText="Contiene:|n"
+
+[AugDefense]
+AugmentationName="Difesa aggressiva"
+Description="Nano-particelle di aerosol sono rilasciate non appena viene rilevato un oggetto che risponde al profilo elettromagnetico di missili o granate. Queste nano-particelle provocano l'esplosione di tale oggetto prima che esso colpisca l'agente.|n|nLIVELLO UNO: la distanza di esplosione di missili e granate è ravvicinata.|n|nLIVELLO DUE: la distanza di detonazione aumenta leggermente.|n|nLIVELLO TRE: la distanza di detonazione aumenta ulteriormente.|n|nLIVELLO QUATTRO: razzi e granate esplodono subito dopo il lancio."
+MPInfo="Quando è attivo, le esplosioni vicine dei razzi nemici ti danneggiano solo lievemente. Alcuni razzi grandi possono arrivare troppo vicino e infliggerti parecchi danni esplodendo. Consumo di energia: basso"
+
+[CigaretteMachine]
+msgDispensed="8 crediti sottratti dal tuo conto"
+msgNoCredits="Costo: 8 crediti..."
+msgEmpty="Vuoto"
+ItemName="Distributore di sigarette"
+
+[RiotCop]
+FamiliarName="Poliziotto anti-sommossa"
+UnfamiliarName="Poliziotto anti-sommossa"
+
+[Fly]
+FamiliarName="Mosca"
+UnfamiliarName="Mosca"
+
+[Gray]
+FamiliarName="Grigio"
+UnfamiliarName="Grigio"
+
+[ComputerScreenLogin]
+UserNameLabel="Nome utente"
+PasswordLabel="Password"
+InvalidLoginMessage="ERRORE NEL LOGIN - ACCESSO NEGATO"
+Title="Benvenuto - %s"
+ComputerNodeFunctionLabel="Login"
+
+[Poolball]
+ItemName="Palla da biliardo"
+
+[HUDMedBotNavBarWindow]
+HealthButtonLabel="   |&Salute   "
+AugsButtonLabel="   |&Potenziamenti   "
+
+[SandraRenton]
+FamiliarName="Sandra Renton"
+UnfamiliarName="Sandra Renton"
+
+[AmmoDart]
+ItemName="Dardi"
+ItemArticle=" "
+Description="Il dardo della mini-balestra è l'arma ideale per molte operazioni segrete. Per uccidere in silenzio, però, bisogna essere molto abili."
+beltDescription="DARDO"
+
+[ComputerScreenATM]
+AccountLabel="Conto #:"
+PinLabel="PIN #:"
+LoginInfoText="Inserisci il tuo # di conto e il PIN"
+WarningText="ATTENZIONE: l'accesso non autorizzato sarà punito con la forza!"
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[login]"
+InvalidLoginMessage="ERRORE NEL LOGIN, ACCESSO NEGATO"
+Title="PageNet - Sistema Bancario Globale"
+
+[WeaponAssaultGun]
+ItemName="Fucile d'assalto"
+ItemArticle=" "
+Description="Il fucile d'assalto da 7.62x51 mm è pensato per il combattimento ravvicinato. Utilizza una canna corta e un design studiato per aumentarne la maneggevolezza. Un lanciatore HE addizionale da 20 mm migliora le capacità del fucile contro una vasta gamma di bersagli."
+beltDescription="ASSALTO"
+
+[ComputerScreenATMDisabled]
+ButtonLabelClose="Chiudi"
+LoginInfoText="Spiacenti, ma questo terminale è fuori servizio (ERR 06MJ12)|n|nCi scusiamo per l'inconveniente e ti invitiamo a servirti di uno qualsiasi degli altri 231.000 terminali PageNet sparsi per il mondo."
+StatusText="PNGBS//GLOBAL//PUB:3902.9571[dsbld]"
+Title="PageNet - Sistema Bancario Globale"
+
+[MenuChoice_Volume]
+VolumeOffText="NO"
+VolumeMaxText="MAX"
+
+[PersonaInventoryCreditsWindow]
+CreditsLabel="Crediti"
+
+[ThugMale]
+FamiliarName="Delinquente"
+UnfamiliarName="Delinquente"
+
+[MenuScreenBrightness]
+HelpMessage="Regola l'indicatore per aumentare o diminuire la luminosità dello schermo."
+Title="Regola luminosità"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuMain]
+Title="Benvenuto in DEUS EX"
+ButtonNames[0]="Nuova partita"
+ButtonNames[1]="Salva partita"
+ButtonNames[2]="Carica partita"
+ButtonNames[3]="Impostazioni"
+ButtonNames[4]="Addestramento"
+ButtonNames[5]="Introduzione"
+ButtonNames[6]="Riconoscimenti"
+ButtonNames[7]="Torna al gioco"
+ButtonNames[8]="MP"
+ButtonNames[9]="Esci"
+
+[LAM]
+ItemName="Munizione d'attacco leggera (LAM)"
+
+[Cigarettes]
+ItemName="Sigarette"
+ItemArticle=" "
+Description="'COUGHING NAILS - quando ti sei appena fumato una sigaretta.'"
+beltDescription="SIGA"
+
+[WeaponModAccuracy]
+ModStringBase="Aumenta la precisione di "
+ItemName="Modifica all'arma (precisione)"
+Description="Quando viene collegata alla canna della maggior parte delle armi da fuoco, questo bilanciatore armonico riduce il movimento verticale provocato dalla partenza del proiettile, portando così a una maggiore precisione.|n|n<FILE OPERATIVO UNATCO NOTA SC108-BLU> Qualsiasi arma che genera delle vibrazioni può essere modificata con un bilanciere, che è in grado di funzionare anche con le mini-balestre e con i prototipi di arma al plasma.  -- Sam Carter <FINE NOTA>"
+beltDescription="MOD PRECIS"
+
+[WeaponModRecoil]
+ItemName="Modifica all'arma (rinculo)"
+Description="Un cuscinetto di materiale policellulare smorzante riduce significativamente la percezione del rinculo."
+beltDescription="MOD RINCUL"
+
+[WeaponModReload]
+ItemName="Modifica all'arma (ricarica)"
+Description="Questo strumento riduce il tempo necessario per ricaricare un'arma."
+beltDescription="MOD RICAR"
+
+[EMPGrenade]
+ItemName="Granata a impulso elettrom. (EMP)"
+
+[NanoVirusGrenade]
+ItemName="Granata d'assalto"
+
+[WeaponSword]
+ItemName="Spada"
+Description="Una spada dall'aspetto pericoloso."
+beltDescription="SPADA"
+
+[WeaponCrowbar]
+ItemName="P. di porco"
+Description="Un piede di porco. Colpire qualcuno o qualcosa. Ripetere.|n|n<FILE OPERATIVO UNATCO NOTA GH010-BLU> Il piede di porco è un'arma da non sottovalutare. Portane sempre uno con te in combattimento. Ach. -- Gunther Hermann <FINE NOTA>"
+beltDescription="P. DI PORCO"
+
+[TracerTong]
+FamiliarName="Tracer Tong"
+UnfamiliarName="Tracer Tong"
+
+[WIB]
+FamiliarName="Donna in nero"
+UnfamiliarName="Donna in nero"
+
+[MIB]
+FamiliarName="Uomo in nero"
+UnfamiliarName="Uomo in nero"
+
+[AugMuscle]
+AugmentationName="Microfibre muscolari"
+Description="La potenza muscolare viene amplificata con un gel a polimeri ionici che permette all'agente di spingere e sollevare oggetti straordinariamente pesanti.|n|nLIVELLO UNO: la forza aumenta leggermente.|n|nLIVELLO DUE: la forza aumenta moderatamente.|n|nLIVELLO TRE: la forza aumenta significativamente.|n|nLIVELLO QUATTRO: l'agente acquisisce una forza sovrumana."
+MPInfo="Quando è attivo, puoi raccogliere le casse grandi. Consumo di energia: basso"
+
+[DeathMatchGame]
+TooManyPlayers="Troppi giocatori"
+VictoryConString1="Obiettivo: il primo giocatore che totalizza "
+VictoryConString2=" vittime, vince la partita."
+TimeLimitString1="Obiettivo: totalizzare il numero maggiore di vittime prima che il tempo ( "
+TimeLimitString2=" ) si esaurisca!"
+
+[Rat]
+FamiliarName="Ratto"
+UnfamiliarName="Ratto"
+
+[Karkian]
+FamiliarName="Karkian"
+UnfamiliarName="Karkian"
+
+[AlarmLight]
+ItemName="Luce d'allarme"
+
+[Cat]
+FamiliarName="Gatto"
+UnfamiliarName="Gatto"
+
+[Cart]
+ItemName="Trasporto pubblico"
+
+[WaterCooler]
+msgEmpty="È senza acqua"
+ItemName="Raffreddatore"
+
+[WaterFountain]
+msgEmpty="È senza acqua"
+ItemName="Fontanella"
+
+[MiniSub]
+ItemName="Mini-sottomarino"
+
+[Dart]
+ItemName="Dardo"
+ItemArticle="una"
+
+[Ammo3006]
+ItemName="Proiett 3006"
+ItemArticle=" "
+Description="L'alta velocità e la precisione hanno fatto dei fucili di precisione che utilizzano le munizioni da 30.06 l'arma preferita dei cecchini da oltre cinquant'anni."
+beltDescription="MUN. 3006"
+
+[TechGoggles]
+ExpireMessage="Energia lenti elettroniche esaurita"
+ItemName="Lenti elettroniche"
+ItemArticle=" "
+Description="Le lenti elettroniche sono usate da molte forze speciali di tutto il mondo in molti tipi diversi: esse però forniscono tutte un'amplificazione della luce e delle capacità di zoom digitale dell'immagine, nel corpo di un meccanismo pratico e leggero."
+beltDescription="LENTI"
+
+[MorganEverett]
+FamiliarName="Morgan Everett"
+UnfamiliarName="Morgan Everett"
+
+[MenuChoice_ObjectTextureDetail]
+helpText="Modifica il dettaglio delle texture degli oggetti"
+actionText="Dettaglio texture |&oggetti"
+configSetting="ini:Engine.Engine.ViewportManager SkinDetail"
+enumText[0]="Basso"
+enumText[1]="Alto"
+englishEnumText[0]="Basso"
+englishEnumText[1]="Alto"
+
+[MenuChoice_WorldTextureDetail]
+helpText="Modifica il dettaglio delle texture degli sfondi"
+actionText="Dettaglio texture |&mondo"
+configSetting="ini:Engine.Engine.ViewportManager TextureDetail"
+
+[MenuChoice_DetailTextures]
+helpText="Riducendo il dettaglio delle texture si può rendere il gioco più veloce sui computer meno potenti."
+actionText="Dettaglio t|&exture"
+configSetting="ini:Engine.Engine.GameRenderDevice DetailTextures"
+
+[MenuChoice_Decals]
+helpText="Riducendo il dettaglio delle decalcomanie si può rendere il gioco più veloce sui computer meno potenti."
+actionText="Decalcoman|&ie"
+configSetting="ini:Engine.Engine.ViewportManager Decals"
+
+[MenuChoice_MouseSensitivity]
+helpText="Modifica la sensibilità del mouse"
+actionText="|&Sensibilità del mouse"
+
+[MenuChoice_MaxLogLines]
+helpText="Numero massimo di linee di registro visibili su schermo in un dato momento."
+actionText="Max. linee registro"
+
+[MenuChoice_LogTimeoutValue]
+msgSecond="s"
+helpText="Decidi per quanto tempo i messaggi rimangono visibili su schermo."
+actionText="Valore tempora|&le registro"
+
+[HKMilitary]
+FamiliarName="Esercito cinese"
+UnfamiliarName="Esercito cinese"
+
+[NicoletteDuClare]
+FamiliarName="Nicolette DuClare"
+UnfamiliarName="Nicolette DuClare"
+
+[ThugMale2]
+FamiliarName="Delinquente"
+UnfamiliarName="Delinquente"
+
+[AdaptiveArmor]
+ExpireMessage="Energia mimetizzazione termo-ottica esaurita"
+ItemName="Mimetizzazione termo-ottica"
+ItemArticle=" "
+Description="Integrando delle speciali fibre ottiche e un avanzato sistema computerizzato, la mimetizzazione termo-ottica può rendere invisibile un agente tanto agli occhi umani quanto ai bot, deviando la luce e le onde radar. L'elevato consumo energetico del dispositivo lo rende disponibile però solo per un periodo di tempo limitato, al termine del quale i circuiti interni si fondo, rendendolo inutilizzabile."
+beltDescription="MIME TEOT"
+
+[AugRadarTrans]
+AugmentationName="Invisibilità radar"
+Description="Una resina radar-assorbente prodotta alterando geneticamente le cellule dell'epidermide respinge le emissioni dei radar di buona parte dei bot in servizio.|n|nLIVELLO UNO: il consumo energetico è normale.|n|nLIVELLO DUE: il consumo energetico è leggermente ridotto.|n|nLIVELLO TRE: il consumo energetico è moderatamente ridotto.|n|nLIVELLO QUATTRO: il consumo energetico è significativamente ridotto."
+MPInfo="Quando è attivo, diventi invisibile davanti ai dispositivi elettronici come le telecamere, le torrette di sorveglianza e le mine antiuomo. Consumo di energia: bassissimo"
+
+[MenuChoice_SoundQuality]
+RestartTitle="Qualità audio"
+RestartMessage="Questa modifica sarà effettiva al riavvio di Deus Ex."
+helpText="Il sonoro a 16 bit è di maggior qualità ma utilizza una memoria doppia rispetto al sonoro a 8 bit. Se il tuo computer ha poca memoria, usa l'audio a 8 bit."
+actionText="|&Qualità audio"
+configSetting="ini:Engine.Engine.AudioDevice LowSoundQuality"
+enumText[0]="8 bit"
+enumText[1]="16 bit"
+
+[AmmoSabot]
+ItemName="Proiettili calibro 12 da guastatore"
+ItemArticle=" "
+Description="Un proiettile calibro 12 con un nucleo di tungsteno che può sfondare di tutto, con l'eccezione delle più robuste corazze in acciaio a breve distanza. Il suo profilo balistico provoca però danni limitati ai bersagli meno rigidi."
+beltDescription="GUAST"
+
+[MenuChoice_TextureColorBits]
+RestartMessage="Questa modifica sarà effettiva al riavvio di Deus Ex."
+helpText="Determina la qualità delle texture. Le texture a 32 bit sono le migliori, se il tuo hardware le supporta."
+actionText="Profondità colore |&texture"
+configSetting="ini:Engine.Engine.ViewportManager FullscreenColorBits"
+enumText[0]="16 bit"
+enumText[1]="32 bit"
+
+[Binoculars]
+ItemName="Binocolo"
+ItemArticle=" "
+Description="Un binocolo militare."
+beltDescription="Binocolo"
+
+[Liquor40oz]
+ItemName="Forty"
+Description="Il liquore al malto che fa la differenza.  Non potrai mai dimenticarlo."
+beltDescription="FORTY"
+
+[LiquorBottle]
+ItemName="Liquore"
+ItemArticle=" "
+Description="L'etichetta è strappata, ma sembra di buona qualità."
+beltDescription="LIQUORE"
+
+[ComputerPublic]
+ItemName="Terminale pubblico"
+
+[WeaponModClip]
+ItemName="Modifica all'arma (caricatore)"
+Description="Un caricatore aumentato, che permette di disporre di più proiettili di quelli originariamente previsti per l'arma."
+beltDescription="MOD CARIC"
+
+[VialCrack]
+ItemName="Fiala di zyme"
+Description="Una fila di zyme, tagliata in qualche laboratorio clandestino."
+beltDescription="ZYME"
+
+[HazMatSuit]
+ExpireMessage="Riserva energetica della tuta HazMat esaurita"
+ItemName="Tuta Hazmat"
+Description="Tuta standard per ambienti pericolosi, effettiva contro un grande numero di minacce ambientali come radiazioni, fuoco, tossine biochimiche, elettricità e impulsi EMP. Le tute Hazmat sono dotate di un generatore di ossigeno batteriologico che si consuma col passare del tempo e non può essere ricaricato."
+beltDescription="HAZMAT"
+
+[WeaponModRange]
+ItemName="Modifica all'arma (portata)"
+Description="Lubrificando la bocca di fuoco con del fluido sinoviale sintetico si riduce di molto la resistenza all'uscita del proiettile, aumentando di conseguenza la sua portata.|n|n<FILE OPERATIVO UNATCO NOTA SC111-BLU> Anche immergendo il sistema primario delle valvole di un lanciafiamme o di un'arma al plasma nel fluido sinoviale si ottiene un aumento della portata, dopo aver dato pressione al sistema di lancio. Un piccolo trucco imparato sul campo. -- Sam Carter <FINE NOTA>"
+beltDescription="MOD PORT"
+
+[PersonaImageNewLegendLabel]
+NewLegendLabel=" = nuova immagine"
+
+[BallisticArmor]
+ExpireMessage="Energia della corazza balistica esaurita"
+ItemName="Corazza balistica"
+ItemArticle=" "
+Description="La corazza balistica è composta da polimeri sensibili all'elettricità che reagiscono intrinsecamente all'impatto violento di un proiettile o di un'esplosione 'stringendosi' e, così facendo, assorbendo una buona parte del danno. Questi polimeri devono essere caricati prima dell'uso; una volta dissipata la carica, essi perdono le loro capacità protettive e devono essere sostituiti."
+beltDescription="COR BAL"
+
+[MenuChoice_EffectsChannels]
+helpText="Numero di canali degli effetti sonori"
+actionText="Canali |&effetti"
+configSetting="ini:Engine.Engine.AudioDevice EffectsChannels"
+
+[SkillAwardTrigger]
+awardMessage="MESSAGGIO DI AVVISO ABILITÀ STANDARD - SEGNALARE COME BUG"
+
+[Shuriken]
+ItemName="Coltelli da lancio"
+ItemArticle="una"
+
+[ShipsWheel]
+ItemName="Timone della nave"
+
+[AmmoRocket]
+ItemName="Razzi"
+ItemArticle=" "
+Description="Un razzo con stabilizzatore giroscopico, dotato di un limitato sistema di guida per correzioni di rotta durante il volo. Progettato per l'uso con il fucile GEP."
+beltDescription="RAZZO"
+
+[CageLight]
+ItemName="Impianto della luce"
+
+[AmmoBattery]
+ItemName="Ricarica per pungolo"
+ItemArticle=" "
+Description="Unità di ricarica portatile per il pungolo anti-rivolta."
+beltDescription="CARIC."
+
+[AugDrone]
+AugmentationName="Drone-spia"
+Description="Appositi nano-fabbricatori possono realizzare un Drone-spia quando necessario. Questo drone può essere controllato a distanza dall'agente finché non viene abbandonato o distrutto. Quando questo avviene, diventa possibile realizzare un nuovo Drone-spia. Ulteriori potenziamenti dotano il Drone-spia di una corazza più resistente e di un singolo attacco EMP.|n|nLIVELLO UNO: il drone può sostenere danni limitati e non è armato.|n|nLIVELLO DUE: il drone può sostenere danni leggeri e dispone di un attacco EMP leggero.|n|nLIVELLO TRE: il drone può sostenere danni moderati e dispone di un attacco EMP medio.|n|nLIVELLO QUATTRO: il drone può sostenere gravi danni e dispone di un potente attacco EMP."
+MPInfo="L'attivazione genera un aeromobile spia telecomandato. L'aeromobile può essere disattivato. Se fai fuoco mentre sei attivo, causi una detonazione dell'aeromobile con una grande esplosione EMP. Consumo di energia: medio"
+
+[Basketball]
+ItemName="Pallone da basket"
+
+[AugCombat]
+AugmentationName="Potenza"
+Description="Dei rotori accelerano la concentrazione di ioni di calcio nel reticolo sarco-plasmatico, potenziando la velocità di contrazione dei muscoli dell'agente e moltiplicando i danni inflitti nel combattimento corpo a corpo.|n|nLIVELLO UNO: l'efficacia delle armi da corpo a corpo è leggermente aumentata.|n|nLIVELLO DUE: l'efficacia delle armi da corpo a corpo è moderatamente aumentata.|n|nLIVELLO TRE: l'efficacia delle armi da corpo a corpo è considerevolmente aumentata.|n|nLIVELLO QUATTRO: le armi da corpo a corpo hanno un effetto quasi sempre letale."
+MPInfo="Quando è attivo, infliggi danni doppi con le armi da combattimento ravvicinato. Consumo di energia: basso"
+
+[AugAqualung]
+AugmentationName="Polmone d'acqua"
+Description="Delle esostrutture in calce sodata, inserite negli alveoli polmonari, convertono la CO2 in O2, prolungando così il tempo di permanenza sott'acqua dell'agente.|n|nLIVELLO UNO: la capacità polmonare è aumentata leggermente.|n|nLIVELLO DUE: la capacità polmonare è aumentata moderatamente.|n|nLIVELLO TRE: la capacità polmonare è aumentata in modo significativo.|n|nLIVELLO QUATTRO: l'agente può restare sott'acqua per un tempo indefinito."
+MPInfo="Quando è attivo, puoi restare sott'acqua 12 volte più a lungo e puoi nuotare due volte più velocemente. Consumo di energia: basso"
+
+[RetinalScanner]
+msgUsed="Accesso consentito"
+ItemName="Scanner retinico"
+
+[WineBottle]
+ItemName="Vino"
+ItemArticle=" "
+Description="Una bella bottiglia di vino."
+beltDescription="VINO"
+
+[Valve]
+ItemName="Valvola"
+
+[LowerClassFemale]
+FamiliarName="Classe inferiore"
+UnfamiliarName="Classe inferiore"
+
+[TerroristCommander]
+FamiliarName="Comandante dei terroristi"
+UnfamiliarName="Comandante dei terroristi"
+
+[GarySavage]
+FamiliarName="Gary Savage"
+UnfamiliarName="Gary Savage"
+
+[SpiderBot]
+FamiliarName="Bot Ragno"
+UnfamiliarName="Bot Ragno"
+
+[StantonDowd]
+FamiliarName="Stanton Dowd"
+UnfamiliarName="Stanton Dowd"
+
+[FordSchick]
+FamiliarName="Ford Schick"
+UnfamiliarName="Ford Schick"
+
+[MenuChoice_RenderDevice]
+PromptTitle="Riavvia Deus Ex?"
+GamePromptMessage="Devi USCIRE da Deus Ex per poter selezionare una scheda 3D. La partita in corso andrà persa se non la salverai prima. Vuoi ancora riavviare?"
+RestartPromptMessage="Devi USCIRE da Deus Ex per poter selezionare una scheda 3D. Vuoi riavviare?"
+helpText="Seleziona la scheda da usare per il rendering 3D. Devi USCIRE da Deus Ex per poter scegliere una scheda 3D."
+actionText="|&Dispositivo di rendering..."
+
+[WeaponModSilencer]
+ItemName="Modifica all'arma (silenziatore)"
+Description="Un silenziatore che riduce il rumore provocato dalla rapida espansione dei gas provocati dalla combustione che spinge il proiettile.|n|n<FILE OPERATIVO UNATCO NOTA SC108-BLU> Ovviamente, il silenziatore serve solo con le armi da fuoco. -- Sam Carter <FINE NOTA>"
+beltDescription="MOD SILEN"
+
+[WeaponModScope]
+ItemName="Modifica all'arma (telescopio)"
+Description="Un mirino telescopico per colpire i bersagli più distanti."
+beltDescription="MOD TELE"
+
+[ScubaDiver]
+FamiliarName="Subacqueo"
+UnfamiliarName="Subacqueo"
+
+[WeaponModLaser]
+ItemName="Modifica all'arma (laser)"
+Description="Un mirino laser che si può usare per anticipare visivamente il punto d'impatto. Bisogna fare attenzione a non farsi scoprire dal bersaglio."
+beltDescription="MOD LASER"
+
+[VialAmbrosia]
+msgNoEffect="Strano...Non succede niente..."
+ItemName="Fiala di Ambrosia"
+ItemArticle=" "
+Description="L'unico vaccino conosciuto contro la 'Morte Grigia'. Purtroppo viene metabolizzato rapidamente dal corpo e i suoi effetti sono temporanei."
+beltDescription="AMBROSIA"
+
+[SoyFood]
+ItemName="Cibo alla soia"
+ItemArticle=" "
+Description="C'è stampato sopra: 'Stagionato in generatori meccano-dinamici, questa TSP (proteina di soia texturizzata) non solo è buona, ma si riscalda da sola una volta aperta la confezione.'"
+beltDescription="CIBO ALLA SOIA"
+
+[Sodacan]
+ItemName="Soda"
+ItemArticle=" "
+Description="La lattina è bianca, c'è solo scritto 'QUI NOME PRODOTTO'. Non si capisce se sia la marca o un'istruzione."
+beltDescription="SODA"
+
+[BookOpen]
+ItemName="Libro"
+
+[Candybar]
+ItemName="Dolcetto"
+Description="SOGNO DI CIOCCO-O-LATO. È CIOCCOLATO! È BUONO! È PER TUTTI!(tm) 85% di materiale riciclato."
+beltDescription="DOLCETTO"
+
+[Rebreather]
+ExpireMessage="Energia respiratore esaurita"
+ItemName="Respiratore"
+Description="Un dispositivo chimico che può ricavare ossigeno dall'acqua per consentire immersioni di breve durata."
+beltDescription="RESPIRATORE"
+
+[MenuChoice_SampleRate]
+helpText="Frequenze di campionamento inferiori riducono il lavoro della CPU e la qualità audio."
+actionText="Frequenz|&a di campionamento"
+configSetting="ini:Engine.Engine.AudioDevice OutputRate"
+enumText[0]="11025 Hz"
+enumText[1]="22050 Hz"
+enumText[2]="44100 Hz"
+RestartTitle="Qualità audio"
+RestartMessage="Questa modifica non diverrà effettiva finché non riavvierai Deus Ex."
+
+[SecurityBot2]
+FamiliarName="Bot di sicurezza"
+UnfamiliarName="Bot di sicurezza"
+
+[AugSpeed]
+AugmentationName="Velocità"
+Description="Un gel a polimeri ionici viene irrorato sui muscoli delle gambe, aumentando la velocità di corsa dell'agente e la sua capacità di salto (viene ridotto anche il danno subito nelle cadute).|n|nLIVELLO UNO: corsa e salti leggermente potenziati, danno da caduta ridotto.|n|nLIVELLO DUE: corsa e salti moderatamente potenziati, danno da caduta ulteriormente ridotto.|n|nLIVELLO TRE: corsa e salti significativamente potenziati, danno da caduta sostanzialmente ridotto.|n|nLIVELLO QUATTRO: l'agente può correre come il vento e può superare con un balzo i più alti edifici."
+MPInfo="Quando è attivo, ti muovi due volte più velocemente e salti due volte più in alto. Consumo di energia: altissimo"
+
+[WeaponNanoVirusGrenade]
+ItemName="Granata d'assalto"
+Description="La detonazione di una granata d'assalto GUARDIAN provoca un violento impulso di disturbo su tutte le frequenze di comando dei bot realizzati dal 2028 in poi. Questa tempesta elettronica porta i bot nel raggio d'azione ad attaccare indiscriminatamente gli altri bot, fino a quando non è possibile ristabilire il controllo. Come le LAM, le granate d'assalto possono essere agganciate a qualsiasi superficie."
+beltDescription="GRAN ASS"
+
+[WeaponEMPGrenade]
+ItemName="Granata a impulso elettrom. (EMP)"
+ItemArticle=" "
+Description="La granata EMP crea un impulso localizzato che disattiva temporaneamente tutti i dispositivi elettronici che si trovano nella zona di effetto, compresi sistemi di sicurezza e telecamere.|n|n<FILE OPERATIVO UNATCO NOTA JR134-VIOLA> Anche se i nano-potenziamenti praticamente non subiscono gli effetti EMP, diversi esperimenti hanno mostrato che l'impulso esaurisce la scorta di bio-energia. -- Jaime Reyes <FINE NOTA>"
+beltDescription="GRAN EMP"
+
+[MenuSelectDifficulty]
+Title="Selezione difficoltà combattimento"
+ButtonNames[0]="Facile"
+ButtonNames[1]="Media"
+ButtonNames[2]="Difficile"
+ButtonNames[3]="Realistica"
+ButtonNames[4]="Menu precedente"
+
+[AttackHelicopter]
+ItemName="Elicottero d'attacco"
+
+[MilitaryBot]
+FamiliarName="Bot militare"
+UnfamiliarName="Bot militare"
+
+[AmmoDartPoison]
+ItemName="Dardi narcotizzanti"
+Description="Dardi avvelenati per la mini-balestra, dotati di una variante diluita della riacina. Provocano gravi danni ai tessuti molli prima di scomporsi in composti organici non rilevabili da buona parte delle scansioni tossicologiche."
+beltDescription="DARD TRAN"
+
+[AlexJacobson]
+FamiliarName="Alex Jacobson"
+UnfamiliarName="Hacker"
+
+[Phone]
+ItemName="Telefono"
+
+[Toilet2]
+ItemName="Orinale"
+
+[Toilet]
+ItemName="Bagno"
+
+[Switch1]
+ItemName="Interruttore"
+
+[Switch1]
+ItemName="Interruttore"
+
+[HKMarketTarp]
+ItemName="Tela"
+
+[HKHangingPig]
+ItemName="Maiale macellato"
+
+[HangingChicken]
+ItemName="Gallina macellata"
+
+[BarrelFire]
+ItemName="Barile in fiamme"
+
+[Doctor]
+FamiliarName="Dottore"
+UnfamiliarName="Dottore"
+
+[TobyAtanwe]
+FamiliarName="Toby Atanwe"
+UnfamiliarName="Toby Atanwe"
+
+[WeaponStealthPistol]
+ItemName="Pistola stealth"
+Description="La pistola stealth è una variante della normale pistola da 10 mm. Essa è dotata di un caricatore più grande e di un silenziatore integrato, progettato per attutire in particolare i colpi ravvicinati."
+beltDescription="STEALTH"
+
+[WeaponShuriken]
+ItemName="Coltelli da lancio"
+ItemArticle=" "
+Description="Da secoli una delle armi più diffuse nell'estremo oriente, lo shuriken può essere mortale quando è usato da un esperto. Più normalmente, viene usato quando è necessario inviare un messaggio. Solitamente il messaggio è: 'Sta arrivando la tua morte.'"
+beltDescription="C. DA LANCIO"
+
+[WeaponSawedOffShotgun]
+ItemName=" Fucile a pompa"
+Description="La doppietta a pompa dispone di una canna segata, che distribuisce l'effetto del colpo su una zona molto ampia. Può usare munizioni a pallettoni o d'assalto."
+beltDescription="F. A POMPA"
+
+[MenuScreenAdjustColors]
+Title="Regola colori"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[WeaponProd]
+ItemName="Pungolo da rivolta"
+Description="Quest'arma viene usata di frequente dalle forze di sicurezza per mantenere il controllo delle piazze. Si tratta di uno strumento di insostituibile utilità. Il suo effetto è massimo quando l'arma viene applicata sul torso, oppure quando il bersaglio viene colto di sorpresa."
+beltDescription="PUNGOLO"
+
+[WeaponPlasmaRifle]
+ItemName="Fucile al plasma"
+Description="Un'arma sperimentale, attualmente in produzione come prototipo. Il fucile al plasma spara dei proiettili incandescenti in plastica di contenimento, che producono una miscela gas-liquido accelerata per mezzo di un sistema di magneti lineari. Il flusso di plasma risultante è distruttivo tanto contro bersagli solidi che contro bersagli poco resistenti."
+beltDescription="PLASMA"
+
+[SpiderBot2]
+FamiliarName="Bot Mini-ragno"
+UnfamiliarName="Bot Mini-ragno"
+
+[HowardStrong]
+FamiliarName="Howard Strong"
+UnfamiliarName="Howard Strong"
+
+[WeaponAssaultShotgun]
+ItemName="Doppietta d'assalto"
+ItemArticle=" "
+Description="La doppietta d'assalto (a volte chiamata 'spazzastrade') combina gli elementi migliori di una normale doppietta con un caricamento automatico che rende possibile eliminare i nemici nel giro di pochi secondi. Particolarmente efficace nel combattimento urbano, la doppietta d'assalto può usare tanto proiettili a pallettoni che munizioni penetranti."
+beltDescription="DOPPIETTA"
+
+[WeaponFlamethrower]
+ItemName="Lanciafiamme"
+Description="Un lanciafiamme portatile che ha sostituito l'antiquato e pericoloso serbatoio da spalla con un contenitore di napalm sotto pressione. Gli agenti meno esperti possono incontrare delle difficoltà nell'utilizzo di tale arma."
+beltDescription="LANCIAFIAM"
+
+[WeaponGasGrenade]
+ItemName="Granata a gas"
+Description="Dopo la detonazione, questa granata rilascia una nube di CS (un agente lacrimogeno in uso nell'esercito).Il CS provoca irritazione nelle membrane mucose, portando a una cecità temporanea e a una tosse irrefrenabile. Come le LAM, le granate a gas si possono agganciare a qualunque superficie."
+beltDescription="GRAN GAS"
+
+[TriadLumPath]
+FamiliarName="Membro di una Triade"
+UnfamiliarName="Membro di una Triade"
+
+[WeaponLAM]
+ItemName="Munizione d'attacco leggera (LAM)"
+Description="Esplosivo multi-funzione con sistema di attivazione elettronico che può essere attivato all'impatto oppure agganciato a qualsiasi superficie per essere usato come mina di prossimità.|n|n<FILE OPERATIVO UNATCO NOTA SC093-BLU> Solo gli agenti in possesso della necessaria preparazione dovrebbero tentare di disarmare una granata di questo tipo."  Cerca di darmi ascolto.  -- Sam Carter <FINE NOTA>"
+beltDescription="LAM"
+ShortName="LAM"
+
+[TriadRedArrow]
+FamiliarName="Membro di una Triade"
+UnfamiliarName="Membro di una Triade"
+
+[ControlPanel]
+ItemName="Pannello di controllo"
+
+[DartPoison]
+ItemName="Dardo narcotizzante"
+
+[AmmoDartFlare]
+ItemName="Dardi-razzo"
+Description="Dardi-razzo per mini-balestra. Utilizzano una miccia incendiaria a combustione lenta, che si accende all'impatto, per illuminare l'area che colpiscono."
+beltDescription="DARD RAZ"
+
+[MenuChoice_MenuColor]
+helpText="Schema di colori usato in tutti i menu."
+actionText="|&Schema colori menu"
+
+[MenuChoice_HUDColor]
+helpText="Schema di colori usato in tutte le schermate di gioco."
+actionText="Schema colori |&HUD"
+
+[AmmoNapalm]
+ItemName="Contenitore di napalm"
+ItemArticle=" "
+Description="Contenitore pressurizzato di gasolio in gelatina per l'uso con lanciafiamme.|n|n<FILE OPERATIVO UNATCO NOTA  SC080-BLU> Il contenitore è a doppia tenuta, per minimizzare il rischio di esplosione dovuta a proiettili vaganti. -- Sam Carter <FINE NOTA>"
+beltDescription="NAPALM"
+
+[AmmoPlasma]
+ItemName="Caricatore al plasma"
+ItemArticle=" "
+Description="Un caricatore di proiettili plastici magnetizzati che possono essere resi incandescenti e letali da un fucile al plasma."
+beltDescription="CAR PLAS"
+
+[AugBallistic]
+AugmentationName="Protezione balistica"
+Description="Delle piastre mono-molecolari rinforzano la membrana epiteliale, riducendo il danno subito da proiettili e armi da taglio.|n|nLIVELLO UNO: il danno subito da proiettili e armi da taglio viene ridotto leggermente.|n|nLIVELLO DUE:  il danno subito da proiettili e armi da taglio viene ridotto moderatamente.|n|nLIVELLO TRE:  il danno subito da proiettili e armi da taglio viene ridotto significativamente.|n|nLIVELLO QUATTRO: l'agente è praticamente invulnerabile dai proiettili e dalle armi da taglio."
+MPInfo="Quando è attivo, i danni subiti per i proiettili e le armi da combattimento ravvicinato sono ridotti del 40%. Consumo di energia: alto"
+
+[AugCloak]
+AugmentationName="Mimetizzazione"
+Description="Cellule di pigmenti sub-epidermici permettono all'agente di confondersi nell'ambiente che lo circonda, rendendolo completamente invisibile a qualsiasi nemico organico lo stia cercando.|n|nLIVELLO UNO: consumo energetico normale.|n|nLIVELLO DUE: consumo energetico leggermente ridotto.|n|nLIVELLO TRE: consumo energetico moderatamente ridotto.|n|nLIVELLO QUATTRO: consumo energetico significativamente ridotto."
+MPInfo="Quando è attivo, diventi invisibile davanti ai giocatori nemici. I dispositivi elettronici e i giocatori con capacità visive potenziate possono comunque vederti. Non è compatibile con un'arma. Consumo di energia: contenuto"
+
+[AugDatalink]
+AugmentationName="Infolink"
+Description="Un micro trasmettitore a una via permette all'agente di ricevere messaggi dal centro di comando e di memorizzare mappe, conversazioni e note.|n|n<FILE OPERATIVO UNATCO NOTA JR133-VIOLA> Questo dispositivo è già il massimo, non aspettarti un potenziamento."  -- Jaime Reyes <FINE NOTA>|n|nNESSUN POTENZIAMENTO"
+
+[AugEMP]
+AugmentationName="Scudo EMP"
+Description="Dei minuscoli generatori EMP proteggono parzialmente i nanoidi e riducono la perdita di bio-energia provocata dagli impulsi in arrivo.|n|nLIVELLO UNO: danno da attacchi EMP ridotto leggermente.|n|nLIVELLO DUE: danno da attacchi EMP ridotto moderatamente.|n|nLIVELLO TRE: danno da attacchi EMP ridotto significativamente.|n|nLIVELLO QUATTRO: l'agente è praticamente invulnerabile dagli attacchi con impulso EMP."
+MPInfo="Quando è attivo, subisci solo il 5% dei danni provocati dagli attacchi EMP. Consumo di energia: bassissimo"
+
+[Fan1]
+ItemName="Ventilatore"
+
+[AugEnviro]
+AugmentationName="Resistenza ambientale"
+Description="Una produzione indotta di cheratina rinforza tutti i tessuti epiteliali e riduce i danni subiti da radiazioni e altri agenti tossici.|n|nLIVELLO UNO: la resistenza alle tossine aumenta leggermente.|n|nLIVELLO DUE: la resistenza alle tossine aumenta moderatamente.|n|nLIVELLO TRE: la resistenza alle tossine aumenta significativamente.|n|nLIVELLO QUATTRO: l'agente è praticamente invulnerabile dagli attacchi con tossine."
+MPInfo="Quando è attivo, subisci solo il 10% dei danni provocati dal veleno e dal gas; inoltre il veleno e il gas non compromettono la tua capacità visiva. Consumo di energia: basso"
+
+[AugIFF]
+AugmentationName="IFF"
+Description="L'identificazione automatica IFF utilizza complessi algoritmi euristici per associare ogni oggetto visibile alle categorie di minacce note. .|n|nIl reticolo di mira evidenzia in ROSSO il nemico e in VERDE alleati e neutrali.|n|nNESSUN POTENZIAMENTO."
+
+[AugShield]
+AugmentationName="Scudo energetico"
+Description="Dei condensatori in polianilene sotto l'epidermide assorbono il calore e l'elettricità, riducendo i danni subiti da attacchi con fuoco, plasma o elettricità.|n|nLIVELLO UNO: danno da attacchi energetici leggermente ridotto.|n|nLIVELLO DUE: danno da attacchi energetici moderatamente ridotto.|n|nLIVELLO TRE: danno da attacchi energetici significativamente ridotto.|n|nLIVELLO QUATTRO: l'agente è praticamente invulnerabile dagli attacchi energetici."
+MPInfo="Quando è attivo, subisci solo il 50% dei danni provocati dagli attacchi con fiamme e plasma. Consumo di energia: basso"
+
+[AugStealth]
+AugmentationName="Corsa silenziosa"
+Description="I nano-computer dell'agente calcolano di continuo, con apposite equazioni cinetiche, quali muscoli sono da muovere per ottenere una corsa completamente silenziosa.|n|nLIVELLO UNO: il rumore provocato dal movimento cala leggermente.|n|nLIVELLO DUE: il rumore provocato dal movimento cala moderatamente.|n|nLIVELLO TRE: il rumore provocato dal movimento cala significativamente.|n|nLIVELLO QUATTRO: l'agente si muove nel più assoluto silenzio."
+MPInfo="Quando è attivo, cammini senza fare rumore. Consumo di energia: basso"
+
+[AugTarget]
+AugmentationName="Sistema di puntamento"
+Description="La tecnologia di riconoscimento e modellazione d'immagine fornita al nervo ottico mediante dei 'cavi quantici' in poliacetilene non solo migliora la precisione nel tiro, ma fornisce anche molte informazioni utili sul bersaglio.|n|nLIVELLO UNO: migliora leggermente la precisione e le informazioni disponibili sul bersaglio.|n|nLIVELLO DUE: migliora moderatamente la precisione e le informazioni disponibili sul bersaglio.|n|nLIVELLO TRE: migliora ulteriormente la precisione e le informazioni disponibili sul bersaglio.|n|nLIVELLO QUATTRO: precisione assoluta e visione telescopica."
+MPInfo="Quando è attivo, tutte le abilità con le armi aumentano di un livello; inoltre puoi vedere la salute del nemico. Aumentando l'abilità potrai superare comodamente il livello di abilità 3. Consumo di energia: moderato"
+
+[AcousticSensor]
+ItemName="Sensore di fuoco acustico"
+
+[CeilingFan]
+ItemName="Pale del ventilatore"
+
+[CeilingFanMotor]
+ItemName="Motore del ventilatore"
+
+[Female4]
+FamiliarName="Femmina"
+UnfamiliarName="Femmina"
+
+[ClothesRack]
+ItemName="Vestiti stesi"
+
+[HKHangingLantern2]
+ItemName="Lanterna di carta"
+
+[ChairLeather]
+ItemName="Sedia comoda"
+
+[CouchLeather]
+ItemName="Divano in pelle"
+
+[OfficeChair]
+ItemName="Sedia girevole"
+
+[WHChairPink]
+ItemName="Sedia"
+
+[CoffeeTable]
+ItemName="Tavolino da caffè"
+
+[FlagPole]
+ItemName="Asta della bandiera"
+
+[Female1]
+FamiliarName="Femmina"
+UnfamiliarName="Femmina"
+
+[Female3]
+FamiliarName="Femmina"
+UnfamiliarName="Femmina"
+
+[Female2]
+FamiliarName="Femmina"
+UnfamiliarName="Femmina"
+
+[Male4]
+FamiliarName="Maschio"
+UnfamiliarName="Maschio"
+
+[MenuChoice_Crosshairs]
+helpText="Mostra o nasconde il mirino."
+actionText="|&Mirino"
+
+[DartFlare]
+ItemName="Dardo-razzo"
+
+[MenuChoice_ObjectNames]
+helpText="Se l'opzione è attiva, il nome dell'oggetto selezionato nell'area di gioco viene visualizzato."
+actionText="|&Nomi oggetti"
+
+[MenuChoice_ReverseStereo]
+helpText="Se l'opzione è attiva, i canali stereo sinistro e destro vengono invertiti."
+actionText="|&Inverti stereo"
+configSetting="ini:Engine.Engine.AudioDevice ReverseStereo"
+
+[MenuChoice_SoundVolume]
+helpText="Regola il volume degli effetti sonori."
+actionText="Volume |&effetti sonori"
+configSetting="ini:Engine.Engine.AudioDevice SoundVolume"
+
+[MenuChoice_Subtitles]
+helpText="Se i sottotitoli sono attivi, i dialoghi vengono mostrati come testo su schermo."
+actionText="|&Sottotitoli"
+
+[MenuChoice_ToggleCrouch]
+helpText="Se l'opzione è attiva, il tasto per accucciarsi funziona come modificatore."
+actionText="Acc|&ucciarsi a comando"
+
+[MenuScreenControls]
+Title="Controlli"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenDisplay]
+Title="Opzioni video"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuScreenSound]
+Title="Opzioni audio"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+ 
+[MenuScreenThemesSave]
+LoadHelpText="Scegli il tema di colori da salvare"
+Title="Salva tema"
+actionButtons[1]="(Text="Salva tema",Key="SAVE")"
+
+[ComputerSecurityChoice_Turret]
+actionText="Stato |&torretta"
+enumText[0]="Disattiva"
+enumText[1]="Alleati"
+enumText[2]="Nemici"
+enumText[3]="Tutto"
+
+[ComputerSecurityChoice_DoorOpen]
+actionText="Stato |&porta"
+enumText[0]="Aperta"
+enumText[1]="Chiusa"
+
+[ComputerSecurityChoice_DoorAccess]
+actionText="Accesso p|&orta"
+enumText[0]="Chiusa"
+enumText[1]="Aperta"
+
+[ComputerSecurityChoice_Camera]
+actionText="Stato t|&elecamera"
+enumText[0]="Attiva"
+enumText[1]="Disattiva"
+
+[AmmoLAM]
+beltDescription="LAM"
+
+[WeaponMiniCrossbow]
+ItemName="Mini-balestra"
+Description="La mini-balestra è stata sviluppata appositamente per le operazioni di spionaggio. Essa può utilizzare diversi tipi di dado (normali, avvelenati o a razzo), intercambiabili a seconda delle necessità di missione."
+beltDescription="BALESTRA"
+
+[MenuChoice_SpeechVolume]
+helpText="Regola il volume del parlato."
+actionText="Volume |&parlato"
+configSetting="ini:Engine.Engine.AudioDevice SpeechVolume"
+
+[AmmoPepper]
+ItemName="Cartuccia nebul."
+ItemArticle=" "
+Description="'ANTIGONE - spray nebulizzante. Neutralizza i tuoi nemici in MENO DI DUE SECONDI. ANTIGONE - meglio CIECO che MORTO. NOTA: tenere al di fuori della portata dei bambini. Contenitore sotto pressione."
+beltDescription="NEBUL."
+
+[MenuChoice_HUDAugDisplay]
+helpText="Questa impostazione determina quali potenziamenti vengono visualizzati nell'HUD."
+actionText="Visore |&HUD potenziamenti"
+enumText[0]="Attivi"
+enumText[1]="Tutti"
+
+[GasGrenade]
+ItemName="Granata a gas"
+
+[Male2]
+FamiliarName="Maschio"
+UnfamiliarName="Maschio"
+
+[Male3]
+FamiliarName="Maschio"
+UnfamiliarName="Maschio"
+
+[MenuChoice_AdjustBrightness]
+actionText="|&Luminosità"
+configSetting="ini:Engine.Engine.ViewportManager Brightness"
+
+[MenuChoice_AlwaysRun]
+helpText="Se l'opzione è attiva, il giocatore procede sempre di corsa."
+actionText="Sempre di |&corsa"
+
+[MenuChoice_Brightness]
+actionText="Regola l|&uminosità"
+
+[MenuChoice_HUDBordersVisible]
+helpText="Determina se i margini dell'HUD sono o meno visualizzati"
+actionText="Bordi HUD |&visibili"
+
+[MenuChoice_HUDBorderTranslucency]
+helpText="Se la trasparenza è attiva, i margini dell'HUD sono trasparenti."
+actionText="Trasparenza |&bordi HUD"
+
+[MenuChoice_InvertMouse]
+helpText="Inverte l'asse verticale del mouse: quando lo allontani guardi in basso e viceversa."
+actionText="Inverti |&mouse"
+
+[MenuChoice_HUDTranslucency]
+helpText="Se la trasparenza è attiva, lo sfondo rimane visibile attraverso l'HUD e le schermate dell'interfaccia utente."
+actionText="Tr|&asparenza sfondo HUD"
+
+[MenuChoice_MenuTranslucency]
+helpText=" Se la trasparenza è attiva, lo sfondo rimane visibile attraverso i menu."
+actionText="Trasparen|&za menu"
+
+[MenuChoice_MusicVolume]
+helpText="Regola il volume della musica."
+actionText="Volume |&musica"
+configSetting="ini:Engine.Engine.AudioDevice MusicVolume"
+
+[MenuChoice_SurroundSound]
+helpText="Attiva il supporto del sonoro Dolby Surround. Richiede un processore audio con supporto Dolby Pro-Logic."
+actionText="Dolb|&y Surround"
+configSetting="ini:Engine.Engine.AudioDevice UseSurround"
+
+[MenuChoice_GoreLevel]
+helpText="Riducendo il livello si elimina buona parte del sangue dal gioco."
+actionText="Livello di |&violenza"
+enumText[0]="Basso"
+enumText[1]="Normale"
+
+[MenuChoice_FullScreen]
+helpText="Sceglie fra l'esecuzione a pieno schermo o in finestra."
+actionText="Attiva modalità a |&schermo intero"
+
+[MenuChoice_Use3DHardware]
+helpText="Attiva il supporto sonoro hardware 3D."
+actionText="Supporto |&hardware3D"
+configSetting="ini:Engine.Engine.AudioDevice Use3dHardware"
+RestartTitle="Qualità audio"
+RestartMessage="Questa modifica sarà efficace dopo il riavvio di Deus Ex."
+
+[MenuChoice_WeaponAutoReload]
+helpText="Se l'opzione è attiva, le armi si ricaricano automaticamente quando finiscono le munizioni."
+actionText="Auto-carica|&mento armi"
+
+[MenuScreenOptions]
+Title="Opzioni"
+actionButtons[0]="(align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(align=HALIGN_Right,Action=AB_OK)"
+actionButtons[2]="(Action=AB_Reset)"
+
+[MenuSettings]
+Title="Impostazioni"
+ButtonNames[0]="Tastiera/mouse"
+ButtonNames[1]="Controlli"
+ButtonNames[2]="Opzioni di gioco"
+ButtonNames[3]="Video"
+ButtonNames[4]="Colori"
+ButtonNames[5]="Audio"
+ButtonNames[6]="Menu precedente"
+
+[TranscendedMenuSettings]
+Title="Impostazioni"
+ButtonNames[0]="Tastiera/mouse"
+ButtonNames[1]="Controlli"
+ButtonNames[2]="Opzioni di gioco"
+ButtonNames[3]="Video"
+ButtonNames[4]="Colori"
+ButtonNames[5]="Audio"
+ButtonNames[6]="Transcended Options"
+ButtonNames[7]="Menu precedente"
+
+[AmmoEMPGrenade]
+beltDescription="GRAN EMP"
+
+[AmmoGasGrenade]
+beltDescription="GRAN GAS"
+
+[AmmoNanoVirusGrenade]
+beltDescription="GRAN ASS"
+
+[Pigeon]
+FamiliarName="Piccione"
+UnfamiliarName="Piccione"
+
+[AugHeartLung]
+AugmentationName="Cuore sintetico"
+Description="Questo cuore sintetico mette in circolo non solo il sangue, ma anche un'alta concentrazione di cellule meccano-chimiche, fagociti e liposomi contenenti componenti di macchine diamondoidi, che migliorano le prestazioni di tutti i potenziamenti presenti.|n|n<FILE OPERATIVO UNATCO NOTA JR133-VIOLA> Questo dispositivo, comunque, non ha effetto sui potenziamenti che sono già al messimo livello. -- Jaime Reyes <FINE NOTA>|n|nNESSUN POTENZIAMENTO."
+
+[Seagull]
+FamiliarName="Gabbiano"
+UnfamiliarName="Gabbiano"
+
+[AugPower]
+AugmentationName="Riciclo energetico"
+Description="Il consumo energetico di tutti i potenziamenti viene ridotto tramite dei circuiti in polianilene, collegati direttamente alle membrane cellulari, che permettono ai nanoidi di interconnettersi elettronicamente senza lasciare le cellule ospiti.|n|nLIVELLO UNO: consumo energetico dei potenziamenti ridotto leggermente.|n|nLIVELLO DUE: consumo energetico dei potenziamenti ridotto moderatamente.|n|nLIVELLO TRE: consumo energetico dei potenziamenti ridotto significativamente.|n|nLIVELLO QUATTRO: consumo energetico dei potenziamenti praticamente nullo."
+MPInfo="Riduce il costo di altri potenziamenti. Automatico, se necessario.  Consumo di energia: nessuno"
+
+[BarrelAmbrosia]
+ItemName="Contenitore di Ambrosia"
+
+[Tumbleweed]
+ItemName="Erba Tumbleweed"
+
+[WeaponGEPGun]
+ItemName="Fucile a proiettili esplosivi guidati (GEP)"
+Description="Il fucile GEP è un'innovazione relativamente recente nel campo degli armamenti: un lanciatore portatile che può sparare razzi a guida laser dotati di mortale precisione. Indicato per le situazioni più pericolose, è difficile da usare senza l'apposito addestramento."
+beltDescription="GEP"
+ShortName="Fucile GEP"
+
+[WeaponLAW]
+ItemName="Arma controcarro leggera (LAW)"
+Description="La LAW fornisce una capacità anticarro pratica ed economica, in forma di un razzo singolo dotato di sistema di puntamento. L'elemento più costoso del sistema è la guida laser. Come molte altre armi pesanti, la LAW può essere di grave impiccio per gli agenti non addestrati al suo impiego."
+beltDescription="LAW"
+
+[WeaponPepperGun]
+ItemName="Pistola nebul."
+Description="Quest'arma può utilizzare molti agenti anti-rivolta normalmente in commercio, disperdendoli in forma di aerosol che può provocare cecità e soffocamento a breve distanza."
+beltDescription="NEBUL."
+
+[WeaponNanoSword]
+ItemName="Spada del Dente di Drago"
+ItemArticle=" "
+Description="La Spada del Dente di Drago non è una normale spada, ma una lama dotata di nano-tecnologie che viene dinamicamente 'forgiata' a comando in un solido non-eutactico. Appositi nano-dispositivi assicurano che la lama sia sempre inscalfibile e mortalmente affilata."
+beltDescription="DRAGO"
+
+[MenuChoice_UIBackground]
+helpText="Determina che cosa viene mostrato sotto ai menu e alle schermate 2D. Il rendering 3D è ideale sui computer potenti, seguito da Fotogramma e quindi da Nero."
+actionText="Sfondo |&IU/menu"
+enumText[0]="Rendering"
+enumText[1]="Immagine"
+enumText[2]="Nero"
+
+[MenuChoice_HeadBob]
+helpText="Se l'opzione è attiva, la visuale ondeggia leggermente durante il movimento."
+actionText="Oscillazione |&giocatore"
+
+[Male1]
+FamiliarName="Maschio"
+UnfamiliarName="Maschio"
+
+[Ammo20mm]
+ItemName="Munizioni da 20 mm HE"
+ItemArticle=" "
+Description="Questi proiettili esplosivi da 20 mm completano il fucile d'assalto standard da 7.62x51 mm fornendo la capacità di annullare le minacce in piccole stanze, nascondigli e angoli ciechi, usando un lanciatore sotto-canna."
+beltDescription="MUNIZIONE DA 20 MM"
+
+[AmmoRocketWP]
+ItemName="Razzi WP"
+ItemArticle=" "
+Description="Questo razzo al fosforo bianco è stato progettato per espandere il profilo di missione del fucile GEP. Anche se la sua esplosione provoca danni limitati, essa genera una nube di fosforo bianco, che prende immediatamente fuoco al contatto con l'aria."
+beltDescription="RAZZO WP"
+
+[AugHealing]
+AugmentationName="Rigenerazione"
+Description="Polimerasi programmabile che guida automaticamente la ricostruzione delle proteine nelle cellule danneggiate, riportando l'agente in piena efficienza col passare del tempo.|n|nLIVELLO UNO: cura a velocità normale.|n|nLIVELLO DUE: cura a velocità aumentata.|n|nLIVELLO TRE: cura a velocità ancora maggiore.|n|nLIVELLO QUATTRO: cura alla massima velocità possibile."
+MPInfo="Quando è attivo, puoi guarire ma non ad una velocità sufficiente per un combattimento. Consumo di energia: alto"
+
+[AugVision]
+AugmentationName="Potenziamento visivo"
+Description="La visione notturna tipica di alcuni animali è stata replicata utilizzando dei fotoricettori e saturandoli di metarodopsina XII."  "Gli aggiornamenti e le modifiche aggiungono la visione infrarossa e le immagini sonar, che permettono all'agente di vedere anche attraverso i muri.|n|nLIVELLO UNO: visione notturna.|n|nLIVELLO DUE visione a infrarossi.|n|nLIVELLO TRE: visione sonar a breve raggio.|n|nLIVELLO QUATTRO: visione sonar a lungo raggio."
+MPInfo="Quando è attivo, puoi vedere i giocatori nemici nell'oscurità da qualsiasi distanza; inoltre puoi vedere attraverso i muri e scovare i nemici mascherati a distanza ravvicinata. Consumo di energia: moderato"
+
+[WeaponBaton]
+ItemName="Manganello"
+Description="Un robusto manganello, solitamente usato dalla polizia e dalle forze di sicurezza per fronteggiare i disordini di piazza."
+beltDescription="MANGANELLO"
+
+[WeaponHideAGun]
+ItemName="PS20"
+Description="La PS20 è una pistola da 10 mm a colpo singolo con silenziatore integrata, usata dagli agenti che voglio ridurre al minimo la loro visibilità. Purtroppo, la necessità di contenere le dimensioni dell'arma ha costretto a limitare la capacità di tiro a un solo colpo. Ciononostante, la PS20 può essere un'arma letale a breve distanza."
+beltDescription="PS20"
+
+[WeaponRifle]
+ItemName="Fucile di precisione"
+Description="Questo fucile è lo strumento ottimale per abbattere bersagli a grande distanza. Quando viene utilizzato con i proiettili da 30.06, un cecchino può ottenere dei colpi perfetti a meno di 1 MOA (angolo di minuto), con le condizioni ambientali favorevoli."
+beltDescription="PRECISIONE"
+
+[HangingShopLight]
+ItemName="Luce fluorescente"
+
+[GordonQuick]
+FamiliarName="Gordon Quick"
+UnfamiliarName="Gordon Quick"
+
+[ChildMale]
+FamiliarName="Bambino"
+UnfamiliarName="Bambino"
+
+[HKBuddha]
+ItemName="Statua di Buddha"
+
+[HKBirdcage]
+ItemName="Gabbia per uccelli"
+
+[Cop]
+FamiliarName="Poliziotto"
+UnfamiliarName="Poliziotto"
+
+[CrateBreakableMedGeneral]
+ItemName="Cassa di rifornimenti generici"
+
+[Chef]
+FamiliarName="Cuoco"
+UnfamiliarName="Cuoco"
+
+[CrateBreakableMedMedical]
+ItemName="Cassa di medicinali"
+
+[HKCouch]
+ItemName="Panca"
+
+[Chandelier]
+ItemName="Candeliere"
+
+[Flowers]
+ItemName="Fiori"
+
+[CrateExplosiveSmall]
+ItemName="Cassa di TNT"
+
+[CrateUnbreakableLarge]
+ItemName="Cassa in metallo"
+
+[CrateUnbreakableMed]
+ItemName="Cassa in metallo"
+
+[Flask]
+ItemName="Fiala da laboratorio"
+
+[HKHangingLantern]
+ItemName="Lanterna di carta"
+
+[Chair1]
+ItemName="Sedia"
+
+[Chad]
+FamiliarName="Chad"
+UnfamiliarName="Chad"
+
+[ChildMale2]
+FamiliarName="Bambino"
+UnfamiliarName="Bambino"
+
+[CrateUnbreakableSmall]
+ItemName="Cassa in metallo"
+
+[HKMarketLight]
+ItemName="Luce pensile"
+
+[HKMarketTable]
+ItemName="Tavolo"
+
+[Doberman]
+FamiliarName="Doberman"
+UnfamiliarName="Doberman"
+
+[Cushion]
+ItemName="Imbottitura per pavimenti"
+
+[GilbertRenton]
+FamiliarName="Gilbert Renton"
+UnfamiliarName="Gilbert Renton"
+
+[ComputerPersonal]
+ItemName="Personal Computer"
+
+[HKChair]
+ItemName="Sedia"
+
+[Butler]
+FamiliarName="Maggiordomo"
+UnfamiliarName="Maggiordomo"
+
+[Businesswoman1]
+FamiliarName="Donna d'affari"
+UnfamiliarName="Donna d'affari"
+
+[Businessman3]
+FamiliarName="Uomo d'affari"
+UnfamiliarName="Uomo d'affari"
+
+[DataCube]
+ItemName="DataCube"
+
+[Businessman2]
+FamiliarName="Uomo d'affari"
+UnfamiliarName="Uomo d'affari"
+
+[HKTable]
+ItemName="Tavolo"
+
+[HKTukTuk]
+ItemName="TukTuk"
+
+[BobPageAugmented]
+ItemName="Bob Page potenziato"
+
+[Businessman1]
+FamiliarName="Uomo d'affari"
+UnfamiliarName="Uomo d'affari"
+
+[Hooker1]
+FamiliarName="Sgualdrina"
+UnfamiliarName="Sgualdrina"
+
+[CrateBreakableMedCombat]
+ItemName="Cassa di rifornimenti di combattimento"
+
+[BumMale3]
+FamiliarName="Vagabondo"
+UnfamiliarName="Vagabondo"
+
+[Hooker2]
+FamiliarName="Sgualdrina"
+UnfamiliarName="Sgualdrina"
+
+[BumMale2]
+FamiliarName="Vecchio vagabondo"
+UnfamiliarName="Vecchio vagabondo"
+
+[BumFemale]
+FamiliarName="Vagabondo"
+UnfamiliarName="Vagabondo"
+
+[BoxSmall]
+ItemName="Scatola di cartone"
+
+[DentonClone]
+ItemName="Clone di JC Denton"
+
+[BoxMedium]
+ItemName="Scatola di cartone"
+
+[BoxLarge]
+ItemName="Scatola di cartone"
+
+[BookClosed]
+ItemName="Libro"
+
+[BoneSkull]
+ItemName="Teschio umano"
+
+[BoneFemur]
+ItemName="Femore umano"
+
+[HarleyFilben]
+FamiliarName="Harley Filben"
+UnfamiliarName="Vagabondo"
+
+[WHTableBlue]
+ItemName="Tavolo"
+
+[WHRedVase]
+ItemName="Vaso"
+
+[WHRedOvalTable]
+ItemName="Tavolo"
+
+[WHRedLampTable]
+ItemName="Tavolo"
+
+[WHRedEagleTable]
+ItemName="Tavolo"
+
+[WHRedCouch]
+ItemName="Divano"
+
+[WHRedCandleabra]
+ItemName="Candelabro"
+
+[WHPiano]
+ItemName="Pianoforte"
+
+[WHPhone]
+ItemName="Telefono"
+
+[WHFireplaceLog]
+ItemName="Ciocco"
+
+[WHFireplaceGrill]
+ItemName="Griglia del focolare"
+
+[WHEndtableLibrary]
+ItemName="Tavolo"
+
+[WHDeskOvalOffice]
+ItemName="Scrivania"
+
+[BoatPerson]
+FamiliarName="Barcaiolo"
+UnfamiliarName="Barcaiolo"
+
+[WHDeskLibrarySmall]
+ItemName="Scrivania"
+
+[WHChairOvalOffice]
+ItemName="Sedia di pelle"
+
+[WHChairDining]
+ItemName="Sedia"
+
+[WHCabinet]
+ItemName="Gabinetto"
+
+[WHBookstandLibrary]
+ItemName="Libreria"
+
+[WHBenchLibrary]
+ItemName="Panca"
+
+[WHBenchEast]
+ItemName="Panca"
+
+[Basket]
+ItemName="Cesta di vimini"
+
+[Vase2]
+ItemName="Vaso"
+
+[Vase1]
+ItemName="Vaso"
+
+[Van]
+ItemName="Furgone nero"
+
+[Bartender]
+FamiliarName="Barista"
+UnfamiliarName="Barista"
+
+[Trophy]
+ItemName="Coppa"
+
+[TriadLumPath2]
+FamiliarName="Capobanda"
+UnfamiliarName="Capobanda"
+
+[BarrelVirus]
+ItemName="Contenitore di nano-virus"
+
+[TrashCan4]
+ItemName="Cestino dei rifiuti"
+
+[TrashCan3]
+ItemName="Cestino dei rifiuti"
+
+[Trashcan2]
+ItemName="Cestino dei rifiuti"
+
+[TrashCan1]
+ItemName="Cestino dei rifiuti"
+
+[Trashbag2]
+ItemName="Sacco dei rifiuti"
+
+[Trashbag]
+ItemName="Sacco dei rifiuti"
+
+[TrafficLight]
+ItemName="Semaforo"
+
+[TiffanySavage]
+FamiliarName="Tiffany Savage"
+UnfamiliarName="Tiffany Savage"
+
+[ThugMale3]
+FamiliarName="Criminale"
+UnfamiliarName="Criminale"
+
+[SubwayControlPanel]
+ItemName="Pannello di controllo della metropolitana"
+
+[Soldier]
+FamiliarName="Soldato"
+UnfamiliarName="Soldato"
+
+[Smuggler]
+FamiliarName="Smuggler"
+UnfamiliarName="Smuggler"
+
+[SignFloor]
+ItemName="Segnale di avviso"
+
+[ShopLight]
+ItemName="Luce fluorescente"
+
+[SecurityBot4]
+FamiliarName="Bot di sicurezza"
+UnfamiliarName="Bot di sicurezza"
+
+[SecretService]
+FamiliarName="Agente del Servizio Segreto"
+UnfamiliarName="Agente del Servizio Segreto"
+
+[Secretary]
+FamiliarName="Segretaria"
+UnfamiliarName="Segretaria"
+
+[ScientistMale]
+FamiliarName="Scienziato"
+UnfamiliarName="Scienziato"
+
+[ScientistFemale]
+FamiliarName="Scienziato"
+UnfamiliarName="Scienziato"
+
+[SarahMead]
+FamiliarName="Sarah Mead"
+UnfamiliarName="Sarah Mead"
+
+[SamCarter]
+FamiliarName="Sam Carter"
+UnfamiliarName="Sam Carter"
+
+[Sailor]
+FamiliarName="Marinaio"
+UnfamiliarName="Marinaio"
+
+[RoadBlock]
+ItemName="Barricata in cemento"
+
+[RachelMead]
+FamiliarName="Rachel Mead"
+UnfamiliarName="Rachel Mead"
+
+[Pot2]
+ItemName="Vaso d'argilla"
+
+[Pot1]
+ItemName="Vaso d'argilla"
+
+[PoolTableLight]
+ItemName="Luce pensile"
+
+[Plant3]
+ItemName="Pianta"
+
+[Plant2]
+ItemName="Pianta"
+
+[Plant1]
+ItemName="Pianta"
+
+[Pinball]
+ItemName="Flipper"
+
+[Pillow]
+ItemName="Cuscino"
+
+[PhilipMead]
+FamiliarName="Philip Mead"
+UnfamiliarName="Philip Mead"
+
+[Mutt]
+FamiliarName="Cane"
+UnfamiliarName="Cane"
+
+[Fan1Vertical]
+ItemName="Ventilatore"
+
+[Fan2]
+ItemName="Ventilatore"
+
+[Pan4]
+ItemName="Ciotola"
+
+[Pan3]
+ItemName="Padella"
+
+[Pan2]
+ItemName="Ciotola"
+
+[Pan1]
+ItemName="Padella"
+
+[NYPoliceBoat]
+ItemName="Barca della polizia"
+UnfamiliarName="Pilota della barca UNATCO"
+
+[Nurse]
+FamiliarName="Infermiera"
+UnfamiliarName="Infermiera"
+
+[NewspaperOpen]
+ItemName="Giornale"
+
+[Newspaper]
+ItemName="Giornale"
+
+[NathanMadison]
+FamiliarName="Nathan Madison"
+UnfamiliarName="Nathan Madison"
+
+[Microscope]
+ItemName="Microscopio"
+
+[MichaelHamner]
+FamiliarName="Michael Hamner"
+UnfamiliarName="Michael Hamner"
+
+[Janitor]
+FamiliarName="Portiere"
+UnfamiliarName="Portiere"
+
+[Jock]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[JoeGreene]
+FamiliarName="Joe Greene"
+UnfamiliarName="Joe Greene"
+
+[JoJoFine]
+FamiliarName="JoJo Fine"
+UnfamiliarName="JoJo Fine"
+
+[JordanShea]
+FamiliarName="Jordan Shea"
+UnfamiliarName="Jordan Shea"
+
+[MenuChoice_AdjustColors]
+helpText="L'opzione permette di regolare i colori dei menu e delle schermate dell'HUD."
+actionText="Regola colori..."
+
+[JosephManderley]
+FamiliarName="Joseph Manderley"
+UnfamiliarName="Joseph Manderley"
+
+[Mechanic]
+FamiliarName="Meccanico"
+UnfamiliarName="Meccanico"
+
+[MaxChen]
+FamiliarName="Max Chen"
+UnfamiliarName="Max Chen"
+
+[MargaretWilliams]
+FamiliarName="Margaret Williams"
+UnfamiliarName="Margaret Williams"
+
+[AIPrototype]
+ItemName="Prototipo IA"
+
+[Mailbox]
+ItemName="Cassetta postale"
+
+[Maid]
+FamiliarName="Ragazza"
+UnfamiliarName="Ragazza"
+
+[MaggieChow]
+FamiliarName="Maggie Chow"
+UnfamiliarName="Maggie Chow"
+
+[LuciusDeBeers]
+ItemName="Lucius De Beers in un contenitore di supporto vitale"
+
+[LowerClassMale2]
+FamiliarName="Classe inferiore"
+UnfamiliarName="Classe inferiore"
+
+[LowerClassMale]
+FamiliarName="Classe inferiore"
+UnfamiliarName="Classe inferiore"
+
+[Lightbulb]
+ItemName="Lampadina"
+
+[Lamp3]
+ItemName="Lampada da tavolo"
+
+[Lamp2]
+ItemName="Lampada alogena"
+
+[Lamp1]
+ItemName="Lampada da tavolo"
+
+[JuanLebedev]
+FamiliarName="Juan Lebedev"
+UnfamiliarName="Juan Lebedev"
+
+[KarkianBaby]
+FamiliarName="Piccolo Karkian"
+UnfamiliarName="Piccolo Karkian"
+
+[JunkieMale]
+FamiliarName="Tossicomane"
+UnfamiliarName="Tossicomane"
+
+[JunkieFemale]
+FamiliarName="Tossicomane"
+UnfamiliarName="Tossicomane"
+
+[JCDouble]
+FamiliarName="JC Denton"
+UnfamiliarName="JC Denton"
+
+[SkillWeaponLowTech]
+SkillName="Armi: bassa tecnologia"
+Description="L'uso delle armi da mischia come coltelli, coltelli da lancio e pungoli.|n|nIMPREPARATO: l'agente può usare le armi da mischia.|n|nADDESTRATO: precisione, danno e raggio d'attacco aumentano leggermente.|n|nAVANZATO: precisione, danno e raggio d'attacco aumentano moderatamente.|n|nESPERTO: l'agente può stordire o uccidere quasi tutti gli avversari con un solo colpo."
+
+[SkillEnviro]
+SkillName="Addestramento ambientale"
+Description="La capacità di usare tute HazMat, corazze balistiche, mimetizzazione termo-ottica e respiratori in ogni tipo di situazione.|n|nIMPREPARATO: l'agente può usare tute HazMat, corazze balistiche, mimetizzazione termo-ottica e respiratori.|n|nADDESTRATO: corazza, tuta, mimetizzazione e respiratori durano un po' di più e sono usati leggermente meglio.|n|nAVANZATO: corazza, tuta, mimetizzazione e respiratori durano di più e sono usati moderatamente meglio.|n|nESPERTO: l'agente indossa tute e armature come se fossero una seconda pelle."
+
+[SkillWeaponRifle]
+SkillName="Armi: fucile"
+Description="L'uso di fucili, compresi fucili d'assalto, fucili di precisione e fucili a pompa.|n|nIMPREPARATO: l'agente può usare i fucili.|n|nADDESTRATO: precisione e danno aumentano leggermente, ricarica un po' più rapida.|n|nAVANZATO: precisione e danno aumentano moderatamente, ricarica più rapida.|n|nESPERTO: l'agente può abbattere un bersaglio a un chilometro con un solo colpo."
+
+[SkillDemolition]
+SkillName="Armi: esplosivi"
+Description="L'uso di esplosivi da lancio, come LAM, granate a GAS, granate EMP e granate di disturbo elettronico.|n|nIMPREPARATO: l'agente può lanciare le granate, attaccarle alle pareti come mine di prossimità e tentare di disarmare e rimuovere una granata usata come mina di prossimità.|n|nADDESTRATO: danno e precisione delle granate aumentano leggermente, come pure il margine di sicurezza nel disarmare le mine di prossimità.|n|nAVANZATO: anno e precisione delle granate aumentano moderatamente, come pure il margine di sicurezza nel disarmare le mine di prossimità.|n|nESPERTO: l'agente è un vero e proprio esperto di esplosivi."
+
+[SkillWeaponPistol]
+SkillName="Armi: pistola"
+Description="L'uso di armi a una mano, come la pistola standard da 10 mm, la pistola stealth e la mini-balestra.|n|nIMPREPARATO: l'agente può usare le pistole.|n|nADDESTRATO: precisione e danni crescono leggermente, la ricarica è un po' più rapida.|n|nAVANZATO: precisione e danni crescono moderatamente, la ricarica è più rapida.|n|nESPERTO: l'agente è una macchina letale con una pistola in mano."
+
+[SkillWeaponHeavy]
+SkillName="Armi: armi pesanti"
+Description="L'uso di armamento pesante, come lanciafiamme, LAW e i fucili sperimentali GEP e al plasma.|n|nIMPREPARATO: l'agente può usare le armi pesanti, risentendone però in precisione e capacità di movimento.|n|nADDESTRATO: precisione e danno aumentano leggermente, mentre i tempi di ricarica e i movimenti sono un po' più rapidi.|n|nAVANZATO: precisione e danno aumentano moderatamente, mentre i tempi di ricarica e i movimenti sono più rapidi.|n|nESPERTO: l'agente, quando impugna un'arma pesante, è un carro armato che cammina."
+
+[SkillSwimming]
+SkillName="Nuotare"
+Description="Le operazioni subacquee richiedono specifiche capacità che devono essere sviluppate tramite un duro addestramento fisico.|n|nIMPREPARATO: l'agente è in grado di nuotare.|n|nADDESTRATO: la velocità di nuoto e la capacità di apnea dell'agente aumentano leggermente.|n|nAVANZATO: la velocità di nuoto e la capacità di apnea dell'agente aumentano moderatamente.|n|nESPERTO: l'agente si muove sott'acqua come un delfino."
+
+[SkillComputer]
+SkillName="Computer"
+Description="La manipolazione di console e sistemi computerizzati.|n|nIMPREPARATO: l'agente può usare i terminali per leggere bollettini e notiziari.|n|nADDESTRATO: l'agente può violare i terminali ATM, i computer e le console di sicurezza.|n|nAVANZATO: l'agente ottiene un moderato aumento nella capacità di rilevare e sbloccare i sistemi elettronici, oltre a poter manovrare le torrette armate.|n|nESPERTO: l'agente è un hacker di prima classe, in grado di violare qualsiasi sistema."
+
+[SkillTech]
+SkillName="Elettronica"
+Description="Studiando l'elettronica e le sue applicazioni pratiche, l'agente può superare molti sistemi di sicurezza con i suoi multi-strumenti.|n|nIMPREPARATO: l'agente può bypassare i sistemi di sicurezza.|n|nADDESTRATO: la capacità di bypassare i sistemi di sicurezza aumenta leggermente.|n|nAVANZATO: la capacità di bypassare i sistemi di sicurezza aumenta moderatamente.|n|nESPERTO: quasi nessun sistema elettronico può arrestare l'avanzata dell'agente."
+MultitoolString="Multi-strumenti"
+
+[SkillLockpicking]
+SkillName="Scassinare"
+Description="Scassinare è più un'arte che un'abilità. Tramite l'applicazione e alcuni grimaldelli, comunque, qualsiasi agente può diventare un esperto scassinatore.|n|nIMPREPARATO: l'agente può scassinare le serrature.|n|nADDESTRATO: la capacità di scassinare dell'agente aumenta leggermente.|n|nAVANZATO: la capacità di scassinare dell'agente aumenta moderatamente.|n|nESPERTO: l'agente può superare qualsiasi serratura meccanica."
+
+[SkillMedicine]
+SkillName="Medicina"
+Description="La conoscenza pratica della fisiologia umana applicabile per curare le ferite e usare con maggior profitto i medkit.|n|nIMPREPARATO: l'agente può usare i medkit.|n|nADDESTRATO: l'agente può curare danni leggermente superiori e ridurre un po' gli effetti delle tossine velenose.|n|nAVANZATO: l'agente può curare danni moderatamente superiori e ridurre gli effetti delle tossine velenose.|n|nESPERTO: l'agente può eseguire un intervento a cuore aperto con strumenti di fortuna."
+
+[Image12_Tiffany_HostagePic]
+imageDescription="Immagine di Tiffany in ostaggio "
+
+[Image15_Area51_Sector4]
+imageDescription="Area 51, settore 4"
+
+[Image15_BlueFusionDevice]
+imageDescription="Dispositivo di fusione blu "
+
+[Image15_Area51_Sector3]
+imageDescription="Area 51, settore 3"
+
+[Image03_WaltonSimons]
+imageDescription="Walton Simons"
+
+[Image02_BobPage_ManOfYear]
+imageDescription="Millenium Magazine"
+
+[Image15_GrayDisection]
+imageDescription="Dissezione di un Grigio"
+
+[Image15_Area51Bunker]
+imageDescription="Bunker dell'Area 51"
+
+[Image14_Schematic]
+imageDescription="Componente del Costruttore Universale"
+
+[Image14_OceanLab]
+imageDescription="Laboratorio oceanico"
+
+[Image12_Vandenberg_Sub]
+imageDescription="Sottomarino di Vandenberg"
+
+[Image12_Vandenberg_Command]
+imageDescription="Centro di comando di Vandenberg"
+
+[Image11_Paris_CathedralEntrance]
+imageDescription="Ingresso della Cattedrale"
+
+[Image11_Paris_Cathedral]
+imageDescription="Cattedrale di Parigi"
+
+[Image10_Paris_Metro]
+imageDescription="Mappa del metro di Parigi"
+
+[Image10_Paris_CatacombsTunnels]
+imageDescription="Catacombe di Parigi, tunnel"
+
+[Image10_Paris_Catacombs]
+imageDescription="Catacombe di Parigi"
+
+[Image09_NYC_Ship_Top]
+imageDescription="PCRS Wall Cloud: ponti superiori"
+
+[Image09_NYC_Ship_Bottom]
+imageDescription="PCRS Wall Cloud: ponti inferiori"
+
+[Image08_JoeGreenMIBMJ12]
+imageDescription="Joe Greene, uomo in nero MJ12"
+
+[Image06_HK_WanChai]
+imageDescription="Hong Kong, distretto di Wan Chai"
+
+[Image06_HK_Versalife]
+imageDescription="Palazzo della VersaLife"
+
+[Image06_HK_MJ12Lab]
+imageDescription="Laboratorio del MJ12"
+
+[Image06_HK_MJ12Helipad]
+imageDescription="Eliporto del MJ12"
+
+[Image06_HK_Market]
+imageDescription="Mercato di Hong Kong"
+
+[Image05_NYC_MJ12Lab]
+imageDescription="Laboratorio del MJ12"
+
+[Image05_GreaselDisection]
+imageDescription="Dissezione di un Greasel"
+
+[Image04_UNATCONotice]
+imageDescription="Avviso UNATCO"
+
+[Image04_NSFHeadquarters]
+imageDescription="Quartier generale delle FSN"
+
+[Image03_NYC_Airfield]
+imageDescription="Aeroporto di NYC"
+
+[Image03_747Diagram]
+imageDescription="Diagramma del 747"
+
+[Image02_NYC_Warehouse]
+imageDescription="Magazzino a NYC"
+
+[Image02_Ambrosia_Flyer]
+imageDescription="Erogatore d'Ambrosia"
+
+[Image01_TerroristCommander]
+imageDescription="Comandante terrorista"
+
+[Image01_LibertyIsland]
+imageDescription="Immagine satellitare di Liberty Island"
+
+[Image01_GunFireSensor]
+imageDescription="Sensore di fuoco automatico"
+
+[ChargedPickup]
+ChargeRemainingLabel="Carica rimasta:"
+
+[MenuChoice_OnOff]
+enumText[0]="No"
+enumText[1]="Si"
+
+[MenuChoice_EnabledDisabled]
+enumText[0]="Attivo"
+enumText[1]="Disattivato"
+
+[MenuChoice_LowMedHigh]
+enumText[0]="Basso"
+enumText[1]="Medio"
+enumText[2]="Alto"
+
+[MenuChoice_VisibleHidden]
+enumText[0]="Visibile"
+enumText[1]="Nascosto"
+
+[MissionEndgame]
+endgameQuote[0]="IERI ERAVAMO SOTTOPOSTI AI RE E CHINAVAMO IL CAPO DINANZI AGLI IMPERATORI. DA OGGI IN POI, OBBEDIREMO SOLTANTO ALLA VERITÀ..."
+endgameQuote[1]="    -- KAHLIL GIBRAN"
+endgameQuote[2]="SE NON CI FOSSE STATO UN DIO, LO SI SAREBBE DOVUTO INVENTARE."
+endgameQuote[3]="    -- VOLTAIRE"
+endgameQuote[4]="MEGLIO REGNARE ALL'INFERNO CHE SERVIRE IN PARADISO."
+endgameQuote[5]="    -- JOHN MILTON, PARADISO PERDUTO"
+
+[deusexserverping]
+AdminEmailText="Gestione e-mail"
+AdminNameText="Nome amministratore"
+ChangeLevelsText="Cambia livelli"
+MultiplayerBotsText="Robot in MP"
+FragLimitText="Limite frammenti"
+TimeLimitText="Limite tempo"
+GameModeText="Modalità di gioco"
+GameTypeText="Tipo di partita"
+GameVersionText="Versione del gioco"
+WorldLogText="ngWorldStats"
+MutatorsText="Mutanti"
+TrueString="Attivato"
+FalseString="Disattivato"
+ServerAddressText="Indirizzo server"
+GoalTeamScoreText="Punteggio squadra richiesto"
+MinPlayersText="I robot entrano in partita per un min. di"
+PlayersText="Giocatori"
+MaxTeamsText="N. max di squadre"
+BalanceTeamsText="I robot equilibrano le squadre"
+PlayersBalanceTeamsText="Equilibrio tra squadre obbligatorio"
+FriendlyFireText="Danni fuoco amico"
+MinNetVersionText="Versione compatibile min."
+BotSkillText="Capacità robot"
+TournamentText="Modalità torneo"
+ServerModeText="Modalità server"
+DedicatedText="Dedicato"
+NonDedicatedText="Non dedicato"
+WorldLogWorkingText="ngWorldStats Status"
+WorldLogWorkingTrue="Elaborazione statistiche corretta"
+WorldLogWorkingFalse="Elaborazione statistiche errata"
+StartingSkillsText="Punti abilità iniziali"
+SkillsPerKillText="Punti abilità per vittima"
+StartingAugsText="Potenziamenti iniziali"
+AugsPerKillText="Potenziamenti per vittima"
+AugsAllowedText="Potenziamenti"
+TargetKillsText="Limite frammenti"
+TargetTimeText="Limite tempo (minuti)"
+PasswordText="Protetto da Password"
+ 
+[DeusExMPGame]
+TooManyPlayers="Troppi giocatori"
+StreakString="Serie attuale"
+KillsString="Vittime"
+DeathsString="Morti"
+PlayerString="Giocatore"
+NewMapSecondsString=" secondi e la nuova mappa verrà caricata."
+WonMatchString=" ha vinto la partita!"
+PingString="Ping"
+EscapeString="Premi <Esc> per interrompere il collegamento."
+MatchEnd1String="La partita è terminata con la vittoria di "
+MatchEnd2String=" ai danni di "
+TeamNsfString="Squadra NSF"
+TeamUnatcoString="Squadra Unatco"
+TeamDrawString="La partita è terminata con un pareggio!"
+ 
+[teamdmgame]
+EnemiesString="Nemici"
+AlliesString="Alleati"
+VictoryConString1="Obiettivo: la prima squadra che totalizza "
+VictoryConString2=" vittime, vince la partita."
+TimeLimitString1="Obiettivo: totalizzare il numero maggiore di vittime prima che l'orologio ( "
+TimeLimitString2=" ) si azzeri!"
+TeamScoreString=" Punteggio squadra:"
+ 
+[ThrownProjectile]
+ItemName="ERROR ThrownProjectile Default-Report as bug!"
+ItemArticle="un"
+ 
+[MultiplayerMessageWin]
+KilledByString="Sei stato ucciso da "
+WereKilledString="Sei stato ucciso."
+KilledYourselfString="Ti sei ucciso!"
+FireToContinueMsg="Premi <Fuoco> per riavviare."
+ActiveAugsString="Potenziamenti attivi: "
+WeaponString="Arma corrente: "
+RelevantSkillString="Abilità corrispondente: "
+LevelString="Livello abilità: "
+FinalBlowString="Hai subito un colpo finale con "
+ToTheString=" punti di danni in questa area: "
+RemHealthString="Quando sei morto, "
+RemHealth2String=" avevi una salute di: "
+RemEnergyString=" e "
+RemEnergy2String=" punti di bio-energia."
+HealthHeadString=" Testa: "
+HealthMidString="  Addome: "
+HealthLowString="  Gambe: "
+StreakString=" ora ha una serie di "
+Detail1String="Premi <"
+Detail2String="> per visualizzare i dettagli."
+KeyNotBoundString="Tasto non associato"
+VSString="VS"
+ 
+[menuscreenjoingame]
+HeaderIPWindowLabel="Indirizzo IP"
+HostButtonName="Crea gioco"
+JoinButtonName="Gioca"
+RefreshButtonName="Aggiorna"
+HostButtonHelpText="Organizza una partita MP"
+JoinButtonHelpText="Partecipa alla partita selezionata"
+RefreshButtonHelpText="Aggiorna l'elenco dei server"
+strHostNameLabel="Nome organizzatore"
+strMapNameLabel="Mappa"
+strGameTypeLabel="Tipo di partita"
+strNumPlayersLabel="Giocatori"
+strPingLabel="Ping"
+GameTypeOneLabel="Mostra le partite Scontro mortale"
+GameTypeTwoLabel="Mostra le partite Scontro mortale a squadre"
+ShowAllGameTypesLabel="Mostra tutte le partite"
+GameHumanNames[0]="Scontro mortale"
+GameHumanNames[1]="Scontro mortale a squadre"
+GameHumanNames[2]="SM a squadre - livello avanzato"
+GameHumanNames[3]="SM a squadre - livello base"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+Title="Inizia una partita MP"
+FullServerWarningTitle="Server pieno"
+FullServerWarningMessage="Il server selezionato è pieno. Aggiornare la lista?"
+ 
+[HUDMultiSkills]
+ToExitString="> per uscire."
+SkillsAvailableString="Abilità disponibili!"
+PressString="Premi <"
+PressEndString=">"
+SkillPointsString="Punti abilità: "
+skillString="Abilità"
+CostString="Costo"
+NAString="MAX"
+LevelString="Livello"
+KeyNotBoundString="Tasto non associato"
+ 
+[menuscreenaugsetup]
+HeaderAugChosenLabel="Priorità dei potenziam"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_OK)"
+Title="Configurazione dei potenziamenti MP"
+ 
+[dxmaplist]
+CycleNames[0]="Stessa mappa"
+CycleNames[1]="Mappa casuale"
+CycleNames[2]="Scorri mappe"
+ 
+[HECannister20mm]
+ItemName="Proiettile HE da 20 mm"
+ItemArticle="un"
+ 
+[PlasmaBolt]
+ItemName="Pallottola di plasma"
+ItemArticle="una"
+ 
+[Rocket]
+ItemName="Razzo GEP"
+ItemArticle="un"
+ 
+[menuscreenjoininternet]
+Title="Avvia una partita MP su Internet"
+ 
+[menuscreenhostgame]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_Other,Text="Inizia",Key="BEGINHOST")"
+Title="Organizza una partita MP"
+ 
+[Cloud]
+ItemName="Nube di gas"
+ItemArticle="una"
+ 
+[deusexgspylink]
+ResolveFailedError="Server master non identificato: "
+TimeOutError="Tempo esaurito durante il tentativo di connessione al server master"
+CouldNotConnectError="Tempo per la connessione al server master esaurito: "
+ 
+[RocketWP]
+ItemName="Razzo WP"
+ 
+[menuchoice_victoryvalue]
+TimeLimitActionText="Limite tempo (minuti)"
+FragLimitActionText="Limite vittime"
+TimeLimitHelpText="N. di minuti entro il quale la partita terminerà"
+FragLimitHelpText="N. di vittime necessarie per vincere"
+actionText=""
+configSetting="DeusExMPGame ScoreToWin"
+ 
+[menuscreenjoinlan]
+Title="Avvia una partita MP tramite LAN"
+ 
+[menuchoice_gametype]
+gameNames[0]="Scontro mortale"
+gameNames[1]="Scontro mort. a squadre - liv. base"
+gameNames[2]="Scontro mort. a squadre - liv. av."
+gameNames[3]="Scontro mort. a sq. - personal."
+HelpText="Tipo di partita da giocare"
+actionText="Tipo di partita"
+configSetting="MenuScreenHostGame CurrentGameType"
+ 
+[RocketLAW]
+ItemName="Razzo LAW"
+ 
+[menuchoice_map]
+HelpText="Mappa iniziale della partita (include il n. di giocatori consigliato)"
+actionText="Mappa"
+configSetting="DXMapList MapNum"
+ 
+[ammocrate]
+AmmoReceived="Rifornimento munizioni"
+ItemName="Cassa di munizioni"
+ 
+[menuscreenplayersetup]
+HeaderPlayerNameLabel="Nome giocatore"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Reset)"
+actionButtons[2]="(Action=AB_OK)"
+Title="Configurazione dei giocatori MP"
+ 
+[Fireball]
+ItemName="Sfera di fuoco"
+ItemArticle="una"
+ 
+[menuchoice_victorytype]
+VictoryNames[0]="Limite vittime"
+VictoryNames[1]="Limite tempo"
+HelpText="Stabilisce le circostanze in cui la partita termina."
+actionText="Condizioni per la vittoria"
+configSetting="DeusEXMPGame VictoryCondition"
+ 
+[menuchoice_cycle]
+HelpText="Stabilisce in che modo il server sceglie la mappa successiva al termine di quella corrente"
+actionText="Sequenza di mappe"
+configSetting="DXMapList CycleType"
+ 
+[menuchoice_team]
+TeamNames[0]="UNATCO"
+TeamNames[1]="NSF"
+TeamNames[2]="AUTOMATICA"
+HelpText="Selezione della squadra in cui giocare."
+actionText="Modello di squadra"
+ 
+[menuchoice_skilllevel]
+LevelNames[0]="Addestrato(1)"
+LevelNames[1]="Avanzato(2)"
+LevelNames[2]="Esperto(3)"
+HelpText="Livello iniziale per le abilità del giocatore: Addestrato, Avanzato o Esperto."
+actionText="Livello abilità iniziale:"
+configSetting="DeusExMPGame MPSkillStartLevel"
+ 
+[menuchoice_servermode]
+ModeNames[0]="Dedicato"
+ModeNames[1]="Non dedicato"
+HelpText="Tipo di server da avviare. I server dedicati non hanno un giocatore locale ma sono più veloci."
+actionText="Modalità server"
+configSetting="MenuScreenHostGame ServerMode"
+ 
+[menuchoice_class]
+ClassNames[0]="JC Denton"
+ClassNames[1]="Terrorista NSF"
+ClassNames[2]="Soldato UNATCO"
+ClassNames[3]="Agente Majestic-12"
+HelpText="Modello del personaggio nelle partite non a squadre."
+actionText="Mod. non a squadra"
+ 
+[menuchoice_connection]
+ConnectionNames[0]="Modem"
+ConnectionNames[1]="DSL o superiore"
+HelpText="Tipo di connessione a Internet"
+actionText="Tipo di connessione"
+configSetting="Player ConfiguredInternetSpeed"
+ 
+[ComputerSecurityChoice_MPCamera]
+enumText[0]="Disattivata"
+enumText[1]="Nemici"
+enumText[2]="Alleati"
+actionText="|&Stato telecamera"
+ 
+[menuchoice_multihelp]
+HelpText="Attiva e disattiva la visualizzazione dei messaggi con le informazioni sulle regole del gioco durante le partite MP."
+actionText="Messaggi di aiuto"
+configSetting="DeusExPlayer bHelpMessages"
+ 
+[menuchoice_augsallowed]
+HelpText="Determina se i giocatori riceveranno o meno i potenziamenti iniziali e altri potenziamenti per ogni vittima."
+actionText="Potenziamenti"
+configSetting="DeusExMPGame bAugsAllowed"
+ 
+[menumpmain]
+ButtonNames[0]="Partita Internet"
+ButtonNames[1]="Partita LAN"
+ButtonNames[2]="Config. giocatore"
+ButtonNames[3]="Potenziamenti"
+ButtonNames[4]="Disconnetti"
+ButtonNames[5]="Menu precedente"
+Title="Menu principale MP"
+ 
+[menuscreenhostlan]
+Title="Organizza una partita tramite LAN"
+ 
+[menuchoice_maxplayers]
+HelpText="Imposta il n. massimo di giocatori permessi in una partita."
+actionText="N. max di giocatori"
+configSetting="DeusExMPGame MaxPlayers"
+ 
+[menuchoice_augbonus]
+HelpText="Imposta il numero di potenziamenti aggiuntivi concessi a un giocatore per ogni vittima."
+actionText="Potenziamenti per vittima"
+configSetting="DeusExMPGame AugsPerKill"
+ 
+[menuchoice_Startingaugs]
+HelpText="Imposta il numero iniziale di potenziamenti a disposizione di un giocatore."
+actionText="Potenziamenti iniziali"
+configSetting="DeusExMPGame InitialAugs"
+ 
+[menuscreenhostnet]
+Title="Organizza una partita su Internet"
+ 
+[menuchoice_startingskills]
+HelpText="Imposta il numero iniziale di punti abilità a disposizione di un giocatore."
+actionText="Punti abilità iniziali"
+configSetting="DeusExMPGame SkillsAvail"
+ 
+[menuchoice_skillbonus]
+HelpText="Imposta il numero di punti abilità aggiuntivi concessi a un giocatore per ogni vittima."
+actionText="Punti abilità per vittima"
+configSetting="DeusExMPGame SkillsPerKill"
+ 
+[menuchoice_friendlyfire]
+HelpText="Percentuale dei danni subiti a causa di un fuoco amico."
+actionText="Fuoco amico"
+configSetting="DeusExMPGame fFriendlyFireMult"
+
+[General]
+RunBang=Esegui!
+FirstTime=Prima configurazione di Deus Ex
+SafeMode=Modalità sicura di Deus Ex
+Video=Configurazione video di Deus Ex
+RecoveryMode=Modalità recupero di Deus Ex
+WebPage=http://www.deusex.com/
+Direct3DWebPage=http:// www.deusex.com/Direct3D.htm
+Detecting=Rilevamento schede video 3D. Attendere...
+SoundLow=Qualità audio ridotta
+SoundHigh=Qualità audio elevata
+SkinsLow=Texture giocatore dettaglio medio
+SkinsHigh=Texture giocatore dettaglio elevato
+WorldLow=Texture mondo dettaglio medio
+WorldHigh="Texture mondo dettaglio elevato"
+ResLow=Bassa risoluzione
+ResHigh=Risoluzione standard
+
+[Descriptions]
+SoftDrv.SoftwareRenderDevice=Rendering interno di Deus Ex. Compatibile con tutte le schede video. Modalità non raccomandata.
+GlideDrv.GlideRenderDevice=Supporto 3Dfx Glide, la scelta ottimale per i possessori di 3Dfx. Necessaria una scheda 3Dfx.
+D3DDrv.D3DRenderDevice=Rendering hardware Direct3D. Compatibile con le schede video più recenti, come Riva TNT, ATI Rage 128, Matrox G400 e S3 Savage4.  Non consigliato per l'uso con schede video vecchie. Usa il rendering software se hai una ATI Rage Pro, Riva 128, Intel i740 o una Rendition V2200.
+OpenGLDrv.OpenGLRenderDevice=Supporto sperimentale OpenGL. Questo supporto è a scopo di test e presenta diversi problemi di compatibilità con alcuni driver. Lo usi a tuo rischio e pericolo.
+MetalDrv.MetalRenderDevice=Per utenti con schede S3 Savage4.
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=
+IDC_DetailPrompt=Analizzando la velocità e la memoria del tuo computer e il modello di scheda video installato, Deus Ex ha selezionato le seguenti opzioni di dettaglio per ottimizzare le prestazioni.
+IDC_DetailNote=Potrai cambiare queste opzioni nel menu 'Prestazioni', se lo vorrai.
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=
+IDC_Prompt=Questo è il primo avvio di Deus Ex. Se riscontri un qualche problema, leggi le note di rilascio che si trovano in Programmi>Deus Ex nel menu Start/Avvio di Windows.
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Il tuo computer supporta le seguenti periferiche 3D.  Deus Ex ha scelto quella migliore. Se vuoi modificare la scelta, usa una delle seguenti opzioni.
+IDC_RenderNote=
+IDC_Compatible=Mostra le periferiche compatibili.
+IDC_All=Mostra tutte le periferiche.
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=
+IDC_SafeModePrompt=Deus Ex non è stato chiuso correttamente alla sua ultima esecuzione. Se l'arresto errato è stato provocato da un problema, puoi usare le opzioni seguenti per risolverlo.
+IDC_SafeModePrompt2=Opzioni di sicurezza di Deus Ex: se riscontri dei problemi, puoi ricorrere a queste opzioni per risolverli.
+IDC_Run=Esegui Deus Ex
+IDC_Video=Cambia la scheda video 3D
+IDC_SafeMode=Esegui Deus Ex nella modalità sicura - risoluzione dei problemi
+IDC_Web=Visita il nostro sito web per informazioni sulla risoluzione dei problemi
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=
+IDC_SafeOptions=Opzioni di sicurezza, per il rilevamento di problemi
+IDC_NoSound=Disattiva il sonoro
+IDC_No3DSound=Disattiva il sonoro hardware 3D
+IDC_No3DVideo=Disattiva il video hardware 3D
+IDC_Window=Esecuzione in finestra (invece che a pieno schermo)
+IDC_Res=Esecuzione nella risoluzione standard 640x480
+IDC_ResetConfig=Ripristina configurazione standard
+IDC_NoProcessor=Disattiva le estensioni Pentium III/3DNow
+IDC_NoJoy=Disattiva il supporto del joystick
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=
+IDC_DriverText=Deus Ex ha rilevato la seguente scheda video compatibile Direct3D:
+IDC_DriverInfo=Dal momento che hai scelto Direct3D, Deus Ex tenterà di usare questa scheda video per il supporto Direct3D.\n\nAlcune schede hanno, però, bisogno di driver aggiornati per poter visualizzare al meglio le caratteristiche grafiche all'avanguardia di Deus Ex. Ti consigliamo di usare il seguente collegamento per ottenere ulteriori informazioni sulla compatibilità della tua scheda video e per ottenere i driver compatibili Direct3D più recenti.\n\nSe riscontri dei problemi di carattere grafico, come colori sbagliati, poligoni lampeggianti, prestazioni scadenti o blocchi di sistema, lancia il gioco nella modalità sicurezza seguendo questo percorso: Start/Avvio>Programmi>Deus Ex. In questo modo, modificherai il driver video.
+IDC_Web=Per trovare i driver più aggiornati, visita la nostra pagina web:
+IDC_WebButton=Pagina delle informazioni e dei driver Direct3D
+IDC_Card=Sconosciuta
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Installazione di Deus Ex
+
+[IDDIALOG_ConfigPageResolution]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Your computer supports the following fullscreen resolutions. If you wish to change the current, highlight an option below.
+IDC_RenderNote=
+
+[IDDIALOG_ConfigPageAudioSubsystem]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=Your computer supports the following audio subsystem. If you wish to change the current, highlight an option below.
+IDC_RenderNote=

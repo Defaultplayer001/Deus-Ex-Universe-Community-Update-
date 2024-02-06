@@ -1,0 +1,34 @@
+[Hooker0]
+FamiliarName="Janey"
+UnfamiliarName="Ragazza"
+
+[Jock0]
+UnfamiliarName="Pilota"
+
+[SkillAwardTrigger6]
+awardMessage="Bonus di successo"
+
+[Female0]
+FamiliarName="Donna"
+UnfamiliarName="Signora"
+
+[JoeGreene0]
+UnfamiliarName="Venditore di auto usate?"
+
+[Male0]
+FamiliarName="Dan"
+UnfamiliarName="Operaio"
+
+[JordanShea0]
+UnfamiliarName="Barista"
+
+[Female1]
+FamiliarName="Signora in golf"
+UnfamiliarName="Signora in golf"
+
+[DeusExLevelInfo0]
+MissionLocation="NY - Taverna Underworld"
+
+[LevelSummary]
+Title="Senza titolo"
+

@@ -4,7 +4,7 @@ del "%~dp0\Deus Ex Community Update.temp"
 
 "%~dp0\7z.exe" a "%~dp0\Deus Ex Community Update.7z" "%~dp0\..\.."
 
-"%~dp0..\ResourceHacker.exe" -open "%~dp0\7zSD.sfx" -save "%~dp0\7zSDCustomIcon.sfx" -action addskip -res "%~dp0..\..\Mods\Community Update\Help\DeusExCU.ico" -mask ICONGROUP,MAINICON,
+"%~dp0..\ResourceHacker.exe" -open "%~dp0\7zSD.sfx" -save "%~dp0\7zSDCustomIcon.sfx" -action addskip -res "%~dp0..\..\.\Help\DeusExCU.ico" -mask ICONGROUP,MAINICON,
 
 for /f %%x in ('wmic path win32_localtime get /format:list ^| findstr "="') do set %%x
 set today=%Year%-%Month%-%Day%

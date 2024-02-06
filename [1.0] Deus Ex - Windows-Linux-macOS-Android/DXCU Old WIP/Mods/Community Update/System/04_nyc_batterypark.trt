@@ -1,0 +1,27 @@
+[SkillAwardTrigger2]
+awardMessage="Basari Bonusu"
+
+[JunkieFemale0]
+FamiliarName="Hasta Kadin"
+UnfamiliarName="Hasta Kadin"
+
+[JunkieMale2]
+FamiliarName="Hasta Adam"
+UnfamiliarName="Hasta Adam"
+
+[ChildMale0]
+FamiliarName="Billy"
+UnfamiliarName="Çocuk"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Batarya Parki"
+startupMessage[0]="New York Sehri"
+startupMessage[1]="Batarya Parki"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+

@@ -1,0 +1,52 @@
+[LevelSummary]
+Title="Sem título"
+
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Aeroporto"
+
+[SkillAwardTrigger10]
+awardMessage="Bônus: realização"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[NanoKey0]
+Description="Chave do portão leste"
+
+[SkillAwardTrigger8]
+awardMessage="Bônus: exploração"
+
+[NanoKey1]
+Description="Dormitório das barracas"
+
+[SkillAwardTrigger7]
+awardMessage="Bônus: avanço"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Torreta Direita",CameraTag=sectower3cama,Turrettag=sectower3turreta)"
+Views[1]="(titleString="Torreta Esquerda",CameraTag=sectower3camb,Turrettag=sectower3turretb)"
+
+[ComputerSecurity8]
+Views[0]="(titleString="Torreta direita",CameraTag=sectower4cama,Turrettag=sectower4turreta)"
+Views[1]="(titleString="Torreta esquerda",CameraTag=sectower4camb,Turrettag=sectower4turretb)"
+
+[ComputerSecurity9]
+Views[0]="(titleString="Torreta direita",CameraTag=sectower5cama,Turrettag=sectower5turreta)"
+Views[1]="(titleString="Torreta esquerda",CameraTag=sectower5camb,Turrettag=sectower5turretb)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Torreta direita",CameraTag=sectower2cama,Turrettag=sectower2turreta)"
+Views[1]="(titleString="Torreta esquerda",CameraTag=sectower2camb,Turrettag=sectower2turretb)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Torreta direita",CameraTag=sectower1cama,Turrettag=sectower1turreta)"
+Views[1]="(titleString="Torreta esquerda",CameraTag=sectower1camb,Turrettag=sectower1turretb)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=boatguard,KeyID=eastgate,Description="Chave do portão leste")"
+NanoKeyData[1]="(ScriptedPawnTag=Terrorist,KeyID=securitytower,Description="Chave da torre de segurança")"
+
+[SkillAwardTrigger2]
+awardMessage="Bônus: realização de objetivo"
+

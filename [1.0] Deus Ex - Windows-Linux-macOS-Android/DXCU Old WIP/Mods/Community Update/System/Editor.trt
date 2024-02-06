@@ -1,0 +1,88 @@
+[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+HelpCmd=master
+HelpOneLiner=Usta yukleyici dosyalar insa eder
+HelpUsage=master [-option...] [parm=value]...
+HelpParm[0]=MasterPath
+HelpDesc[0]=Bir yerden kaynak dosyalari kopyalamak icin kok dizin
+HelpParm[1]=SrcPath
+HelpDesc[1]=Bir yere kaynak (cikis) dosyalari kopyalamak icin kok dizin
+HelpParm[2]=RefPath
+HelpDesc[2]=Delta-sikistirilmis yol referansi için yol
+
+[ConformCommandlet]
+HelpCmd=conform
+HelpOneLiner=Uyumlanan ikili dosyalar meydana getirir
+HelpUsage=conform existing_file.ext old_file.ext
+HelpParm[0]=existingfile.ext
+HelpDesc[0]=Yuklemek, uyumlamak ve kaydetmek icin var olan ikili dosya
+HelpParm[1]=oldfile.ext
+HelpDesc[1]=Biriyle ikili uyumu olan kaynak dosya yapmak icin eski dosya
+
+[PackageFlagCommandlet]
+HelpCmd=packageflag
+HelpOneLiner=Paket dosyalarinda paket bayraklari ayarlar
+HelpUsage=packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]
+HelpParm[0]=src.ext
+HelpDesc[0]=Yuklemek icin var olan paket dosyasi
+HelpParm[1]=dest.exe
+HelpDesc[1]=Yeni bayrak ayarlariyla yeni paket dosyasinin adi
+HelpParm[2]=flag
+HelpDesc[2]=Bir bayrak ayarlamak icin +, veya bir bayrak kaldirmak icin -, biri tarafindan takip edilecek sekilde:
+HelpParm[3]=" "
+HelpDesc[3]="  AllowDownload"
+HelpParm[4]=" "
+HelpDesc[4]="  ClientOptional"
+HelpParm[5]=" "
+HelpDesc[5]="  ServerSideOnly"
+HelpParm[6]=" "
+HelpDesc[6]="  BrokenLinks"
+HelpParm[7]=" "
+HelpDesc[7]="  Unsecure"
+
+[MakeCommandlet]
+HelpCmd=make
+HelpOneLiner=UnrealScript paketlerini yeniden insa eder
+HelpUsage=make [-option...] [parm=value]...
+HelpParm[0]=Silent
+HelpDesc[0]=Soru sorma yok; tüm sorulara "evet" cevabi varsayilir
+HelpParm[1]=NoBind
+HelpDesc[1]=DLL dosyalarina baglanmis olmasi icin yerel islevlere zorlamaz
+HelpParm[2]=All
+HelpDesc[2]=Temiz yeniden insa etme (aksi takdirde yeniden insa etme birikmeli olur)
+
+[MergeDXTCommandlet]
+HelpCmd=mergedxt
+HelpOneLiner=Standart dokulari DXT dokulariyla birlestirir
+HelpUsage=mergedxt srcpath oldpath destpath
+HelpParm[0]=srcpath
+HelpDesc[0]=Kaynak dosyalari iceren yol
+HelpParm[1]=oldpath
+HelpDesc[1]=Eski dosyalari iceren yol
+HelpParm[2]=destpath
+HelpDesc[2]=Hedef dosyalar icin yol
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpOneLiner=Nesneleri toptan disa aktarir
+HelpUsage=batchexport package.ext classname export_ext
+HelpParm[0]=package.ext
+HelpDesc[0]=Disa aktarmak istediginiz nesnelerle baglantili paket
+HelpParm[1]=classname
+HelpDesc[1]=Disa aktarmak icin nesne sinifi
+HelpParm[2]=export_ext
+HelpDesc[2]=Bir yere disa aktarma icin dosya uzantisi
+HelpParm[3]=path
+HelpDesc[3]=Bir yere dosyalari disa aktarma yolu, c:\MyPath gibi

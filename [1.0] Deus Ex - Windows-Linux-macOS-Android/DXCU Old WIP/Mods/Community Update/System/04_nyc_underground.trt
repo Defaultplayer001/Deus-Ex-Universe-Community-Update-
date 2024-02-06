@@ -1,0 +1,15 @@
+[ComputerSecurity0]
+Views[0]="(titleString="Dogu Giris",CameraTag=Camera1,doorTag=DoorA)"
+Views[1]="(titleString="Bati Giris",CameraTag=Camera2)"
+Views[2]="(titleString="Boru Erisim Tüneli",CameraTag=Camera3,Turrettag=AutoTurretA)"
+specialOptions[0]="(Text="Köprüyü Döndür",TriggerText="Köprü Döndürülüyor",TriggerEvent=RotateBridge)"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo1]
+MissionLocation="New York - Kanalizasyonlar"
+
+[SkillAwardTrigger1]
+awardMessage="Bölge Konum Bonusu"
+

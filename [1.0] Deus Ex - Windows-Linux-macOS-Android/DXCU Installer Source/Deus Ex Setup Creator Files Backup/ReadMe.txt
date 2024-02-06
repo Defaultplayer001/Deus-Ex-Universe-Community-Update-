@@ -2,10 +2,10 @@ IGNORE THE REST OF THIS IF YOU JUST WANT TO MANUALLY INSTALL THE MOD!
 For that simply:
 
 1. Copy the Mods folder into your Deus Ex folder = Or any folder, if you want to use the demo / try a portable install (Make sure the redundant paths in default.ini lead to an actual game path on your system! If not add a FULL game path, drive included.)
-	If you don't want to play the demo, delete Mods\Community Update\Optional Files\Demo.
+	If you don't want to play the demo, delete Optional Files\Demo.
 		Otherwise the mod will end after the second mission is complete.
 
-2. Navigate to Mods\Community Update\System
+2. Navigate to System
 
 3. Run the exe there to play the mod
 

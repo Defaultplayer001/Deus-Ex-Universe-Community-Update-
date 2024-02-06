@@ -1,0 +1,27 @@
+[DeusExLevelInfo0]
+MissionLocation="NYC - Sistema AC edifidio ensamblaje naval"
+
+[ComputerSecurity6]
+Views[0]="(titleString="Sala ventilación",cameraTag=Main,doorTag=MainDuctVent)"
+
+[LevelSummary]
+Title="Sin título"
+
+[NanoKey2]
+PickupMessage=""
+ItemName=""
+ItemArticle=""
+M_Activated=""
+M_Selected=""
+M_Deactivated=""
+Description=""
+
+[SkillAwardTrigger1]
+awardMessage="Bono por éxito"
+
+[SkillAwardTrigger0]
+awardMessage="Bono por localización de zona"
+
+[ZoneInfo0]
+DamageString="La temperatura en esta zona es MUY elevada"
+

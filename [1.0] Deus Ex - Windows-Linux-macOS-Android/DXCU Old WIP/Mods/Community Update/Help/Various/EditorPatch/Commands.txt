@@ -1,0 +1,66 @@
+Modified and additional Editor commands for EditorPatch.
+
+ACTOR
+	SEARCH
+	Opens Actor search window. Also hardcoded to Ctrl+F.
+
+	SELECT OFSUBCLASS CLASS=<cls>
+	Works like the SELECT OFCLASS command, but includes subclasses as well.
+
+	SELECT OFTAG TAG=<tag>
+	Selects all Actors with Tag=<tag>.
+
+	SELECT OFEVENT EVENT=<event>
+	Selects all Actors with Event=<event>.
+
+	SELECT OFATTACHTAG ATTACHTAG=<attachtag>
+	Selects all Actors with AttachTag=<attachtag>.
+
+	SELECT OFBINDNAME BINDNAME=<bindname>
+	Selects all Actors with Bindname=<bindname> (Deus Ex only).
+
+	SELECT OFBARKBINDNAME BARKBINDNAME=<barkbindname>
+	Selects all Actors with BarkBindname=<barkbindname> (Deus Ex only).
+
+
+MAP
+	NEW [ROOTOUTSIDE=<rootoutside>]
+	Creates a new map being either solid (rootinside) or hollow (rootoutside).
+	Defaults to solid (rootinside).
+
+
+MESHMAP
+	SETPOLYFLAGS MESHMAP=<meshmap> NUM=<num> POLYFLAGS=<polyflags>
+	Sets PolyFlags for a particular texture index. Note: current implementation
+	doesn't sort polys again after PolyFlags modification.
+
+
+SELECT
+	ALL
+	Forwards to ACTOR SELECT ALL. Needed for Visual Basic Editor UI to function properly.
+
+
+SKY
+	LINK
+	Executes the LinkToSkybox event for each ZoneInfo.
+
+	UNLINK
+	Resets all ZoneInfos SkyZone links to None.
+
+	TOGGLELINK
+	Toggles between LINK/UNLICK. 
+	Note: Link status tracking is not reset when opening another map, so this command may
+	need to be executed twice.
+
+
+WARP
+	LINK
+	Executes the Generate event for each WarpZoneInfo.
+
+	UNLINK
+	Resets all WarpZoneInfos OtherSideLevel/OtherSideActor links to None.
+
+	TOGGLELINK
+	Toggles between LINK/UNLICK. 
+	Note: Link status tracking is not reset when opening another map, so this command may
+	need to be executed twice.

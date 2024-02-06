@@ -22,7 +22,7 @@ Actual gameplay code is identical, warts and all!
 
 Also includes a dedicated multiplayer setup, plus the original 2 mission demo updated to the latest version.
 
-Features the new Lay D Denton Project as an install option, a female JC Denton player mod! 
+Features the new Lay D Denton Project as an install option, a female JC Denton player mod! (Partial Transcended Compatibility, incompatible with Confix)
 
 Selected by default is the fantastic mod: 
 

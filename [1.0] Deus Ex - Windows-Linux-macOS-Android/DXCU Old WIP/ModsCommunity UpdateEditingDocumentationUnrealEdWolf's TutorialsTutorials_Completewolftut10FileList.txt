@@ -1,0 +1,8 @@
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\Wolf's Tutorials\Tutorials_Complete\wolftut10\shot0000.jpg",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\Wolf's Tutorials\Tutorials_Complete\wolftut10\shot0001.jpg",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\Wolf's Tutorials\Tutorials_Complete\wolftut10\shot0002.jpg",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\Wolf's Tutorials\Tutorials_Complete\wolftut10\shot0003.jpg",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\Wolf's Tutorials\Tutorials_Complete\wolftut10\shot0004.jpg",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\Wolf's Tutorials\Tutorials_Complete\wolftut10\shotfinal.jpg",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\Wolf's Tutorials\Tutorials_Complete\wolftut10\wolftut10.html",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\Wolf's Tutorials\Tutorials_Complete\wolftut10\wolftute10.unr",Size

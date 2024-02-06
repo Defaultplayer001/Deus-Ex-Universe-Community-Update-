@@ -1,0 +1,16 @@
+[DeusExLevelInfo0]
+MissionLocation="UNATCO Ausbildungs-Parcours"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[DeusExMover8]
+msgKeyLocked=""
+msgKeyUnlocked=""
+msgLockpickSuccess=""
+msgOneWayFail=""
+msgLocked=""
+msgPicking=""
+msgAlreadyUnlocked=""
+msgNoNanoKey=""
+

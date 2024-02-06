@@ -1,0 +1,131 @@
+﻿<HTML>
+<HEAD>
+	<TITLE>Deus Ex Aktualizacja - Przeczytaj jako pierwsze</TITLE>
+	</HEAD>
+<BODY BGCOLOR="#C0C0C0" LINK="#0000FF" VLINK="#0000ff" ALINK="#FF0000">
+
+<center>
+ </B><FONT size="5"><B>Deus Ex Aktualizacja - Przeczytaj jako pierwsze<br>
+ </B></FONT><FONT size="4">9 listopada, 2000<br>
+Wersja 1.0<br>
+ <br>
+</center>
+
+ <FONT size="3">
+
+<B>
+<a href="#patch">Opis aktualizacji</a> <br>
+<a href="#saveload">Zawieszanie się gry przy zapisywaniu/wczytywaniu</a><br>
+<a href="#d3d">Problemy z wydajnością D3D</a><br>
+</B>
+<br>
+
+<hr>
+
+<FONT color="#0000FF" face="Arial"><B><a name="patch"></a>Opis aktualizacji<br></B></font>
+
+Zmiany w stosunku do wersji 1.009f:<br>
+<br>
+<UL><LI>Naprawiono błąd, który powodował zawieszanie się gry podczas korzystania ze skafandra ochronnego w trakcie szkolenia.<br>
+ <LI>Nie można już usunąć funkcji przypisanych do klawiszy F1 i F2.<br>
+ <LI>Podczas podnoszenia zwłok nie będzie się już zdarzać, że przez przypadek wyświetlane są grafiki oznaczające miejsca zakotwiczenia elementów.<br>
+ <LI>Poprawiono występujący podczas rozmowy z Garym Savagem błąd, który powodował uzyskanie nieskończonej liczby punktów umiejętności.<br>
+ <LI>Wprowadzono aktualizację D3DDrv.dll.<br>
+ <LI>Wprowadzono nowy kod Loki OpenGL.<br>
+ <LI>Gra będzie teraz działać poprawnie w systemie Win95a.<br>
+ <br>
+ </UL><P>
+
+<hr>
+
+<FONT color="#0000FF" face="Arial"><B><a name="saveload"></a>Zalecenia odnośnie zawieszania się gry przy zapisywaniu/wczytywaniu<br></B></font>
+
+Czasami podczas instalacji może dojść do uszkodzenia pliku mapy. Sądzimy, że jest to spowodowane określonymi kombinacjami dysków twardych/sterowników i napędów CD/sterowników. Jeżeli dojdzie do takiego błędu, w przypadku przeniesienia się z mapy na kolejną może dojść do zawieszenia się gry. Oto sugestie, które mogą pomóc w rozwiązaniu tego problemu. Proszę wypróbować w je w podanej kolejności. Jeżeli pierwsza nie zadziała, proszę wypróbować kolejną.<br>
+
+<UL><LI><B>Obniż poziom szczegółów tekstur na czas przeniesienia się na nową mapę</B><br>
+<br>
+Podczas przenoszenia się pomiędzy poziomami można uniknąć zawieszania się gry poprzez zmniejszenie na czas tego procesu poziomów szczegółowości świata i modeli do najniższego dopuszczalnego poziomu. Po przeniesieniu postaci na nową mapę można je ponownie zwiększyć.<br>
+ <br>
+
+<LI><B><I>(Tylko dla zaawansowanych użytkowników!)</I> Instalacja z dysku twardego</B><br>
+<br>
+Jeżeli w grze występują wciąż te same problemu lub komunikaty o błędach nie pozwalają na ich rozwiązanie, to istnieje szansa, że mogą one zostać rozwiązane poprzez instalację gry z dysku twardego, a nie dysku CD z grą Deus Ex. Aby to zrobić, proszę wykonać poniższe kroki:<br>
+<br>
+<B>1)</B> Proszę się upewnić, że na dysku twardym znajduje się dostateczna ilość wolnej przestrzeni zarówno na instalację gry, jak i plik z obrazem CD gry – około 1,4 GB.<br>
+<B>2)</B> Stwórz folder o nazwie „<I>Deus Ex Install</I>”, w którym znajdzie się obraz dysku CD.<br>
+<B>3)</B> Skopiuj do tego foldera całą zawartość dysku CD.<br>
+<B>4)</B> Po zakończeniu procesu kopiowania, uruchom plik „<I>Deus Ex Install</I>” i zainstaluj grę.<br>
+<B>5)</B> Po zakończeniu procesu instalacji gry można usunąć folder „<I>Deus Ex Install</I>”.<br>
+<br>
+
+<LI><B><I>(Tylko dla użytkowników zaawansowanych!)</I> Skopiuj powtórnie mapę z dysku CD</B><br>
+<br>
+<B>1)</B> Ustal za pomocą komunikatu o błędzie, która mapa jest jego powodem. W jego treści powinno się znajdować coś takiego „<I>01_NYC_UNATCOIsland</I>”. Interesuje nas coś, co rozpoczyna się od dwóch cyfr i brzmi jak nazwa lokacji. Dodaj na końcu „<I>.dx</I>”, a uzyskasz nazwę mapy. W tym przypadku jest to „<I>01_NYC_UNATCOIsland.dx</I>”.<br>
+<br>
+<B>2)</B> Skopiuj tę mapę z foldera „<I>Maps</I>” na dysku CD z grą <I>Deus Ex</I> na dysk twardy do foldera „<I>Maps</I>”. W naszym przypadku, gdy napęd CD-ROM jest oznakowany literą  <I>„F:”</I>, a gra została zainstalowana do foldera „<I>C:\DeusEx</I>”należałoby skopiować „<I>F:\Maps\01_NYC_UNATCOIsland.dx</I>” to „<I>C:\DeusEx\Maps\01_NYC_UNATCOIsland.dx</I>”.<br>
+<br>
+<B>3)</B> Wszelkie zapisane stany gry z uszkodzonej mapy także mogą być uszkodzone, a co za tym idzie należy usunąć wszystkie foldery z plikami zapisanych gier, które zawierają mapę, o którą chodzi (z rozszerzeniem „<I>.dxs</I>”, a nie „<I>.dx</I>”). Zacznij od pliku z najwyższym numerem i przejdź aż do najniższego, do momentu, kiedy znajdziesz taki, który nie zawiera mapy stwarzającej problemy.<br>
+<br>
+Przykład, jeżeli masz 20 zapisanych stanów gry (w folderze „<I>Save</I>”), zacznij od pliku Save0020 i przejdź kolejno, aż do Save0001. Jeżeli Save0020 i Save0019 zawierają „<I>01_NYC_UNATCOIsland.dxs</I>”, ale Save0018 już nie, to należy usunąć pierwsze dwa (Save0020 oraz Save0019). Istnieje możliwość, że żaden z zapisanych stanów gry nie będzie zawierać danej mapy i nie trzeba będzie nic kasować.<br>
+<br>
+<B>4)</B> Teraz nie powinno być już problemu z wczytywaniem pozostałych plików zapisy i będzie można normalnie kontynuować grę.<br>
+<br>
+ </UL><P>
+
+<hr>
+
+<FONT color="#0000FF" face="Arial"><B><a name="d3d"></a>Problemy z wydajnością D3D<br></B></font>
+<UL><LI>W przypadku problemów z wydajnością w grze <I>Deus Ex</I>, to zmiana kilku ustawień może poprawić płynność jej działania.<br>
+<br>
+W głównym menu kliknij na ustawienia, a następnie na ekran:<br>
+<br>
+<UL><LI><B>Rozdzielczość ekranu</B> - Ustaw rozdzielczość na 640x480 lub 800x600.
+<LI><B>Paleta kolorów tekstur</B> - Ustaw paletę kolorów tekstur na 16-bitową.
+<LI><B>Jakość tekstur otoczenia</B> - Ustawą ją na poziomie średnim.
+<LI><B>Tekstury szczegółowe</B> - Wyłącz tę opcję.
+</UL>
+<br>
+<LI>W przypadku problemów z wydajnością Direct3D, warto spróbować czy korzystanie w <I>Deus Ex</I> z OpenGL jako urządzenia renderującego nie będzie lepszym rozwiązaniem. OpenGL nie jest oficjalnie przez grę obsługiwane, ale w wielu przypadkach pozwala na uzyskanie znacznie lepszej wydajności (szczególnie w przypadku chipsetów NVidia, takich jak GeForce).<br>
+<br>
+OpenGL <B>NIE JEST ZALECANY </B> dla użytkowników kart grafiki z rodziny 3DFx. W ich przypadku najlepszą wydajność uzyskuje się podczas korzystania z Glide.<br>
+<br>
+Aby włączyć OpenGL, wybierz z głównego menu <I>Deus Ex</I>ustawienia, ekran, a następnie urządzenie renderujące.  <I>Deus Ex</I> zostanie automatycznie uruchomiony ponownie, aby wyświetlone zostało okno wyboru karty graficznej. Gdy zostanie już wyświetlone, proszę kliknąć na przycisku „Pokaż wszystkie urządzenia”. Wybierz „Obsługę OpenGL”, a następnie kliknij dwa razy na „Dalej” i w końcu na „Zrobione. Nastąpi próba uruchomienia gry <I>Deus Ex</I> przy pomocy OpenGL.<br>
+<br>
+Jeżeli to się nie uda (wyświetlony zostanie komunikat o błędzie lub gra będzie działać bardzo powoli w oknie), oznacza to, że karta graficzna lub jej sterowniki nie obsługują OpenGL. W takim wypadku trzeba będzie z powrotem wybrać jako urządzenie renderujące Direct3D. Aby to zrobić, wyjdź z gry i uruchom ją ponownie w trybie bezpieczeństwa, za pomocą skrótu utworzonego podczas instalacji i wybierz Direct3D.<br>
+<br>
+<I>(Tylko dla użytkowników zaawansowanych!)</I> Jeżeli korzystasz z trybu OpenGL i dysponujesz kartą TNT lub Radeon, to warto wypróbować poniższe możliwości, aby spróbować zwiększyć wydajność:<br>
+<br>
+<UL>
+<LI>Zapisz kopię pliku <I>DeusEx.ini</I>, który znajduje się w głównym folderze gry („<I>System</I>”). W ten sposób będzie można przywrócić pierwotne ustawienia, na wypadek, gdyby wprowadzone zmiany uniemożliwiły poprawne działanie gry.<br>
+<LI>Otwórz plik <I>DeusEx.ini</I> za pomocą jakiegoś edytora.<br>
+<LI>Poszukaj akapitu tekstu, który zaczyna się od wiersza „<I>[OpenGLDrv.OpenGLRenderDevice]</I>”.<br>
+<LI>Kilka linii poniżej, w tym samym akapicie powinien się znajdować taki wiersz „<I>UseTNT=0</I>”. Zmień go na „<I>UseTNT=1</I>”.<br>
+</UL>
+<br>
+<I>(Ważne: gry gra działa w trybie OpenGL, na ekranie wczytywani zapisanych stanów gier nie będzie wyświetlonego zrzutu ekranu. To normalne.)</I><br>
+<br>
+<LI>Nienajlepsza płynność działania gry jest czasami spowodowana przez sterowniki lub ich kombinacje. Aktualizacja sterowników AGP pozwala uzyskać poprawę płynności działania gry. Proszę się upewnić, że w systemie zainstalowane są:<br>
+<br>
+<UL><LI><I>Sterowniki do karty graficznej</I><br>
+<a href="http://www.nvidia.com" target="_blank">http://www.nvidia.com</a><br>
+<a href="http://www.matrox.com" target="_blank">http://www.matrox.com</a><br>
+<a href="http://www.ati.com" target="_blank">http://www.ati.com</a><br>
+<br>
+<LI><I>Sterowniki do karty dźwiękowej</I><br>
+<a href="http://www.creativelabs.com" target="_blank">http://www.creativelabs.com</a><br>
+<br>
+<LI><I>Sterowniki do AGP</I><br>
+<a href="http://www.intel.com" target="_blank">http://www.intel.com</a><br>
+<a href="http://www.viatech.com" target="_blank">http://www.viatech.com</a><br>
+<br>
+<LI><I>BIOS płyty głównej</I><br>
+<a href="http://www.abit.com" target="_blank">http://www.abit.com</a><br>
+<a href="http://www.asus.com" target="_blank">http://www.asus.com</a><br>
+<a href="http://www.intel.com" target="_blank">http://www.intel.com</a><br>
+<a href="http://www.tyan.com" target="_blank">http://www.tyan.com</a><br>
+</UL><br>
+ </UL><P>
+
+<hr>
+<br>
+Specjalne podziękowania dla Daniela Vogela i zespołu z Loki Entertainment Software za znaczące ulepszenie biblioteki OpenGL dla gry<I>Deus Ex</I>.<br>

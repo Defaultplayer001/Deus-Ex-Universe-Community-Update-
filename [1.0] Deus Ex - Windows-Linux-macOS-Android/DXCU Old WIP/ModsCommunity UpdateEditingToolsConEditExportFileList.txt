@@ -1,0 +1,2 @@
+File=(Src="Mods\Community Update\Editing\Tools\ConEditExport\ConEditExport.jar",Size
+File=(Src="Mods\Community Update\Editing\Tools\ConEditExport\ReadMe.txt",Size

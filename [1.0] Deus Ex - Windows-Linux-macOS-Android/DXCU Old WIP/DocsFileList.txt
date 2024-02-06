@@ -1,0 +1,1 @@
+File=(Src="Docs\Manifest.ini Usage.txt",Size

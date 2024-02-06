@@ -1,0 +1,5 @@
+File=(Src="Mods\Community Update\Editing\Tools\Translation creation files\Setup int files\Core.int",Size
+File=(Src="Mods\Community Update\Editing\Tools\Translation creation files\Setup int files\Manifest.int",Size
+File=(Src="Mods\Community Update\Editing\Tools\Translation creation files\Setup int files\Readme.txt",Size
+File=(Src="Mods\Community Update\Editing\Tools\Translation creation files\Setup int files\Setup.int",Size
+File=(Src="Mods\Community Update\Editing\Tools\Translation creation files\Setup int files\Window.int",Size

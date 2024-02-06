@@ -1,0 +1,48 @@
+[Setup]
+LocalProduct=Deus Ex Preview Edition
+DefaultFolder=C:\DeusEx
+ReadMe=Help\ReadMe.htm
+SetupWindowTitle=Deus Ex Preview Edition Setup
+AutoplayWindowTitle=Deus Ex Preview Edition Options
+ProductURL=http://www.deusex.com/
+VersionURL=http://www.deusex.com/versions.htm
+Developer=ION Storm Austin
+DeveloperURL=http://www.ionstorm.com/
+PublisherURL=http://www.eidos.com/
+Logo=Help\LogoSmall.bmp
+License=License.int
+
+[General]
+PlayLevelCommand=&Play this Deus Ex level
+OpenLinkCommand=&Open this Deus Ex link
+EditLevelCommand=&Edit this Deus Ex level
+
+[GameGroup]
+Caption=Deus Ex System
+Description=Deus Ex system files. Installation is required.
+
+[DirectXGroup]
+Caption=DirectX
+Description=Microsoft DirectX 7.0a drivers for enhanced graphics, sound, and joystick support. If you do not currently have DirectX 7.0a installed, you must choose this option.
+
+[PlayShortcut]
+Caption=Play Deus Ex Preview Edition
+
+[SafeModeShortcut]
+Caption=Deus Ex Preview Edition Safe Mode
+
+[DocumentationShortcut]
+Caption=Documentation
+
+[ProductWebShortcut]
+Caption=Deus Ex Web Page
+
+[DeveloperWebShortcut]
+Caption=Ion Storm Web Page
+
+[PublisherWebShortcut]
+Caption=Eidos Interactive Web Page
+
+[UninstallShortcut]
+Caption=Uninstall Deus Ex Preview Edition
+

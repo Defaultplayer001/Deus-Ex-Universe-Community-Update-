@@ -1,0 +1,78 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Chad,KeyID=catacombs_blastdoor,Description="Chave para a porta blindada")"
+
+[BumFemale0]
+FamiliarName="Membro do Silhouette"
+UnfamiliarName="Membro do Silhouette"
+
+[NanoKey0]
+Description="Chave da porta blindada"
+
+[SkillAwardTrigger6]
+awardMessage="Bônus: avanço"
+
+[JunkieMale0]
+FamiliarName="Juveau"
+UnfamiliarName="Membro do Silhouette"
+
+[LowerClassFemale0]
+FamiliarName="Anna"
+UnfamiliarName="Membro do Silhouette"
+
+[Hooker1]
+FamiliarName="Membro do Silhouette"
+UnfamiliarName="Membro do Silhouette"
+
+[DeusExLevelInfo5]
+MissionLocation="Paris - Catacumbas"
+startupMessage[0]="Les catacombes de Paris"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Entrada ao bunker",CameraTag=mj12catacam01,Turrettag=mj12cataturret01)"
+Views[1]="(titleString="Área-retenção-reféns",CameraTag=mj12catacam02,Turrettag=mj12cataturret02)"
+
+[SkillAwardTrigger2]
+awardMessage="Bônus: êxito"
+
+[ChildMale0]
+FamiliarName="Pierre"
+
+[WIB0]
+FamiliarName="Agente Hela"
+
+[Chad0]
+UnfamiliarName="Líder do Silhouette"
+
+[ThugMale1]
+FamiliarName="Membro do Silhouette"
+UnfamiliarName="Membro do Silhouette"
+
+[BumMale0]
+FamiliarName="Membro do Silhouette"
+UnfamiliarName="Membro do Silhouette"
+
+[SkillAwardTrigger5]
+awardMessage="Bônus: aquisição de sujeito"
+
+[SkillAwardTrigger3]
+awardMessage="Bônus: avanço"
+
+[NanoKey1]
+Description="Chave da entrada das catacumbas"
+
+[SkillAwardTrigger1]
+awardMessage="Bônus: aquisição de sujeito"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: localização crítica"
+
+[SkillAwardTrigger4]
+awardMessage="Bônus: avanço"
+
+[LevelSummary]
+Title="Sem título"
+
+[JunkieMale1]
+FamiliarName="Vagabundo"
+UnfamiliarName="Vagabundo"
+

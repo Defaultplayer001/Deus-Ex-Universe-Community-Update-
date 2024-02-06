@@ -1,0 +1,1 @@
+File=(Src="Mods\Community Update\Languages\.con Files for Translations and Demo\ReadMe.txt",Size

@@ -1,0 +1,171 @@
+[Businessman1]
+FamiliarName="Bay Liu"
+UnfamiliarName="Takim Elbiseli Adam"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Ana Kapi",CameraTag=compound1,doorTag=compound_gate)"
+Views[1]="(titleString="Avlu",CameraTag=compound2)"
+Views[2]="(titleString="Tong'un Ana Girisi",CameraTag=compound3)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Pazar Yolu 1",CameraTag=marketcamera1)"
+Views[1]="(titleString="Pazar Yolu 2",CameraTag=marketcamera2)"
+Views[2]="(titleString="Pazar Yolu 3",CameraTag=marketcamera3,doorTag=Pillboxdoor)"
+
+[TriadRedArrow0]
+FamiliarName="Red Arrow Triad Üyesi"
+UnfamiliarName="Red Arrow Triad Üyesi"
+
+[SkillAwardTrigger2]
+awardMessage="Bölge Konum Bonusu"
+
+[SkillAwardTrigger3]
+awardMessage="Bölge Konum Bonusu"
+
+[LowerClassFemale0]
+FamiliarName="Haber Seyyar Satici"
+UnfamiliarName="Haber Seyyar Satici"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[Cat3]
+FamiliarName="Daisy"
+UnfamiliarName="Daisy"
+
+[TriadRedArrow1]
+FamiliarName="Red Arrow Triad Üyesi"
+UnfamiliarName="Red Arrow Triad Üyesi"
+
+[SkillAwardTrigger1]
+awardMessage="Bölge Konum Bonusu"
+
+[SkillAwardTrigger4]
+awardMessage="Basari Bonusu"
+
+[TriadLumPath9]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[HKMilitary5]
+FamiliarName="Çinli Askeri Inzibat"
+UnfamiliarName="Çinli Askeri Inzibat"
+
+[HKMilitary3]
+FamiliarName="Çinli Askeri Inzibat"
+UnfamiliarName="Çinli Askeri Inzibat"
+
+[Secretary0]
+FamiliarName="Peggy"
+UnfamiliarName="Çiçeklere bakan kadin"
+
+[Female4]
+FamiliarName="Çiçekçi Kiz"
+UnfamiliarName="Çiçekçi Kiz"
+
+[Businesswoman0]
+FamiliarName="Kadin Satici"
+UnfamiliarName="Kadin Satici"
+
+[TriadLumPath14]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[TriadLumPath18]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[TriadLumPath26]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[HKMilitary4]
+FamiliarName="Çinli Askeri Inzibat"
+UnfamiliarName="Çinli Askeri Inzibat"
+
+[TriadLumPath5]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[HKMilitary2]
+FamiliarName="Çinli Askeri Inzibat"
+UnfamiliarName="Çinli Askeri Inzibat"
+
+[HKMilitary1]
+FamiliarName="Çinli Askeri Inzibat"
+UnfamiliarName="Çinli Askeri Inzibat"
+
+[TriadLumPath24]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[Male2]
+FamiliarName="Kesis"
+UnfamiliarName="Kesis"
+
+[Male0]
+FamiliarName="Kasap"
+UnfamiliarName="Kasap"
+
+[GordonQuick0]
+UnfamiliarName="Triad Lideri"
+
+[TriadLumPath22]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[TriadLumPath6]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[DeusExLevelInfo1]
+MissionLocation="Hong Kong - Pazar"
+startupMessage[0]="Wan Chai Pazari"
+startupMessage[1]="Hong Kong"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=GateGuard,KeyID=CompoundGate,Description="Luminous Path yerleske kapisi anahtari")"
+
+[TriadLumPath7]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[SkillAwardTrigger0]
+awardMessage="Basari Bonusu"
+
+[TriadLumPath4]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[TriadLumPath3]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[TriadLumPath0]
+FamiliarName="Luminous Path Triad Üyesi"
+UnfamiliarName="Luminous Path Triad Üyesi"
+
+[Male1]
+FamiliarName="Kesis"
+UnfamiliarName="Kesis"
+
+[Butler0]
+FamiliarName="Ian Hilton"
+UnfamiliarName="Çay Evi Garsonu"
+
+[Female6]
+FamiliarName="Veronica Chin"
+UnfamiliarName="Kadin"
+
+[Female8]
+FamiliarName="Cassandra"
+UnfamiliarName="Parti Kizi"
+
+[ChildMale1]
+FamiliarName="Louis Pan"
+UnfamiliarName="Erkek Çocuk"
+

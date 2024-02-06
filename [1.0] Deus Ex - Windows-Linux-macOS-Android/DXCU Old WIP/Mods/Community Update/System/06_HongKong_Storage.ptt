@@ -1,0 +1,44 @@
+[ComputerPersonal0]
+specialOptions[0]="(Text="Enviar diagrama do vírus",TriggerText="Diagrama do vírus enviado",TriggerEvent=VirusUploaded,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Abrir cÂmara do UC",TriggerText="Porta de acesso ao UC aberta",TriggerEvent=UC_Chamber_Door)"
+
+[NanoKey0]
+PickupMessage="Você encontrou a chave da porta de bloqueio"
+Description="Porta para bloquear a contenção nanotecnológica"
+
+[SkillAwardTrigger3]
+awardMessage="Bônus: exploração"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Nano Produção"
+startupMessage[0]="Nível 2:"
+startupMessage[1]="Instalação de Contenção Nanotech"
+startupMessage[2]="Nas profundezas do edifício VersaLife"
+
+[SkillAwardTrigger4]
+awardMessage="Bônus: êxito"
+
+[SkillAwardTrigger5]
+awardMessage="Bônus: progresso"
+
+[ScientistFemale0]
+FamiliarName="Dr. Harrison"
+UnfamiliarName="Pesquisador de nanotecnologia"
+
+[SkillAwardTrigger6]
+awardMessage="Bônus: localização crítica"
+
+[LevelSummary]
+Title="Sem título"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Ponto de segurança 1",CameraTag=Level1Cam,doorTag=FloodDoor08)"
+Views[1]="(titleString="Estação mon. do UC",CameraTag=Level2Cam)"
+Views[2]="(titleString="CÂmara do UC",CameraTag=Level3Cam)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Cápsulas magnéticas(4)",CameraTag=podcam,doorTag=OpenThePODs)"
+Views[1]="(titleString="Un. de term. em casc.",CameraTag=PlatformCam,doorTag=PlatformTriggers)"
+Views[2]="(titleString="Contenção de toxinas",CameraTag=ToxicCamera)"
+specialOptions[0]="(Text="Abrir cápsulas de contenção nanotech",TriggerText="Cápsulas magnéticas abertas",TriggerEvent=OpenThePODs,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Elevar console de deslig. em cascata",TriggerText="Console de desligamento em cascata elevado",TriggerEvent=control_platform)"

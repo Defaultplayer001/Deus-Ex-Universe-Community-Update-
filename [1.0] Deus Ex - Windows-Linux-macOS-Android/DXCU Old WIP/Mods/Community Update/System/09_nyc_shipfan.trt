@@ -1,0 +1,27 @@
+[ZoneInfo0]
+DamageString="Bu bölge asiri SICAK"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity6]
+Views[0]="(titleString="Fan Odasi",CameraTag=Main,doorTag=MainDuctVent)"
+
+[SkillAwardTrigger1]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger0]
+awardMessage="Bölge Konum Bonusu"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Donanma Binasi Fan Bölümü"
+
+[NanoKey2]
+PickupMessage=""
+ItemName=""
+ItemArticle=""
+M_Activated=""
+M_Selected=""
+M_Deactivated=""
+Description=""
+

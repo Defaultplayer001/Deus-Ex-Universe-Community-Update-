@@ -1,0 +1,12 @@
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger1]
+awardMessage="Bölge Konum Bonusu"
+
+[DeusExLevelInfo1]
+MissionLocation="New York - Kanalizasyonlar"
+
+[ComputerSecurity0]
+specialOptions[0]="(Text="Köprüyü Döndür",TriggerText="Köprü Döndürülüyor",TriggerEvent=RotateBridge)"
+

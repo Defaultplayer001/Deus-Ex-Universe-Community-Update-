@@ -1,0 +1,13 @@
+[DeusExLevelInfo9]
+MissionLocation="NYC - Hangar"
+startupMessage[0]="NYC - Hangar"
+startupMessageJ[0]="ニューヨーク 格納庫"
+
+
+[LevelSummary]
+Title="Untitled"
+
+[Mechanic0]
+FamiliarName="Harold"
+UnfamiliarName="Aircraft Mechanic"
+

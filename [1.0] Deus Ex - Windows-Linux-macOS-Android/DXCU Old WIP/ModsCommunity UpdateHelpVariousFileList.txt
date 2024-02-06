@@ -1,0 +1,47 @@
+File=(Src="Mods\Community Update\Help\Various\D3D10-ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\D3D8-9-ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Deus EXE ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Deutsche-German ReadMePatch1.htm",Size
+File=(Src="Mods\Community Update\Help\Various\dxd3d9-ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\DXMTL-License.txt",Size
+File=(Src="Mods\Community Update\Help\Various\DXMTL-ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Engine DLL Fix ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Francais-French FrenchReadMePatch1.htm",Size
+File=(Src="Mods\Community Update\Help\Various\HTK - UpkgOptions.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Japanese Patch_ReadMe.htm",Size
+File=(Src="Mods\Community Update\Help\Various\Japanese ReadMe.htm",Size
+File=(Src="Mods\Community Update\Help\Various\License - lib3ds.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Maps Patch ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\MPAdmin.htm",Size
+File=(Src="Mods\Community Update\Help\Various\MPMap.htm",Size
+File=(Src="Mods\Community Update\Help\Various\nGlide-ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\OpenAL-License.txt",Size
+File=(Src="Mods\Community Update\Help\Various\OpenAL-ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\OpenGLDrv.txt",Size
+File=(Src="Mods\Community Update\Help\Various\OTP-UI-Fix-Readme.txt",Size
+File=(Src="Mods\Community Update\Help\Various\PatchFix.htm",Size
+File=(Src="Mods\Community Update\Help\Various\Polskie-Polish MPAdmin.htm",Size
+File=(Src="Mods\Community Update\Help\Various\Polskie-Polish MPMap.htm",Size
+File=(Src="Mods\Community Update\Help\Various\Polskie-Polish PatchFix.htm",Size
+File=(Src="Mods\Community Update\Help\Various\Polskie-Polish ReadMe Fan-patch.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Polskie-Polish ReadMe.htm",Size
+File=(Src="Mods\Community Update\Help\Various\Polskie-Polish ReadMeMPStrategy.htm",Size
+File=(Src="Mods\Community Update\Help\Various\Polskie-Polish ReadMeMultiplayer.htm",Size
+File=(Src="Mods\Community Update\Help\Various\Polskie-Polish ReadMePatch1.htm",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMe - Co-Op - HXExt - Player Class List.txt",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMe - Co-Op - HXExt.txt",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMe - HTK Commandlets.txt",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMe - lib3ds.txt",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMe-CoOp-MiniHX.txt",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMe-Nephthys.txt",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMeDemo.htm",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMeMPStrategy.htm",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMeMultiplayer.htm",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMePatch1.htm",Size
+File=(Src="Mods\Community Update\Help\Various\ReadMePatch1014.htm",Size
+File=(Src="Mods\Community Update\Help\Various\Revision-Framework-Readme.txt",Size
+File=(Src="Mods\Community Update\Help\Various\SwFMOD-ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Transcended Changelog.html",Size
+File=(Src="Mods\Community Update\Help\Various\Transcended-ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Unofficial-Patch-v2-Demo-Version-ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Unofficial-Patch-V2-edited-render-relaunch-ReadMe.txt",Size

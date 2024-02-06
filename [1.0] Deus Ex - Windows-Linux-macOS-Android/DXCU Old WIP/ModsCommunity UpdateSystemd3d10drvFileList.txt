@@ -1,0 +1,14 @@
+File=(Src="Mods\Community Update\System\d3d10drv\common.fxh",Size
+File=(Src="Mods\Community Update\System\d3d10drv\complexsurface.fx",Size
+File=(Src="Mods\Community Update\System\d3d10drv\finalpass.fx",Size
+File=(Src="Mods\Community Update\System\d3d10drv\firstpass.fx",Size
+File=(Src="Mods\Community Update\System\d3d10drv\fogsurface.fx",Size
+File=(Src="Mods\Community Update\System\d3d10drv\gouraudpolygon.fx",Size
+File=(Src="Mods\Community Update\System\d3d10drv\hdr (original).fx",Size
+File=(Src="Mods\Community Update\System\d3d10drv\hdr.fx",Size
+File=(Src="Mods\Community Update\System\d3d10drv\polyflags.fxh",Size
+File=(Src="Mods\Community Update\System\d3d10drv\postprocessing.fxh",Size
+File=(Src="Mods\Community Update\System\d3d10drv\states.fxh",Size
+File=(Src="Mods\Community Update\System\d3d10drv\tile.fx",Size
+File=(Src="Mods\Community Update\System\d3d10drv\unrealpool.fxh",Size
+File=(Src="Mods\Community Update\System\d3d10drv\unreal_pom.fx",Size

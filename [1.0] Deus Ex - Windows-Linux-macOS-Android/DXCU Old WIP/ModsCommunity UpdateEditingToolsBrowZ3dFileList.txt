@@ -1,0 +1,5 @@
+File=(Src="Mods\Community Update\Editing\Tools\BrowZ3d\Browz3D.chm",Size
+File=(Src="Mods\Community Update\Editing\Tools\BrowZ3d\Browz3D.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\BrowZ3d\license.txt",Size
+File=(Src="Mods\Community Update\Editing\Tools\BrowZ3d\ReqData.reg",Size
+File=(Src="Mods\Community Update\Editing\Tools\BrowZ3d\Sample.3ds",Size

@@ -1,0 +1,64 @@
+[Errors]
+Critical=Errore critico
+FailedConfigLoad=%s (caricamento fallito)
+
+[General]
+BrowseButton=...
+UseButton=Usa
+ClearButton=Libera
+OkButton=OK
+AddButton=Aggiungi
+EmptyButton=Vuota
+InsertButton=Inserisci
+DeleteButton=Elimina
+DefaultsButton=Ripristina standard
+BackButton=< &Indietro
+NextButton=&Avanti >
+FinishButton=&Fine
+CancelButton=Annulla
+InstallButton=&Installa
+YesButton=&Sì
+NoButton=&No
+AgreeButton=&Accetto
+LanguagePrompt=Lingua:
+LanguageWindow=Scelta lingua
+LogWindow=%s - registro
+PropNone=Nessuna selezione
+PropSingle=%s - proprietà
+PropMulti=%s - proprietà (%i selezionato)
+InsertCdText=Inserisci il CD-ROM di Deus Ex nel lettore CD e clicca su OK per continuare, oppure su Annulla per uscire.
+InsertCdTitle=CD richiesto all'avvio
+AdvancedOptionsTitle=Opzioni avanzate
+Low=Basso
+High=Alto
+
+[FirstRun]
+Caption=Configurazione iniziale
+LowMemory=Deus Ex ha rilevato la presenza di %i MB di memoria disponibile.  Per ottimizzare le prestazioni, sono state attivate le opzioni 'Texture a basso dettaglio' e 'Qualità audio ridotta'.  Puoi modificare queste impostazioni dal menu 'Opzioni di prestazione'.
+NonMMX=Deus Ex ha rilevato che stai usando un PC non-MMX.  Per questo motivo, il playback audio utilizzerà al minimo la potenza di calcolo della CPU.  Puoi modificare queste opzioni nel menu 'Opzioni avanzate/Audio'.
+Starting=Deus Ex si sta avviando con le nuove impostazioni.  In caso di difficoltà, leggi la sezione dedicata alla risoluzione dei problemi, che si trova sotto 'Note di rilascio', nel menu Start/Avvio.
+
+[IDDIALOG_Directory]
+IDC_Directory=Cartella d'installazione
+IDC_ChoosePrompt=Scegli la cartella d'installazione
+IDC_PathTitle=&Percorso:
+IDC_DirectoryTitle=&Cartelle:
+IDC_DrivesTitle=&Dischi
+IDC_NetworkButton=&Rete
+
+[IDDIALOG_Password]
+IDC_Password=Controllo password
+IDC_Prompt=Inserisci il tuo nome e la password.
+IDC_Name=&Nome:
+IDC_Password=&Password:
+
+[IDMENU_NotifyIcon]
+ID_NotifyIcon=Menu
+ID_NotifyShowLog=Console &UnrealServer
+ID_NotifyAdvancedOptions=&Opzioni avanzate
+ID_NotifyExit=E&sci da UnrealServer
+
+[IDMENU_Log]
+ID_LogFile=&File
+ID_LogAdvancedOptions=&Opzioni avanzate
+ID_LogFileExit=E&sci

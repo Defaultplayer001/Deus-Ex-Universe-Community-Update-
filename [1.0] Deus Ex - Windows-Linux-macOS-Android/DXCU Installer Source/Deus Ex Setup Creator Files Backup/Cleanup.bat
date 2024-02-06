@@ -8,6 +8,8 @@ copy "%~dp0\Setup.exe" "%~dp0\.."
 
 copy "%~dp0\DELETED, everything in this folder will be. -Yoda.txt" "%~dp0\.."
 
+copy "%~dp0\PostExecs\*.*" "%~dp0\.."
+
 rem 7Zip files isolated to make cleanup easier
 
 CHOICE /N /C:123 /M "Press 1 to continue with default 7zip SFX creation, press 2 to continue with Winzip SFX creation, requires a low level directory install to avoid errors, see .bat for details, press 3 to simply build an archive"

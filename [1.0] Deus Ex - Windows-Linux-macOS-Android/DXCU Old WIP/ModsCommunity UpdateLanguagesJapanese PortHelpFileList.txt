@@ -1,0 +1,5 @@
+File=(Src="Mods\Community Update\Languages\Japanese Port\Help\DeusEx.ico",Size
+File=(Src="Mods\Community Update\Languages\Japanese Port\Help\Japanese Patch_ReadMe.htm",Size
+File=(Src="Mods\Community Update\Languages\Japanese Port\Help\Japanese ReadMe.htm",Size
+File=(Src="Mods\Community Update\Languages\Japanese Port\Help\Logo.bmp",Size
+File=(Src="Mods\Community Update\Languages\Japanese Port\Help\LogoSmall.bmp",Size

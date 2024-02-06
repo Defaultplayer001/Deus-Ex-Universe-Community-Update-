@@ -1,0 +1,10 @@
+File=(Src="Mods\Community Update\Editing\Tools\DeusExTools\deed.dll",Size
+File=(Src="Mods\Community Update\Editing\Tools\DeusExTools\deedcommon.dll",Size
+File=(Src="Mods\Community Update\Editing\Tools\DeusExTools\deedcui.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\DeusExTools\deedgui.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\DeusExTools\DeusEx3DViewer.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\DeusExTools\DeusExTools.Common.dll",Size
+File=(Src="Mods\Community Update\Editing\Tools\DeusExTools\DeusExTools.Conversation.dll",Size
+File=(Src="Mods\Community Update\Editing\Tools\DeusExTools\DeusExTools.Package.dll",Size
+File=(Src="Mods\Community Update\Editing\Tools\DeusExTools\faq.txt",Size
+File=(Src="Mods\Community Update\Editing\Tools\DeusExTools\u2de3d.exe",Size

@@ -1,0 +1,3 @@
+- Fixed Russian Translation (Thanks zertyuiop!)
+- Fixed Demo
+- Added Crappy Transcended Demo Hack (Requires Confix for startup items)

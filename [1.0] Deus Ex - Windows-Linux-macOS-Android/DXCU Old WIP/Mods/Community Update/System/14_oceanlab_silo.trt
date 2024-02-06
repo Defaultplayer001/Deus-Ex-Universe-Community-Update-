@@ -1,0 +1,38 @@
+[SecurityCamera3]
+FamiliarName="Füze Deposu"
+
+[NanoKey1]
+Description="Yük Arabasi Kapisi"
+
+[SkillAwardTrigger0]
+awardMessage="Hedef Basari Bonusu"
+
+[NanoKey8]
+Description="Ana Giris Anahtar Kodu"
+
+[SpecialEvent5]
+Message="Füze Firlatma Sonlandirildi"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Füze Deposu",CameraTag=rocketcam)"
+Views[1]="(titleString="Roket Yükselticiler",CameraTag=rocketcam2)"
+specialOptions[0]="(Text="Yeni Firlatma Baslat",TriggerText="Firlatma Baslatildi",TriggerEvent=klax,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger1]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger6]
+awardMessage="Hedef Basari Bonusu"
+
+[DeusExLevelInfo1]
+MissionLocation="Okyanus Lab. - Füze Deposu"
+
+[SecurityCamera38]
+FamiliarName="Füze Deposu"
+
+[ScientistMale0]
+FamiliarName="Dr. Bernard"
+
+[LevelSummary]
+Title="Untitled"
+

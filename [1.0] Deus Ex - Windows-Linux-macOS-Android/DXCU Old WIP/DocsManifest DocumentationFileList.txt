@@ -1,0 +1,4 @@
+File=(Src="Docs\Manifest Documentation\UDN - Two - MakingRuntimeInstallers.html",Size
+File=(Src="Docs\Manifest Documentation\UDN - Two - UmodInstaller.html",Size
+File=(Src="Docs\Manifest Documentation\UnrealWiki_ UMOD_Creating.html",Size
+File=(Src="Docs\Manifest Documentation\UnrealWiki_ UMOD_Source.html",Size

@@ -1,0 +1,73 @@
+[UNATCOTroop3]
+FamiliarName="Soldato dell'UNATCO"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[UNATCOTroop2]
+FamiliarName="Soldato dell'UNATCO"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[UNATCOTroop0]
+FamiliarName="Caporale Collins"
+UnfamiliarName="Caporale Collins"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[UNATCOTroop1]
+FamiliarName="Sergente Michael Berry"
+UnfamiliarName="Sergente Michael Berry"
+
+[SecurityCamera2]
+FamiliarName="UN_FUcam01"
+
+[SecurityCamera3]
+FamiliarName="UN_medicacam01"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="Segretaria dell'UNATCO"
+
+[SecurityCamera4]
+FamiliarName="UN_porta_medcam"
+
+[SecurityCamera1]
+FamiliarName="UN_conferenzacam01"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="Donna dell'UNATCO"
+
+[UNATCOTroop30]
+FamiliarName="Scott"
+UnfamiliarName="Scott"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[SecurityCamera0]
+FamiliarName="UN_salacam01"
+
+[SpecialEvent1]
+Message="Nessun messaggio"
+
+[RetinalScanner0]
+msgUsed="Retina corrispondente: agente Denton autorizzato a entrare"
+
+[SecurityCamera7]
+FamiliarName="UN_retina_cam"
+
+[JosephManderley0]
+UnfamiliarName="Capo dell'UNATCO"
+
+[SpecialEvent0]
+Message="Retina non corrispondente: agente Denton non autorizzato a entrare"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[DeusExLevelInfo0]
+MissionLocation="NY - QG UNATCO"
+startupMessage[0]="QG UNATCO"
+startupMessage[1]="Coalizione Antiterrorismo"
+startupMessage[2]="delle Nazioni Unite"
+

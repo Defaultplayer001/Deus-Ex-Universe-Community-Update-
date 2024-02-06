@@ -1,0 +1,20 @@
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\7z.exe",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\7zs.sfx",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\7zSD.sfx",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\7zSDCustomIcon.sfx",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\ConfigSetupFiles.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\ConfigSteamProxy.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\Deus Ex Setup CU.ico",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\Setup.exe Creator (7z Version).bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\Setup.exe Creator (Manual Winzip Version).bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\Setup.exe Creator (Winzip Standalone Version).bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\Setup.exe Creator (Winzip Version).bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\Setup.exe Creator.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\Setup.exe Creator.bat.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.7z",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SystemFilesCreatorSteamProxy.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\WINZIPSE.DIZ",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\WINZIPSE.HLP",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\winzipse.ini",Size
+File=(Src="Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\WZIPSE32.EXE",Size

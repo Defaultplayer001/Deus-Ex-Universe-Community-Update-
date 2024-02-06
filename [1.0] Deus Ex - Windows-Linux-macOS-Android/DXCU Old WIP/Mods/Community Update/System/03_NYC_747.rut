@@ -1,0 +1,15 @@
+[DeusExLevelInfo2]
+MissionLocation="Нью-Йорк - Внутри Боинга 747"
+
+[SkillAwardTrigger11]
+awardMessage="Премия за выполнение задания"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="Ключ к личным помещениям"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=CommTerrorist,KeyID=LebedevBedroom,Description="Ключ к спальне Х.И.Лебедева")"
+

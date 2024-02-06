@@ -1,0 +1,9 @@
+File=(Src="Mods\Community Update\Editing\Tools\LWO Viewer\Common\bm.bmp",Size
+File=(Src="Mods\Community Update\Editing\Tools\LWO Viewer\Common\demo.lwo",Size
+File=(Src="Mods\Community Update\Editing\Tools\LWO Viewer\Common\G.bmp",Size
+File=(Src="Mods\Community Update\Editing\Tools\LWO Viewer\Common\log.txt",Size
+File=(Src="Mods\Community Update\Editing\Tools\LWO Viewer\Common\LWO_View.ini",Size
+File=(Src="Mods\Community Update\Editing\Tools\LWO Viewer\Common\LW_SkyScrapers.BMP",Size
+File=(Src="Mods\Community Update\Editing\Tools\LWO Viewer\Common\O.bmp",Size
+File=(Src="Mods\Community Update\Editing\Tools\LWO Viewer\Common\sc.ini",Size
+File=(Src="Mods\Community Update\Editing\Tools\LWO Viewer\Common\sc.lwo",Size

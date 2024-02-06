@@ -1,0 +1,45 @@
+[ComputerSecurity1]
+Views[0]="(titleString="Magnet-Kammer(4)",cameraTag=podcam,doorTag=OpenThePODs)"
+Views[1]="(titleString="Kaskaden-Abbruch-Einheit",cameraTag=PlatformCam,doorTag=PlatformTriggers)"
+Views[2]="(titleString="Toxische Eindämm.",cameraTag=ToxicCamera)"
+specialOptions[0]="(Text="Nanotech-Magnetkammer öffnen",TriggerText="Magnet-Kammer geöffnet",TriggerEvent=OpenThePODs,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Kaskaden-Abbruch-Einheit hochfahren",TriggerText="Konsole hochgefahren",TriggerEvent=control_platform)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Check-Point 1",cameraTag=Level1Cam,doorTag=FloodDoor08)"
+Views[1]="(titleString="AUC Überwachung",cameraTag=Level2Cam)"
+Views[2]="(titleString="AUC Kammer",cameraTag=Level3Cam)"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[SkillAwardTrigger6]
+awardMessage="Entdeckungsbonus"
+
+[ScientistFemale0]
+FamiliarName="Dr. Harrison"
+UnfamiliarName="Nanotech-Forscher"
+
+[SkillAwardTrigger5]
+awardMessage="Fortschrittsbonus"
+
+[SkillAwardTrigger4]
+awardMessage="Durchführungsbonus"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Nano-Entwicklung"
+startupMessage[0]="Level 2:"
+startupMessage[1]="Nanotech Verwahrungseinrichtung"
+startupMessage[2]="Tief unterhalb des VersaLife-Gebäudes"
+
+[SkillAwardTrigger3]
+awardMessage="Forschungsbonus"
+
+[NanoKey0]
+PickupMessage="Sie haben den Schlüssel für die Schutztür gefunden."
+Description="Nanotech-Schutztür"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Virenstrukturplan hochladen",TriggerText="Virenstrukturplan hochgeladen",TriggerEvent=VirusUploaded,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="UK Kammer öffnen",TriggerText="UK Zugangsschleuse geöffnet",TriggerEvent=UC_Chamber_Door)"
+

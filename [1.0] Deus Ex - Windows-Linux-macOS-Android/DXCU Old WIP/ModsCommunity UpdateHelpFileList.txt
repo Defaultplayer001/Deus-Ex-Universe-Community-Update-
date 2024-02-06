@@ -1,0 +1,11 @@
+File=(Src="Mods\Community Update\Help\Changelog.txt",Size
+File=(Src="Mods\Community Update\Help\Deus Ex Setup CU.ico",Size
+File=(Src="Mods\Community Update\Help\Deus Ex Setup CUtest.ico",Size
+File=(Src="Mods\Community Update\Help\DEUSEX.ICO",Size
+File=(Src="Mods\Community Update\Help\DeusExCU.ico",Size
+File=(Src="Mods\Community Update\Help\Logo.bmp",Size
+File=(Src="Mods\Community Update\Help\LOGOCU.BMP",Size
+File=(Src="Mods\Community Update\Help\LogoSmall.bmp",Size
+File=(Src="Mods\Community Update\Help\LogoSmallCU.bmp",Size
+File=(Src="Mods\Community Update\Help\ReadMe.html",Size
+File=(Src="Mods\Community Update\Help\Thumbs.db",Size

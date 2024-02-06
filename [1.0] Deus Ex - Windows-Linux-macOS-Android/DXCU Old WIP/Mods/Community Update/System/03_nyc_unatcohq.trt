@@ -1,0 +1,94 @@
+[SecurityCamera2]
+FamiliarName="UN_QMcam01"
+
+[NanoKey0]
+Description="Manderley'in Ofis Anahtari"
+
+[Terrorist0]
+FamiliarName="Terörist"
+UnfamiliarName="Terörist"
+
+[UNATCOTroop3]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[UNATCOTroop2]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[UNATCOTroop1]
+FamiliarName="Çavus Michael Berry"
+
+[SecurityCamera1]
+FamiliarName="UN_conferencecam01"
+
+[SecurityCamera0]
+FamiliarName="UN_lobbycam01"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - UNATCO Karargahi"
+
+[UNATCOTroop0]
+FamiliarName="Onbasi Collins"
+UnfamiliarName="UNATCO Askeri"
+
+[UNATCOTroop4]
+FamiliarName="UNATCO Askeri"
+UnfamiliarName="UNATCO Askeri"
+
+[LevelSummary]
+Title="Untitled"
+
+[SecurityCamera3]
+FamiliarName="UN_medicalcam01"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="UNATCO Sekreteri"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="UNATCO Yöneticisi"
+
+[RetinalScanner1]
+msgUsed="Retinal Desen Eslesmedi: Ajan Denton Giris Için Yetkilendirilmedi"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[SpecialEvent0]
+Message="Retinal Desen Eslesmedi: Ajan Denton Giris Için Yetkilendirilmedi"
+
+[RetinalScanner0]
+msgUsed="Retinal Desen Eslesti: Ajan Denton Giris Için Yetkilendirildi"
+
+[SpecialEvent1]
+Message="Yeni Mesaj Yok"
+
+[SecurityCamera7]
+FamiliarName="UN_retinal_cam"
+
+[JosephManderley0]
+UnfamiliarName="UNATCO Baskani"
+
+[SecurityCamera4]
+FamiliarName="UN_blastdoor_medcam"
+
+[NanoKey2]
+Description="UNATCO Dolap Anahtari"
+
+[Terrorist1]
+FamiliarName="Terörist"
+UnfamiliarName="Terörist"
+
+[UNATCOTroop29]
+FamiliarName="Scott"
+UnfamiliarName="UNATCO Askeri"
+
+[WaltonSimons0]
+FamiliarName="Direktör"
+UnfamiliarName="Direktör"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=WaltonSimons,KeyID=ManderleyOfficeDoor,Description="Manderley'in Ofis Kapisi Anahtari")"
+

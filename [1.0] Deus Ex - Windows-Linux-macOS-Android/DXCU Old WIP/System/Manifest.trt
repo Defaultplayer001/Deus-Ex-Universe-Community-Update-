@@ -1,0 +1,47 @@
+[Setup]
+LocalProduct=Deus Ex Community Update
+DefaultFolder=C:\DeusEx
+;Commented out so value in Manifest.int is used instead.
+;ReadMe=Docs\DeusExCommunity Update.doc
+SetupWindowTitle=Deus Ex Community Update Kurulumu
+AutoplayWindowTitle=Deus Ex Community Update Seçenekler
+ProductURL=http://www.deusex.com/
+VersionURL=http://www.deusex.com/versions.htm
+Developer=The Deus Ex Community
+DeveloperURL=http://www.ionstorm.com/
+PublisherURL=http://www.eidos.com/
+Logo=Help\LogoSmall.bmp
+;Commented out so value in Manifest.int is used instead.
+;License=Community UpdateLicense.int
+
+[General]
+EditLevelCommand=Bu Deus &Ex seviyesini düzenle
+
+[Community UpdateGroup]
+Caption=Deus Ex Community Update
+Description=Deus Ex Community Update sistem dosyalari. UnrealEd, UCC, ConEdit ve belgelemeyi kapsar. Yükleme gerektirir.
+
+[ToolsGroup]
+Caption=Deus Ex Araçlari
+Description=Deus Ex için isikdalga örgüsel dönüstürücü. Yükleme istege baglidir.
+
+[HeadersGroup]
+Caption=Deus Ex Basliklar
+Description=(Yalnizca ileri kullanicilar) Deus Ex'te kullanilmis tüm C++ basliklar.
+
+[ConSampleGroup]
+Caption=Örnek Deus Ex Sohbet Dosyalari
+Description=Egitim görevi, görev 1 ve görev 2 içindeki tüm sohbetleri olusturmak için kullanilmis dosyalar. Yalnizca referans için saglanmistir. Yükleme istege baglidir.
+
+[TextSampleGroup]
+Caption=Örnek Deus Ex Metin Dosyalari
+Description=Egitim görevi, görev 1 ve görev 2 içindeki tüm e-postalar, bültenler, veriküpler, kitaplar ve gazeteler için kullanilmis metin dosyalari. Yalnizca referans için saglanmistir. Yükleme istege baglidir.
+
+[EditorShortcut]
+Caption=Deus Ex Community Update Editörü
+
+[DocumentationShortcut]
+Caption=Belgeleme
+
+[UninstallShortcut]
+Caption=Deus Ex Community Update Kaldir

@@ -1,0 +1,40 @@
+[ComputerSecurity5]
+Views[0]="(titleString="Garage Camera",cameraTag=NSFHQCamera,doorTag=BasementHatch)"
+
+[SkillAwardTrigger0]
+awardMessage="Area Location Bonus"
+
+[SkillAwardTrigger1]
+awardMessage="Area Location Bonus"
+
+[SkillAwardTrigger2]
+awardMessage="Accomplishment Bonus"
+
+[ComputerPersonal3]
+specialOptions[0]="(Text="South Dish Rotation",TriggerText="The south dish is rotating to face South",TriggerEvent=Dish1,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="North Dish Rotation",TriggerText="The north dish is rotating to face East",TriggerEvent=Dish2,bTriggerOnceOnly=True)"
+specialOptions[2]="(Text="West Dish Rotation",TriggerText="The west dish is rotating to face North",TriggerEvent=Dish3,bTriggerOnceOnly=True)"
+specialOptions[3]="(Text="Open Communications Door",TriggerText="Communications Room Opened",TriggerEvent=SignalComputerDoorOpen,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger7]
+awardMessage="Area Location Bonus"
+
+[ComputerPersonal4]
+specialOptions[0]="(Text="Broadcast Message",TriggerText="NSF Evacuation Signal Being Sent",TriggerEvent=SendingSignal)"
+
+[NanoKey0]
+Description="NSF HQ Basement key"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Area 1 Blast Door",cameraTag=BasementCamera1,doorTag=SecurityDoor1)"
+Views[1]="(titleString="Area 2 Blast Door",cameraTag=BasementCamera2,doorTag=SecurityDoor2)"
+Views[2]="(titleString="Area 3 Blast Door",cameraTag=BasementCamera3,doorTag=SecurityDoor3)"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - 20th Street Warehouse"
+startupMessage[0]="NYC - 20th Street Warehouse"
+startupMessageJ[0]="ÉjÉÖÅ[ÉàÅ[ÉNÇQÇOî‘äXëqå…"
+
+[LevelSummary]
+Title="Untitled"
+

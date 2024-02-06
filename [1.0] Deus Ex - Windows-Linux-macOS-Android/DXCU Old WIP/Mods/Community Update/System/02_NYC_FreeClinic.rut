@@ -1,0 +1,45 @@
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Бесплатная клиника"
+
+[LevelSummary]
+Title="Untitled"
+
+[BumMale2]
+FamiliarName="Бездомный мужчина"
+UnfamiliarName="Бездомный мужчина"
+
+[BumFemale0]
+FamiliarName="Бездомная женщина"
+UnfamiliarName="Бездомная женщина"
+
+[SkillAwardTrigger6]
+awardMessage="Премия за выполнение задания"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Doctor,KeyID=Cabinet,Description="Ключ к медицинскому шкафу",SkinColor=SC_Level2)"
+NanoKeyData[1]="(ScriptedPawnTag=Nurse,KeyID=Cabinet,Description="Ключ к медицинскому шкафу",SkinColor=SC_Level2)"
+
+[BumMale4]
+FamiliarName="Старый бомж"
+UnfamiliarName="Старый бомж"
+
+[Female1]
+FamiliarName="Секретарша в приемной"
+UnfamiliarName="Секретарша в приемной"
+
+[BumMale1]
+FamiliarName="Больной бродяга"
+UnfamiliarName="Больной на вид парень"
+
+[BumMale3]
+FamiliarName="Старый бомж"
+UnfamiliarName="Старый бомж"
+
+[JunkieFemale0]
+FamiliarName="Больная женщина"
+UnfamiliarName="Нездоровая на вид женщина"
+
+[BumFemale1]
+FamiliarName="Больная женщина"
+UnfamiliarName="Больная женщина"
+

@@ -1,0 +1,38 @@
+[NanoKey0]
+Description="Garage Door"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Gas"
+startupMessage[0]="Abandoned Gas Station"
+startupMessage[1]="Central California"
+startupMessageJ[0]="ガソリンスタンドの廃墟"
+startupMessageJ[1]="中央カリフォルニア"
+
+[TiffanySavage0]
+UnfamiliarName="Hostage"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=Guard_Garage,KeyID=garage_entrance,Description="Garage Door")"
+NanoKeyData[1]="(ScriptedPawnTag=mib_garage)"
+NanoKeyData[2]="(KeyID=garage_entrance,Description="Garage Door")"
+
+[BumMale0]
+FamiliarName="Fred"
+
+[NanoKey1]
+Description="Sewer Access"
+
+[SkillAwardTrigger0]
+awardMessage="Exploration Bonus"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=bum1,KeyID=pipe,Description="Sewer Access")"
+NanoKeyData[1]="(ScriptedPawnTag=bum2,KeyID=pipe,Description="Sewer Access")"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+

@@ -1,0 +1,36 @@
+[BlackHelicopter0]
+FamiliarName="Джок"
+UnfamiliarName="Джок"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=bum1,KeyID=pipe,Description="Ключ к канализации")"
+NanoKeyData[1]="(ScriptedPawnTag=bum2,KeyID=pipe,Description="Ключ к канализации")"
+
+[SkillAwardTrigger0]
+awardMessage="Премия за исследование"
+
+[NanoKey1]
+Description="Ключ к канализации"
+
+[BumMale0]
+FamiliarName="Фред"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=Guard_Garage,KeyID=garage_entrance,Description="Ключ к двери гаража")"
+NanoKeyData[1]="(ScriptedPawnTag=mib_garage)"
+NanoKeyData[2]="(KeyID=garage_entrance,Description="Ключ к двери гаража")"
+
+[TiffanySavage0]
+UnfamiliarName="Заложница"
+
+[DeusExLevelInfo0]
+MissionLocation="Ванденберг - Бензоколонка"
+startupMessage[0]="Заброшенная бензозаправочная станция"
+startupMessage[1]="Центральная Калифорния"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="Ключ к двери гаража"
+

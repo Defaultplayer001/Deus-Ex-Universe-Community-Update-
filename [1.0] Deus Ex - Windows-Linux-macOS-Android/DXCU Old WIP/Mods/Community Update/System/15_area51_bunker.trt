@@ -1,0 +1,50 @@
+[SkillAwardTrigger3]
+awardMessage="Kesif Bonusu"
+
+[SkillAwardTrigger5]
+awardMessage="Bölge Konum Bonusu"
+
+[SkillAwardTrigger2]
+awardMessage="Kesif Bonusu"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Patlama Kapilari",CameraTag=doors,doorTag=blast_door)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Bakim Tünelleri",CameraTag=camera_pipe,Turrettag=turret_pipe)"
+
+[SkillAwardTrigger0]
+awardMessage="Bölge Konum Bonusu"
+
+[SkillAwardTrigger1]
+awardMessage="Bölge Konum Bonusu"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Siginak Girisi",CameraTag=hall_camera,Turrettag=hall_turret)"
+
+[SkillAwardTrigger6]
+awardMessage="Ilerleme Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="Kule Anahtari"
+
+[NanoKey1]
+Description="Depo Anahtari"
+
+[DeusExLevelInfo0]
+MissionLocation="51.Bölge - Siginak"
+startupMessage[0]="51. Bölge"
+startupMessage[1]="Rachel Nevada"
+
+[SkillAwardTrigger4]
+awardMessage="Basari Bonusu"
+
+[ComputerSecurity3]
+Views[0]="(CameraTag=shack_camera,Turrettag=shack_turret)"
+
+[Soldier0]
+FamiliarName="Xander"
+

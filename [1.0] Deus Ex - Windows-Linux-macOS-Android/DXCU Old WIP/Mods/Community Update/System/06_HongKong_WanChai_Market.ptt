@@ -1,0 +1,171 @@
+[Businessman1]
+FamiliarName="Sr. Liu"
+UnfamiliarName="Homem trajado"
+
+[LevelSummary]
+Title="Sem título"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Portão principal",CameraTag=compound1,doorTag=compound_gate)"
+Views[1]="(titleString="Pátio",CameraTag=compound2)"
+Views[2]="(titleString="Entrada-Mestre Tong",CameraTag=compound3)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Mercado, beco 1",CameraTag=marketcamera1)"
+Views[1]="(titleString="Mercado, beco 2",CameraTag=marketcamera2)"
+Views[2]="(titleString="Mercado, beco 3",CameraTag=marketcamera3,doorTag=Pillboxdoor)"
+
+[TriadRedArrow0]
+FamiliarName="Membro da Tríade Flecha Vermelha"
+UnfamiliarName="Membro da Tríade Flecha Vermelha"
+
+[SkillAwardTrigger2]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger3]
+awardMessage="Bônus: localização"
+
+[LowerClassFemale0]
+FamiliarName="Mulher do quiosque"
+UnfamiliarName="Mulher do quiosque"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[Cat3]
+FamiliarName="Daisy"
+UnfamiliarName="Daisy"
+
+[TriadRedArrow1]
+FamiliarName="Membro da Tríade Flecha Vermelha"
+UnfamiliarName="Membro da Tríade Flecha Vermelha"
+
+[SkillAwardTrigger1]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger4]
+awardMessage="Bônus: êxito"
+
+[TriadLumPath9]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[HKMilitary5]
+FamiliarName="Polícia militar chinesa"
+UnfamiliarName="Polícia militar chinesa"
+
+[HKMilitary3]
+FamiliarName="Polícia militar chinesa"
+UnfamiliarName="Polícia militar chinesa"
+
+[Secretary0]
+FamiliarName="Peggy"
+UnfamiliarName="Olhando as flores"
+
+[Female4]
+FamiliarName="Vendedora de flores"
+UnfamiliarName="Vendedora de flores"
+
+[Businesswoman0]
+FamiliarName="Vendedora"
+UnfamiliarName="Vendedora"
+
+[TriadLumPath14]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[TriadLumPath18]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[TriadLumPath26]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[HKMilitary4]
+FamiliarName="Oficial Tam"
+UnfamiliarName="Polícia militar chinesa"
+
+[TriadLumPath5]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[HKMilitary2]
+FamiliarName="Polícia militar chinesa"
+UnfamiliarName="Polícia militar chinesa"
+
+[HKMilitary1]
+FamiliarName="Polícia militar chinesa"
+UnfamiliarName="Polícia militar chinesa"
+
+[TriadLumPath24]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[Male2]
+FamiliarName="Monge"
+UnfamiliarName="Monge"
+
+[Male0]
+FamiliarName="Açougueiro"
+UnfamiliarName="Açougueiro"
+
+[GordonQuick0]
+UnfamiliarName="Chefe da Tríade"
+
+[TriadLumPath22]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[TriadLumPath6]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[DeusExLevelInfo1]
+MissionLocation="Hong Kong - Mercado"
+startupMessage[0]="Mercado Wan Chai"
+startupMessage[1]="Hong Kong"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=GateGuard,KeyID=CompoundGate,Description="Chave para o portão do complexo Caminho da Luz")"
+
+[TriadLumPath7]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: êxito"
+
+[TriadLumPath4]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[TriadLumPath3]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[TriadLumPath0]
+FamiliarName="Membro da Tríade Caminho da Luz"
+UnfamiliarName="Membro da Tríade Caminho da Luz"
+
+[Male1]
+FamiliarName="Monge"
+UnfamiliarName="Monge"
+
+[Butler0]
+FamiliarName="Ian Hilton"
+UnfamiliarName="Garçom da Casa de Chá"
+
+[Female6]
+FamiliarName="Veronica Chin"
+UnfamiliarName="Mulher"
+
+[Female8]
+FamiliarName="Cassandra"
+UnfamiliarName="Mulher de festa"
+
+[ChildMale1]
+FamiliarName="Louis Pan"
+UnfamiliarName="Garoto"
+

@@ -1,0 +1,78 @@
+[SecurityCamera3]
+FamiliarName="Giris"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=MIB,KeyID=Cabinet,Description="MIB Ajani Dolap Anahtari")"
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Gizli MJ12 Tesisi"
+startupMessage[0]="Konum: Bilinmiyor"
+startupMessage[1]="Zaman: Bilinmiyor"
+
+[SecurityCamera0]
+FamiliarName="Tibbi Lab."
+
+[SecurityCamera4]
+FamiliarName="Nanotek Lab."
+
+[ComputerSecurity2]
+Views[0]="(titleString="Silah Deposu",CameraTag=armorycam)"
+specialOptions[0]="(Text="Bot Yapay Zeka Modifiyesi",TriggerText="Bot Yapay Zeka modifiye edildi",TriggerEvent=botorders2)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Silah Deposu Tareti",CameraTag=armorycam1,Turrettag=Turret1)"
+specialOptions[0]="(Text="SilahDepoBot 1'i Etkisizlestir",TriggerText="SilahDepoBot 1 etkisizlestirildi",TriggerEvent=ArmoryBot1Off,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="SilahDepoBot 2'yi Etkisizlestir",TriggerText="SilahDepoBot 2 etkisizlestirildi",TriggerEvent=ArmoryBot2Off,bTriggerOnceOnly=True)"
+
+[SecurityCamera5]
+FamiliarName="Silah Deposu"
+
+[AutoTurret5]
+FamiliarName="Gözlem Hücresi"
+
+[SkillAwardTrigger1]
+awardMessage="Hedef Basari Bonusu"
+
+[SecurityCamera2]
+FamiliarName="Gözalti"
+
+[ComputerPersonal4]
+specialOptions[0]="(Text="Greasel Kafeslerini Aç",TriggerText="Kafesler açildi",TriggerEvent=nanocage)"
+specialOptions[1]="(Text="Kapsama Sahasini Aç",TriggerText="Kapsama sahasi açildi",TriggerEvent=field002)"
+
+[ScientistMale0]
+FamiliarName="Dr. Moreau"
+UnfamiliarName="Doktor"
+
+[PaulDentonCarcass0]
+FamiliarName="Paul"
+UnfamiliarName="Paul"
+
+[SkillAwardTrigger3]
+awardMessage="Kesif Bonusu"
+
+[AutoTurretSmall0]
+FamiliarName="Gözalti Tareti"
+
+[SkillAwardTrigger4]
+awardMessage="Hedef Basari Bonusu"
+
+[AutoTurretSmall1]
+FamiliarName="Gözalti Tareti"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Karkian",CameraTag=beastcam,Turrettag=beastTurret,doorTag=Beastdoor)"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Ameliyat Kogusu",CameraTag=medcam)"
+Views[1]="(titleString="NanoTek Laboratuvari",CameraTag=Nanocam)"
+Views[2]="(titleString="Hücre Blok A",CameraTag=cellcam,Turrettag=cellturret)"
+
+[Terrorist1]
+FamiliarName="Miguel"
+
+[SkillAwardTrigger5]
+awardMessage="Ilerleme Bonusu"
+

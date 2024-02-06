@@ -1,0 +1,21 @@
+Best method:
+
+1. Export to .t3d with UED (File-Export Level)
+
+2. Open exported .t3d in text editor
+
+3. Search for package name
+
+4. Use that as a guide as what to delete in UED for the original map. (Ctrl-F can be used with EditorPatch to find things more quickly.)
+
+4 (Alternative). Delete problematic actor blocks in .t3d file with a text editor directly, then import into UED.
+
+Simple method:
+
+1. Drop down all items within a package (Or as a quick first step for large packages, the suspected problem item(s))
+
+2. Right click and select all
+
+3. Delete
+
+ 

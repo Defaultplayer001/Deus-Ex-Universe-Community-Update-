@@ -3,7 +3,12 @@
 
 Pause
 
+CHOICE /N /C:123 /M "Press 1 to continue with default manifest & setup creation, press 2 to continue directly to setup creation. (Use only if not adding or removing any files, just modifying)"
+
 exit
+
+:ONE
+
 copy "%~dp0\(R*.*" "%~dp0\Deus Ex Setup Creator Files Backup\" /y
 
 copy "%~dp0\Safety Switch\*.*" "%~dp0\" /y
@@ -42,5 +47,7 @@ call "%~dp0\(Right click to edit this and put in your mod name) Rename Deus Ex M
 
 
 Pause
+
+:TWO
 
 "%~dp0\Deus Ex Setup Creator Files Backup\Cleanup.bat"

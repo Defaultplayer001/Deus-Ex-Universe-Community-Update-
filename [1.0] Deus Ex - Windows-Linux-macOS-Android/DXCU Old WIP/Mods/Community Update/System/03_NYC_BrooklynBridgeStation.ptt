@@ -1,0 +1,80 @@
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Ponte de Brooklyn"
+startupMessage[0]="Cidade de Nova Iorque, "
+startupMessage[1]="Estação Ponte de Brooklyn"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: realização"
+
+[LevelSummary]
+Title="Sem título"
+
+[BumMale2]
+FamiliarName="Charlie Fann"
+UnfamiliarName="Homem desabrigado"
+
+[JunkieMale1]
+FamiliarName="Lenny"
+
+[ThugMale11]
+FamiliarName="Membro de gangue"
+UnfamiliarName="Membro de gangue"
+
+[JunkieFemale4]
+FamiliarName="Membro de gangue"
+UnfamiliarName="Membro de gangue"
+
+[JunkieFemale3]
+FamiliarName="Membro de gangue"
+UnfamiliarName="Membro de gangue"
+
+[Hooker1]
+FamiliarName="Membro de gangue"
+UnfamiliarName="Membro de gangue"
+
+[ThugMale3]
+FamiliarName="El Rey"
+UnfamiliarName="Trapaceiro"
+
+[ThugMale9]
+FamiliarName="Membro de gangue"
+UnfamiliarName="Membro de gangue"
+
+[BumMale3]
+FamiliarName="Desabrigado"
+UnfamiliarName="Desabrigado"
+
+[JunkieFemale1]
+FamiliarName="Membro de gangue"
+UnfamiliarName="Membro de gangue"
+
+[ThugMale13]
+FamiliarName="Traficante"
+UnfamiliarName="Traficante"
+
+[ThugMale8]
+FamiliarName="Membro de gangue"
+UnfamiliarName="Membro de gangue"
+
+[ThugMale6]
+FamiliarName="Membro de gangue"
+UnfamiliarName="Membro de gangue"
+
+[JunkieMale0]
+FamiliarName="Don"
+
+[ThugMale1]
+FamiliarName="Membro de gangue"
+UnfamiliarName="Membro de gangue"
+
+[SkillAwardTrigger7]
+awardMessage="Bônus: progresso"
+
+[ChildMale0]
+FamiliarName="Garoto"
+UnfamiliarName="Garoto"
+
+[ThugMale12]
+FamiliarName="Membro de gangue"
+UnfamiliarName="Membro de gangue"
+

@@ -1,0 +1,39 @@
+[LevelSummary]
+Title="Untitled"
+
+[BumFemale1]
+FamiliarName="Kadin Berdus"
+UnfamiliarName="Kadin Berdus"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Batarya Parki"
+startupMessage[0]="New York Sehri"
+startupMessage[1]="Batarya Parki"
+
+[BumFemale0]
+FamiliarName="Kadin Berdus"
+UnfamiliarName="Kadin Berdus"
+
+[JunkieFemale0]
+FamiliarName="Hasta Kadin"
+UnfamiliarName="Hasta Kadin"
+
+[HarleyFilben0]
+UnfamiliarName="Harley Filben"
+
+[BumFemale2]
+FamiliarName="Kadin Berdus"
+UnfamiliarName="Kadin Berdus"
+
+[JunkieMale2]
+FamiliarName="Hasta Adam"
+UnfamiliarName="Hasta Adam"
+
+[BumMale4]
+FamiliarName="Curly"
+UnfamiliarName="Metro Berdusu"
+
+[ChildMale0]
+FamiliarName="Billy"
+UnfamiliarName="Çocuk"
+

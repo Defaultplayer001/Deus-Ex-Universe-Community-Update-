@@ -1,0 +1,161 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+
+[Errors]
+NetOpen=Dosya açma hatasi
+NetWrite=Dosyaya yazma hatasi
+NetRefused=Sunucu '%s' göndermeyi reddetti
+NetClose=Dosya kapatma hatasi
+NetSize=Dosya boyutu eslesmedi
+NetMove=Dosya tasima hatasi
+NetInvalid=Alinmis geçersiz dosya istegi
+NoDownload='%s' paketi indirilebilir degil
+DownloadFailed='%s' paketi indirme basarisiz oldu: %s
+RequestDenied=Sunucu bekletme seviyesinden dosya istedi: Engellendi
+ConnectionFailed=Baglanti basarisiz oldu
+ChAllocate=Kanal tahsis edilemedi
+NetAlready=Zaten ag içinde
+NetListen=Dinleme basarisiz oldu: Baglanti olusturucu baglam mevcut degil
+LoadEntry=Giris yüklenemedi: %s
+InvalidUrl=Geçersiz URL: %s
+InvalidLink=Geçersiz Baglanti: %s
+FailedBrowse=%s girme basarisiz oldu: %s
+Listen=Dinleme basarisiz: %s
+AbortToEntry=Basarisiz; Giris'e dönülüyor
+ServerOpen=Sunucular ag URL adreslerini açamiyor
+ServerListen=Paylasimsiz sunucu dinlenemiyor: %s
+Pending='%s' adresine baglanma bekletme basarisiz oldu; %s
+LoadPlayerClass=Oyuncu sinifi yükleme basarisiz oldu
+ServerOutdated=Sunucunun sürümü eskimis
+
+[Progress]
+CancelledConnect=Baglanma Girisimi Iptal Edildi
+RunningNet=%s: %s (%i oyuncu)
+NetReceiving=Aliniyor '%s': %i/%i
+NetReceiveOk=Basariyla Alindi '%s'
+NetSend=Gönderiliyor '%s'
+NetSending=Gönderiliyor '%s': %i/%i
+Connecting=Baglaniyor...
+Listening=Müsteriler için dinleniyor...
+Loading=Yükleniyor
+Saving=Kaydediliyor
+Paused=%s tarafindan durduruldu
+ReceiveFile=Aliniyor '%s' (Iptal Için F10)
+ReceiveSize=Boyut %iK, Tamamlanan %%3.1f%
+ConnectingText=Baglaniyor (Iptal Için F10):
+ConnectingURL=deusex://%s/%s
+
+[Console]
+ClassCaption=Standart Deus Ex Konsolu
+LoadingMessage=YÜKLENIYOR
+SavingMessage=KAYDEDILIYOR
+ConnectingMessage=BAGLANIYOR
+PausedMessage=DURDURULDU
+PrecachingMessage=ÖNBELLEKLENIYOR
+ChatChannel=(SOHBET) 
+TeamChannel=(TAKIM) 
+
+[General]
+Upgrade=Bu sunucuya girmek için, Ion Storm'un web adresinden Deus Ex için mevcut en son ücretsiz güncellemeye ihtiyaciniz var:
+UpgradeURL=http://www.deusex.com/upgrade
+UpgradeQuestion=Simdi Web tarayicinizi çalistirmak ve yükseltme sayfasina gitmek ister misiniz?
+Version=Sürüm %i
+
+[Menu]
+HelpMessage=
+MenuList=
+LeftString=Sol
+RightString=Sag
+CenterString=Merkez
+EnabledString=Etkin
+DisabledString=Devre Disi
+HelpMessage[1]="Bu menü henüz yürütülmemis."
+YesString=evet
+NoString=hayir
+
+[Inventory]
+PickupMessage=Bir öge alindi
+M_Activated=" etkin"
+M_Selected=" seçildi"
+M_Deactivated=" devre disi"
+ItemArticle=bir
+
+[WarpZoneInfo]
+OtherSideURL=
+
+[GameInfo]
+SwitchLevelMessage=Seviyeler degistiriliyor
+DefaultPlayerName=Oyuncu
+LeftMessage=" oyundan çikti."
+FailedSpawnMessage=Oyuncu aktörünü meydana getirme basarisiz oldu
+FailedPlaceMessage=Baslatma noktasi bulunamadi (seviye bir 'PlayerStart' aktörü gerekebilir)
+NameChangedMessage=Isim degistirildi 
+EnteredMessage=" oyuna girdi."
+GameName="Oyun"
+MaxedOutMessage=Sunucu zaten tam kapasitede.
+WrongPassword=Girdiginiz parola yanlis.
+NeedPassword=Oyuna katilmak için bir parola girmelisiniz.
+FailedTeamMessage=Oyuncu için takim bulunamadi
+
+[LevelInfo]
+Title=Untitled
+
+[Weapon]
+MessageNoAmmo=" cephaneye sahip degil."
+PickupMessage=Bir silah aldin
+DeathMessage=%o %k'in %w tarafindan öldürüldü.
+ItemName=Silah
+DeathMessage[0]=%o %k'in %w tarafindan öldürüldü.
+DeathMessage[1]=%o %k'in %w tarafindan öldürüldü.
+DeathMessage[2]=%o %k'in %w tarafindan öldürüldü.
+DeathMessage[3]=%o %k'in %w tarafindan öldürüldü.
+
+[Counter]
+CountMessage=Yalnizca %i kaldi...
+CompleteMessage=Tamamlandi!
+
+[Ammo]
+PickupMessage=Birkaç cephane aldin.
+
+[Pickup]
+ExpireMessage=
+
+[SpecialEvent]
+DamageString=
+
+[DamageType]
+Name=öldürüldü
+AltName=öldürüldü
+
+[PlayerPawn]
+QuickSaveString=Hizli Kaydediliyor
+NoPauseMessage=Oyun durdurulamaz
+ViewingFrom=Simdi bir yerden bakiliyor
+OwnCamera=kendi kamera
+FailedView=Bakis degistirme basarisiz oldu.
+CantChangeNameMsg=Küresel baglanilmis bir oyun süresince adinizi degistiremezsiniz.
+
+[Pawn]
+NameArticle=" bir "
+
+[Spectator]
+MenuName=Seyirci
+
+[ServerCommandlet]
+HelpCmd=server
+HelpOneLiner=Ag oyun sunucusu
+HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
+HelpWebLink=http://www.deusex.com
+HelpParm[0]=Log
+HelpDesc[0]=Meydana getirmek için kayit günlügünü belirtir
+HelpParm[1]=AllAdmin
+HelpDesc[1]=Tüm oyunculara yönetici ayricaligi verir
+

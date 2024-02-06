@@ -1,0 +1,5 @@
+File=(Src="Mods\Community Update\Editing\Tools\Translation creation files\INTExtensionsGuide.md.html",Size
+File=(Src="Mods\Community Update\Editing\Tools\Translation creation files\Langid= Convert Prim. lang. identifier to hexadecimal.txt",Size
+File=(Src="Mods\Community Update\Editing\Tools\Translation creation files\Language Identifier Constants and Strings - Windows applications _ Microsoft Docs.html",Size
+File=(Src="Mods\Community Update\Editing\Tools\Translation creation files\List of ISO 639-1 codes - Wikipedia.html",Size
+File=(Src="Mods\Community Update\Editing\Tools\Translation creation files\Setup int files.zip",Size

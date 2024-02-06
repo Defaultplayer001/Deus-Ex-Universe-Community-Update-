@@ -1,0 +1,58 @@
+[SkillAwardTrigger7]
+awardMessage="Forschungsbonus"
+
+[JunkieMale0]
+FamiliarName="Angehöriger des Gossenvolks"
+UnfamiliarName="Angehöriger des Gossenvolks"
+
+[NanoKey0]
+Description="Toilettenschlüssel des Gossenvolks"
+
+[SkillAwardTrigger6]
+awardMessage="Fortschrittsbonus"
+
+[ChildMale2]
+FamiliarName="Gossenkind"
+UnfamiliarName="Gossenkind"
+
+[ChildMale1]
+FamiliarName="Gossenkind"
+UnfamiliarName="Gossenkind"
+
+[BumMale0]
+FamiliarName="Kevin Bradley"
+UnfamiliarName="Angehöriger des Gossenvolks"
+
+[BumFemale4]
+FamiliarName="Angehöriger des Gossenvolks"
+UnfamiliarName="Angehöriger des Gossenvolks"
+
+[BumFemale3]
+FamiliarName="Angehöriger des Gossenvolks"
+UnfamiliarName="Angehöriger des Gossenvolks"
+
+[Terrorist33]
+FamiliarName="Anführer der Terroristen"
+UnfamiliarName="Anführer der Terroristen"
+
+[SkillAwardTrigger8]
+awardMessage="Durchführungsbonus"
+
+[ChildMale0]
+FamiliarName="Gossenkind"
+UnfamiliarName="Gossenkind"
+
+[BumMale1]
+FamiliarName="Angehöriger des Gossenvolks"
+UnfamiliarName="Angehöriger des Gossenvolks"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Die Tunnels des Gossenvolks"
+
+[BumMale2]
+FamiliarName="Angehöriger des Gossenvolks"
+UnfamiliarName="Angehöriger des Gossenvolks"
+

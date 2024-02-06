@@ -1,0 +1,29 @@
+[BlackHelicopter0]
+FamiliarName="Jock In Helicopter"
+UnfamiliarName="Jock In Helicopter"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Battery Park"
+startupMessage[0]="New York City,"
+startupMessage[1]="Battery Park"
+startupMessageJ[0]="ニューヨーク"
+startupMessageJ[1]="バッテリーパーク"
+
+[LevelSummary]
+Title="Untitled"
+
+[ChildMale0]
+FamiliarName="Billy"
+UnfamiliarName="Kid"
+
+[JunkieMale2]
+FamiliarName="Sick Man"
+UnfamiliarName="Sick Man"
+
+[JunkieFemale0]
+FamiliarName="Sick Woman"
+UnfamiliarName="Sick Woman"
+
+[SkillAwardTrigger2]
+awardMessage="Accomplishment Bonus"
+

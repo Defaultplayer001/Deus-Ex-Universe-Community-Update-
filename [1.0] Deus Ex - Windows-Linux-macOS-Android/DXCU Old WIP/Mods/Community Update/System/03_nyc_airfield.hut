@@ -1,0 +1,52 @@
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="New York City - repülõtér"
+
+[SkillAwardTrigger10]
+awardMessage="Feladatteljesítési jutalom"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[NanoKey0]
+Description="A keleti kapu kulcskódja"
+
+[SkillAwardTrigger8]
+awardMessage="Felderítési jutalom"
+
+[NanoKey1]
+Description="Laktanya, hálóteremkulcs"
+
+[SkillAwardTrigger7]
+awardMessage="Fejlõdési jutalom"
+
+[ComputerSecurity3]
+Views[0]="(titleString="Jobb oldali löveg",CameraTag=sectower3cama,Turrettag=sectower3turreta)"
+Views[1]="(titleString="Bal oldali löveg",CameraTag=sectower3camb,Turrettag=sectower3turretb)"
+
+[ComputerSecurity8]
+Views[0]="(titleString="Jobb oldali löveg",CameraTag=sectower4cama,Turrettag=sectower4turreta)"
+Views[1]="(titleString="Bal oldali löveg",CameraTag=sectower4camb,Turrettag=sectower4turretb)"
+
+[ComputerSecurity9]
+Views[0]="(titleString="Jobb oldali löveg",CameraTag=sectower5cama,Turrettag=sectower5turreta)"
+Views[1]="(titleString="Bal oldali löveg",CameraTag=sectower5camb,Turrettag=sectower5turretb)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Jobb oldali löveg",CameraTag=sectower2cama,Turrettag=sectower2turreta)"
+Views[1]="(titleString="Bal oldali löveg",CameraTag=sectower2camb,Turrettag=sectower2turretb)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Jobb oldali löveg",CameraTag=sectower1cama,Turrettag=sectower1turreta)"
+Views[1]="(titleString="Bal oldali löveg",CameraTag=sectower1camb,Turrettag=sectower1turretb)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=boatguard,KeyID=eastgate,Description="Keleti kapu kulcsa")"
+NanoKeyData[1]="(ScriptedPawnTag=Terrorist,KeyID=securitytower,Description="Biztonsági torony kulcsa")"
+
+[SkillAwardTrigger2]
+awardMessage="Feladatteljesítési jutalom"
+

@@ -1,0 +1,3 @@
+File=(Src="Mods\Community Update\Editing\Tools\UCSDK\default-settings.reg",Size
+File=(Src="Mods\Community Update\Editing\Tools\UCSDK\faq.txt",Size
+File=(Src="Mods\Community Update\Editing\Tools\UCSDK\ucsdk.exe",Size

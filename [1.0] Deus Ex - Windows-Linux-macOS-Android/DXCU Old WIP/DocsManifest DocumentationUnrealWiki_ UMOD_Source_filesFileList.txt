@@ -1,0 +1,8 @@
+File=(Src="Docs\Manifest Documentation\UnrealWiki_ UMOD_Source_files\dhtml-menu.js.download",Size
+File=(Src="Docs\Manifest Documentation\UnrealWiki_ UMOD_Source_files\dhtml.js.download",Size
+File=(Src="Docs\Manifest Documentation\UnrealWiki_ UMOD_Source_files\InterWiki-udntech.png",Size
+File=(Src="Docs\Manifest Documentation\UnrealWiki_ UMOD_Source_files\stylebase.structural.css",Size
+File=(Src="Docs\Manifest Documentation\UnrealWiki_ UMOD_Source_files\styles.chblue.css",Size
+File=(Src="Docs\Manifest Documentation\UnrealWiki_ UMOD_Source_files\template-default.css",Size
+File=(Src="Docs\Manifest Documentation\UnrealWiki_ UMOD_Source_files\wikilogo.jpg",Size
+File=(Src="Docs\Manifest Documentation\UnrealWiki_ UMOD_Source_files\wink.gif",Size

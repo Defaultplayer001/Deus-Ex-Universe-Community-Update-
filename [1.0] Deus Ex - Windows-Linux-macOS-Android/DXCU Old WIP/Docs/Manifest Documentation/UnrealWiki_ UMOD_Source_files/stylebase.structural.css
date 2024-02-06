@@ -1,0 +1,199 @@
+/* external style sheet */
+/* STRUCTURAL */
+/* structural elements common to all content styles */
+/* ########################################################*/
+/* PAGE STRUCTURE */
+div.magic {
+	margin-top:5px;
+	padding-top:5px;
+	border:solid #aaa 1px;
+	padding:1.5em;
+	background:#eee;
+	}
+
+/* BLOCKS */
+blockquote {
+	display:block;
+	margin:15px 25%;
+	padding: 12px;
+	voice-family: "\"}\"";  /* no Internet Explorer 5 beyond this point */
+	voice-family: inherit;
+	padding:12px 12px 4px 12px;
+}
+/* ########################################################*/
+/* IMAGES */
+/* tables common */
+table.image-block,   table.image-left,   table.image-right { 
+	padding:0px;
+	border-collapse: collapse ;
+	border:solid 1px black;
+	border:none;
+	}
+table.image-block { margin-top:10px; margin-bottom:10px; }
+table.image-left {
+	margin-bottom: 20px;
+	margin-right: 20px; 
+	}
+table.image-right { 
+	margin-left:  20px; 
+	margin-bottom: 20px 
+	}
+/* cells */	
+table.image-block td,   table.image-left td,   table.image-right.td   { 
+	padding:8px;
+	}
+/* image */	
+table.image-block img, table.image-left img, table.image-right.img { 
+	margin: 0px; 
+	margin-bottom: 10px; 
+	border:none;
+	}
+/* paragraph */	
+table.image-block p,   table.image-left p,   table.image-right.p   { 
+	margin: 0px; 
+	margin-bottom: 20px; 
+	text-align: center 
+	}
+
+
+.floatimages { margin: 16px -20px }
+
+.floatimages-left  { padding-left:  20px }
+.floatimages-right { padding-right: 20px }
+.floatimages-text  { padding: 0px 20px }
+
+.floatimages-left  div,
+.floatimages-right div,
+.floatimages-block div {
+  padding: 8px;
+  margin-bottom: 16px;
+  }
+
+.floatimages-left  p,
+.floatimages-right p,
+.floatimages-block p {
+  padding-top: 8px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  }
+
+
+/*********************************************************/
+/* Paragraph indention                                   */
+
+p.indent1 { margin-left: 1cm }
+p.indent2 { margin-left: 2cm }
+p.indent3 { margin-left: 3cm }
+p.indent4 { margin-left: 4cm }
+p.indent5 { margin-left: 5cm }
+p.indent6 { margin-left: 6cm }
+
+
+/*********************************************************/
+/* Zip files                                             */
+span.zip {
+	/*
+	display: block;
+	*/
+  /* Disabled (Mychaeel)
+  width: 200px;
+  margin: 10px auto 20px 10px;
+  padding: 16px;
+  background: #eee;
+  border: 1px inset #888;
+  */
+	}
+div.zip {
+	display:block;
+	width:200px;
+	margin:10px auto 20px 10px;
+	padding:10px;
+	border-width:0px 0px 0px 5px;
+	border-style:double;
+	border-color:#008;
+	font-weight:bold;
+	}
+
+/*********************************************************/
+/* UnrealScript                                          */
+div.classpath, div.class {
+  margin: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9pt;
+  background-color: #fff0d0;
+  border-color: #008;
+  border-style: solid;
+  border-width: 1px;
+  padding: 6pt;
+}
+div.classpath a , div.class a {
+  font-weight:bold;
+}
+pre.uscript {
+	margin:20px 5px;
+	padding:6px;
+  border: 1px inset #888;
+  background: #eee;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 9pt;
+}
+
+span.uscript-line     { color: #909090 }
+span.uscript-comment  { color: #009000 }
+span.uscript-string   { color: #009000 }
+span.uscript-name     { color: #009090 }
+span.uscript-exec     { color: #606060 }
+span.uscript-number   { color: #000000 }
+span.uscript-operator { color: #606060 }
+span.uscript-type     { color: #009090 }
+span.uscript-keyword  { color: #009090 }
+
+/*********************************************************/
+/* Tables */
+/* without border */
+.paratable {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+.paratable td {
+  padding-right: 20px;
+  padding-bottom: 10px;
+  }
+/* with border */
+.paratable-border {
+  margin-top: 20px;
+  empty-cells: show;
+  border-collapse: separate;
+  margin-bottom: 20px;
+  /* arg @ IE
+  border-spacing: 2px ;
+  */
+  }
+.paratable-border td {
+  padding: 4px;
+  /*
+  border: solid black;
+	background: #EaF2FF;
+  arg @ IE@ 
+  border: solid 1px #CFE7FF;
+  */
+  }
+  
+/*********************************************************/
+/* Diffs */
+div.diff      { padding: 20px; line-height: 1.3 }
+div.diff p    { margin: 0px }
+div.diff-form { padding: 0px 20px }
+
+.diff-header       { padding: 20px 0px; margin: 0px; font-size: 12pt; font-weight: bold }
+
+.diff-para-ident   { padding: 0px 4px; margin: 0px; }
+.diff-para-added   { padding: 0px 4px; margin: 0px; }
+.diff-para-deleted { padding: 0px 4px; margin: 0px; }
+.diff-para-changed { padding: 0px 4px; margin: 0px; }
+
+div.diff table {
+  voice-family: "\"}\"";  /* no Internet Explorer 5 beyond this point */
+  voice-family: inherit;
+  width: 100%
+  }

@@ -1,0 +1,18 @@
+Cluster is designed as a similiar sounding substitute to the aging Galaxy audio backend.
+
+2018-2023 by Sebastian Kaufel
+
+https://coding.hanfling.de/cluster/
+
+---
+
+https://www.patreon.com/hanfling
+https://www.paypal.me/hanfling
+
+---
+
+Made using FMOD Core by Firelight Technologies Pty Ltd.
+
+---
+
+For manual setup set AudioDevice to Cluster.ClusterAudioSubsystem inside your game's ini file.

@@ -1,0 +1,34 @@
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="New York City - Underworld kocsma"
+
+[Female1]
+FamiliarName="Szvetteres hölgy"
+UnfamiliarName="Szvetteres hölgy"
+
+[JordanShea0]
+UnfamiliarName="Csapos"
+
+[Male0]
+FamiliarName="Dan"
+UnfamiliarName="Dolgozó"
+
+[JoeGreene0]
+UnfamiliarName="Használtautó-kereskedõ?"
+
+[Female0]
+FamiliarName="Nõ"
+UnfamiliarName="Hölgy"
+
+[SkillAwardTrigger6]
+awardMessage="Teljesítési jutalom"
+
+[Jock0]
+UnfamiliarName="Pilótának tûnõ fickó"
+
+[Hooker0]
+FamiliarName="Janey"
+UnfamiliarName="Lány"
+

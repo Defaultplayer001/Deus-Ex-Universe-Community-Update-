@@ -1,0 +1,58 @@
+[BumMale2]
+FamiliarName="Desabrigado"
+UnfamiliarName="Desabrigado"
+
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Túneis dos desabrigados"
+
+[LevelSummary]
+Title="Sem título"
+
+[BumMale1]
+FamiliarName="Desabrigado"
+UnfamiliarName="Desabrigado"
+
+[ChildMale0]
+FamiliarName="Garoto desabrigado"
+UnfamiliarName="Garoto desabrigado"
+
+[SkillAwardTrigger8]
+awardMessage="Bônus: realização"
+
+[Terrorist33]
+FamiliarName="Líder terrorista"
+UnfamiliarName="Líder terrorista"
+
+[BumFemale3]
+FamiliarName="Desabrigada"
+UnfamiliarName="Desabrigada"
+
+[BumFemale4]
+FamiliarName="Desabrigada"
+UnfamiliarName="Desabrigada"
+
+[BumMale0]
+FamiliarName="Kevin Bradley"
+UnfamiliarName="Desabrigado"
+
+[ChildMale1]
+FamiliarName="Garoto desabrigado"
+UnfamiliarName="Garoto desabrigado"
+
+[ChildMale2]
+FamiliarName="Garoto desabrigado"
+UnfamiliarName="Garoto desabrigado"
+
+[SkillAwardTrigger6]
+awardMessage="Bonus: progresso"
+
+[NanoKey0]
+Description="Chave do banheiro"
+
+[JunkieMale0]
+FamiliarName="Indivíduo desabrigado"
+UnfamiliarName="Indivíduo desabrigado"
+
+[SkillAwardTrigger7]
+awardMessage="Bônus: exploração"
+

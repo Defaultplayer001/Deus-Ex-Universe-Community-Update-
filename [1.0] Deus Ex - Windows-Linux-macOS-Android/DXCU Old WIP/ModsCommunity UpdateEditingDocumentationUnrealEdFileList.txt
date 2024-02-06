@@ -1,0 +1,5 @@
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\DXTutorials.chm",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\EditorDocumentation.doc",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\TacksDXLab_Dec28_2002.chm",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\ued2.chm",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\Unreal Editor Help.chm",Size

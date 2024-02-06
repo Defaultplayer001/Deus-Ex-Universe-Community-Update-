@@ -1,0 +1,18 @@
+[DeusExLevelInfo1]
+MissionLocation="NYC - Underworld Tavern"
+startupMessage[0]="NYC - Underworld Tavern"
+startupMessageJ[0]="NY - アンダーワールド・バー"
+
+[NathanMadison0]
+FamiliarName="Vinny"
+UnfamiliarName="Soldier"
+
+[JordanShea1]
+UnfamiliarName="Bartender"
+
+[LevelSummary]
+Title="Untitled"
+
+[HarleyFilben0]
+UnfamiliarName="Harley Filben"
+

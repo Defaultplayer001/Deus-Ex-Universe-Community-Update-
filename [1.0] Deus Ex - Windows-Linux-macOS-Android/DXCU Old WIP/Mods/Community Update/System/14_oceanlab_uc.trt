@@ -1,0 +1,20 @@
+[DeusExLevelInfo0]
+MissionLocation="Yeni Bati Sahili - Okyanus Lab. EM"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="EM Sematiklerine Eris",TriggerText="Sematik Indirildi",TriggerEvent=schematic,bTriggerOnceOnly=True)"
+specialOptions[1]="(bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger0]
+awardMessage="Hedef Basari Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(titleString="EM Erisim Köprüsü",CameraTag=bridgecam)"
+specialOptions[0]="(Text="Köprüyü Etkinlestir",TriggerText="Köprü Uzatiliyor",TriggerEvent=Activate)"
+
+[SpecialEvent0]
+Message="Yeni Mesaj Yok"
+

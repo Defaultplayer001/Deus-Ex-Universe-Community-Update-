@@ -1,0 +1,11 @@
+File=(Src="Mods\Community Update\Editing\Tools\Bright.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\Bright183Public.txt",Size
+File=(Src="Mods\Community Update\Editing\Tools\DXMeshTool.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\HideConsole.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\T3DBrowser.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\TexAlign.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\UnrealFX.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\UTPT.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\uuc.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\ViewPrefabs.cmd",Size
+File=(Src="Mods\Community Update\Editing\Tools\WOTgrealExporter.exe",Size

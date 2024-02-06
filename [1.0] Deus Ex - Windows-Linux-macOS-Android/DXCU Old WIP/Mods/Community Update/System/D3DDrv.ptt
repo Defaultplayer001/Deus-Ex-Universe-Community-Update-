@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=D3DDrv.D3DRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+Preferences=(Caption="Renderização",Parent="Opções avançadas")
+Preferences=(Caption="Suporte Direct3D",Parent="Renderização",Class=D3DDrv.D3DRenderDevice,Immediate=True)
+
+[D3DRenderDevice]
+ClassCaption="Suporte Direct3D"
+AskInstalled=Deseja utilizar o suporte a Direct3D?
+AskUse=

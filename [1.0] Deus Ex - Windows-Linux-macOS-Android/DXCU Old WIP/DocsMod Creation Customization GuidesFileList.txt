@@ -1,0 +1,7 @@
+File=(Src="Docs\Mod Creation Customization Guides\Custom Item Transfer.txt",Size
+File=(Src="Docs\Mod Creation Customization Guides\Custom Player Class (The Easy way).txt",Size
+File=(Src="Docs\Mod Creation Customization Guides\Custom Player Class (The Harder Way).txt",Size
+File=(Src="Docs\Mod Creation Customization Guides\Custom Player Class (The Hardest Way).txt",Size
+File=(Src="Docs\Mod Creation Customization Guides\Custom Player Class (The Terrible Way).txt",Size
+File=(Src="Docs\Mod Creation Customization Guides\Custom Start Map.txt",Size
+File=(Src="Docs\Mod Creation Customization Guides\xvi32.zip",Size

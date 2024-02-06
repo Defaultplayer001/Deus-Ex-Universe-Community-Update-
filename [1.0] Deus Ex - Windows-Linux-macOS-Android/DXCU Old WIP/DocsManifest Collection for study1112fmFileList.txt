@@ -1,0 +1,2 @@
+File=(Src="Docs\Manifest Collection for study\1112fm\Manifest.ini",Size
+File=(Src="Docs\Manifest Collection for study\1112fm\Manifest.int",Size

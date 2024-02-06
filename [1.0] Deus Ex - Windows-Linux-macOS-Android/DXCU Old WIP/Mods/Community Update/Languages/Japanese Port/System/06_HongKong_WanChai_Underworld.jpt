@@ -1,0 +1,184 @@
+[HKMilitary3]
+FamiliarName="Eddie Way"
+UnfamiliarName="Chinese Military Police"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - Lucky Money Club"
+startupMessage[0]="Wan Chai Underground Mall"
+startupMessage[1]="Home of the Lucky Money Club"
+startupMessageJ[0]="ワンチャイ　地下マーケット"
+startupMessageJ[1]="クラブ・ラッキーマネー"
+
+[Female3]
+FamiliarName="Party Girl"
+UnfamiliarName="Party Girl"
+
+[SarahMead0]
+FamiliarName="Ling"
+UnfamiliarName="Young escort"
+
+[Female10]
+FamiliarName="Maymay"
+UnfamiliarName="Young escort"
+
+[LevelSummary]
+Title="Untitled"
+
+[TriadRedArrow0]
+FamiliarName="Red Arrow Member"
+UnfamiliarName="Red Arrow Member"
+
+[SkillAwardTrigger13]
+awardMessage="Character Interaction Bonus"
+
+[Secretary0]
+FamiliarName="Lisa"
+UnfamiliarName="Seductive Woman"
+
+[Businesswoman0]
+UnfamiliarName="VersaLife Employee"
+
+[LowerClassMale0]
+FamiliarName="Lawrence"
+UnfamiliarName="Loser"
+
+[LowerClassFemale1]
+FamiliarName="Tessa"
+UnfamiliarName="Party Girl"
+
+[SkillAwardTrigger12]
+awardMessage="Progress Bonus"
+
+[Hooker0]
+FamiliarName="Carole"
+UnfamiliarName="Nervous Woman"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Quick Stop Security",cameraTag=SecurityCamera)"
+Views[1]="(titleString="Quick Stop Security",cameraTag=SecurityCamera1,doorTag=StoreDoor)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Club Monitor",cameraTag=ClubCam1)"
+Views[1]="(titleString="Front Counter and Safe",cameraTag=ClubCam2,doorTag=Strongbox)"
+Views[2]="(titleString="Service Lift",cameraTag=ClubCam3)"
+
+[Sailor3]
+FamiliarName="Ivan"
+UnfamiliarName="Russian Sailors"
+
+[Female1]
+FamiliarName="Door Girl"
+UnfamiliarName="Door Girl"
+
+[SkillAwardTrigger3]
+awardMessage="Exploration Bonus"
+
+[TriadRedArrow5]
+FamiliarName="Chen's Bodyguard"
+UnfamiliarName="Chen's Bodyguard"
+
+[Sailor2]
+FamiliarName="Dimitri"
+UnfamiliarName="Russian Sailors"
+
+[Female5]
+FamiliarName="Party Girl"
+UnfamiliarName="Party Girl"
+
+[Bartender0]
+FamiliarName="Isaac"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Open Vault",TriggerText="Vault Opened",TriggerEvent=Safe_door)"
+
+[Female6]
+FamiliarName="Party Girl"
+UnfamiliarName="Party Girl"
+
+[Female7]
+FamiliarName="Mamasan"
+UnfamiliarName="Mamasan"
+
+[TriadRedArrow7]
+FamiliarName="Triad Bouncer"
+UnfamiliarName="Triad Bouncer"
+
+[JunkieFemale0]
+FamiliarName="Dazed Girl"
+UnfamiliarName="Dazed Girl"
+
+[Female4]
+FamiliarName="Party Girl"
+UnfamiliarName="Party Girl"
+
+[Businessman1]
+FamiliarName="Mr. Sing"
+UnfamiliarName="Stuffy Suit"
+
+[HKMilitary1]
+FamiliarName="Eddie Way"
+UnfamiliarName="Chinese Military Police"
+
+[HKMilitary2]
+FamiliarName="Eddie Way"
+UnfamiliarName="Chinese Military Police"
+
+[TriadRedArrow1]
+FamiliarName="Red Arrow Member"
+UnfamiliarName="Red Arrow Member"
+
+[TriadRedArrow2]
+FamiliarName="Red Arrow Member"
+UnfamiliarName="Red Arrow Member"
+
+[Sailor1]
+FamiliarName="Vladimir"
+UnfamiliarName="Russian Sailors"
+
+[TriadRedArrow8]
+FamiliarName="Triad Bouncer"
+UnfamiliarName="Triad Bouncer"
+
+[Businessman3]
+FamiliarName="VersaLife Employee"
+
+[Female2]
+FamiliarName="Bar Fly"
+UnfamiliarName="Bar Fly"
+
+[HKMilitary0]
+FamiliarName="Eddie Way"
+UnfamiliarName="Chinese Military Police"
+
+[TriadRedArrow6]
+FamiliarName="Chen's Bodyguard"
+UnfamiliarName="Chen's Bodyguard"
+
+[Sailor0]
+FamiliarName="Boris"
+UnfamiliarName="Russian Sailors"
+
+[LowerClassMale1]
+FamiliarName="Thug"
+UnfamiliarName="Thug"
+
+[TriadRedArrow4]
+FamiliarName="Red Arrow Member"
+UnfamiliarName="Red Arrow Member"
+
+[Hooker2]
+FamiliarName="Dancing Girl"
+UnfamiliarName="Dancing Girl"
+
+[ThugMale5]
+FamiliarName="Vince"
+UnfamiliarName="Hard Drinker"
+
+[Hooker4]
+FamiliarName="Mercedes"
+UnfamiliarName="Club Girl"
+
+[TriadRedArrow3]
+FamiliarName="Red Arrow Member"
+UnfamiliarName="Red Arrow Member"
+

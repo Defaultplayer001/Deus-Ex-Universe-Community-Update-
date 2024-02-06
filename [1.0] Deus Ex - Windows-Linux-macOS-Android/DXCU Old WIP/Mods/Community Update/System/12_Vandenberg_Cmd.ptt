@@ -1,0 +1,117 @@
+[NanoKey0]
+Description="Chave do depósito - laboratório de materiais perigosos"
+
+[Mechanic2]
+FamiliarName="Mike"
+UnfamiliarName="Técnico"
+
+[SkillAwardTrigger10]
+awardMessage="Bônus: exploração"
+
+[SkillAwardTrigger9]
+awardMessage="Bônus: localização"
+
+[SkillAwardTrigger8]
+awardMessage="Bônus: êxito"
+
+[SkillAwardTrigger3]
+awardMessage="Bônus: localização crítica"
+
+[SkillAwardTrigger5]
+awardMessage="Bônus: êxito"
+
+[ScientistFemale4]
+FamiliarName="Stacy Webber"
+UnfamiliarName="Pesquisadora"
+
+[ScientistFemale5]
+FamiliarName="Carla Brown"
+
+[SkillAwardTrigger14]
+awardMessage="Bônus: exploração"
+
+[Mechanic1]
+FamiliarName="Larry"
+UnfamiliarName="Técnico"
+
+[SkillAwardTrigger2]
+awardMessage="Bônus: exploração"
+
+[ComputerSecurity0]
+Views[0]="(CameraTag=camera_roof,Turrettag=turret_roof)"
+Views[1]="(CameraTag=camera_main)"
+
+[SkillAwardTrigger7]
+awardMessage="Bônus: exploração"
+
+[SkillAwardTrigger11]
+awardMessage="Bônus: exploração"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[ComputerSecurity2]
+Views[0]="(CameraTag=camera_main)"
+Views[1]="(CameraTag=camera_lobby,Turrettag=turret_main1)"
+Views[2]="(CameraTag=camera_lobby2,Turrettag=turret_main2)"
+
+[DirectionalTrigger2]
+Message="Realizado"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=TonyM,KeyID=Tunnel_access1,Description="Acesso ao túnel")"
+
+[SkillAwardTrigger12]
+awardMessage="Bônus: exploração"
+
+[SkillAwardTrigger0]
+awardMessage="Bônus: êxito"
+
+[SkillAwardTrigger13]
+awardMessage="Bônus: localização"
+
+[DirectionalTrigger0]
+Message="Realizado"
+
+[LogicTrigger2]
+Message="SISTEMA DESCONECTADO"
+
+[SkillAwardTrigger1]
+awardMessage="Bônus: exploração"
+
+[LogicTrigger0]
+Message="Mensagem lógica"
+
+[ComputerSecurity1]
+Views[0]="(CameraTag=camera_main)"
+Views[1]="(CameraTag=camera_lobby,Turrettag=turret_main1)"
+Views[2]="(CameraTag=camera_lobby2,Turrettag=turret_main2)"
+
+[ScientistMale1]
+FamiliarName="Tim Baker"
+
+[SkillAwardTrigger6]
+awardMessage="Bônus: êxito"
+
+[ScientistFemale2]
+FamiliarName="Stephanie Maxwell"
+UnfamiliarName="Pesquisadora"
+
+[DirectionalTrigger3]
+Message="Realizado"
+
+[LevelSummary]
+Title="Sem título"
+
+[ScientistMale0]
+FamiliarName="Dr. Tony Mares"
+
+[DeusExLevelInfo1]
+MissionLocation="Vandenberg - Comando"
+startupMessage[0]="Centro de comando"
+startupMessage[1]="Base Aérea de Vandenberg"
+
+[DirectionalTrigger1]
+Message="Realizado"
+

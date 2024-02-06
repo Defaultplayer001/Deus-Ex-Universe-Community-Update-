@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=MeTaLDrv.MeTaLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Metal.dll)
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="S3 MeTaL support",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+
+[MeTaLRenderDevice]
+ClassCaption="Windows için S3 MeTaL"
+AskInstalled=Yuklenmis bir Savage 3D kartiniz var mi?
+AskUse=Deus Ex'te Savage 3D kartinizi kullanmak ister misiniz?

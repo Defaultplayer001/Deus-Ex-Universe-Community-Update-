@@ -132,7 +132,7 @@ Description=Conversation logic and typo fixes. (If using LayD deselect to save s
 
 [TranscendedDefaultUser.ini(Theme+FOV)Files]
 Caption=Default Transcended User Settings
-Description=By default Transcended uses a blue theme (Cops) and a higher FOV (75 vs 90). The CU automatically sets those values back to their default vanilla ones, this will override that and use the default Transcended settings. Note: RF has a minimum FOV of 80, so this value of 75 will be adjusted to that if used.
+Description=By default Transcended uses a blue theme (Cops) and a higher FOV (75 vs 90). The CU automatically sets the theme back to the default vanilla one, this will override that and use the default Transcended settings. FOV will still be set to 90.
 
 [LayDDentonDefaultinisFiles]
 Caption=Lay D Denton (Read - Compatibility issues)

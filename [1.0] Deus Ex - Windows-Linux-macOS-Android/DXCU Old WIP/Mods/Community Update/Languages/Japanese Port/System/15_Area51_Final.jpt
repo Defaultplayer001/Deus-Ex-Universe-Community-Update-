@@ -1,0 +1,47 @@
+[Switch14]
+FamiliarName="Helios"
+UnfamiliarName="Helios"
+
+[MIB1]
+UnfamiliarName="MIB"
+
+[Mechanic2]
+FamiliarName="Jerri"
+
+[SkillAwardTrigger14]
+awardMessage="Exploration Bonus"
+
+[SkillAwardTrigger11]
+awardMessage="Critical Location Bonus"
+
+[SkillAwardTrigger12]
+awardMessage="Critical Loctaion Bonus"
+
+[SkillAwardTrigger13]
+awardMessage="Critical Location Bonus"
+
+[SkillAwardTrigger0]
+awardMessage="Exploration Bonus"
+
+[SkillAwardTrigger1]
+awardMessage="Exploration Bonus"
+
+[ComputerSecurity0]
+Views[0]="(cameraTag=gen_camera,doorTag=door_generator)"
+Views[1]="(cameraTag=radiation_camera)"
+specialOptions[0]="(Text="Augmentation Containment",TriggerEvent=Aug_door,bTriggerOnceOnly=True)"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="Stairwell Key"
+
+[DeusExLevelInfo0]
+MissionLocation="Area51 - Final"
+startupMessage[0]="Area51 - Final"
+startupMessageJ[0]="エリア５１　ファイナル"
+
+[SkillAwardTrigger15]
+awardMessage="Exploration Bonus"
+

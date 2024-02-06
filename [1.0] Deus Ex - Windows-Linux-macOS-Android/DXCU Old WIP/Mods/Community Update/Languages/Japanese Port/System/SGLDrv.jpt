@@ -1,0 +1,9 @@
+[Public]
+//Object=(Name=SGLDrv.SGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=SGL.dll)
+//Preferences=(Caption="Rendering",Parent="Advanced Options")
+//Preferences=(Caption="PowerVR SGL support",Parent="Rendering",Class=SGLDrv.SGLRenderDevice,Immediate=True)
+
+[SglRenderDevice]
+ClassCaption="PowerVR SGL for Windows"
+AskInstalled=PowerVR カードを使用していますか?
+AskUse=Deus ExでPowerVR カードを使用しますか?

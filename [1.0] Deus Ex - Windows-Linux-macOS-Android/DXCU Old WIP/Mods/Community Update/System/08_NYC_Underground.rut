@@ -1,0 +1,12 @@
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за обнаружение"
+
+[DeusExLevelInfo1]
+MissionLocation="Нью-Йорк - Канализация"
+
+[ComputerSecurity0]
+specialOptions[0]="(Text="Повернуть мост",TriggerText="Мост повернут",TriggerEvent=RotateBridge)"
+

@@ -1,0 +1,102 @@
+[SkillAwardTrigger6]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger2]
+awardMessage="Basari Bonusu"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Arka Çevre Kapisi",CameraTag=A_Sector2,doorTag=BackGate)"
+Views[1]="(titleString="Ceph. Depolama Tesisi",CameraTag=B_Sector2,doorTag=AmmoStorageDoor)"
+Views[2]="(titleString="Komutanin Ofisi",CameraTag=C_Sector2,doorTag=ArmoryDoor)"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Ana Kanaliz. Izgarasi",CameraTag=A_Sector3,doorTag=DrainGrate)"
+Views[1]="(titleString="Savunma Sistem A",CameraTag=B_Sector3,Turrettag=AutoTurret1)"
+Views[2]="(titleString="Savunma Sistem B",CameraTag=C_Sector3,Turrettag=AutoTurret2)"
+specialOptions[0]="(Text="Robotu Hazirda Beklet",TriggerText="Çevre robotlari hazirda beklet modunda",TriggerEvent=SBTrigger)"
+specialOptions[1]="(Text="Çevre Robot Standart Savunma",TriggerText="Robotlar standart savunma modunda",TriggerEvent=SDTrigger)"
+specialOptions[2]="(Text="Çevre Robot Bot Olmayana Saldiri",TriggerText="Tehlike! **Robotlar tam saldiri modunda**",TriggerEvent=AATrigger)"
+specialOptions[3]="(Text="Çevre Robot Hepsine Saldiri",TriggerText="Tehlike! Güvenlik kisitlamalari kaldirildi",TriggerEvent=SCTrigger)"
+
+[SkillAwardTrigger1]
+awardMessage="Kritik Konum Bonusu"
+
+[SkillAwardTrigger0]
+awardMessage="Basari Bonusu"
+
+[NanoKey0]
+Description="Cephane Saklama Deposu Anahtari"
+
+[SkillAwardTrigger8]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger9]
+awardMessage="Basari Bonusu"
+
+[SkillAwardTrigger10]
+awardMessage="Basari Bonusu"
+
+[DeusExLevelInfo0]
+MissionLocation="New York - Brooklyn Donanma Tersanesi"
+startupMessage[0]="New York Sehri, Brooklyn Donanma Tersanesi"
+startupMessage[1]="Denizalti Harp Bölümü"
+
+[NanoKey4]
+Description="Park Alani Treyler Anahtari"
+
+[SkillAwardTrigger7]
+awardMessage="Bölge Konum Bonusu"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Depo Ofisi",CameraTag=A_Sector1,doorTag=SecurityDoor)"
+Views[1]="(titleString="Depo Dogu",CameraTag=B_Sector1)"
+Views[2]="(titleString="Depo Güneybati",CameraTag=C_Sector1)"
+
+[SkillAwardTrigger3]
+awardMessage="Basari Bonusu"
+
+[Mechanic0]
+FamiliarName="Güverte Çalisani"
+UnfamiliarName="Güverte Çalisani"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=FrontGuard,KeyID=MainGate,Description="Ana Kapi Anahtari")"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Cephane Ambar Siginagi, 456",CameraTag=A_Sector4)"
+Views[1]="(titleString="RadKor Deposu",CameraTag=B_Sector3)"
+Views[2]="(titleString="Güverte Bölgesi",CameraTag=C_Sector3)"
+specialOptions[0]="(Text="Robotu Hazirda Beklet",TriggerText="Ambar robotlari hazirda beklet modunda",TriggerEvent=SB2Trigger)"
+specialOptions[1]="(Text="Ambar Robot Standart Savunma",TriggerText="Robotlar standart savunma modunda",TriggerEvent=SD2Trigger)"
+specialOptions[2]="(Text="Ambar Robot Bot Olmayana Saldiri",TriggerText="Tehlike! **Robotlar tam saldiri modunda**",TriggerEvent=AA2Trigger)"
+specialOptions[3]="(Text="Ambar Robot Hepsine Saldiri",TriggerText="Tehlike! Güvenlik kisitlamalari kaldirildi",TriggerEvent=SC2Trigger)"
+
+[SkillAwardTrigger5]
+awardMessage="Bölge Konum Bonusu"
+
+[NanoKey3]
+Description="Silah Depo Anahtari"
+
+[SkillAwardTrigger11]
+awardMessage="Bölge Konum Bonusu"
+
+[NanoKey2]
+Description="Komutanin Ofisi Anahtari"
+
+[NanoKey1]
+Description="Erzak Odasi Anahtari"
+
+[Mechanic1]
+FamiliarName="Güverte Çalisani"
+UnfamiliarName="Güverte Çalisani"
+
+[Mechanic2]
+FamiliarName="Öteki Güverte Çalisani"
+UnfamiliarName="Öteki Güverte Çalisani"
+
+[SkillAwardTrigger4]
+awardMessage="Basari Bonusu"
+

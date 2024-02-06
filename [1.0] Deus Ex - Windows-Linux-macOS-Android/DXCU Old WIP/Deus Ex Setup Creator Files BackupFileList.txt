@@ -1,0 +1,58 @@
+File=(Src="Deus Ex Setup Creator Files Backup\(Right click to edit this and put in your mod name) Rename Deus Ex Mod.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\(Right click to edit this and put in your mod name) Rename Deus Ex Mod.bat.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\(Run this!) Create Deus Ex Mod Setup.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\(Run this!) Create Deus Ex Mod Setup.bat.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\BatRenamer.Bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Cleanup.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ConfigSetupFiles.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ConfigSteamProxy.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Custom Manifest.int Entries.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Custom Manifest.int Entries.txt.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\DELETED, everything in this folder will be. -Yoda.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\DeusExInstallPathCreate-Edit.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\fart.exe",Size
+File=(Src="Deus Ex Setup Creator Files Backup\FileSizeDummyFile.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Manifest Creation Script.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Manifest Folder Creator Test Trim.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Manifest Folder Creator.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Manifest Folder Creator.bat.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Manifest Merge.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Manifest.int",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Manifest.int.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ManifestHeader-1-Setup (Custom Override).ini",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ManifestHeader-1-Setup (Custom Override).ini.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ManifestHeader-1-Setup.ini",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ManifestHeader-1-Setup.ini.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ManifestHeader-2-Game Group.ini",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ManifestHeader-3-Groups.ini",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ManifestHeader-3-Groups.ini.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ManifestHeader.ini",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Mod Path Script (Deus Ex.ini Mod).bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Mod Path Script.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\paste.exe",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Post Exec Manifest Creator.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Post Exec Manifest Creator.bat.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ReadMe.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ResourceHacker.exe",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ResourceHacker.ini",Size
+File=(Src="Deus Ex Setup Creator Files Backup\ResourceHacker.log",Size
+File=(Src="Deus Ex Setup Creator Files Backup\sed.exe",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Setup Text for Winzip.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Setup.exe",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Setup.exe Creator (7z Version).bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Setup.exe Creator (Manual Winzip Version).bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Setup.exe Creator (Winzip Standalone Version).bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Setup.exe Creator (Winzip Version).bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Setup.exe Creator.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Setup.exe Creator.bat.bak",Size
+File=(Src="Deus Ex Setup Creator Files Backup\Setup.int",Size
+File=(Src="Deus Ex Setup Creator Files Backup\SteamProxy.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\SystemFilesCreatorSteamProxy.bat",Size
+File=(Src="Deus Ex Setup Creator Files Backup\valueGroupHeaderAppend (Selected=False).txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\valueGroupHeaderAppend.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\valueManifestIntAppend.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\valuePostExecGroupHeaderAppend.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\valuePostExecHeaderAppend.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\valuePostExecManifestIntAppend.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\valuePostExecSetupHeaderAppend.txt",Size
+File=(Src="Deus Ex Setup Creator Files Backup\valueSetupHeaderAppend.txt",Size

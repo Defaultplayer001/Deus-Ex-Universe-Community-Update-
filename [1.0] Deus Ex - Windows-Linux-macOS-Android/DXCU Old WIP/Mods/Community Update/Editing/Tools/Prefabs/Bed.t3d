@@ -1,0 +1,1022 @@
+Begin Map
+Begin Actor Class=LevelInfo Name=LevelInfo0
+    TimeSeconds=50.879513
+    Summary=LevelSummary'MyLevel.LevelSummary'
+    AIProfile(0)=16468
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=LevelInfo
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Name=LevelInfo0
+End Actor
+Begin Actor Class=Brush Name=Brush0
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    bDynamicLight=True
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Location=(Y=3072.000000)
+    bSelected=True
+    Begin Brush Name=Brush
+       Begin PolyList
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Brush'
+    Name=Brush0
+End Actor
+Begin Actor Class=Brush Name=Brush386
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    PolyFlags=32
+    bDynamicLight=True
+    DistanceFromPlayer=1248.344604
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Location=(X=-72.000305,Y=80.000000,Z=48.000000)
+    Rotation=(Yaw=-16384)
+    OldLocation=(X=1848.000000,Y=-1848.000000,Z=112.000000)
+    bSelected=True
+    Begin Brush Name=Model393
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -01396.000000,+02396.000000,+00024.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00004.000000,-00004.000000,+00024.000000
+             Vertex   +00004.000000,-00004.000000,+00024.000000
+             Vertex   +00004.000000,+00004.000000,+00024.000000
+             Vertex   -00004.000000,+00004.000000,+00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=ClenMedmWalnt_A Link=1
+             Origin   -00004.000000,+00004.000000,-00024.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00004.000000,+00004.000000,-00024.000000
+             Vertex   +00004.000000,+00004.000000,-00024.000000
+             Vertex   +00004.000000,-00004.000000,-00024.000000
+             Vertex   -00004.000000,-00004.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=2
+             Origin   -00004.000000,+00004.000000,-00360.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00004.000000,+00004.000000,-00024.000000
+             Vertex   -00004.000000,+00004.000000,+00024.000000
+             Vertex   +00004.000000,+00004.000000,+00024.000000
+             Vertex   +00004.000000,+00004.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=3
+             Origin   +00004.000000,-00004.000000,-00360.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00004.000000,-00004.000000,-00024.000000
+             Vertex   +00004.000000,-00004.000000,+00024.000000
+             Vertex   -00004.000000,-00004.000000,+00024.000000
+             Vertex   -00004.000000,-00004.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=4
+             Origin   +00004.000000,+00004.000000,-00360.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00004.000000,+00004.000000,-00024.000000
+             Vertex   +00004.000000,+00004.000000,+00024.000000
+             Vertex   +00004.000000,-00004.000000,+00024.000000
+             Vertex   +00004.000000,-00004.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=5
+             Origin   -00004.000000,-00004.000000,-00360.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00004.000000,-00004.000000,-00024.000000
+             Vertex   -00004.000000,-00004.000000,+00024.000000
+             Vertex   -00004.000000,+00004.000000,+00024.000000
+             Vertex   -00004.000000,+00004.000000,-00024.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model393'
+    PrePivot=(X=4.000000,Y=4.000000,Z=24.000000)
+    Name=Brush386
+End Actor
+Begin Actor Class=Brush Name=Brush387
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    PolyFlags=32
+    bDynamicLight=True
+    DistanceFromPlayer=1178.657471
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Location=(X=72.000000,Y=80.000000)
+    Rotation=(Yaw=-16384)
+    OldLocation=(X=1848.000000,Y=-1704.000000,Z=64.000000)
+    bSelected=True
+    Begin Brush Name=Model394
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -01396.000000,+02244.000000,+00024.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00004.000000,-00004.000000,+00024.000000
+             Vertex   +00004.000000,-00004.000000,+00024.000000
+             Vertex   +00004.000000,+00004.000000,+00024.000000
+             Vertex   -00004.000000,+00004.000000,+00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=ClenMedmWalnt_A Link=1
+             Origin   -00004.000000,+00004.000000,-00024.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00004.000000,+00004.000000,-00024.000000
+             Vertex   +00004.000000,+00004.000000,-00024.000000
+             Vertex   +00004.000000,-00004.000000,-00024.000000
+             Vertex   -00004.000000,-00004.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=2
+             Origin   -00004.000000,+00004.000000,-00360.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00004.000000,+00004.000000,-00024.000000
+             Vertex   -00004.000000,+00004.000000,+00024.000000
+             Vertex   +00004.000000,+00004.000000,+00024.000000
+             Vertex   +00004.000000,+00004.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=3
+             Origin   +00004.000000,-00004.000000,-00360.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00004.000000,-00004.000000,-00024.000000
+             Vertex   +00004.000000,-00004.000000,+00024.000000
+             Vertex   -00004.000000,-00004.000000,+00024.000000
+             Vertex   -00004.000000,-00004.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=4
+             Origin   +00004.000000,+00004.000000,-00360.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00004.000000,+00004.000000,-00024.000000
+             Vertex   +00004.000000,+00004.000000,+00024.000000
+             Vertex   +00004.000000,-00004.000000,+00024.000000
+             Vertex   +00004.000000,-00004.000000,-00024.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=5
+             Origin   -00004.000000,-00004.000000,-00360.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00004.000000,-00004.000000,-00024.000000
+             Vertex   -00004.000000,-00004.000000,+00024.000000
+             Vertex   -00004.000000,+00004.000000,+00024.000000
+             Vertex   -00004.000000,+00004.000000,-00024.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model394'
+    PrePivot=(X=4.000000,Y=-4.000000,Z=-24.000000)
+    Name=Brush387
+End Actor
+Begin Actor Class=Brush Name=Brush388
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    PolyFlags=32
+    bDynamicLight=True
+    DistanceFromPlayer=1378.203003
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Location=(X=-71.999817,Y=-76.000000,Z=32.000000)
+    Rotation=(Yaw=-16384)
+    OldLocation=(X=2004.000000,Y=-1847.999878,Z=96.000000)
+    bSelected=True
+    Begin Brush Name=Model395
+       Begin PolyList
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999934,-00055.384766,-00432.000061
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.000000,+00001.000000
+             TextureV +00000.000000,+00001.000000,+00000.000000
+             Vertex   -00009.999920,-00055.384640,-00064.000053
+             Vertex   -00009.999920,-00199.384705,-00064.000053
+             Vertex   -00009.999920,-00055.384640,-00036.571457
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999934,-00055.384766,-00432.000061
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.187112,-00000.982339
+             TextureV +00000.000000,+00000.982339,+00000.187112
+             Vertex   -00001.999984,-00055.384640,-00036.571457
+             Vertex   -00001.999984,-00199.384705,-00064.000053
+             Vertex   -00001.999984,-00055.384640,-00064.000053
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=2
+             Origin   -01562.000000,+02192.615234,-00064.000053
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00001.000000,+00000.000000
+             Vertex   -00001.999984,-00055.384640,-00064.000053
+             Vertex   -00001.999984,-00199.384705,-00064.000053
+             Vertex   -00009.999920,-00199.384705,-00064.000053
+             Vertex   -00009.999920,-00055.384640,-00064.000053
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=3
+             Origin   -00001.999934,-00055.384766,-00432.000061
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,+00001.000000
+             Vertex   -00001.999984,-00055.384640,-00036.571457
+             Vertex   -00001.999984,-00055.384640,-00064.000053
+             Vertex   -00009.999920,-00055.384640,-00064.000053
+             Vertex   -00009.999920,-00055.384640,-00036.571457
+          End Polygon
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999934,-00055.384766,-00432.000061
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.540233,+00000.841516
+             TextureV +00000.000000,+00000.841516,+00000.540233
+             Vertex   -00009.999920,-00099.692352,+00000.000000
+             Vertex   -00009.999920,-00199.384705,-00064.000053
+             Vertex   -00009.999920,-00155.076996,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999934,-00055.384766,-00432.000061
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.822192,-00000.569210
+             TextureV +00000.000000,+00000.569210,+00000.822192
+             Vertex   -00001.999984,-00155.076996,+00000.000000
+             Vertex   -00001.999984,-00199.384705,-00064.000053
+             Vertex   -00001.999984,-00099.692352,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=6
+             Origin   -01562.000000,+02192.615234,-00000.000053
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00001.000000,+00000.000000
+             Vertex   -00001.999984,-00155.076996,+00000.000000
+             Vertex   -00001.999984,-00099.692352,+00000.000000
+             Vertex   -00009.999920,-00099.692352,+00000.000000
+             Vertex   -00009.999920,-00155.076996,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999934,-00055.384766,-00432.000061
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.822192,+00000.569210
+             TextureV +00000.000000,+00000.569210,+00000.822192
+             Vertex   -00009.999920,-00155.076996,+00000.000000
+             Vertex   -00009.999920,-00199.384705,-00064.000053
+             Vertex   -00009.999920,-00177.230850,-00027.428593
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999934,-00055.384766,-00432.000061
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.855308,-00000.518119
+             TextureV +00000.000000,+00000.518119,+00000.855308
+             Vertex   -00001.999984,-00177.230850,-00027.428593
+             Vertex   -00001.999984,-00199.384705,-00064.000053
+             Vertex   -00001.999984,-00155.076996,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=9
+             Origin   -01562.000000,-00504.003448,-00432.000061
+             Normal   +00000.000000,-00000.777941,+00000.628337
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00000.628337,-00000.777941
+             Vertex   -00001.999984,-00177.230850,-00027.428593
+             Vertex   -00001.999984,-00155.076996,+00000.000000
+             Vertex   -00009.999920,-00155.076996,+00000.000000
+             Vertex   -00009.999920,-00177.230850,-00027.428593
+          End Polygon
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999934,-00055.384766,-00432.000061
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.187112,+00000.982339
+             TextureV +00000.000000,+00000.982339,+00000.187112
+             Vertex   -00009.999920,-00055.384640,-00036.571457
+             Vertex   -00009.999920,-00199.384705,-00064.000053
+             Vertex   -00009.999920,-00077.538498,-00027.428593
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999934,-00055.384766,-00432.000061
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.287475,-00000.957788
+             TextureV +00000.000000,+00000.957788,+00000.287475
+             Vertex   -00001.999984,-00077.538498,-00027.428593
+             Vertex   -00001.999984,-00199.384705,-00064.000053
+             Vertex   -00001.999984,-00055.384640,-00036.571457
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=12
+             Origin   -01562.000000,+00902.768860,-00432.000061
+             Normal   +00000.000000,+00000.381488,+00000.924374
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00000.924374,+00000.381488
+             Vertex   -00001.999984,-00077.538498,-00027.428593
+             Vertex   -00001.999984,-00055.384640,-00036.571457
+             Vertex   -00009.999920,-00055.384640,-00036.571457
+             Vertex   -00009.999920,-00077.538498,-00027.428593
+          End Polygon
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999934,-00055.384766,-00432.000061
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.777941,-00000.628337
+             TextureV +00000.000000,-00000.628337,+00000.777941
+             Vertex   -00009.999920,-00099.692352,+00000.000000
+             Vertex   -00009.999920,-00077.538498,-00027.428593
+             Vertex   -00009.999920,-00199.384705,-00064.000053
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999934,-00055.384766,-00432.000061
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.287475,+00000.957788
+             TextureV +00000.000000,-00000.957788,-00000.287475
+             Vertex   -00001.999984,-00199.384705,-00064.000053
+             Vertex   -00001.999984,-00077.538498,-00027.428593
+             Vertex   -00001.999984,-00099.692352,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=15
+             Origin   -01562.000000,+00249.228531,-00432.000061
+             Normal   +00000.000000,+00000.777941,+00000.628337
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00000.628337,+00000.777941
+             Vertex   -00001.999984,-00099.692352,+00000.000000
+             Vertex   -00001.999984,-00077.538498,-00027.428593
+             Vertex   -00009.999920,-00077.538498,-00027.428593
+             Vertex   -00009.999920,-00099.692352,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999934,-00055.384766,-00432.000061
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.381488,-00000.924374
+             TextureV +00000.000000,-00000.924374,-00000.381488
+             Vertex   -00009.999920,-00199.384705,-00036.571457
+             Vertex   -00009.999920,-00177.230850,-00027.428593
+             Vertex   -00009.999920,-00199.384705,-00064.000053
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999934,-00055.384766,-00432.000061
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.855308,+00000.518119
+             TextureV +00000.000000,-00000.518119,-00000.855308
+             Vertex   -00001.999984,-00199.384705,-00064.000053
+             Vertex   -00001.999984,-00177.230850,-00027.428593
+             Vertex   -00001.999984,-00199.384705,-00036.571457
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=18
+             Origin   -01562.000000,-01157.538940,-00432.000061
+             Normal   +00000.000000,-00000.381488,+00000.924374
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00000.924374,-00000.381488
+             Vertex   -00001.999984,-00199.384705,-00036.571457
+             Vertex   -00001.999984,-00177.230850,-00027.428593
+             Vertex   -00009.999920,-00177.230850,-00027.428593
+             Vertex   -00009.999920,-00199.384705,-00036.571457
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=19
+             Origin   -00001.999934,-00199.384766,-00432.000061
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00001.999984,-00199.384705,-00064.000053
+             Vertex   -00001.999984,-00199.384705,-00036.571457
+             Vertex   -00009.999920,-00199.384705,-00036.571457
+             Vertex   -00009.999920,-00199.384705,-00064.000053
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model395'
+    PrePivot=(X=-5.999935,Y=-199.384766,Z=-64.000053)
+    Name=Brush388
+End Actor
+Begin Actor Class=Brush Name=Brush389
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    PolyFlags=32
+    bDynamicLight=True
+    DistanceFromPlayer=1244.499268
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Location=(X=-72.000122,Y=88.000000,Z=32.000000)
+    Rotation=(Yaw=-16384)
+    OldLocation=(X=1840.000000,Y=-1848.000000,Z=96.000000)
+    bSelected=True
+    Begin Brush Name=Model396
+       Begin PolyList
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999920,-00055.384705,-00399.999969
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.000000,+00001.000000
+             TextureV +00000.000000,+00001.000000,+00000.000000
+             Vertex   -00009.999920,-00055.384640,-00031.999968
+             Vertex   -00009.999920,-00199.384705,-00031.999968
+             Vertex   -00009.999920,-00055.384640,-00018.285696
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999920,-00055.384705,-00399.999969
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.094809,-00000.995495
+             TextureV +00000.000000,+00000.995495,+00000.094809
+             Vertex   -00001.999984,-00055.384640,-00018.285696
+             Vertex   -00001.999984,-00199.384705,-00031.999968
+             Vertex   -00001.999984,-00055.384640,-00031.999968
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=2
+             Origin   -01401.999878,+02192.615234,-00031.999975
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00001.000000,+00000.000000
+             Vertex   -00001.999984,-00055.384640,-00031.999968
+             Vertex   -00001.999984,-00199.384705,-00031.999968
+             Vertex   -00009.999920,-00199.384705,-00031.999968
+             Vertex   -00009.999920,-00055.384640,-00031.999968
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=ClenMedmWalnt_A Link=3
+             Origin   -00001.999984,-00055.384640,-00018.285696
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,+00001.000000
+             Vertex   -00001.999984,-00055.384640,-00018.285696
+             Vertex   -00001.999984,-00055.384640,-00031.999968
+             Vertex   -00009.999920,-00055.384640,-00031.999968
+             Vertex   -00009.999920,-00055.384640,-00018.285696
+          End Polygon
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999920,-00055.384705,-00399.999969
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.305628,+00000.952151
+             TextureV +00000.000000,+00000.952151,+00000.305628
+             Vertex   -00009.999920,-00099.692352,+00000.000000
+             Vertex   -00009.999920,-00199.384705,-00031.999968
+             Vertex   -00009.999920,-00155.076996,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999920,-00055.384705,-00399.999969
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.585490,-00000.810680
+             TextureV +00000.000000,+00000.810680,+00000.585490
+             Vertex   -00001.999984,-00155.076996,+00000.000000
+             Vertex   -00001.999984,-00199.384705,-00031.999968
+             Vertex   -00001.999984,-00099.692352,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=6
+             Origin   -01401.999878,+02192.615234,+00000.000026
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00001.000000,+00000.000000
+             Vertex   -00001.999984,-00155.076996,+00000.000000
+             Vertex   -00001.999984,-00099.692352,+00000.000000
+             Vertex   -00009.999920,-00099.692352,+00000.000000
+             Vertex   -00009.999920,-00155.076996,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999920,-00055.384705,-00399.999969
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.585490,+00000.810680
+             TextureV +00000.000000,+00000.810680,+00000.585490
+             Vertex   -00009.999920,-00155.076996,+00000.000000
+             Vertex   -00009.999920,-00199.384705,-00031.999968
+             Vertex   -00009.999920,-00177.230850,-00013.714272
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999920,-00055.384705,-00399.999969
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.636564,-00000.771223
+             TextureV +00000.000000,+00000.771223,+00000.636564
+             Vertex   -00001.999984,-00177.230850,-00013.714272
+             Vertex   -00001.999984,-00199.384705,-00031.999968
+             Vertex   -00001.999984,-00155.076996,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=9
+             Origin   -01401.999878,-00801.228699,-00399.999969
+             Normal   +00000.000000,-00000.526354,+00000.850266
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00000.850265,-00000.526354
+             Vertex   -00001.999984,-00177.230850,-00013.714272
+             Vertex   -00001.999984,-00155.076996,+00000.000000
+             Vertex   -00009.999920,-00155.076996,+00000.000000
+             Vertex   -00009.999920,-00177.230850,-00013.714272
+          End Polygon
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999920,-00055.384705,-00399.999969
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.094809,+00000.995495
+             TextureV +00000.000000,+00000.995495,+00000.094809
+             Vertex   -00009.999920,-00055.384640,-00018.285696
+             Vertex   -00009.999920,-00199.384705,-00031.999968
+             Vertex   -00009.999920,-00077.538498,-00013.714272
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999920,-00055.384705,-00399.999969
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.148410,-00000.988926
+             TextureV +00000.000000,+00000.988926,+00000.148410
+             Vertex   -00001.999984,-00077.538498,-00013.714272
+             Vertex   -00001.999984,-00199.384705,-00031.999968
+             Vertex   -00001.999984,-00055.384640,-00018.285696
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=12
+             Origin   -01401.999878,+02192.615234,-00482.158051
+             Normal   +00000.000000,+00000.202091,+00000.979367
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00000.979367,+00000.202091
+             Vertex   -00001.999984,-00077.538498,-00013.714272
+             Vertex   -00001.999984,-00055.384640,-00018.285696
+             Vertex   -00009.999920,-00055.384640,-00018.285696
+             Vertex   -00009.999920,-00077.538498,-00013.714272
+          End Polygon
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999920,-00055.384705,-00399.999969
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.526354,-00000.850265
+             TextureV +00000.000000,-00000.850265,+00000.526354
+             Vertex   -00009.999920,-00099.692352,+00000.000000
+             Vertex   -00009.999920,-00077.538498,-00013.714272
+             Vertex   -00009.999920,-00199.384705,-00031.999968
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999920,-00055.384705,-00399.999969
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.148410,+00000.988926
+             TextureV +00000.000000,-00000.988926,-00000.148410
+             Vertex   -00001.999984,-00199.384705,-00031.999968
+             Vertex   -00001.999984,-00077.538498,-00013.714272
+             Vertex   -00001.999984,-00099.692352,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=15
+             Origin   -01401.999878,+00546.464355,-00399.999969
+             Normal   +00000.000000,+00000.526354,+00000.850266
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00000.850265,+00000.526354
+             Vertex   -00001.999984,-00099.692352,+00000.000000
+             Vertex   -00001.999984,-00077.538498,-00013.714272
+             Vertex   -00009.999920,-00077.538498,-00013.714272
+             Vertex   -00009.999920,-00099.692352,+00000.000000
+          End Polygon
+          Begin Polygon Item=2DLoftEND Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -00009.999920,-00055.384705,-00399.999969
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00000.202091,-00000.979367
+             TextureV +00000.000000,-00000.979367,-00000.202091
+             Vertex   -00009.999920,-00199.384705,-00018.285696
+             Vertex   -00009.999920,-00177.230850,-00013.714272
+             Vertex   -00009.999920,-00199.384705,-00031.999968
+          End Polygon
+          Begin Polygon Item=2DLoftTOP Texture=un_woodfloor_a Flags=8388640 Link=1
+             Origin   -00001.999920,-00055.384705,-00399.999969
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00000.636564,+00000.771223
+             TextureV +00000.000000,-00000.771223,-00000.636564
+             Vertex   -00001.999984,-00199.384705,-00031.999968
+             Vertex   -00001.999984,-00177.230850,-00013.714272
+             Vertex   -00001.999984,-00199.384705,-00018.285696
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=un_woodfloor_a Flags=8388640 Link=18
+             Origin   -01401.999878,+02192.615234,+00475.300903
+             Normal   +00000.000000,-00000.202091,+00000.979367
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00000.979367,-00000.202091
+             Vertex   -00001.999984,-00199.384705,-00018.285696
+             Vertex   -00001.999984,-00177.230850,-00013.714272
+             Vertex   -00009.999920,-00177.230850,-00013.714272
+             Vertex   -00009.999920,-00199.384705,-00018.285696
+          End Polygon
+          Begin Polygon Item=2DLoftSIDE Texture=ClenMedmWalnt_A Link=19
+             Origin   -00001.999984,-00199.384705,-00031.999968
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00001.999984,-00199.384705,-00031.999968
+             Vertex   -00001.999984,-00199.384705,-00018.285696
+             Vertex   -00009.999920,-00199.384705,-00018.285696
+             Vertex   -00009.999920,-00199.384705,-00031.999968
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model396'
+    PrePivot=(X=-9.999920,Y=-199.384705,Z=-31.999975)
+    Name=Brush389
+End Actor
+Begin Actor Class=Brush Name=Brush390
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    PolyFlags=32
+    bDynamicLight=True
+    DistanceFromPlayer=1161.888672
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Location=(X=79.999878,Y=88.000000,Z=32.000000)
+    Rotation=(Yaw=-16384)
+    OldLocation=(X=1840.000000,Y=-1696.000000,Z=96.000000)
+    bSelected=True
+    Begin Brush Name=Model397
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -01476.000000,+02320.000000,+00016.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00080.000000,-00072.000000,+00016.000000
+             Vertex   +00080.000000,-00072.000000,+00016.000000
+             Vertex   +00080.000000,+00072.000000,+00016.000000
+             Vertex   -00080.000000,+00072.000000,+00016.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=ClenMedmWalnt_A Link=1
+             Origin   -00080.000000,+00072.000000,-00016.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00080.000000,+00072.000000,-00016.000000
+             Vertex   +00080.000000,+00072.000000,-00016.000000
+             Vertex   +00080.000000,-00072.000000,-00016.000000
+             Vertex   -00080.000000,-00072.000000,-00016.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=2
+             Origin   -00080.000000,+00072.000000,-00352.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00080.000000,+00072.000000,-00016.000000
+             Vertex   -00080.000000,+00072.000000,+00016.000000
+             Vertex   +00080.000000,+00072.000000,+00016.000000
+             Vertex   +00080.000000,+00072.000000,-00016.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=3
+             Origin   +00080.000000,-00072.000000,-00352.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00080.000000,-00072.000000,-00016.000000
+             Vertex   +00080.000000,-00072.000000,+00016.000000
+             Vertex   -00080.000000,-00072.000000,+00016.000000
+             Vertex   -00080.000000,-00072.000000,-00016.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=4
+             Origin   +00080.000000,+00072.000000,-00352.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00080.000000,+00072.000000,-00016.000000
+             Vertex   +00080.000000,+00072.000000,+00016.000000
+             Vertex   +00080.000000,-00072.000000,+00016.000000
+             Vertex   +00080.000000,-00072.000000,-00016.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=5
+             Origin   -00080.000000,-00072.000000,-00352.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00080.000000,-00072.000000,-00016.000000
+             Vertex   -00080.000000,-00072.000000,+00016.000000
+             Vertex   -00080.000000,+00072.000000,+00016.000000
+             Vertex   -00080.000000,+00072.000000,-00016.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model397'
+    PrePivot=(X=-84.000000,Y=80.000000,Z=16.000000)
+    Name=Brush390
+End Actor
+Begin Actor Class=Brush Name=Brush391
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    TempScale=(Scale=(Z=1.363844))
+    PolyFlags=32
+    bDynamicLight=True
+    DistanceFromPlayer=1309.522217
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Location=(X=72.000305,Y=-72.000000)
+    Rotation=(Yaw=-16384)
+    OldLocation=(X=2000.000000,Y=-1704.000000,Z=64.000000)
+    bSelected=True
+    Begin Brush Name=Model398
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -01556.000000,+02244.000000,+00033.000008
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00004.000000,-00004.000000,+00032.999992
+             Vertex   +00004.000000,-00004.000000,+00032.999992
+             Vertex   +00004.000000,+00004.000000,+00032.999992
+             Vertex   -00004.000000,+00004.000000,+00032.999992
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=ClenMedmWalnt_A Link=1
+             Origin   -00004.000000,+00004.000000,-00032.999992
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00004.000000,+00004.000000,-00032.999992
+             Vertex   +00004.000000,+00004.000000,-00032.999992
+             Vertex   +00004.000000,-00004.000000,-00032.999992
+             Vertex   -00004.000000,-00004.000000,-00032.999992
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=2
+             Origin   -00004.000000,+00004.000000,-00369.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00004.000000,+00004.000000,-00032.999992
+             Vertex   -00004.000000,+00004.000000,+00032.999992
+             Vertex   +00004.000000,+00004.000000,+00032.999992
+             Vertex   +00004.000000,+00004.000000,-00032.999992
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=3
+             Origin   +00004.000000,-00004.000000,-00369.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00004.000000,-00004.000000,-00032.999992
+             Vertex   +00004.000000,-00004.000000,+00032.999992
+             Vertex   -00004.000000,-00004.000000,+00032.999992
+             Vertex   -00004.000000,-00004.000000,-00032.999992
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=4
+             Origin   +00004.000000,+00004.000000,-00369.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00004.000000,+00004.000000,-00032.999992
+             Vertex   +00004.000000,+00004.000000,+00032.999992
+             Vertex   +00004.000000,-00004.000000,+00032.999992
+             Vertex   +00004.000000,-00004.000000,-00032.999992
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=5
+             Origin   -00004.000000,-00004.000000,-00369.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00004.000000,-00004.000000,-00032.999992
+             Vertex   -00004.000000,-00004.000000,+00032.999992
+             Vertex   -00004.000000,+00004.000000,+00032.999992
+             Vertex   -00004.000000,+00004.000000,-00032.999992
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model398'
+    PrePivot=(X=-4.000000,Y=-4.000000,Z=-32.999992)
+    Name=Brush391
+End Actor
+Begin Actor Class=Brush Name=Brush392
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    TempScale=(Scale=(Z=1.363844))
+    PolyFlags=32
+    bDynamicLight=True
+    DistanceFromPlayer=1379.975342
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Location=(X=-72.000488,Y=-72.000000)
+    Rotation=(Yaw=-16384)
+    OldLocation=(X=2000.000000,Y=-1848.000000,Z=64.000000)
+    bSelected=True
+    Begin Brush Name=Model399
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=0
+             Origin   -01556.000000,+02396.000000,+00033.000008
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00004.000000,-00004.000000,+00032.999992
+             Vertex   +00004.000000,-00004.000000,+00032.999992
+             Vertex   +00004.000000,+00004.000000,+00032.999992
+             Vertex   -00004.000000,+00004.000000,+00032.999992
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=ClenMedmWalnt_A Link=1
+             Origin   -00004.000000,+00004.000000,-00032.999992
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00004.000000,+00004.000000,-00032.999992
+             Vertex   +00004.000000,+00004.000000,-00032.999992
+             Vertex   +00004.000000,-00004.000000,-00032.999992
+             Vertex   -00004.000000,-00004.000000,-00032.999992
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=2
+             Origin   -00004.000000,+00004.000000,-00369.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00004.000000,+00004.000000,-00032.999992
+             Vertex   -00004.000000,+00004.000000,+00032.999992
+             Vertex   +00004.000000,+00004.000000,+00032.999992
+             Vertex   +00004.000000,+00004.000000,-00032.999992
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=3
+             Origin   +00004.000000,-00004.000000,-00369.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00004.000000,-00004.000000,-00032.999992
+             Vertex   +00004.000000,-00004.000000,+00032.999992
+             Vertex   -00004.000000,-00004.000000,+00032.999992
+             Vertex   -00004.000000,-00004.000000,-00032.999992
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=4
+             Origin   +00004.000000,+00004.000000,-00369.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00004.000000,+00004.000000,-00032.999992
+             Vertex   +00004.000000,+00004.000000,+00032.999992
+             Vertex   +00004.000000,-00004.000000,+00032.999992
+             Vertex   +00004.000000,-00004.000000,-00032.999992
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Flags=8388640 Link=5
+             Origin   -00004.000000,-00004.000000,-00369.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00004.000000,-00004.000000,-00032.999992
+             Vertex   -00004.000000,-00004.000000,+00032.999992
+             Vertex   -00004.000000,+00004.000000,+00032.999992
+             Vertex   -00004.000000,+00004.000000,-00032.999992
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model399'
+    PrePivot=(X=-4.000000,Y=4.000000,Z=-32.999992)
+    Name=Brush392
+End Actor
+Begin Actor Class=Brush Name=Brush344
+    CsgOper=CSG_Subtract
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    bDynamicLight=True
+    DistanceFromPlayer=1274.123291
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Location=(Y=4.000000,Z=28.000000)
+    Rotation=(Yaw=-16384)
+    bSelected=True
+    Begin Brush Name=Model354
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Link=0
+             Origin   -00072.000000,-00068.000000,+00008.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00072.000000,-00068.000000,+00008.000000
+             Vertex   +00072.000000,-00068.000000,+00008.000000
+             Vertex   +00072.000000,+00068.000000,+00008.000000
+             Vertex   -00072.000000,+00068.000000,+00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Link=1
+             Origin   -00072.000000,+00068.000000,-00008.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00072.000000,+00068.000000,-00008.000000
+             Vertex   +00072.000000,+00068.000000,-00008.000000
+             Vertex   +00072.000000,-00068.000000,-00008.000000
+             Vertex   -00072.000000,-00068.000000,-00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Link=2
+             Origin   -00072.000000,+00068.000000,-00008.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00072.000000,+00068.000000,-00008.000000
+             Vertex   -00072.000000,+00068.000000,+00008.000000
+             Vertex   +00072.000000,+00068.000000,+00008.000000
+             Vertex   +00072.000000,+00068.000000,-00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Link=3
+             Origin   +00072.000000,-00068.000000,-00008.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00072.000000,-00068.000000,-00008.000000
+             Vertex   +00072.000000,-00068.000000,+00008.000000
+             Vertex   -00072.000000,-00068.000000,+00008.000000
+             Vertex   -00072.000000,-00068.000000,-00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Link=4
+             Origin   +00072.000000,+00068.000000,-00008.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00072.000000,+00068.000000,-00008.000000
+             Vertex   +00072.000000,+00068.000000,+00008.000000
+             Vertex   +00072.000000,-00068.000000,+00008.000000
+             Vertex   +00072.000000,-00068.000000,-00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=un_woodfloor_a Link=5
+             Origin   -00072.000000,-00068.000000,-00008.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00072.000000,-00068.000000,-00008.000000
+             Vertex   -00072.000000,-00068.000000,+00008.000000
+             Vertex   -00072.000000,+00068.000000,+00008.000000
+             Vertex   -00072.000000,+00068.000000,-00008.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model354'
+    Name=Brush344
+End Actor
+Begin Actor Class=Brush Name=Brush345
+    CsgOper=CSG_Add
+    MainScale=(SheerAxis=SHEER_ZX)
+    PostScale=(SheerAxis=SHEER_ZX)
+    bDynamicLight=True
+    DistanceFromPlayer=1274.123291
+    Level=LevelInfo'MyLevel.LevelInfo0'
+    Tag=Brush
+    Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Location=(Y=4.000000,Z=28.000000)
+    Rotation=(Yaw=-16384)
+    bSelected=True
+    Begin Brush Name=Model355
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=cot01 Link=0
+             Origin   -00072.000000,-00068.000000,+00008.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             Pan      U=-8 V=-111
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00072.000000,-00068.000000,+00008.000000
+             Vertex   +00072.000000,-00068.000000,+00008.000000
+             Vertex   +00072.000000,+00068.000000,+00008.000000
+             Vertex   -00072.000000,+00068.000000,+00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=cot01 Link=1
+             Origin   -00072.000000,+00068.000000,-00008.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00072.000000,+00068.000000,-00008.000000
+             Vertex   +00072.000000,+00068.000000,-00008.000000
+             Vertex   +00072.000000,-00068.000000,-00008.000000
+             Vertex   -00072.000000,-00068.000000,-00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=cot01 Link=2
+             Origin   -00072.000000,+00068.000000,-00008.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             Pan      U=1 V=-111
+             TextureU +00000.000000,+00000.000000,-00001.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00072.000000,+00068.000000,-00008.000000
+             Vertex   -00072.000000,+00068.000000,+00008.000000
+             Vertex   +00072.000000,+00068.000000,+00008.000000
+             Vertex   +00072.000000,+00068.000000,-00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=cot01 Link=3
+             Origin   +00072.000000,-00068.000000,-00008.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             Pan      U=-17 V=-255
+             TextureU +00000.000000,+00000.000000,+00001.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   +00072.000000,-00068.000000,-00008.000000
+             Vertex   +00072.000000,-00068.000000,+00008.000000
+             Vertex   -00072.000000,-00068.000000,+00008.000000
+             Vertex   -00072.000000,-00068.000000,-00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=cot01 Link=4
+             Origin   +00072.000000,+00068.000000,-00008.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             Pan      U=1 V=-111
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00072.000000,+00068.000000,-00008.000000
+             Vertex   +00072.000000,+00068.000000,+00008.000000
+             Vertex   +00072.000000,-00068.000000,+00008.000000
+             Vertex   +00072.000000,-00068.000000,-00008.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=cot01 Link=5
+             Origin   -00072.000000,-00068.000000,-00008.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             Pan      U=1 V=-111
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00072.000000,-00068.000000,-00008.000000
+             Vertex   -00072.000000,-00068.000000,+00008.000000
+             Vertex   -00072.000000,+00068.000000,+00008.000000
+             Vertex   -00072.000000,+00068.000000,-00008.000000
+          End Polygon
+       End PolyList
+    End Brush
+    Brush=Model'MyLevel.Model355'
+    Name=Brush345
+End Actor
+End Map

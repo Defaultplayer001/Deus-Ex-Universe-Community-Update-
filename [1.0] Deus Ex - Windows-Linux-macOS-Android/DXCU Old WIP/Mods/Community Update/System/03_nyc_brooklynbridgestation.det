@@ -1,0 +1,79 @@
+[ThugMale12]
+FamiliarName="Bandenmitglied"
+UnfamiliarName="Bandenmitglied"
+
+[ChildMale0]
+FamiliarName="Kind"
+UnfamiliarName="Kind"
+
+[SkillAwardTrigger7]
+awardMessage="Fortschrittsbonus"
+
+[ThugMale1]
+FamiliarName="Bandenmitglied"
+UnfamiliarName="Bandenmitglied"
+
+[JunkieMale0]
+FamiliarName="Don"
+
+[ThugMale6]
+FamiliarName="Bandenmitglied"
+UnfamiliarName="Bandenmitglied"
+
+[ThugMale8]
+FamiliarName="Bandenmitglied"
+UnfamiliarName="Bandenmitglied"
+
+[ThugMale13]
+FamiliarName="Drogendealer"
+UnfamiliarName="Drogendealer"
+
+[JunkieFemale1]
+FamiliarName="Bandenmitglied"
+UnfamiliarName="Bandenmitglied"
+
+[BumMale3]
+FamiliarName="Obdachloser"
+UnfamiliarName="Obdachloser"
+
+[ThugMale9]
+FamiliarName="Bandenmitglied"
+UnfamiliarName="Bandenmitglied"
+
+[ThugMale3]
+FamiliarName="El Rey"
+UnfamiliarName="Rook"
+
+[Hooker1]
+FamiliarName="Bandenmitglied"
+UnfamiliarName="Bandenmitglied"
+
+[JunkieFemale3]
+FamiliarName="Bandenmitglied"
+UnfamiliarName="Bandenmitglied"
+
+[JunkieFemale4]
+FamiliarName="Bandenmitglied"
+UnfamiliarName="Bandenmitglied"
+
+[ThugMale11]
+FamiliarName="Bandenmitglied"
+UnfamiliarName="Bandenmitglied"
+
+[JunkieMale1]
+FamiliarName="Lenny"
+
+[BumMale2]
+FamiliarName="Charlie Fann"
+UnfamiliarName="Angehöriger des Gossenvolks"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[SkillAwardTrigger0]
+awardMessage="Durchführungsbonus"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - Brooklyn Bridge"
+startupMessage[0]="New York City, "
+startupMessage[1]="Brooklyn Bridge Station"

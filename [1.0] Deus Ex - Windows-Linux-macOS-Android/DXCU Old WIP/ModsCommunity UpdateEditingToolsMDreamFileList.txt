@@ -1,0 +1,7 @@
+File=(Src="Mods\Community Update\Editing\Tools\MDream\mdream.exe",Size
+File=(Src="Mods\Community Update\Editing\Tools\MDream\Unzdll.dll",Size
+File=(Src="Mods\Community Update\Editing\Tools\MDream\UTignore.txt",Size
+File=(Src="Mods\Community Update\Editing\Tools\MDream\UTmapinfo.cfg",Size
+File=(Src="Mods\Community Update\Editing\Tools\MDream\VBZip_Control.ocx",Size
+File=(Src="Mods\Community Update\Editing\Tools\MDream\Zipdll.dll",Size
+File=(Src="Mods\Community Update\Editing\Tools\MDream\Zipit.dll",Size

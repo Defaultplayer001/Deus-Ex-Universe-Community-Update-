@@ -1,0 +1,19 @@
+File=(Src="Mods\Community Update\Community Update DeusEx.int.exe",Size
+File=(Src="Mods\Community Update\Confix Enable (Russian).exe",Size
+File=(Src="Mods\Community Update\Confix Enable (Turkish).exe",Size
+File=(Src="Mods\Community Update\Confix Enable.exe",Size
+File=(Src="Mods\Community Update\Custom Logo.exe",Size
+File=(Src="Mods\Community Update\Delete ALL Optional Files.exe",Size
+File=(Src="Mods\Community Update\Demo.exe",Size
+File=(Src="Mods\Community Update\Lay D Denton Default inis (Vanilla theme).exe",Size
+File=(Src="Mods\Community Update\Lay D Denton Default inis.exe",Size
+File=(Src="Mods\Community Update\LayDDentonDefaultinisFiles.exe",Size
+File=(Src="Mods\Community Update\MarkC_MouseFix.zip",Size
+File=(Src="Mods\Community Update\Reset Default EXE, INI and INT files (Will not reset installed optional files!).exe",Size
+File=(Src="Mods\Community Update\SystemFilesJPT.exe",Size
+File=(Src="Mods\Community Update\SystemFilesPLT.exe",Size
+File=(Src="Mods\Community Update\Transcended Default User.ini (Theme + FOV).exe",Size
+File=(Src="Mods\Community Update\Transcended DeusEx.int.exe",Size
+File=(Src="Mods\Community Update\Transcended.exe",Size
+File=(Src="Mods\Community Update\uglide.zip",Size
+File=(Src="Mods\Community Update\Use Kentie's.exe",Size

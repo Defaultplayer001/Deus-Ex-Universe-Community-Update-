@@ -1,0 +1,102 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=FrontGuard,KeyID=MainGate,Description="Chiave dell'ingresso principale")"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Griglia principale fogne",cameraTag=A_Sector3,doorTag=DrainGrate)"
+Views[1]="(titleString="Sistema di difesa A",cameraTag=B_Sector3,turretTag=AutoTurret1)"
+Views[2]="(titleString="Sistema di difesa B",cameraTag=C_Sector3,turretTag=AutoTurret2)"
+specialOptions[0]="(Text="Robot perimetrali: standby",TriggerText="Robot perimetrali in standby",TriggerEvent=SBTrigger)"
+specialOptions[1]="(Text="Robot perimetrali: difesa standard",TriggerText="Robot in modalità difensiva standard",TriggerEvent=SDTrigger)"
+specialOptions[2]="(Text="Robot perimetrali: attacco non-bot",TriggerText="Pericolo! **Robot in modalità d'attacco**",TriggerEvent=AATrigger)"
+specialOptions[3]="(Text="Robot perimetrali: attacco generale",TriggerText="PERICOLO! Limitatori di sicurezza disattivati",TriggerEvent=SCTrigger)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Perimetro posteriore, porta",cameraTag=A_Sector2,doorTag=BackGate)"
+Views[1]="(titleString="Deposito munizioni",cameraTag=B_Sector2,doorTag=AmmoStorageDoor)"
+Views[2]="(titleString="Ufficio del comandante",cameraTag=C_Sector2,doorTag=ArmoryDoor)"
+
+[ComputerSecurity4]
+Views[0]="(titleString="Dep. munizioni, bunker",cameraTag=A_Sector4)"
+Views[1]="(titleString="Deposito HazMat",cameraTag=B_Sector3)"
+Views[2]="(titleString="Area d'attracco",cameraTag=C_Sector3)"
+specialOptions[0]="(Text="Robot: standby",TriggerText="Robot deposito in standby",TriggerEvent=SB2Trigger)"
+specialOptions[1]="(Text="Robot: difesa standard",TriggerText="Robot in modalità difensiva standard",TriggerEvent=SD2Trigger)"
+specialOptions[2]="(Text="Robot: attacco non-bot",TriggerText="Pericolo! **Robot in modalità d'attacco**",TriggerEvent=AA2Trigger)"
+specialOptions[3]="(Text="Robot: attacco generale",TriggerText="PERICOLO! Limitatori di sicurezza disattivati",TriggerEvent=SC2Trigger)"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Ufficio magazzino",cameraTag=A_Sector1,doorTag=SecurityDoor)"
+Views[1]="(titleString="Magazzino, E",cameraTag=B_Sector1)"
+Views[2]="(titleString="Magazzino, SO",cameraTag=C_Sector1)"
+
+[DeusExLevelInfo0]
+MissionLocation="NY - Cantiere navale di Brooklyn"
+startupMessage[0]="New York City, cantiere navale di Brooklyn"
+startupMessage[1]="Divisione guerra sottomarina"
+
+[NanoKey4]
+Description="Apre i rimorchi di camion nel parcheggio"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus individuazione critica"
+
+[NanoKey2]
+Description="Chiave dell'ufficio del comandante"
+
+[NanoKey1]
+Description="Chiave del deposito rifornimenti"
+
+[SkillAwardTrigger3]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger6]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger7]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger2]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger9]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger5]
+awardMessage="Bonus di individuazione"
+
+[NanoKey3]
+Description="Chiave del deposito armi"
+
+[Mechanic1]
+FamiliarName="Lavoratore portuale"
+UnfamiliarName="Lavoratore portuale"
+
+[Mechanic0]
+FamiliarName="Lavoratore portuale"
+UnfamiliarName="Lavoratore portuale"
+
+[SkillAwardTrigger11]
+awardMessage="Bonus di individuazione"
+
+[SkillAwardTrigger10]
+awardMessage="Bonus di successo"
+
+[SkillAwardTrigger8]
+awardMessage="Bonus di successo"
+
+[Mechanic2]
+FamiliarName="Altro lavoratore portuale"
+UnfamiliarName="Altro lavoratore portuale"
+
+[SkillAwardTrigger4]
+awardMessage="Bonus di successo"
+
+[NanoKey0]
+Description="Chiave del magazzino delle armi"
+
+[LevelSummary]
+Title="Senza titolo"
+

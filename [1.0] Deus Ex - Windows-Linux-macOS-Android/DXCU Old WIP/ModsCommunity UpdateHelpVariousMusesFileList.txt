@@ -1,0 +1,109 @@
+File=(Src="Mods\Community Update\Help\Various\Muses\4thwall.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\716px-Flammarion_Colored.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\A choice.mkv",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\ADA.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Awake.mkv",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\batman.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\BaXmas.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Baz Luhrmann - Everybody's Free To Wear Sunscreen.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\BeautifulCinnamonRollTooGoodForThisWorld,TooPure.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Believe.webp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\birdman.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Bob.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Bob2.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\bro.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Buddy - No Picture.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\butimhavinfunwithit.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\butitruns.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Calcifer Albert Hartman.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\catposter.mp4",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\chakras.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\changes.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\chapter34.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Cleo - Cleopatra Winny Rose Hartman.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\community.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Deus Ex - 15th Anniversary Animated Trailer.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\digital_data.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\dontforgetyourhereforever.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Dreams.avi.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Fairness.mkv",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\fallingup.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\firsttry.mp4",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Flammarion.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\fortressofsolitude.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\free.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\getahobby.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Glorious Purpose.mp4",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Gracy.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\happy.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\hate.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\HEADPHONE WARNING - mymuse.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\history.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\How I got into Deus Ex.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\howtoinstallallmodstogether.mkv",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\howtosolveanyproblem.mkv",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\idwannadothesame.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\imagination.gif",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Iseethisasanabsolutewin.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\isthisa.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\isthisa.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\It Gets Easier.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\it.mp4",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\itjustcametome.gif",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Iwanttobelieve.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Jackie - No Picture.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\jfcpastme.gif",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\JiJi with Cal, Cleo & Mads.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\king of the hill is my favorite anime.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\LAIN.mkv",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\legacy.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\lose.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\love.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\lovetrain.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Maddy - Madeline Daisy Hartman.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\make.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\me.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Megamind Wins.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Melancholy.wmv.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\mistakes.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Mr. Tibs AKA Tibby.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\museum.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\mybaby.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\mysuffering.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Natethesnake.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\neko.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\number001fangirl.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\old.mp4",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Optimizethenon3gpvids.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\pants.mp4",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\PRESENT DAY-PRESENT TIME.mkv",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Put your own stuff here!.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\ReadMe.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\right.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\s.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\scriptmanipulation.mp4",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\solutiontoallproblemsinlife.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\spoilervideo.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\stuff.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\surprise.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\talkingtohan.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\tarboy.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\tarboy.swf",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\thatbelongsinamuseumoptimizedforTTN.gif",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\The Toolbox Fallacy.mkv",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\This page [is] intentionally left blank.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Toby - No Picture.txt",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\todo.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\trash.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\treasure.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\ungarbage.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\users.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Virgina (right) with Vicky and kitten.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\want.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\what do we do now.3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Whatever happens, happens..3gp",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\whyikeepliving.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\Win.mkv",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\writing.jpg",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\writingpart2.png",Size
+File=(Src="Mods\Community Update\Help\Various\Muses\You're Gonna Carry That Weight.mkv",Size

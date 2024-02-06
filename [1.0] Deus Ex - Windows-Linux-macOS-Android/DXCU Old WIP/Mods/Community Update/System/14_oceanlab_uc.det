@@ -1,0 +1,20 @@
+[SpecialEvent0]
+Message="Keine neuen Nachrichten"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Zugang Brücke",cameraTag=bridgecam)"
+specialOptions[0]="(Text="Brücke aktivieren",TriggerText="Brücke wird ausgefahren",TriggerEvent=Activate)"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[SkillAwardTrigger0]
+awardMessage="Durchführungsbonus"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Auf UK-Pläne zugreifen",TriggerText="Pläne übertragen",TriggerEvent=schematic,bTriggerOnceOnly=True)"
+specialOptions[1]="(bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Neue Westküste - Ozean Labor UK"
+

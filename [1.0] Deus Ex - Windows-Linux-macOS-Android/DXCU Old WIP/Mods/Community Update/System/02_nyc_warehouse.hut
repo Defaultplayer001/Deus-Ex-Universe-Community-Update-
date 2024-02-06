@@ -1,0 +1,78 @@
+[SkillAwardTrigger16]
+awardMessage="Helymegtalálási jutalom"
+
+[NanoKey0]
+Description="Raktárház alagsori raktárának kulcskódja"
+
+[SkillAwardTrigger13]
+awardMessage="Helymegtalálási jutalom"
+
+[SpecialEvent0]
+Message="Maghûtés kikapcsolva. Generátor robbanásveszély!"
+
+[SkillAwardTrigger17]
+awardMessage="Teljesítési jutalom"
+
+[DeusExLevelInfo0]
+MissionLocation="New York City - Raktárház-kerület"
+
+[InterpolateTrigger0]
+Message="Helikopter aktiválva"
+
+[ComputerPersonal5]
+specialOptions[0]="(Text="Gene|&rátor hûtõrendszerének leállítása",TriggerText="Hûtõrendszer kikapcsolva. Robbanásveszély!",TriggerEvent=BlowEvents,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger22]
+awardMessage="Teljesítési jutalom"
+
+[SkillAwardTrigger23]
+awardMessage="Teljesítési jutalom"
+
+[SkillAwardTrigger20]
+awardMessage="Felderítési jutalom"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger14]
+awardMessage="Helymegtalálási jutalom"
+
+[SkillAwardTrigger4]
+awardMessage="Helymegtalálási jutalom"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Csatornabejárat",CameraTag=BaseCam1,Turrettag=SubTurret)"
+Views[1]="(titleString="Alagsori mellékfolyosó",CameraTag=BaseCam2)"
+Views[2]="(titleString="Alagsori fõfolyosó",CameraTag=BaseCam3)"
+
+[GoalCompleteTrigger0]
+Message="A generátor felrobbant. Küldetés teljesítve."
+
+[ComputerSecurity1]
+Views[0]="(titleString="Raktárházi vízgyûjtõ",CameraTag=WareCamera1,Turrettag=WareTurret1)"
+Views[1]="(titleString="Raktárházi bejárat",CameraTag=WareCamera2,Turrettag=WareTurret2)"
+Views[2]="(titleString="Raktárházi csatorna",CameraTag=BaseCam1,Turrettag=SubTurret,doorTag=DrainEntry)"
+
+[SkillAwardTrigger15]
+awardMessage="Teljesítési jutalom"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=DoorGuard,KeyID=WarehouseFrontDoor,Description="A kulcs a raktárház fõbejáratához")"
+NanoKeyData[1]="(ScriptedPawnTag=JoJoFine,KeyID=Mirror,Description="A titkos tükörajtó kulcsa")"
+
+[BlackHelicopter1]
+FamiliarName="Helikopter"
+UnfamiliarName="Fekete helikopter"
+
+[SkillAwardTrigger10]
+awardMessage="Helymegtalálási jutalom"
+
+[SkillAwardTrigger18]
+awardMessage="Teljesítési jutalom"
+
+[SkillAwardTrigger19]
+awardMessage="Fontos hely-megtalálási jutalom"
+
+[SkillAwardTrigger21]
+awardMessage="Helymegtalálási jutalom"
+

@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=MeTaLDrv.MeTaLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Metal.dll)
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="S3 MeTaL support",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+
+[MeTaLRenderDevice]
+ClassCaption="S3 MeTaL Windowshoz"
+AskInstalled=Van Savage 3D-kártyája telepítve?
+AskUse==Biztosan a Savage 3D-képmegjelenítést szeretné használni?

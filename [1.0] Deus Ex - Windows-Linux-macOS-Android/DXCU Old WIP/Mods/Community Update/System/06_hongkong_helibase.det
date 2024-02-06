@@ -1,0 +1,50 @@
+[NanoKey2]
+PickupMessage="Schlüssel für Waffenkammer"
+ItemName="Öffnet Waffenkammer"
+Description="Tür zur Waffenkammer"
+
+[NanoKey3]
+PickupMessage="Schlüssel für Waffenkammer"
+ItemName="Öffnet Waffenkammer"
+Description="Tür zur Waffenkammer"
+
+[SkillAwardTrigger3]
+awardMessage="Durchführungsbonus"
+
+[SkillAwardTrigger2]
+awardMessage="Durchführungsbonus"
+
+[DeusExLevelInfo0]
+MissionLocation="Hong Kong - MJ12 Helikopterbasis"
+startupMessage[0]="Hong Kong, Volksrepublik China"
+startupMessage[1]="Geheime MJ12 Helikopterbasis"
+startupMessage[2]="Hoch über dem VersaLife Gebäude"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Lift",cameraTag=camera_elevator,turretTag=eleturret)"
+Views[1]="(titleString="Kaserne",cameraTag=camera_barracks)"
+Views[2]="(titleString="Dach",cameraTag=camera_roof,turretTag=Roof_Defense)"
+
+[SkillAwardTrigger1]
+awardMessage="Fähigkeitsbonus"
+Message="Guter Schuss!"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Lift",cameraTag=camera_elevator,turretTag=eleturret)"
+Views[1]="(titleString="Kaserne",cameraTag=camera_barracks)"
+Views[2]="(titleString="Dach",cameraTag=camera_roof,turretTag=Roof_Defense,doorTag=hangar_door)"
+
+[SkillAwardTrigger0]
+awardMessage="Einsatzziel-Bonus"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"
+
+[NanoKey1]
+PickupMessage="Sie haben den Hauptschlüssel für die Spinde in der Kaserne gefunden."
+Description="Hauptschlüssel für Spinde in Kaserne"
+
+[NanoKey0]
+PickupMessage="Schlüssel für Flugdecks"
+ItemName="Code für Flugsicherung"
+Description="Code für Flugsicherung"

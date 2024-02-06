@@ -1,0 +1,2 @@
+File=(Src="Mods\Community Update\Editing\Documentation\DeusExSDK.doc",Size
+File=(Src="Mods\Community Update\Editing\Documentation\whatsnew.txt",Size

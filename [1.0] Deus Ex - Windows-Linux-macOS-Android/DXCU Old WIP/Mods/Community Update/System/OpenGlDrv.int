@@ -1,0 +1,51 @@
+[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+Object=(Name=OpenGLDrv.OpenGLShaderPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="OpenGL Support",Parent="Rendering",Immediate=True)
+Preferences=(Caption="Client",Parent="OpenGL Support",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True,Category=Client)
+Preferences=(Caption="Advanced",Parent="OpenGL Support",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True,Category=Advanced)
+Preferences=(Caption="Content",Parent="OpenGL Support",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True,Category=Content)
+Preferences=(Caption="Kinks",Parent="OpenGL Support",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True,Category=Kinks)
+Preferences=(Caption="Hacks",Parent="OpenGL Support",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True,Category=Hacks)
+
+[OpenGLRenderDevice]
+ClassCaption="OpenGL Support (New!)"
+AskInstalled=Do you have a OpenGL compatible 3D accelerator installed?
+AskUse=Do you want Unreal Engine to use your OpenGL accelerator?
+
+[General]
+NoStats=No stats available.
+
+[Errors]
+ResFailed=Failed to set resolution
+NoMip=No mip map unpacked for texture %s
+ComposeAlloc=Failed to allocate memory for texture compose (%i).
+UnpackUnknown=Unpacking unknown format 0x02%x on %s.
+RequireVersion=OpenGL %i.%i is requiered.
+RequireVersionOrExtension=OpenGL %i.%i or %s is required.
+NoShaderSource=No shader source available for program %s.
+
+[Warnings]
+UnknownFormat=Unknown texture format 0x02%x on texture %s.
+OversizedTexture=Encountered oversize texture %s without sufficient mipmaps.
+UnpackTwiceMasked=Unpacking %s a second time as masked.
+UnpackTwiceUnmasked=Unpacking %s a second time as unmasked.
+NoS3TC=S3TC is not supported.
+NoS3TCsRGB=S3TC sRGB formats are not supported.
+NoBPTC=BPTC is not supported.
+NoETC2EAC=ETC2/EAC is not supported.
+NoASTC=ASTC is not supported.
+NoAnisotropic=Anisotropic texture filtering is not supported.
+NoVertSync=Controlling vertical synchronisation is not supported.
+NoAdapVertSync=Adaptive vertical synchronisation is not supported.
+NoAdapVertSyncFallback=Adaptive vertical synchronisation is not supported, falling back to no vertical synchronisation.
+UnsupportedTexf=%s not supported (Texture=%s).
+UnsupportedTexfFallback=%s not supported, trying %s as fallback (Texture=%s).
+NoMirrorClamp=TEXW_MirrorClamp is not supported.
+
+[OpenGLShaderPackageCommandlet]
+HelpCmd=OpenGLShaderPackage
+HelpOneLiner=Builds package out of shader source files.
+HelpUsage=OpenGLShaderPackage <package>
+HelpWebLink=

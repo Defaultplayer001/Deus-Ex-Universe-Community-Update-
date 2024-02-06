@@ -1,0 +1,219 @@
+[SkillAwardTrigger0]
+awardMessage="Премия за продвижение"
+
+[SkillAwardTrigger1]
+awardMessage="Премия за исследование"
+
+[NanoKey0]
+Description="Ключ к люку бункера UNATCO"
+
+[SecurityCamera4]
+FamiliarName="SATCOM_cam"
+
+[SecurityCamera2]
+FamiliarName="UN_outside"
+
+[SkillAwardTrigger2]
+awardMessage="Премия за исследование"
+
+[UNATCOTroop1]
+FamiliarName="Капрал Коллинз"
+
+[SecurityCamera1]
+FamiliarName="UN_lobby01"
+
+[SecurityCamera0]
+FamiliarName="UN_lobby02"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Либерти-Айленд"
+startupMessage[0]="Либерти-Айленд, Нью-Йорк"
+startupMessage[1]="Штаб-квартира UNATCO"
+
+[ThugMale5]
+FamiliarName="Наемный головорез"
+UnfamiliarName="Наемный головорез"
+
+[UNATCOTroop0]
+FamiliarName="Техник-сержант Каплан"
+
+[LevelSummary]
+Title="Untitled"
+
+[Terrorist0]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[SkillAwardTrigger3]
+awardMessage="Премия за исследование"
+
+[Terrorist24]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[ComputerSecurity2]
+Views[0]="(titleString="Охрана руин Статуи",CameraTag=NSFCam02,Turrettag=NSFTurret01,doorTag=StatueRuinDoors)"
+Views[1]="(titleString="Охрана лестницы",CameraTag=NSFCam03,Turrettag=NSFTurret02)"
+
+[Terrorist2]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Бункер SATCOM",CameraTag=UN_CamSystem01,doorTag=satcomhatch)"
+Views[1]="(titleString="Штаб UNATCO снаружи",CameraTag=UN_CamSystem02)"
+Views[2]="(titleString="Штаб UNATCO внутри",CameraTag=UN_CamSystem03)"
+
+[Terrorist9]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[ThugMale0]
+FamiliarName="Наемный головорез"
+UnfamiliarName="Наемный головорез"
+
+[Terrorist36]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist13]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist12]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist6]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist3]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist32]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[ThugMale9]
+FamiliarName="Наемный головорез"
+UnfamiliarName="Наемный головорез"
+
+[Terrorist21]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist22]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=HarleyFilben,KeyID=ruin_key,Description="Ключ к разрушенной Статуе")"
+NanoKeyData[1]="(ScriptedPawnTag=PaulDenton,KeyID=UN_maindoor,Description="Ключ к бронированным дверям штаба UNATCO")"
+
+[UNATCOTroop6]
+FamiliarName="Рядовой Ллойд"
+
+[NYPoliceBoat0]
+FamiliarName="Рулевой катера UNATCO"
+
+[Terrorist8]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist29]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist27]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist4]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist10]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[BumFemale0]
+FamiliarName="Бродяжка"
+UnfamiliarName="Бродяжка"
+
+[Terrorist1]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[TerroristCommander0]
+FamiliarName="Командир террористов NSF"
+UnfamiliarName="Командир террористов NSF"
+
+[SkillAwardTrigger8]
+awardMessage="Премия за продвижение"
+
+[Terrorist31]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[SkillAwardTrigger7]
+awardMessage="Премия за исследование"
+
+[SkillAwardTrigger6]
+awardMessage="Премия за критическую локацию"
+
+[Terrorist20]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[ThugMale3]
+FamiliarName="Наемный головорез"
+UnfamiliarName="Наемный головорез"
+
+[ThugMale7]
+FamiliarName="Наемный головорез"
+UnfamiliarName="Наемный головорез"
+
+[Terrorist14]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist18]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist16]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist15]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist33]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Охраняемая камера",CameraTag=NSFCam01,Turrettag=celldoor,doorTag=temp_celldoor)"
+
+[Terrorist30]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist34]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist35]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[Terrorist7]
+FamiliarName="Террорист NSF"
+UnfamiliarName="Террорист NSF"
+
+[HarleyFilben0]
+FamiliarName="Харли Филбен"
+UnfamiliarName="Бродяга"

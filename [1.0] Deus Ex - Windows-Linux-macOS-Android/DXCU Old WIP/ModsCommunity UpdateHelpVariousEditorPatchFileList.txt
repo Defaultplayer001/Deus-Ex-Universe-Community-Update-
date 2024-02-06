@@ -1,0 +1,4 @@
+File=(Src="Mods\Community Update\Help\Various\EditorPatch\ActorSearch.txt",Size
+File=(Src="Mods\Community Update\Help\Various\EditorPatch\Changelog.txt",Size
+File=(Src="Mods\Community Update\Help\Various\EditorPatch\Commands.txt",Size
+File=(Src="Mods\Community Update\Help\Various\EditorPatch\EditorPatch.txt",Size

@@ -1,0 +1,2 @@
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\UnrealScript Language Reference\UnrealScript Language Reference.html",Size
+File=(Src="Mods\Community Update\Editing\Documentation\UnrealEd\UnrealScript Language Reference\UnrealScript Language Reference.txt",Size

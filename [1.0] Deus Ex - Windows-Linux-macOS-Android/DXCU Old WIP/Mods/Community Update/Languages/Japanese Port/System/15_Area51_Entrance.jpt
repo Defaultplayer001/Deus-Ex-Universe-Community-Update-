@@ -1,0 +1,29 @@
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(cameraTag=camera_turrets,turretTag=double_turrets)"
+
+[OrdersTrigger2]
+Message="worked"
+
+[NanoKey0]
+Description="Sector 3 Access key"
+
+[SkillAwardTrigger7]
+awardMessage="Area Location Bonus"
+
+[SkillAwardTrigger10]
+awardMessage="Critical Location Bonus"
+
+[SkillAwardTrigger9]
+awardMessage="Exploration Bonus"
+
+[SkillAwardTrigger8]
+awardMessage="Area Location Bonus"
+
+[DeusExLevelInfo1]
+MissionLocation="Area51 - Entrance"
+startupMessage[0]="Area51 - Entrance"
+startupMessageJ[0]="エリア５１　エントランス"
+

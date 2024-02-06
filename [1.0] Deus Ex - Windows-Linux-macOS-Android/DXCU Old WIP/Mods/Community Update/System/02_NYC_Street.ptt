@@ -1,0 +1,75 @@
+[DeusExLevelInfo0]
+MissionLocation="Nova Iorque - Hell's Kitchen"
+startupMessage[0]="Cidade de Nova Iorque, Hell's Kitchen"
+
+[LevelSummary]
+Title="Sem título"
+
+[SpecialEvent0]
+Message="Acerte a bola para alguns Knicks!!!!"
+
+[Button2]
+FamiliarName="Interfone"
+UnfamiliarName="Interfone"
+
+[SkillAwardTrigger2]
+awardMessage="Bônus: exploração"
+
+[SkillAwardTrigger5]
+awardMessage="Bônus: exploração"
+
+[SkillAwardTrigger3]
+awardMessage="Bônus: exploração"
+
+[BumMale0]
+FamiliarName="Vagabundo"
+UnfamiliarName="Vagabundo"
+
+[SkillAwardTrigger4]
+awardMessage="Bônus: exploração"
+
+[ThugMale4]
+FamiliarName="Criminoso da NSF"
+UnfamiliarName="Criminoso da NSF"
+
+[BumMale4]
+FamiliarName="Homem desabrigado"
+UnfamiliarName="Homem desabrigado"
+
+[BumMale1]
+FamiliarName="Vagabundo resmungão"
+
+[BumMale3]
+FamiliarName="Antigo refém"
+UnfamiliarName="Antigo refém"
+
+[SandraRenton0]
+UnfamiliarName="Bela garota"
+
+[BumFemale1]
+FamiliarName="Antigo refém"
+UnfamiliarName="Antigo refém"
+
+[ThugMale0]
+FamiliarName="Cafetão"
+UnfamiliarName="Cafetão"
+
+[RiotCop1]
+FamiliarName="Policial"
+UnfamiliarName="Policial"
+
+[ThugMale3]
+FamiliarName="Criminoso da NSF"
+UnfamiliarName="Criminoso da NSF"
+
+[RiotCop0]
+FamiliarName="Policial"
+UnfamiliarName="Policial"
+
+[Hooker0]
+FamiliarName="Sally"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=Apartment,Description="Chave do apartamento")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Chave da porta principal de 'Osgood and Sons'")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Chave da porta dos fundos de 'Osgood and Sons'")"

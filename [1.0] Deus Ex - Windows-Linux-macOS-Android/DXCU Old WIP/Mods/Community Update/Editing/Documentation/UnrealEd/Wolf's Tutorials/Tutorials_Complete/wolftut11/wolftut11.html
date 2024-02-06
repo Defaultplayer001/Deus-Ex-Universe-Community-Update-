@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>Wolf's Tutorial Eleven - Triggers</title>
+<meta http-equiv="KEYWORDS" content="Unreal, Editing, Prefabs,Custom, Brushes,add-ons,mods, textures, tutorials">
+<meta http-equiv="DESCRIPTION" content="Unreal, Editing, Prefabs,Custom, Brushes,add-ons,mods, textures, tutorials">
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#0000FF" alink="#0000FF" title="Wolf's Tutorial Eleven">
+
+<h1>Wolf's Tutorial #11 - Triggers</h1>
+<br>
+<h2>Introduction:</h2>
+This is an intermediate to advanced tutorial. If you are new to UnrealED then please see my tutorial page for links to Basic Tutorials to get you started.<br><br>
+
+<h2>Triggers</h2>
+
+We are going to discuss (and learn to use) various kinds of triggers in this tutorial. We will <b>not</b> cover <i>all</i> triggers. This tutorial is designed to get you familiar with how triggers work and their various properties. You will learn how they work and a few different type of triggers you can deploy for various effects. You can use what you learn here to figure out other kinds of triggers.
+
+<h3>Basic Trigger</h3>
+
+For a trigger to work you need a couple basic things. An Event and a Trigger. There are two properties that are <i><b>ESSENTIAL</b></i> for triggers. They are found under Events (any any actor Properties window). They are Event and Tag.
+<img src="Image1.jpg" width=355 height=258 alt="" border="0"><br>
+You can think of the <b>Tag</b> as the name of the actor. This Tag is the "name" the trigger calls to send the actor into action. <br>
+The <b>Event</b> is the where you put the Tag you want the trigger to call.
+
+<h3>Simple Example</h3>
+<b>Switchable Light</b><br>
+Let's start by making a small room (256 sq).  Add a PlayerStart in one corner. In another corner add an object that might be a switch. Add a trigger (Expand Triggers and choose the Trigger with the big minus sign next to it --see image below) in the corner in front of your switch looking texture.
+<br><img src="Image2.jpg" width=165 height=685 alt="" border="0">&nbsp;
+<img src="Shot0000.jpg" width=416 height=313 alt="" border="0"><br><br>
+Now in the Browser go to Classes. Expand Light and choose TriggerLight (the first one). Now add the TriggerLight in the center of the room, near the top.<br>
+Now we have all the actors, we just need to set it up.<br>
+First, set the Tag (under Events) of the light to something unique, like LIGHT1. Now open the trigger properties and under Events set it's Event to LIGHT1 (or whatever tag you gave the light). 
+Now wee need to do a couple more things to the light. First open the TriggerLight properties window. Under TriggerLight make sure bInitiallyOn is set TRUE.<br>
+<img src="Image3.jpg" width=355 height=293 alt="" border="0"><br>
+Now under Object/InitialState set it to Trigger Toggle. This will turn the light on or off as the trigger is activated. <br>
+Okay, that should do it. Now Rebuild and then run the map. When you walk to the corner where the trigger is the light should go off. Take a couple steps back and then forward again and it should come back on. Basically, whenever you activate the trigger it will toggle the light to on or off. 
+<br>
+<b>Breakdown:</b><br>
+The <b>EVENT</b> in the trigger properties tells the trigger WHAT to activate. The <b>TAG</b> of the light names it so the trigger can activate it. Always make sure the <b>Tag</b> of the actor you want activated and the <b>Event</b> of the trigger you want to activate it are the same. 
+The light property set to initial on (bInitiallyon=True) can be set to off and then the trigger would turn it on). The Object/InitialState of the light is set to toggle so that it will switch back and forth between on and off each time you activate it.<br> 
+
+<b>Explore:</b><br>
+Try setting the InitialState of the light to other settings besides TriggerToggle. <br>
+Try TriggerControl: This should make the light go out whenever you are in proximity of the trigger.<br>
+TriggerTurnsOn and TriggerTurnsOff are pretty self explanatory.<br> 
+TriggerPound doesn't work on a TriggerLight actor.<br>
+
+<h2>Trigger Properties</h2>
+
+So, all the settings that control the light we set with the light actor. Doesn't the Trigger itself have any properties we can set? Glad you asked. <br>
+Yes.<br>
+There are a few things with the trigger you can set as well.
+Open the trigger Properties then Expand Trigger.<br>
+<img src="Image4.jpg" width=354 height=358 alt="" border="0"><br><br>
+<b>TriggerTypes</b><br>
+Look at the TriggerType <br><img src="Image5.jpg" width=353 height=426 alt="" border="0"><br>
+This defines what activates the trigger. TT_ means TriggerType to the engine. <br>The default is <b>TT_PlayerProximity</b>. This simply means whenever the Player is within the Proximity of the trigger--see Proximity below). <br>
+<b>TT_PawnProximity</b> means only pawns (any pawns) can activate the trigger.<br>
+<b>TT_Classroximity</b> means only a special class (defined in ClassProximityType) can activate the trigger.<br>
+<b>TT_AnyProximity</b> means any of the TT_ types can activate the trigger.<br>
+<b>TT_Shoot</b> means you have to shoot the trigger to activate it.  <br>
+
+<b>Proximity</b><br>
+This is how big the the "area" of the trigger is. You set this under Collision/CollisionHeight and CollisionRadius. These should be pretty self explanatory.
+<br>
+<b>InitialState</b><br>
+<img src="Image7.jpg" width=356 height=320 alt="" border="0"><br>
+Under Object/InitialState you can set the "state" of the trigger. Your choices are None, Normal, OtherTriggerTurnsOn (or Off), OtherTriggerToggles.<br>
+<b>Normal</b> is just that. The trigger works when activated. <br>
+<b>None</b> will deactivate the trigger altogether. <br>
+<b>OtherTrigger</b> settings should be pretty evident what they do. <br><br>
+
+<b>Trigger Settings</b>
+<br>
+Under Trigger (where we found the trigger types) you will see a few more settings that you can adjust. <br><br>
+
+<b>bInitiallyActive</b>	&nbsp;&nbsp;A True/False toggle. Setting it to False means something must activate the trigger (another trigger for example) for it to work.<br>
+<b>bTriggerOnceOnly</b>	&nbsp;&nbsp;A True/False toggle. If set True it will only work ONE time.<br>
+<b>ClassProximityType</b>	&nbsp;&nbsp;Used to define the ClassProximityType under TriggerType<br>
+<b>DamageThreshold</b>	&nbsp;&nbsp;	How much damage you must inflict on the trigger when it's type is set to TT_Shoot.<br>
+<b>Message</b>		&nbsp;&nbsp;	The message to display when trigger is activated.<br>
+<b>RepeatTriggerTime</b>	&nbsp;&nbsp;Time between the trigger repeats<br>
+<b>ReTriggerDelay</b>&nbsp;&nbsp;		Time delay before trigger can be re-activated.<br>
+<b>TriggerType</b>	&nbsp;&nbsp;	(see TriggerTypes above).<br>
+<br><br>
+<b>Other Triggers Classes</b><br>
+
+If you expanded the Triggers tree in the browser (which you had to to find Triggers <g>) then you saw lots of other kinds of triggers. I will not explain them all but here are some popular kinds you may want to try out. An (!) means It is defined in more detail below:<br><br>
+
+<b>CodeTrigger</b>		(see ElevatorTrigger)
+<b>Counter	</b>		Must be triggered a certain number of times before sending the trigger info to it's event<br>
+<b>Dispatcher</b> (!)		Is triggered itself then activates a user set sequence of events with optional delays<br>
+<b>ElevatorTrigger	</b>	Hmmm...I wonder what this does? I'm saving this for a future tutorial!<br>
+<b>FatnessTrigger</b>		When activated sets the fatness of an actor from one state to another.<br>
+<b>FearSpot</b>		Creatures will tend to back away from this area.<br>
+<b>Jumper	</b>		Creatures will jump in a specified direction when activating this trigger<br>
+<b>MusicEvent</b> (!)		Where you specify and change background music<br>
+<b>RoundRobin	</b>	Everytime you trigger this it advances through a set of outgoing events<br>
+<b>SpecialEvent</b> (!)	Receives a trigger message and sends out various "Special Events" depending on it's setting<br>
+<b>StochasticTrigger</b>	Kind of like a dispatcher but you set certain special events to occur<br>
+<b>TranslatorEvent</b>	(!)	Where you set the "pop up" Translator Messages<br>
+<b>-Trigger	</b>	Basic Trigger<br>
+ &nbsp;&nbsp;&nbsp;<b>ZoneTrigger</b>		Activates/deactivates zone properties (only bGravityZone works).<br>
+<b>TriggeredDeath</b>		Kills that which activates it.<br>
+
+
+
+
+<h3>Dispatcher</h3> <img src="Shot0002.jpg" width=132 height=100 alt="" border="0"><br>
+Dispatchers are used to trigger multiple events. You can delay the out put to create a "scripted sequence" of events. <br>
+You can use it to do all sorts of things from one trigger with various delays. You could have it open a door, turn off (or on) a light and play a sound then wait a second and shut the door, toggle the light and play a different sound. You can do lots of cool "scripted events" with these handy triggers!<br>
+<img src="Image10.jpg" width=353 height=508 alt="" border="0"><br>
+<b>OutEvents</b> set the sequence of events you want triggered and in what order.<br>
+<b>OutDelays</b> set the delay between the events. <br>
+
+<h3>MusicEvent</h3><img src="Shot0002.jpg" width=132 height=100 alt="" border="0"><br>
+Here is where you set and change the cool Unreal background music.<br>
+<img src="Image11.jpg" width=354 height=336 alt="" border="0"><br>
+Song and SongSection are the two settings you will use the most
+<b>Song</b> picks the song you want to play (under Music in the Browser you can load the songs you want)
+<b>SongSection</b> is a setting of 0, 1, or 2 to set the mood of the song (normal, tense, action I think)<br>
+
+<h3>SpecialEvent</h3><img src="Shot0003.jpg" width=153 height=110 alt="" border="0"><br>
+The settings under Object/InitialState determine what type of special event is triggered:<br>
+<img src="Image12.jpg" width=355 height=397 alt="" border="0"><br>
+For the most part they are self explanatory (PlaySoundEffect, DisplayMessage, etc...)
+The particular settings for each type are set under SpecialEvent.
+
+<h3>TranslatorEvent</h3><img src="Shot0004.jpg" width=153 height=105 alt="" border="0"><br>
+This is where you trigger the messages that appear on the Translator.<br>
+The specific settings and the Message itself are entered under TranslatorEvent.<br>
+<img src="Image13.jpg" width=354 height=365 alt="" border="0"><br><br><br>
+
+<h2>Other Ways to Trigger Events</h2>
+<h3>Actor Triggered Events</h3>
+There are other ways to trigger events besides actual triggers. The easiest and most common would be to set an Event to an actor such as a mover. If you specify another actor's Tag in the Event of the mover, when it is finished going through it's key frames it will activate the actor. For instance, let's say you have a door that is activated by a lever. Make a mover that looks like a lever. Make a door. Give the door a tag like "Door1" and set it's initial state to TriggerOpentimed. Now set the event of the Lever to "Door1" and when the lever moves it will activate the door. <br>
+<h3>BumpButtons</h3>
+Bumpbuttons are cool ways to set one mover to activate another and not have all those red lines connecting them in your maps.<br>
+Make a mover that looks like a button (or whatever you like). Make another mover that this will trigger (like a door or something). Now give the door a unique tag.<br>
+Now under the button's InitialState set it to BumpButton.<br>
+<img src="Image14.jpg" width=354 height=393 alt="" border="0"><br>
+Now under Mover set the Bump Event to the tag of the "door" you want it to activate. 
+You can also set the BumpType (to player, pawn or any). <br>
+<img src="Image15.jpg" width=351 height=510 alt="" border="0"><br>
+Now if the button is touched it will activate the other mover. You can also set the BumpEvent to a SpecialEvent's tag and activate a special sound or message or whatever. You can do lots of cool things with this one, too.<br>
+
+<h2>Tips</h2>
+Anytime you want a single trigger to trigger multiple events use a dispatcher. <br>
+Anytime you want a "button" or "switch" (a mover) to activate something set it to a BumpButton.<br>
+Always double check your Tags and Events if something isn't working right. This is usually not set right when something fails. <br>
+You can check just what properties a trigger is affected by simply by opening the trigger's script (double-clicking it in the browser) and reading the comments (green stuff).<br>
+The way the trigger affects the event (toggle, control, etc,...) is set in the actor's Object/InitialState.<br>
+The way a trigger is activated is set under the Triggers TriggerType.<br>
+
+<h2>Pull The Trigger</h2>
+Now you should have enough info to start triggering things all over your level. You should be able to trigger whatever you like now and set it off the way you want. Explore and play around with different types of triggers and their settings.<br><br><br>
+
+
+
+
+<div align="center"><hr></div>
+&copy;Copyright 1999 <a href="mailto:Wolf@gamedesign.net">Tony Garcia</a> (a.k.a. Wolf). No part of this tutorial may be reproduced without my permission.
+</body>
+</html>

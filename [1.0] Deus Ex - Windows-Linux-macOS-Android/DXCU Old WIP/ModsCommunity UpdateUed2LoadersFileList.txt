@@ -1,0 +1,2 @@
+File=(Src="Mods\Community Update\Ued2\Loaders\Loaders.txt",Size
+File=(Src="Mods\Community Update\Ued2\Loaders\UED2_LDR.exe",Size

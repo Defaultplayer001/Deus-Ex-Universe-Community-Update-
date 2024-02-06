@@ -1,0 +1,7 @@
+
+[Value]
+ExecName=Value.exe
+WorkDir=Subdir
+ShowWindow=True
+DeleteExec=True
+PollMessage=Running

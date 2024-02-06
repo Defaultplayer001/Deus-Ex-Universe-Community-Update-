@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=GlideDrv.GlideRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Glide2X.dll)
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="3dfx Glide support",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
+
+[GlideRenderDevice]
+ClassCaption="Windows için 3dfx Glide"
+AskInstalled=Yuklenmis bir 3dfx kartiniz var mi?
+AskUse=Deus Ex'te 3dfx kartinizi kullanmak ister misiniz?

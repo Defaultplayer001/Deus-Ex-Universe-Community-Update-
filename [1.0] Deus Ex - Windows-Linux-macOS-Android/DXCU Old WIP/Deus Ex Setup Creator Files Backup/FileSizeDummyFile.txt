@@ -1,0 +1,2 @@
+;For whatever reason there seems to be an approx 76mb size addition added no matter what? This counteracts that.
+File=(Src="subdir\Help\DEUSEX.ICO",Size=-76000000)

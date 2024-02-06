@@ -1,0 +1,5 @@
+File=(Src="Mods\Community Update\System\Alternative EXEs\DeusEx 1112fm (Original EXE).exe",Size
+File=(Src="Mods\Community Update\System\Alternative EXEs\Kentie's Deus Exe (Old for XP).exe",Size
+File=(Src="Mods\Community Update\System\Alternative EXEs\Kentie's DeusExe.exe",Size
+File=(Src="Mods\Community Update\System\Alternative EXEs\Launch.exe",Size
+File=(Src="Mods\Community Update\System\Alternative EXEs\UE1 Launch.exe",Size

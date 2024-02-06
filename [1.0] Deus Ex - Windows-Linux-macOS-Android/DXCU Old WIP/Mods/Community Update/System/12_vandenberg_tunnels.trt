@@ -1,0 +1,24 @@
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey1]
+Description="Bakim Onarim Anahtari"
+
+[ComputerSecurity1]
+Views[0]="(CameraTag=camera_gen,Turrettag=turret_gen)"
+
+[SkillAwardTrigger0]
+awardMessage="Gelisim Bonusu"
+
+[SkillAwardTrigger1]
+awardMessage="Kesif Bonusu"
+
+[SkillAwardTrigger2]
+awardMessage="Kesif Bonusu"
+
+[NanoKey0]
+Description="Kontrol Odasi Anahtari"
+
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Tüneller"
+

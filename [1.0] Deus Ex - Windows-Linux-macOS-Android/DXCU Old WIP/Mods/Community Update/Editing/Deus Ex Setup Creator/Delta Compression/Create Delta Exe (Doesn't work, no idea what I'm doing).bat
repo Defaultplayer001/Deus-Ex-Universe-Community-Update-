@@ -1,0 +1,1 @@
+hpatchz [-X-exe#selfExecuteFile] DiffFile -X#outSelfExtractArchive

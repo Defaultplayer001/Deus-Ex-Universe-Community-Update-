@@ -1,0 +1,73 @@
+[General]
+Run=Run!
+FirstTime=Deus Ex First-Time Configuration
+SafeMode=デウスエクスセーフモード
+Video=Deus Ex Video Configuration
+RecoveryMode=Deus Ex Recovery Mode
+WebPage=http://www.eidos.co.jp/
+Direct3DWebPage=http://www.deusex.com/Direct3D.htm
+Detecting=Detecting 3D video devices, please wait...
+SoundLow=Low sound quality
+SoundHigh=High sound quality
+SkinsLow=Medium detail player skin textures
+SkinsHigh=High detail player skins
+WorldLow=Medium detail world textures
+WorldHigh="High detail textures"
+ResLow=Low video resolution
+ResHigh=Standard video resolution
+
+[Descriptions]
+SoftDrv.SoftwareRenderDevice=Deus Exにビルトインされたソフトウェアレンダリングツールです。全てのビデオカードに対応していますが、不具合が生じる場合がありますので、使用につきましてはお客様のご自身の責任においてお願い致します。
+GlideDrv.GlideRenderDevice=3dfx Glideサポートは、3dfxをご使用の方に最適です。お使いのPCが3dfxカードを使用しているかご確認ください。
+D3DDrv.D3DRenderDevice=Direct3D ハードウェアレンダリングをご使用下さい。TNT、ATI Rage 128、Matrox G400、S3 Savage4などの新しいビデオカードと互換性があります。それ以前のビデオカードを使用される場合、不具合が生じる場合があります。ATI Rage Pro及びRiva 128、Intel i740をお持ちの方は、ソフトウェアレンダリングをご使用ください。
+OpenGLDrv.OpenGLRenderDevice=Experimental OpenGLサポートは試作品ですが、一部のドライバと互換性に問題があることが知られています。ご使用される場合、不具合が生じる恐れがあります。
+MetalDrv.MetalRenderDevice=S3 Savage4 ビデオカードをお使いの場合、選択してください。
+
+[IDDIALOG_ConfigPageDetail]
+IDC_ConfigPageDetail=
+IDC_DetailPrompt=お持ちのコンピュータの処理速度、メモリー及びビデオカードに対応して、Deus Exは最適なパフォーマンスを得られるように以下の詳細を選択しました
+IDC_DetailNote=これらのオプションの変更は、ゲームの［選択］ウィンドウで行ってください
+
+[IDDIALOG_ConfigPageFirstTime]
+IDC_ConfigPageFirstTime=
+IDC_Prompt=Deus Ex を初めて稼働します。何か問題が起きたときは、Windows の［スタート］メニューにある［プログラム] → [デウスエクス］のセクションのReadMeをお読みください
+
+[IDDIALOG_ConfigPageRenderer]
+IDC_ConfigPageRenderer=
+IDC_RenderPrompt=お客様のコンピュータは以下の3Dビデオ・デバイスをサポートします。Deus Exは最適のものを選択しました。変更したいときには、以下から選択してください
+IDC_RenderNote=
+IDC_Compatible=互換性が証明済みのデバイスを表示します
+IDC_All=すべてのデバイスを表示します
+
+[IDDIALOG_ConfigPageSafeMode]
+IDC_ConfigPageSafeMode=
+IDC_SafeModePrompt=前回Deus Exが正しく終了されませんでした。それが何らかの問題による場合は、回復させるために下のオプションを使うこともできます
+IDC_SafeModePrompt2=Deus Ex のセーフモードのオプション：問題が生じたときは、回復させるために下のオプションを使うこともできます
+IDC_Run=Deus Exを起動します
+IDC_Video=3Dビデオ・デバイスを変更してください
+IDC_SafeMode=Deus Ex をセーフモードで稼働してください
+IDC_Web=弊社ウェブサイトをご確認ください
+
+[IDDIALOG_ConfigPageSafeOptions]
+IDC_ConfigPageSafeOptions=
+IDC_SafeOptions=Safe mode options, for diagnosing problems
+IDC_NoSound=Disable all sound
+IDC_No3DSound=Disable 3D sound hardware
+IDC_No3DVideo=Disable 3D video hardware
+IDC_Window=Run the game in a window (rather than fullscreen)
+IDC_Res=Run in standard 640x480 resolution
+IDC_ResetConfig=Reset all configuration options to defaults
+IDC_NoProcessor=Disable Pentium III/3DNow processor extensions
+IDC_NoJoy=Disable joystick support
+
+[IDDIALOG_ConfigPageDriver]
+IDC_ConfigPageDriver=
+IDC_DriverText=Deus Ex はDirect3Dと互換性のある以下のビデオカードを検知しました:
+IDC_DriverInfo=Direct3Dが選択されたため、Deus Exは、Direct3Dをサポートするビデオカード・ドライバを使用します。\n\nしかしながら、Deus Exの最先端の3D 画像の特色を出すために、3Dカード・ドライバの一部をアップデートする必要があります。以下のウェッブサイトでご使用のビデオカードについて最新のD3D用ドライバなど詳細情報を確認してください。\n\nもし、画面のチラツキなど問題がありましたら、[Start / Programs］内の［Deus Ex Safe Mode］でドライバを変更してください
+IDC_Web=For links the latest drivers, visit our web page:
+IDC_WebButton=Direct3D Information && Drivers Page
+IDC_Card=Unknown
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=デウスエクスセットアップ
+

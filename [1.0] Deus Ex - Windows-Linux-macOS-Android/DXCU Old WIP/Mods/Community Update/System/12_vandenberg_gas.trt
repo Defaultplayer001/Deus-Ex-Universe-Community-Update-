@@ -1,0 +1,36 @@
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=bum1,KeyID=pipe,Description="Kanalizasyon Erisimi")"
+NanoKeyData[1]="(ScriptedPawnTag=Bum2,KeyID=pipe,Description="Kanalizasyon Erisimi")"
+
+[SkillAwardTrigger0]
+awardMessage="Kesif Bonusu"
+
+[NanoKey1]
+Description="Kanalizasyon Erisimi"
+
+[BumMale0]
+FamiliarName="Fred"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=Guard_Garage,KeyID=garage_entrance,Description="Garaj Kapisi")"
+NanoKeyData[1]="(ScriptedPawnTag=mib_garage)"
+NanoKeyData[2]="(KeyID=garage_entrance,Description="Garaj Kapisi")"
+
+[TiffanySavage0]
+UnfamiliarName="Rehine"
+
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Benzinci"
+startupMessage[0]="Terk Edilmis Benzinci"
+startupMessage[1]="Merkez Kaliforniya"
+
+[LevelSummary]
+Title="Untitled"
+
+[NanoKey0]
+Description="Garaj Kapisi"
+

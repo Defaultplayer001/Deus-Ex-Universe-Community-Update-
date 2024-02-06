@@ -1,4 +1,4 @@
-[ModsCommunity UpdateDemoGroup]
+[DemoGroup]
 Caption=Demo
 Description=Official Deus Ex Mission 1 and 2 demos combined and updated to 1112fm (GOTY). Uses all fixes the full version does. Will skip intro and end after M02. However will now be portable and can be moved wherever you like, useful for portable multiplayer / limited editing.  Note: The source installer can also be renamed from a .exe to a .zip; extracted and played portably as a demo version.
 
@@ -6,7 +6,7 @@ Description=Official Deus Ex Mission 1 and 2 demos combined and updated to 1112f
 Caption=Deus Ex Community Update
 Description=Just Deus Ex - ready to play! With all 10 known text translations, along with many extras for editing. Specifically has numerous community made engine level fixes on top of the proper 1112fm (GOTY) patch, without the broken maps shipped on retail versions. Actual gameplay code is identical, warts and all! 
 
-[ModsCommunity UpdateTranscendedGroup]
+[TranscendedGroup]
 Caption=Deus Ex: Transcended 1.5.5
 Description=Built largely for first timer players, Deus Ex: Transcended is a mod focused solely around faithfulness to the original, while bringing an unmatched arsenal of bug fixes, paired with key notes of Quality of Life changes. Note: Removes the "you can have color, as long as it's black" furniture setting from vanilla, so some scenes may look different with colored furniture.
 

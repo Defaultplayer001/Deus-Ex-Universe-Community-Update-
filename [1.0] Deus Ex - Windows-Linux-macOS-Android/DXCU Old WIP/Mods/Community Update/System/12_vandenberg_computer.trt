@@ -1,0 +1,32 @@
+[GarySavage0]
+UnfamiliarName="Bilimci"
+
+[NanoKey0]
+Description="3.Kat Bilgisayar Odasi"
+
+[LevelSummary]
+Title="Untitled"
+
+[ScientistMale1]
+FamiliarName="Ben Roper"
+UnfamiliarName="Arastirmaci"
+
+[ComputerPersonal1]
+specialOptions[0]="(Text="Milnet'i Bagla",TriggerText="Milnet Baglandi",TriggerEvent=Daedalus_linked,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Vandenberg - Bilgisayar"
+
+[SkillAwardTrigger15]
+awardMessage="Ilerleme Bonusu"
+
+[FlagTrigger0]
+Message="bu çalisiyor lanet olsun!"
+
+[ScientistFemale1]
+FamiliarName="Latasha Taylor"
+UnfamiliarName="Arastirmaci"
+
+[Trigger1]
+Message="test"
+

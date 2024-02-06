@@ -1,0 +1,29 @@
+[LevelSummary]
+Title="Untitled"
+
+[Hooker0]
+FamiliarName="Салли"
+
+[Button2]
+FamiliarName="Интерком"
+UnfamiliarName="Интерком"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=PaulDenton,KeyID=ApartmentKey,Description="Ключ к апартаментам Пола")"
+NanoKeyData[1]="(ScriptedPawnTag=LeadTerrorist,KeyID=StreetWarehouse,Description="Ключ к передней двери Озгуд и Сыновья")"
+NanoKeyData[2]="(ScriptedPawnTag=InsideTerrorist,KeyID=WarehouseAccess,Description="Ключ к задней двери Озгуд и Сыновья")"
+
+[SpecialEvent0]
+Message="Запишите его в команду Knicks!!!!"
+
+[SkillAwardTrigger9]
+awardMessage="Премия за выполнение"
+
+[DeusExLevelInfo0]
+MissionLocation="Нью-Йорк - Адская Кухня"
+startupMessage[0]="Нью-Йорк, Адская Кухня"
+
+[BlackHelicopter1]
+FamiliarName="Джок"
+UnfamiliarName="Джок"
+

@@ -1,0 +1,45 @@
+[DeusExLevelInfo0]
+MissionLocation="New York - Ücretsiz Klinik"
+
+[LevelSummary]
+Title="Untitled"
+
+[BumMale2]
+FamiliarName="Evsiz Adam"
+UnfamiliarName="Evsiz Adam"
+
+[BumFemale0]
+FamiliarName="Evsiz Bayan"
+UnfamiliarName="Evsiz Bayan"
+
+[SkillAwardTrigger6]
+awardMessage="Hedef Basari Bonusu"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Doctor,KeyID=Cabinet,Description="Tibbi Dolap Anahtari",SkinColor=SC_Level2)"
+NanoKeyData[1]="(ScriptedPawnTag=Nurse,KeyID=Cabinet,Description="Tibbi Dolap Anahtari",SkinColor=SC_Level2)"
+
+[BumMale4]
+FamiliarName="Yasli Berdus"
+UnfamiliarName="Yasli Berdus"
+
+[Female1]
+FamiliarName="Resepsiyonist"
+UnfamiliarName="Resepsiyonist"
+
+[BumMale1]
+FamiliarName="Hasta Sokak Insani"
+UnfamiliarName="Hasta Gözüken Adam"
+
+[BumMale3]
+FamiliarName="Yasli Berdus"
+UnfamiliarName="Yasli Berdus"
+
+[JunkieFemale0]
+FamiliarName="Hasta Kadin"
+UnfamiliarName="Sagliksiz Gözüken Hanim"
+
+[BumFemale1]
+FamiliarName="Hasta Kadin"
+UnfamiliarName="Hasta Kadin"
+

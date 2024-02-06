@@ -1,0 +1,26 @@
+[Public]
+Object=(Name=EditorPatch.TaggedPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+
+[General]
+
+[Errors]
+
+[Warnings]
+
+[Captions]
+EditorSearch=Search for the pot of gold at the end of the rainbow
+EditorActorSearch=Actor Search
+
+[IDDIALOG_EditorSearch]
+IDC_EditorSearchEditGroupBox=Search
+IDC_EditorSearchResultsGroupBox=Results
+
+[TaggedPackageCommandlet]
+HelpCmd=taggedpackage
+HelpOneLiner=Creates a tagged package version
+HelpUsage=taggedpackage <package> [<tag>]
+HelpWebLink=
+HelpParm[0]=package
+HelpDesc[0]=Input package
+HelpParm[1]=tag
+HelpDesc[1]=user specified tag

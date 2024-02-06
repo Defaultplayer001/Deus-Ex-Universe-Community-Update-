@@ -1,0 +1,1 @@
+File=(Src="Docs\Manifest Collection for study\Unreal 225c (Found on random GitHub)\SetupUnrealPatch.ini",Size

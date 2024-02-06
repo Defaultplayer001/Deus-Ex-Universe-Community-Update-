@@ -1,0 +1,96 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=AlexJacobson,KeyID=levelone,Description="Ingresso livello uno")"
+
+[UNATCOTroop0]
+FamiliarName="Soldato dell'UNATCO"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[UNATCOTroop6]
+FamiliarName="Scott"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[UNATCOTroop4]
+FamiliarName="Scott"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[Terrorist0]
+FamiliarName="Miguel"
+
+[UNATCOTroop3]
+FamiliarName="Soldato dell'UNATCO"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[UNATCOTroop2]
+FamiliarName="Soldato dell'UNATCO"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[SecurityCamera1]
+FamiliarName="UN_conferenzacam01"
+
+[UNATCOTroop8]
+FamiliarName="Soldato dell'UNATCO"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[UNATCOTroop9]
+FamiliarName="Soldato dell'UNATCO"
+UnfamiliarName="Soldato dell'UNATCO"
+
+[LevelSummary]
+Title="Senza titolo"
+
+[JosephManderley0]
+UnfamiliarName="Capo dell'UNATCO"
+
+[SkillAwardTrigger0]
+awardMessage="Bonus di progresso"
+
+[SecurityCamera7]
+FamiliarName="UN_retina_cam"
+
+[SpecialEvent1]
+Message="Nessun nuovo messaggio"
+
+[RetinalScanner0]
+msgUsed="Problema nella scansione retinica: errore di protezione generale 0012E9023"
+
+[SecurityCamera2]
+FamiliarName="UN_FUcam01"
+
+[SpecialEvent0]
+Message="Retina non corrispondente: agente Denton non autorizzato a entrare"
+
+[SecurityCamera6]
+FamiliarName="UN_proteus_cam"
+
+[SkillAwardTrigger1]
+awardMessage="Bonus di avanzamento"
+
+[Secretary0]
+FamiliarName="Janice Reed"
+UnfamiliarName="Janice Reed"
+
+[Female0]
+FamiliarName="Shannon"
+UnfamiliarName="Shannon"
+
+[AlexJacobson0]
+UnfamiliarName="Alex Jacobson"
+
+[SecurityCamera0]
+FamiliarName="UN_salacam01"
+
+[SecurityCamera3]
+FamiliarName="UN_medicacam01"
+
+[ComputerPersonal3]
+specialOptions[0]="(Text="Ricava frase di morte agente ANavarre",TriggerText="Frase di morte, parte 2 di 2 ricavata: 'Woman'",TriggerEvent=know2,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Ricava frase di morte agente GHermann",TriggerText="Frase di morte non disponibile - Attesa inserimento")"
+specialOptions[2]="(userName="demiurge")"
+
+[ComputerPersonal0]
+specialOptions[0]="(Text="Ricava frase di morte agente ANavarre",TriggerText="Frase di morte, parte 2 di 2 ricavata: 'Flatlander'",TriggerEvent=know1,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Ricava frase di morte agente GHermann",TriggerText="Frase di morte non disponibile - Attesa inserimento",userName="demiurge")"
+
+[DeusExLevelInfo0]
+MissionLocation="NY - QG UNATCO"
+

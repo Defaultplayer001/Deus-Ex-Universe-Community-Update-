@@ -1,0 +1,173 @@
+[ChildMale1]
+FamiliarName="Louis Pan"
+UnfamiliarName="Boy"
+
+[Female8]
+FamiliarName="Cassandra"
+UnfamiliarName="Party Girl"
+
+[Female6]
+FamiliarName="Veronica Chin"
+UnfamiliarName="Woman"
+
+[Butler0]
+FamiliarName="Ian Hilton"
+UnfamiliarName="Tea House Waiter"
+
+[Male1]
+FamiliarName="Monk"
+UnfamiliarName="Monk"
+
+[TriadLumPath0]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[TriadLumPath3]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[TriadLumPath4]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[SkillAwardTrigger0]
+awardMessage="Accomplishment Bonus"
+
+[TriadLumPath7]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=GateGuard,KeyID=CompoundGate,Description="Luminous Path compound gate key")"
+
+[DeusExLevelInfo1]
+MissionLocation="Hong Kong - Market"
+startupMessage[0]="Wan Chai Market"
+startupMessage[1]="Hong Kong"
+startupMessageJ[0]="ワンチャイマーケット"
+startupMessageJ[1]="香港"
+
+[TriadLumPath6]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[TriadLumPath22]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[GordonQuick0]
+UnfamiliarName="Triad Leader"
+
+[Male0]
+FamiliarName="Butcher"
+UnfamiliarName="Butcher"
+
+[Male2]
+FamiliarName="Monk"
+UnfamiliarName="Monk"
+
+[TriadLumPath24]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[HKMilitary1]
+FamiliarName="Chinese Military Police"
+UnfamiliarName="Chinese Military Police"
+
+[HKMilitary2]
+FamiliarName="Chinese Military Police"
+UnfamiliarName="Chinese Military Police"
+
+[TriadLumPath5]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[HKMilitary4]
+FamiliarName="Officer Tam"
+UnfamiliarName="Chinese Military Police"
+
+[TriadLumPath26]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[TriadLumPath18]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[TriadLumPath14]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[Businesswoman0]
+FamiliarName="Sales Woman"
+UnfamiliarName="Sales Woman"
+
+[Female4]
+FamiliarName="Flower Girl"
+UnfamiliarName="Flower Girl"
+
+[Secretary0]
+FamiliarName="Peggy"
+UnfamiliarName="Looking at flowers"
+
+[HKMilitary3]
+FamiliarName="Chinese Military Police"
+UnfamiliarName="Chinese Military Police"
+
+[HKMilitary5]
+FamiliarName="Chinese Military Police"
+UnfamiliarName="Chinese Military Police"
+
+[TriadLumPath9]
+FamiliarName="Luminous Path Triad Member"
+UnfamiliarName="Luminous Path Triad Member"
+
+[SkillAwardTrigger4]
+awardMessage="Accomplishment Bonus"
+
+[SkillAwardTrigger1]
+awardMessage="Area Location Bonus"
+
+[TriadRedArrow1]
+FamiliarName="Red Arrow Triad Member"
+UnfamiliarName="Red Arrow Triad Member"
+
+[Cat3]
+FamiliarName="Daisy"
+UnfamiliarName="Daisy"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[LowerClassFemale0]
+FamiliarName="News Stand Vendor"
+UnfamiliarName="News Stand Vendor"
+
+[SkillAwardTrigger3]
+awardMessage="Area Location Bonus"
+
+[SkillAwardTrigger2]
+awardMessage="Area Location Bonus"
+
+[TriadRedArrow0]
+FamiliarName="Red Arrow Triad Member"
+UnfamiliarName="Red Arrow Triad Member"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Market lane1",cameraTag=marketcamera1)"
+Views[1]="(titleString="Market lane2",cameraTag=marketcamera2)"
+Views[2]="(titleString="Market lane3",cameraTag=marketcamera3,doorTag=Pillboxdoor)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Main Gate",cameraTag=compound1,doorTag=compound_gate)"
+Views[1]="(titleString="Courtyard",cameraTag=compound2)"
+Views[2]="(titleString="Master Tong's Entrance",cameraTag=compound3)"
+
+[LevelSummary]
+Title="Untitled"
+
+[Businessman1]
+FamiliarName="Mr. Liu"
+UnfamiliarName="Suit"
+

@@ -1,7 +1,7 @@
 [Setup]
 LocalProduct=Deus Ex Community Update
 DefaultFolder=C:\Program Files (x86)\Steam\steamapps\common\Deus Ex
-ReadMe=Mods\Community Update\Help\ReadMe.html
+ReadMe=.\Help\ReadMe.html
 SetupWindowTitle=Deus Ex Community Update Setup
 AutoplayWindowTitle=Deus Ex Community Update Options
 ProductURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
@@ -13,7 +13,7 @@ PublisherURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Upda
 PublisherStoreURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
 PlanetDeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
 DeusExURL=https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/tree/master/%5B1.0%5D%20Deus%20Ex%20-%20Windows-Linux-macOS-Android
-Logo=Mods\Community Update\Help\LogoSmallCU.bmp
+Logo=.\Help\LogoSmallCU.bmp
 License=License.int
 
 [General]
@@ -148,28 +148,28 @@ Description=Numerous extra tools and documentation for editing, including a UED2
 
 [SteamInstall]
 Caption=Use with Steam
-Description=Replaces the exe in your Deus Ex root with a redirect to the one in Mods\Community Update\System, so you can use it with Steam. To restore, simply delete it and rename "DeusEx 1112fm (Original EXE).exe" to "DeusEx.exe". WILL break any mods relying on there being an actual DeusEx.exe in your root. Note: Does not work with overlay due to being a proxy.
+Description=Replaces the exe in your Deus Ex root with a redirect to the one in .\System, so you can use it with Steam. To restore, simply delete it and rename "DeusEx 1112fm (Original EXE).exe" to "DeusEx.exe". WILL break any mods relying on there being an actual DeusEx.exe in your root. Note: Does not work with overlay due to being a proxy.
 
-[ModsCommunity UpdateDemoGroup]
+[DemoGroup]
 Caption=Demo
 Description=Deus Ex modification files. Installation is optional.
 
-[ModsCommunity UpdateLay D DentonGroup]
+[Lay D DentonGroup]
 Caption=Lay D Denton
 Description=Deus Ex modification files. Installation is optional.
 
-[ModsCommunity UpdateMarkC Mouse Acceleration FixGroup]
+[MarkC Mouse Acceleration FixGroup]
 Caption=MarkC Mouse Acceleration Fix
 Description=Deus Ex modification files. Installation is optional.
 
 [TranscendedGroup]
 Caption=Transcended
-Description=Post Install Executable. Installation is optional.
+Description=Deus Ex modification files. Installation is optional.
 
 [Use Kentie'sGroup]
 Caption=Use Kentie's
 Description=Post Install Executable. Installation is optional.
-[ModsCommunity UpdateDemoGroup]
+[DemoGroup]
 Caption=Demo
 Description=Official Deus Ex Mission 1 and 2 demos combined and updated to 1112fm (GOTY). Uses all fixes the full version does. Will skip intro and end after M02. However will now be portable and can be moved wherever you like, useful for portable multiplayer / limited editing.  Note: The source installer can also be renamed from a .exe to a .zip; extracted and played portably as a demo version.
 
@@ -177,7 +177,7 @@ Description=Official Deus Ex Mission 1 and 2 demos combined and updated to 1112f
 Caption=Deus Ex Community Update
 Description=Just Deus Ex - ready to play! With all 10 known text translations, along with many extras for editing. Specifically has numerous community made engine level fixes on top of the proper 1112fm (GOTY) patch, without the broken maps shipped on retail versions. Actual gameplay code is identical, warts and all! 
 
-[ModsCommunity UpdateTranscendedGroup]
+[TranscendedGroup]
 Caption=Deus Ex: Transcended 1.5.6
 Description=Built largely for first timer players, Deus Ex: Transcended is a mod focused solely around faithfulness to the original, while bringing an unmatched arsenal of bug fixes, paired with key notes of Quality of Life changes. Note: Removes the "you can have color, as long as it's black" furniture setting from vanilla, so some scenes may look different with colored furniture.
 

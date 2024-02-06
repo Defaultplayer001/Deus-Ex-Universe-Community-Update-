@@ -1,0 +1,22 @@
+[ComputerPersonal0]
+specialOptions[0]="(Text="Ana Yönlendiriciyi Devreye Sok",TriggerEvent=Set_flag_helios,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="51.Bölge - Page"
+
+[LevelSummary]
+Title="Untitled"
+
+[ComputerSecurity0]
+Views[0]="(titleString="Bilgisayar Yayin Odasi",CameraTag=camera_helios_room,doorTag=door_helios_room)"
+
+[ComputerSecurity2]
+specialOptions[0]="(Text="Güvenlik Botunu Etkinlestir",TriggerEvent=lower1,bTriggerOnceOnly=True)"
+
+[ComputerSecurity1]
+Views[0]="(titleString="Çevresel Kapsama",CameraTag=Gray_camera,doorTag=radiation_exit)"
+specialOptions[0]="(Text="Çevresel Jeneratörler",UnTriggerEvent=Gray_rad)"
+
+[ComputerSecurity3]
+specialOptions[0]="(Text="Güvenlik Botunu Etkinlestir",TriggerEvent=upper1_release,bTriggerOnceOnly=True)"
+

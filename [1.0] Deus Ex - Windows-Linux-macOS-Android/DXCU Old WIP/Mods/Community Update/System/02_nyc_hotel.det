@@ -1,0 +1,25 @@
+[Male0]
+FamiliarName="Ehemalige männliche Geisel"
+UnfamiliarName="Ehemalige Geisel"
+
+[Female0]
+FamiliarName="Ehemalige weibliche Geisel"
+UnfamiliarName="Weibliche Geisel"
+
+[SkillAwardTrigger1]
+awardMessage="Durchführungsbonus"
+
+[GilbertRenton0]
+UnfamiliarName="Rezeptionist"
+
+[SkillAwardTrigger0]
+awardMessage="Forschungsbonus"
+
+[DeusExLevelInfo0]
+MissionLocation="NYC - 'Ton Hotel"
+
+[NanoKey0]
+Description="Hotel 'Ton, Schlüssel Nordraum"
+
+[LevelSummary]
+Title="Ohne Bezeichnung"

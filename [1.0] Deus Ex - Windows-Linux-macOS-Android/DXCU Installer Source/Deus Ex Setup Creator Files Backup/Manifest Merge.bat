@@ -32,7 +32,9 @@ type Setup.int > "%~dp0\System\Setup.int"
 
 Rem Root System folder not needed for recursive path setup
 
-del SystemFileListFinal.txt /q
+Rem But IS needed for a root based one.
+
+rem del SystemFileListFinal.txt /q
 
 Rem Prevent setup files from being written to the manifest.
 
@@ -69,17 +71,17 @@ rem Delete so they can't be written again in the next steps
 del "%~dp0\*Optional Files*FileListFinal.txt"
 
 ;Delete so language files don't get handled twice. (Already manually entered in ManifestHeader-2-Game Group.ini)
-del "%~dp0\ModsCommunity UpdateFileListFinal.txt"
+del "%~dp0\FileListFinal.txt"
 
 ;Ditto for Confix / Japanese Port / 1002f Maps / .con Files for Translations and Demo / Docs
-del "%~dp0\ModsCommunity UpdateLanguagesConfixSystemFileListFinal.txt"
-del "%~dp0\ModsCommunity UpdateLanguagesConfix (Russian Port)SystemFileListFinal.txt"
-del "%~dp0\ModsCommunity UpdateLanguagesJapanese PortSystemFileListFinal.txt"
-del "%~dp0\ModsCommunity UpdateLanguagesJapanese PortHelpFileListFinal.txt"
-del "%~dp0\ModsCommunity UpdateMapsFileListFinal.txt"
-del "%~dp0\ModsCommunity UpdateUed2*FileListFinal.txt"
-del "%~dp0\ModsCommunity UpdateEditing*FileListFinal.txt"
-del "%~dp0\ModsCommunity UpdateLanguages.con Files for Translations and Demo*FileListFinal.txt"
+del "%~dp0\LanguagesConfixSystemFileListFinal.txt"
+del "%~dp0\LanguagesConfix (Russian Port)SystemFileListFinal.txt"
+del "%~dp0\LanguagesJapanese PortSystemFileListFinal.txt"
+del "%~dp0\LanguagesJapanese PortHelpFileListFinal.txt"
+del "%~dp0\MapsFileListFinal.txt"
+del "%~dp0\Ued2*FileListFinal.txt"
+del "%~dp0\Editing*FileListFinal.txt"
+del "%~dp0\Languages.con Files for Translations and Demo*FileListFinal.txt"
 del "%~dp0\Docs*FileListFinal.txt"
 del "%~dp0\*Lay*FileListFinal.txt"
 

@@ -1,0 +1,37 @@
+[DeusExLevelInfo0]
+MissionLocation="New York - Cehennemin Mutfagi"
+startupMessage[0]="New York Sehri, Cehennemin Mutfagi"
+
+[LevelSummary]
+Title="Untitled"
+
+[BumMale0]
+FamiliarName="Berdus"
+UnfamiliarName="Berdus"
+
+[Button2]
+FamiliarName="Haberlesme Sistemi"
+UnfamiliarName="Haberlesme Sistemi"
+
+[SpecialEvent0]
+Message="Knicks için kontrat imzala!!!"
+
+[BlackHelicopter1]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[BlackHelicopter0]
+FamiliarName="Jock"
+UnfamiliarName="Jock"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=StationaryCop,KeyID=UnderArea,Description="Yeralti Bölgesi Anahtari",SkinColor=SC_Level3)"
+
+[RiotCop1]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+
+[RiotCop0]
+FamiliarName="Polis"
+UnfamiliarName="Polis"
+

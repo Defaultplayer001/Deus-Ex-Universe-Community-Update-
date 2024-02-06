@@ -119,9 +119,6 @@ type "%~dp0\%ValueSafeFileName%SetupHeaderAppend.ini" >> "%~dp0\ManifestHeader-1
 rem Customizing Transcended to be deselected by default for Translation reasons
 del "%~dp0\*Transcended*FileListFinal.txt"
 
-rem Delete relatively weighty 100mb+ Muses folder so as not to waste the user's HD space :P
-del "%~dp0\*Muses*FileListFinal.txt"
-
 type "%ValueSafeFileName%FileListFinal.txt" >> "%~dp0\ManifestHeader-3-Groups.ini"
 
 rem if "%ValueSafeFileName%"=="%ValueOptionalFileHeaderName%Optional Files" type "%~dp0\*PostExecSetupHeaderAppend.ini" >> "%~dp0\ManifestHeader-1-Setup.ini"

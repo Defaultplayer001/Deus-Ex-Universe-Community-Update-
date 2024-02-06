@@ -1,0 +1,99 @@
+[Businessman5]
+FamiliarName="Arthur"
+UnfamiliarName="Arthur"
+
+[Businesswoman2]
+FamiliarName="Kara"
+UnfamiliarName="Kadin"
+
+[Female1]
+FamiliarName="Sami"
+UnfamiliarName="Kadin"
+
+[Businessman3]
+FamiliarName="Jocques"
+UnfamiliarName="Jocques"
+
+[JoJoFine1]
+FamiliarName="Louis"
+UnfamiliarName="Kapi Görevlisi"
+
+[ThugMale1]
+FamiliarName="Kulüp Güvenlik"
+UnfamiliarName="Kulüp Güvenlik"
+
+[Female3]
+FamiliarName="Katarina"
+UnfamiliarName="Katarina"
+
+[ThugMale4]
+FamiliarName="Kulüp Güvenlik"
+UnfamiliarName="Kulüp Güvenlik"
+
+[NanoKey1]
+Description="Kulüp Kapisi Anahtari"
+
+[LowerClassFemale0]
+FamiliarName="Cassandra"
+UnfamiliarName="Cassandra"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Louis,KeyID=club_maindoors,Description="Gece Kulübü Kapisi Anahtar Kodu")"
+
+[MargaretWilliams0]
+FamiliarName="Charlotte"
+UnfamiliarName="Charlotte"
+
+[MichaelHamner0]
+FamiliarName="Antoine"
+UnfamiliarName="Is Adami"
+
+[Hooker2]
+FamiliarName="Michelle"
+UnfamiliarName="Michelle"
+
+[SkillAwardTrigger0]
+awardMessage="Kesif Bonusu"
+
+[Nurse0]
+FamiliarName="Camille"
+UnfamiliarName="Hemsire Dansçi"
+
+[Female0]
+FamiliarName="Annette"
+UnfamiliarName="Annette"
+
+[Hooker0]
+FamiliarName="Karenna"
+UnfamiliarName="Karenna"
+
+[LevelSummary]
+Title="Untitled"
+
+[SkillAwardTrigger3]
+awardMessage="Gelisim Bonusu"
+
+[ThugMale0]
+FamiliarName="Kulüp Güvenlik"
+UnfamiliarName="Kulüp Güvenlik"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Gece Kulübü"
+startupMessage[0]="La Porte de l'Enfer"
+startupMessage[1]="Paris Gece Kulübü"
+
+[Bartender0]
+FamiliarName="Jean"
+UnfamiliarName="Jean"
+
+[Businessman0]
+FamiliarName="Kiergard Tarot"
+UnfamiliarName="Kulüp Sahibi"
+
+[NicoletteDuClare0]
+FamiliarName="Genç Kadin"
+UnfamiliarName="Genç Kadin"
+
+[NanoKey0]
+Description="Kulüp Ana Kapi Anahtari"
+
