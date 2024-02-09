@@ -17,3 +17,15 @@ Description=Custom purple hued logo, look above for an example!
 [Use Kentie'sGroup]
 Caption=Use Kentie's Deus Exe
 Description=Set Kentie's Deus Exe to be used by default, instead of Hanfling's Launch
+
+[Steamy Mod LibraryGroup]
+Caption=Steamy Mod Library (Requires Transcended!)
+Description=In game mod library
+
+[ModsGroup]
+Caption=Mods
+Description=Mods?
+
+[Redsun 2020Group]
+Caption=Redsun 2020
+Description=Deus Ex Campaign Mod. No voices, amazing music.

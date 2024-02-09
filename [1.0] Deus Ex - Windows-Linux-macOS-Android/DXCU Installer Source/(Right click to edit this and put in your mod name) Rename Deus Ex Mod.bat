@@ -74,6 +74,7 @@ Rem 7Zip files isolated to make cleanup easier
 "%~dp0\fart.exe" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.bat" "DeusEx" "%EXEvalue%"
 
 Rem Steam Proxy customization
-"%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\7z.exe" a "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.7z" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.bat"
+rem Disabled since using a root install
+rem "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\7z.exe" a "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.7z" "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SteamProxy.bat"
 
-"%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SystemFilesCreatorSteamProxy.bat"
+rem "%~dp0\Deus Ex Setup Creator Files Backup\7zip Self Extracting EXE Creator\SystemFilesCreatorSteamProxy.bat"

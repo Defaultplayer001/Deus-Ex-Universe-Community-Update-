@@ -132,7 +132,7 @@ Description=Conversation logic and typo fixes. (If using LayD deselect to save s
 
 [TranscendedDefaultUser.ini(Theme+FOV)Files]
 Caption=Default Transcended User Settings
-Description=By default Transcended uses a blue theme (Cops) and a higher FOV (75 vs 90). The CU automatically sets those values back to their default vanilla ones, this will override that and use the default Transcended settings. Note: RF has a minimum FOV of 80, so this value of 75 will be adjusted to that if used.
+Description=By default Transcended uses a blue theme (Cops) and a higher FOV (75 vs 90). The CU automatically sets the theme back to the default vanilla one, this will override that and use the default Transcended settings. FOV will still be set to 90.
 
 [LayDDentonDefaultinisFiles]
 Caption=Lay D Denton (Read - Compatibility issues)
@@ -162,9 +162,17 @@ Description=Deus Ex modification files. Installation is optional.
 Caption=MarkC Mouse Acceleration Fix
 Description=Deus Ex modification files. Installation is optional.
 
+[Steamy Mod LibraryGroup]
+Caption=Steamy Mod Library
+Description=Deus Ex modification files. Installation is optional.
+
 [TranscendedGroup]
 Caption=Transcended
 Description=Deus Ex modification files. Installation is optional.
+
+[Redsun 2020Group]
+Caption=Redsun 2020
+Description=Post Install Executable. Installation is optional.
 
 [Use Kentie'sGroup]
 Caption=Use Kentie's
@@ -188,3 +196,15 @@ Description=Custom purple hued logo, look above for an example!
 [Use Kentie'sGroup]
 Caption=Use Kentie's Deus Exe
 Description=Set Kentie's Deus Exe to be used by default, instead of Hanfling's Launch
+
+[Steamy Mod LibraryGroup]
+Caption=Steamy Mod Library (Requires Transcended!)
+Description=In game mod library
+
+[ModsGroup]
+Caption=Mods
+Description=Mods?
+
+[Redsun 2020Group]
+Caption=Redsun 2020
+Description=Deus Ex Campaign Mod. No voices, amazing music.

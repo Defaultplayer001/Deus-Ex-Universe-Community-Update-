@@ -2,4 +2,4 @@
 [ValueGroup]
 Optional=True
 Visible=True
-Selected=True
+Selected=False
