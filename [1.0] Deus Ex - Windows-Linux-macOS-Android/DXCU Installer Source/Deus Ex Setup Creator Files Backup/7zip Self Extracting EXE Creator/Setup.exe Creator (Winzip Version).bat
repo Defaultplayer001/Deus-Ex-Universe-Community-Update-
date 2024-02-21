@@ -18,7 +18,7 @@ copy "%~dp0\..\..\..\Winzip SFX for Deus Ex\winzipse.dat"  "%~dp0\..\..\"
 cd "%~dp0\..\..\"
 
 
-"WZIPSE32.exe" "A.zip"  -y -i "Deus Ex Setup CU.ico" -win32 -c setup
+"WZIPSE32.exe" "A.zip"  -y -i "Deus Ex Setup CU.ico" -win32 -c System\setup
 
 ren "%~dp0\..\..\A.exe" "DXCU 2.4.2 %Year%-%Month%-%Day% %Hour%%Minute%.exe"
 pause

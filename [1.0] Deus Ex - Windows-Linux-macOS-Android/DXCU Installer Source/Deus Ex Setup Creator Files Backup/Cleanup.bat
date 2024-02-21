@@ -3,8 +3,8 @@ del "%~dp0\..\Deus Ex Setup Creator Files Backup\..\*.*"
 copy "%~dp0\(R*.*" "%~dp0\.."
 
 copy "%~dp0\ReadMe.txt" "%~dp0\.."
-
-copy "%~dp0\Setup.exe" "%~dp0\.."
+rem Disabled shortcut setup.exe for now to prevent confusion, Proton seems to have issues with it and other exe launching Winzip / the setup uses. Just set winzip to launch it directly instead.
+rem copy "%~dp0\Setup.exe" "%~dp0\.."
 
 copy "%~dp0\DELETED, everything in this folder will be. -Yoda.txt" "%~dp0\.."
 

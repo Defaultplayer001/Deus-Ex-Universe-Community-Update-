@@ -144,7 +144,7 @@ Description=1112fm (GOTY) retail copies shipped with bad copies of the maps, the
 
 [EditingExtras]
 Caption=Editing Extras
-Description=Numerous extra tools and documentation for editing, including a UED2 for Deus Ex package. Based on Deus Ex Editing PACK 2.2. Updated standard UED package will still be installed and given a shortcut whether or not this is selected.
+Description=Numerous extra tools and documentation for editing, including a UED2 for Deus Ex package. Based on Deus Ex Editing PACK 2.2. Updated standard UED package will still be installed and given a shortcut whether or not this is selected - though it's recommended to use "DeusEx.ini UED" and a seperate install.
 
 [SteamInstall]
 Caption=Use with Steam
