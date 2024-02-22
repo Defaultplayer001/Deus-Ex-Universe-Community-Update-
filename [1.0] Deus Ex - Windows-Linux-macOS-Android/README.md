@@ -19,6 +19,8 @@ Just Deus Ex - ready to play!
 
 With all 11 known text translations, along with many extras for editing. 
 
+Steam Deck and mod support is a new focus as of 3.0, adding a Radial Menu for augmentations through Open Aug Tree - or through Steam via a specific Community Update controller profile. (Steamy Mod Library is required for both)
+
 Specifically has numerous community made engine level fixes on top of the proper 1112fm (GOTY) patch, without the broken maps shipped on retail versions. 
 Actual gameplay code is identical, warts and all! 
 
@@ -350,7 +352,7 @@ WCCC: Code theory, UI coding, misc
 
 ### Deus Ex Community HQ Discord Server Members: 
 
-WCCC: Support, 
+WCCC: Support, OpenAugTree, bein' the coolest Rubber Ducky to ever exist
 
 Cozmo: Support, MiniHX
 
