@@ -11,9 +11,9 @@ Thanks everyone!
 
 ***
 
-### What this is:
-
 ### Latest version download: https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/releases
+
+### What this is:
 
 Just Deus Ex - ready to play! 
 
