@@ -13,6 +13,8 @@ Thanks everyone!
 
 ### What this is:
 
+### Latest version download: https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/releases/tag/3.0
+
 Just Deus Ex - ready to play! 
 
 With all 11 known text translations, along with many extras for editing. 
@@ -39,8 +41,6 @@ Warning: Vanilla and Transcended saves are not compatible with each other!
 Also selected by default is "Confix", a conversation typo and logic patch.
 
 ***
-
-### Latest version download: https://drive.google.com/file/d/1DK4DM6iOTj2ni5R8nChxLpGsj49solo-/view?usp=sharing
 
 Simply install and run from the created "Play Deus Ex" shortcut in your Start menu under the Deus Ex Community Update Folder.
 
@@ -98,7 +98,7 @@ Everyone has their own vision of how Deus Ex should be, and while we can't promi
 * With Transcended couches / chairs may be different colors from the original "Model T Black" single color aesthetic. Makes some locations such as Paul's apartment look different from their Vanilla designs. Arguably a bug fix but unfortunately the other furniture color textures noticeably look worse and also just throw off the original aesthetic. Also also nostalgia. Will be changed as soon as I figure out the class replacement that Han told me about or how to recompile DXT's DeusEx.u. 
 
 ### Why is this so big? 
-A 700mb installer certainly isn't ideal for a Deus Ex mod. Options such as delta compression have been looked into, but with unsatisfactory results so far.
+A 700mb (Hah! 1.2gb now) installer certainly isn't ideal for a Deus Ex mod. Options such as delta compression have been looked into, but with unsatisfactory results so far.
 If anyone has any suggestions for cutting the file size down, let us know! 
 
 Here's the current breakdown (Sizes approximate):
@@ -247,8 +247,14 @@ If you install a translation, Confix will not be.
 * SwFMOD Fixed int file (Fixes name display error)
 * Typo Fixed D3D10Drv Int (Direct3D 10 - Direct3D10)
 * Combined Deus Ex int file (To rename Launch to DeusEx)
-* Antimicro (controller)	
+* Antimicro (controller) (Outdated, no longer updated, I hate to say it but just use Steam. Works so well)	
 * Various collected documentation (In both Help and Editing\Documentation)
+* Open Aug Tree (Radial Augmention Menu)
+
+### Campaign Mods:
+* Redsun 2020
+
+
 	
 You can buy the full game from any of the following locations: 
 
