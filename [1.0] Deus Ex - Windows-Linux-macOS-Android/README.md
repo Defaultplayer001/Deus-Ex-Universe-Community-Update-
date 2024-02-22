@@ -13,7 +13,7 @@ Thanks everyone!
 
 ### What this is:
 
-### Latest version download: https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/releases/tag/3.0
+### Latest version download: https://github.com/Defaultplayer001/Deus-Ex-Universe-Community-Update-/releases
 
 Just Deus Ex - ready to play! 
 
