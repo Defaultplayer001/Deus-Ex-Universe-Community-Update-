@@ -1,13 +1,11 @@
 ;!@Install@!UTF-8!
 Title="DXCU"
-BeginPrompt="Note: Now root based to better support Steam Deck and Mods - Recommended to install on clean Deus Ex install.
+BeginPrompt="Now root based to better support Steam Deck and Mods - Recommended to install on clean Deus Ex install.
 
-Steam Deck install instructions:  1. Rename .exe to .zip 2. Extract 3. With Protontricks set to Deus Ex, run Setup.exe under /System
+Steam Deck:  1. Rename .exe to .zip 2. Extract 3. With Protontricks set to Deus Ex, run Setup.exe under /System (Installer Play Button / shortcuts non-functional)
 
-Manual / Demo install instructions:  1. Rename .exe to .zip 2. Extract. 3. Copy into your Deus Ex folder - or any folder for the demo. 
+Manual / Demo:  1. Rename .exe to .zip 2. Extract. 3. Copy into Deus Ex folder - or any for demo 
 
-Note if reinstalling / updating: The installer does not remove optional files from a previous install, it's recommended to just completely remove / reinstall Deus Ex then reinstall if you want to change settings.  (Saves are possibly incompatible.) 
-
-Do you want to continue?"
+Reinstalling: Installer does not remove files from previous install, recommended to completely remove & reinstall"
 RunProgram="System\Setup.exe"
 ;!@InstallEnd@!
