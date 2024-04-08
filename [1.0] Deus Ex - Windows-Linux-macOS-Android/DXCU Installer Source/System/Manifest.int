@@ -170,6 +170,10 @@ Description=Deus Ex modification files. Installation is optional.
 Caption=Transcended
 Description=Deus Ex modification files. Installation is optional.
 
+[ChronosGroup]
+Caption=Chronos
+Description=Post Install Executable. Installation is optional.
+
 [Redsun 2020Group]
 Caption=Redsun 2020
 Description=Post Install Executable. Installation is optional.
@@ -207,4 +211,8 @@ Description=Mods?
 
 [Redsun 2020Group]
 Caption=Redsun 2020
-Description=Deus Ex Campaign Mod. No voices, amazing music.
+Description=Deus Ex Campaign Mod. Play as Joseph, a UNATCO agent trapped in Japan - as they try to unravel the mystery of their capture and escape. No voices, amazing music!
+
+[ChronosGroup]
+Caption=The Chronos Project
+Description=Deus Ex Gameplay Mod with Custom Campaign Elements. You play as a time traveler taking over JC's role in the main story, with the addition of bullet time gameplay and new aesthetics. Voiced, but by the modder themselves with a 2003 era budget mic. No new music.
