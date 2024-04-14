@@ -1,5 +1,0 @@
-[Public]
-Object=(Name="Play Deus Ex",Class=Class,MetaClass=DeusExML.MLGameInfo,Description="Action=Start")
-Object=(Name="Play Deus Ex Multiplayer",Class=Class,MetaClass=DeusExML.MLGameInfo,Description="Action=MP")
-
-

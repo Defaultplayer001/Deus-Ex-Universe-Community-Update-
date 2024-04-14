@@ -174,6 +174,10 @@ Description=Deus Ex modification files. Installation is optional.
 Caption=Chronos
 Description=Post Install Executable. Installation is optional.
 
+[Deus SexGroup]
+Caption=Deus Sex
+Description=Post Install Executable. Installation is optional.
+
 [Redsun 2020Group]
 Caption=Redsun 2020
 Description=Post Install Executable. Installation is optional.
@@ -216,3 +220,7 @@ Description=Deus Ex Campaign Mod. Play as Joseph, a UNATCO agent trapped in Japa
 [ChronosGroup]
 Caption=The Chronos Project
 Description=Deus Ex Gameplay Mod with Custom Campaign Elements. You play as a time traveler taking over JC's role in the main story, with the addition of bullet time gameplay and new aesthetics. Voiced, but by the modder themselves with a 2003 era budget mic. No new music.
+
+[Deus SexGroup]
+Caption=Deus Sex
+Description=Don't let the silly name fool you, this is a serious and immersive gameplay enhancement mod. Before GMDX and Revision ruined Deus Ex modding forever, there was *Deus Sex*. Featuring enhanced maps, redone weapons, improved character AI and restored cut content- for example a rudimentary "Side with UNATCO" mission. A hidden gem of Deus Ex modding, unfortunately made obscure due to it's awkward title -it's a must play for any true fan.
