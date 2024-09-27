@@ -1,0 +1,52 @@
+Dumbass checklist (Talkin' to you, me): 
+
+1. Make sure all Transcended packages are loaded *before* DeusEx
+
+	This works:
+		EditPackages=TranscendedModels
+		EditPackages=TranscendedTextures
+		EditPackages=TranscendedUI
+		EditPackages=DeusEx
+
+	This fails with missing textures errors:
+		EditPackages=TranscendedModels
+		EditPackages=TranscendedTextures
+		EditPackages=DeusEx
+		EditPackages=TranscendedUI
+
+	This fails with NO errors:
+		EditPackages=TranscendedTextures
+		EditPackages=TranscendedUI
+		EditPackages=DeusEx
+		EditPackages=TranscendedModels
+
+2. It won't load just a UTX apparently, you gotta rename it to .u
+
+	Trying to load the normal "Transcended.utx" fails with missing texture errors
+	Loading "Transcended.u" succeeds. 
+	The standard .utx works as expected when compiled.
+
+
+Error: H:\Deus Ex - The Exorcism\Mods\Community Update\DeusEx\Classes\PersonaScrollAreaWindow.uc(65) : Error, Can't find Texture 'PersonaScrollHThumb_Bottom'
+
+Ugh yeah
+Image
+No matter what i do it still complains of missing textures that I've spammed everywhere yet it still can't find
+Just can't seem to get Transcended to wanna recompile
+Greasel — 03/02/2024 2:33 AM
+Is TranscendedUI in editpackages
+Defaultmom001 — 03/02/2024 2:35 AM
+Mhm just double checked that a few mins ago
+tried loading it by directly specifying stuff like DeusEx.texturename DeusEx.Userinterface.Texturename, changing the name to crap like "test", ect
+Defaultmom001 — 03/02/2024 2:56 AM
+oh my fuckin' god
+first of all
+my dumbass was loading transcendedUI after DeusEx.u
+fat lot of good that's gonna do
+second of all
+It won't load just a UTX apparently, you gotta rename it to .u
+then it just... fuckin' works?
+What the fuck, I'm almost pissed off it was that easy but I'm not 'cause WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+WOOOOO RECOMPILED DXT
+ONLY TOOK ME LIKE FOUR FUCKIN' YEARS
+WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO

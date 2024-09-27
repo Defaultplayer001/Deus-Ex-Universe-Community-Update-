@@ -20,6 +20,8 @@ cd "%~dp0\..\..\"
 
 "WZIPSE32.exe" "A.zip"  -y -i "Deus Ex Setup CU.ico" -win32 -c System\setup
 
+pause
+
 ren "%~dp0\..\..\A.exe" "DXCU 2.4.2 %Year%-%Month%-%Day% %Hour%%Minute%.exe"
 pause
 

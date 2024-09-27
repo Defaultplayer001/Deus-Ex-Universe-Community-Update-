@@ -1,6 +1,7 @@
 ;!@Install@!UTF-8!
 Title="DXCU"
-BeginPrompt="Now root based to better support Steam Deck and Mods - Recommended to install on clean Deus Ex install.
+BeginPrompt="TLDR: INSTALL ON FRESH INSTALL - UNINSTALL OF GAME REQUIRED FOR REINSTALL - RENAME TO ZIP TO MANUALLY EXTRACT - Please don't come and yell at me if you didn't read this.
+Now root based to better support Steam Deck and Mods - Recommended to install on clean Deus Ex install.
 
 Steam Deck:  1. Rename .exe to .zip 2. Extract 3. With Protontricks set to Deus Ex, run Setup.exe under /System (Installer Play Button / shortcuts non-functional)
 
