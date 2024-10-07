@@ -41,3 +41,11 @@ defaultproperties
      Description="Child's Room Key"
 }
 Mildly tedious if you gotta deal with a lotta keys I guess, but functional.
+
+btw normal nanokey transfer goes like:
+nah — 05/21/2020 12:28 PM
+AHH
+nvm!
+the NK_  prefix is just for checking if the player has a nanokey in checkobject event
+i think the supposed way is, you use the pickup distributor to give scriptedpawns the desired nanokey
+and afterwards as you did before just transfer Nanokey inventory item
