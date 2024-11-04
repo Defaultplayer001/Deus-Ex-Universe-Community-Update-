@@ -182,6 +182,10 @@ Description=Post Install Executable. Installation is optional.
 Caption=Redsun 2020
 Description=Post Install Executable. Installation is optional.
 
+[The ExorcismGroup]
+Caption=The Exorcism
+Description=Post Install Executable. Installation is optional.
+
 [Use Kentie'sGroup]
 Caption=Use Kentie's
 Description=Post Install Executable. Installation is optional.
@@ -224,3 +228,7 @@ Description=Deus Ex Gameplay Mod with Custom Campaign Elements. You play as a ti
 [Deus SexGroup]
 Caption=Deus Sex
 Description=Don't let the silly name fool you, this is a serious and immersive gameplay enhancement mod. Before GMDX and Revision ruined Deus Ex modding forever, there was *Deus Sex*. Featuring enhanced maps, redone weapons, improved character AI and restored cut content- for example a rudimentary "Side with UNATCO" mission. A hidden gem of Deus Ex modding, unfortunately made obscure due to it's awkward title -it's a must play for any true fan.
+
+[The ExorcismGroup]
+Caption=The Exorcism
+Description=Short Halloween themed mod. Unvoiced, no new music, reuses Chateau map. Join Father Paul as Father Denton in a quest to exorcise a young girl.

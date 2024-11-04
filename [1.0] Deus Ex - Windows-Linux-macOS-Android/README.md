@@ -51,8 +51,9 @@ This was tested on the 1112fm disc/Steam/GOG versions, but should work on every 
 Note: For some currently unknown reasoon on German copies of Windows past versions of the installer crash, possibly current ones as well. If you encounter any issues rename the .exe to a .7z, extract and follow the instructions in the ReadMe.
 
 #### Mirrors: 
-ModDB: TBD
+ModDB: https://www.moddb.com/mods/deus-ex-community-update/downloads/deus-ex-community-update-334-bone-apple-tea
 
+<!-- 
 Nexus mods: TBD
 
 MEGA: TBD
@@ -60,6 +61,8 @@ MEGA: TBD
 Yandisk: TBD
 
 Torrent: TBD
+
+-->
 
 Have a mirror suggestion? Please let us know! 
 
@@ -243,7 +246,7 @@ If you install a translation, Confix will not be.
 	*	 paste Windows port
 
 ### Misc:
-* Lay D Denton (Female JC Denton player mod) 
+<!-- * Lay D Denton (Female JC Denton player mod) -->
 * 1112fm DeusEx.u Edited Render Relaunch (When relaunched to change renderer, launches into -firsttime config instead -changevideo. Let's you change audio renderer as well via the GUI)
 * 1112fm DeusEx.u Demo Version + Edited Render Relaunch (No intro, ends @ m02 completion)
 * SwFMOD Fixed int file (Fixes name display error)
@@ -255,7 +258,8 @@ If you install a translation, Confix will not be.
 
 ### Campaign Mods:
 * Redsun 2020
-
+* Chronos Project
+* Deus Sex
 
 	
 You can buy the full game from any of the following locations: 
@@ -528,6 +532,10 @@ https://en.wikipedia.org/wiki/UnxUtils
 KillerBeer: HunMOD Deusex.u int in fix suggestion, ConEditExport
 
 Epic: UnrealEdFix4
+
+Senju: Redsun 2020
+
+Cyan Fenix: The Chronos Project
 
 ### If anyone has been forgotten, please let us know! 
 
